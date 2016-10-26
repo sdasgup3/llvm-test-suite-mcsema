@@ -1,0 +1,233 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_4007c0
+Inserted function: sub_400660
+Inserted function: sub_400640
+Inserted function: sub_400690
+Inserted function: sub_4006b0
+Inserted function: sub_400af0
+Inserted function: sub_4006c0
+Inserted function: sub_400680
+Inserted function: sub_4006a0
+inserting global data section named data_0x4012c0
+inserting global data section named data_0x401350
+inserting global data section named data_0x4013a0
+inserting global data section named data_0x601de0
+inserting global data section named data_0x601de8
+inserting global data section named data_0x601df0
+inserting global data section named data_0x601ff8
+inserting global data section named data_0x602000
+inserting global data section named data_0x602060
+inserting global data section named data_0x602070
+dataSectionToTypesContents : 4012c0 8d
+141
+dataSectionToTypesContents : 401350 4c
+76
+dataSectionToTypesContents : 4013a0 174
+372
+dataSectionToTypesContents : 601de0 8
+8
+dataSectionToTypesContents : 601de8 8
+8
+dataSectionToTypesContents : 601df0 8
+8
+dataSectionToTypesContents : 601ff8 8
+8
+dataSectionToTypesContents : 602000 60
+96
+dataSectionToTypesContents : 602060 10
+16
+dataSectionToTypesContents : 602070 7010
+28688
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+translate_MOV32mi: Other reloc
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400690
+doCallPCtarget address : 400690
+doCallPCtarget address : 400680
+doCallPCtarget address : 4006b0
+doCallPCtarget address : 400af0
+doCallPCtarget address : 400af0
+doCallPCtarget address : 400af0
+doCallPCtarget address : 400af0
+doCallPCtarget address : 400640
+doCallPCtarget address : 400640
+doCallPCtarget address : 4006a0
+doCallPCtarget address : 400640
+doCallPCtarget address : 400660
+doCallPCExtern paramCount  : 1 : putchar
+1 : 2729aa0
+doCallPCExtern paramCount  : 12 : printf
+12 : 2729aa0
+doCallPCExtern paramCount  : 2 : fmod
+2 : 2729aa0
+doCallPCExtern paramCount  : 1 : sin
+1 : 2729aa0
+Unsupported!
+400dd2 	addps	%xmm4, %xmm5
+115
+Unsupported!
+400ddc 	subps	%xmm4, %xmm3
+2708
+Unsupported!
+400de4 	mulps	%xmm2, %xmm3
+1735
+Unsupported!
+400de7 	mulps	%xmm1, %xmm4
+1735
+Unsupported!
+400dea 	addps	%xmm3, %xmm4
+115
+Unsupported!
+400d62 	addps	%xmm4, %xmm5
+115
+Unsupported!
+400d6c 	subps	%xmm4, %xmm1
+2708
+Unsupported!
+400d74 	mulps	%xmm2, %xmm1
+1735
+Unsupported!
+400d77 	mulps	%xmm3, %xmm4
+1735
+Unsupported!
+400d7a 	addps	%xmm1, %xmm4
+115
+Unsupported!
+40110d 	addps	%xmm1, %xmm2
+115
+Unsupported!
+401116 	subps	%xmm1, %xmm0
+2708
+Unsupported!
+40112d 	addps	%xmm1, %xmm2
+115
+Unsupported!
+401135 	subps	%xmm1, %xmm0
+2708
+Unsupported!
+40103d 	addps	%xmm5, %xmm6
+115
+Unsupported!
+401045 	subps	%xmm5, %xmm4
+2708
+Unsupported!
+40104d 	mulps	%xmm2, %xmm4
+1735
+Unsupported!
+401050 	mulps	%xmm3, %xmm5
+1735
+Unsupported!
+401053 	addps	%xmm4, %xmm5
+115
+Unsupported!
+401067 	addps	%xmm5, %xmm6
+115
+Unsupported!
+40106e 	subps	%xmm5, %xmm4
+2708
+Unsupported!
+401076 	mulps	%xmm2, %xmm4
+1735
+Unsupported!
+401079 	mulps	%xmm3, %xmm5
+1735
+Unsupported!
+40107c 	addps	%xmm4, %xmm5
+115
+Unsupported!
+400f3f 	addps	%xmm5, %xmm6
+115
+Unsupported!
+400f48 	subps	%xmm5, %xmm4
+2708
+Unsupported!
+400f50 	mulps	%xmm2, %xmm4
+1735
+Unsupported!
+400f53 	mulps	%xmm3, %xmm5
+1735
+Unsupported!
+400f56 	addps	%xmm4, %xmm5
+115
+Unsupported!
+400f6c 	addps	%xmm5, %xmm6
+115
+Unsupported!
+400f74 	subps	%xmm5, %xmm4
+2708
+Unsupported!
+400f7c 	mulps	%xmm2, %xmm4
+1735
+Unsupported!
+400f7f 	mulps	%xmm3, %xmm5
+1735
+Unsupported!
+400f82 	addps	%xmm4, %xmm5
+115
+doCallPCtarget address : 4006c0
+doCallPCExtern paramCount  : 1 : log
+1 : 2729aa0
+doCallPCExtern paramCount  : 1 : cos
+1 : 2729aa0
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 2729aa0
+Adding entry point: mcsema_main
+in : doPostAnalysis
+registering passes
