@@ -1,0 +1,790 @@
+
+=============================
+./C++/EH/Output/ConditionalExpr.simple.mcsema/ConditionalExpr.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/EH/Output/ConditionalExpr.simple.mcsema/ConditionalExpr.simple.cfg  -o ./C++/EH/Output/ConditionalExpr.simple.mcsema/ConditionalExpr.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/EH/Output/ConditionalExpr.simple.mcsema/ConditionalExpr.simple.new.convert.txt 
+opt -O3    ./C++/EH/Output/ConditionalExpr.simple.mcsema/ConditionalExpr.simple.new.bc  -o=./C++/EH/Output/ConditionalExpr.simple.mcsema/ConditionalExpr.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C++/EH/Output/ConditionalExpr.simple.mcsema/ConditionalExpr.simple.new.o ./C++/EH/Output/ConditionalExpr.simple.mcsema/ConditionalExpr.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/EH/Output/ConditionalExpr.simple.mcsema/ConditionalExpr.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/EH/Output/ConditionalExpr.simple.mcsema/ConditionalExpr.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C++/EH/Output/ConditionalExpr.simple.mcsema/ConditionalExpr.simple 2>&1  1>out1 
+./C++/EH/Output/ConditionalExpr.simple.mcsema/ConditionalExpr.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C++/EH/Output/class_hierarchy.simple.mcsema/class_hierarchy.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/EH/Output/class_hierarchy.simple.mcsema/class_hierarchy.simple.cfg  -o ./C++/EH/Output/class_hierarchy.simple.mcsema/class_hierarchy.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/EH/Output/class_hierarchy.simple.mcsema/class_hierarchy.simple.new.convert.txt 
+opt -O3    ./C++/EH/Output/class_hierarchy.simple.mcsema/class_hierarchy.simple.new.bc  -o=./C++/EH/Output/class_hierarchy.simple.mcsema/class_hierarchy.simple.new.opt.bc 
+opt: ./C++/EH/Output/class_hierarchy.simple.mcsema/class_hierarchy.simple.new.bc: error: Could not open input file: No such file or directory
+llc -march=x86-64 -filetype=obj -o ./C++/EH/Output/class_hierarchy.simple.mcsema/class_hierarchy.simple.new.o ./C++/EH/Output/class_hierarchy.simple.mcsema/class_hierarchy.simple.new.opt.bc 
+llc: ./C++/EH/Output/class_hierarchy.simple.mcsema/class_hierarchy.simple.new.opt.bc: error: Could not open input file: No such file or directory
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/EH/Output/class_hierarchy.simple.mcsema/class_hierarchy.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/EH/Output/class_hierarchy.simple.mcsema/class_hierarchy.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+clang-4.0: error: no such file or directory: './C++/EH/Output/class_hierarchy.simple.mcsema/class_hierarchy.simple.new.o'
+
+=============================
+./C++/EH/Output/ctor_dtor_count-2.simple.mcsema/ctor_dtor_count-2.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/EH/Output/ctor_dtor_count-2.simple.mcsema/ctor_dtor_count-2.simple.cfg  -o ./C++/EH/Output/ctor_dtor_count-2.simple.mcsema/ctor_dtor_count-2.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/EH/Output/ctor_dtor_count-2.simple.mcsema/ctor_dtor_count-2.simple.new.convert.txt 
+opt -O3    ./C++/EH/Output/ctor_dtor_count-2.simple.mcsema/ctor_dtor_count-2.simple.new.bc  -o=./C++/EH/Output/ctor_dtor_count-2.simple.mcsema/ctor_dtor_count-2.simple.new.opt.bc 
+opt: ./C++/EH/Output/ctor_dtor_count-2.simple.mcsema/ctor_dtor_count-2.simple.new.bc: error: Could not open input file: No such file or directory
+llc -march=x86-64 -filetype=obj -o ./C++/EH/Output/ctor_dtor_count-2.simple.mcsema/ctor_dtor_count-2.simple.new.o ./C++/EH/Output/ctor_dtor_count-2.simple.mcsema/ctor_dtor_count-2.simple.new.opt.bc 
+llc: ./C++/EH/Output/ctor_dtor_count-2.simple.mcsema/ctor_dtor_count-2.simple.new.opt.bc: error: Could not open input file: No such file or directory
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/EH/Output/ctor_dtor_count-2.simple.mcsema/ctor_dtor_count-2.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/EH/Output/ctor_dtor_count-2.simple.mcsema/ctor_dtor_count-2.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+clang-4.0: error: no such file or directory: './C++/EH/Output/ctor_dtor_count-2.simple.mcsema/ctor_dtor_count-2.simple.new.o'
+
+=============================
+./C++/EH/Output/ctor_dtor_count.simple.mcsema/ctor_dtor_count.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/EH/Output/ctor_dtor_count.simple.mcsema/ctor_dtor_count.simple.cfg  -o ./C++/EH/Output/ctor_dtor_count.simple.mcsema/ctor_dtor_count.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/EH/Output/ctor_dtor_count.simple.mcsema/ctor_dtor_count.simple.new.convert.txt 
+opt -O3    ./C++/EH/Output/ctor_dtor_count.simple.mcsema/ctor_dtor_count.simple.new.bc  -o=./C++/EH/Output/ctor_dtor_count.simple.mcsema/ctor_dtor_count.simple.new.opt.bc 
+opt: ./C++/EH/Output/ctor_dtor_count.simple.mcsema/ctor_dtor_count.simple.new.bc: error: Could not open input file: No such file or directory
+llc -march=x86-64 -filetype=obj -o ./C++/EH/Output/ctor_dtor_count.simple.mcsema/ctor_dtor_count.simple.new.o ./C++/EH/Output/ctor_dtor_count.simple.mcsema/ctor_dtor_count.simple.new.opt.bc 
+llc: ./C++/EH/Output/ctor_dtor_count.simple.mcsema/ctor_dtor_count.simple.new.opt.bc: error: Could not open input file: No such file or directory
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/EH/Output/ctor_dtor_count.simple.mcsema/ctor_dtor_count.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/EH/Output/ctor_dtor_count.simple.mcsema/ctor_dtor_count.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+clang-4.0: error: no such file or directory: './C++/EH/Output/ctor_dtor_count.simple.mcsema/ctor_dtor_count.simple.new.o'
+
+=============================
+./C++/EH/Output/dead_try_block.simple.mcsema/dead_try_block.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/EH/Output/dead_try_block.simple.mcsema/dead_try_block.simple.cfg  -o ./C++/EH/Output/dead_try_block.simple.mcsema/dead_try_block.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/EH/Output/dead_try_block.simple.mcsema/dead_try_block.simple.new.convert.txt 
+opt -O3    ./C++/EH/Output/dead_try_block.simple.mcsema/dead_try_block.simple.new.bc  -o=./C++/EH/Output/dead_try_block.simple.mcsema/dead_try_block.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C++/EH/Output/dead_try_block.simple.mcsema/dead_try_block.simple.new.o ./C++/EH/Output/dead_try_block.simple.mcsema/dead_try_block.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/EH/Output/dead_try_block.simple.mcsema/dead_try_block.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/EH/Output/dead_try_block.simple.mcsema/dead_try_block.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C++/EH/Output/dead_try_block.simple.mcsema/dead_try_block.simple 2>&1  1>out1 
+./C++/EH/Output/dead_try_block.simple.mcsema/dead_try_block.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C++/EH/Output/exception_spec_test.simple.mcsema/exception_spec_test.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/EH/Output/exception_spec_test.simple.mcsema/exception_spec_test.simple.cfg  -o ./C++/EH/Output/exception_spec_test.simple.mcsema/exception_spec_test.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/EH/Output/exception_spec_test.simple.mcsema/exception_spec_test.simple.new.convert.txt 
+opt -O3    ./C++/EH/Output/exception_spec_test.simple.mcsema/exception_spec_test.simple.new.bc  -o=./C++/EH/Output/exception_spec_test.simple.mcsema/exception_spec_test.simple.new.opt.bc 
+opt: ./C++/EH/Output/exception_spec_test.simple.mcsema/exception_spec_test.simple.new.bc: error: Could not open input file: No such file or directory
+llc -march=x86-64 -filetype=obj -o ./C++/EH/Output/exception_spec_test.simple.mcsema/exception_spec_test.simple.new.o ./C++/EH/Output/exception_spec_test.simple.mcsema/exception_spec_test.simple.new.opt.bc 
+llc: ./C++/EH/Output/exception_spec_test.simple.mcsema/exception_spec_test.simple.new.opt.bc: error: Could not open input file: No such file or directory
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/EH/Output/exception_spec_test.simple.mcsema/exception_spec_test.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/EH/Output/exception_spec_test.simple.mcsema/exception_spec_test.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+clang-4.0: error: no such file or directory: './C++/EH/Output/exception_spec_test.simple.mcsema/exception_spec_test.simple.new.o'
+
+=============================
+./C++/EH/Output/function_try_block.simple.mcsema/function_try_block.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/EH/Output/function_try_block.simple.mcsema/function_try_block.simple.cfg  -o ./C++/EH/Output/function_try_block.simple.mcsema/function_try_block.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/EH/Output/function_try_block.simple.mcsema/function_try_block.simple.new.convert.txt 
+opt -O3    ./C++/EH/Output/function_try_block.simple.mcsema/function_try_block.simple.new.bc  -o=./C++/EH/Output/function_try_block.simple.mcsema/function_try_block.simple.new.opt.bc 
+opt: ./C++/EH/Output/function_try_block.simple.mcsema/function_try_block.simple.new.bc: error: Could not open input file: No such file or directory
+llc -march=x86-64 -filetype=obj -o ./C++/EH/Output/function_try_block.simple.mcsema/function_try_block.simple.new.o ./C++/EH/Output/function_try_block.simple.mcsema/function_try_block.simple.new.opt.bc 
+llc: ./C++/EH/Output/function_try_block.simple.mcsema/function_try_block.simple.new.opt.bc: error: Could not open input file: No such file or directory
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/EH/Output/function_try_block.simple.mcsema/function_try_block.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/EH/Output/function_try_block.simple.mcsema/function_try_block.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+clang-4.0: error: no such file or directory: './C++/EH/Output/function_try_block.simple.mcsema/function_try_block.simple.new.o'
+
+=============================
+./C++/EH/Output/inlined_cleanup.simple.mcsema/inlined_cleanup.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/EH/Output/inlined_cleanup.simple.mcsema/inlined_cleanup.simple.cfg  -o ./C++/EH/Output/inlined_cleanup.simple.mcsema/inlined_cleanup.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/EH/Output/inlined_cleanup.simple.mcsema/inlined_cleanup.simple.new.convert.txt 
+opt -O3    ./C++/EH/Output/inlined_cleanup.simple.mcsema/inlined_cleanup.simple.new.bc  -o=./C++/EH/Output/inlined_cleanup.simple.mcsema/inlined_cleanup.simple.new.opt.bc 
+opt: ./C++/EH/Output/inlined_cleanup.simple.mcsema/inlined_cleanup.simple.new.bc: error: Could not open input file: No such file or directory
+llc -march=x86-64 -filetype=obj -o ./C++/EH/Output/inlined_cleanup.simple.mcsema/inlined_cleanup.simple.new.o ./C++/EH/Output/inlined_cleanup.simple.mcsema/inlined_cleanup.simple.new.opt.bc 
+llc: ./C++/EH/Output/inlined_cleanup.simple.mcsema/inlined_cleanup.simple.new.opt.bc: error: Could not open input file: No such file or directory
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/EH/Output/inlined_cleanup.simple.mcsema/inlined_cleanup.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/EH/Output/inlined_cleanup.simple.mcsema/inlined_cleanup.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+clang-4.0: error: no such file or directory: './C++/EH/Output/inlined_cleanup.simple.mcsema/inlined_cleanup.simple.new.o'
+
+=============================
+./C++/EH/Output/recursive-throw.simple.mcsema/recursive-throw.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/EH/Output/recursive-throw.simple.mcsema/recursive-throw.simple.cfg  -o ./C++/EH/Output/recursive-throw.simple.mcsema/recursive-throw.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/EH/Output/recursive-throw.simple.mcsema/recursive-throw.simple.new.convert.txt 
+opt -O3    ./C++/EH/Output/recursive-throw.simple.mcsema/recursive-throw.simple.new.bc  -o=./C++/EH/Output/recursive-throw.simple.mcsema/recursive-throw.simple.new.opt.bc 
+opt: ./C++/EH/Output/recursive-throw.simple.mcsema/recursive-throw.simple.new.bc: error: Could not open input file: No such file or directory
+llc -march=x86-64 -filetype=obj -o ./C++/EH/Output/recursive-throw.simple.mcsema/recursive-throw.simple.new.o ./C++/EH/Output/recursive-throw.simple.mcsema/recursive-throw.simple.new.opt.bc 
+llc: ./C++/EH/Output/recursive-throw.simple.mcsema/recursive-throw.simple.new.opt.bc: error: Could not open input file: No such file or directory
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/EH/Output/recursive-throw.simple.mcsema/recursive-throw.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/EH/Output/recursive-throw.simple.mcsema/recursive-throw.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+clang-4.0: error: no such file or directory: './C++/EH/Output/recursive-throw.simple.mcsema/recursive-throw.simple.new.o'
+
+=============================
+./C++/EH/Output/simple_rethrow.simple.mcsema/simple_rethrow.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/EH/Output/simple_rethrow.simple.mcsema/simple_rethrow.simple.cfg  -o ./C++/EH/Output/simple_rethrow.simple.mcsema/simple_rethrow.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/EH/Output/simple_rethrow.simple.mcsema/simple_rethrow.simple.new.convert.txt 
+opt -O3    ./C++/EH/Output/simple_rethrow.simple.mcsema/simple_rethrow.simple.new.bc  -o=./C++/EH/Output/simple_rethrow.simple.mcsema/simple_rethrow.simple.new.opt.bc 
+opt: ./C++/EH/Output/simple_rethrow.simple.mcsema/simple_rethrow.simple.new.bc: error: Could not open input file: No such file or directory
+llc -march=x86-64 -filetype=obj -o ./C++/EH/Output/simple_rethrow.simple.mcsema/simple_rethrow.simple.new.o ./C++/EH/Output/simple_rethrow.simple.mcsema/simple_rethrow.simple.new.opt.bc 
+llc: ./C++/EH/Output/simple_rethrow.simple.mcsema/simple_rethrow.simple.new.opt.bc: error: Could not open input file: No such file or directory
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/EH/Output/simple_rethrow.simple.mcsema/simple_rethrow.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/EH/Output/simple_rethrow.simple.mcsema/simple_rethrow.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+clang-4.0: error: no such file or directory: './C++/EH/Output/simple_rethrow.simple.mcsema/simple_rethrow.simple.new.o'
+
+=============================
+./C++/EH/Output/simple_throw.simple.mcsema/simple_throw.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/EH/Output/simple_throw.simple.mcsema/simple_throw.simple.cfg  -o ./C++/EH/Output/simple_throw.simple.mcsema/simple_throw.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/EH/Output/simple_throw.simple.mcsema/simple_throw.simple.new.convert.txt 
+opt -O3    ./C++/EH/Output/simple_throw.simple.mcsema/simple_throw.simple.new.bc  -o=./C++/EH/Output/simple_throw.simple.mcsema/simple_throw.simple.new.opt.bc 
+opt: ./C++/EH/Output/simple_throw.simple.mcsema/simple_throw.simple.new.bc: error: Could not open input file: No such file or directory
+llc -march=x86-64 -filetype=obj -o ./C++/EH/Output/simple_throw.simple.mcsema/simple_throw.simple.new.o ./C++/EH/Output/simple_throw.simple.mcsema/simple_throw.simple.new.opt.bc 
+llc: ./C++/EH/Output/simple_throw.simple.mcsema/simple_throw.simple.new.opt.bc: error: Could not open input file: No such file or directory
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/EH/Output/simple_throw.simple.mcsema/simple_throw.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/EH/Output/simple_throw.simple.mcsema/simple_throw.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+clang-4.0: error: no such file or directory: './C++/EH/Output/simple_throw.simple.mcsema/simple_throw.simple.new.o'
+
+=============================
+./C++/EH/Output/throw_rethrow_test.simple.mcsema/throw_rethrow_test.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/EH/Output/throw_rethrow_test.simple.mcsema/throw_rethrow_test.simple.cfg  -o ./C++/EH/Output/throw_rethrow_test.simple.mcsema/throw_rethrow_test.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/EH/Output/throw_rethrow_test.simple.mcsema/throw_rethrow_test.simple.new.convert.txt 
+opt -O3    ./C++/EH/Output/throw_rethrow_test.simple.mcsema/throw_rethrow_test.simple.new.bc  -o=./C++/EH/Output/throw_rethrow_test.simple.mcsema/throw_rethrow_test.simple.new.opt.bc 
+opt: ./C++/EH/Output/throw_rethrow_test.simple.mcsema/throw_rethrow_test.simple.new.bc: error: Could not open input file: No such file or directory
+llc -march=x86-64 -filetype=obj -o ./C++/EH/Output/throw_rethrow_test.simple.mcsema/throw_rethrow_test.simple.new.o ./C++/EH/Output/throw_rethrow_test.simple.mcsema/throw_rethrow_test.simple.new.opt.bc 
+llc: ./C++/EH/Output/throw_rethrow_test.simple.mcsema/throw_rethrow_test.simple.new.opt.bc: error: Could not open input file: No such file or directory
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/EH/Output/throw_rethrow_test.simple.mcsema/throw_rethrow_test.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/EH/Output/throw_rethrow_test.simple.mcsema/throw_rethrow_test.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+clang-4.0: error: no such file or directory: './C++/EH/Output/throw_rethrow_test.simple.mcsema/throw_rethrow_test.simple.new.o'
+
+=============================
+./C++/Output/2003-05-14-array-init.simple.mcsema/2003-05-14-array-init.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/Output/2003-05-14-array-init.simple.mcsema/2003-05-14-array-init.simple.cfg  -o ./C++/Output/2003-05-14-array-init.simple.mcsema/2003-05-14-array-init.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/Output/2003-05-14-array-init.simple.mcsema/2003-05-14-array-init.simple.new.convert.txt 
+opt -O3    ./C++/Output/2003-05-14-array-init.simple.mcsema/2003-05-14-array-init.simple.new.bc  -o=./C++/Output/2003-05-14-array-init.simple.mcsema/2003-05-14-array-init.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C++/Output/2003-05-14-array-init.simple.mcsema/2003-05-14-array-init.simple.new.o ./C++/Output/2003-05-14-array-init.simple.mcsema/2003-05-14-array-init.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/Output/2003-05-14-array-init.simple.mcsema/2003-05-14-array-init.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/Output/2003-05-14-array-init.simple.mcsema/2003-05-14-array-init.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C++/Output/2003-05-14-array-init.simple.mcsema/2003-05-14-array-init.simple 2>&1  1>out1 
+./C++/Output/2003-05-14-array-init.simple.mcsema/2003-05-14-array-init.simple.new.lifted 2>&1  1>out2 
+diff out1 out2 
+1c1
+< 1 0 3 4
+---
+> 1 1 3 3
+rm -rf  out1 out 2 
+
+=============================
+./C++/Output/2003-05-14-expr_stmt.simple.mcsema/2003-05-14-expr_stmt.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/Output/2003-05-14-expr_stmt.simple.mcsema/2003-05-14-expr_stmt.simple.cfg  -o ./C++/Output/2003-05-14-expr_stmt.simple.mcsema/2003-05-14-expr_stmt.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/Output/2003-05-14-expr_stmt.simple.mcsema/2003-05-14-expr_stmt.simple.new.convert.txt 
+opt -O3    ./C++/Output/2003-05-14-expr_stmt.simple.mcsema/2003-05-14-expr_stmt.simple.new.bc  -o=./C++/Output/2003-05-14-expr_stmt.simple.mcsema/2003-05-14-expr_stmt.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C++/Output/2003-05-14-expr_stmt.simple.mcsema/2003-05-14-expr_stmt.simple.new.o ./C++/Output/2003-05-14-expr_stmt.simple.mcsema/2003-05-14-expr_stmt.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/Output/2003-05-14-expr_stmt.simple.mcsema/2003-05-14-expr_stmt.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/Output/2003-05-14-expr_stmt.simple.mcsema/2003-05-14-expr_stmt.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C++/Output/2003-05-14-expr_stmt.simple.mcsema/2003-05-14-expr_stmt.simple 2>&1  1>out1 
+./C++/Output/2003-05-14-expr_stmt.simple.mcsema/2003-05-14-expr_stmt.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C++/Output/2003-06-08-BaseType.simple.mcsema/2003-06-08-BaseType.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/Output/2003-06-08-BaseType.simple.mcsema/2003-06-08-BaseType.simple.cfg  -o ./C++/Output/2003-06-08-BaseType.simple.mcsema/2003-06-08-BaseType.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/Output/2003-06-08-BaseType.simple.mcsema/2003-06-08-BaseType.simple.new.convert.txt 
+opt -O3    ./C++/Output/2003-06-08-BaseType.simple.mcsema/2003-06-08-BaseType.simple.new.bc  -o=./C++/Output/2003-06-08-BaseType.simple.mcsema/2003-06-08-BaseType.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C++/Output/2003-06-08-BaseType.simple.mcsema/2003-06-08-BaseType.simple.new.o ./C++/Output/2003-06-08-BaseType.simple.mcsema/2003-06-08-BaseType.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/Output/2003-06-08-BaseType.simple.mcsema/2003-06-08-BaseType.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/Output/2003-06-08-BaseType.simple.mcsema/2003-06-08-BaseType.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C++/Output/2003-06-08-BaseType.simple.mcsema/2003-06-08-BaseType.simple 2>&1  1>out1 
+./C++/Output/2003-06-08-BaseType.simple.mcsema/2003-06-08-BaseType.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C++/Output/2003-06-08-VirtualFunctions.simple.mcsema/2003-06-08-VirtualFunctions.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/Output/2003-06-08-VirtualFunctions.simple.mcsema/2003-06-08-VirtualFunctions.simple.cfg  -o ./C++/Output/2003-06-08-VirtualFunctions.simple.mcsema/2003-06-08-VirtualFunctions.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/Output/2003-06-08-VirtualFunctions.simple.mcsema/2003-06-08-VirtualFunctions.simple.new.convert.txt 
+opt -O3    ./C++/Output/2003-06-08-VirtualFunctions.simple.mcsema/2003-06-08-VirtualFunctions.simple.new.bc  -o=./C++/Output/2003-06-08-VirtualFunctions.simple.mcsema/2003-06-08-VirtualFunctions.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C++/Output/2003-06-08-VirtualFunctions.simple.mcsema/2003-06-08-VirtualFunctions.simple.new.o ./C++/Output/2003-06-08-VirtualFunctions.simple.mcsema/2003-06-08-VirtualFunctions.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/Output/2003-06-08-VirtualFunctions.simple.mcsema/2003-06-08-VirtualFunctions.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/Output/2003-06-08-VirtualFunctions.simple.mcsema/2003-06-08-VirtualFunctions.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C++/Output/2003-06-08-VirtualFunctions.simple.mcsema/2003-06-08-VirtualFunctions.simple 2>&1  1>out1 
+./C++/Output/2003-06-08-VirtualFunctions.simple.mcsema/2003-06-08-VirtualFunctions.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C++/Output/2003-06-13-Crasher.simple.mcsema/2003-06-13-Crasher.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/Output/2003-06-13-Crasher.simple.mcsema/2003-06-13-Crasher.simple.cfg  -o ./C++/Output/2003-06-13-Crasher.simple.mcsema/2003-06-13-Crasher.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/Output/2003-06-13-Crasher.simple.mcsema/2003-06-13-Crasher.simple.new.convert.txt 
+opt -O3    ./C++/Output/2003-06-13-Crasher.simple.mcsema/2003-06-13-Crasher.simple.new.bc  -o=./C++/Output/2003-06-13-Crasher.simple.mcsema/2003-06-13-Crasher.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C++/Output/2003-06-13-Crasher.simple.mcsema/2003-06-13-Crasher.simple.new.o ./C++/Output/2003-06-13-Crasher.simple.mcsema/2003-06-13-Crasher.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/Output/2003-06-13-Crasher.simple.mcsema/2003-06-13-Crasher.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/Output/2003-06-13-Crasher.simple.mcsema/2003-06-13-Crasher.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C++/Output/2003-06-13-Crasher.simple.mcsema/2003-06-13-Crasher.simple 2>&1  1>out1 
+./C++/Output/2003-06-13-Crasher.simple.mcsema/2003-06-13-Crasher.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C++/Output/2003-08-20-EnumSizeProblem.simple.mcsema/2003-08-20-EnumSizeProblem.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/Output/2003-08-20-EnumSizeProblem.simple.mcsema/2003-08-20-EnumSizeProblem.simple.cfg  -o ./C++/Output/2003-08-20-EnumSizeProblem.simple.mcsema/2003-08-20-EnumSizeProblem.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/Output/2003-08-20-EnumSizeProblem.simple.mcsema/2003-08-20-EnumSizeProblem.simple.new.convert.txt 
+opt -O3    ./C++/Output/2003-08-20-EnumSizeProblem.simple.mcsema/2003-08-20-EnumSizeProblem.simple.new.bc  -o=./C++/Output/2003-08-20-EnumSizeProblem.simple.mcsema/2003-08-20-EnumSizeProblem.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C++/Output/2003-08-20-EnumSizeProblem.simple.mcsema/2003-08-20-EnumSizeProblem.simple.new.o ./C++/Output/2003-08-20-EnumSizeProblem.simple.mcsema/2003-08-20-EnumSizeProblem.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/Output/2003-08-20-EnumSizeProblem.simple.mcsema/2003-08-20-EnumSizeProblem.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/Output/2003-08-20-EnumSizeProblem.simple.mcsema/2003-08-20-EnumSizeProblem.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C++/Output/2003-08-20-EnumSizeProblem.simple.mcsema/2003-08-20-EnumSizeProblem.simple 2>&1  1>out1 
+./C++/Output/2003-08-20-EnumSizeProblem.simple.mcsema/2003-08-20-EnumSizeProblem.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C++/Output/2003-09-29-NonPODsByValue.simple.mcsema/2003-09-29-NonPODsByValue.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/Output/2003-09-29-NonPODsByValue.simple.mcsema/2003-09-29-NonPODsByValue.simple.cfg  -o ./C++/Output/2003-09-29-NonPODsByValue.simple.mcsema/2003-09-29-NonPODsByValue.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/Output/2003-09-29-NonPODsByValue.simple.mcsema/2003-09-29-NonPODsByValue.simple.new.convert.txt 
+opt -O3    ./C++/Output/2003-09-29-NonPODsByValue.simple.mcsema/2003-09-29-NonPODsByValue.simple.new.bc  -o=./C++/Output/2003-09-29-NonPODsByValue.simple.mcsema/2003-09-29-NonPODsByValue.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C++/Output/2003-09-29-NonPODsByValue.simple.mcsema/2003-09-29-NonPODsByValue.simple.new.o ./C++/Output/2003-09-29-NonPODsByValue.simple.mcsema/2003-09-29-NonPODsByValue.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/Output/2003-09-29-NonPODsByValue.simple.mcsema/2003-09-29-NonPODsByValue.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/Output/2003-09-29-NonPODsByValue.simple.mcsema/2003-09-29-NonPODsByValue.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C++/Output/2003-09-29-NonPODsByValue.simple.mcsema/2003-09-29-NonPODsByValue.simple 2>&1  1>out1 
+./C++/Output/2003-09-29-NonPODsByValue.simple.mcsema/2003-09-29-NonPODsByValue.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C++/Output/2008-01-29-ParamAliasesReturn.simple.mcsema/2008-01-29-ParamAliasesReturn.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/Output/2008-01-29-ParamAliasesReturn.simple.mcsema/2008-01-29-ParamAliasesReturn.simple.cfg  -o ./C++/Output/2008-01-29-ParamAliasesReturn.simple.mcsema/2008-01-29-ParamAliasesReturn.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/Output/2008-01-29-ParamAliasesReturn.simple.mcsema/2008-01-29-ParamAliasesReturn.simple.new.convert.txt 
+opt -O3    ./C++/Output/2008-01-29-ParamAliasesReturn.simple.mcsema/2008-01-29-ParamAliasesReturn.simple.new.bc  -o=./C++/Output/2008-01-29-ParamAliasesReturn.simple.mcsema/2008-01-29-ParamAliasesReturn.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C++/Output/2008-01-29-ParamAliasesReturn.simple.mcsema/2008-01-29-ParamAliasesReturn.simple.new.o ./C++/Output/2008-01-29-ParamAliasesReturn.simple.mcsema/2008-01-29-ParamAliasesReturn.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/Output/2008-01-29-ParamAliasesReturn.simple.mcsema/2008-01-29-ParamAliasesReturn.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/Output/2008-01-29-ParamAliasesReturn.simple.mcsema/2008-01-29-ParamAliasesReturn.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C++/Output/2008-01-29-ParamAliasesReturn.simple.mcsema/2008-01-29-ParamAliasesReturn.simple 2>&1  1>out1 
+./C++/Output/2008-01-29-ParamAliasesReturn.simple.mcsema/2008-01-29-ParamAliasesReturn.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C++/Output/2011-03-28-Bitfield.simple.mcsema/2011-03-28-Bitfield.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/Output/2011-03-28-Bitfield.simple.mcsema/2011-03-28-Bitfield.simple.cfg  -o ./C++/Output/2011-03-28-Bitfield.simple.mcsema/2011-03-28-Bitfield.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/Output/2011-03-28-Bitfield.simple.mcsema/2011-03-28-Bitfield.simple.new.convert.txt 
+opt -O3    ./C++/Output/2011-03-28-Bitfield.simple.mcsema/2011-03-28-Bitfield.simple.new.bc  -o=./C++/Output/2011-03-28-Bitfield.simple.mcsema/2011-03-28-Bitfield.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C++/Output/2011-03-28-Bitfield.simple.mcsema/2011-03-28-Bitfield.simple.new.o ./C++/Output/2011-03-28-Bitfield.simple.mcsema/2011-03-28-Bitfield.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/Output/2011-03-28-Bitfield.simple.mcsema/2011-03-28-Bitfield.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/Output/2011-03-28-Bitfield.simple.mcsema/2011-03-28-Bitfield.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C++/Output/2011-03-28-Bitfield.simple.mcsema/2011-03-28-Bitfield.simple 2>&1  1>out1 
+./C++/Output/2011-03-28-Bitfield.simple.mcsema/2011-03-28-Bitfield.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C++/Output/BuiltinTypeInfo.simple.mcsema/BuiltinTypeInfo.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/Output/BuiltinTypeInfo.simple.mcsema/BuiltinTypeInfo.simple.cfg  -o ./C++/Output/BuiltinTypeInfo.simple.mcsema/BuiltinTypeInfo.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/Output/BuiltinTypeInfo.simple.mcsema/BuiltinTypeInfo.simple.new.convert.txt 
+opt -O3    ./C++/Output/BuiltinTypeInfo.simple.mcsema/BuiltinTypeInfo.simple.new.bc  -o=./C++/Output/BuiltinTypeInfo.simple.mcsema/BuiltinTypeInfo.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C++/Output/BuiltinTypeInfo.simple.mcsema/BuiltinTypeInfo.simple.new.o ./C++/Output/BuiltinTypeInfo.simple.mcsema/BuiltinTypeInfo.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/Output/BuiltinTypeInfo.simple.mcsema/BuiltinTypeInfo.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/Output/BuiltinTypeInfo.simple.mcsema/BuiltinTypeInfo.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C++/Output/BuiltinTypeInfo.simple.mcsema/BuiltinTypeInfo.simple 2>&1  1>out1 
+./C++/Output/BuiltinTypeInfo.simple.mcsema/BuiltinTypeInfo.simple.new.lifted 2>&1  1>out2 
+diff out1 out2 
+1c1
+< 0
+\ No newline at end of file
+---
+> 1
+\ No newline at end of file
+rm -rf  out1 out 2 
+
+=============================
+./C++/Output/fixups.simple.mcsema/fixups.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/Output/fixups.simple.mcsema/fixups.simple.cfg  -o ./C++/Output/fixups.simple.mcsema/fixups.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/Output/fixups.simple.mcsema/fixups.simple.new.convert.txt 
+opt -O3    ./C++/Output/fixups.simple.mcsema/fixups.simple.new.bc  -o=./C++/Output/fixups.simple.mcsema/fixups.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C++/Output/fixups.simple.mcsema/fixups.simple.new.o ./C++/Output/fixups.simple.mcsema/fixups.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/Output/fixups.simple.mcsema/fixups.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/Output/fixups.simple.mcsema/fixups.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C++/Output/fixups.simple.mcsema/fixups.simple 2>&1  1>out1 
+./C++/Output/fixups.simple.mcsema/fixups.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C++/Output/global_ctor.simple.mcsema/global_ctor.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/Output/global_ctor.simple.mcsema/global_ctor.simple.cfg  -o ./C++/Output/global_ctor.simple.mcsema/global_ctor.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/Output/global_ctor.simple.mcsema/global_ctor.simple.new.convert.txt 
+opt -O3    ./C++/Output/global_ctor.simple.mcsema/global_ctor.simple.new.bc  -o=./C++/Output/global_ctor.simple.mcsema/global_ctor.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C++/Output/global_ctor.simple.mcsema/global_ctor.simple.new.o ./C++/Output/global_ctor.simple.mcsema/global_ctor.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/Output/global_ctor.simple.mcsema/global_ctor.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/Output/global_ctor.simple.mcsema/global_ctor.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C++/Output/global_ctor.simple.mcsema/global_ctor.simple 2>&1  1>out1 
+./C++/Output/global_ctor.simple.mcsema/global_ctor.simple.new.lifted 2>&1  1>out2 
+diff out1 out2 
+1,2d0
+< Foo ctor 7 0
+< Foo ctor 12 1
+4,6d1
+< bar dtor
+< Foo dtor 12 0
+< Foo dtor 7 1
+rm -rf  out1 out 2 
+
+=============================
+./C++/Output/global_type.simple.mcsema/global_type.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/Output/global_type.simple.mcsema/global_type.simple.cfg  -o ./C++/Output/global_type.simple.mcsema/global_type.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/Output/global_type.simple.mcsema/global_type.simple.new.convert.txt 
+opt -O3    ./C++/Output/global_type.simple.mcsema/global_type.simple.new.bc  -o=./C++/Output/global_type.simple.mcsema/global_type.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C++/Output/global_type.simple.mcsema/global_type.simple.new.o ./C++/Output/global_type.simple.mcsema/global_type.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/Output/global_type.simple.mcsema/global_type.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/Output/global_type.simple.mcsema/global_type.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C++/Output/global_type.simple.mcsema/global_type.simple 2>&1  1>out1 
+./C++/Output/global_type.simple.mcsema/global_type.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C++/Output/ofstream_ctor.simple.mcsema/ofstream_ctor.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/Output/ofstream_ctor.simple.mcsema/ofstream_ctor.simple.cfg  -o ./C++/Output/ofstream_ctor.simple.mcsema/ofstream_ctor.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/Output/ofstream_ctor.simple.mcsema/ofstream_ctor.simple.new.convert.txt 
+opt -O3    ./C++/Output/ofstream_ctor.simple.mcsema/ofstream_ctor.simple.new.bc  -o=./C++/Output/ofstream_ctor.simple.mcsema/ofstream_ctor.simple.new.opt.bc 
+opt: ./C++/Output/ofstream_ctor.simple.mcsema/ofstream_ctor.simple.new.bc: error: Could not open input file: No such file or directory
+llc -march=x86-64 -filetype=obj -o ./C++/Output/ofstream_ctor.simple.mcsema/ofstream_ctor.simple.new.o ./C++/Output/ofstream_ctor.simple.mcsema/ofstream_ctor.simple.new.opt.bc 
+llc: ./C++/Output/ofstream_ctor.simple.mcsema/ofstream_ctor.simple.new.opt.bc: error: Could not open input file: No such file or directory
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/Output/ofstream_ctor.simple.mcsema/ofstream_ctor.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/Output/ofstream_ctor.simple.mcsema/ofstream_ctor.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+clang-4.0: error: no such file or directory: './C++/Output/ofstream_ctor.simple.mcsema/ofstream_ctor.simple.new.o'
+
+=============================
+./C++/Output/pointer_member.simple.mcsema/pointer_member.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/Output/pointer_member.simple.mcsema/pointer_member.simple.cfg  -o ./C++/Output/pointer_member.simple.mcsema/pointer_member.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/Output/pointer_member.simple.mcsema/pointer_member.simple.new.convert.txt 
+opt -O3    ./C++/Output/pointer_member.simple.mcsema/pointer_member.simple.new.bc  -o=./C++/Output/pointer_member.simple.mcsema/pointer_member.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C++/Output/pointer_member.simple.mcsema/pointer_member.simple.new.o ./C++/Output/pointer_member.simple.mcsema/pointer_member.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/Output/pointer_member.simple.mcsema/pointer_member.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/Output/pointer_member.simple.mcsema/pointer_member.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C++/Output/pointer_member.simple.mcsema/pointer_member.simple 2>&1  1>out1 
+./C++/Output/pointer_member.simple.mcsema/pointer_member.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C++/Output/pointer_method.simple.mcsema/pointer_method.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/Output/pointer_method.simple.mcsema/pointer_method.simple.cfg  -o ./C++/Output/pointer_method.simple.mcsema/pointer_method.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/Output/pointer_method.simple.mcsema/pointer_method.simple.new.convert.txt 
+opt -O3    ./C++/Output/pointer_method.simple.mcsema/pointer_method.simple.new.bc  -o=./C++/Output/pointer_method.simple.mcsema/pointer_method.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C++/Output/pointer_method.simple.mcsema/pointer_method.simple.new.o ./C++/Output/pointer_method.simple.mcsema/pointer_method.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/Output/pointer_method.simple.mcsema/pointer_method.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/Output/pointer_method.simple.mcsema/pointer_method.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C++/Output/pointer_method.simple.mcsema/pointer_method.simple 2>&1  1>out1 
+./C++/Output/pointer_method.simple.mcsema/pointer_method.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C++/Output/pointer_method2.simple.mcsema/pointer_method2.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/Output/pointer_method2.simple.mcsema/pointer_method2.simple.cfg  -o ./C++/Output/pointer_method2.simple.mcsema/pointer_method2.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/Output/pointer_method2.simple.mcsema/pointer_method2.simple.new.convert.txt 
+opt -O3    ./C++/Output/pointer_method2.simple.mcsema/pointer_method2.simple.new.bc  -o=./C++/Output/pointer_method2.simple.mcsema/pointer_method2.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C++/Output/pointer_method2.simple.mcsema/pointer_method2.simple.new.o ./C++/Output/pointer_method2.simple.mcsema/pointer_method2.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/Output/pointer_method2.simple.mcsema/pointer_method2.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/Output/pointer_method2.simple.mcsema/pointer_method2.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C++/Output/pointer_method2.simple.mcsema/pointer_method2.simple 2>&1  1>out1 
+./C++/Output/pointer_method2.simple.mcsema/pointer_method2.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C++/Output/short_circuit_dtor.simple.mcsema/short_circuit_dtor.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++/Output/short_circuit_dtor.simple.mcsema/short_circuit_dtor.simple.cfg  -o ./C++/Output/short_circuit_dtor.simple.mcsema/short_circuit_dtor.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C++/Output/short_circuit_dtor.simple.mcsema/short_circuit_dtor.simple.new.convert.txt 
+opt -O3    ./C++/Output/short_circuit_dtor.simple.mcsema/short_circuit_dtor.simple.new.bc  -o=./C++/Output/short_circuit_dtor.simple.mcsema/short_circuit_dtor.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C++/Output/short_circuit_dtor.simple.mcsema/short_circuit_dtor.simple.new.o ./C++/Output/short_circuit_dtor.simple.mcsema/short_circuit_dtor.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++/Output/short_circuit_dtor.simple.mcsema/short_circuit_dtor.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C++/Output/short_circuit_dtor.simple.mcsema/short_circuit_dtor.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C++/Output/short_circuit_dtor.simple.mcsema/short_circuit_dtor.simple 2>&1  1>out1 
+./C++/Output/short_circuit_dtor.simple.mcsema/short_circuit_dtor.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/2003-05-14-initialize-string.simple.mcsema/2003-05-14-initialize-string.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/2003-05-14-initialize-string.simple.mcsema/2003-05-14-initialize-string.simple.cfg  -o ./C/Output/2003-05-14-initialize-string.simple.mcsema/2003-05-14-initialize-string.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/2003-05-14-initialize-string.simple.mcsema/2003-05-14-initialize-string.simple.new.convert.txt 
+opt -O3    ./C/Output/2003-05-14-initialize-string.simple.mcsema/2003-05-14-initialize-string.simple.new.bc  -o=./C/Output/2003-05-14-initialize-string.simple.mcsema/2003-05-14-initialize-string.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/2003-05-14-initialize-string.simple.mcsema/2003-05-14-initialize-string.simple.new.o ./C/Output/2003-05-14-initialize-string.simple.mcsema/2003-05-14-initialize-string.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/2003-05-14-initialize-string.simple.mcsema/2003-05-14-initialize-string.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/2003-05-14-initialize-string.simple.mcsema/2003-05-14-initialize-string.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/2003-05-14-initialize-string.simple.mcsema/2003-05-14-initialize-string.simple 2>&1  1>out1 
+./C/Output/2003-05-14-initialize-string.simple.mcsema/2003-05-14-initialize-string.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/2003-05-21-BitfieldHandling.simple.mcsema/2003-05-21-BitfieldHandling.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/2003-05-21-BitfieldHandling.simple.mcsema/2003-05-21-BitfieldHandling.simple.cfg  -o ./C/Output/2003-05-21-BitfieldHandling.simple.mcsema/2003-05-21-BitfieldHandling.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/2003-05-21-BitfieldHandling.simple.mcsema/2003-05-21-BitfieldHandling.simple.new.convert.txt 
+opt -O3    ./C/Output/2003-05-21-BitfieldHandling.simple.mcsema/2003-05-21-BitfieldHandling.simple.new.bc  -o=./C/Output/2003-05-21-BitfieldHandling.simple.mcsema/2003-05-21-BitfieldHandling.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/2003-05-21-BitfieldHandling.simple.mcsema/2003-05-21-BitfieldHandling.simple.new.o ./C/Output/2003-05-21-BitfieldHandling.simple.mcsema/2003-05-21-BitfieldHandling.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/2003-05-21-BitfieldHandling.simple.mcsema/2003-05-21-BitfieldHandling.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/2003-05-21-BitfieldHandling.simple.mcsema/2003-05-21-BitfieldHandling.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/2003-05-21-BitfieldHandling.simple.mcsema/2003-05-21-BitfieldHandling.simple 2>&1  1>out1 
+./C/Output/2003-05-21-BitfieldHandling.simple.mcsema/2003-05-21-BitfieldHandling.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/2003-05-21-UnionBitfields.simple.mcsema/2003-05-21-UnionBitfields.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/2003-05-21-UnionBitfields.simple.mcsema/2003-05-21-UnionBitfields.simple.cfg  -o ./C/Output/2003-05-21-UnionBitfields.simple.mcsema/2003-05-21-UnionBitfields.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/2003-05-21-UnionBitfields.simple.mcsema/2003-05-21-UnionBitfields.simple.new.convert.txt 
+opt -O3    ./C/Output/2003-05-21-UnionBitfields.simple.mcsema/2003-05-21-UnionBitfields.simple.new.bc  -o=./C/Output/2003-05-21-UnionBitfields.simple.mcsema/2003-05-21-UnionBitfields.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/2003-05-21-UnionBitfields.simple.mcsema/2003-05-21-UnionBitfields.simple.new.o ./C/Output/2003-05-21-UnionBitfields.simple.mcsema/2003-05-21-UnionBitfields.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/2003-05-21-UnionBitfields.simple.mcsema/2003-05-21-UnionBitfields.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/2003-05-21-UnionBitfields.simple.mcsema/2003-05-21-UnionBitfields.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/2003-05-21-UnionBitfields.simple.mcsema/2003-05-21-UnionBitfields.simple 2>&1  1>out1 
+./C/Output/2003-05-21-UnionBitfields.simple.mcsema/2003-05-21-UnionBitfields.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/2003-05-21-UnionTest.simple.mcsema/2003-05-21-UnionTest.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/2003-05-21-UnionTest.simple.mcsema/2003-05-21-UnionTest.simple.cfg  -o ./C/Output/2003-05-21-UnionTest.simple.mcsema/2003-05-21-UnionTest.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/2003-05-21-UnionTest.simple.mcsema/2003-05-21-UnionTest.simple.new.convert.txt 
+opt -O3    ./C/Output/2003-05-21-UnionTest.simple.mcsema/2003-05-21-UnionTest.simple.new.bc  -o=./C/Output/2003-05-21-UnionTest.simple.mcsema/2003-05-21-UnionTest.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/2003-05-21-UnionTest.simple.mcsema/2003-05-21-UnionTest.simple.new.o ./C/Output/2003-05-21-UnionTest.simple.mcsema/2003-05-21-UnionTest.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/2003-05-21-UnionTest.simple.mcsema/2003-05-21-UnionTest.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/2003-05-21-UnionTest.simple.mcsema/2003-05-21-UnionTest.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/2003-05-21-UnionTest.simple.mcsema/2003-05-21-UnionTest.simple 2>&1  1>out1 
+./C/Output/2003-05-21-UnionTest.simple.mcsema/2003-05-21-UnionTest.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/2003-05-22-LocalTypeTest.simple.mcsema/2003-05-22-LocalTypeTest.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/2003-05-22-LocalTypeTest.simple.mcsema/2003-05-22-LocalTypeTest.simple.cfg  -o ./C/Output/2003-05-22-LocalTypeTest.simple.mcsema/2003-05-22-LocalTypeTest.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/2003-05-22-LocalTypeTest.simple.mcsema/2003-05-22-LocalTypeTest.simple.new.convert.txt 
+opt -O3    ./C/Output/2003-05-22-LocalTypeTest.simple.mcsema/2003-05-22-LocalTypeTest.simple.new.bc  -o=./C/Output/2003-05-22-LocalTypeTest.simple.mcsema/2003-05-22-LocalTypeTest.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/2003-05-22-LocalTypeTest.simple.mcsema/2003-05-22-LocalTypeTest.simple.new.o ./C/Output/2003-05-22-LocalTypeTest.simple.mcsema/2003-05-22-LocalTypeTest.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/2003-05-22-LocalTypeTest.simple.mcsema/2003-05-22-LocalTypeTest.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/2003-05-22-LocalTypeTest.simple.mcsema/2003-05-22-LocalTypeTest.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/2003-05-22-LocalTypeTest.simple.mcsema/2003-05-22-LocalTypeTest.simple 2>&1  1>out1 
+./C/Output/2003-05-22-LocalTypeTest.simple.mcsema/2003-05-22-LocalTypeTest.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/2003-05-22-VarSizeArray.simple.mcsema/2003-05-22-VarSizeArray.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/2003-05-22-VarSizeArray.simple.mcsema/2003-05-22-VarSizeArray.simple.cfg  -o ./C/Output/2003-05-22-VarSizeArray.simple.mcsema/2003-05-22-VarSizeArray.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/2003-05-22-VarSizeArray.simple.mcsema/2003-05-22-VarSizeArray.simple.new.convert.txt 
+opt -O3    ./C/Output/2003-05-22-VarSizeArray.simple.mcsema/2003-05-22-VarSizeArray.simple.new.bc  -o=./C/Output/2003-05-22-VarSizeArray.simple.mcsema/2003-05-22-VarSizeArray.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/2003-05-22-VarSizeArray.simple.mcsema/2003-05-22-VarSizeArray.simple.new.o ./C/Output/2003-05-22-VarSizeArray.simple.mcsema/2003-05-22-VarSizeArray.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/2003-05-22-VarSizeArray.simple.mcsema/2003-05-22-VarSizeArray.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/2003-05-22-VarSizeArray.simple.mcsema/2003-05-22-VarSizeArray.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/2003-05-22-VarSizeArray.simple.mcsema/2003-05-22-VarSizeArray.simple 2>&1  1>out1 
+./C/Output/2003-05-22-VarSizeArray.simple.mcsema/2003-05-22-VarSizeArray.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/2003-05-23-TransparentUnion.simple.mcsema/2003-05-23-TransparentUnion.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/2003-05-23-TransparentUnion.simple.mcsema/2003-05-23-TransparentUnion.simple.cfg  -o ./C/Output/2003-05-23-TransparentUnion.simple.mcsema/2003-05-23-TransparentUnion.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/2003-05-23-TransparentUnion.simple.mcsema/2003-05-23-TransparentUnion.simple.new.convert.txt 
+opt -O3    ./C/Output/2003-05-23-TransparentUnion.simple.mcsema/2003-05-23-TransparentUnion.simple.new.bc  -o=./C/Output/2003-05-23-TransparentUnion.simple.mcsema/2003-05-23-TransparentUnion.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/2003-05-23-TransparentUnion.simple.mcsema/2003-05-23-TransparentUnion.simple.new.o ./C/Output/2003-05-23-TransparentUnion.simple.mcsema/2003-05-23-TransparentUnion.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/2003-05-23-TransparentUnion.simple.mcsema/2003-05-23-TransparentUnion.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/2003-05-23-TransparentUnion.simple.mcsema/2003-05-23-TransparentUnion.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/2003-05-23-TransparentUnion.simple.mcsema/2003-05-23-TransparentUnion.simple 2>&1  1>out1 
+./C/Output/2003-05-23-TransparentUnion.simple.mcsema/2003-05-23-TransparentUnion.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/2003-06-16-InvalidInitializer.simple.mcsema/2003-06-16-InvalidInitializer.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/2003-06-16-InvalidInitializer.simple.mcsema/2003-06-16-InvalidInitializer.simple.cfg  -o ./C/Output/2003-06-16-InvalidInitializer.simple.mcsema/2003-06-16-InvalidInitializer.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/2003-06-16-InvalidInitializer.simple.mcsema/2003-06-16-InvalidInitializer.simple.new.convert.txt 
+opt -O3    ./C/Output/2003-06-16-InvalidInitializer.simple.mcsema/2003-06-16-InvalidInitializer.simple.new.bc  -o=./C/Output/2003-06-16-InvalidInitializer.simple.mcsema/2003-06-16-InvalidInitializer.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/2003-06-16-InvalidInitializer.simple.mcsema/2003-06-16-InvalidInitializer.simple.new.o ./C/Output/2003-06-16-InvalidInitializer.simple.mcsema/2003-06-16-InvalidInitializer.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/2003-06-16-InvalidInitializer.simple.mcsema/2003-06-16-InvalidInitializer.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/2003-06-16-InvalidInitializer.simple.mcsema/2003-06-16-InvalidInitializer.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/2003-06-16-InvalidInitializer.simple.mcsema/2003-06-16-InvalidInitializer.simple 2>&1  1>out1 
+./C/Output/2003-06-16-InvalidInitializer.simple.mcsema/2003-06-16-InvalidInitializer.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/2003-06-16-VolatileError.simple.mcsema/2003-06-16-VolatileError.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/2003-06-16-VolatileError.simple.mcsema/2003-06-16-VolatileError.simple.cfg  -o ./C/Output/2003-06-16-VolatileError.simple.mcsema/2003-06-16-VolatileError.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/2003-06-16-VolatileError.simple.mcsema/2003-06-16-VolatileError.simple.new.convert.txt 
+opt -O3    ./C/Output/2003-06-16-VolatileError.simple.mcsema/2003-06-16-VolatileError.simple.new.bc  -o=./C/Output/2003-06-16-VolatileError.simple.mcsema/2003-06-16-VolatileError.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/2003-06-16-VolatileError.simple.mcsema/2003-06-16-VolatileError.simple.new.o ./C/Output/2003-06-16-VolatileError.simple.mcsema/2003-06-16-VolatileError.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/2003-06-16-VolatileError.simple.mcsema/2003-06-16-VolatileError.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/2003-06-16-VolatileError.simple.mcsema/2003-06-16-VolatileError.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/2003-06-16-VolatileError.simple.mcsema/2003-06-16-VolatileError.simple 2>&1  1>out1 
+./C/Output/2003-06-16-VolatileError.simple.mcsema/2003-06-16-VolatileError.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/2003-10-12-GlobalVarInitializers.simple.mcsema/2003-10-12-GlobalVarInitializers.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/2003-10-12-GlobalVarInitializers.simple.mcsema/2003-10-12-GlobalVarInitializers.simple.cfg  -o ./C/Output/2003-10-12-GlobalVarInitializers.simple.mcsema/2003-10-12-GlobalVarInitializers.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/2003-10-12-GlobalVarInitializers.simple.mcsema/2003-10-12-GlobalVarInitializers.simple.new.convert.txt 
+opt -O3    ./C/Output/2003-10-12-GlobalVarInitializers.simple.mcsema/2003-10-12-GlobalVarInitializers.simple.new.bc  -o=./C/Output/2003-10-12-GlobalVarInitializers.simple.mcsema/2003-10-12-GlobalVarInitializers.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/2003-10-12-GlobalVarInitializers.simple.mcsema/2003-10-12-GlobalVarInitializers.simple.new.o ./C/Output/2003-10-12-GlobalVarInitializers.simple.mcsema/2003-10-12-GlobalVarInitializers.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/2003-10-12-GlobalVarInitializers.simple.mcsema/2003-10-12-GlobalVarInitializers.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/2003-10-12-GlobalVarInitializers.simple.mcsema/2003-10-12-GlobalVarInitializers.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/2003-10-12-GlobalVarInitializers.simple.mcsema/2003-10-12-GlobalVarInitializers.simple 2>&1  1>out1 
+./C/Output/2003-10-12-GlobalVarInitializers.simple.mcsema/2003-10-12-GlobalVarInitializers.simple.new.lifted 2>&1  1>out2 
+diff out1 out2 
+1c1
+< 475368975085586025561263702016.000000 nan
+---
+> 0.000000 0.000000
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/2004-02-03-AggregateCopy.simple.mcsema/2004-02-03-AggregateCopy.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/2004-02-03-AggregateCopy.simple.mcsema/2004-02-03-AggregateCopy.simple.cfg  -o ./C/Output/2004-02-03-AggregateCopy.simple.mcsema/2004-02-03-AggregateCopy.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/2004-02-03-AggregateCopy.simple.mcsema/2004-02-03-AggregateCopy.simple.new.convert.txt 
+opt -O3    ./C/Output/2004-02-03-AggregateCopy.simple.mcsema/2004-02-03-AggregateCopy.simple.new.bc  -o=./C/Output/2004-02-03-AggregateCopy.simple.mcsema/2004-02-03-AggregateCopy.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/2004-02-03-AggregateCopy.simple.mcsema/2004-02-03-AggregateCopy.simple.new.o ./C/Output/2004-02-03-AggregateCopy.simple.mcsema/2004-02-03-AggregateCopy.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/2004-02-03-AggregateCopy.simple.mcsema/2004-02-03-AggregateCopy.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/2004-02-03-AggregateCopy.simple.mcsema/2004-02-03-AggregateCopy.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/2004-02-03-AggregateCopy.simple.mcsema/2004-02-03-AggregateCopy.simple 2>&1  1>out1 
+./C/Output/2004-02-03-AggregateCopy.simple.mcsema/2004-02-03-AggregateCopy.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/2004-03-15-IndirectGoto.simple.mcsema/2004-03-15-IndirectGoto.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/2004-03-15-IndirectGoto.simple.mcsema/2004-03-15-IndirectGoto.simple.cfg  -o ./C/Output/2004-03-15-IndirectGoto.simple.mcsema/2004-03-15-IndirectGoto.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/2004-03-15-IndirectGoto.simple.mcsema/2004-03-15-IndirectGoto.simple.new.convert.txt 
+opt -O3    ./C/Output/2004-03-15-IndirectGoto.simple.mcsema/2004-03-15-IndirectGoto.simple.new.bc  -o=./C/Output/2004-03-15-IndirectGoto.simple.mcsema/2004-03-15-IndirectGoto.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/2004-03-15-IndirectGoto.simple.mcsema/2004-03-15-IndirectGoto.simple.new.o ./C/Output/2004-03-15-IndirectGoto.simple.mcsema/2004-03-15-IndirectGoto.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/2004-03-15-IndirectGoto.simple.mcsema/2004-03-15-IndirectGoto.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/2004-03-15-IndirectGoto.simple.mcsema/2004-03-15-IndirectGoto.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/2004-03-15-IndirectGoto.simple.mcsema/2004-03-15-IndirectGoto.simple 2>&1  1>out1 
+./C/Output/2004-03-15-IndirectGoto.simple.mcsema/2004-03-15-IndirectGoto.simple.new.lifted 2>&1  1>out2 
+sh: line 1: 29158 Segmentation fault      ./C/Output/2004-03-15-IndirectGoto.simple.mcsema/2004-03-15-IndirectGoto.simple.new.lifted 2>&1 > out2
+diff out1 out2 
+2,11d1
+< B
+< C
+< D
+< B
+< C
+< D
+< C
+< D
+< D
+< E
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/2004-08-12-InlinerAndAllocas.simple.mcsema/2004-08-12-InlinerAndAllocas.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/2004-08-12-InlinerAndAllocas.simple.mcsema/2004-08-12-InlinerAndAllocas.simple.cfg  -o ./C/Output/2004-08-12-InlinerAndAllocas.simple.mcsema/2004-08-12-InlinerAndAllocas.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/2004-08-12-InlinerAndAllocas.simple.mcsema/2004-08-12-InlinerAndAllocas.simple.new.convert.txt 
+opt -O3    ./C/Output/2004-08-12-InlinerAndAllocas.simple.mcsema/2004-08-12-InlinerAndAllocas.simple.new.bc  -o=./C/Output/2004-08-12-InlinerAndAllocas.simple.mcsema/2004-08-12-InlinerAndAllocas.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/2004-08-12-InlinerAndAllocas.simple.mcsema/2004-08-12-InlinerAndAllocas.simple.new.o ./C/Output/2004-08-12-InlinerAndAllocas.simple.mcsema/2004-08-12-InlinerAndAllocas.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/2004-08-12-InlinerAndAllocas.simple.mcsema/2004-08-12-InlinerAndAllocas.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/2004-08-12-InlinerAndAllocas.simple.mcsema/2004-08-12-InlinerAndAllocas.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/2004-08-12-InlinerAndAllocas.simple.mcsema/2004-08-12-InlinerAndAllocas.simple 2>&1  1>out1 
+./C/Output/2004-08-12-InlinerAndAllocas.simple.mcsema/2004-08-12-InlinerAndAllocas.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/2005-05-06-LongLongSignedShift.simple.mcsema/2005-05-06-LongLongSignedShift.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/2005-05-06-LongLongSignedShift.simple.mcsema/2005-05-06-LongLongSignedShift.simple.cfg  -o ./C/Output/2005-05-06-LongLongSignedShift.simple.mcsema/2005-05-06-LongLongSignedShift.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/2005-05-06-LongLongSignedShift.simple.mcsema/2005-05-06-LongLongSignedShift.simple.new.convert.txt 
+opt -O3    ./C/Output/2005-05-06-LongLongSignedShift.simple.mcsema/2005-05-06-LongLongSignedShift.simple.new.bc  -o=./C/Output/2005-05-06-LongLongSignedShift.simple.mcsema/2005-05-06-LongLongSignedShift.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/2005-05-06-LongLongSignedShift.simple.mcsema/2005-05-06-LongLongSignedShift.simple.new.o ./C/Output/2005-05-06-LongLongSignedShift.simple.mcsema/2005-05-06-LongLongSignedShift.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/2005-05-06-LongLongSignedShift.simple.mcsema/2005-05-06-LongLongSignedShift.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/2005-05-06-LongLongSignedShift.simple.mcsema/2005-05-06-LongLongSignedShift.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/2005-05-06-LongLongSignedShift.simple.mcsema/2005-05-06-LongLongSignedShift.simple 2>&1  1>out1 
+./C/Output/2005-05-06-LongLongSignedShift.simple.mcsema/2005-05-06-LongLongSignedShift.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/2008-01-07-LongDouble.simple.mcsema/2008-01-07-LongDouble.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/2008-01-07-LongDouble.simple.mcsema/2008-01-07-LongDouble.simple.cfg  -o ./C/Output/2008-01-07-LongDouble.simple.mcsema/2008-01-07-LongDouble.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/2008-01-07-LongDouble.simple.mcsema/2008-01-07-LongDouble.simple.new.convert.txt 
+opt -O3    ./C/Output/2008-01-07-LongDouble.simple.mcsema/2008-01-07-LongDouble.simple.new.bc  -o=./C/Output/2008-01-07-LongDouble.simple.mcsema/2008-01-07-LongDouble.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/2008-01-07-LongDouble.simple.mcsema/2008-01-07-LongDouble.simple.new.o ./C/Output/2008-01-07-LongDouble.simple.mcsema/2008-01-07-LongDouble.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/2008-01-07-LongDouble.simple.mcsema/2008-01-07-LongDouble.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/2008-01-07-LongDouble.simple.mcsema/2008-01-07-LongDouble.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/2008-01-07-LongDouble.simple.mcsema/2008-01-07-LongDouble.simple 2>&1  1>out1 
+./C/Output/2008-01-07-LongDouble.simple.mcsema/2008-01-07-LongDouble.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/ConstructorDestructorAttributes.simple.mcsema/ConstructorDestructorAttributes.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/ConstructorDestructorAttributes.simple.mcsema/ConstructorDestructorAttributes.simple.cfg  -o ./C/Output/ConstructorDestructorAttributes.simple.mcsema/ConstructorDestructorAttributes.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/ConstructorDestructorAttributes.simple.mcsema/ConstructorDestructorAttributes.simple.new.convert.txt 
+opt -O3    ./C/Output/ConstructorDestructorAttributes.simple.mcsema/ConstructorDestructorAttributes.simple.new.bc  -o=./C/Output/ConstructorDestructorAttributes.simple.mcsema/ConstructorDestructorAttributes.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/ConstructorDestructorAttributes.simple.mcsema/ConstructorDestructorAttributes.simple.new.o ./C/Output/ConstructorDestructorAttributes.simple.mcsema/ConstructorDestructorAttributes.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/ConstructorDestructorAttributes.simple.mcsema/ConstructorDestructorAttributes.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/ConstructorDestructorAttributes.simple.mcsema/ConstructorDestructorAttributes.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/ConstructorDestructorAttributes.simple.mcsema/ConstructorDestructorAttributes.simple 2>&1  1>out1 
+./C/Output/ConstructorDestructorAttributes.simple.mcsema/ConstructorDestructorAttributes.simple.new.lifted 2>&1  1>out2 
+diff out1 out2 
+1,2d0
+< Create!
+< Create!
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/DuffsDevice.simple.mcsema/DuffsDevice.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/DuffsDevice.simple.mcsema/DuffsDevice.simple.cfg  -o ./C/Output/DuffsDevice.simple.mcsema/DuffsDevice.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/DuffsDevice.simple.mcsema/DuffsDevice.simple.new.convert.txt 
+opt -O3    ./C/Output/DuffsDevice.simple.mcsema/DuffsDevice.simple.new.bc  -o=./C/Output/DuffsDevice.simple.mcsema/DuffsDevice.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/DuffsDevice.simple.mcsema/DuffsDevice.simple.new.o ./C/Output/DuffsDevice.simple.mcsema/DuffsDevice.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/DuffsDevice.simple.mcsema/DuffsDevice.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/DuffsDevice.simple.mcsema/DuffsDevice.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/DuffsDevice.simple.mcsema/DuffsDevice.simple 2>&1  1>out1 
+./C/Output/DuffsDevice.simple.mcsema/DuffsDevice.simple.new.lifted 2>&1  1>out2 
+sh: line 1: 29220 Segmentation fault      ./C/Output/DuffsDevice.simple.mcsema/DuffsDevice.simple.new.lifted 2>&1 > out2
+diff out1 out2 
+1d0
+< Sum is 4950
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/PR10189.simple.mcsema/PR10189.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/PR10189.simple.mcsema/PR10189.simple.cfg  -o ./C/Output/PR10189.simple.mcsema/PR10189.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/PR10189.simple.mcsema/PR10189.simple.new.convert.txt 
+opt -O3    ./C/Output/PR10189.simple.mcsema/PR10189.simple.new.bc  -o=./C/Output/PR10189.simple.mcsema/PR10189.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/PR10189.simple.mcsema/PR10189.simple.new.o ./C/Output/PR10189.simple.mcsema/PR10189.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/PR10189.simple.mcsema/PR10189.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/PR10189.simple.mcsema/PR10189.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/PR10189.simple.mcsema/PR10189.simple 2>&1  1>out1 
+./C/Output/PR10189.simple.mcsema/PR10189.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/PR1386.simple.mcsema/PR1386.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/PR1386.simple.mcsema/PR1386.simple.cfg  -o ./C/Output/PR1386.simple.mcsema/PR1386.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/PR1386.simple.mcsema/PR1386.simple.new.convert.txt 
+opt -O3    ./C/Output/PR1386.simple.mcsema/PR1386.simple.new.bc  -o=./C/Output/PR1386.simple.mcsema/PR1386.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/PR1386.simple.mcsema/PR1386.simple.new.o ./C/Output/PR1386.simple.mcsema/PR1386.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/PR1386.simple.mcsema/PR1386.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/PR1386.simple.mcsema/PR1386.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/PR1386.simple.mcsema/PR1386.simple 2>&1  1>out1 
+./C/Output/PR1386.simple.mcsema/PR1386.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/PR491.simple.mcsema/PR491.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/PR491.simple.mcsema/PR491.simple.cfg  -o ./C/Output/PR491.simple.mcsema/PR491.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/PR491.simple.mcsema/PR491.simple.new.convert.txt 
+opt -O3    ./C/Output/PR491.simple.mcsema/PR491.simple.new.bc  -o=./C/Output/PR491.simple.mcsema/PR491.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/PR491.simple.mcsema/PR491.simple.new.o ./C/Output/PR491.simple.mcsema/PR491.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/PR491.simple.mcsema/PR491.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/PR491.simple.mcsema/PR491.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/PR491.simple.mcsema/PR491.simple 2>&1  1>out1 
+./C/Output/PR491.simple.mcsema/PR491.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/PR640.simple.mcsema/PR640.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/PR640.simple.mcsema/PR640.simple.cfg  -o ./C/Output/PR640.simple.mcsema/PR640.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/PR640.simple.mcsema/PR640.simple.new.convert.txt 
+opt -O3    ./C/Output/PR640.simple.mcsema/PR640.simple.new.bc  -o=./C/Output/PR640.simple.mcsema/PR640.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/PR640.simple.mcsema/PR640.simple.new.o ./C/Output/PR640.simple.mcsema/PR640.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/PR640.simple.mcsema/PR640.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/PR640.simple.mcsema/PR640.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/PR640.simple.mcsema/PR640.simple 2>&1  1>out1 
+./C/Output/PR640.simple.mcsema/PR640.simple.new.lifted 2>&1  1>out2 
+sh: line 1: 29269 Segmentation fault      ./C/Output/PR640.simple.mcsema/PR640.simple.new.lifted 2>&1 > out2
+diff out1 out2 
+1d0
+< All done.
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/badidx.simple.mcsema/badidx.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/badidx.simple.mcsema/badidx.simple.cfg  -o ./C/Output/badidx.simple.mcsema/badidx.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/badidx.simple.mcsema/badidx.simple.new.convert.txt 
+opt -O3    ./C/Output/badidx.simple.mcsema/badidx.simple.new.bc  -o=./C/Output/badidx.simple.mcsema/badidx.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/badidx.simple.mcsema/badidx.simple.new.o ./C/Output/badidx.simple.mcsema/badidx.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/badidx.simple.mcsema/badidx.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/badidx.simple.mcsema/badidx.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/badidx.simple.mcsema/badidx.simple 2>&1  1>out1 
+./C/Output/badidx.simple.mcsema/badidx.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/bigstack.simple.mcsema/bigstack.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/bigstack.simple.mcsema/bigstack.simple.cfg  -o ./C/Output/bigstack.simple.mcsema/bigstack.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/bigstack.simple.mcsema/bigstack.simple.new.convert.txt 
+opt -O3    ./C/Output/bigstack.simple.mcsema/bigstack.simple.new.bc  -o=./C/Output/bigstack.simple.mcsema/bigstack.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/bigstack.simple.mcsema/bigstack.simple.new.o ./C/Output/bigstack.simple.mcsema/bigstack.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/bigstack.simple.mcsema/bigstack.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/bigstack.simple.mcsema/bigstack.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/bigstack.simple.mcsema/bigstack.simple 2>&1  1>out1 
+./C/Output/bigstack.simple.mcsema/bigstack.simple.new.lifted 2>&1  1>out2 
+diff out1 out2 
+1,5c1,5
+< Sum(M)  = 17805.00
+< Sum(MA[0]) = 29805.00
+< Sum(MA[1]) = 41805.00
+< Sum(MA[2]) = 53805.00
+< Sum(MA[3]) = 65805.00
+---
+> Sum(M)  = 0.00
+> Sum(MA[0]) = 0.00
+> Sum(MA[1]) = 0.00
+> Sum(MA[2]) = 0.00
+> Sum(MA[3]) = 0.00
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/callargs.simple.mcsema/callargs.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/callargs.simple.mcsema/callargs.simple.cfg  -o ./C/Output/callargs.simple.mcsema/callargs.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/callargs.simple.mcsema/callargs.simple.new.convert.txt 
+opt -O3    ./C/Output/callargs.simple.mcsema/callargs.simple.new.bc  -o=./C/Output/callargs.simple.mcsema/callargs.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/callargs.simple.mcsema/callargs.simple.new.o ./C/Output/callargs.simple.mcsema/callargs.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/callargs.simple.mcsema/callargs.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/callargs.simple.mcsema/callargs.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/callargs.simple.mcsema/callargs.simple 2>&1  1>out1 
+./C/Output/callargs.simple.mcsema/callargs.simple.new.lifted 2>&1  1>out2 
+diff out1 out2 
+3,5c3,5
+< 	Args 1-5  : 1 2.100000 c 4.100000 e
+< 	Args 6-10 : 6 7.100000 h 9.100000 j
+< 	Args 11-14: 11 12.100000 m 14.100000 o
+---
+> 	Args 1-5  : 1 0.000000 c 0.000000 e
+> 	Args 6-10 : 6 0.000000 h 0.000000 j
+> 	Args 11-14: 11 0.000000 m 0.000000 o
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/casts.simple.mcsema/casts.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/casts.simple.mcsema/casts.simple.cfg  -o ./C/Output/casts.simple.mcsema/casts.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/casts.simple.mcsema/casts.simple.new.convert.txt 
+opt -O3    ./C/Output/casts.simple.mcsema/casts.simple.new.bc  -o=./C/Output/casts.simple.mcsema/casts.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/casts.simple.mcsema/casts.simple.new.o ./C/Output/casts.simple.mcsema/casts.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/casts.simple.mcsema/casts.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/casts.simple.mcsema/casts.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/casts.simple.mcsema/casts.simple 2>&1  1>out1 
+./C/Output/casts.simple.mcsema/casts.simple.new.lifted 2>&1  1>out2 
+diff out1 out2 
+16c16
+< short to int64_t l1 = -769		(0xfffffffffffffcff)
+---
+> short to int64_t l1 = 4294967295		(0xffffffff)
+21c21
+< short to uint64_t ul1 = 18446744073709550847		(0xfffffffffffffcff)
+---
+> short to uint64_t ul1 = 4294967295		(0xffffffff)
+35c35
+< FLOAT            F = 1.000000
+---
+> FLOAT            F = 0.000000
+39,40c39,40
+< float to uint   ui1 = 1		(0x1)
+< float to uint64_t ul1 = 1		(0x1)
+---
+> float to uint   ui1 = 4294967295		(0xffffffff)
+> float to uint64_t ul1 = 4294967295		(0xffffffff)
+43c43
+< DOUBLE            D = 2.000000
+---
+> DOUBLE            D = 0.000000
+46c46
+< double to int64_t l1 = 2		(0x2)
+---
+> double to int64_t l1 = 4294967295		(0xffffffff)
+48,59c48,59
+< double to uint   ui1 = 2		(0x2)
+< double to uint64_t ul1 = 2		(0x2)
+< double <- int64_t 123 = 123.000000
+< double <- uint64_t 123 = 123.000000
+< double <- int64_t -1 = -1.000000
+< double <- uint64_t 18446744073709551615 = 18446744073709551616.000000
+< double <- int64_t -14 = -14.000000
+< double <- uint64_t 18446744073709551602 = 18446744073709551616.000000
+< double <- int64_t 14 = 14.000000
+< double <- uint64_t 14 = 14.000000
+< double <- int64_t -9223372036854775808 = -9223372036854775808.000000
+< double <- uint64_t 9223372036854775808 = 9223372036854775808.000000
+---
+> double to uint   ui1 = 4294967295		(0xffffffff)
+> double to uint64_t ul1 = 4294967295		(0xffffffff)
+> double <- int64_t 123 = 0.000000
+> double <- uint64_t 123 = 0.000000
+> double <- int64_t -1 = 0.000000
+> double <- uint64_t 18446744073709551615 = 0.000000
+> double <- int64_t -14 = 0.000000
+> double <- uint64_t 18446744073709551602 = 0.000000
+> double <- int64_t 14 = 0.000000
+> double <- uint64_t 14 = 0.000000
+> double <- int64_t -9223372036854775808 = 0.000000
+> double <- uint64_t 9223372036854775808 = 0.000000
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/compare.simple.mcsema/compare.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/compare.simple.mcsema/compare.simple.cfg  -o ./C/Output/compare.simple.mcsema/compare.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/compare.simple.mcsema/compare.simple.new.convert.txt 
+opt -O3    ./C/Output/compare.simple.mcsema/compare.simple.new.bc  -o=./C/Output/compare.simple.mcsema/compare.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/compare.simple.mcsema/compare.simple.new.o ./C/Output/compare.simple.mcsema/compare.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/compare.simple.mcsema/compare.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/compare.simple.mcsema/compare.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/compare.simple.mcsema/compare.simple 2>&1  1>out1 
+./C/Output/compare.simple.mcsema/compare.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/globalrefs.simple.mcsema/globalrefs.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/globalrefs.simple.mcsema/globalrefs.simple.cfg  -o ./C/Output/globalrefs.simple.mcsema/globalrefs.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/globalrefs.simple.mcsema/globalrefs.simple.new.convert.txt 
+opt -O3    ./C/Output/globalrefs.simple.mcsema/globalrefs.simple.new.bc  -o=./C/Output/globalrefs.simple.mcsema/globalrefs.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/globalrefs.simple.mcsema/globalrefs.simple.new.o ./C/Output/globalrefs.simple.mcsema/globalrefs.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/globalrefs.simple.mcsema/globalrefs.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/globalrefs.simple.mcsema/globalrefs.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/globalrefs.simple.mcsema/globalrefs.simple 2>&1  1>out1 
+./C/Output/globalrefs.simple.mcsema/globalrefs.simple.new.lifted 2>&1  1>out2 
+diff out1 out2 
+6,9d5
+< &TestArray[3] - TestArray = 0x3
+< Xptr - Aptr          = 0x8
+< NextPtr - Xptr       = 0x8
+< 
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/matrixTranspose.simple.mcsema/matrixTranspose.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/matrixTranspose.simple.mcsema/matrixTranspose.simple.cfg  -o ./C/Output/matrixTranspose.simple.mcsema/matrixTranspose.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/matrixTranspose.simple.mcsema/matrixTranspose.simple.new.convert.txt 
+opt -O3    ./C/Output/matrixTranspose.simple.mcsema/matrixTranspose.simple.new.bc  -o=./C/Output/matrixTranspose.simple.mcsema/matrixTranspose.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/matrixTranspose.simple.mcsema/matrixTranspose.simple.new.o ./C/Output/matrixTranspose.simple.mcsema/matrixTranspose.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/matrixTranspose.simple.mcsema/matrixTranspose.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/matrixTranspose.simple.mcsema/matrixTranspose.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/matrixTranspose.simple.mcsema/matrixTranspose.simple 2>&1  1>out1 
+./C/Output/matrixTranspose.simple.mcsema/matrixTranspose.simple.new.lifted 2>&1  1>out2 
+sh: line 1: 29359 Segmentation fault      ./C/Output/matrixTranspose.simple.mcsema/matrixTranspose.simple.new.lifted 2>&1 > out2
+diff out1 out2 
+1,2c1
+< Checksum before = 2096128.000000
+< Checksum  after = 2096128.000000
+---
+> Checksum before = 0.000000
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/pointer_arithmetic.simple.mcsema/pointer_arithmetic.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/pointer_arithmetic.simple.mcsema/pointer_arithmetic.simple.cfg  -o ./C/Output/pointer_arithmetic.simple.mcsema/pointer_arithmetic.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/pointer_arithmetic.simple.mcsema/pointer_arithmetic.simple.new.convert.txt 
+opt -O3    ./C/Output/pointer_arithmetic.simple.mcsema/pointer_arithmetic.simple.new.bc  -o=./C/Output/pointer_arithmetic.simple.mcsema/pointer_arithmetic.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/pointer_arithmetic.simple.mcsema/pointer_arithmetic.simple.new.o ./C/Output/pointer_arithmetic.simple.mcsema/pointer_arithmetic.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/pointer_arithmetic.simple.mcsema/pointer_arithmetic.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/pointer_arithmetic.simple.mcsema/pointer_arithmetic.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/pointer_arithmetic.simple.mcsema/pointer_arithmetic.simple 2>&1  1>out1 
+./C/Output/pointer_arithmetic.simple.mcsema/pointer_arithmetic.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/sumarray.simple.mcsema/sumarray.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/sumarray.simple.mcsema/sumarray.simple.cfg  -o ./C/Output/sumarray.simple.mcsema/sumarray.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/sumarray.simple.mcsema/sumarray.simple.new.convert.txt 
+opt -O3    ./C/Output/sumarray.simple.mcsema/sumarray.simple.new.bc  -o=./C/Output/sumarray.simple.mcsema/sumarray.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/sumarray.simple.mcsema/sumarray.simple.new.o ./C/Output/sumarray.simple.mcsema/sumarray.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/sumarray.simple.mcsema/sumarray.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/sumarray.simple.mcsema/sumarray.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/sumarray.simple.mcsema/sumarray.simple 2>&1  1>out1 
+./C/Output/sumarray.simple.mcsema/sumarray.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/sumarray2d.simple.mcsema/sumarray2d.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/sumarray2d.simple.mcsema/sumarray2d.simple.cfg  -o ./C/Output/sumarray2d.simple.mcsema/sumarray2d.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/sumarray2d.simple.mcsema/sumarray2d.simple.new.convert.txt 
+opt -O3    ./C/Output/sumarray2d.simple.mcsema/sumarray2d.simple.new.bc  -o=./C/Output/sumarray2d.simple.mcsema/sumarray2d.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/sumarray2d.simple.mcsema/sumarray2d.simple.new.o ./C/Output/sumarray2d.simple.mcsema/sumarray2d.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/sumarray2d.simple.mcsema/sumarray2d.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/sumarray2d.simple.mcsema/sumarray2d.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/sumarray2d.simple.mcsema/sumarray2d.simple 2>&1  1>out1 
+./C/Output/sumarray2d.simple.mcsema/sumarray2d.simple.new.lifted 2>&1  1>out2 
+sh: line 1: 29398 Segmentation fault      ./C/Output/sumarray2d.simple.mcsema/sumarray2d.simple.new.lifted 2>&1 > out2
+diff out1 out2 
+1d0
+< Sum(Array[100,100] = 975150
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/sumarraymalloc.simple.mcsema/sumarraymalloc.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/sumarraymalloc.simple.mcsema/sumarraymalloc.simple.cfg  -o ./C/Output/sumarraymalloc.simple.mcsema/sumarraymalloc.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/sumarraymalloc.simple.mcsema/sumarraymalloc.simple.new.convert.txt 
+opt -O3    ./C/Output/sumarraymalloc.simple.mcsema/sumarraymalloc.simple.new.bc  -o=./C/Output/sumarraymalloc.simple.mcsema/sumarraymalloc.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/sumarraymalloc.simple.mcsema/sumarraymalloc.simple.new.o ./C/Output/sumarraymalloc.simple.mcsema/sumarraymalloc.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/sumarraymalloc.simple.mcsema/sumarraymalloc.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/sumarraymalloc.simple.mcsema/sumarraymalloc.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/sumarraymalloc.simple.mcsema/sumarraymalloc.simple 2>&1  1>out1 
+./C/Output/sumarraymalloc.simple.mcsema/sumarraymalloc.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/test_indvars.simple.mcsema/test_indvars.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/test_indvars.simple.mcsema/test_indvars.simple.cfg  -o ./C/Output/test_indvars.simple.mcsema/test_indvars.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/test_indvars.simple.mcsema/test_indvars.simple.new.convert.txt 
+opt -O3    ./C/Output/test_indvars.simple.mcsema/test_indvars.simple.new.bc  -o=./C/Output/test_indvars.simple.mcsema/test_indvars.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/test_indvars.simple.mcsema/test_indvars.simple.new.o ./C/Output/test_indvars.simple.mcsema/test_indvars.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/test_indvars.simple.mcsema/test_indvars.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/test_indvars.simple.mcsema/test_indvars.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/test_indvars.simple.mcsema/test_indvars.simple 2>&1  1>out1 
+./C/Output/test_indvars.simple.mcsema/test_indvars.simple.new.lifted 2>&1  1>out2 
+diff out1 out2 
+1c1
+< Checksum = 17997
+---
+> Checksum = 0
+rm -rf  out1 out 2 
+
+=============================
+./C/Output/testtrace.simple.mcsema/testtrace.simple
+/home/sdasgup3/Github/mcsema/build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/testtrace.simple.mcsema/testtrace.simple.cfg  -o ./C/Output/testtrace.simple.mcsema/testtrace.simple.new.bc  -driver=mcsema_main,main,raw,return,C &> ./C/Output/testtrace.simple.mcsema/testtrace.simple.new.convert.txt 
+opt -O3    ./C/Output/testtrace.simple.mcsema/testtrace.simple.new.bc  -o=./C/Output/testtrace.simple.mcsema/testtrace.simple.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o ./C/Output/testtrace.simple.mcsema/testtrace.simple.new.o ./C/Output/testtrace.simple.mcsema/testtrace.simple.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C/Output/testtrace.simple.mcsema/testtrace.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./C/Output/testtrace.simple.mcsema/testtrace.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/Output/testtrace.simple.mcsema/testtrace.simple 2>&1  1>out1 
+./C/Output/testtrace.simple.mcsema/testtrace.simple.new.lifted 2>&1  1>out2 
+rm -rf  out1 out 2 
+Total: 64
+Diff Error 15
+CFG  Error 11
