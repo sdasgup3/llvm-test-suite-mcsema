@@ -1,0 +1,182 @@
+grep "Unsupported" -A 2 ./Output/2003-05-31-LongShifts.simple.mcsema//convert.log 
+Unsupported!
+40069d 	shlq	%cl, %rbx
+2537
+grep "Unsupported" -A 2 ./Output/2005-05-11-Popcount-ffs-fls.simple.mcsema//convert.log 
+Unsupported!
+400940 	bsrq	%rbx, %rdx
+289
+grep "Unsupported" -A 2 ./Output/2005-05-12-Int64ToFP.simple.mcsema//convert.log 
+Unsupported!
+400614 	movd	%rbx, %xmm1
+1594
+grep "Unsupported" -A 2 ./Output/2005-07-17-INT-To-FP.simple.mcsema//convert.log 
+Unsupported!
+400626 	cvtsi2sdq	%r13, %xmm3
+622
+--
+Unsupported!
+4006ca 	cvtsi2sdq	%rax, %xmm0
+622
+grep "Unsupported" -A 2 ./Output/AtomicOps.simple.mcsema//convert.log 
+Unsupported!
+4006e6 	decq	8(%rsp)
+662
+grep "Unsupported" -A 2 ./Output/initp1.simple.mcsema//convert.log 
+Unsupported!
+4008f4 	shlq	%cl, %rax
+2537
+Unsupported!
+400917 	shlq	%cl, %rdx
+2537
+Unsupported!
+40093a 	shlq	%cl, %rax
+2537
+Unsupported!
+40095d 	shlq	%cl, %rdx
+2537
+Unsupported!
+400980 	shlq	%cl, %rax
+2537
+Unsupported!
+4009a3 	shlq	%cl, %rdx
+2537
+--
+Unsupported!
+4009d0 	shlq	%cl, %rax
+2537
+Unsupported!
+400a03 	shlq	%cl, %rax
+2537
+Unsupported!
+400a37 	shlq	%cl, %rax
+2537
+Unsupported!
+400a42 	orq	$255, %rax
+1808
+Unsupported!
+400a7e 	shlq	%cl, %rax
+2537
+Unsupported!
+400aa1 	shlq	%cl, %rdx
+2537
+Unsupported!
+400ac4 	shlq	%cl, %rax
+2537
+Unsupported!
+400ae7 	shlq	%cl, %rdx
+2537
+Unsupported!
+400b17 	shlq	%cl, %rax
+2537
+Unsupported!
+400b29 	orq	$16383, %rax
+1808
+Unsupported!
+400b61 	shlq	%cl, %rax
+2537
+Unsupported!
+400b80 	shlq	%cl, %rdx
+2537
+Unsupported!
+400b9f 	shlq	%cl, %rax
+2537
+Unsupported!
+400bbe 	shlq	%cl, %rdx
+2537
+grep "Unsupported" -A 2 ./Vector/Output/build.simple.mcsema//convert.log 
+Unsupported!
+400652 	mulps	%xmm2, %xmm2
+1735
+grep "Unsupported" -A 2 ./Vector/Output/build2.simple.mcsema//convert.log 
+Unsupported bit width in write
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/Vector/Output/build2.simple.mcsema/build2.simple.bc
+grep "Unsupported" -A 2 ./Vector/Output/multiplies.simple.mcsema//convert.log 
+Unsupported!
+400615 	cvtsi2sdq	%rdx, %xmm1
+622
+grep "Unsupported" -A 2 ./Vector/Output/simple.simple.mcsema//convert.log 
+Unsupported!
+400699 	unpcklpd	%xmm1, %xmm1
+2842
+grep "Unsupported" -A 2 ./Vector/Output/sumarray-dbl.simple.mcsema//convert.log 
+Unsupported!
+400640 	addpd	6302080(%rax), %xmm0
+112
+Unsupported!
+40066a 	unpckhpd	%xmm1, %xmm1
+2838
+grep "Unsupported" -A 2 ./Vector/Output/sumarray.simple.mcsema//convert.log 
+Unsupported!
+40061d 	cvtdq2ps	%xmm2, %xmm2
+606
+Unsupported!
+400650 	addps	6297232(%rax), %xmm2
+114
+grep "Unsupported" -A 2 ./Vector/SSE/Output/sse.expandfft.simple.mcsema//convert.log 
+Unsupported!
+400dd2 	addps	%xmm4, %xmm5
+115
+Unsupported!
+400d62 	addps	%xmm4, %xmm5
+115
+Unsupported!
+40110d 	addps	%xmm1, %xmm2
+115
+Unsupported!
+40103d 	addps	%xmm5, %xmm6
+115
+Unsupported!
+400f3f 	addps	%xmm5, %xmm6
+115
+grep "Unsupported" -A 2 ./Vector/SSE/Output/sse.isamax.simple.mcsema//convert.log 
+Unsupported bit width in write
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/UnitTests/Vector/SSE/Output/sse.isamax.simple.mcsema/sse.isamax.simple.bc
+grep "Unsupported" -A 2 ./Vector/SSE/Output/sse.shift.simple.mcsema//convert.log 
+Unsupported!
+4005fa 	movd	%xmm0, %rsi
+1664
+grep "Unsupported" -A 2 ./Vector/SSE/Output/sse.stepfft.simple.mcsema//convert.log 
+Unsupported!
+4009d3 	movq	6320256(,%rax,4), %xmm2
+1665
+grep "Unsupported" -A 2 ./Vectorizer/Output/gcc-loops.simple.mcsema//convert.log 
+Unsupported!
+401757 	cmpltps	6357504(%rax), %xmm1
+551
+Total: 111
+Diff Error 0
+CFG  Error 0
+Unsupported  17
+Supported  94
+
+./Output/2003-05-31-LongShifts.simple.mcsema/2003-05-31-LongShifts.simple
+./Output/2005-05-11-Popcount-ffs-fls.simple.mcsema/2005-05-11-Popcount-ffs-fls.simple
+./Output/2005-05-12-Int64ToFP.simple.mcsema/2005-05-12-Int64ToFP.simple
+./Output/2005-07-17-INT-To-FP.simple.mcsema/2005-07-17-INT-To-FP.simple
+./Output/AtomicOps.simple.mcsema/AtomicOps.simple
+./Output/initp1.simple.mcsema/initp1.simple
+
+./Vector/Output/build.simple.mcsema/build.simple
+./Vector/Output/build2.simple.mcsema/build2.simple 1
+./Vector/Output/multiplies.simple.mcsema/multiplies.simple
+./Vector/Output/simple.simple.mcsema/simple.simple
+./Vector/Output/sumarray-dbl.simple.mcsema/sumarray-dbl.simple
+./Vector/Output/sumarray.simple.mcsema/sumarray.simple
+
+2
+./Vector/SSE/Output/sse.expandfft.simple.mcsema/sse.expandfft.simple
+./Vector/SSE/Output/sse.isamax.simple.mcsema/sse.isamax.simple
+./Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple
+./Vector/SSE/Output/sse.stepfft.simple.mcsema/sse.stepfft.simple
+./Vectorizer/Output/gcc-loops.simple.mcsema/gcc-loops.simple
+
+1
+==
+ SSE register return with SSE disabled
+
+
+2
+==
+/home/dsand/Junk/test-suite/SingleSource/UnitTests/Vector/SSE/sse.stepfft.c:186:17: error: always_inline function '_mm_load_ps' requires target feature 'sse', but would be inlined into function 'step' that is compiled without support for 'sse'
+         xmm6 = _mm_load_ps(wr);

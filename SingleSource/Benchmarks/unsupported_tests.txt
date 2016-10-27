@@ -1,0 +1,753 @@
+grep "Unsupported" -A 2 ./Adobe-C++/Output/functionobjects.simple.mcsema//convert.log 
+Unsupported!
+401021 	mulq	%rcx
+1729
+--
+Unsupported!
+4013a2 	bsrq	%rax, %rax
+289
+grep "Unsupported" -A 2 ./Adobe-C++/Output/loop_unroll.simple.mcsema//convert.log 
+Unsupported!
+400fc5 	shufpd	$0, %xmm0, %xmm0
+2602
+grep "Unsupported" -A 2 ./Adobe-C++/Output/simple_types_constant_folding.simple.mcsema//convert.log 
+Unsupported!
+400df8 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+400ec8 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+400f84 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+40127b 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+40134b 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+401407 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+40171b 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+4017eb 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+4018a7 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+401bbb 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+401c8b 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+401d47 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+40205b 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+40212b 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+4021e7 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+402421 	cvttsd2si	2239598(%rip), %rax
+639
+--
+Unsupported!
+4024fb 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+4025cb 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+402687 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+4028c1 	cvttsd2si	2238414(%rip), %rax
+639
+--
+Unsupported!
+402999 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+402a69 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+402b25 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+402d76 	cvttsd2si	%xmm2, %rax
+640
+--
+Unsupported!
+402e69 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+402f39 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+402ff5 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+4033dd 	shufpd	$0, %xmm0, %xmm0
+2602
+grep "Unsupported" -A 2 ./Adobe-C++/Output/simple_types_loop_invariant.simple.mcsema//convert.log 
+Unsupported!
+401903 	cvttsd2si	2209676(%rip), %rax
+639
+Unsupported!
+401938 	cvttsd2si	48(%rsp), %rbx
+639
+--
+Unsupported!
+401dc9 	cvttsd2si	%xmm2, %rax
+640
+Unsupported!
+401e23 	cvttsd2si	%xmm1, %rax
+640
+--
+Unsupported!
+40229d 	shufpd	$0, %xmm0, %xmm0
+2602
+grep "Unsupported" -A 2 ./Adobe-C++/Output/stepanov_vector.simple.mcsema//convert.log 
+Unsupported!
+4026ba 	xorq	$-8, %rdx
+5753
+Unsupported!
+40286a 	xorq	$-8, %rdx
+5753
+--
+Unsupported!
+402a12 	xorq	$-8, %rcx
+5753
+--
+Unsupported!
+40192c 	xorq	$-8, %rcx
+5753
+--
+Unsupported!
+40351a 	xorq	$-8, %rdx
+5753
+--
+Unsupported!
+4036ca 	xorq	$-8, %rdx
+5753
+--
+Unsupported!
+401b1b 	xorq	$-8, %rdx
+5753
+--
+Unsupported!
+403877 	xorq	$-8, %rdx
+5753
+--
+Unsupported!
+401d07 	xorq	$-8, %rcx
+5753
+grep "Unsupported" -A 2 ./BenchmarkGame/Large/Output/fasta.simple.mcsema//convert.log 
+Unsupported!
+4009f1 	mulq	%r12
+1729
+--
+Unsupported!
+400ac1 	mulq	%r12
+1729
+grep "Unsupported" -A 2 ./BenchmarkGame/Output/fannkuch.simple.mcsema//convert.log 
+Unsupported!
+400752 	movd	%rax, %xmm0
+1594
+--
+Unsupported!
+4008a4 	movd	%rcx, %xmm0
+1594
+grep "Unsupported" -A 2 ./BenchmarkGame/Output/n-body.simple.mcsema//convert.log 
+Unsupported!
+400ac6 	movupd	2102682(%rip), %xmm1
+1699
+grep "Unsupported" -A 2 ./BenchmarkGame/Output/partialsums.simple.mcsema//convert.log 
+Unsupported bit width in write
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/BenchmarkGame/Output/partialsums.simple.mcsema/partialsums.simple.bc
+grep "Unsupported" -A 2 ./BenchmarkGame/Output/puzzle.simple.mcsema//convert.log 
+Unsupported!
+400bcf 	imulq	$1103515245, 2102390(%rip), %rcx
+882
+Unsupported!
+400c60 	movd	%rdx, %xmm0
+1594
+Unsupported!
+400d20 	movd	%rdx, %xmm2
+1594
+Unsupported!
+400d6d 	punpckhqdq	%xmm0, %xmm0
+2175
+grep "Unsupported" -A 2 ./BenchmarkGame/Output/spectral-norm.simple.mcsema//convert.log 
+Unsupported!
+400970 	movupd	%xmm0, (%rbx,%rcx,8)
+1698
+Unsupported!
+400b0a 	unpckhpd	%xmm0, %xmm0
+2838
+Unsupported!
+400ae9 	unpcklpd	%xmm2, %xmm2
+2842
+grep "Unsupported" -A 2 ./CoyoteBench/Output/almabench.simple.mcsema//convert.log 
+Unsupported!
+400b0a 	unpcklpd	112(%rsp), %xmm2
+2841
+Unsupported!
+400b93 	movhpd	4203552(%rbp,%r14), %xmm1
+1641
+Unsupported!
+400cba 	unpckhpd	%xmm1, %xmm1
+2838
+--
+Unsupported bit width in write
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/CoyoteBench/Output/almabench.simple.mcsema/almabench.simple.bc
+grep "Unsupported" -A 2 ./CoyoteBench/Output/fftbench.simple.mcsema//convert.log 
+Unsupported!
+401010 	xorq	$123459876, %rcx
+5752
+Unsupported!
+40110f 	mulq	%rcx
+1729
+grep "Unsupported" -A 2 ./CoyoteBench/Output/huffbench.simple.mcsema//convert.log 
+Unsupported!
+401184 	xorq	$123459876, %rax
+5748
+grep "Unsupported" -A 2 ./CoyoteBench/Output/lpbench.simple.mcsema//convert.log 
+Unsupported!
+4012f0 	xorq	$123459876, %rcx
+5752
+Unsupported!
+4013b0 	movupd	-16(%rax,%rdx,8), %xmm0
+1699
+Unsupported!
+4014e0 	movupd	(%rsi,%rbp,8), %xmm3
+1699
+--
+Unsupported!
+401600 	movupd	-16(%rbp), %xmm2
+1699
+grep "Unsupported" -A 2 ./Linpack/Output/linpack-pc.simple.mcsema//convert.log 
+Unsupported!
+4008f0 	addps	6628752(,%rdx,4), %xmm0
+114
+--
+Unsupported!
+400ad0 	addps	6628752(,%rdx,4), %xmm0
+114
+--
+Unsupported!
+400e20 	addps	6628752(,%rdx,4), %xmm0
+114
+--
+Unsupported!
+400ff0 	addps	6628752(,%rdx,4), %xmm0
+114
+Unsupported!
+4011f0 	addps	6628752(,%rdx,4), %xmm0
+114
+--
+Unsupported!
+4014a0 	addps	6307952(%rsi,%rdx,4), %xmm0
+114
+--
+Unsupported!
+401680 	addps	6307952(%rsi,%rdx,4), %xmm0
+114
+grep "Unsupported" -A 2 ./McGill/Output/misr.simple.mcsema//convert.log 
+Unsupported!
+400f13 	movq	(%r15), %xmm0
+1665
+Unsupported!
+400ea4 	cvtsi2sdq	%rcx, %xmm0
+622
+Unsupported!
+400e56 	movq	(%r12), %xmm0
+1665
+Unsupported!
+400c2d 	cvtsi2sdq	%rcx, %xmm0
+622
+Unsupported!
+400bd8 	movq	(%r14), %xmm0
+1665
+Unsupported!
+400f8e 	cvtsi2sdq	%rcx, %xmm0
+622
+--
+Unsupported!
+400d56 	movq	(%r15), %xmm0
+1665
+Unsupported!
+400db9 	cvtsi2sdq	%rcx, %xmm0
+622
+Unsupported!
+400cfa 	cvtsi2sdq	%rcx, %xmm0
+622
+Unsupported!
+400ca5 	movq	(%r15), %xmm0
+1665
+grep "Unsupported" -A 2 ./Misc-C++-EH/Output/spirit.simple.mcsema//convert.log 
+Unsupported!
+4016b1 	decq	8(%rbx)
+662
+Unsupported!
+4016d6 	decq	16(%rbx)
+662
+grep "Unsupported" -A 2 ./Misc-C++/Large/Output/ray.simple.mcsema//convert.log 
+Unsupported!
+4013db 	unpcklpd	%xmm0, %xmm1
+2842
+Unsupported!
+4014ed 	movupd	136(%rsp), %xmm3
+1699
+grep "Unsupported" -A 2 ./Misc-C++/Large/Output/sphereflake.simple.mcsema//convert.log 
+Unsupported!
+400b4e 	mulq	%rcx
+1729
+Unsupported!
+400be4 	mulpd	5684(%rip), %xmm3
+1732
+Unsupported!
+400d7b 	movupd	64(%rsp,%rax,8), %xmm4
+1699
+Unsupported!
+400e41 	mulpd	%xmm1, %xmm4
+1733
+--
+Unsupported bit width in write
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc-C++/Large/Output/sphereflake.simple.mcsema/sphereflake.simple.bc
+grep "Unsupported" -A 2 ./Misc-C++/Output/bigfib.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Misc-C++/Output/stepanov_container.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Misc-C++/Output/stepanov_v1p2.simple.mcsema//convert.log 
+Unsupported!
+400d6e 	cvtsi2sdq	%rax, %xmm0
+622
+Unsupported!
+400e2e 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+400eee 	cvtsi2sdq	%rax, %xmm0
+622
+Unsupported!
+400fae 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+40106d 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+40112d 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+4011ed 	cvtsi2sdq	%rax, %xmm0
+622
+--
+Unsupported!
+4012ad 	cvtsi2sdq	%rax, %xmm0
+622
+grep "Unsupported" -A 2 ./Misc/Output/ReedSolomon.simple.mcsema//convert.log 
+Unsupported!
+4013e1 	xorq	$1, %rax
+5753
+--
+Unsupported!
+4015a1 	xorq	$1, %rcx
+5753
+grep "Unsupported" -A 2 ./Misc/Output/dt.simple.mcsema//convert.log 
+Unsupported!
+4007e0 	movupd	(%rax,%rbx,8), %xmm0
+1699
+grep "Unsupported" -A 2 ./Misc/Output/ffbench.simple.mcsema//convert.log 
+Unsupported!
+4008ec 	cmplesd	%xmm3, %xmm1
+558
+grep "Unsupported" -A 2 ./Misc/Output/flops-1.simple.mcsema//convert.log 
+Unsupported bit width in write
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/Output/flops-1.simple.mcsema/flops-1.simple.bc
+grep "Unsupported" -A 2 ./Misc/Output/flops-2.simple.mcsema//convert.log 
+Unsupported bit width in write
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/Output/flops-2.simple.mcsema/flops-2.simple.bc
+grep "Unsupported" -A 2 ./Misc/Output/flops-3.simple.mcsema//convert.log 
+Unsupported bit width in write
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/Output/flops-3.simple.mcsema/flops-3.simple.bc
+grep "Unsupported" -A 2 ./Misc/Output/flops-4.simple.mcsema//convert.log 
+Unsupported bit width in write
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/Output/flops-4.simple.mcsema/flops-4.simple.bc
+grep "Unsupported" -A 2 ./Misc/Output/flops-5.simple.mcsema//convert.log 
+Unsupported bit width in write
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/Output/flops-5.simple.mcsema/flops-5.simple.bc
+grep "Unsupported" -A 2 ./Misc/Output/flops-6.simple.mcsema//convert.log 
+Unsupported bit width in write
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/Output/flops-6.simple.mcsema/flops-6.simple.bc
+grep "Unsupported" -A 2 ./Misc/Output/flops-7.simple.mcsema//convert.log 
+Unsupported!
+400753 	cvtsi2sdq	%rax, %xmm3
+622
+grep "Unsupported" -A 2 ./Misc/Output/flops-8.simple.mcsema//convert.log 
+Unsupported bit width in write
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/Output/flops-8.simple.mcsema/flops-8.simple.bc
+grep "Unsupported" -A 2 ./Misc/Output/flops.simple.mcsema//convert.log 
+Unsupported!
+4007a0 	cvtsi2sdq	2108207(%rip), %xmm0
+621
+--
+Unsupported!
+400a12 	cvtsi2sdq	2107581(%rip), %xmm0
+621
+--
+Unsupported bit width in write
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/Output/flops.simple.mcsema/flops.simple.bc
+grep "Unsupported" -A 2 ./Misc/Output/fp-convert.simple.mcsema//convert.log 
+Unsupported bit width in write
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/Output/fp-convert.simple.mcsema/fp-convert.simple.bc
+grep "Unsupported" -A 2 ./Misc/Output/mandel-2.simple.mcsema//convert.log 
+Unsupported bit width in write
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/Output/mandel-2.simple.mcsema/mandel-2.simple.bc
+grep "Unsupported" -A 2 ./Misc/Output/matmul_f64_4x4.simple.mcsema//convert.log 
+Unsupported!
+400640 	movupd	(%rdx), %xmm15
+1699
+grep "Unsupported" -A 2 ./Misc/Output/oourafft.simple.mcsema//convert.log 
+Unsupported!
+400a70 	movupd	(%r13,%rax,8), %xmm0
+1699
+--
+Unsupported!
+400cd0 	movupd	(%r13,%rcx,8), %xmm0
+1699
+Unsupported!
+400ed0 	movupd	(%rbx,%rax,8), %xmm0
+1699
+Unsupported!
+40104a 	cmpltsd	%xmm3, %xmm0
+558
+grep "Unsupported" -A 2 ./Misc/Output/perlin.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Misc/Output/pi.simple.mcsema//convert.log 
+Unsupported bit width in write
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Misc/Output/pi.simple.mcsema/pi.simple.bc
+grep "Unsupported" -A 2 ./Misc/Output/richards_benchmark.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Misc/Output/salsa20.simple.mcsema//convert.log 
+Unsupported!
+400928 	movd	%rcx, %xmm0
+1594
+Unsupported!
+400950 	movd	%rax, %xmm3
+1594
+grep "Unsupported" -A 2 ./Misc/Output/whetstone.simple.mcsema//convert.log 
+Unsupported!
+400ec6 	movd	%rax, %xmm0
+1594
+--
+Unsupported!
+400f02 	punpckhqdq	%xmm1, %xmm1
+2175
+grep "Unsupported" -A 2 ./Polybench/datamining/correlation/Output/correlation.simple.mcsema//convert.log 
+Unsupported!
+400b0e 	cmpnlesd	993(%rip), %xmm1
+556
+Unsupported!
+400b90 	movupd	(%r13,%rdi,8), %xmm2
+1699
+grep "Unsupported" -A 2 ./Polybench/datamining/covariance/Output/covariance.simple.mcsema//convert.log 
+Unsupported!
+400a50 	movupd	-16(%r12,%rbx,8), %xmm0
+1699
+grep "Unsupported" -A 2 ./Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema//convert.log 
+Unsupported!
+400ac4 	shufpd	$0, %xmm0, %xmm0
+2602
+grep "Unsupported" -A 2 ./Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema//convert.log 
+Unsupported!
+400b54 	decl	36(%rsp)
+660
+grep "Unsupported" -A 2 ./Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema//convert.log 
+Unsupported bit width in write
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.simple.bc
+grep "Unsupported" -A 2 ./Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema//convert.log 
+Unsupported!
+400a30 	movupd	-16(%rsi), %xmm1
+1699
+grep "Unsupported" -A 2 ./Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema//convert.log 
+Unsupported!
+4009f0 	movupd	-16(%rsi), %xmm1
+1699
+grep "Unsupported" -A 2 ./Polybench/stencils/adi/Output/adi.simple.mcsema//convert.log 
+Unsupported!
+400e60 	movupd	8380416(%rbx,%rax,8), %xmm0
+1699
+Unsupported!
+400c20 	movupd	(%r9), %xmm0
+1699
+Unsupported!
+400f90 	movupd	(%rax), %xmm0
+1699
+grep "Unsupported" -A 2 ./Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema//convert.log 
+Unsupported!
+400ab5 	shufpd	$0, %xmm4, %xmm4
+2602
+Unsupported!
+400bc0 	movupd	(%rcx), %xmm4
+1699
+Unsupported!
+400c90 	movupd	(%rcx), %xmm4
+1699
+Unsupported!
+400dc0 	movupd	(%r8), %xmm4
+1699
+grep "Unsupported" -A 2 ./Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema//convert.log 
+Unsupported bit width in write
+Saved bitcode to /home/ed/mcsema-testing/SANDBOX/test-2015-12-21_15-36-50/SingleSource/Benchmarks/Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.simple.bc
+grep "Unsupported" -A 2 ./Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema//convert.log 
+Unsupported!
+4009d0 	movupd	(%rbx,%rdi,8), %xmm2
+1699
+Unsupported!
+400ab0 	movupd	-16(%r14,%rax,8), %xmm2
+1699
+grep "Unsupported" -A 2 ./Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema//convert.log 
+Unsupported!
+400a70 	movupd	8000(%rcx), %xmm2
+1699
+Unsupported!
+400c90 	movupd	-16(%rcx), %xmm2
+1699
+grep "Unsupported" -A 2 ./Shootout-C++/EH/Output/except.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Shootout-C++/Output/ackermann.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Shootout-C++/Output/ary.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Shootout-C++/Output/ary2.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Shootout-C++/Output/ary3.simple.mcsema//convert.log 
+Unsupported!
+400ce0 	movd	%rcx, %xmm4
+1594
+grep "Unsupported" -A 2 ./Shootout-C++/Output/fibo.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Shootout-C++/Output/hash.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Shootout-C++/Output/hash2.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Shootout-C++/Output/heapsort.simple.mcsema//convert.log 
+Unsupported!
+4009df 	cvtsi2sdq	%rcx, %xmm1
+622
+grep "Unsupported" -A 2 ./Shootout-C++/Output/hello.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Shootout-C++/Output/lists.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Shootout-C++/Output/lists1.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Shootout-C++/Output/matrix.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Shootout-C++/Output/methcall.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Shootout-C++/Output/moments.simple.mcsema//convert.log 
+Unsupported!
+40097f 	cvtsi2sdq	%rax, %xmm0
+622
+grep "Unsupported" -A 2 ./Shootout-C++/Output/nestedloop.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Shootout-C++/Output/objinst.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Shootout-C++/Output/random.simple.mcsema//convert.log 
+Unsupported!
+4009f0 	cvtsi2sdq	%rsi, %xmm0
+622
+grep "Unsupported" -A 2 ./Shootout-C++/Output/reversefile.simple.mcsema//convert.log 
+Unsupported!
+4010b6 	movd	%xmm0, %rdx
+1664
+--
+Unsupported!
+40112e 	movd	%xmm1, %rax
+1664
+Unsupported!
+40114b 	movd	%rax, %xmm1
+1594
+Unsupported!
+4010f0 	movd	%rax, %xmm0
+1594
+grep "Unsupported" -A 2 ./Shootout-C++/Output/sieve.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Shootout-C++/Output/spellcheck.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Shootout-C++/Output/strcat.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Shootout-C++/Output/sumcol.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Shootout-C++/Output/wc.simple.mcsema//convert.log 
+Unsupported!
+400aa1 	btq	%rdx, %r13
+303
+grep "Unsupported" -A 2 ./Shootout-C++/Output/wordfreq.simple.mcsema//convert.log 
+Unsupported!
+400f9f 	bsrq	%rax, %rdx
+289
+grep "Unsupported" -A 2 ./Shootout/Output/ary3.simple.mcsema//convert.log 
+Unsupported!
+400760 	movd	%rax, %xmm4
+1594
+grep "Unsupported" -A 2 ./Shootout/Output/heapsort.simple.mcsema//convert.log 
+Unsupported!
+40088f 	cvtsi2sdq	%rcx, %xmm1
+622
+grep "Unsupported" -A 2 ./Shootout/Output/methcall.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Shootout/Output/objinst.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./Shootout/Output/random.simple.mcsema//convert.log 
+Unsupported!
+4006b7 	cvtsi2sdq	%rsi, %xmm0
+622
+grep "Unsupported" -A 2 ./SmallPT/Output/smallpt.simple.mcsema//convert.log 
+Unsupported!
+401913 	pslldq	$8, %xmm0
+2124
+Unsupported!
+401a10 	movupd	%xmm0, (%rax,%rcx)
+1698
+--
+Unsupported!
+401f26 	movupd	(%rbp), %xmm0
+1699
+Unsupported!
+401cf8 	mulpd	208(%rsp), %xmm0
+1732
+Unsupported!
+401e97 	unpckhpd	%xmm2, %xmm2
+2838
+Unsupported!
+401eda 	unpcklpd	%xmm1, %xmm0
+2842
+Unsupported!
+401eb5 	cmpltsd	%xmm6, %xmm2
+558
+grep "Unsupported" -A 2 ./Stanford/Output/Bubblesort.simple.mcsema//convert.log 
+Unsupported!
+400775 	mulq	%rbx
+1729
+grep "Unsupported" -A 2 ./Stanford/Output/Puzzle.simple.mcsema//convert.log 
+Unsupported!
+401006 	decl	6344032(,%rax,4)
+660
+grep "Unsupported" -A 2 ./Stanford/Output/Quicksort.simple.mcsema//convert.log 
+Unsupported!
+400825 	mulq	%rdi
+1729
+grep "Unsupported" -A 2 ./Stanford/Output/Treesort.simple.mcsema//convert.log 
+Unsupported!
+4008b5 	mulq	%rdi
+1729
+Total: 138
+Diff Error 0
+CFG  Error 0
+Unsupported  91
+Supported  47
+./Adobe-C++/Output/functionobjects.simple.mcsema/functionobjects.simple
+./Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.simple
+./Adobe-C++/Output/simple_types_constant_folding.simple.mcsema/simple_types_constant_folding.simple
+./Adobe-C++/Output/simple_types_loop_invariant.simple.mcsema/simple_types_loop_invariant.simple
+./Adobe-C++/Output/stepanov_vector.simple.mcsema/stepanov_vector.simple
+./BenchmarkGame/Large/Output/fasta.simple.mcsema/fasta.simple
+./BenchmarkGame/Output/fannkuch.simple.mcsema/fannkuch.simple
+./BenchmarkGame/Output/n-body.simple.mcsema/n-body.simple
+./BenchmarkGame/Output/partialsums.simple.mcsema/partialsums.simple
+./BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.simple
+./BenchmarkGame/Output/spectral-norm.simple.mcsema/spectral-norm.simple
+./CoyoteBench/Output/almabench.simple.mcsema/almabench.simple
+./CoyoteBench/Output/fftbench.simple.mcsema/fftbench.simple
+./CoyoteBench/Output/huffbench.simple.mcsema/huffbench.simple
+./CoyoteBench/Output/lpbench.simple.mcsema/lpbench.simple
+./Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.simple
+./McGill/Output/misr.simple.mcsema/misr.simple
+./Misc-C++-EH/Output/spirit.simple.mcsema/spirit.simple
+./Misc-C++/Large/Output/ray.simple.mcsema/ray.simple
+./Misc-C++/Large/Output/sphereflake.simple.mcsema/sphereflake.simple
+./Misc-C++/Output/bigfib.simple.mcsema/bigfib.simple
+./Misc-C++/Output/stepanov_container.simple.mcsema/stepanov_container.simple
+./Misc-C++/Output/stepanov_v1p2.simple.mcsema/stepanov_v1p2.simple
+./Misc/Output/ReedSolomon.simple.mcsema/ReedSolomon.simple
+./Misc/Output/dt.simple.mcsema/dt.simple
+./Misc/Output/ffbench.simple.mcsema/ffbench.simple
+./Misc/Output/flops-1.simple.mcsema/flops-1.simple
+./Misc/Output/flops-2.simple.mcsema/flops-2.simple
+./Misc/Output/flops-3.simple.mcsema/flops-3.simple
+./Misc/Output/flops-4.simple.mcsema/flops-4.simple
+./Misc/Output/flops-5.simple.mcsema/flops-5.simple
+./Misc/Output/flops-6.simple.mcsema/flops-6.simple
+./Misc/Output/flops-7.simple.mcsema/flops-7.simple
+./Misc/Output/flops-8.simple.mcsema/flops-8.simple
+./Misc/Output/flops.simple.mcsema/flops.simple
+./Misc/Output/fp-convert.simple.mcsema/fp-convert.simple
+./Misc/Output/mandel-2.simple.mcsema/mandel-2.simple
+./Misc/Output/matmul_f64_4x4.simple.mcsema/matmul_f64_4x4.simple
+./Misc/Output/oourafft.simple.mcsema/oourafft.simple
+./Misc/Output/perlin.simple.mcsema/perlin.simple
+./Misc/Output/pi.simple.mcsema/pi.simple
+./Misc/Output/richards_benchmark.simple.mcsema/richards_benchmark.simple
+./Misc/Output/salsa20.simple.mcsema/salsa20.simple
+./Misc/Output/whetstone.simple.mcsema/whetstone.simple
+./Polybench/datamining/correlation/Output/correlation.simple.mcsema/correlation.simple
+./Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.simple
+./Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.simple
+./Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema/cholesky.simple
+./Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.simple
+./Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.simple
+./Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.simple
+./Polybench/stencils/adi/Output/adi.simple.mcsema/adi.simple
+./Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.simple
+./Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.simple
+./Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.simple
+./Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.simple
+./Shootout-C++/EH/Output/except.simple.mcsema/except.simple
+./Shootout-C++/Output/ackermann.simple.mcsema/ackermann.simple
+./Shootout-C++/Output/ary.simple.mcsema/ary.simple
+./Shootout-C++/Output/ary2.simple.mcsema/ary2.simple
+./Shootout-C++/Output/ary3.simple.mcsema/ary3.simple
+./Shootout-C++/Output/fibo.simple.mcsema/fibo.simple
+./Shootout-C++/Output/hash.simple.mcsema/hash.simple
+./Shootout-C++/Output/hash2.simple.mcsema/hash2.simple
+./Shootout-C++/Output/heapsort.simple.mcsema/heapsort.simple
+./Shootout-C++/Output/hello.simple.mcsema/hello.simple
+./Shootout-C++/Output/lists.simple.mcsema/lists.simple
+./Shootout-C++/Output/lists1.simple.mcsema/lists1.simple
+./Shootout-C++/Output/matrix.simple.mcsema/matrix.simple
+./Shootout-C++/Output/methcall.simple.mcsema/methcall.simple
+./Shootout-C++/Output/moments.simple.mcsema/moments.simple
+./Shootout-C++/Output/nestedloop.simple.mcsema/nestedloop.simple
+./Shootout-C++/Output/objinst.simple.mcsema/objinst.simple
+./Shootout-C++/Output/random.simple.mcsema/random.simple
+./Shootout-C++/Output/reversefile.simple.mcsema/reversefile.simple
+./Shootout-C++/Output/sieve.simple.mcsema/sieve.simple
+./Shootout-C++/Output/spellcheck.simple.mcsema/spellcheck.simple
+./Shootout-C++/Output/strcat.simple.mcsema/strcat.simple
+./Shootout-C++/Output/sumcol.simple.mcsema/sumcol.simple
+./Shootout-C++/Output/wc.simple.mcsema/wc.simple
+./Shootout-C++/Output/wordfreq.simple.mcsema/wordfreq.simple
+./Shootout/Output/ary3.simple.mcsema/ary3.simple
+./Shootout/Output/heapsort.simple.mcsema/heapsort.simple
+./Shootout/Output/methcall.simple.mcsema/methcall.simple
+./Shootout/Output/objinst.simple.mcsema/objinst.simple
+./Shootout/Output/random.simple.mcsema/random.simple
+./SmallPT/Output/smallpt.simple.mcsema/smallpt.simple
+./Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple
+./Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple
+./Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple
+./Stanford/Output/Treesort.simple.mcsema/Treesort.simple

@@ -1,0 +1,67 @@
+grep "Unsupported" -A 2 ./C++/EH/Output/class_hierarchy.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./C++/EH/Output/ctor_dtor_count-2.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./C++/EH/Output/ctor_dtor_count.simple.mcsema//convert.log 
+Unsupported!
+400b83 	decl	2102755(%rip)
+660
+grep "Unsupported" -A 2 ./C++/EH/Output/exception_spec_test.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./C++/EH/Output/function_try_block.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./C++/EH/Output/inlined_cleanup.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./C++/EH/Output/recursive-throw.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./C++/EH/Output/simple_rethrow.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./C++/EH/Output/simple_throw.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./C++/EH/Output/throw_rethrow_test.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./C++/Output/ofstream_ctor.simple.mcsema//convert.log 
+grep "Unsupported" -A 2 ./C/Output/DuffsDevice.simple.mcsema//convert.log 
+Unsupported!
+4006f2 	pshufhw	$8, %xmm4, %xmm4
+2115
+grep "Unsupported" -A 2 ./C/Output/casts.simple.mcsema//convert.log 
+Unsupported!
+400958 	cvttss2si	%xmm1, %rbx
+644
+grep "Unsupported" -A 2 ./C/Output/globalrefs.simple.mcsema//convert.log 
+Unsupported!
+4006df 	mulq	%rdx
+1729
+grep "Unsupported" -A 2 ./C/Output/test_indvars.simple.mcsema//convert.log 
+Unsupported!
+4006b0 	movd	%rax, %xmm1
+1594
+grep "Unsupported" -A 2 ./C/Output/uint64_to_float.simple.mcsema//convert.log 
+Unsupported!
+40090c 	shlq	%cl, %rdi
+2537
+Unsupported!
+40094e 	shlq	%cl, %r15
+2537
+--
+Unsupported!
+4009d1 	shlq	%cl, %r14
+2537
+Unsupported!
+400a96 	shlq	%cl, %r12
+2537
+Total: 65
+Diff Error 0
+CFG  Error 0
+Unsupported  16
+Supported  49
+
+./C++/EH/Output/class_hierarchy.simple.mcsema/class_hierarchy.simple
+./C++/EH/Output/ctor_dtor_count-2.simple.mcsema/ctor_dtor_count-2.simple
+./C++/EH/Output/ctor_dtor_count.simple.mcsema/ctor_dtor_count.simple
+./C++/EH/Output/exception_spec_test.simple.mcsema/exception_spec_test.simple
+./C++/EH/Output/function_try_block.simple.mcsema/function_try_block.simple
+./C++/EH/Output/inlined_cleanup.simple.mcsema/inlined_cleanup.simple
+./C++/EH/Output/recursive-throw.simple.mcsema/recursive-throw.simple
+./C++/EH/Output/simple_rethrow.simple.mcsema/simple_rethrow.simple
+./C++/EH/Output/simple_throw.simple.mcsema/simple_throw.simple
+./C++/EH/Output/throw_rethrow_test.simple.mcsema/throw_rethrow_test.simple
+./C++/Output/ofstream_ctor.simple.mcsema/ofstream_ctor.simple
+
+./C/Output/DuffsDevice.simple.mcsema/DuffsDevice.simple
+./C/Output/casts.simple.mcsema/casts.simple
+./C/Output/globalrefs.simple.mcsema/globalrefs.simple
+./C/Output/test_indvars.simple.mcsema/test_indvars.simple
+./C/Output/uint64_to_float.simple.mcsema/uint64_to_float.simple 1
