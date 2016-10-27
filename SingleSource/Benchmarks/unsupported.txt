@@ -1,0 +1,142 @@
+401021 	mulq	%rcx
+4013a2 	bsrq	%rax, %rax
+400fc5 	shufpd	$0, %xmm0, %xmm0
+400df8 	cvtsi2sdq	%rax, %xmm0
+400ec8 	cvtsi2sdq	%rax, %xmm0
+400f84 	cvtsi2sdq	%rax, %xmm0
+40127b 	cvtsi2sdq	%rax, %xmm0
+40134b 	cvtsi2sdq	%rax, %xmm0
+401407 	cvtsi2sdq	%rax, %xmm0
+40171b 	cvtsi2sdq	%rax, %xmm0
+4017eb 	cvtsi2sdq	%rax, %xmm0
+4018a7 	cvtsi2sdq	%rax, %xmm0
+401bbb 	cvtsi2sdq	%rax, %xmm0
+401c8b 	cvtsi2sdq	%rax, %xmm0
+401d47 	cvtsi2sdq	%rax, %xmm0
+40205b 	cvtsi2sdq	%rax, %xmm0
+40212b 	cvtsi2sdq	%rax, %xmm0
+4021e7 	cvtsi2sdq	%rax, %xmm0
+402421 	cvttsd2si	2239598(%rip), %rax
+4024fb 	cvtsi2sdq	%rax, %xmm0
+4025cb 	cvtsi2sdq	%rax, %xmm0
+402687 	cvtsi2sdq	%rax, %xmm0
+4028c1 	cvttsd2si	2238414(%rip), %rax
+402999 	cvtsi2sdq	%rax, %xmm0
+402a69 	cvtsi2sdq	%rax, %xmm0
+402b25 	cvtsi2sdq	%rax, %xmm0
+402d76 	cvttsd2si	%xmm2, %rax
+402e69 	cvtsi2sdq	%rax, %xmm0
+402f39 	cvtsi2sdq	%rax, %xmm0
+402ff5 	cvtsi2sdq	%rax, %xmm0
+4033dd 	shufpd	$0, %xmm0, %xmm0
+401903 	cvttsd2si	2209676(%rip), %rax
+401938 	cvttsd2si	48(%rsp), %rbx
+401dc9 	cvttsd2si	%xmm2, %rax
+401e23 	cvttsd2si	%xmm1, %rax
+40229d 	shufpd	$0, %xmm0, %xmm0
+4009f1 	mulq	%r12
+400ac1 	mulq	%r12
+400752 	movd	%rax, %xmm0
+4008a4 	movd	%rcx, %xmm0
+400ac6 	movupd	2102682(%rip), %xmm1
+400bcf 	imulq	$1103515245, 2102390(%rip), %rcx
+400c60 	movd	%rdx, %xmm0
+400d20 	movd	%rdx, %xmm2
+400d6d 	punpckhqdq	%xmm0, %xmm0
+400970 	movupd	%xmm0, (%rbx,%rcx,8)
+400b0a 	unpckhpd	%xmm0, %xmm0
+400ae9 	unpcklpd	%xmm2, %xmm2
+400b0a 	unpcklpd	112(%rsp), %xmm2
+400b93 	movhpd	4203552(%rbp,%r14), %xmm1
+400cba 	unpckhpd	%xmm1, %xmm1
+401010 	xorq	$123459876, %rcx
+40110f 	mulq	%rcx
+401184 	xorq	$123459876, %rax
+4012f0 	xorq	$123459876, %rcx
+4014e0 	movupd	(%rsi,%rbp,8), %xmm3
+4008f0 	addps	6628752(,%rdx,4), %xmm0
+400ad0 	addps	6628752(,%rdx,4), %xmm0
+400e20 	addps	6628752(,%rdx,4), %xmm0
+400ff0 	addps	6628752(,%rdx,4), %xmm0
+4011f0 	addps	6628752(,%rdx,4), %xmm0
+4014a0 	addps	6307952(%rsi,%rdx,4), %xmm0
+401680 	addps	6307952(%rsi,%rdx,4), %xmm0
+400f13 	movq	(%r15), %xmm0
+400ea4 	cvtsi2sdq	%rcx, %xmm0
+400e56 	movq	(%r12), %xmm0
+400c2d 	cvtsi2sdq	%rcx, %xmm0
+400bd8 	movq	(%r14), %xmm0
+400f8e 	cvtsi2sdq	%rcx, %xmm0
+400d56 	movq	(%r15), %xmm0
+400db9 	cvtsi2sdq	%rcx, %xmm0
+400cfa 	cvtsi2sdq	%rcx, %xmm0
+400ca5 	movq	(%r15), %xmm0
+4016b1 	decq	8(%rbx)
+4016d6 	decq	16(%rbx)
+4013db 	unpcklpd	%xmm0, %xmm1
+4014ed 	movupd	136(%rsp), %xmm3
+400b4e 	mulq	%rcx
+400be4 	mulpd	5684(%rip), %xmm3
+400d7b 	movupd	64(%rsp,%rax,8), %xmm4
+400e41 	mulpd	%xmm1, %xmm4
+400d6e 	cvtsi2sdq	%rax, %xmm0
+400e2e 	cvtsi2sdq	%rax, %xmm0
+400eee 	cvtsi2sdq	%rax, %xmm0
+400fae 	cvtsi2sdq	%rax, %xmm0
+40106d 	cvtsi2sdq	%rax, %xmm0
+40112d 	cvtsi2sdq	%rax, %xmm0
+4011ed 	cvtsi2sdq	%rax, %xmm0
+4012ad 	cvtsi2sdq	%rax, %xmm0
+4013e1 	xorq	$1, %rax
+4015a1 	xorq	$1, %rcx
+4007e0 	movupd	(%rax,%rbx,8), %xmm0
+4008ec 	cmplesd	%xmm3, %xmm1
+400753 	cvtsi2sdq	%rax, %xmm3
+4007a0 	cvtsi2sdq	2108207(%rip), %xmm0
+400a12 	cvtsi2sdq	2107581(%rip), %xmm0
+400640 	movupd	(%rdx), %xmm15
+400a70 	movupd	(%r13,%rax,8), %xmm0
+400cd0 	movupd	(%r13,%rcx,8), %xmm0
+400ed0 	movupd	(%rbx,%rax,8), %xmm0
+40104a 	cmpltsd	%xmm3, %xmm0
+400928 	movd	%rcx, %xmm0
+400950 	movd	%rax, %xmm3
+400ec6 	movd	%rax, %xmm0
+400f02 	punpckhqdq	%xmm1, %xmm1
+400b0e 	cmpnlesd	993(%rip), %xmm1
+400b90 	movupd	(%r13,%rdi,8), %xmm2
+400ac4 	shufpd	$0, %xmm0, %xmm0
+400b54 	decl	36(%rsp)
+400e60 	movupd	8380416(%rbx,%rax,8), %xmm0
+400c20 	movupd	(%r9), %xmm0
+400f90 	movupd	(%rax), %xmm0
+400ab5 	shufpd	$0, %xmm4, %xmm4
+400bc0 	movupd	(%rcx), %xmm4
+400c90 	movupd	(%rcx), %xmm4
+400dc0 	movupd	(%r8), %xmm4
+4009d0 	movupd	(%rbx,%rdi,8), %xmm2
+400a70 	movupd	8000(%rcx), %xmm2
+400ce0 	movd	%rcx, %xmm4
+4009df 	cvtsi2sdq	%rcx, %xmm1
+40097f 	cvtsi2sdq	%rax, %xmm0
+4009f0 	cvtsi2sdq	%rsi, %xmm0
+4010b6 	movd	%xmm0, %rdx
+40112e 	movd	%xmm1, %rax
+40114b 	movd	%rax, %xmm1
+4010f0 	movd	%rax, %xmm0
+400aa1 	btq	%rdx, %r13
+400f9f 	bsrq	%rax, %rdx
+400760 	movd	%rax, %xmm4
+40088f 	cvtsi2sdq	%rcx, %xmm1
+4006b7 	cvtsi2sdq	%rsi, %xmm0
+401913 	pslldq	$8, %xmm0
+401a10 	movupd	%xmm0, (%rax,%rcx)
+401f26 	movupd	(%rbp), %xmm0
+401cf8 	mulpd	208(%rsp), %xmm0
+401e97 	unpckhpd	%xmm2, %xmm2
+401eda 	unpcklpd	%xmm1, %xmm0
+401eb5 	cmpltsd	%xmm6, %xmm2
+400775 	mulq	%rbx
+401006 	decl	6344032(,%rax,4)
+400825 	mulq	%rdi
+4008b5 	mulq	%rdi

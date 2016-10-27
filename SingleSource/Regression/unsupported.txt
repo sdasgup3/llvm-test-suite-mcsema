@@ -1,0 +1,15 @@
+400b83 	decl	2102755(%rip)
+4006f2 	pshufhw	$8, %xmm4, %xmm4
+400958 	cvttss2si	%xmm1, %rbx
+4006df 	mulq	%rdx
+4006b0 	movd	%rax, %xmm1
+40090c 	shlq	%cl, %rdi
+400922 	shlq	%cl, %rdi
+40094e 	shlq	%cl, %r15
+40096e 	shlq	%cl, %rbx
+4009d1 	shlq	%cl, %r14
+4009ef 	shlq	%cl, %rbp
+400a96 	shlq	%cl, %r12
+400ab1 	shlq	%cl, %r14
+400772 	bsrq	%rdx, %rcx
+4007a9 	shlq	%cl, %rdi
