@@ -71,9 +71,9 @@ doCallPCtarget address : 400640
 doCallPCtarget address : 400530
 doCallPCtarget address : 400510
 doCallPCExtern paramCount  : 1 : puts
-1 : 2454ea0
+1 : 1cd6ea0
 doCallPCExtern paramCount  : 0 : abort
-0 : 2444730
+0 : 1cc6730
 doCallPCExtern: Adding Unreachable Instruction
 translate_MOV32mi: Other reloc
 Adding entry point: mcsema_main

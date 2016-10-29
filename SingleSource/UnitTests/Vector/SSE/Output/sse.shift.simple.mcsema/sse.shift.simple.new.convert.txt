@@ -62,27 +62,4 @@ dataSectionToTypesContents : 601040 8
 Unsupported!
 4005fa 	movd	%xmm0, %rsi
 1664
-Unsupported!
-4005ff 	punpckhqdq	%xmm0, %xmm0
-2175
-Unsupported!
-400603 	movd	%xmm0, %rcx
-1664
-shouldSubtractImageBase: Not on Win32
-Unsupported!
-40062b 	movd	%xmm0, %rsi
-1664
-Unsupported!
-400630 	punpckhqdq	%xmm0, %xmm0
-2175
-Unsupported!
-400634 	movd	%xmm0, %rcx
-1664
-shouldSubtractImageBase: Not on Win32
-doCallPCtarget address : 4004d0
-doCallPCtarget address : 4004d0
-doCallPCExtern paramCount  : 12 : printf
-12 : 2cabaa0
-Adding entry point: mcsema_main
-in : doPostAnalysis
-registering passes
+Failure to convert to LLVM module!

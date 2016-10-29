@@ -67,10 +67,10 @@ shouldSubtractImageBase: Not on Win32
 !!!WARNING WARNING WARNING!!!
 	Assuming all callbacks are to translated code!!!
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d7faa0
+1 : 1495aa0
 shouldSubtractImageBase: Not on Win32
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d7faa0
+1 : 1495aa0
 Adding entry point: mcsema_main
 in : doPostAnalysis
 registering passes

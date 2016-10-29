@@ -66,9 +66,9 @@ shouldSubtractImageBase: Not on Win32
 doCallPCtarget address : 400510
 doCallPCtarget address : 400530
 doCallPCExtern paramCount  : 1 : putchar
-1 : 188eaa0
+1 : 2aa7aa0
 doCallPCExtern paramCount  : 12 : printf
-12 : 188eaa0
+12 : 2aa7aa0
 Adding entry point: mcsema_main
 in : doPostAnalysis
 registering passes

@@ -63,18 +63,5 @@ shouldSubtractImageBase: Not on Win32
 Unsupported!
 400652 	mulps	%xmm2, %xmm2
 1735
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-Unsupported!
-4006c4 	addps	%xmm2, %xmm2
-115
-shouldSubtractImageBase: Not on Win32
 doCallPCtarget address : 4004d0
-doCallPCtarget address : 4004d0
-doCallPCtarget address : 4004d0
-doCallPCtarget address : 4004d0
-doCallPCExtern paramCount  : 12 : printf
-12 : 2200aa0
-Adding entry point: mcsema_main
-in : doPostAnalysis
-registering passes
+Failure to convert to LLVM module!

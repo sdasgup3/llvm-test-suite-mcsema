@@ -101,18 +101,6 @@ shouldSubtractImageBase: Not on Win32
 Unsupported!
 4009d3 	movq	6320256(,%rax,4), %xmm2
 1665
-Unsupported!
-4009dc 	movq	6303872(,%rax,4), %xmm0
-1665
-Unsupported!
-4009e5 	mulps	%xmm3, %xmm0
-1735
-Unsupported!
-4009e8 	subps	%xmm0, %xmm2
-2708
-Unsupported!
-4009eb 	mulps	%xmm2, %xmm2
-1735
 shouldSubtractImageBase: Not on Win32
 shouldSubtractImageBase: Not on Win32
 doCallPCtarget address : 4006b0
@@ -128,55 +116,4 @@ doCallPCtarget address : 400660
 doCallPCtarget address : 4006e0
 doCallPCtarget address : 400660
 doCallPCtarget address : 400680
-doCallPCExtern paramCount  : 1 : putchar
-1 : 2362aa0
-doCallPCExtern paramCount  : 12 : printf
-12 : 2362aa0
-doCallPCExtern paramCount  : 2 : fmod
-2 : 2362aa0
-Unsupported!
-400ebd 	addps	%xmm4, %xmm5
-115
-Unsupported!
-400ec5 	subps	%xmm4, %xmm3
-2708
-Unsupported!
-400ecd 	mulps	%xmm1, %xmm3
-1735
-Unsupported!
-400ed0 	mulps	%xmm2, %xmm4
-1735
-Unsupported!
-400ed3 	addps	%xmm3, %xmm4
-115
-Unsupported!
-40102c 	addps	%xmm4, %xmm5
-115
-Unsupported!
-401034 	subps	%xmm4, %xmm3
-2708
-Unsupported!
-40103c 	mulps	%xmm1, %xmm3
-1735
-Unsupported!
-40103f 	mulps	%xmm2, %xmm4
-1735
-Unsupported!
-401042 	addps	%xmm3, %xmm4
-115
-doCallPCtarget address : 4006d0
-doCallPCtarget address : 400d80
-doCallPCtarget address : 400d80
-doCallPCtarget address : 400d80
-doCallPCtarget address : 400d80
-doCallPCExtern paramCount  : 1 : log
-1 : 2362aa0
-doCallPCExtern paramCount  : 1 : cos
-1 : 2362aa0
-doCallPCExtern paramCount  : 1 : sin
-1 : 2362aa0
-doCallPCExtern paramCount  : 1 : sqrtf
-1 : 2362aa0
-Adding entry point: mcsema_main
-in : doPostAnalysis
-registering passes
+Failure to convert to LLVM module!

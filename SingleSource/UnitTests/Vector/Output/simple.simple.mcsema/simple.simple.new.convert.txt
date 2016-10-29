@@ -62,47 +62,4 @@ dataSectionToTypesContents : 601040 8
 Unsupported!
 400699 	unpcklpd	%xmm1, %xmm1
 2842
-Unsupported!
-4006a9 	movhpd	4196504(,%rax,8), %xmm0
-1641
-Unsupported!
-4006b2 	mulps	%xmm3, %xmm3
-1735
-Unsupported!
-4006b5 	addps	%xmm5, %xmm5
-115
-Unsupported!
-4006bc 	addps	%xmm4, %xmm4
-115
-Unsupported!
-4006c4 	addps	%xmm2, %xmm2
-115
-Unsupported!
-4006cc 	addpd	%xmm1, %xmm1
-113
-Unsupported!
-4006d6 	addpd	%xmm0, %xmm0
-113
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-Unsupported!
-4007b1 	unpckhpd	%xmm1, %xmm1
-2838
-shouldSubtractImageBase: Not on Win32
-Unsupported!
-4007cb 	unpckhpd	%xmm1, %xmm1
-2838
-shouldSubtractImageBase: Not on Win32
-doCallPCtarget address : 4004d0
-doCallPCtarget address : 4004d0
-doCallPCtarget address : 4004d0
-doCallPCtarget address : 4004d0
-doCallPCtarget address : 4004d0
-doCallPCtarget address : 4004d0
-doCallPCExtern paramCount  : 12 : printf
-12 : 2e5faa0
-Adding entry point: mcsema_main
-in : doPostAnalysis
-registering passes
+Failure to convert to LLVM module!

@@ -66,7 +66,7 @@ shouldSubtractImageBase: Not on Win32
 doCallPCtarget address : 4004d0
 doCallPCtarget address : 4004d0
 doCallPCExtern paramCount  : 0 : abort
-0 : 28d66b0
+0 : 1f166b0
 doCallPCExtern: Adding Unreachable Instruction
 Adding entry point: mcsema_main
 in : doPostAnalysis

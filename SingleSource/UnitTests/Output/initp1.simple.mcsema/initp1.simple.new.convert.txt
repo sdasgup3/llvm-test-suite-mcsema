@@ -67,52 +67,28 @@ Unsupported!
 4008f4 	shlq	%cl, %rax
 2537
 Unsupported!
-4008f7 	btq	%rcx, %rdx
-303
-Unsupported!
 400917 	shlq	%cl, %rdx
 2537
-Unsupported!
-40091a 	btq	%rcx, %rax
-303
 Unsupported!
 40093a 	shlq	%cl, %rax
 2537
 Unsupported!
-40093d 	btq	%rcx, %rdx
-303
-Unsupported!
 40095d 	shlq	%cl, %rdx
 2537
-Unsupported!
-400960 	btq	%rcx, %rax
-303
 Unsupported!
 400980 	shlq	%cl, %rax
 2537
 Unsupported!
-400983 	btq	%rcx, %rdx
-303
-Unsupported!
 4009a3 	shlq	%cl, %rdx
 2537
-Unsupported!
-4009a6 	btq	%rcx, %rax
-303
 doCallPCtarget address : 400510
 doCallPC: Adding Unreachable Instruction to local noreturn
 Unsupported!
 4009d0 	shlq	%cl, %rax
 2537
 Unsupported!
-4009d8 	btq	%rcx, %rdx
-303
-Unsupported!
 400a03 	shlq	%cl, %rax
 2537
-Unsupported!
-400a0b 	btq	%rcx, %rdx
-303
 Unsupported!
 400a37 	shlq	%cl, %rax
 2537
@@ -120,80 +96,34 @@ Unsupported!
 400a42 	orq	$255, %rax
 1808
 Unsupported!
-400a5b 	shlq	%cl, %rdx
-2537
-Unsupported!
-400a5e 	btq	%rcx, %rax
-303
-Unsupported!
 400a7e 	shlq	%cl, %rax
 2537
-Unsupported!
-400a81 	btq	%rcx, %rdx
-303
 Unsupported!
 400aa1 	shlq	%cl, %rdx
 2537
 Unsupported!
-400aa4 	btq	%rcx, %rax
-303
-Unsupported!
 400ac4 	shlq	%cl, %rax
 2537
-Unsupported!
-400ac7 	btq	%rcx, %rdx
-303
 Unsupported!
 400ae7 	shlq	%cl, %rdx
 2537
 Unsupported!
-400aea 	btq	%rcx, %rax
-303
-Unsupported!
 400b17 	shlq	%cl, %rax
 2537
-Unsupported!
-400b1f 	btq	%rcx, %rdx
-303
 Unsupported!
 400b29 	orq	$16383, %rax
 1808
 Unsupported!
-400b42 	shlq	%cl, %rdx
-2537
-Unsupported!
-400b45 	btq	%rcx, %rax
-303
-Unsupported!
 400b61 	shlq	%cl, %rax
 2537
-Unsupported!
-400b64 	btq	%rcx, %rdx
-303
 Unsupported!
 400b80 	shlq	%cl, %rdx
 2537
 Unsupported!
-400b83 	btq	%rcx, %rax
-303
-Unsupported!
 400b9f 	shlq	%cl, %rax
 2537
 Unsupported!
-400ba2 	btq	%rcx, %rdx
-303
-Unsupported!
 400bbe 	shlq	%cl, %rdx
 2537
-Unsupported!
-400bc1 	btq	%rcx, %rax
-303
 doCallPCtarget address : 400530
-doCallPCExtern paramCount  : 0 : abort
-0 : 335fb10
-doCallPCExtern: Adding Unreachable Instruction
-doCallPCExtern paramCount  : 1 : exit
-1 : 334baa0
-Adding entry point: mcsema_main
-in : doPostAnalysis
-registering passes
+Failure to convert to LLVM module!

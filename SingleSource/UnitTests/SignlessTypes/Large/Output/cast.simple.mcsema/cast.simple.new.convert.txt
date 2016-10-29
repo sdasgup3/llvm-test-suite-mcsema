@@ -489,11 +489,11 @@ doCallPCtarget address : 400540
 doCallPCtarget address : 400560
 doCallPCtarget address : 400540
 doCallPCExtern paramCount  : 12 : printf
-12 : 18c8530
+12 : 223c530
 doCallPCExtern paramCount  : 1 : malloc
-1 : 18c8530
+1 : 223c530
 doCallPCExtern paramCount  : 3 : strtol
-3 : 18c8530
+3 : 223c530
 Adding entry point: mcsema_main
 in : doPostAnalysis
 registering passes

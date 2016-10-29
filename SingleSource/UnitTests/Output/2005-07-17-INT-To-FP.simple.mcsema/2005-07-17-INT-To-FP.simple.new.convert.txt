@@ -64,28 +64,6 @@ Unsupported!
 622
 shouldSubtractImageBase: Not on Win32
 Unsupported!
-400655 	cvtsi2sdq	%rax, %xmm2
-622
-Unsupported!
-40065a 	movd	%r13, %xmm4
-1594
-Unsupported!
-400667 	subpd	321(%rip), %xmm4
-2705
-Unsupported!
-400674 	addpd	%xmm4, %xmm3
-113
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-Unsupported!
 4006ca 	cvtsi2sdq	%rax, %xmm0
 622
-shouldSubtractImageBase: Not on Win32
-doCallPCtarget address : 4004d0
-doCallPCtarget address : 4004d0
-doCallPCtarget address : 4004d0
-doCallPCExtern paramCount  : 12 : printf
-12 : 3074aa0
-Adding entry point: mcsema_main
-in : doPostAnalysis
-registering passes
+Failure to convert to LLVM module!

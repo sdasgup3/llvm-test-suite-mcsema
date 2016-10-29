@@ -129,9 +129,9 @@ doCallPCtarget address : 400560
 doCallPCtarget address : 400540
 doCallPCtarget address : 400560
 doCallPCExtern paramCount  : 12 : printf
-12 : 1b5caa0
+12 : 1b91aa0
 doCallPCExtern paramCount  : 1 : puts
-1 : 1b5caa0
+1 : 1b91aa0
 doCallPCExtern paramCount  : 0 : rand
 0 : 0
 Adding entry point: mcsema_main

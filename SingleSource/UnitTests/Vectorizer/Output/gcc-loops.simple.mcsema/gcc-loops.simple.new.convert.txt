@@ -190,9 +190,6 @@ shouldSubtractImageBase: Not on Win32
 Unsupported!
 401757 	cmpltps	6357504(%rax), %xmm1
 551
-Unsupported!
-401766 	cmpltps	6365696(%rax), %xmm2
-551
 doCallPCtarget address : 400d40
 doCallPCtarget address : 400b20
 doCallPCtarget address : 400d40
@@ -285,7 +282,4 @@ doCallPCtarget address : 400b90
 doCallPCtarget address : 400b10
 doCallPCtarget address : 400b90
 doCallPCtarget address : 400bc0
-error: 
-Line: 536
-File: /home/sdasgup3/Github/mcsema/mc-sema/cfgToLLVM/x86Instrs_Branches.cpp
-Could not find external function: _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l
+Failure to convert to LLVM module!

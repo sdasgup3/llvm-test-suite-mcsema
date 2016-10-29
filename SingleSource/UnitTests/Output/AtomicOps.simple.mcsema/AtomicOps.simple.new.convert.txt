@@ -73,23 +73,6 @@ shouldSubtractImageBase: Not on Win32
 Unsupported!
 4006e6 	decq	8(%rsp)
 662
-shouldSubtractImageBase: Not on Win32
-Unsupported!
-4006fc 	decq	8(%rsp)
-662
-shouldSubtractImageBase: Not on Win32
-Unsupported!
-400712 	decq	8(%rsp)
-662
-shouldSubtractImageBase: Not on Win32
-Unsupported!
-400728 	decq	8(%rsp)
-662
-shouldSubtractImageBase: Not on Win32
-Unsupported!
-40073e 	decq	8(%rsp)
-662
-shouldSubtractImageBase: Not on Win32
 doCallPCtarget address : 4004d0
 doCallPCtarget address : 4004d0
 doCallPCtarget address : 4004d0
@@ -98,13 +81,4 @@ doCallPCtarget address : 4004d0
 doCallPCtarget address : 4004d0
 doCallPCtarget address : 4004d0
 doCallPCtarget address : 4004d0
-doCallPCtarget address : 4004d0
-doCallPCtarget address : 4004d0
-doCallPCtarget address : 4004d0
-doCallPCtarget address : 4004d0
-doCallPCtarget address : 4004d0
-doCallPCExtern paramCount  : 12 : printf
-12 : 1bb8be0
-Adding entry point: mcsema_main
-in : doPostAnalysis
-registering passes
+Failure to convert to LLVM module!

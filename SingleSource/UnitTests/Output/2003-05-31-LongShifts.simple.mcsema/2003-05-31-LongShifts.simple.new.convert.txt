@@ -63,11 +63,5 @@ shouldSubtractImageBase: Not on Win32
 Unsupported!
 40069d 	shlq	%cl, %rbx
 2537
-shouldSubtractImageBase: Not on Win32
 doCallPCtarget address : 4004d0
-doCallPCtarget address : 4004d0
-doCallPCExtern paramCount  : 12 : printf
-12 : 27edaa0
-Adding entry point: mcsema_main
-in : doPostAnalysis
-registering passes
+Failure to convert to LLVM module!

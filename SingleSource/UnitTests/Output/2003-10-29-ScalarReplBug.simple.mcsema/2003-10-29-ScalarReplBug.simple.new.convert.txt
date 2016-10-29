@@ -62,7 +62,7 @@ dataSectionToTypesContents : 601040 8
 shouldSubtractImageBase: Not on Win32
 doCallPCtarget address : 4004d0
 doCallPCExtern paramCount  : 12 : printf
-12 : 32b5aa0
+12 : 2f32aa0
 Adding entry point: mcsema_main
 in : doPostAnalysis
 registering passes

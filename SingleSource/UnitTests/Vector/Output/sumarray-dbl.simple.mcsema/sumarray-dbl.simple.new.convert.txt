@@ -64,30 +64,6 @@ Unsupported!
 400640 	addpd	6302080(%rax), %xmm0
 112
 Unsupported!
-400648 	addpd	6302096(%rax), %xmm2
-112
-Unsupported!
-400650 	addpd	6302112(%rax), %xmm4
-112
-Unsupported!
-400658 	addpd	6302128(%rax), %xmm6
-112
-Unsupported!
 40066a 	unpckhpd	%xmm1, %xmm1
 2838
-Unsupported!
-400672 	unpckhpd	%xmm3, %xmm3
-2838
-Unsupported!
-40067a 	unpckhpd	%xmm5, %xmm5
-2838
-Unsupported!
-400682 	unpckhpd	%xmm7, %xmm7
-2838
-shouldSubtractImageBase: Not on Win32
-doCallPCtarget address : 4004d0
-doCallPCExtern paramCount  : 12 : printf
-12 : 18a3aa0
-Adding entry point: mcsema_main
-in : doPostAnalysis
-registering passes
+Failure to convert to LLVM module!

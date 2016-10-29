@@ -84,11 +84,11 @@ doCallPCtarget address : 4005f0
 doCallPCtarget address : 400600
 doCallPCtarget address : 4005c0
 doCallPCExtern paramCount  : 4 : pthread_create
-4 : 1cb3340
+4 : 17f7340
 doCallPCExtern paramCount  : 12 : printf
-12 : 1cb3340
+12 : 17f7340
 doCallPCExtern paramCount  : 2 : pthread_join
-2 : 1cb3340
+2 : 17f7340
 Adding entry point: mcsema_main
 in : doPostAnalysis
 registering passes
