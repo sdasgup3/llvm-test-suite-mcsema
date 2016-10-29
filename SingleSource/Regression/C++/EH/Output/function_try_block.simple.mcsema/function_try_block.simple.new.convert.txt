@@ -128,7 +128,7 @@ doCallPCtarget address : 400980
 doCallPCtarget address : 4007d0
 doCallPCtarget address : 4007d0
 doCallPCExtern paramCount  : 1 : puts
-1 : 141baa0
+1 : 2dc0aa0
 shouldSubtractImageBase: Not on Win32
 doCallPCtarget address : 400830
 doCallPCtarget address : 400840
