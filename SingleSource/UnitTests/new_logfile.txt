@@ -39,7 +39,7 @@ llc -march=x86-64 -filetype=obj -o ./Output/2002-05-02-ArgumentTest.simple.mcsem
 clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2002-05-02-ArgumentTest.simple.mcsema/2002-05-02-ArgumentTest.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/2002-05-02-ArgumentTest.simple.mcsema/2002-05-02-ArgumentTest.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
 ././Output/2002-05-02-ArgumentTest.simple.mcsema/2002-05-02-ArgumentTest.simple  &>  out1 
 ././Output/2002-05-02-ArgumentTest.simple.mcsema/2002-05-02-ArgumentTest.simple.new.lifted  &>  out2 
-sh: line 1: 31536 Segmentation fault      ././Output/2002-05-02-ArgumentTest.simple.mcsema/2002-05-02-ArgumentTest.simple.new.lifted &>out2
+sh: line 1:  7710 Segmentation fault      ././Output/2002-05-02-ArgumentTest.simple.mcsema/2002-05-02-ArgumentTest.simple.new.lifted &>out2
 diff out1 out2 
 1d0
 < 12, 1.245000, 120, 123456677890, -10, 4500000000000000.000000
@@ -93,7 +93,7 @@ llc -march=x86-64 -filetype=obj -o ./Output/2002-05-02-ManyArguments.simple.mcse
 clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2002-05-02-ManyArguments.simple.mcsema/2002-05-02-ManyArguments.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/2002-05-02-ManyArguments.simple.mcsema/2002-05-02-ManyArguments.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
 ././Output/2002-05-02-ManyArguments.simple.mcsema/2002-05-02-ManyArguments.simple  &>  out1 
 ././Output/2002-05-02-ManyArguments.simple.mcsema/2002-05-02-ManyArguments.simple.new.lifted  &>  out2 
-sh: line 1: 31602 Segmentation fault      ././Output/2002-05-02-ManyArguments.simple.mcsema/2002-05-02-ManyArguments.simple.new.lifted &>out2
+sh: line 1:  7777 Segmentation fault      ././Output/2002-05-02-ManyArguments.simple.mcsema/2002-05-02-ManyArguments.simple.new.lifted &>out2
 diff out1 out2 
 1,2d0
 < 12, 2, 123.234000, 1231.123169, -12
@@ -158,7 +158,7 @@ llc -march=x86-64 -filetype=obj -o ./Output/2002-10-09-ArrayResolution.simple.mc
 clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
 ././Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple  &>  out1 
 ././Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple.new.lifted  &>  out2 
-sh: line 1: 31682 Segmentation fault      ././Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple.new.lifted &>out2
+sh: line 1:  7856 Segmentation fault      ././Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple.new.lifted &>out2
 diff out1 out2 
 1d0
 < 0
@@ -172,7 +172,7 @@ llc -march=x86-64 -filetype=obj -o ./Output/2002-10-12-StructureArgs.simple.mcse
 clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2002-10-12-StructureArgs.simple.mcsema/2002-10-12-StructureArgs.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/2002-10-12-StructureArgs.simple.mcsema/2002-10-12-StructureArgs.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
 ././Output/2002-10-12-StructureArgs.simple.mcsema/2002-10-12-StructureArgs.simple  &>  out1 
 ././Output/2002-10-12-StructureArgs.simple.mcsema/2002-10-12-StructureArgs.simple.new.lifted  &>  out2 
-sh: line 1: 31696 Segmentation fault      ././Output/2002-10-12-StructureArgs.simple.mcsema/2002-10-12-StructureArgs.simple.new.lifted &>out2
+sh: line 1:  7870 Segmentation fault      ././Output/2002-10-12-StructureArgs.simple.mcsema/2002-10-12-StructureArgs.simple.new.lifted &>out2
 diff out1 out2 
 1d0
 < 0.500000, 1.200000, -123.010000, 0.333333
@@ -186,7 +186,7 @@ llc -march=x86-64 -filetype=obj -o ./Output/2002-10-12-StructureArgsSimple.simpl
 clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2002-10-12-StructureArgsSimple.simple.mcsema/2002-10-12-StructureArgsSimple.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/2002-10-12-StructureArgsSimple.simple.mcsema/2002-10-12-StructureArgsSimple.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
 ././Output/2002-10-12-StructureArgsSimple.simple.mcsema/2002-10-12-StructureArgsSimple.simple  &>  out1 
 ././Output/2002-10-12-StructureArgsSimple.simple.mcsema/2002-10-12-StructureArgsSimple.simple.new.lifted  &>  out2 
-sh: line 1: 31710 Segmentation fault      ././Output/2002-10-12-StructureArgsSimple.simple.mcsema/2002-10-12-StructureArgsSimple.simple.new.lifted &>out2
+sh: line 1:  7884 Segmentation fault      ././Output/2002-10-12-StructureArgsSimple.simple.mcsema/2002-10-12-StructureArgsSimple.simple.new.lifted &>out2
 diff out1 out2 
 1d0
 < 0.500000, 1.200000
@@ -200,7 +200,7 @@ llc -march=x86-64 -filetype=obj -o ./Output/2002-10-13-BadLoad.simple.mcsema/200
 clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
 ././Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple  &>  out1 
 ././Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple.new.lifted  &>  out2 
-sh: line 1: 31724 Segmentation fault      ././Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple.new.lifted &>out2
+sh: line 1:  7898 Segmentation fault      ././Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple.new.lifted &>out2
 diff out1 out2 
 1d0
 < 65536
@@ -234,7 +234,7 @@ llc -march=x86-64 -filetype=obj -o ./Output/2003-05-02-DependentPHI.simple.mcsem
 clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
 ././Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple  &>  out1 
 ././Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple.new.lifted  &>  out2 
-sh: line 1: 31764 Segmentation fault      ././Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple.new.lifted &>out2
+sh: line 1:  7938 Segmentation fault      ././Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple.new.lifted &>out2
 diff out1 out2 
 2,6d1
 < 1 0
@@ -252,7 +252,7 @@ llc -march=x86-64 -filetype=obj -o ./Output/2003-05-07-VarArgs.simple.mcsema/200
 clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2003-05-07-VarArgs.simple.mcsema/2003-05-07-VarArgs.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/2003-05-07-VarArgs.simple.mcsema/2003-05-07-VarArgs.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
 ././Output/2003-05-07-VarArgs.simple.mcsema/2003-05-07-VarArgs.simple  &>  out1 
 ././Output/2003-05-07-VarArgs.simple.mcsema/2003-05-07-VarArgs.simple.new.lifted  &>  out2 
-sh: line 1: 31778 Segmentation fault      ././Output/2003-05-07-VarArgs.simple.mcsema/2003-05-07-VarArgs.simple.new.lifted &>out2
+sh: line 1:  7953 Segmentation fault      ././Output/2003-05-07-VarArgs.simple.mcsema/2003-05-07-VarArgs.simple.new.lifted &>out2
 diff out1 out2 
 2,17d1
 < string def
@@ -410,7 +410,7 @@ llc -march=x86-64 -filetype=obj -o ./Output/2003-08-05-CastFPToUint.simple.mcsem
 clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2003-08-05-CastFPToUint.simple.mcsema/2003-08-05-CastFPToUint.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/2003-08-05-CastFPToUint.simple.mcsema/2003-08-05-CastFPToUint.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
 ././Output/2003-08-05-CastFPToUint.simple.mcsema/2003-08-05-CastFPToUint.simple  &>  out1 
 ././Output/2003-08-05-CastFPToUint.simple.mcsema/2003-08-05-CastFPToUint.simple.new.lifted  &>  out2 
-sh: line 1: 31913 Segmentation fault      ././Output/2003-08-05-CastFPToUint.simple.mcsema/2003-08-05-CastFPToUint.simple.new.lifted &>out2
+sh: line 1:  8088 Segmentation fault      ././Output/2003-08-05-CastFPToUint.simple.mcsema/2003-08-05-CastFPToUint.simple.new.lifted &>out2
 diff out1 out2 
 1,2d0
 < DC = 240.000000, DS = 65520.000000, DI = 4294967280.000000
@@ -425,7 +425,7 @@ llc -march=x86-64 -filetype=obj -o ./Output/2003-08-11-VaListArg.simple.mcsema/2
 clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2003-08-11-VaListArg.simple.mcsema/2003-08-11-VaListArg.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/2003-08-11-VaListArg.simple.mcsema/2003-08-11-VaListArg.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
 ././Output/2003-08-11-VaListArg.simple.mcsema/2003-08-11-VaListArg.simple  &>  out1 
 ././Output/2003-08-11-VaListArg.simple.mcsema/2003-08-11-VaListArg.simple.new.lifted  &>  out2 
-sh: line 1: 31927 Segmentation fault      ././Output/2003-08-11-VaListArg.simple.mcsema/2003-08-11-VaListArg.simple.new.lifted &>out2
+sh: line 1:  8102 Segmentation fault      ././Output/2003-08-11-VaListArg.simple.mcsema/2003-08-11-VaListArg.simple.new.lifted &>out2
 diff out1 out2 
 2,34d1
 < string def
@@ -511,7 +511,7 @@ llc -march=x86-64 -filetype=obj -o ./Output/2004-02-02-NegativeZero.simple.mcsem
 clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2004-02-02-NegativeZero.simple.mcsema/2004-02-02-NegativeZero.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/2004-02-02-NegativeZero.simple.mcsema/2004-02-02-NegativeZero.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
 ././Output/2004-02-02-NegativeZero.simple.mcsema/2004-02-02-NegativeZero.simple  &>  out1 
 ././Output/2004-02-02-NegativeZero.simple.mcsema/2004-02-02-NegativeZero.simple.new.lifted  &>  out2 
-sh: line 1: 31994 Segmentation fault      ././Output/2004-02-02-NegativeZero.simple.mcsema/2004-02-02-NegativeZero.simple.new.lifted &>out2
+sh: line 1:  8168 Segmentation fault      ././Output/2004-02-02-NegativeZero.simple.mcsema/2004-02-02-NegativeZero.simple.new.lifted &>out2
 diff out1 out2 
 1,3d0
 < -0.000000 -0.000000
@@ -522,30 +522,12 @@ rm -rf  out1 out 2
 ===./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple===
 rm -rf  ./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.bc 
 /home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.cfg  -o ./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.convert.txt 
-opt -O3    ./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.bc  -o=./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.opt.bc 
-llc -march=x86-64 -filetype=obj -o ./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.o ./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.opt.bc 
-clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
-././Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple  &>  out1 
-././Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.lifted  &>  out2 
-sh: line 1: 32008 Segmentation fault      ././Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.lifted &>out2
-diff out1 out2 
-1d0
-< 1 5 1
-rm -rf  out1 out 2 
+Unsupported
 
 ===./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple===
 rm -rf  ./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.bc 
 /home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.cfg  -o ./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.convert.txt 
-opt -O3    ./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.bc  -o=./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.opt.bc 
-llc -march=x86-64 -filetype=obj -o ./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.o ./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.opt.bc 
-clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
-././Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple  &>  out1 
-././Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.lifted  &>  out2 
-sh: line 1: 32022 Segmentation fault      ././Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.lifted &>out2
-diff out1 out2 
-1d0
-< 1 1 4
-rm -rf  out1 out 2 
+Unsupported
 
 ===./Output/2005-05-11-Popcount-ffs-fls.simple.mcsema/2005-05-11-Popcount-ffs-fls.simple===
 rm -rf  ./Output/2005-05-11-Popcount-ffs-fls.simple.mcsema/2005-05-11-Popcount-ffs-fls.simple.new.bc 
@@ -595,28 +577,7 @@ rm -rf  out1 out 2
 ===./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple===
 rm -rf  ./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.bc 
 /home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.cfg  -o ./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.convert.txt 
-opt -O3    ./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.bc  -o=./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.opt.bc 
-llc -march=x86-64 -filetype=obj -o ./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.o ./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.opt.bc 
-clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
-././Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple  &>  out1 
-././Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.lifted  &>  out2 
-sh: line 1: 32084 Segmentation fault      ././Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.lifted &>out2
-diff out1 out2 
-2,14d1
-< PR295/PR568: 1888, 256
-< PR574: 61172160, 4, 22, 2
-< PR162: 1, 2, 513
-< PR650: relname, 1852597618
-< PR199: 5, 1, 2, 3
-< PR199: 5, 1, 2, 3
-< PR431: 0, 1, 2, 3
-< PR654: 0, '   xyzkasjdlf     '
-< PR323: 3, 'foo'
-< returning raw_lock
-< PR627: 0
-< PR684: 1, 2, 0 1
-< rdar://6828787: 23122, -12312731, -312
-rm -rf  out1 out 2 
+Unsupported
 
 ===./Output/2006-01-29-SimpleIndirectCall.simple.mcsema/2006-01-29-SimpleIndirectCall.simple===
 rm -rf  ./Output/2006-01-29-SimpleIndirectCall.simple.mcsema/2006-01-29-SimpleIndirectCall.simple.new.bc 
@@ -626,31 +587,7 @@ Unsupported
 ===./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple===
 rm -rf  ./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.bc 
 /home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.cfg  -o ./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.convert.txt 
-opt -O3    ./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.bc  -o=./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.opt.bc 
-llc -march=x86-64 -filetype=obj -o ./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.o ./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.opt.bc 
-clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
-././Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple  &>  out1 
-././Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.lifted  &>  out2 
-sh: line 1: 32101 Segmentation fault      ././Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.lifted &>out2
-diff out1 out2 
-1,16d0
-< 10 12339 0 10
-< 4294967263 4294954982 8388607 479
-< 96 12377 0 96
-< 4294967005 4294954724 33554429 93
-< 870 13151 0 870
-< 4294964683 4294952434 134217646 11
-< 7836 11941 30 156
-< 4294943785 4294939664 536867973 1
-< 70530 74683 4 4994
-< 4294755703 4294767950 32766 50551
-< 634776 630689 39673 8
-< 4293062965 4293050636 131013 28981
-< 5712990 5708903 5579 94
-< 4277828323 4277816026 522195 6883
-< 51416916 51429229 784 36692
-< 4140716545 4140720696 2021834 513
-rm -rf  out1 out 2 
+Unsupported
 
 ===./Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.simple===
 rm -rf  ./Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.simple.new.bc 
@@ -660,7 +597,7 @@ llc -march=x86-64 -filetype=obj -o ./Output/2006-12-01-float_varg.simple.mcsema/
 clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
 ././Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.simple  &>  out1 
 ././Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.simple.new.lifted  &>  out2 
-sh: line 1: 32115 Segmentation fault      ././Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.simple.new.lifted &>out2
+sh: line 1:  8245 Segmentation fault      ././Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.simple.new.lifted &>out2
 diff out1 out2 
 1d0
 < foo 1.230000 12312.100000 3.100000 13.100000
@@ -679,16 +616,7 @@ rm -rf  out1 out 2
 ===./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple===
 rm -rf  ./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.bc 
 /home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.cfg  -o ./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.convert.txt 
-opt -O3    ./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.bc  -o=./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.opt.bc 
-llc -march=x86-64 -filetype=obj -o ./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.o ./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.opt.bc 
-clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
-././Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple  &>  out1 
-././Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.lifted  &>  out2 
-sh: line 1: 32142 Segmentation fault      ././Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.lifted &>out2
-diff out1 out2 
-1d0
-< Works.
-rm -rf  out1 out 2 
+Unsupported
 
 ===./Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.simple===
 rm -rf  ./Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.simple.new.bc 
@@ -708,7 +636,7 @@ llc -march=x86-64 -filetype=obj -o ./Output/2007-01-04-KNR-Args.simple.mcsema/20
 clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2007-01-04-KNR-Args.simple.mcsema/2007-01-04-KNR-Args.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/2007-01-04-KNR-Args.simple.mcsema/2007-01-04-KNR-Args.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
 ././Output/2007-01-04-KNR-Args.simple.mcsema/2007-01-04-KNR-Args.simple  &>  out1 
 ././Output/2007-01-04-KNR-Args.simple.mcsema/2007-01-04-KNR-Args.simple.new.lifted  &>  out2 
-sh: line 1: 32170 Segmentation fault      ././Output/2007-01-04-KNR-Args.simple.mcsema/2007-01-04-KNR-Args.simple.new.lifted &>out2
+sh: line 1:  8289 Segmentation fault      ././Output/2007-01-04-KNR-Args.simple.mcsema/2007-01-04-KNR-Args.simple.new.lifted &>out2
 diff out1 out2 
 1,2d0
 < a 4.000000 1 5.000000 2 4.000000 3 5.000000
@@ -773,39 +701,12 @@ rm -rf  out1 out 2
 ===./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple===
 rm -rf  ./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple.new.bc 
 /home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple.cfg  -o ./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple.new.convert.txt 
-opt -O3    ./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple.new.bc  -o=./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple.new.opt.bc 
-llc -march=x86-64 -filetype=obj -o ./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple.new.o ./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple.new.opt.bc 
-clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
-././Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple  &>  out1 
-././Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple.new.lifted  &>  out2 
-sh: line 1: 32252 Segmentation fault      ././Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple.new.lifted &>out2
-diff out1 out2 
-1,13d0
-< 1: 101, 1
-< 2: 101.000000, 1, 204
-< 3: 4 fo
-< 4: 1.000000 4 17.000000
-< 5: 101 15 123
-< 5a: 101 15
-< 5b: 101 1231
-< 6: 123.412000 5
-< 7: 101 15 3 0
-< 7a: 101 15 123
-< 8: 16 32
-< 9: 123 456
-< 10: 42
-rm -rf  out1 out 2 
+Unsupported
 
 ===./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple===
 rm -rf  ./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.bc 
 /home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.cfg  -o ./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.convert.txt 
-opt -O3    ./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.bc  -o=./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.opt.bc 
-llc -march=x86-64 -filetype=obj -o ./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.o ./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.opt.bc 
-clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
-././Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple  &>  out1 
-././Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.lifted  &>  out2 
-sh: line 1: 32266 Segmentation fault      ././Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.lifted &>out2
-rm -rf  out1 out 2 
+Unsupported
 
 ===./Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple===
 rm -rf  ./Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple.new.bc 
@@ -820,28 +721,7 @@ rm -rf  out1 out 2
 ===./Output/AtomicOps.simple.mcsema/AtomicOps.simple===
 rm -rf  ./Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.bc 
 /home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Output/AtomicOps.simple.mcsema/AtomicOps.simple.cfg  -o ./Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.convert.txt 
-opt -O3    ./Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.bc  -o=./Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.opt.bc 
-llc -march=x86-64 -filetype=obj -o ./Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.o ./Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.opt.bc 
-clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
-././Output/AtomicOps.simple.mcsema/AtomicOps.simple  &>  out1 
-././Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.lifted  &>  out2 
-sh: line 1: 32292 Segmentation fault      ././Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.lifted &>out2
-diff out1 out2 
-1,13d0
-< 2, 1
-< 1, 2
-< 2, 1
-< test = 1
-< test = 2
-< test = 3
-< test = 4
-< test = 5
-< test = 4
-< test = 3
-< test = 2
-< test = 1
-< test = 0
-rm -rf  out1 out 2 
+Unsupported
 
 ===./Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple===
 rm -rf  ./Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple.new.bc 
@@ -861,7 +741,7 @@ llc -march=x86-64 -filetype=obj -o ./Output/FloatPrecision.simple.mcsema/FloatPr
 clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/FloatPrecision.simple.mcsema/FloatPrecision.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/FloatPrecision.simple.mcsema/FloatPrecision.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
 ././Output/FloatPrecision.simple.mcsema/FloatPrecision.simple  &>  out1 
 ././Output/FloatPrecision.simple.mcsema/FloatPrecision.simple.new.lifted  &>  out2 
-sh: line 1: 32319 Segmentation fault      ././Output/FloatPrecision.simple.mcsema/FloatPrecision.simple.new.lifted &>out2
+sh: line 1:  8406 Segmentation fault      ././Output/FloatPrecision.simple.mcsema/FloatPrecision.simple.new.lifted &>out2
 diff out1 out2 
 1,2d0
 < 2147483648000.000000
@@ -876,7 +756,7 @@ llc -march=x86-64 -filetype=obj -o ./Output/StructModifyTest.simple.mcsema/Struc
 clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/StructModifyTest.simple.mcsema/StructModifyTest.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/StructModifyTest.simple.mcsema/StructModifyTest.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
 ././Output/StructModifyTest.simple.mcsema/StructModifyTest.simple  &>  out1 
 ././Output/StructModifyTest.simple.mcsema/StructModifyTest.simple.new.lifted  &>  out2 
-sh: line 1: 32333 Segmentation fault      ././Output/StructModifyTest.simple.mcsema/StructModifyTest.simple.new.lifted &>out2
+sh: line 1:  8420 Segmentation fault      ././Output/StructModifyTest.simple.mcsema/StructModifyTest.simple.new.lifted &>out2
 diff out1 out2 
 1,2d0
 < 1, 123.419998, 19.000000, 123455678902
@@ -980,7 +860,7 @@ llc -march=x86-64 -filetype=obj -o ./Output/byval-alignment.simple.mcsema/byval-
 clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/byval-alignment.simple.mcsema/byval-alignment.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/byval-alignment.simple.mcsema/byval-alignment.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
 ././Output/byval-alignment.simple.mcsema/byval-alignment.simple  &>  out1 
 ././Output/byval-alignment.simple.mcsema/byval-alignment.simple.new.lifted  &>  out2 
-sh: line 1: 32439 Segmentation fault      ././Output/byval-alignment.simple.mcsema/byval-alignment.simple.new.lifted &>out2
+sh: line 1:  8526 Segmentation fault      ././Output/byval-alignment.simple.mcsema/byval-alignment.simple.new.lifted &>out2
 diff out1 out2 
 1d0
 < g0.x: 2.0000, g0.y: 3.0000
@@ -989,13 +869,7 @@ rm -rf  out1 out 2
 ===./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple===
 rm -rf  ./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.bc 
 /home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.cfg  -o ./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.convert.txt 
-opt -O3    ./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.bc  -o=./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.opt.bc 
-llc -march=x86-64 -filetype=obj -o ./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.o ./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.opt.bc 
-clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
-././Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple  &>  out1 
-././Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.lifted  &>  out2 
-sh: line 1: 32453 Segmentation fault      ././Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.lifted &>out2
-rm -rf  out1 out 2 
+Unsupported
 
 ===./Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.simple===
 rm -rf  ./Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.simple.new.bc 
@@ -1005,19 +879,13 @@ llc -march=x86-64 -filetype=obj -o ./Output/conditional-gnu-ext.simple.mcsema/co
 clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
 ././Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.simple  &>  out1 
 ././Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.simple.new.lifted  &>  out2 
-sh: line 1: 32466 Segmentation fault      ././Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.simple.new.lifted &>out2
+sh: line 1:  8543 Segmentation fault      ././Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.simple.new.lifted &>out2
 rm -rf  out1 out 2 
 
 ===./Output/initp1.simple.mcsema/initp1.simple===
 rm -rf  ./Output/initp1.simple.mcsema/initp1.simple.new.bc 
 /home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Output/initp1.simple.mcsema/initp1.simple.cfg  -o ./Output/initp1.simple.mcsema/initp1.simple.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Output/initp1.simple.mcsema/initp1.simple.new.convert.txt 
-opt -O3    ./Output/initp1.simple.mcsema/initp1.simple.new.bc  -o=./Output/initp1.simple.mcsema/initp1.simple.new.opt.bc 
-llc -march=x86-64 -filetype=obj -o ./Output/initp1.simple.mcsema/initp1.simple.new.o ./Output/initp1.simple.mcsema/initp1.simple.new.opt.bc 
-clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/initp1.simple.mcsema/initp1.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/initp1.simple.mcsema/initp1.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
-././Output/initp1.simple.mcsema/initp1.simple  &>  out1 
-././Output/initp1.simple.mcsema/initp1.simple.new.lifted  &>  out2 
-sh: line 1: 32480 Segmentation fault      ././Output/initp1.simple.mcsema/initp1.simple.new.lifted &>out2
-rm -rf  out1 out 2 
+Unsupported
 
 ===./Output/member-function-pointers.simple.mcsema/member-function-pointers.simple===
 rm -rf  ./Output/member-function-pointers.simple.mcsema/member-function-pointers.simple.new.bc 
@@ -1042,24 +910,12 @@ rm -rf  out1 out 2
 ===./Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple===
 rm -rf  ./Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple.new.bc 
 /home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple.cfg  -o ./Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple.new.convert.txt 
-opt -O3    ./Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple.new.bc  -o=./Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple.new.opt.bc 
-llc -march=x86-64 -filetype=obj -o ./Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple.new.o ./Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple.new.opt.bc 
-clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
-././Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple  &>  out1 
-././Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple.new.lifted  &>  out2 
-sh: line 1: 32519 Segmentation fault      ././Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple.new.lifted &>out2
-rm -rf  out1 out 2 
+Unsupported
 
 ===./Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple===
 rm -rf  ./Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple.new.bc 
 /home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple.cfg  -o ./Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple.new.convert.txt 
-opt -O3    ./Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple.new.bc  -o=./Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple.new.opt.bc 
-llc -march=x86-64 -filetype=obj -o ./Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple.new.o ./Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple.new.opt.bc 
-clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
-././Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple  &>  out1 
-././Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple.new.lifted  &>  out2 
-sh: line 1: 32532 Segmentation fault      ././Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple.new.lifted &>out2
-rm -rf  out1 out 2 
+Unsupported
 
 ===./Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple===
 rm -rf  ./Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple.new.bc 
@@ -1174,12 +1030,7 @@ rm -rf  out1 out 2
 ===./SignlessTypes/Output/factor.simple.mcsema/factor.simple===
 rm -rf  ./SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.bc 
 /home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./SignlessTypes/Output/factor.simple.mcsema/factor.simple.cfg  -o ./SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.convert.txt 
-opt -O3    ./SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.bc  -o=./SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.opt.bc 
-llc -march=x86-64 -filetype=obj -o ./SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.o ./SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.opt.bc 
-clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c ./SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
-././SignlessTypes/Output/factor.simple.mcsema/factor.simple  &>  out1 
-././SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.lifted  &>  out2 
-rm -rf  out1 out 2 
+Unsupported
 
 ===./SignlessTypes/Output/rem.simple.mcsema/rem.simple===
 rm -rf  ./SignlessTypes/Output/rem.simple.mcsema/rem.simple.new.bc 
@@ -1320,12 +1171,25 @@ Original Unsupported
 
 Current Unsupported
 ./Output/2003-05-14-AtExit.simple.mcsema/2003-05-14-AtExit.simple
+./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple
+./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple
 ./Output/2005-05-11-Popcount-ffs-fls.simple.mcsema/2005-05-11-Popcount-ffs-fls.simple
 ./Output/2005-05-12-Int64ToFP.simple.mcsema/2005-05-12-Int64ToFP.simple
 ./Output/2005-07-17-INT-To-FP.simple.mcsema/2005-07-17-INT-To-FP.simple
+./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple
 ./Output/2006-01-29-SimpleIndirectCall.simple.mcsema/2006-01-29-SimpleIndirectCall.simple
+./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple
+./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple
 ./Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.simple
+./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple
+./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple
+./Output/AtomicOps.simple.mcsema/AtomicOps.simple
+./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple
+./Output/initp1.simple.mcsema/initp1.simple
+./Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple
+./Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple
 ./SignlessTypes/Output/ccc.simple.mcsema/ccc.simple
+./SignlessTypes/Output/factor.simple.mcsema/factor.simple
 ./Threads/Output/tls.simple.mcsema/tls.simple
 ./Vector/Output/build.simple.mcsema/build.simple
 ./Vector/Output/build2.simple.mcsema/build2.simple
@@ -1375,7 +1239,6 @@ Current Pass
 ./Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.simple
 ./Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.simple
 ./Output/2008-07-13-InlineSetjmp.simple.mcsema/2008-07-13-InlineSetjmp.simple
-./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple
 ./Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple
 ./Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple
 ./Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.simple
@@ -1384,13 +1247,9 @@ Current Pass
 ./Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.simple
 ./Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.simple
 ./Output/blockstret.simple.mcsema/blockstret.simple
-./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple
 ./Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.simple
-./Output/initp1.simple.mcsema/initp1.simple
 ./Output/member-function-pointers.simple.mcsema/member-function-pointers.simple
 ./Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.simple
-./Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple
-./Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple
 ./Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple
 ./Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.simple
 ./Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.simple
@@ -1400,7 +1259,6 @@ Current Pass
 ./SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.simple
 ./SignlessTypes/Output/cast2.simple.mcsema/cast2.simple
 ./SignlessTypes/Output/div.simple.mcsema/div.simple
-./SignlessTypes/Output/factor.simple.mcsema/factor.simple
 ./SignlessTypes/Output/shr.simple.mcsema/shr.simple
 ./Vector/Output/divides.simple.mcsema/divides.simple
 ./Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple
@@ -1418,15 +1276,8 @@ Current Diff
 ./Output/2003-08-05-CastFPToUint.simple.mcsema/2003-08-05-CastFPToUint.simple
 ./Output/2003-08-11-VaListArg.simple.mcsema/2003-08-11-VaListArg.simple
 ./Output/2004-02-02-NegativeZero.simple.mcsema/2004-02-02-NegativeZero.simple
-./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple
-./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple
-./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple
-./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple
 ./Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.simple
-./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple
 ./Output/2007-01-04-KNR-Args.simple.mcsema/2007-01-04-KNR-Args.simple
-./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple
-./Output/AtomicOps.simple.mcsema/AtomicOps.simple
 ./Output/FloatPrecision.simple.mcsema/FloatPrecision.simple
 ./Output/StructModifyTest.simple.mcsema/StructModifyTest.simple
 ./Output/TestLoop.simple.mcsema/TestLoop.simple
@@ -1438,7 +1289,7 @@ Current Diff
 Total: 111
 Original supported Count 94
 Original Unsupported Count 17
-Pass Count 65
-Diff Error Count 28
-Current supported Count 93
-Current unsupported Count 18
+Pass Count 59
+Diff Error Count 21
+Current supported Count 80
+Current unsupported Count 31
