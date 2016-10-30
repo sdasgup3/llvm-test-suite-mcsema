@@ -1,0 +1,1474 @@
+
+Mcsema Home: /home/sdasgup3/Github/mcsema_new_reg_assign/
+
+===./UnitTests/C++11/frame_layout/Output/frame_layout.simple.mcsema/frame_layout.simple===
+rm -rf  ./UnitTests/C++11/frame_layout/Output/frame_layout.simple.mcsema/frame_layout.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./UnitTests/C++11/frame_layout/Output/frame_layout.simple.mcsema/frame_layout.simple.cfg  -entrypoint=main -o ./UnitTests/C++11/frame_layout/Output/frame_layout.simple.mcsema/frame_layout.simple.new.bc   &>  ./UnitTests/C++11/frame_layout/Output/frame_layout.simple.mcsema/frame_layout.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/BitBench/drop3/Output/drop3.simple.mcsema/drop3.simple===
+rm -rf  ./Benchmarks/BitBench/drop3/Output/drop3.simple.mcsema/drop3.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/BitBench/drop3/Output/drop3.simple.mcsema/drop3.simple.cfg  -entrypoint=main -o ./Benchmarks/BitBench/drop3/Output/drop3.simple.mcsema/drop3.simple.new.bc   &>  ./Benchmarks/BitBench/drop3/Output/drop3.simple.mcsema/drop3.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/BitBench/five11/Output/five11.simple.mcsema/five11.simple===
+rm -rf  ./Benchmarks/BitBench/five11/Output/five11.simple.mcsema/five11.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/BitBench/five11/Output/five11.simple.mcsema/five11.simple.cfg  -entrypoint=main -o ./Benchmarks/BitBench/five11/Output/five11.simple.mcsema/five11.simple.new.bc   &>  ./Benchmarks/BitBench/five11/Output/five11.simple.mcsema/five11.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/BitBench/five11/Output/five11.simple.mcsema/five11.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/BitBench/five11/Output/five11.simple.mcsema/five11.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o: In function `call_gmon_start':
+(.text+0x7): undefined reference to `__gmon_start__'
+/tmp/five11-7ba48a.o: In function `___gmon_start__':
+./Benchmarks/BitBench/five11/Output/five11.simple.mcsema/five11.simple.new.bc:(.text+0x6f): undefined reference to `__gmon_start__'
+/tmp/five11-7ba48a.o: In function `sub_4006a8':
+./Benchmarks/BitBench/five11/Output/five11.simple.mcsema/five11.simple.new.bc:(.text+0x10ba): undefined reference to `__gmon_start__'
+./Benchmarks/BitBench/five11/Output/five11.simple.mcsema/five11.simple.new.bc:(.text+0x10bf): undefined reference to `__gmon_start__'
+./Benchmarks/BitBench/five11/Output/five11.simple.mcsema/five11.simple.new.bc:(.text+0x10c8): undefined reference to `__gmon_start__'
+/tmp/five11-7ba48a.o:./Benchmarks/BitBench/five11/Output/five11.simple.mcsema/five11.simple.new.bc:(.text+0x10d4): more undefined references to `__gmon_start__' follow
+clang-3.5: error: linker command failed with exit code 1 (use -v to see invocation)
+
+===./Benchmarks/BitBench/uudecode/Output/uudecode.simple.mcsema/uudecode.simple===
+rm -rf  ./Benchmarks/BitBench/uudecode/Output/uudecode.simple.mcsema/uudecode.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/BitBench/uudecode/Output/uudecode.simple.mcsema/uudecode.simple.cfg  -entrypoint=main -o ./Benchmarks/BitBench/uudecode/Output/uudecode.simple.mcsema/uudecode.simple.new.bc   &>  ./Benchmarks/BitBench/uudecode/Output/uudecode.simple.mcsema/uudecode.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/BitBench/uuencode/Output/uuencode.simple.mcsema/uuencode.simple===
+rm -rf  ./Benchmarks/BitBench/uuencode/Output/uuencode.simple.mcsema/uuencode.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/BitBench/uuencode/Output/uuencode.simple.mcsema/uuencode.simple.cfg  -entrypoint=main -o ./Benchmarks/BitBench/uuencode/Output/uuencode.simple.mcsema/uuencode.simple.new.bc   &>  ./Benchmarks/BitBench/uuencode/Output/uuencode.simple.mcsema/uuencode.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Ptrdist/ft/Output/ft.simple.mcsema/ft.simple===
+rm -rf  ./Benchmarks/Ptrdist/ft/Output/ft.simple.mcsema/ft.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Ptrdist/ft/Output/ft.simple.mcsema/ft.simple.cfg  -entrypoint=main -o ./Benchmarks/Ptrdist/ft/Output/ft.simple.mcsema/ft.simple.new.bc   &>  ./Benchmarks/Ptrdist/ft/Output/ft.simple.mcsema/ft.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Ptrdist/ks/Output/ks.simple.mcsema/ks.simple===
+rm -rf  ./Benchmarks/Ptrdist/ks/Output/ks.simple.mcsema/ks.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Ptrdist/ks/Output/ks.simple.mcsema/ks.simple.cfg  -entrypoint=main -o ./Benchmarks/Ptrdist/ks/Output/ks.simple.mcsema/ks.simple.new.bc   &>  ./Benchmarks/Ptrdist/ks/Output/ks.simple.mcsema/ks.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Ptrdist/yacr2/Output/yacr2.simple.mcsema/yacr2.simple===
+rm -rf  ./Benchmarks/Ptrdist/yacr2/Output/yacr2.simple.mcsema/yacr2.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Ptrdist/yacr2/Output/yacr2.simple.mcsema/yacr2.simple.cfg  -entrypoint=main -o ./Benchmarks/Ptrdist/yacr2/Output/yacr2.simple.mcsema/yacr2.simple.new.bc   &>  ./Benchmarks/Ptrdist/yacr2/Output/yacr2.simple.mcsema/yacr2.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Ptrdist/bc/Output/bc.simple.mcsema/bc.simple===
+rm -rf  ./Benchmarks/Ptrdist/bc/Output/bc.simple.mcsema/bc.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Ptrdist/bc/Output/bc.simple.mcsema/bc.simple.cfg  -entrypoint=main -o ./Benchmarks/Ptrdist/bc/Output/bc.simple.mcsema/bc.simple.new.bc   &>  ./Benchmarks/Ptrdist/bc/Output/bc.simple.mcsema/bc.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Ptrdist/anagram/Output/anagram.simple.mcsema/anagram.simple===
+rm -rf  ./Benchmarks/Ptrdist/anagram/Output/anagram.simple.mcsema/anagram.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Ptrdist/anagram/Output/anagram.simple.mcsema/anagram.simple.cfg  -entrypoint=main -o ./Benchmarks/Ptrdist/anagram/Output/anagram.simple.mcsema/anagram.simple.new.bc   &>  ./Benchmarks/Ptrdist/anagram/Output/anagram.simple.mcsema/anagram.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Fhourstones/Output/fhourstones.simple.mcsema/fhourstones.simple===
+rm -rf  ./Benchmarks/Fhourstones/Output/fhourstones.simple.mcsema/fhourstones.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Fhourstones/Output/fhourstones.simple.mcsema/fhourstones.simple.cfg  -entrypoint=main -o ./Benchmarks/Fhourstones/Output/fhourstones.simple.mcsema/fhourstones.simple.new.bc   &>  ./Benchmarks/Fhourstones/Output/fhourstones.simple.mcsema/fhourstones.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/MallocBench/gs/Output/gs.simple.mcsema/gs.simple===
+rm -rf  ./Benchmarks/MallocBench/gs/Output/gs.simple.mcsema/gs.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/MallocBench/gs/Output/gs.simple.mcsema/gs.simple.cfg  -entrypoint=main -o ./Benchmarks/MallocBench/gs/Output/gs.simple.mcsema/gs.simple.new.bc   &>  ./Benchmarks/MallocBench/gs/Output/gs.simple.mcsema/gs.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/MallocBench/cfrac/Output/cfrac.simple.mcsema/cfrac.simple===
+rm -rf  ./Benchmarks/MallocBench/cfrac/Output/cfrac.simple.mcsema/cfrac.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/MallocBench/cfrac/Output/cfrac.simple.mcsema/cfrac.simple.cfg  -entrypoint=main -o ./Benchmarks/MallocBench/cfrac/Output/cfrac.simple.mcsema/cfrac.simple.new.bc   &>  ./Benchmarks/MallocBench/cfrac/Output/cfrac.simple.mcsema/cfrac.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/MallocBench/espresso/Output/espresso.simple.mcsema/espresso.simple===
+rm -rf  ./Benchmarks/MallocBench/espresso/Output/espresso.simple.mcsema/espresso.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/MallocBench/espresso/Output/espresso.simple.mcsema/espresso.simple.cfg  -entrypoint=main -o ./Benchmarks/MallocBench/espresso/Output/espresso.simple.mcsema/espresso.simple.new.bc   &>  ./Benchmarks/MallocBench/espresso/Output/espresso.simple.mcsema/espresso.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/MiBench/network-dijkstra/Output/network-dijkstra.simple.mcsema/network-dijkstra.simple===
+rm -rf  ./Benchmarks/MiBench/network-dijkstra/Output/network-dijkstra.simple.mcsema/network-dijkstra.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/MiBench/network-dijkstra/Output/network-dijkstra.simple.mcsema/network-dijkstra.simple.cfg  -entrypoint=main -o ./Benchmarks/MiBench/network-dijkstra/Output/network-dijkstra.simple.mcsema/network-dijkstra.simple.new.bc   &>  ./Benchmarks/MiBench/network-dijkstra/Output/network-dijkstra.simple.mcsema/network-dijkstra.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/MiBench/telecomm-CRC32/Output/telecomm-CRC32.simple.mcsema/telecomm-CRC32.simple===
+rm -rf  ./Benchmarks/MiBench/telecomm-CRC32/Output/telecomm-CRC32.simple.mcsema/telecomm-CRC32.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/MiBench/telecomm-CRC32/Output/telecomm-CRC32.simple.mcsema/telecomm-CRC32.simple.cfg  -entrypoint=main -o ./Benchmarks/MiBench/telecomm-CRC32/Output/telecomm-CRC32.simple.mcsema/telecomm-CRC32.simple.new.bc   &>  ./Benchmarks/MiBench/telecomm-CRC32/Output/telecomm-CRC32.simple.mcsema/telecomm-CRC32.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/MiBench/telecomm-CRC32/Output/telecomm-CRC32.simple.mcsema/telecomm-CRC32.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/MiBench/telecomm-CRC32/Output/telecomm-CRC32.simple.mcsema/telecomm-CRC32.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/MiBench/office-ispell/Output/office-ispell.simple.mcsema/office-ispell.simple===
+rm -rf  ./Benchmarks/MiBench/office-ispell/Output/office-ispell.simple.mcsema/office-ispell.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/MiBench/office-ispell/Output/office-ispell.simple.mcsema/office-ispell.simple.cfg  -entrypoint=main -o ./Benchmarks/MiBench/office-ispell/Output/office-ispell.simple.mcsema/office-ispell.simple.new.bc   &>  ./Benchmarks/MiBench/office-ispell/Output/office-ispell.simple.mcsema/office-ispell.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/MiBench/consumer-typeset/Output/consumer-typeset.simple.mcsema/consumer-typeset.simple===
+rm -rf  ./Benchmarks/MiBench/consumer-typeset/Output/consumer-typeset.simple.mcsema/consumer-typeset.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/MiBench/consumer-typeset/Output/consumer-typeset.simple.mcsema/consumer-typeset.simple.cfg  -entrypoint=main -o ./Benchmarks/MiBench/consumer-typeset/Output/consumer-typeset.simple.mcsema/consumer-typeset.simple.new.bc   &>  ./Benchmarks/MiBench/consumer-typeset/Output/consumer-typeset.simple.mcsema/consumer-typeset.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/MiBench/security-rijndael/Output/security-rijndael.simple.mcsema/security-rijndael.simple===
+rm -rf  ./Benchmarks/MiBench/security-rijndael/Output/security-rijndael.simple.mcsema/security-rijndael.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/MiBench/security-rijndael/Output/security-rijndael.simple.mcsema/security-rijndael.simple.cfg  -entrypoint=main -o ./Benchmarks/MiBench/security-rijndael/Output/security-rijndael.simple.mcsema/security-rijndael.simple.new.bc   &>  ./Benchmarks/MiBench/security-rijndael/Output/security-rijndael.simple.mcsema/security-rijndael.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/MiBench/security-rijndael/Output/security-rijndael.simple.mcsema/security-rijndael.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/MiBench/security-rijndael/Output/security-rijndael.simple.mcsema/security-rijndael.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/MiBench/network-patricia/Output/network-patricia.simple.mcsema/network-patricia.simple===
+rm -rf  ./Benchmarks/MiBench/network-patricia/Output/network-patricia.simple.mcsema/network-patricia.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/MiBench/network-patricia/Output/network-patricia.simple.mcsema/network-patricia.simple.cfg  -entrypoint=main -o ./Benchmarks/MiBench/network-patricia/Output/network-patricia.simple.mcsema/network-patricia.simple.new.bc   &>  ./Benchmarks/MiBench/network-patricia/Output/network-patricia.simple.mcsema/network-patricia.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/MiBench/security-sha/Output/security-sha.simple.mcsema/security-sha.simple===
+rm -rf  ./Benchmarks/MiBench/security-sha/Output/security-sha.simple.mcsema/security-sha.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/MiBench/security-sha/Output/security-sha.simple.mcsema/security-sha.simple.cfg  -entrypoint=main -o ./Benchmarks/MiBench/security-sha/Output/security-sha.simple.mcsema/security-sha.simple.new.bc   &>  ./Benchmarks/MiBench/security-sha/Output/security-sha.simple.mcsema/security-sha.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/MiBench/security-sha/Output/security-sha.simple.mcsema/security-sha.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/MiBench/security-sha/Output/security-sha.simple.mcsema/security-sha.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/MiBench/office-stringsearch/Output/office-stringsearch.simple.mcsema/office-stringsearch.simple===
+rm -rf  ./Benchmarks/MiBench/office-stringsearch/Output/office-stringsearch.simple.mcsema/office-stringsearch.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/MiBench/office-stringsearch/Output/office-stringsearch.simple.mcsema/office-stringsearch.simple.cfg  -entrypoint=main -o ./Benchmarks/MiBench/office-stringsearch/Output/office-stringsearch.simple.mcsema/office-stringsearch.simple.new.bc   &>  ./Benchmarks/MiBench/office-stringsearch/Output/office-stringsearch.simple.mcsema/office-stringsearch.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/MiBench/office-stringsearch/Output/office-stringsearch.simple.mcsema/office-stringsearch.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/MiBench/office-stringsearch/Output/office-stringsearch.simple.mcsema/office-stringsearch.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/MiBench/telecomm-adpcm/Output/telecomm-adpcm.simple.mcsema/telecomm-adpcm.simple===
+rm -rf  ./Benchmarks/MiBench/telecomm-adpcm/Output/telecomm-adpcm.simple.mcsema/telecomm-adpcm.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/MiBench/telecomm-adpcm/Output/telecomm-adpcm.simple.mcsema/telecomm-adpcm.simple.cfg  -entrypoint=main -o ./Benchmarks/MiBench/telecomm-adpcm/Output/telecomm-adpcm.simple.mcsema/telecomm-adpcm.simple.new.bc   &>  ./Benchmarks/MiBench/telecomm-adpcm/Output/telecomm-adpcm.simple.mcsema/telecomm-adpcm.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/MiBench/automotive-susan/Output/automotive-susan.simple.mcsema/automotive-susan.simple===
+rm -rf  ./Benchmarks/MiBench/automotive-susan/Output/automotive-susan.simple.mcsema/automotive-susan.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/MiBench/automotive-susan/Output/automotive-susan.simple.mcsema/automotive-susan.simple.cfg  -entrypoint=main -o ./Benchmarks/MiBench/automotive-susan/Output/automotive-susan.simple.mcsema/automotive-susan.simple.new.bc   &>  ./Benchmarks/MiBench/automotive-susan/Output/automotive-susan.simple.mcsema/automotive-susan.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/MiBench/security-blowfish/Output/security-blowfish.simple.mcsema/security-blowfish.simple===
+rm -rf  ./Benchmarks/MiBench/security-blowfish/Output/security-blowfish.simple.mcsema/security-blowfish.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/MiBench/security-blowfish/Output/security-blowfish.simple.mcsema/security-blowfish.simple.cfg  -entrypoint=main -o ./Benchmarks/MiBench/security-blowfish/Output/security-blowfish.simple.mcsema/security-blowfish.simple.new.bc   &>  ./Benchmarks/MiBench/security-blowfish/Output/security-blowfish.simple.mcsema/security-blowfish.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/MiBench/consumer-lame/Output/consumer-lame.simple.mcsema/consumer-lame.simple===
+rm -rf  ./Benchmarks/MiBench/consumer-lame/Output/consumer-lame.simple.mcsema/consumer-lame.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/MiBench/consumer-lame/Output/consumer-lame.simple.mcsema/consumer-lame.simple.cfg  -entrypoint=main -o ./Benchmarks/MiBench/consumer-lame/Output/consumer-lame.simple.mcsema/consumer-lame.simple.new.bc   &>  ./Benchmarks/MiBench/consumer-lame/Output/consumer-lame.simple.mcsema/consumer-lame.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/MiBench/automotive-basicmath/Output/automotive-basicmath.simple.mcsema/automotive-basicmath.simple===
+rm -rf  ./Benchmarks/MiBench/automotive-basicmath/Output/automotive-basicmath.simple.mcsema/automotive-basicmath.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/MiBench/automotive-basicmath/Output/automotive-basicmath.simple.mcsema/automotive-basicmath.simple.cfg  -entrypoint=main -o ./Benchmarks/MiBench/automotive-basicmath/Output/automotive-basicmath.simple.mcsema/automotive-basicmath.simple.new.bc   &>  ./Benchmarks/MiBench/automotive-basicmath/Output/automotive-basicmath.simple.mcsema/automotive-basicmath.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/MiBench/telecomm-FFT/Output/telecomm-fft.simple.mcsema/telecomm-fft.simple===
+rm -rf  ./Benchmarks/MiBench/telecomm-FFT/Output/telecomm-fft.simple.mcsema/telecomm-fft.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/MiBench/telecomm-FFT/Output/telecomm-fft.simple.mcsema/telecomm-fft.simple.cfg  -entrypoint=main -o ./Benchmarks/MiBench/telecomm-FFT/Output/telecomm-fft.simple.mcsema/telecomm-fft.simple.new.bc   &>  ./Benchmarks/MiBench/telecomm-FFT/Output/telecomm-fft.simple.mcsema/telecomm-fft.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/MiBench/automotive-bitcount/Output/automotive-bitcount.simple.mcsema/automotive-bitcount.simple===
+rm -rf  ./Benchmarks/MiBench/automotive-bitcount/Output/automotive-bitcount.simple.mcsema/automotive-bitcount.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/MiBench/automotive-bitcount/Output/automotive-bitcount.simple.mcsema/automotive-bitcount.simple.cfg  -entrypoint=main -o ./Benchmarks/MiBench/automotive-bitcount/Output/automotive-bitcount.simple.mcsema/automotive-bitcount.simple.new.bc   &>  ./Benchmarks/MiBench/automotive-bitcount/Output/automotive-bitcount.simple.mcsema/automotive-bitcount.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/MiBench/telecomm-gsm/Output/telecomm-gsm.simple.mcsema/telecomm-gsm.simple===
+rm -rf  ./Benchmarks/MiBench/telecomm-gsm/Output/telecomm-gsm.simple.mcsema/telecomm-gsm.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/MiBench/telecomm-gsm/Output/telecomm-gsm.simple.mcsema/telecomm-gsm.simple.cfg  -entrypoint=main -o ./Benchmarks/MiBench/telecomm-gsm/Output/telecomm-gsm.simple.mcsema/telecomm-gsm.simple.new.bc   &>  ./Benchmarks/MiBench/telecomm-gsm/Output/telecomm-gsm.simple.mcsema/telecomm-gsm.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/MiBench/consumer-jpeg/Output/consumer-jpeg.simple.mcsema/consumer-jpeg.simple===
+rm -rf  ./Benchmarks/MiBench/consumer-jpeg/Output/consumer-jpeg.simple.mcsema/consumer-jpeg.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/MiBench/consumer-jpeg/Output/consumer-jpeg.simple.mcsema/consumer-jpeg.simple.cfg  -entrypoint=main -o ./Benchmarks/MiBench/consumer-jpeg/Output/consumer-jpeg.simple.mcsema/consumer-jpeg.simple.new.bc   &>  ./Benchmarks/MiBench/consumer-jpeg/Output/consumer-jpeg.simple.mcsema/consumer-jpeg.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/McCat/04-bisect/Output/bisect.simple.mcsema/bisect.simple===
+rm -rf  ./Benchmarks/McCat/04-bisect/Output/bisect.simple.mcsema/bisect.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/McCat/04-bisect/Output/bisect.simple.mcsema/bisect.simple.cfg  -entrypoint=main -o ./Benchmarks/McCat/04-bisect/Output/bisect.simple.mcsema/bisect.simple.new.bc   &>  ./Benchmarks/McCat/04-bisect/Output/bisect.simple.mcsema/bisect.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/McCat/01-qbsort/Output/qbsort.simple.mcsema/qbsort.simple===
+rm -rf  ./Benchmarks/McCat/01-qbsort/Output/qbsort.simple.mcsema/qbsort.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/McCat/01-qbsort/Output/qbsort.simple.mcsema/qbsort.simple.cfg  -entrypoint=main -o ./Benchmarks/McCat/01-qbsort/Output/qbsort.simple.mcsema/qbsort.simple.new.bc   &>  ./Benchmarks/McCat/01-qbsort/Output/qbsort.simple.mcsema/qbsort.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/McCat/12-IOtest/Output/iotest.simple.mcsema/iotest.simple===
+rm -rf  ./Benchmarks/McCat/12-IOtest/Output/iotest.simple.mcsema/iotest.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/McCat/12-IOtest/Output/iotest.simple.mcsema/iotest.simple.cfg  -entrypoint=main -o ./Benchmarks/McCat/12-IOtest/Output/iotest.simple.mcsema/iotest.simple.new.bc   &>  ./Benchmarks/McCat/12-IOtest/Output/iotest.simple.mcsema/iotest.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/McCat/12-IOtest/Output/iotest.simple.mcsema/iotest.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/McCat/12-IOtest/Output/iotest.simple.mcsema/iotest.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/McCat/09-vor/Output/vor.simple.mcsema/vor.simple===
+rm -rf  ./Benchmarks/McCat/09-vor/Output/vor.simple.mcsema/vor.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/McCat/09-vor/Output/vor.simple.mcsema/vor.simple.cfg  -entrypoint=main -o ./Benchmarks/McCat/09-vor/Output/vor.simple.mcsema/vor.simple.new.bc   &>  ./Benchmarks/McCat/09-vor/Output/vor.simple.mcsema/vor.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/McCat/03-testtrie/Output/testtrie.simple.mcsema/testtrie.simple===
+rm -rf  ./Benchmarks/McCat/03-testtrie/Output/testtrie.simple.mcsema/testtrie.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/McCat/03-testtrie/Output/testtrie.simple.mcsema/testtrie.simple.cfg  -entrypoint=main -o ./Benchmarks/McCat/03-testtrie/Output/testtrie.simple.mcsema/testtrie.simple.new.bc   &>  ./Benchmarks/McCat/03-testtrie/Output/testtrie.simple.mcsema/testtrie.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/McCat/18-imp/Output/imp.simple.mcsema/imp.simple===
+rm -rf  ./Benchmarks/McCat/18-imp/Output/imp.simple.mcsema/imp.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/McCat/18-imp/Output/imp.simple.mcsema/imp.simple.cfg  -entrypoint=main -o ./Benchmarks/McCat/18-imp/Output/imp.simple.mcsema/imp.simple.new.bc   &>  ./Benchmarks/McCat/18-imp/Output/imp.simple.mcsema/imp.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/McCat/05-eks/Output/eks.simple.mcsema/eks.simple===
+rm -rf  ./Benchmarks/McCat/05-eks/Output/eks.simple.mcsema/eks.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/McCat/05-eks/Output/eks.simple.mcsema/eks.simple.cfg  -entrypoint=main -o ./Benchmarks/McCat/05-eks/Output/eks.simple.mcsema/eks.simple.new.bc   &>  ./Benchmarks/McCat/05-eks/Output/eks.simple.mcsema/eks.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/McCat/15-trie/Output/trie.simple.mcsema/trie.simple===
+rm -rf  ./Benchmarks/McCat/15-trie/Output/trie.simple.mcsema/trie.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/McCat/15-trie/Output/trie.simple.mcsema/trie.simple.cfg  -entrypoint=main -o ./Benchmarks/McCat/15-trie/Output/trie.simple.mcsema/trie.simple.new.bc   &>  ./Benchmarks/McCat/15-trie/Output/trie.simple.mcsema/trie.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/McCat/08-main/Output/main.simple.mcsema/main.simple===
+rm -rf  ./Benchmarks/McCat/08-main/Output/main.simple.mcsema/main.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/McCat/08-main/Output/main.simple.mcsema/main.simple.cfg  -entrypoint=main -o ./Benchmarks/McCat/08-main/Output/main.simple.mcsema/main.simple.new.bc   &>  ./Benchmarks/McCat/08-main/Output/main.simple.mcsema/main.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/McCat/17-bintr/Output/bintr.simple.mcsema/bintr.simple===
+rm -rf  ./Benchmarks/McCat/17-bintr/Output/bintr.simple.mcsema/bintr.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/McCat/17-bintr/Output/bintr.simple.mcsema/bintr.simple.cfg  -entrypoint=main -o ./Benchmarks/McCat/17-bintr/Output/bintr.simple.mcsema/bintr.simple.new.bc   &>  ./Benchmarks/McCat/17-bintr/Output/bintr.simple.mcsema/bintr.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/McCat/17-bintr/Output/bintr.simple.mcsema/bintr.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/McCat/17-bintr/Output/bintr.simple.mcsema/bintr.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/Prolangs-C/allroots/Output/allroots.simple.mcsema/allroots.simple===
+rm -rf  ./Benchmarks/Prolangs-C/allroots/Output/allroots.simple.mcsema/allroots.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C/allroots/Output/allroots.simple.mcsema/allroots.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C/allroots/Output/allroots.simple.mcsema/allroots.simple.new.bc   &>  ./Benchmarks/Prolangs-C/allroots/Output/allroots.simple.mcsema/allroots.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/Prolangs-C/allroots/Output/allroots.simple.mcsema/allroots.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/Prolangs-C/allroots/Output/allroots.simple.mcsema/allroots.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/Prolangs-C/compiler/Output/compiler.simple.mcsema/compiler.simple===
+rm -rf  ./Benchmarks/Prolangs-C/compiler/Output/compiler.simple.mcsema/compiler.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C/compiler/Output/compiler.simple.mcsema/compiler.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C/compiler/Output/compiler.simple.mcsema/compiler.simple.new.bc   &>  ./Benchmarks/Prolangs-C/compiler/Output/compiler.simple.mcsema/compiler.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/Prolangs-C/compiler/Output/compiler.simple.mcsema/compiler.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/Prolangs-C/compiler/Output/compiler.simple.mcsema/compiler.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/Prolangs-C/football/Output/football.simple.mcsema/football.simple===
+rm -rf  ./Benchmarks/Prolangs-C/football/Output/football.simple.mcsema/football.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C/football/Output/football.simple.mcsema/football.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C/football/Output/football.simple.mcsema/football.simple.new.bc   &>  ./Benchmarks/Prolangs-C/football/Output/football.simple.mcsema/football.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C/agrep/Output/agrep.simple.mcsema/agrep.simple===
+rm -rf  ./Benchmarks/Prolangs-C/agrep/Output/agrep.simple.mcsema/agrep.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C/agrep/Output/agrep.simple.mcsema/agrep.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C/agrep/Output/agrep.simple.mcsema/agrep.simple.new.bc   &>  ./Benchmarks/Prolangs-C/agrep/Output/agrep.simple.mcsema/agrep.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C/fixoutput/Output/fixoutput.simple.mcsema/fixoutput.simple===
+rm -rf  ./Benchmarks/Prolangs-C/fixoutput/Output/fixoutput.simple.mcsema/fixoutput.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C/fixoutput/Output/fixoutput.simple.mcsema/fixoutput.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C/fixoutput/Output/fixoutput.simple.mcsema/fixoutput.simple.new.bc   &>  ./Benchmarks/Prolangs-C/fixoutput/Output/fixoutput.simple.mcsema/fixoutput.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C/cdecl/Output/cdecl.simple.mcsema/cdecl.simple===
+rm -rf  ./Benchmarks/Prolangs-C/cdecl/Output/cdecl.simple.mcsema/cdecl.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C/cdecl/Output/cdecl.simple.mcsema/cdecl.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C/cdecl/Output/cdecl.simple.mcsema/cdecl.simple.new.bc   &>  ./Benchmarks/Prolangs-C/cdecl/Output/cdecl.simple.mcsema/cdecl.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C/assembler/Output/assembler.simple.mcsema/assembler.simple===
+rm -rf  ./Benchmarks/Prolangs-C/assembler/Output/assembler.simple.mcsema/assembler.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C/assembler/Output/assembler.simple.mcsema/assembler.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C/assembler/Output/assembler.simple.mcsema/assembler.simple.new.bc   &>  ./Benchmarks/Prolangs-C/assembler/Output/assembler.simple.mcsema/assembler.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/Prolangs-C/assembler/Output/assembler.simple.mcsema/assembler.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/Prolangs-C/assembler/Output/assembler.simple.mcsema/assembler.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/Prolangs-C/TimberWolfMC/Output/timberwolfmc.simple.mcsema/timberwolfmc.simple===
+rm -rf  ./Benchmarks/Prolangs-C/TimberWolfMC/Output/timberwolfmc.simple.mcsema/timberwolfmc.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C/TimberWolfMC/Output/timberwolfmc.simple.mcsema/timberwolfmc.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C/TimberWolfMC/Output/timberwolfmc.simple.mcsema/timberwolfmc.simple.new.bc   &>  ./Benchmarks/Prolangs-C/TimberWolfMC/Output/timberwolfmc.simple.mcsema/timberwolfmc.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C/bison/Output/mybison.simple.mcsema/mybison.simple===
+rm -rf  ./Benchmarks/Prolangs-C/bison/Output/mybison.simple.mcsema/mybison.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C/bison/Output/mybison.simple.mcsema/mybison.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C/bison/Output/mybison.simple.mcsema/mybison.simple.new.bc   &>  ./Benchmarks/Prolangs-C/bison/Output/mybison.simple.mcsema/mybison.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C/plot2fig/Output/plot2fig.simple.mcsema/plot2fig.simple===
+rm -rf  ./Benchmarks/Prolangs-C/plot2fig/Output/plot2fig.simple.mcsema/plot2fig.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C/plot2fig/Output/plot2fig.simple.mcsema/plot2fig.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C/plot2fig/Output/plot2fig.simple.mcsema/plot2fig.simple.new.bc   &>  ./Benchmarks/Prolangs-C/plot2fig/Output/plot2fig.simple.mcsema/plot2fig.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C/unix-tbl/Output/unix-tbl.simple.mcsema/unix-tbl.simple===
+rm -rf  ./Benchmarks/Prolangs-C/unix-tbl/Output/unix-tbl.simple.mcsema/unix-tbl.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C/unix-tbl/Output/unix-tbl.simple.mcsema/unix-tbl.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C/unix-tbl/Output/unix-tbl.simple.mcsema/unix-tbl.simple.new.bc   &>  ./Benchmarks/Prolangs-C/unix-tbl/Output/unix-tbl.simple.mcsema/unix-tbl.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C/loader/Output/loader.simple.mcsema/loader.simple===
+rm -rf  ./Benchmarks/Prolangs-C/loader/Output/loader.simple.mcsema/loader.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C/loader/Output/loader.simple.mcsema/loader.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C/loader/Output/loader.simple.mcsema/loader.simple.new.bc   &>  ./Benchmarks/Prolangs-C/loader/Output/loader.simple.mcsema/loader.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/Prolangs-C/loader/Output/loader.simple.mcsema/loader.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/Prolangs-C/loader/Output/loader.simple.mcsema/loader.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/Prolangs-C/gnugo/Output/gnugo.simple.mcsema/gnugo.simple===
+rm -rf  ./Benchmarks/Prolangs-C/gnugo/Output/gnugo.simple.mcsema/gnugo.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C/gnugo/Output/gnugo.simple.mcsema/gnugo.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C/gnugo/Output/gnugo.simple.mcsema/gnugo.simple.new.bc   &>  ./Benchmarks/Prolangs-C/gnugo/Output/gnugo.simple.mcsema/gnugo.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/Prolangs-C/gnugo/Output/gnugo.simple.mcsema/gnugo.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/Prolangs-C/gnugo/Output/gnugo.simple.mcsema/gnugo.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/Prolangs-C/unix-smail/Output/unix-smail.simple.mcsema/unix-smail.simple===
+rm -rf  ./Benchmarks/Prolangs-C/unix-smail/Output/unix-smail.simple.mcsema/unix-smail.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C/unix-smail/Output/unix-smail.simple.mcsema/unix-smail.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C/unix-smail/Output/unix-smail.simple.mcsema/unix-smail.simple.new.bc   &>  ./Benchmarks/Prolangs-C/unix-smail/Output/unix-smail.simple.mcsema/unix-smail.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C/archie-client/Output/archie.simple.mcsema/archie.simple===
+rm -rf  ./Benchmarks/Prolangs-C/archie-client/Output/archie.simple.mcsema/archie.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C/archie-client/Output/archie.simple.mcsema/archie.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C/archie-client/Output/archie.simple.mcsema/archie.simple.new.bc   &>  ./Benchmarks/Prolangs-C/archie-client/Output/archie.simple.mcsema/archie.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C/simulator/Output/simulator.simple.mcsema/simulator.simple===
+rm -rf  ./Benchmarks/Prolangs-C/simulator/Output/simulator.simple.mcsema/simulator.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C/simulator/Output/simulator.simple.mcsema/simulator.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C/simulator/Output/simulator.simple.mcsema/simulator.simple.new.bc   &>  ./Benchmarks/Prolangs-C/simulator/Output/simulator.simple.mcsema/simulator.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/Prolangs-C/simulator/Output/simulator.simple.mcsema/simulator.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/Prolangs-C/simulator/Output/simulator.simple.mcsema/simulator.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/SciMark2-C/Output/scimark2.simple.mcsema/scimark2.simple===
+rm -rf  ./Benchmarks/SciMark2-C/Output/scimark2.simple.mcsema/scimark2.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/SciMark2-C/Output/scimark2.simple.mcsema/scimark2.simple.cfg  -entrypoint=main -o ./Benchmarks/SciMark2-C/Output/scimark2.simple.mcsema/scimark2.simple.new.bc   &>  ./Benchmarks/SciMark2-C/Output/scimark2.simple.mcsema/scimark2.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/FreeBench/fourinarow/Output/fourinarow.simple.mcsema/fourinarow.simple===
+rm -rf  ./Benchmarks/FreeBench/fourinarow/Output/fourinarow.simple.mcsema/fourinarow.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/FreeBench/fourinarow/Output/fourinarow.simple.mcsema/fourinarow.simple.cfg  -entrypoint=main -o ./Benchmarks/FreeBench/fourinarow/Output/fourinarow.simple.mcsema/fourinarow.simple.new.bc   &>  ./Benchmarks/FreeBench/fourinarow/Output/fourinarow.simple.mcsema/fourinarow.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/FreeBench/distray/Output/distray.simple.mcsema/distray.simple===
+rm -rf  ./Benchmarks/FreeBench/distray/Output/distray.simple.mcsema/distray.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/FreeBench/distray/Output/distray.simple.mcsema/distray.simple.cfg  -entrypoint=main -o ./Benchmarks/FreeBench/distray/Output/distray.simple.mcsema/distray.simple.new.bc   &>  ./Benchmarks/FreeBench/distray/Output/distray.simple.mcsema/distray.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/FreeBench/pcompress2/Output/pcompress2.simple.mcsema/pcompress2.simple===
+rm -rf  ./Benchmarks/FreeBench/pcompress2/Output/pcompress2.simple.mcsema/pcompress2.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/FreeBench/pcompress2/Output/pcompress2.simple.mcsema/pcompress2.simple.cfg  -entrypoint=main -o ./Benchmarks/FreeBench/pcompress2/Output/pcompress2.simple.mcsema/pcompress2.simple.new.bc   &>  ./Benchmarks/FreeBench/pcompress2/Output/pcompress2.simple.mcsema/pcompress2.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/FreeBench/pifft/Output/pifft.simple.mcsema/pifft.simple===
+rm -rf  ./Benchmarks/FreeBench/pifft/Output/pifft.simple.mcsema/pifft.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/FreeBench/pifft/Output/pifft.simple.mcsema/pifft.simple.cfg  -entrypoint=main -o ./Benchmarks/FreeBench/pifft/Output/pifft.simple.mcsema/pifft.simple.new.bc   &>  ./Benchmarks/FreeBench/pifft/Output/pifft.simple.mcsema/pifft.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/FreeBench/neural/Output/neural.simple.mcsema/neural.simple===
+rm -rf  ./Benchmarks/FreeBench/neural/Output/neural.simple.mcsema/neural.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/FreeBench/neural/Output/neural.simple.mcsema/neural.simple.cfg  -entrypoint=main -o ./Benchmarks/FreeBench/neural/Output/neural.simple.mcsema/neural.simple.new.bc   &>  ./Benchmarks/FreeBench/neural/Output/neural.simple.mcsema/neural.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/FreeBench/mason/Output/mason.simple.mcsema/mason.simple===
+rm -rf  ./Benchmarks/FreeBench/mason/Output/mason.simple.mcsema/mason.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/FreeBench/mason/Output/mason.simple.mcsema/mason.simple.cfg  -entrypoint=main -o ./Benchmarks/FreeBench/mason/Output/mason.simple.mcsema/mason.simple.new.bc   &>  ./Benchmarks/FreeBench/mason/Output/mason.simple.mcsema/mason.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/FreeBench/analyzer/Output/analyzer.simple.mcsema/analyzer.simple===
+rm -rf  ./Benchmarks/FreeBench/analyzer/Output/analyzer.simple.mcsema/analyzer.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/FreeBench/analyzer/Output/analyzer.simple.mcsema/analyzer.simple.cfg  -entrypoint=main -o ./Benchmarks/FreeBench/analyzer/Output/analyzer.simple.mcsema/analyzer.simple.new.bc   &>  ./Benchmarks/FreeBench/analyzer/Output/analyzer.simple.mcsema/analyzer.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/PAQ8p/Output/paq8p.simple.mcsema/paq8p.simple===
+rm -rf  ./Benchmarks/PAQ8p/Output/paq8p.simple.mcsema/paq8p.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/PAQ8p/Output/paq8p.simple.mcsema/paq8p.simple.cfg  -entrypoint=main -o ./Benchmarks/PAQ8p/Output/paq8p.simple.mcsema/paq8p.simple.new.bc   &>  ./Benchmarks/PAQ8p/Output/paq8p.simple.mcsema/paq8p.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/ASC_Sequoia/AMGmk/Output/AMGmk.simple.mcsema/AMGmk.simple===
+rm -rf  ./Benchmarks/ASC_Sequoia/AMGmk/Output/AMGmk.simple.mcsema/AMGmk.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/ASC_Sequoia/AMGmk/Output/AMGmk.simple.mcsema/AMGmk.simple.cfg  -entrypoint=main -o ./Benchmarks/ASC_Sequoia/AMGmk/Output/AMGmk.simple.mcsema/AMGmk.simple.new.bc   &>  ./Benchmarks/ASC_Sequoia/AMGmk/Output/AMGmk.simple.mcsema/AMGmk.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/ASC_Sequoia/CrystalMk/Output/CrystalMk.simple.mcsema/CrystalMk.simple===
+rm -rf  ./Benchmarks/ASC_Sequoia/CrystalMk/Output/CrystalMk.simple.mcsema/CrystalMk.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/ASC_Sequoia/CrystalMk/Output/CrystalMk.simple.mcsema/CrystalMk.simple.cfg  -entrypoint=main -o ./Benchmarks/ASC_Sequoia/CrystalMk/Output/CrystalMk.simple.mcsema/CrystalMk.simple.new.bc   &>  ./Benchmarks/ASC_Sequoia/CrystalMk/Output/CrystalMk.simple.mcsema/CrystalMk.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/ASC_Sequoia/IRSmk/Output/IRSmk.simple.mcsema/IRSmk.simple===
+rm -rf  ./Benchmarks/ASC_Sequoia/IRSmk/Output/IRSmk.simple.mcsema/IRSmk.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/ASC_Sequoia/IRSmk/Output/IRSmk.simple.mcsema/IRSmk.simple.cfg  -entrypoint=main -o ./Benchmarks/ASC_Sequoia/IRSmk/Output/IRSmk.simple.mcsema/IRSmk.simple.new.bc   &>  ./Benchmarks/ASC_Sequoia/IRSmk/Output/IRSmk.simple.mcsema/IRSmk.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Fhourstones-3.1/Output/fhourstones3.1.simple.mcsema/fhourstones3.1.simple===
+rm -rf  ./Benchmarks/Fhourstones-3.1/Output/fhourstones3.1.simple.mcsema/fhourstones3.1.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Fhourstones-3.1/Output/fhourstones3.1.simple.mcsema/fhourstones3.1.simple.cfg  -entrypoint=main -o ./Benchmarks/Fhourstones-3.1/Output/fhourstones3.1.simple.mcsema/fhourstones3.1.simple.new.bc   &>  ./Benchmarks/Fhourstones-3.1/Output/fhourstones3.1.simple.mcsema/fhourstones3.1.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/nbench/Output/nbench.simple.mcsema/nbench.simple===
+rm -rf  ./Benchmarks/nbench/Output/nbench.simple.mcsema/nbench.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/nbench/Output/nbench.simple.mcsema/nbench.simple.cfg  -entrypoint=main -o ./Benchmarks/nbench/Output/nbench.simple.mcsema/nbench.simple.new.bc   &>  ./Benchmarks/nbench/Output/nbench.simple.mcsema/nbench.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/NPB-serial/is/Output/is.simple.mcsema/is.simple===
+rm -rf  ./Benchmarks/NPB-serial/is/Output/is.simple.mcsema/is.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/NPB-serial/is/Output/is.simple.mcsema/is.simple.cfg  -entrypoint=main -o ./Benchmarks/NPB-serial/is/Output/is.simple.mcsema/is.simple.new.bc   &>  ./Benchmarks/NPB-serial/is/Output/is.simple.mcsema/is.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/ASCI_Purple/SMG2000/Output/smg2000.simple.mcsema/smg2000.simple===
+rm -rf  ./Benchmarks/ASCI_Purple/SMG2000/Output/smg2000.simple.mcsema/smg2000.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/ASCI_Purple/SMG2000/Output/smg2000.simple.mcsema/smg2000.simple.cfg  -entrypoint=main -o ./Benchmarks/ASCI_Purple/SMG2000/Output/smg2000.simple.mcsema/smg2000.simple.new.bc   &>  ./Benchmarks/ASCI_Purple/SMG2000/Output/smg2000.simple.mcsema/smg2000.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/mafft/Output/pairlocalalign.simple.mcsema/pairlocalalign.simple===
+rm -rf  ./Benchmarks/mafft/Output/pairlocalalign.simple.mcsema/pairlocalalign.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/mafft/Output/pairlocalalign.simple.mcsema/pairlocalalign.simple.cfg  -entrypoint=main -o ./Benchmarks/mafft/Output/pairlocalalign.simple.mcsema/pairlocalalign.simple.new.bc   &>  ./Benchmarks/mafft/Output/pairlocalalign.simple.mcsema/pairlocalalign.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Olden/tsp/Output/tsp.simple.mcsema/tsp.simple===
+rm -rf  ./Benchmarks/Olden/tsp/Output/tsp.simple.mcsema/tsp.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Olden/tsp/Output/tsp.simple.mcsema/tsp.simple.cfg  -entrypoint=main -o ./Benchmarks/Olden/tsp/Output/tsp.simple.mcsema/tsp.simple.new.bc   &>  ./Benchmarks/Olden/tsp/Output/tsp.simple.mcsema/tsp.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/Olden/tsp/Output/tsp.simple.mcsema/tsp.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/Olden/tsp/Output/tsp.simple.mcsema/tsp.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/Olden/voronoi/Output/voronoi.simple.mcsema/voronoi.simple===
+rm -rf  ./Benchmarks/Olden/voronoi/Output/voronoi.simple.mcsema/voronoi.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Olden/voronoi/Output/voronoi.simple.mcsema/voronoi.simple.cfg  -entrypoint=main -o ./Benchmarks/Olden/voronoi/Output/voronoi.simple.mcsema/voronoi.simple.new.bc   &>  ./Benchmarks/Olden/voronoi/Output/voronoi.simple.mcsema/voronoi.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Olden/treeadd/Output/treeadd.simple.mcsema/treeadd.simple===
+rm -rf  ./Benchmarks/Olden/treeadd/Output/treeadd.simple.mcsema/treeadd.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Olden/treeadd/Output/treeadd.simple.mcsema/treeadd.simple.cfg  -entrypoint=main -o ./Benchmarks/Olden/treeadd/Output/treeadd.simple.mcsema/treeadd.simple.new.bc   &>  ./Benchmarks/Olden/treeadd/Output/treeadd.simple.mcsema/treeadd.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Olden/power/Output/power.simple.mcsema/power.simple===
+rm -rf  ./Benchmarks/Olden/power/Output/power.simple.mcsema/power.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Olden/power/Output/power.simple.mcsema/power.simple.cfg  -entrypoint=main -o ./Benchmarks/Olden/power/Output/power.simple.mcsema/power.simple.new.bc   &>  ./Benchmarks/Olden/power/Output/power.simple.mcsema/power.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Olden/bh/Output/bh.simple.mcsema/bh.simple===
+rm -rf  ./Benchmarks/Olden/bh/Output/bh.simple.mcsema/bh.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Olden/bh/Output/bh.simple.mcsema/bh.simple.cfg  -entrypoint=main -o ./Benchmarks/Olden/bh/Output/bh.simple.mcsema/bh.simple.new.bc   &>  ./Benchmarks/Olden/bh/Output/bh.simple.mcsema/bh.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Olden/bisort/Output/bisort.simple.mcsema/bisort.simple===
+rm -rf  ./Benchmarks/Olden/bisort/Output/bisort.simple.mcsema/bisort.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Olden/bisort/Output/bisort.simple.mcsema/bisort.simple.cfg  -entrypoint=main -o ./Benchmarks/Olden/bisort/Output/bisort.simple.mcsema/bisort.simple.new.bc   &>  ./Benchmarks/Olden/bisort/Output/bisort.simple.mcsema/bisort.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/Olden/bisort/Output/bisort.simple.mcsema/bisort.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/Olden/bisort/Output/bisort.simple.mcsema/bisort.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/Olden/em3d/Output/em3d.simple.mcsema/em3d.simple===
+rm -rf  ./Benchmarks/Olden/em3d/Output/em3d.simple.mcsema/em3d.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Olden/em3d/Output/em3d.simple.mcsema/em3d.simple.cfg  -entrypoint=main -o ./Benchmarks/Olden/em3d/Output/em3d.simple.mcsema/em3d.simple.new.bc   &>  ./Benchmarks/Olden/em3d/Output/em3d.simple.mcsema/em3d.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Olden/mst/Output/mst.simple.mcsema/mst.simple===
+rm -rf  ./Benchmarks/Olden/mst/Output/mst.simple.mcsema/mst.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Olden/mst/Output/mst.simple.mcsema/mst.simple.cfg  -entrypoint=main -o ./Benchmarks/Olden/mst/Output/mst.simple.mcsema/mst.simple.new.bc   &>  ./Benchmarks/Olden/mst/Output/mst.simple.mcsema/mst.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Olden/perimeter/Output/perimeter.simple.mcsema/perimeter.simple===
+rm -rf  ./Benchmarks/Olden/perimeter/Output/perimeter.simple.mcsema/perimeter.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Olden/perimeter/Output/perimeter.simple.mcsema/perimeter.simple.cfg  -entrypoint=main -o ./Benchmarks/Olden/perimeter/Output/perimeter.simple.mcsema/perimeter.simple.new.bc   &>  ./Benchmarks/Olden/perimeter/Output/perimeter.simple.mcsema/perimeter.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Olden/health/Output/health.simple.mcsema/health.simple===
+rm -rf  ./Benchmarks/Olden/health/Output/health.simple.mcsema/health.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Olden/health/Output/health.simple.mcsema/health.simple.cfg  -entrypoint=main -o ./Benchmarks/Olden/health/Output/health.simple.mcsema/health.simple.new.bc   &>  ./Benchmarks/Olden/health/Output/health.simple.mcsema/health.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Bullet/Output/bullet.simple.mcsema/bullet.simple===
+rm -rf  ./Benchmarks/Bullet/Output/bullet.simple.mcsema/bullet.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Bullet/Output/bullet.simple.mcsema/bullet.simple.cfg  -entrypoint=main -o ./Benchmarks/Bullet/Output/bullet.simple.mcsema/bullet.simple.new.bc   &>  ./Benchmarks/Bullet/Output/bullet.simple.mcsema/bullet.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/mediabench/jpeg/jpeg-6a/Output/cjpeg.simple.mcsema/cjpeg.simple===
+rm -rf  ./Benchmarks/mediabench/jpeg/jpeg-6a/Output/cjpeg.simple.mcsema/cjpeg.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/mediabench/jpeg/jpeg-6a/Output/cjpeg.simple.mcsema/cjpeg.simple.cfg  -entrypoint=main -o ./Benchmarks/mediabench/jpeg/jpeg-6a/Output/cjpeg.simple.mcsema/cjpeg.simple.new.bc   &>  ./Benchmarks/mediabench/jpeg/jpeg-6a/Output/cjpeg.simple.mcsema/cjpeg.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/mediabench/gsm/toast/Output/toast.simple.mcsema/toast.simple===
+rm -rf  ./Benchmarks/mediabench/gsm/toast/Output/toast.simple.mcsema/toast.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/mediabench/gsm/toast/Output/toast.simple.mcsema/toast.simple.cfg  -entrypoint=main -o ./Benchmarks/mediabench/gsm/toast/Output/toast.simple.mcsema/toast.simple.new.bc   &>  ./Benchmarks/mediabench/gsm/toast/Output/toast.simple.mcsema/toast.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/mediabench/adpcm/rawdaudio/Output/rawdaudio.simple.mcsema/rawdaudio.simple===
+rm -rf  ./Benchmarks/mediabench/adpcm/rawdaudio/Output/rawdaudio.simple.mcsema/rawdaudio.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/mediabench/adpcm/rawdaudio/Output/rawdaudio.simple.mcsema/rawdaudio.simple.cfg  -entrypoint=main -o ./Benchmarks/mediabench/adpcm/rawdaudio/Output/rawdaudio.simple.mcsema/rawdaudio.simple.new.bc   &>  ./Benchmarks/mediabench/adpcm/rawdaudio/Output/rawdaudio.simple.mcsema/rawdaudio.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/mediabench/adpcm/rawcaudio/Output/rawcaudio.simple.mcsema/rawcaudio.simple===
+rm -rf  ./Benchmarks/mediabench/adpcm/rawcaudio/Output/rawcaudio.simple.mcsema/rawcaudio.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/mediabench/adpcm/rawcaudio/Output/rawcaudio.simple.mcsema/rawcaudio.simple.cfg  -entrypoint=main -o ./Benchmarks/mediabench/adpcm/rawcaudio/Output/rawcaudio.simple.mcsema/rawcaudio.simple.new.bc   &>  ./Benchmarks/mediabench/adpcm/rawcaudio/Output/rawcaudio.simple.mcsema/rawcaudio.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/mediabench/mpeg2/mpeg2dec/Output/mpeg2decode.simple.mcsema/mpeg2decode.simple===
+rm -rf  ./Benchmarks/mediabench/mpeg2/mpeg2dec/Output/mpeg2decode.simple.mcsema/mpeg2decode.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/mediabench/mpeg2/mpeg2dec/Output/mpeg2decode.simple.mcsema/mpeg2decode.simple.cfg  -entrypoint=main -o ./Benchmarks/mediabench/mpeg2/mpeg2dec/Output/mpeg2decode.simple.mcsema/mpeg2decode.simple.new.bc   &>  ./Benchmarks/mediabench/mpeg2/mpeg2dec/Output/mpeg2decode.simple.mcsema/mpeg2decode.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/mediabench/g721/g721encode/Output/encode.simple.mcsema/encode.simple===
+rm -rf  ./Benchmarks/mediabench/g721/g721encode/Output/encode.simple.mcsema/encode.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/mediabench/g721/g721encode/Output/encode.simple.mcsema/encode.simple.cfg  -entrypoint=main -o ./Benchmarks/mediabench/g721/g721encode/Output/encode.simple.mcsema/encode.simple.new.bc   &>  ./Benchmarks/mediabench/g721/g721encode/Output/encode.simple.mcsema/encode.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/tramp3d-v4/Output/tramp3d-v4.simple.mcsema/tramp3d-v4.simple===
+rm -rf  ./Benchmarks/tramp3d-v4/Output/tramp3d-v4.simple.mcsema/tramp3d-v4.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/tramp3d-v4/Output/tramp3d-v4.simple.mcsema/tramp3d-v4.simple.cfg  -entrypoint=main -o ./Benchmarks/tramp3d-v4/Output/tramp3d-v4.simple.mcsema/tramp3d-v4.simple.new.bc   &>  ./Benchmarks/tramp3d-v4/Output/tramp3d-v4.simple.mcsema/tramp3d-v4.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/Packing-dbl/Output/Packing-dbl.simple.mcsema/Packing-dbl.simple===
+rm -rf  ./Benchmarks/TSVC/Packing-dbl/Output/Packing-dbl.simple.mcsema/Packing-dbl.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/Packing-dbl/Output/Packing-dbl.simple.mcsema/Packing-dbl.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/Packing-dbl/Output/Packing-dbl.simple.mcsema/Packing-dbl.simple.new.bc   &>  ./Benchmarks/TSVC/Packing-dbl/Output/Packing-dbl.simple.mcsema/Packing-dbl.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/NodeSplitting-dbl/Output/NodeSplitting-dbl.simple.mcsema/NodeSplitting-dbl.simple===
+rm -rf  ./Benchmarks/TSVC/NodeSplitting-dbl/Output/NodeSplitting-dbl.simple.mcsema/NodeSplitting-dbl.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/NodeSplitting-dbl/Output/NodeSplitting-dbl.simple.mcsema/NodeSplitting-dbl.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/NodeSplitting-dbl/Output/NodeSplitting-dbl.simple.mcsema/NodeSplitting-dbl.simple.new.bc   &>  ./Benchmarks/TSVC/NodeSplitting-dbl/Output/NodeSplitting-dbl.simple.mcsema/NodeSplitting-dbl.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/Recurrences-dbl/Output/Recurrences-dbl.simple.mcsema/Recurrences-dbl.simple===
+rm -rf  ./Benchmarks/TSVC/Recurrences-dbl/Output/Recurrences-dbl.simple.mcsema/Recurrences-dbl.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/Recurrences-dbl/Output/Recurrences-dbl.simple.mcsema/Recurrences-dbl.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/Recurrences-dbl/Output/Recurrences-dbl.simple.mcsema/Recurrences-dbl.simple.new.bc   &>  ./Benchmarks/TSVC/Recurrences-dbl/Output/Recurrences-dbl.simple.mcsema/Recurrences-dbl.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/InductionVariable-flt/Output/InductionVariable-flt.simple.mcsema/InductionVariable-flt.simple===
+rm -rf  ./Benchmarks/TSVC/InductionVariable-flt/Output/InductionVariable-flt.simple.mcsema/InductionVariable-flt.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/InductionVariable-flt/Output/InductionVariable-flt.simple.mcsema/InductionVariable-flt.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/InductionVariable-flt/Output/InductionVariable-flt.simple.mcsema/InductionVariable-flt.simple.new.bc   &>  ./Benchmarks/TSVC/InductionVariable-flt/Output/InductionVariable-flt.simple.mcsema/InductionVariable-flt.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/Expansion-flt/Output/Expansion-flt.simple.mcsema/Expansion-flt.simple===
+rm -rf  ./Benchmarks/TSVC/Expansion-flt/Output/Expansion-flt.simple.mcsema/Expansion-flt.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/Expansion-flt/Output/Expansion-flt.simple.mcsema/Expansion-flt.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/Expansion-flt/Output/Expansion-flt.simple.mcsema/Expansion-flt.simple.new.bc   &>  ./Benchmarks/TSVC/Expansion-flt/Output/Expansion-flt.simple.mcsema/Expansion-flt.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/CrossingThresholds-dbl/Output/CrossingThresholds-dbl.simple.mcsema/CrossingThresholds-dbl.simple===
+rm -rf  ./Benchmarks/TSVC/CrossingThresholds-dbl/Output/CrossingThresholds-dbl.simple.mcsema/CrossingThresholds-dbl.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/CrossingThresholds-dbl/Output/CrossingThresholds-dbl.simple.mcsema/CrossingThresholds-dbl.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/CrossingThresholds-dbl/Output/CrossingThresholds-dbl.simple.mcsema/CrossingThresholds-dbl.simple.new.bc   &>  ./Benchmarks/TSVC/CrossingThresholds-dbl/Output/CrossingThresholds-dbl.simple.mcsema/CrossingThresholds-dbl.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/Recurrences-flt/Output/Recurrences-flt.simple.mcsema/Recurrences-flt.simple===
+rm -rf  ./Benchmarks/TSVC/Recurrences-flt/Output/Recurrences-flt.simple.mcsema/Recurrences-flt.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/Recurrences-flt/Output/Recurrences-flt.simple.mcsema/Recurrences-flt.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/Recurrences-flt/Output/Recurrences-flt.simple.mcsema/Recurrences-flt.simple.new.bc   &>  ./Benchmarks/TSVC/Recurrences-flt/Output/Recurrences-flt.simple.mcsema/Recurrences-flt.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/TSVC/Recurrences-flt/Output/Recurrences-flt.simple.mcsema/Recurrences-flt.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/TSVC/Recurrences-flt/Output/Recurrences-flt.simple.mcsema/Recurrences-flt.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/TSVC/ControlLoops-dbl/Output/ControlLoops-dbl.simple.mcsema/ControlLoops-dbl.simple===
+rm -rf  ./Benchmarks/TSVC/ControlLoops-dbl/Output/ControlLoops-dbl.simple.mcsema/ControlLoops-dbl.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/ControlLoops-dbl/Output/ControlLoops-dbl.simple.mcsema/ControlLoops-dbl.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/ControlLoops-dbl/Output/ControlLoops-dbl.simple.mcsema/ControlLoops-dbl.simple.new.bc   &>  ./Benchmarks/TSVC/ControlLoops-dbl/Output/ControlLoops-dbl.simple.mcsema/ControlLoops-dbl.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/Symbolics-flt/Output/Symbolics-flt.simple.mcsema/Symbolics-flt.simple===
+rm -rf  ./Benchmarks/TSVC/Symbolics-flt/Output/Symbolics-flt.simple.mcsema/Symbolics-flt.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/Symbolics-flt/Output/Symbolics-flt.simple.mcsema/Symbolics-flt.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/Symbolics-flt/Output/Symbolics-flt.simple.mcsema/Symbolics-flt.simple.new.bc   &>  ./Benchmarks/TSVC/Symbolics-flt/Output/Symbolics-flt.simple.mcsema/Symbolics-flt.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/LoopRerolling-dbl/Output/LoopRerolling-dbl.simple.mcsema/LoopRerolling-dbl.simple===
+rm -rf  ./Benchmarks/TSVC/LoopRerolling-dbl/Output/LoopRerolling-dbl.simple.mcsema/LoopRerolling-dbl.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/LoopRerolling-dbl/Output/LoopRerolling-dbl.simple.mcsema/LoopRerolling-dbl.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/LoopRerolling-dbl/Output/LoopRerolling-dbl.simple.mcsema/LoopRerolling-dbl.simple.new.bc   &>  ./Benchmarks/TSVC/LoopRerolling-dbl/Output/LoopRerolling-dbl.simple.mcsema/LoopRerolling-dbl.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/Reductions-flt/Output/Reductions-flt.simple.mcsema/Reductions-flt.simple===
+rm -rf  ./Benchmarks/TSVC/Reductions-flt/Output/Reductions-flt.simple.mcsema/Reductions-flt.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/Reductions-flt/Output/Reductions-flt.simple.mcsema/Reductions-flt.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/Reductions-flt/Output/Reductions-flt.simple.mcsema/Reductions-flt.simple.new.bc   &>  ./Benchmarks/TSVC/Reductions-flt/Output/Reductions-flt.simple.mcsema/Reductions-flt.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/InductionVariable-dbl/Output/InductionVariable-dbl.simple.mcsema/InductionVariable-dbl.simple===
+rm -rf  ./Benchmarks/TSVC/InductionVariable-dbl/Output/InductionVariable-dbl.simple.mcsema/InductionVariable-dbl.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/InductionVariable-dbl/Output/InductionVariable-dbl.simple.mcsema/InductionVariable-dbl.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/InductionVariable-dbl/Output/InductionVariable-dbl.simple.mcsema/InductionVariable-dbl.simple.new.bc   &>  ./Benchmarks/TSVC/InductionVariable-dbl/Output/InductionVariable-dbl.simple.mcsema/InductionVariable-dbl.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/ControlFlow-dbl/Output/ControlFlow-dbl.simple.mcsema/ControlFlow-dbl.simple===
+rm -rf  ./Benchmarks/TSVC/ControlFlow-dbl/Output/ControlFlow-dbl.simple.mcsema/ControlFlow-dbl.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/ControlFlow-dbl/Output/ControlFlow-dbl.simple.mcsema/ControlFlow-dbl.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/ControlFlow-dbl/Output/ControlFlow-dbl.simple.mcsema/ControlFlow-dbl.simple.new.bc   &>  ./Benchmarks/TSVC/ControlFlow-dbl/Output/ControlFlow-dbl.simple.mcsema/ControlFlow-dbl.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/Searching-dbl/Output/Searching-dbl.simple.mcsema/Searching-dbl.simple===
+rm -rf  ./Benchmarks/TSVC/Searching-dbl/Output/Searching-dbl.simple.mcsema/Searching-dbl.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/Searching-dbl/Output/Searching-dbl.simple.mcsema/Searching-dbl.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/Searching-dbl/Output/Searching-dbl.simple.mcsema/Searching-dbl.simple.new.bc   &>  ./Benchmarks/TSVC/Searching-dbl/Output/Searching-dbl.simple.mcsema/Searching-dbl.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/Packing-flt/Output/Packing-flt.simple.mcsema/Packing-flt.simple===
+rm -rf  ./Benchmarks/TSVC/Packing-flt/Output/Packing-flt.simple.mcsema/Packing-flt.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/Packing-flt/Output/Packing-flt.simple.mcsema/Packing-flt.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/Packing-flt/Output/Packing-flt.simple.mcsema/Packing-flt.simple.new.bc   &>  ./Benchmarks/TSVC/Packing-flt/Output/Packing-flt.simple.mcsema/Packing-flt.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/TSVC/Packing-flt/Output/Packing-flt.simple.mcsema/Packing-flt.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/TSVC/Packing-flt/Output/Packing-flt.simple.mcsema/Packing-flt.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/TSVC/CrossingThresholds-flt/Output/CrossingThresholds-flt.simple.mcsema/CrossingThresholds-flt.simple===
+rm -rf  ./Benchmarks/TSVC/CrossingThresholds-flt/Output/CrossingThresholds-flt.simple.mcsema/CrossingThresholds-flt.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/CrossingThresholds-flt/Output/CrossingThresholds-flt.simple.mcsema/CrossingThresholds-flt.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/CrossingThresholds-flt/Output/CrossingThresholds-flt.simple.mcsema/CrossingThresholds-flt.simple.new.bc   &>  ./Benchmarks/TSVC/CrossingThresholds-flt/Output/CrossingThresholds-flt.simple.mcsema/CrossingThresholds-flt.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/ControlLoops-flt/Output/ControlLoops-flt.simple.mcsema/ControlLoops-flt.simple===
+rm -rf  ./Benchmarks/TSVC/ControlLoops-flt/Output/ControlLoops-flt.simple.mcsema/ControlLoops-flt.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/ControlLoops-flt/Output/ControlLoops-flt.simple.mcsema/ControlLoops-flt.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/ControlLoops-flt/Output/ControlLoops-flt.simple.mcsema/ControlLoops-flt.simple.new.bc   &>  ./Benchmarks/TSVC/ControlLoops-flt/Output/ControlLoops-flt.simple.mcsema/ControlLoops-flt.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/IndirectAddressing-dbl/Output/IndirectAddressing-dbl.simple.mcsema/IndirectAddressing-dbl.simple===
+rm -rf  ./Benchmarks/TSVC/IndirectAddressing-dbl/Output/IndirectAddressing-dbl.simple.mcsema/IndirectAddressing-dbl.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/IndirectAddressing-dbl/Output/IndirectAddressing-dbl.simple.mcsema/IndirectAddressing-dbl.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/IndirectAddressing-dbl/Output/IndirectAddressing-dbl.simple.mcsema/IndirectAddressing-dbl.simple.new.bc   &>  ./Benchmarks/TSVC/IndirectAddressing-dbl/Output/IndirectAddressing-dbl.simple.mcsema/IndirectAddressing-dbl.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/NodeSplitting-flt/Output/NodeSplitting-flt.simple.mcsema/NodeSplitting-flt.simple===
+rm -rf  ./Benchmarks/TSVC/NodeSplitting-flt/Output/NodeSplitting-flt.simple.mcsema/NodeSplitting-flt.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/NodeSplitting-flt/Output/NodeSplitting-flt.simple.mcsema/NodeSplitting-flt.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/NodeSplitting-flt/Output/NodeSplitting-flt.simple.mcsema/NodeSplitting-flt.simple.new.bc   &>  ./Benchmarks/TSVC/NodeSplitting-flt/Output/NodeSplitting-flt.simple.mcsema/NodeSplitting-flt.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/StatementReordering-flt/Output/StatementReordering-flt.simple.mcsema/StatementReordering-flt.simple===
+rm -rf  ./Benchmarks/TSVC/StatementReordering-flt/Output/StatementReordering-flt.simple.mcsema/StatementReordering-flt.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/StatementReordering-flt/Output/StatementReordering-flt.simple.mcsema/StatementReordering-flt.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/StatementReordering-flt/Output/StatementReordering-flt.simple.mcsema/StatementReordering-flt.simple.new.bc   &>  ./Benchmarks/TSVC/StatementReordering-flt/Output/StatementReordering-flt.simple.mcsema/StatementReordering-flt.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/TSVC/StatementReordering-flt/Output/StatementReordering-flt.simple.mcsema/StatementReordering-flt.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/TSVC/StatementReordering-flt/Output/StatementReordering-flt.simple.mcsema/StatementReordering-flt.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/TSVC/Reductions-dbl/Output/Reductions-dbl.simple.mcsema/Reductions-dbl.simple===
+rm -rf  ./Benchmarks/TSVC/Reductions-dbl/Output/Reductions-dbl.simple.mcsema/Reductions-dbl.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/Reductions-dbl/Output/Reductions-dbl.simple.mcsema/Reductions-dbl.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/Reductions-dbl/Output/Reductions-dbl.simple.mcsema/Reductions-dbl.simple.new.bc   &>  ./Benchmarks/TSVC/Reductions-dbl/Output/Reductions-dbl.simple.mcsema/Reductions-dbl.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/Expansion-dbl/Output/Expansion-dbl.simple.mcsema/Expansion-dbl.simple===
+rm -rf  ./Benchmarks/TSVC/Expansion-dbl/Output/Expansion-dbl.simple.mcsema/Expansion-dbl.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/Expansion-dbl/Output/Expansion-dbl.simple.mcsema/Expansion-dbl.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/Expansion-dbl/Output/Expansion-dbl.simple.mcsema/Expansion-dbl.simple.new.bc   &>  ./Benchmarks/TSVC/Expansion-dbl/Output/Expansion-dbl.simple.mcsema/Expansion-dbl.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/Equivalencing-dbl/Output/Equivalencing-dbl.simple.mcsema/Equivalencing-dbl.simple===
+rm -rf  ./Benchmarks/TSVC/Equivalencing-dbl/Output/Equivalencing-dbl.simple.mcsema/Equivalencing-dbl.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/Equivalencing-dbl/Output/Equivalencing-dbl.simple.mcsema/Equivalencing-dbl.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/Equivalencing-dbl/Output/Equivalencing-dbl.simple.mcsema/Equivalencing-dbl.simple.new.bc   &>  ./Benchmarks/TSVC/Equivalencing-dbl/Output/Equivalencing-dbl.simple.mcsema/Equivalencing-dbl.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/Searching-flt/Output/Searching-flt.simple.mcsema/Searching-flt.simple===
+rm -rf  ./Benchmarks/TSVC/Searching-flt/Output/Searching-flt.simple.mcsema/Searching-flt.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/Searching-flt/Output/Searching-flt.simple.mcsema/Searching-flt.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/Searching-flt/Output/Searching-flt.simple.mcsema/Searching-flt.simple.new.bc   &>  ./Benchmarks/TSVC/Searching-flt/Output/Searching-flt.simple.mcsema/Searching-flt.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/TSVC/Searching-flt/Output/Searching-flt.simple.mcsema/Searching-flt.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/TSVC/Searching-flt/Output/Searching-flt.simple.mcsema/Searching-flt.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/TSVC/LinearDependence-flt/Output/LinearDependence-flt.simple.mcsema/LinearDependence-flt.simple===
+rm -rf  ./Benchmarks/TSVC/LinearDependence-flt/Output/LinearDependence-flt.simple.mcsema/LinearDependence-flt.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/LinearDependence-flt/Output/LinearDependence-flt.simple.mcsema/LinearDependence-flt.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/LinearDependence-flt/Output/LinearDependence-flt.simple.mcsema/LinearDependence-flt.simple.new.bc   &>  ./Benchmarks/TSVC/LinearDependence-flt/Output/LinearDependence-flt.simple.mcsema/LinearDependence-flt.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/Symbolics-dbl/Output/Symbolics-dbl.simple.mcsema/Symbolics-dbl.simple===
+rm -rf  ./Benchmarks/TSVC/Symbolics-dbl/Output/Symbolics-dbl.simple.mcsema/Symbolics-dbl.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/Symbolics-dbl/Output/Symbolics-dbl.simple.mcsema/Symbolics-dbl.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/Symbolics-dbl/Output/Symbolics-dbl.simple.mcsema/Symbolics-dbl.simple.new.bc   &>  ./Benchmarks/TSVC/Symbolics-dbl/Output/Symbolics-dbl.simple.mcsema/Symbolics-dbl.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/GlobalDataFlow-dbl/Output/GlobalDataFlow-dbl.simple.mcsema/GlobalDataFlow-dbl.simple===
+rm -rf  ./Benchmarks/TSVC/GlobalDataFlow-dbl/Output/GlobalDataFlow-dbl.simple.mcsema/GlobalDataFlow-dbl.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/GlobalDataFlow-dbl/Output/GlobalDataFlow-dbl.simple.mcsema/GlobalDataFlow-dbl.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/GlobalDataFlow-dbl/Output/GlobalDataFlow-dbl.simple.mcsema/GlobalDataFlow-dbl.simple.new.bc   &>  ./Benchmarks/TSVC/GlobalDataFlow-dbl/Output/GlobalDataFlow-dbl.simple.mcsema/GlobalDataFlow-dbl.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/LoopRestructuring-flt/Output/LoopRestructuring-flt.simple.mcsema/LoopRestructuring-flt.simple===
+rm -rf  ./Benchmarks/TSVC/LoopRestructuring-flt/Output/LoopRestructuring-flt.simple.mcsema/LoopRestructuring-flt.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/LoopRestructuring-flt/Output/LoopRestructuring-flt.simple.mcsema/LoopRestructuring-flt.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/LoopRestructuring-flt/Output/LoopRestructuring-flt.simple.mcsema/LoopRestructuring-flt.simple.new.bc   &>  ./Benchmarks/TSVC/LoopRestructuring-flt/Output/LoopRestructuring-flt.simple.mcsema/LoopRestructuring-flt.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/LinearDependence-dbl/Output/LinearDependence-dbl.simple.mcsema/LinearDependence-dbl.simple===
+rm -rf  ./Benchmarks/TSVC/LinearDependence-dbl/Output/LinearDependence-dbl.simple.mcsema/LinearDependence-dbl.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/LinearDependence-dbl/Output/LinearDependence-dbl.simple.mcsema/LinearDependence-dbl.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/LinearDependence-dbl/Output/LinearDependence-dbl.simple.mcsema/LinearDependence-dbl.simple.new.bc   &>  ./Benchmarks/TSVC/LinearDependence-dbl/Output/LinearDependence-dbl.simple.mcsema/LinearDependence-dbl.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/StatementReordering-dbl/Output/StatementReordering-dbl.simple.mcsema/StatementReordering-dbl.simple===
+rm -rf  ./Benchmarks/TSVC/StatementReordering-dbl/Output/StatementReordering-dbl.simple.mcsema/StatementReordering-dbl.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/StatementReordering-dbl/Output/StatementReordering-dbl.simple.mcsema/StatementReordering-dbl.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/StatementReordering-dbl/Output/StatementReordering-dbl.simple.mcsema/StatementReordering-dbl.simple.new.bc   &>  ./Benchmarks/TSVC/StatementReordering-dbl/Output/StatementReordering-dbl.simple.mcsema/StatementReordering-dbl.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/IndirectAddressing-flt/Output/IndirectAddressing-flt.simple.mcsema/IndirectAddressing-flt.simple===
+rm -rf  ./Benchmarks/TSVC/IndirectAddressing-flt/Output/IndirectAddressing-flt.simple.mcsema/IndirectAddressing-flt.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/IndirectAddressing-flt/Output/IndirectAddressing-flt.simple.mcsema/IndirectAddressing-flt.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/IndirectAddressing-flt/Output/IndirectAddressing-flt.simple.mcsema/IndirectAddressing-flt.simple.new.bc   &>  ./Benchmarks/TSVC/IndirectAddressing-flt/Output/IndirectAddressing-flt.simple.mcsema/IndirectAddressing-flt.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/TSVC/IndirectAddressing-flt/Output/IndirectAddressing-flt.simple.mcsema/IndirectAddressing-flt.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/TSVC/IndirectAddressing-flt/Output/IndirectAddressing-flt.simple.mcsema/IndirectAddressing-flt.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/TSVC/LoopRerolling-flt/Output/LoopRerolling-flt.simple.mcsema/LoopRerolling-flt.simple===
+rm -rf  ./Benchmarks/TSVC/LoopRerolling-flt/Output/LoopRerolling-flt.simple.mcsema/LoopRerolling-flt.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/LoopRerolling-flt/Output/LoopRerolling-flt.simple.mcsema/LoopRerolling-flt.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/LoopRerolling-flt/Output/LoopRerolling-flt.simple.mcsema/LoopRerolling-flt.simple.new.bc   &>  ./Benchmarks/TSVC/LoopRerolling-flt/Output/LoopRerolling-flt.simple.mcsema/LoopRerolling-flt.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/Equivalencing-flt/Output/Equivalencing-flt.simple.mcsema/Equivalencing-flt.simple===
+rm -rf  ./Benchmarks/TSVC/Equivalencing-flt/Output/Equivalencing-flt.simple.mcsema/Equivalencing-flt.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/Equivalencing-flt/Output/Equivalencing-flt.simple.mcsema/Equivalencing-flt.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/Equivalencing-flt/Output/Equivalencing-flt.simple.mcsema/Equivalencing-flt.simple.new.bc   &>  ./Benchmarks/TSVC/Equivalencing-flt/Output/Equivalencing-flt.simple.mcsema/Equivalencing-flt.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/GlobalDataFlow-flt/Output/GlobalDataFlow-flt.simple.mcsema/GlobalDataFlow-flt.simple===
+rm -rf  ./Benchmarks/TSVC/GlobalDataFlow-flt/Output/GlobalDataFlow-flt.simple.mcsema/GlobalDataFlow-flt.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/GlobalDataFlow-flt/Output/GlobalDataFlow-flt.simple.mcsema/GlobalDataFlow-flt.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/GlobalDataFlow-flt/Output/GlobalDataFlow-flt.simple.mcsema/GlobalDataFlow-flt.simple.new.bc   &>  ./Benchmarks/TSVC/GlobalDataFlow-flt/Output/GlobalDataFlow-flt.simple.mcsema/GlobalDataFlow-flt.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/LoopRestructuring-dbl/Output/LoopRestructuring-dbl.simple.mcsema/LoopRestructuring-dbl.simple===
+rm -rf  ./Benchmarks/TSVC/LoopRestructuring-dbl/Output/LoopRestructuring-dbl.simple.mcsema/LoopRestructuring-dbl.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/LoopRestructuring-dbl/Output/LoopRestructuring-dbl.simple.mcsema/LoopRestructuring-dbl.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/LoopRestructuring-dbl/Output/LoopRestructuring-dbl.simple.mcsema/LoopRestructuring-dbl.simple.new.bc   &>  ./Benchmarks/TSVC/LoopRestructuring-dbl/Output/LoopRestructuring-dbl.simple.mcsema/LoopRestructuring-dbl.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/TSVC/ControlFlow-flt/Output/ControlFlow-flt.simple.mcsema/ControlFlow-flt.simple===
+rm -rf  ./Benchmarks/TSVC/ControlFlow-flt/Output/ControlFlow-flt.simple.mcsema/ControlFlow-flt.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/TSVC/ControlFlow-flt/Output/ControlFlow-flt.simple.mcsema/ControlFlow-flt.simple.cfg  -entrypoint=main -o ./Benchmarks/TSVC/ControlFlow-flt/Output/ControlFlow-flt.simple.mcsema/ControlFlow-flt.simple.new.bc   &>  ./Benchmarks/TSVC/ControlFlow-flt/Output/ControlFlow-flt.simple.mcsema/ControlFlow-flt.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/VersaBench/ecbdes/Output/ecbdes.simple.mcsema/ecbdes.simple===
+rm -rf  ./Benchmarks/VersaBench/ecbdes/Output/ecbdes.simple.mcsema/ecbdes.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/VersaBench/ecbdes/Output/ecbdes.simple.mcsema/ecbdes.simple.cfg  -entrypoint=main -o ./Benchmarks/VersaBench/ecbdes/Output/ecbdes.simple.mcsema/ecbdes.simple.new.bc   &>  ./Benchmarks/VersaBench/ecbdes/Output/ecbdes.simple.mcsema/ecbdes.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/VersaBench/8b10b/Output/8b10b.simple.mcsema/8b10b.simple===
+rm -rf  ./Benchmarks/VersaBench/8b10b/Output/8b10b.simple.mcsema/8b10b.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/VersaBench/8b10b/Output/8b10b.simple.mcsema/8b10b.simple.cfg  -entrypoint=main -o ./Benchmarks/VersaBench/8b10b/Output/8b10b.simple.mcsema/8b10b.simple.new.bc   &>  ./Benchmarks/VersaBench/8b10b/Output/8b10b.simple.mcsema/8b10b.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/VersaBench/8b10b/Output/8b10b.simple.mcsema/8b10b.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/VersaBench/8b10b/Output/8b10b.simple.mcsema/8b10b.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/VersaBench/beamformer/Output/beamformer.simple.mcsema/beamformer.simple===
+rm -rf  ./Benchmarks/VersaBench/beamformer/Output/beamformer.simple.mcsema/beamformer.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/VersaBench/beamformer/Output/beamformer.simple.mcsema/beamformer.simple.cfg  -entrypoint=main -o ./Benchmarks/VersaBench/beamformer/Output/beamformer.simple.mcsema/beamformer.simple.new.bc   &>  ./Benchmarks/VersaBench/beamformer/Output/beamformer.simple.mcsema/beamformer.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/VersaBench/dbms/Output/dbms.simple.mcsema/dbms.simple===
+rm -rf  ./Benchmarks/VersaBench/dbms/Output/dbms.simple.mcsema/dbms.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/VersaBench/dbms/Output/dbms.simple.mcsema/dbms.simple.cfg  -entrypoint=main -o ./Benchmarks/VersaBench/dbms/Output/dbms.simple.mcsema/dbms.simple.new.bc   &>  ./Benchmarks/VersaBench/dbms/Output/dbms.simple.mcsema/dbms.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/VersaBench/bmm/Output/bmm.simple.mcsema/bmm.simple===
+rm -rf  ./Benchmarks/VersaBench/bmm/Output/bmm.simple.mcsema/bmm.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/VersaBench/bmm/Output/bmm.simple.mcsema/bmm.simple.cfg  -entrypoint=main -o ./Benchmarks/VersaBench/bmm/Output/bmm.simple.mcsema/bmm.simple.new.bc   &>  ./Benchmarks/VersaBench/bmm/Output/bmm.simple.mcsema/bmm.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C++/family/Output/family.simple.mcsema/family.simple===
+rm -rf  ./Benchmarks/Prolangs-C++/family/Output/family.simple.mcsema/family.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C++/family/Output/family.simple.mcsema/family.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C++/family/Output/family.simple.mcsema/family.simple.new.bc   &>  ./Benchmarks/Prolangs-C++/family/Output/family.simple.mcsema/family.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C++/employ/Output/employ.simple.mcsema/employ.simple===
+rm -rf  ./Benchmarks/Prolangs-C++/employ/Output/employ.simple.mcsema/employ.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C++/employ/Output/employ.simple.mcsema/employ.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C++/employ/Output/employ.simple.mcsema/employ.simple.new.bc   &>  ./Benchmarks/Prolangs-C++/employ/Output/employ.simple.mcsema/employ.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C++/shapes/Output/shapes.simple.mcsema/shapes.simple===
+rm -rf  ./Benchmarks/Prolangs-C++/shapes/Output/shapes.simple.mcsema/shapes.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C++/shapes/Output/shapes.simple.mcsema/shapes.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C++/shapes/Output/shapes.simple.mcsema/shapes.simple.new.bc   &>  ./Benchmarks/Prolangs-C++/shapes/Output/shapes.simple.mcsema/shapes.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C++/primes/Output/primes.simple.mcsema/primes.simple===
+rm -rf  ./Benchmarks/Prolangs-C++/primes/Output/primes.simple.mcsema/primes.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C++/primes/Output/primes.simple.mcsema/primes.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C++/primes/Output/primes.simple.mcsema/primes.simple.new.bc   &>  ./Benchmarks/Prolangs-C++/primes/Output/primes.simple.mcsema/primes.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C++/ocean/Output/ocean.simple.mcsema/ocean.simple===
+rm -rf  ./Benchmarks/Prolangs-C++/ocean/Output/ocean.simple.mcsema/ocean.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C++/ocean/Output/ocean.simple.mcsema/ocean.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C++/ocean/Output/ocean.simple.mcsema/ocean.simple.new.bc   &>  ./Benchmarks/Prolangs-C++/ocean/Output/ocean.simple.mcsema/ocean.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C++/life/Output/life.simple.mcsema/life.simple===
+rm -rf  ./Benchmarks/Prolangs-C++/life/Output/life.simple.mcsema/life.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C++/life/Output/life.simple.mcsema/life.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C++/life/Output/life.simple.mcsema/life.simple.new.bc   &>  ./Benchmarks/Prolangs-C++/life/Output/life.simple.mcsema/life.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C++/vcirc/Output/vcirc.simple.mcsema/vcirc.simple===
+rm -rf  ./Benchmarks/Prolangs-C++/vcirc/Output/vcirc.simple.mcsema/vcirc.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C++/vcirc/Output/vcirc.simple.mcsema/vcirc.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C++/vcirc/Output/vcirc.simple.mcsema/vcirc.simple.new.bc   &>  ./Benchmarks/Prolangs-C++/vcirc/Output/vcirc.simple.mcsema/vcirc.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/Prolangs-C++/vcirc/Output/vcirc.simple.mcsema/vcirc.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/Prolangs-C++/vcirc/Output/vcirc.simple.mcsema/vcirc.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/Prolangs-C++/deriv1/Output/deriv1.simple.mcsema/deriv1.simple===
+rm -rf  ./Benchmarks/Prolangs-C++/deriv1/Output/deriv1.simple.mcsema/deriv1.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C++/deriv1/Output/deriv1.simple.mcsema/deriv1.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C++/deriv1/Output/deriv1.simple.mcsema/deriv1.simple.new.bc   &>  ./Benchmarks/Prolangs-C++/deriv1/Output/deriv1.simple.mcsema/deriv1.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C++/city/Output/city.simple.mcsema/city.simple===
+rm -rf  ./Benchmarks/Prolangs-C++/city/Output/city.simple.mcsema/city.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C++/city/Output/city.simple.mcsema/city.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C++/city/Output/city.simple.mcsema/city.simple.new.bc   &>  ./Benchmarks/Prolangs-C++/city/Output/city.simple.mcsema/city.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C++/office/Output/office.simple.mcsema/office.simple===
+rm -rf  ./Benchmarks/Prolangs-C++/office/Output/office.simple.mcsema/office.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C++/office/Output/office.simple.mcsema/office.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C++/office/Output/office.simple.mcsema/office.simple.new.bc   &>  ./Benchmarks/Prolangs-C++/office/Output/office.simple.mcsema/office.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C++/NP/Output/np.simple.mcsema/np.simple===
+rm -rf  ./Benchmarks/Prolangs-C++/NP/Output/np.simple.mcsema/np.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C++/NP/Output/np.simple.mcsema/np.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C++/NP/Output/np.simple.mcsema/np.simple.new.bc   &>  ./Benchmarks/Prolangs-C++/NP/Output/np.simple.mcsema/np.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/Prolangs-C++/NP/Output/np.simple.mcsema/np.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/Prolangs-C++/NP/Output/np.simple.mcsema/np.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/Prolangs-C++/trees/Output/trees.simple.mcsema/trees.simple===
+rm -rf  ./Benchmarks/Prolangs-C++/trees/Output/trees.simple.mcsema/trees.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C++/trees/Output/trees.simple.mcsema/trees.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C++/trees/Output/trees.simple.mcsema/trees.simple.new.bc   &>  ./Benchmarks/Prolangs-C++/trees/Output/trees.simple.mcsema/trees.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C++/fsm/Output/fsm.simple.mcsema/fsm.simple===
+rm -rf  ./Benchmarks/Prolangs-C++/fsm/Output/fsm.simple.mcsema/fsm.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C++/fsm/Output/fsm.simple.mcsema/fsm.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C++/fsm/Output/fsm.simple.mcsema/fsm.simple.new.bc   &>  ./Benchmarks/Prolangs-C++/fsm/Output/fsm.simple.mcsema/fsm.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C++/objects/Output/objects.simple.mcsema/objects.simple===
+rm -rf  ./Benchmarks/Prolangs-C++/objects/Output/objects.simple.mcsema/objects.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C++/objects/Output/objects.simple.mcsema/objects.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C++/objects/Output/objects.simple.mcsema/objects.simple.new.bc   &>  ./Benchmarks/Prolangs-C++/objects/Output/objects.simple.mcsema/objects.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C++/deriv2/Output/deriv2.simple.mcsema/deriv2.simple===
+rm -rf  ./Benchmarks/Prolangs-C++/deriv2/Output/deriv2.simple.mcsema/deriv2.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C++/deriv2/Output/deriv2.simple.mcsema/deriv2.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C++/deriv2/Output/deriv2.simple.mcsema/deriv2.simple.new.bc   &>  ./Benchmarks/Prolangs-C++/deriv2/Output/deriv2.simple.mcsema/deriv2.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C++/garage/Output/garage.simple.mcsema/garage.simple===
+rm -rf  ./Benchmarks/Prolangs-C++/garage/Output/garage.simple.mcsema/garage.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C++/garage/Output/garage.simple.mcsema/garage.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C++/garage/Output/garage.simple.mcsema/garage.simple.new.bc   &>  ./Benchmarks/Prolangs-C++/garage/Output/garage.simple.mcsema/garage.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Prolangs-C++/simul/Output/simul.simple.mcsema/simul.simple===
+rm -rf  ./Benchmarks/Prolangs-C++/simul/Output/simul.simple.mcsema/simul.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Prolangs-C++/simul/Output/simul.simple.mcsema/simul.simple.cfg  -entrypoint=main -o ./Benchmarks/Prolangs-C++/simul/Output/simul.simple.mcsema/simul.simple.new.bc   &>  ./Benchmarks/Prolangs-C++/simul/Output/simul.simple.mcsema/simul.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/7zip/Output/7zip-benchmark.simple.mcsema/7zip-benchmark.simple===
+rm -rf  ./Benchmarks/7zip/Output/7zip-benchmark.simple.mcsema/7zip-benchmark.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/7zip/Output/7zip-benchmark.simple.mcsema/7zip-benchmark.simple.cfg  -entrypoint=main -o ./Benchmarks/7zip/Output/7zip-benchmark.simple.mcsema/7zip-benchmark.simple.new.bc   &>  ./Benchmarks/7zip/Output/7zip-benchmark.simple.mcsema/7zip-benchmark.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/llubenchmark/Output/llu.simple.mcsema/llu.simple===
+rm -rf  ./Benchmarks/llubenchmark/Output/llu.simple.mcsema/llu.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/llubenchmark/Output/llu.simple.mcsema/llu.simple.cfg  -entrypoint=main -o ./Benchmarks/llubenchmark/Output/llu.simple.mcsema/llu.simple.new.bc   &>  ./Benchmarks/llubenchmark/Output/llu.simple.mcsema/llu.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/llubenchmark/Output/llu.simple.mcsema/llu.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/llubenchmark/Output/llu.simple.mcsema/llu.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/Trimaran/netbench-crc/Output/netbench-crc.simple.mcsema/netbench-crc.simple===
+rm -rf  ./Benchmarks/Trimaran/netbench-crc/Output/netbench-crc.simple.mcsema/netbench-crc.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Trimaran/netbench-crc/Output/netbench-crc.simple.mcsema/netbench-crc.simple.cfg  -entrypoint=main -o ./Benchmarks/Trimaran/netbench-crc/Output/netbench-crc.simple.mcsema/netbench-crc.simple.new.bc   &>  ./Benchmarks/Trimaran/netbench-crc/Output/netbench-crc.simple.mcsema/netbench-crc.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Trimaran/enc-rc4/Output/enc-rc4.simple.mcsema/enc-rc4.simple===
+rm -rf  ./Benchmarks/Trimaran/enc-rc4/Output/enc-rc4.simple.mcsema/enc-rc4.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Trimaran/enc-rc4/Output/enc-rc4.simple.mcsema/enc-rc4.simple.cfg  -entrypoint=main -o ./Benchmarks/Trimaran/enc-rc4/Output/enc-rc4.simple.mcsema/enc-rc4.simple.new.bc   &>  ./Benchmarks/Trimaran/enc-rc4/Output/enc-rc4.simple.mcsema/enc-rc4.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/Trimaran/enc-rc4/Output/enc-rc4.simple.mcsema/enc-rc4.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/Trimaran/enc-rc4/Output/enc-rc4.simple.mcsema/enc-rc4.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/Trimaran/enc-md5/Output/enc-md5.simple.mcsema/enc-md5.simple===
+rm -rf  ./Benchmarks/Trimaran/enc-md5/Output/enc-md5.simple.mcsema/enc-md5.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Trimaran/enc-md5/Output/enc-md5.simple.mcsema/enc-md5.simple.cfg  -entrypoint=main -o ./Benchmarks/Trimaran/enc-md5/Output/enc-md5.simple.mcsema/enc-md5.simple.new.bc   &>  ./Benchmarks/Trimaran/enc-md5/Output/enc-md5.simple.mcsema/enc-md5.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/Trimaran/enc-md5/Output/enc-md5.simple.mcsema/enc-md5.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/Trimaran/enc-md5/Output/enc-md5.simple.mcsema/enc-md5.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/Trimaran/enc-3des/Output/enc-3des.simple.mcsema/enc-3des.simple===
+rm -rf  ./Benchmarks/Trimaran/enc-3des/Output/enc-3des.simple.mcsema/enc-3des.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Trimaran/enc-3des/Output/enc-3des.simple.mcsema/enc-3des.simple.cfg  -entrypoint=main -o ./Benchmarks/Trimaran/enc-3des/Output/enc-3des.simple.mcsema/enc-3des.simple.new.bc   &>  ./Benchmarks/Trimaran/enc-3des/Output/enc-3des.simple.mcsema/enc-3des.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/Trimaran/enc-3des/Output/enc-3des.simple.mcsema/enc-3des.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/Trimaran/enc-3des/Output/enc-3des.simple.mcsema/enc-3des.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/Trimaran/netbench-url/Output/netbench-url.simple.mcsema/netbench-url.simple===
+rm -rf  ./Benchmarks/Trimaran/netbench-url/Output/netbench-url.simple.mcsema/netbench-url.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Trimaran/netbench-url/Output/netbench-url.simple.mcsema/netbench-url.simple.cfg  -entrypoint=main -o ./Benchmarks/Trimaran/netbench-url/Output/netbench-url.simple.mcsema/netbench-url.simple.new.bc   &>  ./Benchmarks/Trimaran/netbench-url/Output/netbench-url.simple.mcsema/netbench-url.simple.new.convert.txt 
+Unsupported
+
+===./Benchmarks/Trimaran/enc-pc1/Output/enc-pc1.simple.mcsema/enc-pc1.simple===
+rm -rf  ./Benchmarks/Trimaran/enc-pc1/Output/enc-pc1.simple.mcsema/enc-pc1.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/Trimaran/enc-pc1/Output/enc-pc1.simple.mcsema/enc-pc1.simple.cfg  -entrypoint=main -o ./Benchmarks/Trimaran/enc-pc1/Output/enc-pc1.simple.mcsema/enc-pc1.simple.new.bc   &>  ./Benchmarks/Trimaran/enc-pc1/Output/enc-pc1.simple.mcsema/enc-pc1.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Benchmarks/Trimaran/enc-pc1/Output/enc-pc1.simple.mcsema/enc-pc1.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Benchmarks/Trimaran/enc-pc1/Output/enc-pc1.simple.mcsema/enc-pc1.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Benchmarks/sim/Output/sim.simple.mcsema/sim.simple===
+rm -rf  ./Benchmarks/sim/Output/sim.simple.mcsema/sim.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Benchmarks/sim/Output/sim.simple.mcsema/sim.simple.cfg  -entrypoint=main -o ./Benchmarks/sim/Output/sim.simple.mcsema/sim.simple.new.bc   &>  ./Benchmarks/sim/Output/sim.simple.mcsema/sim.simple.new.convert.txt 
+Unsupported
+
+===./Applications/ALAC/encode/Output/alacconvert-encode.simple.mcsema/alacconvert-encode.simple===
+rm -rf  ./Applications/ALAC/encode/Output/alacconvert-encode.simple.mcsema/alacconvert-encode.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/ALAC/encode/Output/alacconvert-encode.simple.mcsema/alacconvert-encode.simple.cfg  -entrypoint=main -o ./Applications/ALAC/encode/Output/alacconvert-encode.simple.mcsema/alacconvert-encode.simple.new.bc   &>  ./Applications/ALAC/encode/Output/alacconvert-encode.simple.mcsema/alacconvert-encode.simple.new.convert.txt 
+Unsupported
+
+===./Applications/ALAC/encode/Output/alacconvert-encode.simple.mcsema/alacconvert-encode.simple.mcsema/alacconvert-encode.simple===
+rm -rf  ./Applications/ALAC/encode/Output/alacconvert-encode.simple.mcsema/alacconvert-encode.simple.mcsema/alacconvert-encode.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/ALAC/encode/Output/alacconvert-encode.simple.mcsema/alacconvert-encode.simple.mcsema/alacconvert-encode.simple.cfg  -entrypoint=main -o ./Applications/ALAC/encode/Output/alacconvert-encode.simple.mcsema/alacconvert-encode.simple.mcsema/alacconvert-encode.simple.new.bc   &>  ./Applications/ALAC/encode/Output/alacconvert-encode.simple.mcsema/alacconvert-encode.simple.mcsema/alacconvert-encode.simple.new.convert.txt 
+sh: ./Applications/ALAC/encode/Output/alacconvert-encode.simple.mcsema/alacconvert-encode.simple.mcsema/alacconvert-encode.simple.new.convert.txt: No such file or directory
+Unsupported
+
+===./Applications/ALAC/decode/Output/alacconvert-decode.simple.mcsema/alacconvert-decode.simple===
+rm -rf  ./Applications/ALAC/decode/Output/alacconvert-decode.simple.mcsema/alacconvert-decode.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/ALAC/decode/Output/alacconvert-decode.simple.mcsema/alacconvert-decode.simple.cfg  -entrypoint=main -o ./Applications/ALAC/decode/Output/alacconvert-decode.simple.mcsema/alacconvert-decode.simple.new.bc   &>  ./Applications/ALAC/decode/Output/alacconvert-decode.simple.mcsema/alacconvert-decode.simple.new.convert.txt 
+Unsupported
+
+===./Applications/ALAC/decode/Output/alacconvert-decode.simple.mcsema/alacconvert-decode.simple.mcsema/alacconvert-decode.simple===
+rm -rf  ./Applications/ALAC/decode/Output/alacconvert-decode.simple.mcsema/alacconvert-decode.simple.mcsema/alacconvert-decode.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/ALAC/decode/Output/alacconvert-decode.simple.mcsema/alacconvert-decode.simple.mcsema/alacconvert-decode.simple.cfg  -entrypoint=main -o ./Applications/ALAC/decode/Output/alacconvert-decode.simple.mcsema/alacconvert-decode.simple.mcsema/alacconvert-decode.simple.new.bc   &>  ./Applications/ALAC/decode/Output/alacconvert-decode.simple.mcsema/alacconvert-decode.simple.mcsema/alacconvert-decode.simple.new.convert.txt 
+sh: ./Applications/ALAC/decode/Output/alacconvert-decode.simple.mcsema/alacconvert-decode.simple.mcsema/alacconvert-decode.simple.new.convert.txt: No such file or directory
+Unsupported
+
+===./Applications/sgefa/Output/sgefa.simple.mcsema/sgefa.simple===
+rm -rf  ./Applications/sgefa/Output/sgefa.simple.mcsema/sgefa.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/sgefa/Output/sgefa.simple.mcsema/sgefa.simple.cfg  -entrypoint=main -o ./Applications/sgefa/Output/sgefa.simple.mcsema/sgefa.simple.new.bc   &>  ./Applications/sgefa/Output/sgefa.simple.mcsema/sgefa.simple.new.convert.txt 
+Unsupported
+
+===./Applications/sgefa/Output/sgefa.simple.mcsema/sgefa.simple.mcsema/sgefa.simple===
+rm -rf  ./Applications/sgefa/Output/sgefa.simple.mcsema/sgefa.simple.mcsema/sgefa.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/sgefa/Output/sgefa.simple.mcsema/sgefa.simple.mcsema/sgefa.simple.cfg  -entrypoint=main -o ./Applications/sgefa/Output/sgefa.simple.mcsema/sgefa.simple.mcsema/sgefa.simple.new.bc   &>  ./Applications/sgefa/Output/sgefa.simple.mcsema/sgefa.simple.mcsema/sgefa.simple.new.convert.txt 
+sh: ./Applications/sgefa/Output/sgefa.simple.mcsema/sgefa.simple.mcsema/sgefa.simple.new.convert.txt: No such file or directory
+Unsupported
+
+===./Applications/hexxagon/Output/hexxagon.simple.mcsema/hexxagon.simple===
+rm -rf  ./Applications/hexxagon/Output/hexxagon.simple.mcsema/hexxagon.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/hexxagon/Output/hexxagon.simple.mcsema/hexxagon.simple.cfg  -entrypoint=main -o ./Applications/hexxagon/Output/hexxagon.simple.mcsema/hexxagon.simple.new.bc   &>  ./Applications/hexxagon/Output/hexxagon.simple.mcsema/hexxagon.simple.new.convert.txt 
+Unsupported
+
+===./Applications/hexxagon/Output/hexxagon.simple.mcsema/hexxagon.simple.mcsema/hexxagon.simple===
+rm -rf  ./Applications/hexxagon/Output/hexxagon.simple.mcsema/hexxagon.simple.mcsema/hexxagon.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/hexxagon/Output/hexxagon.simple.mcsema/hexxagon.simple.mcsema/hexxagon.simple.cfg  -entrypoint=main -o ./Applications/hexxagon/Output/hexxagon.simple.mcsema/hexxagon.simple.mcsema/hexxagon.simple.new.bc   &>  ./Applications/hexxagon/Output/hexxagon.simple.mcsema/hexxagon.simple.mcsema/hexxagon.simple.new.convert.txt 
+sh: ./Applications/hexxagon/Output/hexxagon.simple.mcsema/hexxagon.simple.mcsema/hexxagon.simple.new.convert.txt: No such file or directory
+Unsupported
+
+===./Applications/kimwitu++/Output/kc.simple.mcsema/kc.simple===
+rm -rf  ./Applications/kimwitu++/Output/kc.simple.mcsema/kc.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/kimwitu++/Output/kc.simple.mcsema/kc.simple.cfg  -entrypoint=main -o ./Applications/kimwitu++/Output/kc.simple.mcsema/kc.simple.new.bc   &>  ./Applications/kimwitu++/Output/kc.simple.mcsema/kc.simple.new.convert.txt 
+Unsupported
+
+===./Applications/kimwitu++/Output/kc.simple.mcsema/kc.simple.mcsema/kc.simple===
+rm -rf  ./Applications/kimwitu++/Output/kc.simple.mcsema/kc.simple.mcsema/kc.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/kimwitu++/Output/kc.simple.mcsema/kc.simple.mcsema/kc.simple.cfg  -entrypoint=main -o ./Applications/kimwitu++/Output/kc.simple.mcsema/kc.simple.mcsema/kc.simple.new.bc   &>  ./Applications/kimwitu++/Output/kc.simple.mcsema/kc.simple.mcsema/kc.simple.new.convert.txt 
+sh: ./Applications/kimwitu++/Output/kc.simple.mcsema/kc.simple.mcsema/kc.simple.new.convert.txt: No such file or directory
+Unsupported
+
+===./Applications/obsequi/Output/Obsequi.simple.mcsema/Obsequi.simple===
+rm -rf  ./Applications/obsequi/Output/Obsequi.simple.mcsema/Obsequi.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/obsequi/Output/Obsequi.simple.mcsema/Obsequi.simple.cfg  -entrypoint=main -o ./Applications/obsequi/Output/Obsequi.simple.mcsema/Obsequi.simple.new.bc   &>  ./Applications/obsequi/Output/Obsequi.simple.mcsema/Obsequi.simple.new.convert.txt 
+Unsupported
+
+===./Applications/obsequi/Output/Obsequi.simple.mcsema/Obsequi.simple.mcsema/Obsequi.simple===
+rm -rf  ./Applications/obsequi/Output/Obsequi.simple.mcsema/Obsequi.simple.mcsema/Obsequi.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/obsequi/Output/Obsequi.simple.mcsema/Obsequi.simple.mcsema/Obsequi.simple.cfg  -entrypoint=main -o ./Applications/obsequi/Output/Obsequi.simple.mcsema/Obsequi.simple.mcsema/Obsequi.simple.new.bc   &>  ./Applications/obsequi/Output/Obsequi.simple.mcsema/Obsequi.simple.mcsema/Obsequi.simple.new.convert.txt 
+sh: ./Applications/obsequi/Output/Obsequi.simple.mcsema/Obsequi.simple.mcsema/Obsequi.simple.new.convert.txt: No such file or directory
+Unsupported
+
+===./Applications/d/Output/make_dparser.simple.mcsema/make_dparser.simple===
+rm -rf  ./Applications/d/Output/make_dparser.simple.mcsema/make_dparser.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/d/Output/make_dparser.simple.mcsema/make_dparser.simple.cfg  -entrypoint=main -o ./Applications/d/Output/make_dparser.simple.mcsema/make_dparser.simple.new.bc   &>  ./Applications/d/Output/make_dparser.simple.mcsema/make_dparser.simple.new.convert.txt 
+Unsupported
+
+===./Applications/sqlite3/Output/sqlite3.simple.mcsema/sqlite3.simple===
+rm -rf  ./Applications/sqlite3/Output/sqlite3.simple.mcsema/sqlite3.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/sqlite3/Output/sqlite3.simple.mcsema/sqlite3.simple.cfg  -entrypoint=main -o ./Applications/sqlite3/Output/sqlite3.simple.mcsema/sqlite3.simple.new.bc   &>  ./Applications/sqlite3/Output/sqlite3.simple.mcsema/sqlite3.simple.new.convert.txt 
+Unsupported
+
+===./Applications/sqlite3/Output/sqlite3.simple.mcsema/sqlite3.simple.mcsema/sqlite3.simple===
+rm -rf  ./Applications/sqlite3/Output/sqlite3.simple.mcsema/sqlite3.simple.mcsema/sqlite3.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/sqlite3/Output/sqlite3.simple.mcsema/sqlite3.simple.mcsema/sqlite3.simple.cfg  -entrypoint=main -o ./Applications/sqlite3/Output/sqlite3.simple.mcsema/sqlite3.simple.mcsema/sqlite3.simple.new.bc   &>  ./Applications/sqlite3/Output/sqlite3.simple.mcsema/sqlite3.simple.mcsema/sqlite3.simple.new.convert.txt 
+sh: ./Applications/sqlite3/Output/sqlite3.simple.mcsema/sqlite3.simple.mcsema/sqlite3.simple.new.convert.txt: No such file or directory
+Unsupported
+
+===./Applications/JM/ldecod/Output/ldecod.simple.mcsema/ldecod.simple===
+rm -rf  ./Applications/JM/ldecod/Output/ldecod.simple.mcsema/ldecod.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/JM/ldecod/Output/ldecod.simple.mcsema/ldecod.simple.cfg  -entrypoint=main -o ./Applications/JM/ldecod/Output/ldecod.simple.mcsema/ldecod.simple.new.bc   &>  ./Applications/JM/ldecod/Output/ldecod.simple.mcsema/ldecod.simple.new.convert.txt 
+Unsupported
+
+===./Applications/JM/ldecod/Output/ldecod.simple.mcsema/ldecod.simple.mcsema/ldecod.simple===
+rm -rf  ./Applications/JM/ldecod/Output/ldecod.simple.mcsema/ldecod.simple.mcsema/ldecod.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/JM/ldecod/Output/ldecod.simple.mcsema/ldecod.simple.mcsema/ldecod.simple.cfg  -entrypoint=main -o ./Applications/JM/ldecod/Output/ldecod.simple.mcsema/ldecod.simple.mcsema/ldecod.simple.new.bc   &>  ./Applications/JM/ldecod/Output/ldecod.simple.mcsema/ldecod.simple.mcsema/ldecod.simple.new.convert.txt 
+sh: ./Applications/JM/ldecod/Output/ldecod.simple.mcsema/ldecod.simple.mcsema/ldecod.simple.new.convert.txt: No such file or directory
+Unsupported
+
+===./Applications/JM/lencod/Output/lencod.simple.mcsema/lencod.simple===
+rm -rf  ./Applications/JM/lencod/Output/lencod.simple.mcsema/lencod.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/JM/lencod/Output/lencod.simple.mcsema/lencod.simple.cfg  -entrypoint=main -o ./Applications/JM/lencod/Output/lencod.simple.mcsema/lencod.simple.new.bc   &>  ./Applications/JM/lencod/Output/lencod.simple.mcsema/lencod.simple.new.convert.txt 
+Unsupported
+
+===./Applications/JM/lencod/Output/lencod.simple.mcsema/lencod.simple.mcsema/lencod.simple===
+rm -rf  ./Applications/JM/lencod/Output/lencod.simple.mcsema/lencod.simple.mcsema/lencod.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/JM/lencod/Output/lencod.simple.mcsema/lencod.simple.mcsema/lencod.simple.cfg  -entrypoint=main -o ./Applications/JM/lencod/Output/lencod.simple.mcsema/lencod.simple.mcsema/lencod.simple.new.bc   &>  ./Applications/JM/lencod/Output/lencod.simple.mcsema/lencod.simple.mcsema/lencod.simple.new.convert.txt 
+sh: ./Applications/JM/lencod/Output/lencod.simple.mcsema/lencod.simple.mcsema/lencod.simple.new.convert.txt: No such file or directory
+Unsupported
+
+===./Applications/lambda-0.1.3/Output/lambda.simple.mcsema/lambda.simple===
+rm -rf  ./Applications/lambda-0.1.3/Output/lambda.simple.mcsema/lambda.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/lambda-0.1.3/Output/lambda.simple.mcsema/lambda.simple.cfg  -entrypoint=main -o ./Applications/lambda-0.1.3/Output/lambda.simple.mcsema/lambda.simple.new.bc   &>  ./Applications/lambda-0.1.3/Output/lambda.simple.mcsema/lambda.simple.new.convert.txt 
+Unsupported
+
+===./Applications/SIBsim4/Output/SIBsim4.simple.mcsema/SIBsim4.simple===
+rm -rf  ./Applications/SIBsim4/Output/SIBsim4.simple.mcsema/SIBsim4.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/SIBsim4/Output/SIBsim4.simple.mcsema/SIBsim4.simple.cfg  -entrypoint=main -o ./Applications/SIBsim4/Output/SIBsim4.simple.mcsema/SIBsim4.simple.new.bc   &>  ./Applications/SIBsim4/Output/SIBsim4.simple.mcsema/SIBsim4.simple.new.convert.txt 
+Unsupported
+
+===./Applications/SIBsim4/Output/SIBsim4.simple.mcsema/SIBsim4.simple.mcsema/SIBsim4.simple===
+rm -rf  ./Applications/SIBsim4/Output/SIBsim4.simple.mcsema/SIBsim4.simple.mcsema/SIBsim4.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/SIBsim4/Output/SIBsim4.simple.mcsema/SIBsim4.simple.mcsema/SIBsim4.simple.cfg  -entrypoint=main -o ./Applications/SIBsim4/Output/SIBsim4.simple.mcsema/SIBsim4.simple.mcsema/SIBsim4.simple.new.bc   &>  ./Applications/SIBsim4/Output/SIBsim4.simple.mcsema/SIBsim4.simple.mcsema/SIBsim4.simple.new.convert.txt 
+sh: ./Applications/SIBsim4/Output/SIBsim4.simple.mcsema/SIBsim4.simple.mcsema/SIBsim4.simple.new.convert.txt: No such file or directory
+Unsupported
+
+===./Applications/Burg/Output/burg.simple.mcsema/burg.simple===
+rm -rf  ./Applications/Burg/Output/burg.simple.mcsema/burg.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/Burg/Output/burg.simple.mcsema/burg.simple.cfg  -entrypoint=main -o ./Applications/Burg/Output/burg.simple.mcsema/burg.simple.new.bc   &>  ./Applications/Burg/Output/burg.simple.mcsema/burg.simple.new.convert.txt 
+Unsupported
+
+===./Applications/Burg/Output/burg.simple.mcsema/burg.simple.mcsema/burg.simple===
+rm -rf  ./Applications/Burg/Output/burg.simple.mcsema/burg.simple.mcsema/burg.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/Burg/Output/burg.simple.mcsema/burg.simple.mcsema/burg.simple.cfg  -entrypoint=main -o ./Applications/Burg/Output/burg.simple.mcsema/burg.simple.mcsema/burg.simple.new.bc   &>  ./Applications/Burg/Output/burg.simple.mcsema/burg.simple.mcsema/burg.simple.new.convert.txt 
+sh: ./Applications/Burg/Output/burg.simple.mcsema/burg.simple.mcsema/burg.simple.new.convert.txt: No such file or directory
+Unsupported
+
+===./Applications/lua/Output/lua.simple.mcsema/lua.simple===
+rm -rf  ./Applications/lua/Output/lua.simple.mcsema/lua.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/lua/Output/lua.simple.mcsema/lua.simple.cfg  -entrypoint=main -o ./Applications/lua/Output/lua.simple.mcsema/lua.simple.new.bc   &>  ./Applications/lua/Output/lua.simple.mcsema/lua.simple.new.convert.txt 
+Unsupported
+
+===./Applications/lua/Output/lua.simple.mcsema/lua.simple.mcsema/lua.simple===
+rm -rf  ./Applications/lua/Output/lua.simple.mcsema/lua.simple.mcsema/lua.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/lua/Output/lua.simple.mcsema/lua.simple.mcsema/lua.simple.cfg  -entrypoint=main -o ./Applications/lua/Output/lua.simple.mcsema/lua.simple.mcsema/lua.simple.new.bc   &>  ./Applications/lua/Output/lua.simple.mcsema/lua.simple.mcsema/lua.simple.new.convert.txt 
+sh: ./Applications/lua/Output/lua.simple.mcsema/lua.simple.mcsema/lua.simple.new.convert.txt: No such file or directory
+Unsupported
+
+===./Applications/hbd/Output/hbd.simple.mcsema/hbd.simple===
+rm -rf  ./Applications/hbd/Output/hbd.simple.mcsema/hbd.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/hbd/Output/hbd.simple.mcsema/hbd.simple.cfg  -entrypoint=main -o ./Applications/hbd/Output/hbd.simple.mcsema/hbd.simple.new.bc   &>  ./Applications/hbd/Output/hbd.simple.mcsema/hbd.simple.new.convert.txt 
+Unsupported
+
+===./Applications/hbd/Output/hbd.simple.mcsema/hbd.simple.mcsema/hbd.simple===
+rm -rf  ./Applications/hbd/Output/hbd.simple.mcsema/hbd.simple.mcsema/hbd.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/hbd/Output/hbd.simple.mcsema/hbd.simple.mcsema/hbd.simple.cfg  -entrypoint=main -o ./Applications/hbd/Output/hbd.simple.mcsema/hbd.simple.mcsema/hbd.simple.new.bc   &>  ./Applications/hbd/Output/hbd.simple.mcsema/hbd.simple.mcsema/hbd.simple.new.convert.txt 
+sh: ./Applications/hbd/Output/hbd.simple.mcsema/hbd.simple.mcsema/hbd.simple.new.convert.txt: No such file or directory
+Unsupported
+
+===./Applications/lemon/Output/lemon.simple.mcsema/lemon.simple===
+rm -rf  ./Applications/lemon/Output/lemon.simple.mcsema/lemon.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/lemon/Output/lemon.simple.mcsema/lemon.simple.cfg  -entrypoint=main -o ./Applications/lemon/Output/lemon.simple.mcsema/lemon.simple.new.bc   &>  ./Applications/lemon/Output/lemon.simple.mcsema/lemon.simple.new.convert.txt 
+Unsupported
+
+===./Applications/lemon/Output/lemon.simple.mcsema/lemon.simple.mcsema/lemon.simple===
+rm -rf  ./Applications/lemon/Output/lemon.simple.mcsema/lemon.simple.mcsema/lemon.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/lemon/Output/lemon.simple.mcsema/lemon.simple.mcsema/lemon.simple.cfg  -entrypoint=main -o ./Applications/lemon/Output/lemon.simple.mcsema/lemon.simple.mcsema/lemon.simple.new.bc   &>  ./Applications/lemon/Output/lemon.simple.mcsema/lemon.simple.mcsema/lemon.simple.new.convert.txt 
+sh: ./Applications/lemon/Output/lemon.simple.mcsema/lemon.simple.mcsema/lemon.simple.new.convert.txt: No such file or directory
+Unsupported
+
+===./Applications/SPASS/Output/SPASS.simple.mcsema/SPASS.simple===
+rm -rf  ./Applications/SPASS/Output/SPASS.simple.mcsema/SPASS.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/SPASS/Output/SPASS.simple.mcsema/SPASS.simple.cfg  -entrypoint=main -o ./Applications/SPASS/Output/SPASS.simple.mcsema/SPASS.simple.new.bc   &>  ./Applications/SPASS/Output/SPASS.simple.mcsema/SPASS.simple.new.convert.txt 
+Unsupported
+
+===./Applications/SPASS/Output/SPASS.simple.mcsema/SPASS.simple.mcsema/SPASS.simple===
+rm -rf  ./Applications/SPASS/Output/SPASS.simple.mcsema/SPASS.simple.mcsema/SPASS.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/SPASS/Output/SPASS.simple.mcsema/SPASS.simple.mcsema/SPASS.simple.cfg  -entrypoint=main -o ./Applications/SPASS/Output/SPASS.simple.mcsema/SPASS.simple.mcsema/SPASS.simple.new.bc   &>  ./Applications/SPASS/Output/SPASS.simple.mcsema/SPASS.simple.mcsema/SPASS.simple.new.convert.txt 
+sh: ./Applications/SPASS/Output/SPASS.simple.mcsema/SPASS.simple.mcsema/SPASS.simple.new.convert.txt: No such file or directory
+Unsupported
+
+===./Applications/viterbi/Output/viterbi.simple.mcsema/viterbi.simple===
+rm -rf  ./Applications/viterbi/Output/viterbi.simple.mcsema/viterbi.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/viterbi/Output/viterbi.simple.mcsema/viterbi.simple.cfg  -entrypoint=main -o ./Applications/viterbi/Output/viterbi.simple.mcsema/viterbi.simple.new.bc   &>  ./Applications/viterbi/Output/viterbi.simple.mcsema/viterbi.simple.new.convert.txt 
+Unsupported
+
+===./Applications/viterbi/Output/viterbi.simple.mcsema/viterbi.simple.mcsema/viterbi.simple===
+rm -rf  ./Applications/viterbi/Output/viterbi.simple.mcsema/viterbi.simple.mcsema/viterbi.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/viterbi/Output/viterbi.simple.mcsema/viterbi.simple.mcsema/viterbi.simple.cfg  -entrypoint=main -o ./Applications/viterbi/Output/viterbi.simple.mcsema/viterbi.simple.mcsema/viterbi.simple.new.bc   &>  ./Applications/viterbi/Output/viterbi.simple.mcsema/viterbi.simple.mcsema/viterbi.simple.new.convert.txt 
+sh: ./Applications/viterbi/Output/viterbi.simple.mcsema/viterbi.simple.mcsema/viterbi.simple.new.convert.txt: No such file or directory
+Unsupported
+
+===./Applications/treecc/Output/treecc.simple.mcsema/treecc.simple===
+rm -rf  ./Applications/treecc/Output/treecc.simple.mcsema/treecc.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/treecc/Output/treecc.simple.mcsema/treecc.simple.cfg  -entrypoint=main -o ./Applications/treecc/Output/treecc.simple.mcsema/treecc.simple.new.bc   &>  ./Applications/treecc/Output/treecc.simple.mcsema/treecc.simple.new.convert.txt 
+Unsupported
+
+===./Applications/treecc/Output/treecc.simple.mcsema/treecc.simple.mcsema/treecc.simple===
+rm -rf  ./Applications/treecc/Output/treecc.simple.mcsema/treecc.simple.mcsema/treecc.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/treecc/Output/treecc.simple.mcsema/treecc.simple.mcsema/treecc.simple.cfg  -entrypoint=main -o ./Applications/treecc/Output/treecc.simple.mcsema/treecc.simple.mcsema/treecc.simple.new.bc   &>  ./Applications/treecc/Output/treecc.simple.mcsema/treecc.simple.mcsema/treecc.simple.new.convert.txt 
+sh: ./Applications/treecc/Output/treecc.simple.mcsema/treecc.simple.mcsema/treecc.simple.new.convert.txt: No such file or directory
+Unsupported
+
+===./Applications/siod/Output/siod.simple.mcsema/siod.simple===
+rm -rf  ./Applications/siod/Output/siod.simple.mcsema/siod.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/siod/Output/siod.simple.mcsema/siod.simple.cfg  -entrypoint=main -o ./Applications/siod/Output/siod.simple.mcsema/siod.simple.new.bc   &>  ./Applications/siod/Output/siod.simple.mcsema/siod.simple.new.convert.txt 
+Unsupported
+
+===./Applications/siod/Output/siod.simple.mcsema/siod.simple.mcsema/siod.simple===
+rm -rf  ./Applications/siod/Output/siod.simple.mcsema/siod.simple.mcsema/siod.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/siod/Output/siod.simple.mcsema/siod.simple.mcsema/siod.simple.cfg  -entrypoint=main -o ./Applications/siod/Output/siod.simple.mcsema/siod.simple.mcsema/siod.simple.new.bc   &>  ./Applications/siod/Output/siod.simple.mcsema/siod.simple.mcsema/siod.simple.new.convert.txt 
+sh: ./Applications/siod/Output/siod.simple.mcsema/siod.simple.mcsema/siod.simple.new.convert.txt: No such file or directory
+Unsupported
+
+===./Applications/spiff/Output/spiff.simple.mcsema/spiff.simple===
+rm -rf  ./Applications/spiff/Output/spiff.simple.mcsema/spiff.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/spiff/Output/spiff.simple.mcsema/spiff.simple.cfg  -entrypoint=main -o ./Applications/spiff/Output/spiff.simple.mcsema/spiff.simple.new.bc   &>  ./Applications/spiff/Output/spiff.simple.mcsema/spiff.simple.new.convert.txt 
+Unsupported
+
+===./Applications/spiff/Output/spiff.simple.mcsema/spiff.simple.mcsema/spiff.simple===
+rm -rf  ./Applications/spiff/Output/spiff.simple.mcsema/spiff.simple.mcsema/spiff.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/spiff/Output/spiff.simple.mcsema/spiff.simple.mcsema/spiff.simple.cfg  -entrypoint=main -o ./Applications/spiff/Output/spiff.simple.mcsema/spiff.simple.mcsema/spiff.simple.new.bc   &>  ./Applications/spiff/Output/spiff.simple.mcsema/spiff.simple.mcsema/spiff.simple.new.convert.txt 
+sh: ./Applications/spiff/Output/spiff.simple.mcsema/spiff.simple.mcsema/spiff.simple.new.convert.txt: No such file or directory
+Unsupported
+
+===./Applications/aha/Output/aha.simple.mcsema/aha.simple===
+rm -rf  ./Applications/aha/Output/aha.simple.mcsema/aha.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/aha/Output/aha.simple.mcsema/aha.simple.cfg  -entrypoint=main -o ./Applications/aha/Output/aha.simple.mcsema/aha.simple.new.bc   &>  ./Applications/aha/Output/aha.simple.mcsema/aha.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Applications/aha/Output/aha.simple.mcsema/aha.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Applications/aha/Output/aha.simple.mcsema/aha.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Applications/aha/Output/aha.simple.mcsema/aha.simple.mcsema/aha.simple===
+rm -rf  ./Applications/aha/Output/aha.simple.mcsema/aha.simple.mcsema/aha.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/aha/Output/aha.simple.mcsema/aha.simple.mcsema/aha.simple.cfg  -entrypoint=main -o ./Applications/aha/Output/aha.simple.mcsema/aha.simple.mcsema/aha.simple.new.bc   &>  ./Applications/aha/Output/aha.simple.mcsema/aha.simple.mcsema/aha.simple.new.convert.txt 
+sh: ./Applications/aha/Output/aha.simple.mcsema/aha.simple.mcsema/aha.simple.new.convert.txt: No such file or directory
+Unsupported
+
+===./Applications/ClamAV/Output/clamscan.simple.mcsema/clamscan.simple===
+rm -rf  ./Applications/ClamAV/Output/clamscan.simple.mcsema/clamscan.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/ClamAV/Output/clamscan.simple.mcsema/clamscan.simple.cfg  -entrypoint=main -o ./Applications/ClamAV/Output/clamscan.simple.mcsema/clamscan.simple.new.bc   &>  ./Applications/ClamAV/Output/clamscan.simple.mcsema/clamscan.simple.new.convert.txt 
+Unsupported
+
+===./Applications/minisat/Output/minisat.simple.mcsema/minisat.simple===
+rm -rf  ./Applications/minisat/Output/minisat.simple.mcsema/minisat.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/minisat/Output/minisat.simple.mcsema/minisat.simple.cfg  -entrypoint=main -o ./Applications/minisat/Output/minisat.simple.mcsema/minisat.simple.new.bc   &>  ./Applications/minisat/Output/minisat.simple.mcsema/minisat.simple.new.convert.txt 
+Unsupported
+
+===./Applications/minisat/Output/minisat.simple.mcsema/minisat.simple.mcsema/minisat.simple===
+rm -rf  ./Applications/minisat/Output/minisat.simple.mcsema/minisat.simple.mcsema/minisat.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/minisat/Output/minisat.simple.mcsema/minisat.simple.mcsema/minisat.simple.cfg  -entrypoint=main -o ./Applications/minisat/Output/minisat.simple.mcsema/minisat.simple.mcsema/minisat.simple.new.bc   &>  ./Applications/minisat/Output/minisat.simple.mcsema/minisat.simple.mcsema/minisat.simple.new.convert.txt 
+sh: ./Applications/minisat/Output/minisat.simple.mcsema/minisat.simple.mcsema/minisat.simple.new.convert.txt: No such file or directory
+Unsupported
+
+===./Applications/oggenc/Output/oggenc.simple.mcsema/oggenc.simple===
+rm -rf  ./Applications/oggenc/Output/oggenc.simple.mcsema/oggenc.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/oggenc/Output/oggenc.simple.mcsema/oggenc.simple.cfg  -entrypoint=main -o ./Applications/oggenc/Output/oggenc.simple.mcsema/oggenc.simple.new.bc   &>  ./Applications/oggenc/Output/oggenc.simple.mcsema/oggenc.simple.new.convert.txt 
+Unsupported
+
+===./Applications/oggenc/Output/oggenc.simple.mcsema/oggenc.simple.mcsema/oggenc.simple===
+rm -rf  ./Applications/oggenc/Output/oggenc.simple.mcsema/oggenc.simple.mcsema/oggenc.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Applications/oggenc/Output/oggenc.simple.mcsema/oggenc.simple.mcsema/oggenc.simple.cfg  -entrypoint=main -o ./Applications/oggenc/Output/oggenc.simple.mcsema/oggenc.simple.mcsema/oggenc.simple.new.bc   &>  ./Applications/oggenc/Output/oggenc.simple.mcsema/oggenc.simple.mcsema/oggenc.simple.new.convert.txt 
+sh: ./Applications/oggenc/Output/oggenc.simple.mcsema/oggenc.simple.mcsema/oggenc.simple.new.convert.txt: No such file or directory
+Unsupported
+
+Original Unsupported
+./UnitTests/C++11/frame_layout/Output/frame_layout.simple.mcsema/frame_layout.simple
+./Benchmarks/Ptrdist/yacr2/Output/yacr2.simple.mcsema/yacr2.simple
+./Benchmarks/Ptrdist/bc/Output/bc.simple.mcsema/bc.simple
+./Benchmarks/Ptrdist/anagram/Output/anagram.simple.mcsema/anagram.simple
+./Benchmarks/Fhourstones/Output/fhourstones.simple.mcsema/fhourstones.simple
+./Benchmarks/MallocBench/gs/Output/gs.simple.mcsema/gs.simple
+./Benchmarks/MallocBench/cfrac/Output/cfrac.simple.mcsema/cfrac.simple
+./Benchmarks/MallocBench/espresso/Output/espresso.simple.mcsema/espresso.simple
+./Benchmarks/MiBench/office-ispell/Output/office-ispell.simple.mcsema/office-ispell.simple
+./Benchmarks/MiBench/consumer-typeset/Output/consumer-typeset.simple.mcsema/consumer-typeset.simple
+./Benchmarks/MiBench/office-stringsearch/Output/office-stringsearch.simple.mcsema/office-stringsearch.simple
+./Benchmarks/MiBench/automotive-susan/Output/automotive-susan.simple.mcsema/automotive-susan.simple
+./Benchmarks/MiBench/consumer-lame/Output/consumer-lame.simple.mcsema/consumer-lame.simple
+./Benchmarks/MiBench/telecomm-FFT/Output/telecomm-fft.simple.mcsema/telecomm-fft.simple
+./Benchmarks/MiBench/automotive-bitcount/Output/automotive-bitcount.simple.mcsema/automotive-bitcount.simple
+./Benchmarks/MiBench/telecomm-gsm/Output/telecomm-gsm.simple.mcsema/telecomm-gsm.simple
+./Benchmarks/MiBench/consumer-jpeg/Output/consumer-jpeg.simple.mcsema/consumer-jpeg.simple
+./Benchmarks/McCat/04-bisect/Output/bisect.simple.mcsema/bisect.simple
+./Benchmarks/McCat/12-IOtest/Output/iotest.simple.mcsema/iotest.simple
+./Benchmarks/McCat/09-vor/Output/vor.simple.mcsema/vor.simple
+./Benchmarks/McCat/18-imp/Output/imp.simple.mcsema/imp.simple
+./Benchmarks/McCat/05-eks/Output/eks.simple.mcsema/eks.simple
+./Benchmarks/McCat/08-main/Output/main.simple.mcsema/main.simple
+./Benchmarks/Prolangs-C/compiler/Output/compiler.simple.mcsema/compiler.simple
+./Benchmarks/Prolangs-C/football/Output/football.simple.mcsema/football.simple
+./Benchmarks/Prolangs-C/agrep/Output/agrep.simple.mcsema/agrep.simple
+./Benchmarks/Prolangs-C/cdecl/Output/cdecl.simple.mcsema/cdecl.simple
+./Benchmarks/Prolangs-C/TimberWolfMC/Output/timberwolfmc.simple.mcsema/timberwolfmc.simple
+./Benchmarks/Prolangs-C/bison/Output/mybison.simple.mcsema/mybison.simple
+./Benchmarks/Prolangs-C/plot2fig/Output/plot2fig.simple.mcsema/plot2fig.simple
+./Benchmarks/Prolangs-C/unix-tbl/Output/unix-tbl.simple.mcsema/unix-tbl.simple
+./Benchmarks/Prolangs-C/gnugo/Output/gnugo.simple.mcsema/gnugo.simple
+./Benchmarks/Prolangs-C/unix-smail/Output/unix-smail.simple.mcsema/unix-smail.simple
+./Benchmarks/Prolangs-C/archie-client/Output/archie.simple.mcsema/archie.simple
+./Benchmarks/SciMark2-C/Output/scimark2.simple.mcsema/scimark2.simple
+./Benchmarks/FreeBench/fourinarow/Output/fourinarow.simple.mcsema/fourinarow.simple
+./Benchmarks/FreeBench/distray/Output/distray.simple.mcsema/distray.simple
+./Benchmarks/FreeBench/pcompress2/Output/pcompress2.simple.mcsema/pcompress2.simple
+./Benchmarks/FreeBench/pifft/Output/pifft.simple.mcsema/pifft.simple
+./Benchmarks/FreeBench/neural/Output/neural.simple.mcsema/neural.simple
+./Benchmarks/FreeBench/mason/Output/mason.simple.mcsema/mason.simple
+./Benchmarks/FreeBench/analyzer/Output/analyzer.simple.mcsema/analyzer.simple
+./Benchmarks/PAQ8p/Output/paq8p.simple.mcsema/paq8p.simple
+./Benchmarks/ASC_Sequoia/AMGmk/Output/AMGmk.simple.mcsema/AMGmk.simple
+./Benchmarks/ASC_Sequoia/CrystalMk/Output/CrystalMk.simple.mcsema/CrystalMk.simple
+./Benchmarks/ASC_Sequoia/IRSmk/Output/IRSmk.simple.mcsema/IRSmk.simple
+./Benchmarks/Fhourstones-3.1/Output/fhourstones3.1.simple.mcsema/fhourstones3.1.simple
+./Benchmarks/nbench/Output/nbench.simple.mcsema/nbench.simple
+./Benchmarks/NPB-serial/is/Output/is.simple.mcsema/is.simple
+./Benchmarks/ASCI_Purple/SMG2000/Output/smg2000.simple.mcsema/smg2000.simple
+./Benchmarks/mafft/Output/pairlocalalign.simple.mcsema/pairlocalalign.simple
+./Benchmarks/Olden/voronoi/Output/voronoi.simple.mcsema/voronoi.simple
+./Benchmarks/Olden/power/Output/power.simple.mcsema/power.simple
+./Benchmarks/Olden/bh/Output/bh.simple.mcsema/bh.simple
+./Benchmarks/Olden/health/Output/health.simple.mcsema/health.simple
+./Benchmarks/Bullet/Output/bullet.simple.mcsema/bullet.simple
+./Benchmarks/mediabench/jpeg/jpeg-6a/Output/cjpeg.simple.mcsema/cjpeg.simple
+./Benchmarks/mediabench/gsm/toast/Output/toast.simple.mcsema/toast.simple
+./Benchmarks/mediabench/mpeg2/mpeg2dec/Output/mpeg2decode.simple.mcsema/mpeg2decode.simple
+./Benchmarks/tramp3d-v4/Output/tramp3d-v4.simple.mcsema/tramp3d-v4.simple
+./Benchmarks/TSVC/Packing-dbl/Output/Packing-dbl.simple.mcsema/Packing-dbl.simple
+./Benchmarks/TSVC/NodeSplitting-dbl/Output/NodeSplitting-dbl.simple.mcsema/NodeSplitting-dbl.simple
+./Benchmarks/TSVC/Recurrences-dbl/Output/Recurrences-dbl.simple.mcsema/Recurrences-dbl.simple
+./Benchmarks/TSVC/InductionVariable-flt/Output/InductionVariable-flt.simple.mcsema/InductionVariable-flt.simple
+./Benchmarks/TSVC/Expansion-flt/Output/Expansion-flt.simple.mcsema/Expansion-flt.simple
+./Benchmarks/TSVC/CrossingThresholds-dbl/Output/CrossingThresholds-dbl.simple.mcsema/CrossingThresholds-dbl.simple
+./Benchmarks/TSVC/ControlLoops-dbl/Output/ControlLoops-dbl.simple.mcsema/ControlLoops-dbl.simple
+./Benchmarks/TSVC/Symbolics-flt/Output/Symbolics-flt.simple.mcsema/Symbolics-flt.simple
+./Benchmarks/TSVC/LoopRerolling-dbl/Output/LoopRerolling-dbl.simple.mcsema/LoopRerolling-dbl.simple
+./Benchmarks/TSVC/Reductions-flt/Output/Reductions-flt.simple.mcsema/Reductions-flt.simple
+./Benchmarks/TSVC/InductionVariable-dbl/Output/InductionVariable-dbl.simple.mcsema/InductionVariable-dbl.simple
+./Benchmarks/TSVC/ControlFlow-dbl/Output/ControlFlow-dbl.simple.mcsema/ControlFlow-dbl.simple
+./Benchmarks/TSVC/Searching-dbl/Output/Searching-dbl.simple.mcsema/Searching-dbl.simple
+./Benchmarks/TSVC/CrossingThresholds-flt/Output/CrossingThresholds-flt.simple.mcsema/CrossingThresholds-flt.simple
+./Benchmarks/TSVC/ControlLoops-flt/Output/ControlLoops-flt.simple.mcsema/ControlLoops-flt.simple
+./Benchmarks/TSVC/IndirectAddressing-dbl/Output/IndirectAddressing-dbl.simple.mcsema/IndirectAddressing-dbl.simple
+./Benchmarks/TSVC/NodeSplitting-flt/Output/NodeSplitting-flt.simple.mcsema/NodeSplitting-flt.simple
+./Benchmarks/TSVC/Reductions-dbl/Output/Reductions-dbl.simple.mcsema/Reductions-dbl.simple
+./Benchmarks/TSVC/Expansion-dbl/Output/Expansion-dbl.simple.mcsema/Expansion-dbl.simple
+./Benchmarks/TSVC/Equivalencing-dbl/Output/Equivalencing-dbl.simple.mcsema/Equivalencing-dbl.simple
+./Benchmarks/TSVC/LinearDependence-flt/Output/LinearDependence-flt.simple.mcsema/LinearDependence-flt.simple
+./Benchmarks/TSVC/Symbolics-dbl/Output/Symbolics-dbl.simple.mcsema/Symbolics-dbl.simple
+./Benchmarks/TSVC/GlobalDataFlow-dbl/Output/GlobalDataFlow-dbl.simple.mcsema/GlobalDataFlow-dbl.simple
+./Benchmarks/TSVC/LoopRestructuring-flt/Output/LoopRestructuring-flt.simple.mcsema/LoopRestructuring-flt.simple
+./Benchmarks/TSVC/LinearDependence-dbl/Output/LinearDependence-dbl.simple.mcsema/LinearDependence-dbl.simple
+./Benchmarks/TSVC/StatementReordering-dbl/Output/StatementReordering-dbl.simple.mcsema/StatementReordering-dbl.simple
+./Benchmarks/TSVC/LoopRerolling-flt/Output/LoopRerolling-flt.simple.mcsema/LoopRerolling-flt.simple
+./Benchmarks/TSVC/Equivalencing-flt/Output/Equivalencing-flt.simple.mcsema/Equivalencing-flt.simple
+./Benchmarks/TSVC/GlobalDataFlow-flt/Output/GlobalDataFlow-flt.simple.mcsema/GlobalDataFlow-flt.simple
+./Benchmarks/TSVC/LoopRestructuring-dbl/Output/LoopRestructuring-dbl.simple.mcsema/LoopRestructuring-dbl.simple
+./Benchmarks/TSVC/ControlFlow-flt/Output/ControlFlow-flt.simple.mcsema/ControlFlow-flt.simple
+./Benchmarks/VersaBench/ecbdes/Output/ecbdes.simple.mcsema/ecbdes.simple
+./Benchmarks/VersaBench/beamformer/Output/beamformer.simple.mcsema/beamformer.simple
+./Benchmarks/VersaBench/dbms/Output/dbms.simple.mcsema/dbms.simple
+./Benchmarks/Prolangs-C++/family/Output/family.simple.mcsema/family.simple
+./Benchmarks/Prolangs-C++/employ/Output/employ.simple.mcsema/employ.simple
+./Benchmarks/Prolangs-C++/shapes/Output/shapes.simple.mcsema/shapes.simple
+./Benchmarks/Prolangs-C++/primes/Output/primes.simple.mcsema/primes.simple
+./Benchmarks/Prolangs-C++/ocean/Output/ocean.simple.mcsema/ocean.simple
+./Benchmarks/Prolangs-C++/life/Output/life.simple.mcsema/life.simple
+./Benchmarks/Prolangs-C++/deriv1/Output/deriv1.simple.mcsema/deriv1.simple
+./Benchmarks/Prolangs-C++/city/Output/city.simple.mcsema/city.simple
+./Benchmarks/Prolangs-C++/office/Output/office.simple.mcsema/office.simple
+./Benchmarks/Prolangs-C++/trees/Output/trees.simple.mcsema/trees.simple
+./Benchmarks/Prolangs-C++/fsm/Output/fsm.simple.mcsema/fsm.simple
+./Benchmarks/Prolangs-C++/objects/Output/objects.simple.mcsema/objects.simple
+./Benchmarks/Prolangs-C++/deriv2/Output/deriv2.simple.mcsema/deriv2.simple
+./Benchmarks/Prolangs-C++/garage/Output/garage.simple.mcsema/garage.simple
+./Benchmarks/Prolangs-C++/simul/Output/simul.simple.mcsema/simul.simple
+./Benchmarks/7zip/Output/7zip-benchmark.simple.mcsema/7zip-benchmark.simple
+./Benchmarks/Trimaran/netbench-crc/Output/netbench-crc.simple.mcsema/netbench-crc.simple
+./Benchmarks/Trimaran/enc-md5/Output/enc-md5.simple.mcsema/enc-md5.simple
+./Benchmarks/Trimaran/enc-3des/Output/enc-3des.simple.mcsema/enc-3des.simple
+./Applications/ALAC/encode/Output/alacconvert-encode.simple.mcsema/alacconvert-encode.simple
+./Applications/ALAC/encode/Output/alacconvert-encode.simple.mcsema/alacconvert-encode.simple.mcsema/alacconvert-encode.simple
+./Applications/ALAC/decode/Output/alacconvert-decode.simple.mcsema/alacconvert-decode.simple
+./Applications/ALAC/decode/Output/alacconvert-decode.simple.mcsema/alacconvert-decode.simple.mcsema/alacconvert-decode.simple
+./Applications/sgefa/Output/sgefa.simple.mcsema/sgefa.simple
+./Applications/sgefa/Output/sgefa.simple.mcsema/sgefa.simple.mcsema/sgefa.simple
+./Applications/hexxagon/Output/hexxagon.simple.mcsema/hexxagon.simple
+./Applications/hexxagon/Output/hexxagon.simple.mcsema/hexxagon.simple.mcsema/hexxagon.simple
+./Applications/kimwitu++/Output/kc.simple.mcsema/kc.simple
+./Applications/kimwitu++/Output/kc.simple.mcsema/kc.simple.mcsema/kc.simple
+./Applications/obsequi/Output/Obsequi.simple.mcsema/Obsequi.simple
+./Applications/obsequi/Output/Obsequi.simple.mcsema/Obsequi.simple.mcsema/Obsequi.simple
+./Applications/d/Output/make_dparser.simple.mcsema/make_dparser.simple
+./Applications/sqlite3/Output/sqlite3.simple.mcsema/sqlite3.simple
+./Applications/sqlite3/Output/sqlite3.simple.mcsema/sqlite3.simple.mcsema/sqlite3.simple
+./Applications/JM/ldecod/Output/ldecod.simple.mcsema/ldecod.simple
+./Applications/JM/ldecod/Output/ldecod.simple.mcsema/ldecod.simple.mcsema/ldecod.simple
+./Applications/JM/lencod/Output/lencod.simple.mcsema/lencod.simple
+./Applications/JM/lencod/Output/lencod.simple.mcsema/lencod.simple.mcsema/lencod.simple
+./Applications/lambda-0.1.3/Output/lambda.simple.mcsema/lambda.simple
+./Applications/SIBsim4/Output/SIBsim4.simple.mcsema/SIBsim4.simple
+./Applications/SIBsim4/Output/SIBsim4.simple.mcsema/SIBsim4.simple.mcsema/SIBsim4.simple
+./Applications/Burg/Output/burg.simple.mcsema/burg.simple
+./Applications/Burg/Output/burg.simple.mcsema/burg.simple.mcsema/burg.simple
+./Applications/lua/Output/lua.simple.mcsema/lua.simple
+./Applications/lua/Output/lua.simple.mcsema/lua.simple.mcsema/lua.simple
+./Applications/hbd/Output/hbd.simple.mcsema/hbd.simple
+./Applications/hbd/Output/hbd.simple.mcsema/hbd.simple.mcsema/hbd.simple
+./Applications/lemon/Output/lemon.simple.mcsema/lemon.simple
+./Applications/lemon/Output/lemon.simple.mcsema/lemon.simple.mcsema/lemon.simple
+./Applications/SPASS/Output/SPASS.simple.mcsema/SPASS.simple
+./Applications/SPASS/Output/SPASS.simple.mcsema/SPASS.simple.mcsema/SPASS.simple
+./Applications/viterbi/Output/viterbi.simple.mcsema/viterbi.simple
+./Applications/viterbi/Output/viterbi.simple.mcsema/viterbi.simple.mcsema/viterbi.simple
+./Applications/treecc/Output/treecc.simple.mcsema/treecc.simple
+./Applications/treecc/Output/treecc.simple.mcsema/treecc.simple.mcsema/treecc.simple
+./Applications/siod/Output/siod.simple.mcsema/siod.simple
+./Applications/siod/Output/siod.simple.mcsema/siod.simple.mcsema/siod.simple
+./Applications/spiff/Output/spiff.simple.mcsema/spiff.simple
+./Applications/spiff/Output/spiff.simple.mcsema/spiff.simple.mcsema/spiff.simple
+./Applications/aha/Output/aha.simple.mcsema/aha.simple.mcsema/aha.simple
+./Applications/ClamAV/Output/clamscan.simple.mcsema/clamscan.simple
+./Applications/minisat/Output/minisat.simple.mcsema/minisat.simple
+./Applications/minisat/Output/minisat.simple.mcsema/minisat.simple.mcsema/minisat.simple
+./Applications/oggenc/Output/oggenc.simple.mcsema/oggenc.simple
+./Applications/oggenc/Output/oggenc.simple.mcsema/oggenc.simple.mcsema/oggenc.simple
+
+Current Unsupported
+./UnitTests/C++11/frame_layout/Output/frame_layout.simple.mcsema/frame_layout.simple
+./Benchmarks/BitBench/drop3/Output/drop3.simple.mcsema/drop3.simple
+./Benchmarks/BitBench/uudecode/Output/uudecode.simple.mcsema/uudecode.simple
+./Benchmarks/BitBench/uuencode/Output/uuencode.simple.mcsema/uuencode.simple
+./Benchmarks/Ptrdist/ft/Output/ft.simple.mcsema/ft.simple
+./Benchmarks/Ptrdist/ks/Output/ks.simple.mcsema/ks.simple
+./Benchmarks/Ptrdist/yacr2/Output/yacr2.simple.mcsema/yacr2.simple
+./Benchmarks/Ptrdist/bc/Output/bc.simple.mcsema/bc.simple
+./Benchmarks/Ptrdist/anagram/Output/anagram.simple.mcsema/anagram.simple
+./Benchmarks/Fhourstones/Output/fhourstones.simple.mcsema/fhourstones.simple
+./Benchmarks/MallocBench/gs/Output/gs.simple.mcsema/gs.simple
+./Benchmarks/MallocBench/cfrac/Output/cfrac.simple.mcsema/cfrac.simple
+./Benchmarks/MallocBench/espresso/Output/espresso.simple.mcsema/espresso.simple
+./Benchmarks/MiBench/network-dijkstra/Output/network-dijkstra.simple.mcsema/network-dijkstra.simple
+./Benchmarks/MiBench/office-ispell/Output/office-ispell.simple.mcsema/office-ispell.simple
+./Benchmarks/MiBench/consumer-typeset/Output/consumer-typeset.simple.mcsema/consumer-typeset.simple
+./Benchmarks/MiBench/network-patricia/Output/network-patricia.simple.mcsema/network-patricia.simple
+./Benchmarks/MiBench/telecomm-adpcm/Output/telecomm-adpcm.simple.mcsema/telecomm-adpcm.simple
+./Benchmarks/MiBench/automotive-susan/Output/automotive-susan.simple.mcsema/automotive-susan.simple
+./Benchmarks/MiBench/security-blowfish/Output/security-blowfish.simple.mcsema/security-blowfish.simple
+./Benchmarks/MiBench/consumer-lame/Output/consumer-lame.simple.mcsema/consumer-lame.simple
+./Benchmarks/MiBench/automotive-basicmath/Output/automotive-basicmath.simple.mcsema/automotive-basicmath.simple
+./Benchmarks/MiBench/telecomm-FFT/Output/telecomm-fft.simple.mcsema/telecomm-fft.simple
+./Benchmarks/MiBench/automotive-bitcount/Output/automotive-bitcount.simple.mcsema/automotive-bitcount.simple
+./Benchmarks/MiBench/telecomm-gsm/Output/telecomm-gsm.simple.mcsema/telecomm-gsm.simple
+./Benchmarks/MiBench/consumer-jpeg/Output/consumer-jpeg.simple.mcsema/consumer-jpeg.simple
+./Benchmarks/McCat/04-bisect/Output/bisect.simple.mcsema/bisect.simple
+./Benchmarks/McCat/01-qbsort/Output/qbsort.simple.mcsema/qbsort.simple
+./Benchmarks/McCat/09-vor/Output/vor.simple.mcsema/vor.simple
+./Benchmarks/McCat/03-testtrie/Output/testtrie.simple.mcsema/testtrie.simple
+./Benchmarks/McCat/18-imp/Output/imp.simple.mcsema/imp.simple
+./Benchmarks/McCat/05-eks/Output/eks.simple.mcsema/eks.simple
+./Benchmarks/McCat/15-trie/Output/trie.simple.mcsema/trie.simple
+./Benchmarks/McCat/08-main/Output/main.simple.mcsema/main.simple
+./Benchmarks/Prolangs-C/football/Output/football.simple.mcsema/football.simple
+./Benchmarks/Prolangs-C/agrep/Output/agrep.simple.mcsema/agrep.simple
+./Benchmarks/Prolangs-C/fixoutput/Output/fixoutput.simple.mcsema/fixoutput.simple
+./Benchmarks/Prolangs-C/cdecl/Output/cdecl.simple.mcsema/cdecl.simple
+./Benchmarks/Prolangs-C/TimberWolfMC/Output/timberwolfmc.simple.mcsema/timberwolfmc.simple
+./Benchmarks/Prolangs-C/bison/Output/mybison.simple.mcsema/mybison.simple
+./Benchmarks/Prolangs-C/plot2fig/Output/plot2fig.simple.mcsema/plot2fig.simple
+./Benchmarks/Prolangs-C/unix-tbl/Output/unix-tbl.simple.mcsema/unix-tbl.simple
+./Benchmarks/Prolangs-C/unix-smail/Output/unix-smail.simple.mcsema/unix-smail.simple
+./Benchmarks/Prolangs-C/archie-client/Output/archie.simple.mcsema/archie.simple
+./Benchmarks/SciMark2-C/Output/scimark2.simple.mcsema/scimark2.simple
+./Benchmarks/FreeBench/fourinarow/Output/fourinarow.simple.mcsema/fourinarow.simple
+./Benchmarks/FreeBench/distray/Output/distray.simple.mcsema/distray.simple
+./Benchmarks/FreeBench/pcompress2/Output/pcompress2.simple.mcsema/pcompress2.simple
+./Benchmarks/FreeBench/pifft/Output/pifft.simple.mcsema/pifft.simple
+./Benchmarks/FreeBench/neural/Output/neural.simple.mcsema/neural.simple
+./Benchmarks/FreeBench/mason/Output/mason.simple.mcsema/mason.simple
+./Benchmarks/FreeBench/analyzer/Output/analyzer.simple.mcsema/analyzer.simple
+./Benchmarks/PAQ8p/Output/paq8p.simple.mcsema/paq8p.simple
+./Benchmarks/ASC_Sequoia/AMGmk/Output/AMGmk.simple.mcsema/AMGmk.simple
+./Benchmarks/ASC_Sequoia/CrystalMk/Output/CrystalMk.simple.mcsema/CrystalMk.simple
+./Benchmarks/ASC_Sequoia/IRSmk/Output/IRSmk.simple.mcsema/IRSmk.simple
+./Benchmarks/Fhourstones-3.1/Output/fhourstones3.1.simple.mcsema/fhourstones3.1.simple
+./Benchmarks/nbench/Output/nbench.simple.mcsema/nbench.simple
+./Benchmarks/NPB-serial/is/Output/is.simple.mcsema/is.simple
+./Benchmarks/ASCI_Purple/SMG2000/Output/smg2000.simple.mcsema/smg2000.simple
+./Benchmarks/mafft/Output/pairlocalalign.simple.mcsema/pairlocalalign.simple
+./Benchmarks/Olden/voronoi/Output/voronoi.simple.mcsema/voronoi.simple
+./Benchmarks/Olden/treeadd/Output/treeadd.simple.mcsema/treeadd.simple
+./Benchmarks/Olden/power/Output/power.simple.mcsema/power.simple
+./Benchmarks/Olden/bh/Output/bh.simple.mcsema/bh.simple
+./Benchmarks/Olden/em3d/Output/em3d.simple.mcsema/em3d.simple
+./Benchmarks/Olden/mst/Output/mst.simple.mcsema/mst.simple
+./Benchmarks/Olden/perimeter/Output/perimeter.simple.mcsema/perimeter.simple
+./Benchmarks/Olden/health/Output/health.simple.mcsema/health.simple
+./Benchmarks/Bullet/Output/bullet.simple.mcsema/bullet.simple
+./Benchmarks/mediabench/jpeg/jpeg-6a/Output/cjpeg.simple.mcsema/cjpeg.simple
+./Benchmarks/mediabench/gsm/toast/Output/toast.simple.mcsema/toast.simple
+./Benchmarks/mediabench/adpcm/rawdaudio/Output/rawdaudio.simple.mcsema/rawdaudio.simple
+./Benchmarks/mediabench/adpcm/rawcaudio/Output/rawcaudio.simple.mcsema/rawcaudio.simple
+./Benchmarks/mediabench/mpeg2/mpeg2dec/Output/mpeg2decode.simple.mcsema/mpeg2decode.simple
+./Benchmarks/mediabench/g721/g721encode/Output/encode.simple.mcsema/encode.simple
+./Benchmarks/tramp3d-v4/Output/tramp3d-v4.simple.mcsema/tramp3d-v4.simple
+./Benchmarks/TSVC/Packing-dbl/Output/Packing-dbl.simple.mcsema/Packing-dbl.simple
+./Benchmarks/TSVC/NodeSplitting-dbl/Output/NodeSplitting-dbl.simple.mcsema/NodeSplitting-dbl.simple
+./Benchmarks/TSVC/Recurrences-dbl/Output/Recurrences-dbl.simple.mcsema/Recurrences-dbl.simple
+./Benchmarks/TSVC/InductionVariable-flt/Output/InductionVariable-flt.simple.mcsema/InductionVariable-flt.simple
+./Benchmarks/TSVC/Expansion-flt/Output/Expansion-flt.simple.mcsema/Expansion-flt.simple
+./Benchmarks/TSVC/CrossingThresholds-dbl/Output/CrossingThresholds-dbl.simple.mcsema/CrossingThresholds-dbl.simple
+./Benchmarks/TSVC/ControlLoops-dbl/Output/ControlLoops-dbl.simple.mcsema/ControlLoops-dbl.simple
+./Benchmarks/TSVC/Symbolics-flt/Output/Symbolics-flt.simple.mcsema/Symbolics-flt.simple
+./Benchmarks/TSVC/LoopRerolling-dbl/Output/LoopRerolling-dbl.simple.mcsema/LoopRerolling-dbl.simple
+./Benchmarks/TSVC/Reductions-flt/Output/Reductions-flt.simple.mcsema/Reductions-flt.simple
+./Benchmarks/TSVC/InductionVariable-dbl/Output/InductionVariable-dbl.simple.mcsema/InductionVariable-dbl.simple
+./Benchmarks/TSVC/ControlFlow-dbl/Output/ControlFlow-dbl.simple.mcsema/ControlFlow-dbl.simple
+./Benchmarks/TSVC/Searching-dbl/Output/Searching-dbl.simple.mcsema/Searching-dbl.simple
+./Benchmarks/TSVC/CrossingThresholds-flt/Output/CrossingThresholds-flt.simple.mcsema/CrossingThresholds-flt.simple
+./Benchmarks/TSVC/ControlLoops-flt/Output/ControlLoops-flt.simple.mcsema/ControlLoops-flt.simple
+./Benchmarks/TSVC/IndirectAddressing-dbl/Output/IndirectAddressing-dbl.simple.mcsema/IndirectAddressing-dbl.simple
+./Benchmarks/TSVC/NodeSplitting-flt/Output/NodeSplitting-flt.simple.mcsema/NodeSplitting-flt.simple
+./Benchmarks/TSVC/Reductions-dbl/Output/Reductions-dbl.simple.mcsema/Reductions-dbl.simple
+./Benchmarks/TSVC/Expansion-dbl/Output/Expansion-dbl.simple.mcsema/Expansion-dbl.simple
+./Benchmarks/TSVC/Equivalencing-dbl/Output/Equivalencing-dbl.simple.mcsema/Equivalencing-dbl.simple
+./Benchmarks/TSVC/LinearDependence-flt/Output/LinearDependence-flt.simple.mcsema/LinearDependence-flt.simple
+./Benchmarks/TSVC/Symbolics-dbl/Output/Symbolics-dbl.simple.mcsema/Symbolics-dbl.simple
+./Benchmarks/TSVC/GlobalDataFlow-dbl/Output/GlobalDataFlow-dbl.simple.mcsema/GlobalDataFlow-dbl.simple
+./Benchmarks/TSVC/LoopRestructuring-flt/Output/LoopRestructuring-flt.simple.mcsema/LoopRestructuring-flt.simple
+./Benchmarks/TSVC/LinearDependence-dbl/Output/LinearDependence-dbl.simple.mcsema/LinearDependence-dbl.simple
+./Benchmarks/TSVC/StatementReordering-dbl/Output/StatementReordering-dbl.simple.mcsema/StatementReordering-dbl.simple
+./Benchmarks/TSVC/LoopRerolling-flt/Output/LoopRerolling-flt.simple.mcsema/LoopRerolling-flt.simple
+./Benchmarks/TSVC/Equivalencing-flt/Output/Equivalencing-flt.simple.mcsema/Equivalencing-flt.simple
+./Benchmarks/TSVC/GlobalDataFlow-flt/Output/GlobalDataFlow-flt.simple.mcsema/GlobalDataFlow-flt.simple
+./Benchmarks/TSVC/LoopRestructuring-dbl/Output/LoopRestructuring-dbl.simple.mcsema/LoopRestructuring-dbl.simple
+./Benchmarks/TSVC/ControlFlow-flt/Output/ControlFlow-flt.simple.mcsema/ControlFlow-flt.simple
+./Benchmarks/VersaBench/ecbdes/Output/ecbdes.simple.mcsema/ecbdes.simple
+./Benchmarks/VersaBench/beamformer/Output/beamformer.simple.mcsema/beamformer.simple
+./Benchmarks/VersaBench/dbms/Output/dbms.simple.mcsema/dbms.simple
+./Benchmarks/VersaBench/bmm/Output/bmm.simple.mcsema/bmm.simple
+./Benchmarks/Prolangs-C++/family/Output/family.simple.mcsema/family.simple
+./Benchmarks/Prolangs-C++/employ/Output/employ.simple.mcsema/employ.simple
+./Benchmarks/Prolangs-C++/shapes/Output/shapes.simple.mcsema/shapes.simple
+./Benchmarks/Prolangs-C++/primes/Output/primes.simple.mcsema/primes.simple
+./Benchmarks/Prolangs-C++/ocean/Output/ocean.simple.mcsema/ocean.simple
+./Benchmarks/Prolangs-C++/life/Output/life.simple.mcsema/life.simple
+./Benchmarks/Prolangs-C++/deriv1/Output/deriv1.simple.mcsema/deriv1.simple
+./Benchmarks/Prolangs-C++/city/Output/city.simple.mcsema/city.simple
+./Benchmarks/Prolangs-C++/office/Output/office.simple.mcsema/office.simple
+./Benchmarks/Prolangs-C++/trees/Output/trees.simple.mcsema/trees.simple
+./Benchmarks/Prolangs-C++/fsm/Output/fsm.simple.mcsema/fsm.simple
+./Benchmarks/Prolangs-C++/objects/Output/objects.simple.mcsema/objects.simple
+./Benchmarks/Prolangs-C++/deriv2/Output/deriv2.simple.mcsema/deriv2.simple
+./Benchmarks/Prolangs-C++/garage/Output/garage.simple.mcsema/garage.simple
+./Benchmarks/Prolangs-C++/simul/Output/simul.simple.mcsema/simul.simple
+./Benchmarks/7zip/Output/7zip-benchmark.simple.mcsema/7zip-benchmark.simple
+./Benchmarks/Trimaran/netbench-crc/Output/netbench-crc.simple.mcsema/netbench-crc.simple
+./Benchmarks/Trimaran/netbench-url/Output/netbench-url.simple.mcsema/netbench-url.simple
+./Benchmarks/sim/Output/sim.simple.mcsema/sim.simple
+./Applications/ALAC/encode/Output/alacconvert-encode.simple.mcsema/alacconvert-encode.simple
+./Applications/ALAC/encode/Output/alacconvert-encode.simple.mcsema/alacconvert-encode.simple.mcsema/alacconvert-encode.simple
+./Applications/ALAC/decode/Output/alacconvert-decode.simple.mcsema/alacconvert-decode.simple
+./Applications/ALAC/decode/Output/alacconvert-decode.simple.mcsema/alacconvert-decode.simple.mcsema/alacconvert-decode.simple
+./Applications/sgefa/Output/sgefa.simple.mcsema/sgefa.simple
+./Applications/sgefa/Output/sgefa.simple.mcsema/sgefa.simple.mcsema/sgefa.simple
+./Applications/hexxagon/Output/hexxagon.simple.mcsema/hexxagon.simple
+./Applications/hexxagon/Output/hexxagon.simple.mcsema/hexxagon.simple.mcsema/hexxagon.simple
+./Applications/kimwitu++/Output/kc.simple.mcsema/kc.simple
+./Applications/kimwitu++/Output/kc.simple.mcsema/kc.simple.mcsema/kc.simple
+./Applications/obsequi/Output/Obsequi.simple.mcsema/Obsequi.simple
+./Applications/obsequi/Output/Obsequi.simple.mcsema/Obsequi.simple.mcsema/Obsequi.simple
+./Applications/d/Output/make_dparser.simple.mcsema/make_dparser.simple
+./Applications/sqlite3/Output/sqlite3.simple.mcsema/sqlite3.simple
+./Applications/sqlite3/Output/sqlite3.simple.mcsema/sqlite3.simple.mcsema/sqlite3.simple
+./Applications/JM/ldecod/Output/ldecod.simple.mcsema/ldecod.simple
+./Applications/JM/ldecod/Output/ldecod.simple.mcsema/ldecod.simple.mcsema/ldecod.simple
+./Applications/JM/lencod/Output/lencod.simple.mcsema/lencod.simple
+./Applications/JM/lencod/Output/lencod.simple.mcsema/lencod.simple.mcsema/lencod.simple
+./Applications/lambda-0.1.3/Output/lambda.simple.mcsema/lambda.simple
+./Applications/SIBsim4/Output/SIBsim4.simple.mcsema/SIBsim4.simple
+./Applications/SIBsim4/Output/SIBsim4.simple.mcsema/SIBsim4.simple.mcsema/SIBsim4.simple
+./Applications/Burg/Output/burg.simple.mcsema/burg.simple
+./Applications/Burg/Output/burg.simple.mcsema/burg.simple.mcsema/burg.simple
+./Applications/lua/Output/lua.simple.mcsema/lua.simple
+./Applications/lua/Output/lua.simple.mcsema/lua.simple.mcsema/lua.simple
+./Applications/hbd/Output/hbd.simple.mcsema/hbd.simple
+./Applications/hbd/Output/hbd.simple.mcsema/hbd.simple.mcsema/hbd.simple
+./Applications/lemon/Output/lemon.simple.mcsema/lemon.simple
+./Applications/lemon/Output/lemon.simple.mcsema/lemon.simple.mcsema/lemon.simple
+./Applications/SPASS/Output/SPASS.simple.mcsema/SPASS.simple
+./Applications/SPASS/Output/SPASS.simple.mcsema/SPASS.simple.mcsema/SPASS.simple
+./Applications/viterbi/Output/viterbi.simple.mcsema/viterbi.simple
+./Applications/viterbi/Output/viterbi.simple.mcsema/viterbi.simple.mcsema/viterbi.simple
+./Applications/treecc/Output/treecc.simple.mcsema/treecc.simple
+./Applications/treecc/Output/treecc.simple.mcsema/treecc.simple.mcsema/treecc.simple
+./Applications/siod/Output/siod.simple.mcsema/siod.simple
+./Applications/siod/Output/siod.simple.mcsema/siod.simple.mcsema/siod.simple
+./Applications/spiff/Output/spiff.simple.mcsema/spiff.simple
+./Applications/spiff/Output/spiff.simple.mcsema/spiff.simple.mcsema/spiff.simple
+./Applications/aha/Output/aha.simple.mcsema/aha.simple.mcsema/aha.simple
+./Applications/ClamAV/Output/clamscan.simple.mcsema/clamscan.simple
+./Applications/minisat/Output/minisat.simple.mcsema/minisat.simple
+./Applications/minisat/Output/minisat.simple.mcsema/minisat.simple.mcsema/minisat.simple
+./Applications/oggenc/Output/oggenc.simple.mcsema/oggenc.simple
+./Applications/oggenc/Output/oggenc.simple.mcsema/oggenc.simple.mcsema/oggenc.simple
+
+Current Pass
+
+Current Diff
+
+Total: 206
+Original supported Count 47
+Original Unsupported Count 159
+Pass Count 0
+Diff Error Count 0
+Current supported Count 29
+Current unsupported Count 177
