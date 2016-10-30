@@ -1,0 +1,1259 @@
+
+Mcsema Home: /home/sdasgup3/Github/mcsema_new_reg_assign/
+
+===./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple===
+rm -rf  ./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.cfg  -entrypoint=main -o ./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.new.bc   &>  ./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple  &>  out1 
+././C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.mcsema/stdthreadbug.simple===
+rm -rf  ./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.mcsema/stdthreadbug.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.mcsema/stdthreadbug.simple.cfg  -entrypoint=main -o ./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.mcsema/stdthreadbug.simple.new.bc   &>  ./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.mcsema/stdthreadbug.simple.new.convert.txt 
+Unsupported
+
+===./Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.simple===
+rm -rf  ./Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.simple.cfg  -entrypoint=main -o ./Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.simple.new.bc   &>  ./Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.simple  &>  out1 
+././Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-05-02-ArgumentTest.simple.mcsema/2002-05-02-ArgumentTest.simple===
+rm -rf  ./Output/2002-05-02-ArgumentTest.simple.mcsema/2002-05-02-ArgumentTest.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2002-05-02-ArgumentTest.simple.mcsema/2002-05-02-ArgumentTest.simple.cfg  -entrypoint=main -o ./Output/2002-05-02-ArgumentTest.simple.mcsema/2002-05-02-ArgumentTest.simple.new.bc   &>  ./Output/2002-05-02-ArgumentTest.simple.mcsema/2002-05-02-ArgumentTest.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2002-05-02-ArgumentTest.simple.mcsema/2002-05-02-ArgumentTest.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2002-05-02-ArgumentTest.simple.mcsema/2002-05-02-ArgumentTest.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2002-05-02-ArgumentTest.simple.mcsema/2002-05-02-ArgumentTest.simple  &>  out1 
+././Output/2002-05-02-ArgumentTest.simple.mcsema/2002-05-02-ArgumentTest.simple.new.lifted  &>  out2 
+diff out1 out2 
+1c1
+< 12, 1.245000, 120, 123456677890, -10, 4500000000000000.000000
+---
+> 12, 0.000000, 120, 123456677890, -10, 0.000000
+rm -rf  out1 out 2 
+
+===./Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.simple===
+rm -rf  ./Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.simple.cfg  -entrypoint=main -o ./Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.simple.new.bc   &>  ./Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.simple  &>  out1 
+././Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.simple===
+rm -rf  ./Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.simple.cfg  -entrypoint=main -o ./Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.simple.new.bc   &>  ./Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.simple  &>  out1 
+././Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.simple===
+rm -rf  ./Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.simple.cfg  -entrypoint=main -o ./Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.simple.new.bc   &>  ./Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.simple  &>  out1 
+././Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.simple===
+rm -rf  ./Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.simple.cfg  -entrypoint=main -o ./Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.simple.new.bc   &>  ./Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.simple  &>  out1 
+././Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-05-02-ManyArguments.simple.mcsema/2002-05-02-ManyArguments.simple===
+rm -rf  ./Output/2002-05-02-ManyArguments.simple.mcsema/2002-05-02-ManyArguments.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2002-05-02-ManyArguments.simple.mcsema/2002-05-02-ManyArguments.simple.cfg  -entrypoint=main -o ./Output/2002-05-02-ManyArguments.simple.mcsema/2002-05-02-ManyArguments.simple.new.bc   &>  ./Output/2002-05-02-ManyArguments.simple.mcsema/2002-05-02-ManyArguments.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2002-05-02-ManyArguments.simple.mcsema/2002-05-02-ManyArguments.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2002-05-02-ManyArguments.simple.mcsema/2002-05-02-ManyArguments.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2002-05-02-ManyArguments.simple.mcsema/2002-05-02-ManyArguments.simple  &>  out1 
+././Output/2002-05-02-ManyArguments.simple.mcsema/2002-05-02-ManyArguments.simple.new.lifted  &>  out2 
+diff out1 out2 
+1c1
+< 12, 2, 123.234000, 1231.123169, -12
+---
+> 12, 2, 0.000000, 0.000000, -12
+rm -rf  out1 out 2 
+
+===./Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.simple===
+rm -rf  ./Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.simple.cfg  -entrypoint=main -o ./Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.simple.new.bc   &>  ./Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.simple  &>  out1 
+././Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.simple===
+rm -rf  ./Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.simple.cfg  -entrypoint=main -o ./Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.simple.new.bc   &>  ./Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.simple  &>  out1 
+././Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.simple===
+rm -rf  ./Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.simple.cfg  -entrypoint=main -o ./Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.simple.new.bc   &>  ./Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.simple  &>  out1 
+././Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.simple===
+rm -rf  ./Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.simple.cfg  -entrypoint=main -o ./Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.simple.new.bc   &>  ./Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.simple  &>  out1 
+././Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.simple===
+rm -rf  ./Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.simple.cfg  -entrypoint=main -o ./Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.simple.new.bc   &>  ./Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.simple  &>  out1 
+././Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple===
+rm -rf  ./Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple.cfg  -entrypoint=main -o ./Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple.new.bc   &>  ./Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple  &>  out1 
+././Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-10-12-StructureArgs.simple.mcsema/2002-10-12-StructureArgs.simple===
+rm -rf  ./Output/2002-10-12-StructureArgs.simple.mcsema/2002-10-12-StructureArgs.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2002-10-12-StructureArgs.simple.mcsema/2002-10-12-StructureArgs.simple.cfg  -entrypoint=main -o ./Output/2002-10-12-StructureArgs.simple.mcsema/2002-10-12-StructureArgs.simple.new.bc   &>  ./Output/2002-10-12-StructureArgs.simple.mcsema/2002-10-12-StructureArgs.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2002-10-12-StructureArgs.simple.mcsema/2002-10-12-StructureArgs.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2002-10-12-StructureArgs.simple.mcsema/2002-10-12-StructureArgs.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2002-10-12-StructureArgs.simple.mcsema/2002-10-12-StructureArgs.simple  &>  out1 
+././Output/2002-10-12-StructureArgs.simple.mcsema/2002-10-12-StructureArgs.simple.new.lifted  &>  out2 
+diff out1 out2 
+1c1
+< 0.500000, 1.200000, -123.010000, 0.333333
+---
+> 0.000000, 0.000000, 0.000000, 0.000000
+rm -rf  out1 out 2 
+
+===./Output/2002-10-12-StructureArgsSimple.simple.mcsema/2002-10-12-StructureArgsSimple.simple===
+rm -rf  ./Output/2002-10-12-StructureArgsSimple.simple.mcsema/2002-10-12-StructureArgsSimple.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2002-10-12-StructureArgsSimple.simple.mcsema/2002-10-12-StructureArgsSimple.simple.cfg  -entrypoint=main -o ./Output/2002-10-12-StructureArgsSimple.simple.mcsema/2002-10-12-StructureArgsSimple.simple.new.bc   &>  ./Output/2002-10-12-StructureArgsSimple.simple.mcsema/2002-10-12-StructureArgsSimple.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2002-10-12-StructureArgsSimple.simple.mcsema/2002-10-12-StructureArgsSimple.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2002-10-12-StructureArgsSimple.simple.mcsema/2002-10-12-StructureArgsSimple.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2002-10-12-StructureArgsSimple.simple.mcsema/2002-10-12-StructureArgsSimple.simple  &>  out1 
+././Output/2002-10-12-StructureArgsSimple.simple.mcsema/2002-10-12-StructureArgsSimple.simple.new.lifted  &>  out2 
+diff out1 out2 
+1c1
+< 0.500000, 1.200000
+---
+> 0.000000, 0.000000
+rm -rf  out1 out 2 
+
+===./Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple===
+rm -rf  ./Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple.cfg  -entrypoint=main -o ./Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple.new.bc   &>  ./Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple  &>  out1 
+././Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.simple===
+rm -rf  ./Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.simple.cfg  -entrypoint=main -o ./Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.simple.new.bc   &>  ./Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.simple  &>  out1 
+././Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.simple===
+rm -rf  ./Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.simple.cfg  -entrypoint=main -o ./Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.simple.new.bc   &>  ./Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.simple  &>  out1 
+././Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple===
+rm -rf  ./Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple.cfg  -entrypoint=main -o ./Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple.new.bc   &>  ./Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple  &>  out1 
+././Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-05-07-VarArgs.simple.mcsema/2003-05-07-VarArgs.simple===
+rm -rf  ./Output/2003-05-07-VarArgs.simple.mcsema/2003-05-07-VarArgs.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2003-05-07-VarArgs.simple.mcsema/2003-05-07-VarArgs.simple.cfg  -entrypoint=main -o ./Output/2003-05-07-VarArgs.simple.mcsema/2003-05-07-VarArgs.simple.new.bc   &>  ./Output/2003-05-07-VarArgs.simple.mcsema/2003-05-07-VarArgs.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2003-05-07-VarArgs.simple.mcsema/2003-05-07-VarArgs.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2003-05-07-VarArgs.simple.mcsema/2003-05-07-VarArgs.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2003-05-07-VarArgs.simple.mcsema/2003-05-07-VarArgs.simple  &>  out1 
+././Output/2003-05-07-VarArgs.simple.mcsema/2003-05-07-VarArgs.simple.new.lifted  &>  out2 
+diff out1 out2 
+11,12c11,12
+< double 1.000000
+< double 2.000000
+---
+> double 0.000000
+> double 0.000000
+16,17c16,17
+< QuadWord { 19, 20.000000 }
+< LargeS { 21, 22.000000, 0x1, 23 }
+---
+> QuadWord { 19, 0.000000 }
+> LargeS { 21, 0.000000, 0x1, 23 }
+rm -rf  out1 out 2 
+
+===./Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.simple===
+rm -rf  ./Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.simple.cfg  -entrypoint=main -o ./Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.simple.new.bc   &>  ./Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.simple  &>  out1 
+././Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-05-14-AtExit.simple.mcsema/2003-05-14-AtExit.simple===
+rm -rf  ./Output/2003-05-14-AtExit.simple.mcsema/2003-05-14-AtExit.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2003-05-14-AtExit.simple.mcsema/2003-05-14-AtExit.simple.cfg  -entrypoint=main -o ./Output/2003-05-14-AtExit.simple.mcsema/2003-05-14-AtExit.simple.new.bc   &>  ./Output/2003-05-14-AtExit.simple.mcsema/2003-05-14-AtExit.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2003-05-14-AtExit.simple.mcsema/2003-05-14-AtExit.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2003-05-14-AtExit.simple.mcsema/2003-05-14-AtExit.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2003-05-14-AtExit.simple.mcsema/2003-05-14-AtExit.simple  &>  out1 
+././Output/2003-05-14-AtExit.simple.mcsema/2003-05-14-AtExit.simple.new.lifted  &>  out2 
+sh: line 1: 30822 Segmentation fault      ././Output/2003-05-14-AtExit.simple.mcsema/2003-05-14-AtExit.simple.new.lifted &>out2
+diff out1 out2 
+2d1
+< Exiting!
+rm -rf  out1 out 2 
+
+===./Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.simple===
+rm -rf  ./Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.simple.cfg  -entrypoint=main -o ./Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.simple.new.bc   &>  ./Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.simple  &>  out1 
+././Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.simple===
+rm -rf  ./Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.simple.cfg  -entrypoint=main -o ./Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.simple.new.bc   &>  ./Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.simple  &>  out1 
+././Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-05-31-LongShifts.simple.mcsema/2003-05-31-LongShifts.simple===
+rm -rf  ./Output/2003-05-31-LongShifts.simple.mcsema/2003-05-31-LongShifts.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2003-05-31-LongShifts.simple.mcsema/2003-05-31-LongShifts.simple.cfg  -entrypoint=main -o ./Output/2003-05-31-LongShifts.simple.mcsema/2003-05-31-LongShifts.simple.new.bc   &>  ./Output/2003-05-31-LongShifts.simple.mcsema/2003-05-31-LongShifts.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2003-05-31-LongShifts.simple.mcsema/2003-05-31-LongShifts.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2003-05-31-LongShifts.simple.mcsema/2003-05-31-LongShifts.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2003-05-31-LongShifts.simple.mcsema/2003-05-31-LongShifts.simple  &>  out1 
+././Output/2003-05-31-LongShifts.simple.mcsema/2003-05-31-LongShifts.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.simple===
+rm -rf  ./Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.simple.cfg  -entrypoint=main -o ./Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.simple.new.bc   &>  ./Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.simple  &>  out1 
+././Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.simple===
+rm -rf  ./Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.simple.cfg  -entrypoint=main -o ./Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.simple.new.bc   &>  ./Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.simple  &>  out1 
+././Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.simple===
+rm -rf  ./Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.simple.cfg  -entrypoint=main -o ./Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.simple.new.bc   &>  ./Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.simple  &>  out1 
+././Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.simple===
+rm -rf  ./Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.simple.cfg  -entrypoint=main -o ./Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.simple.new.bc   &>  ./Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.simple  &>  out1 
+././Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.simple===
+rm -rf  ./Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.simple.cfg  -entrypoint=main -o ./Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.simple.new.bc   &>  ./Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.simple  &>  out1 
+././Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-08-05-CastFPToUint.simple.mcsema/2003-08-05-CastFPToUint.simple===
+rm -rf  ./Output/2003-08-05-CastFPToUint.simple.mcsema/2003-08-05-CastFPToUint.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2003-08-05-CastFPToUint.simple.mcsema/2003-08-05-CastFPToUint.simple.cfg  -entrypoint=main -o ./Output/2003-08-05-CastFPToUint.simple.mcsema/2003-08-05-CastFPToUint.simple.new.bc   &>  ./Output/2003-08-05-CastFPToUint.simple.mcsema/2003-08-05-CastFPToUint.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2003-08-05-CastFPToUint.simple.mcsema/2003-08-05-CastFPToUint.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2003-08-05-CastFPToUint.simple.mcsema/2003-08-05-CastFPToUint.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2003-08-05-CastFPToUint.simple.mcsema/2003-08-05-CastFPToUint.simple  &>  out1 
+././Output/2003-08-05-CastFPToUint.simple.mcsema/2003-08-05-CastFPToUint.simple.new.lifted  &>  out2 
+diff out1 out2 
+1c1
+< DC = 240.000000, DS = 65520.000000, DI = 4294967280.000000
+---
+> DC = 0.000000, DS = 0.000000, DI = 0.000000
+rm -rf  out1 out 2 
+
+===./Output/2003-08-11-VaListArg.simple.mcsema/2003-08-11-VaListArg.simple===
+rm -rf  ./Output/2003-08-11-VaListArg.simple.mcsema/2003-08-11-VaListArg.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2003-08-11-VaListArg.simple.mcsema/2003-08-11-VaListArg.simple.cfg  -entrypoint=main -o ./Output/2003-08-11-VaListArg.simple.mcsema/2003-08-11-VaListArg.simple.new.bc   &>  ./Output/2003-08-11-VaListArg.simple.mcsema/2003-08-11-VaListArg.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2003-08-11-VaListArg.simple.mcsema/2003-08-11-VaListArg.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2003-08-11-VaListArg.simple.mcsema/2003-08-11-VaListArg.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2003-08-11-VaListArg.simple.mcsema/2003-08-11-VaListArg.simple  &>  out1 
+././Output/2003-08-11-VaListArg.simple.mcsema/2003-08-11-VaListArg.simple.new.lifted  &>  out2 
+diff out1 out2 
+21,22c21,22
+< double 1.000000
+< double 2.000000
+---
+> double 0.000000
+> double 0.000000
+25,26c25,26
+< double 1.000000
+< double 2.000000
+---
+> double 0.000000
+> double 0.000000
+30,31c30,31
+< QuadWord { 19, 20.000000 }
+< LargeS { 21, 22.000000, 0x1, 23 }
+---
+> QuadWord { 19, 0.000000 }
+> LargeS { 21, 0.000000, 0x1, 23 }
+33,34c33,34
+< QuadWord { 19, 20.000000 }
+< LargeS { 21, 22.000000, 0x1, 23 }
+---
+> QuadWord { 19, 0.000000 }
+> LargeS { 21, 0.000000, 0x1, 23 }
+rm -rf  out1 out 2 
+
+===./Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.simple===
+rm -rf  ./Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.simple.cfg  -entrypoint=main -o ./Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.simple.new.bc   &>  ./Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.simple  &>  out1 
+././Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.simple===
+rm -rf  ./Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.simple.cfg  -entrypoint=main -o ./Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.simple.new.bc   &>  ./Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.simple  &>  out1 
+././Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.simple===
+rm -rf  ./Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.simple.cfg  -entrypoint=main -o ./Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.simple.new.bc   &>  ./Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.simple  &>  out1 
+././Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.simple===
+rm -rf  ./Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.simple.cfg  -entrypoint=main -o ./Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.simple.new.bc   &>  ./Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.simple  &>  out1 
+././Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2004-02-02-NegativeZero.simple.mcsema/2004-02-02-NegativeZero.simple===
+rm -rf  ./Output/2004-02-02-NegativeZero.simple.mcsema/2004-02-02-NegativeZero.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2004-02-02-NegativeZero.simple.mcsema/2004-02-02-NegativeZero.simple.cfg  -entrypoint=main -o ./Output/2004-02-02-NegativeZero.simple.mcsema/2004-02-02-NegativeZero.simple.new.bc   &>  ./Output/2004-02-02-NegativeZero.simple.mcsema/2004-02-02-NegativeZero.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2004-02-02-NegativeZero.simple.mcsema/2004-02-02-NegativeZero.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2004-02-02-NegativeZero.simple.mcsema/2004-02-02-NegativeZero.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2004-02-02-NegativeZero.simple.mcsema/2004-02-02-NegativeZero.simple  &>  out1 
+././Output/2004-02-02-NegativeZero.simple.mcsema/2004-02-02-NegativeZero.simple.new.lifted  &>  out2 
+diff out1 out2 
+1d0
+< -0.000000 -0.000000
+3c2,3
+< negzero = -0.000000  poszero = 0.000000
+---
+> 0.000000 0.000000
+> negzero = 0.000000  poszero = 0.000000
+rm -rf  out1 out 2 
+
+===./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple===
+rm -rf  ./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.cfg  -entrypoint=main -o ./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.bc   &>  ./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple  &>  out1 
+././Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple===
+rm -rf  ./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.cfg  -entrypoint=main -o ./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.bc   &>  ./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple  &>  out1 
+././Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2005-05-11-Popcount-ffs-fls.simple.mcsema/2005-05-11-Popcount-ffs-fls.simple===
+rm -rf  ./Output/2005-05-11-Popcount-ffs-fls.simple.mcsema/2005-05-11-Popcount-ffs-fls.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2005-05-11-Popcount-ffs-fls.simple.mcsema/2005-05-11-Popcount-ffs-fls.simple.cfg  -entrypoint=main -o ./Output/2005-05-11-Popcount-ffs-fls.simple.mcsema/2005-05-11-Popcount-ffs-fls.simple.new.bc   &>  ./Output/2005-05-11-Popcount-ffs-fls.simple.mcsema/2005-05-11-Popcount-ffs-fls.simple.new.convert.txt 
+Unsupported
+
+===./Output/2005-05-12-Int64ToFP.simple.mcsema/2005-05-12-Int64ToFP.simple===
+rm -rf  ./Output/2005-05-12-Int64ToFP.simple.mcsema/2005-05-12-Int64ToFP.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2005-05-12-Int64ToFP.simple.mcsema/2005-05-12-Int64ToFP.simple.cfg  -entrypoint=main -o ./Output/2005-05-12-Int64ToFP.simple.mcsema/2005-05-12-Int64ToFP.simple.new.bc   &>  ./Output/2005-05-12-Int64ToFP.simple.mcsema/2005-05-12-Int64ToFP.simple.new.convert.txt 
+Unsupported
+
+===./Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.simple===
+rm -rf  ./Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.simple.cfg  -entrypoint=main -o ./Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.simple.new.bc   &>  ./Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.simple  &>  out1 
+././Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.simple===
+rm -rf  ./Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.simple.cfg  -entrypoint=main -o ./Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.simple.new.bc   &>  ./Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.simple  &>  out1 
+././Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2005-07-17-INT-To-FP.simple.mcsema/2005-07-17-INT-To-FP.simple===
+rm -rf  ./Output/2005-07-17-INT-To-FP.simple.mcsema/2005-07-17-INT-To-FP.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2005-07-17-INT-To-FP.simple.mcsema/2005-07-17-INT-To-FP.simple.cfg  -entrypoint=main -o ./Output/2005-07-17-INT-To-FP.simple.mcsema/2005-07-17-INT-To-FP.simple.new.bc   &>  ./Output/2005-07-17-INT-To-FP.simple.mcsema/2005-07-17-INT-To-FP.simple.new.convert.txt 
+Unsupported
+
+===./Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.simple===
+rm -rf  ./Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.simple.cfg  -entrypoint=main -o ./Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.simple.new.bc   &>  ./Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.simple  &>  out1 
+././Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple===
+rm -rf  ./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.cfg  -entrypoint=main -o ./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.bc   &>  ./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple  &>  out1 
+././Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2006-01-29-SimpleIndirectCall.simple.mcsema/2006-01-29-SimpleIndirectCall.simple===
+rm -rf  ./Output/2006-01-29-SimpleIndirectCall.simple.mcsema/2006-01-29-SimpleIndirectCall.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2006-01-29-SimpleIndirectCall.simple.mcsema/2006-01-29-SimpleIndirectCall.simple.cfg  -entrypoint=main -o ./Output/2006-01-29-SimpleIndirectCall.simple.mcsema/2006-01-29-SimpleIndirectCall.simple.new.bc   &>  ./Output/2006-01-29-SimpleIndirectCall.simple.mcsema/2006-01-29-SimpleIndirectCall.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2006-01-29-SimpleIndirectCall.simple.mcsema/2006-01-29-SimpleIndirectCall.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2006-01-29-SimpleIndirectCall.simple.mcsema/2006-01-29-SimpleIndirectCall.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2006-01-29-SimpleIndirectCall.simple.mcsema/2006-01-29-SimpleIndirectCall.simple  &>  out1 
+././Output/2006-01-29-SimpleIndirectCall.simple.mcsema/2006-01-29-SimpleIndirectCall.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple===
+rm -rf  ./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.cfg  -entrypoint=main -o ./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.bc   &>  ./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple  &>  out1 
+././Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.simple===
+rm -rf  ./Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.simple.cfg  -entrypoint=main -o ./Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.simple.new.bc   &>  ./Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.simple  &>  out1 
+././Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.simple.new.lifted  &>  out2 
+diff out1 out2 
+1c1
+< foo 1.230000 12312.100000 3.100000 13.100000
+---
+> foo 0.000000 0.000000 0.000000 0.000000
+rm -rf  out1 out 2 
+
+===./Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.simple===
+rm -rf  ./Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.simple.cfg  -entrypoint=main -o ./Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.simple.new.bc   &>  ./Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.simple  &>  out1 
+././Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple===
+rm -rf  ./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.cfg  -entrypoint=main -o ./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.bc   &>  ./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple  &>  out1 
+././Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.simple===
+rm -rf  ./Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.simple.cfg  -entrypoint=main -o ./Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.simple.new.bc   &>  ./Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.simple  &>  out1 
+././Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2007-01-04-KNR-Args.simple.mcsema/2007-01-04-KNR-Args.simple===
+rm -rf  ./Output/2007-01-04-KNR-Args.simple.mcsema/2007-01-04-KNR-Args.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2007-01-04-KNR-Args.simple.mcsema/2007-01-04-KNR-Args.simple.cfg  -entrypoint=main -o ./Output/2007-01-04-KNR-Args.simple.mcsema/2007-01-04-KNR-Args.simple.new.bc   &>  ./Output/2007-01-04-KNR-Args.simple.mcsema/2007-01-04-KNR-Args.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2007-01-04-KNR-Args.simple.mcsema/2007-01-04-KNR-Args.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2007-01-04-KNR-Args.simple.mcsema/2007-01-04-KNR-Args.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2007-01-04-KNR-Args.simple.mcsema/2007-01-04-KNR-Args.simple  &>  out1 
+././Output/2007-01-04-KNR-Args.simple.mcsema/2007-01-04-KNR-Args.simple.new.lifted  &>  out2 
+diff out1 out2 
+1,2c1,2
+< a 4.000000 1 5.000000 2 4.000000 3 5.000000
+< a 4.000000 1 5.000000 2 4.000000 3 5.000000
+---
+> a 0.000000 1 0.000000 2 0.000000 3 0.000000
+> a 0.000000 1 0.000000 2 0.000000 3 0.000000
+rm -rf  out1 out 2 
+
+===./Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.simple===
+rm -rf  ./Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.simple.cfg  -entrypoint=main -o ./Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.simple.new.bc   &>  ./Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.simple  &>  out1 
+././Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.simple===
+rm -rf  ./Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.simple.cfg  -entrypoint=main -o ./Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.simple.new.bc   &>  ./Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.simple  &>  out1 
+././Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.simple===
+rm -rf  ./Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.simple.cfg  -entrypoint=main -o ./Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.simple.new.bc   &>  ./Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.simple  &>  out1 
+././Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.simple===
+rm -rf  ./Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.simple.cfg  -entrypoint=main -o ./Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.simple.new.bc   &>  ./Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.simple  &>  out1 
+././Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.simple===
+rm -rf  ./Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.simple.cfg  -entrypoint=main -o ./Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.simple.new.bc   &>  ./Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.simple  &>  out1 
+././Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2008-07-13-InlineSetjmp.simple.mcsema/2008-07-13-InlineSetjmp.simple===
+rm -rf  ./Output/2008-07-13-InlineSetjmp.simple.mcsema/2008-07-13-InlineSetjmp.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2008-07-13-InlineSetjmp.simple.mcsema/2008-07-13-InlineSetjmp.simple.cfg  -entrypoint=main -o ./Output/2008-07-13-InlineSetjmp.simple.mcsema/2008-07-13-InlineSetjmp.simple.new.bc   &>  ./Output/2008-07-13-InlineSetjmp.simple.mcsema/2008-07-13-InlineSetjmp.simple.new.convert.txt 
+Unsupported
+
+===./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple===
+rm -rf  ./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple.cfg  -entrypoint=main -o ./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple.new.bc   &>  ./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple.new.convert.txt 
+Unsupported
+
+===./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple===
+rm -rf  ./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.cfg  -entrypoint=main -o ./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.bc   &>  ./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple  &>  out1 
+././Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple===
+rm -rf  ./Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple.cfg  -entrypoint=main -o ./Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple.new.bc   &>  ./Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple  &>  out1 
+././Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/AtomicOps.simple.mcsema/AtomicOps.simple===
+rm -rf  ./Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/AtomicOps.simple.mcsema/AtomicOps.simple.cfg  -entrypoint=main -o ./Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.bc   &>  ./Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/AtomicOps.simple.mcsema/AtomicOps.simple  &>  out1 
+././Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple===
+rm -rf  ./Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple.cfg  -entrypoint=main -o ./Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple.new.bc   &>  ./Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple  &>  out1 
+././Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/FloatPrecision.simple.mcsema/FloatPrecision.simple===
+rm -rf  ./Output/FloatPrecision.simple.mcsema/FloatPrecision.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/FloatPrecision.simple.mcsema/FloatPrecision.simple.cfg  -entrypoint=main -o ./Output/FloatPrecision.simple.mcsema/FloatPrecision.simple.new.bc   &>  ./Output/FloatPrecision.simple.mcsema/FloatPrecision.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/FloatPrecision.simple.mcsema/FloatPrecision.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/FloatPrecision.simple.mcsema/FloatPrecision.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/FloatPrecision.simple.mcsema/FloatPrecision.simple  &>  out1 
+././Output/FloatPrecision.simple.mcsema/FloatPrecision.simple.new.lifted  &>  out2 
+diff out1 out2 
+1c1
+< 2147483648000.000000
+---
+> 0.000000
+rm -rf  out1 out 2 
+
+===./Output/StructModifyTest.simple.mcsema/StructModifyTest.simple===
+rm -rf  ./Output/StructModifyTest.simple.mcsema/StructModifyTest.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/StructModifyTest.simple.mcsema/StructModifyTest.simple.cfg  -entrypoint=main -o ./Output/StructModifyTest.simple.mcsema/StructModifyTest.simple.new.bc   &>  ./Output/StructModifyTest.simple.mcsema/StructModifyTest.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/StructModifyTest.simple.mcsema/StructModifyTest.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/StructModifyTest.simple.mcsema/StructModifyTest.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/StructModifyTest.simple.mcsema/StructModifyTest.simple  &>  out1 
+././Output/StructModifyTest.simple.mcsema/StructModifyTest.simple.new.lifted  &>  out2 
+diff out1 out2 
+1,2c1,2
+< 1, 123.419998, 19.000000, 123455678902
+< 2, 23.420000, 29.000000, 23455678902
+---
+> 1, 0.000000, 0.000000, 123455678902
+> 2, 0.000000, 0.000000, 23455678902
+rm -rf  out1 out 2 
+
+===./Output/TestLoop.simple.mcsema/TestLoop.simple===
+rm -rf  ./Output/TestLoop.simple.mcsema/TestLoop.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/TestLoop.simple.mcsema/TestLoop.simple.cfg  -entrypoint=main -o ./Output/TestLoop.simple.mcsema/TestLoop.simple.new.bc   &>  ./Output/TestLoop.simple.mcsema/TestLoop.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/TestLoop.simple.mcsema/TestLoop.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/TestLoop.simple.mcsema/TestLoop.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/TestLoop.simple.mcsema/TestLoop.simple  &>  out1 
+././Output/TestLoop.simple.mcsema/TestLoop.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.simple===
+rm -rf  ./Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.simple.cfg  -entrypoint=main -o ./Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.simple.new.bc   &>  ./Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.simple  &>  out1 
+././Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/block-byref-test.simple.mcsema/block-byref-test.simple===
+rm -rf  ./Output/block-byref-test.simple.mcsema/block-byref-test.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/block-byref-test.simple.mcsema/block-byref-test.simple.cfg  -entrypoint=main -o ./Output/block-byref-test.simple.mcsema/block-byref-test.simple.new.bc   &>  ./Output/block-byref-test.simple.mcsema/block-byref-test.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/block-byref-test.simple.mcsema/block-byref-test.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/block-byref-test.simple.mcsema/block-byref-test.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/block-byref-test.simple.mcsema/block-byref-test.simple  &>  out1 
+././Output/block-byref-test.simple.mcsema/block-byref-test.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/block-call-r7674133.simple.mcsema/block-call-r7674133.simple===
+rm -rf  ./Output/block-call-r7674133.simple.mcsema/block-call-r7674133.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/block-call-r7674133.simple.mcsema/block-call-r7674133.simple.cfg  -entrypoint=main -o ./Output/block-call-r7674133.simple.mcsema/block-call-r7674133.simple.new.bc   &>  ./Output/block-call-r7674133.simple.mcsema/block-call-r7674133.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/block-call-r7674133.simple.mcsema/block-call-r7674133.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/block-call-r7674133.simple.mcsema/block-call-r7674133.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/block-call-r7674133.simple.mcsema/block-call-r7674133.simple  &>  out1 
+././Output/block-call-r7674133.simple.mcsema/block-call-r7674133.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.simple===
+rm -rf  ./Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.simple.cfg  -entrypoint=main -o ./Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.simple.new.bc   &>  ./Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.simple  &>  out1 
+././Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.simple===
+rm -rf  ./Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.simple.cfg  -entrypoint=main -o ./Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.simple.new.bc   &>  ./Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.simple  &>  out1 
+././Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/blockstret.simple.mcsema/blockstret.simple===
+rm -rf  ./Output/blockstret.simple.mcsema/blockstret.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/blockstret.simple.mcsema/blockstret.simple.cfg  -entrypoint=main -o ./Output/blockstret.simple.mcsema/blockstret.simple.new.bc   &>  ./Output/blockstret.simple.mcsema/blockstret.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/blockstret.simple.mcsema/blockstret.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/blockstret.simple.mcsema/blockstret.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/blockstret.simple.mcsema/blockstret.simple  &>  out1 
+././Output/blockstret.simple.mcsema/blockstret.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/byval-alignment.simple.mcsema/byval-alignment.simple===
+rm -rf  ./Output/byval-alignment.simple.mcsema/byval-alignment.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/byval-alignment.simple.mcsema/byval-alignment.simple.cfg  -entrypoint=main -o ./Output/byval-alignment.simple.mcsema/byval-alignment.simple.new.bc   &>  ./Output/byval-alignment.simple.mcsema/byval-alignment.simple.new.convert.txt 
+Unsupported
+
+===./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple===
+rm -rf  ./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.cfg  -entrypoint=main -o ./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.bc   &>  ./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple  &>  out1 
+././Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.simple===
+rm -rf  ./Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.simple.cfg  -entrypoint=main -o ./Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.simple.new.bc   &>  ./Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.simple.new.convert.txt 
+Unsupported
+
+===./Output/initp1.simple.mcsema/initp1.simple===
+rm -rf  ./Output/initp1.simple.mcsema/initp1.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/initp1.simple.mcsema/initp1.simple.cfg  -entrypoint=main -o ./Output/initp1.simple.mcsema/initp1.simple.new.bc   &>  ./Output/initp1.simple.mcsema/initp1.simple.new.convert.txt 
+Unsupported
+
+===./Output/member-function-pointers.simple.mcsema/member-function-pointers.simple===
+rm -rf  ./Output/member-function-pointers.simple.mcsema/member-function-pointers.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/member-function-pointers.simple.mcsema/member-function-pointers.simple.cfg  -entrypoint=main -o ./Output/member-function-pointers.simple.mcsema/member-function-pointers.simple.new.bc   &>  ./Output/member-function-pointers.simple.mcsema/member-function-pointers.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/member-function-pointers.simple.mcsema/member-function-pointers.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/member-function-pointers.simple.mcsema/member-function-pointers.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/member-function-pointers.simple.mcsema/member-function-pointers.simple  &>  out1 
+././Output/member-function-pointers.simple.mcsema/member-function-pointers.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.simple===
+rm -rf  ./Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.simple.cfg  -entrypoint=main -o ./Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.simple.new.bc   &>  ./Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.simple  &>  out1 
+././Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple===
+rm -rf  ./Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple.cfg  -entrypoint=main -o ./Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple.new.bc   &>  ./Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple.new.convert.txt 
+Unsupported
+
+===./Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple===
+rm -rf  ./Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple.cfg  -entrypoint=main -o ./Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple.new.bc   &>  ./Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple.new.convert.txt 
+Unsupported
+
+===./Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple===
+rm -rf  ./Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple.cfg  -entrypoint=main -o ./Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple.new.bc   &>  ./Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple  &>  out1 
+././Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.simple===
+rm -rf  ./Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.simple.cfg  -entrypoint=main -o ./Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.simple.new.bc   &>  ./Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.simple  &>  out1 
+././Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.simple===
+rm -rf  ./Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.simple.cfg  -entrypoint=main -o ./Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.simple.new.bc   &>  ./Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.simple  &>  out1 
+././Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/printargs.simple.mcsema/printargs.simple===
+rm -rf  ./Output/printargs.simple.mcsema/printargs.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/printargs.simple.mcsema/printargs.simple.cfg  -entrypoint=main -o ./Output/printargs.simple.mcsema/printargs.simple.new.bc   &>  ./Output/printargs.simple.mcsema/printargs.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/printargs.simple.mcsema/printargs.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/printargs.simple.mcsema/printargs.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/printargs.simple.mcsema/printargs.simple  &>  out1 
+././Output/printargs.simple.mcsema/printargs.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/stmtexpr.simple.mcsema/stmtexpr.simple===
+rm -rf  ./Output/stmtexpr.simple.mcsema/stmtexpr.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/stmtexpr.simple.mcsema/stmtexpr.simple.cfg  -entrypoint=main -o ./Output/stmtexpr.simple.mcsema/stmtexpr.simple.new.bc   &>  ./Output/stmtexpr.simple.mcsema/stmtexpr.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Output/stmtexpr.simple.mcsema/stmtexpr.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Output/stmtexpr.simple.mcsema/stmtexpr.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Output/stmtexpr.simple.mcsema/stmtexpr.simple  &>  out1 
+././Output/stmtexpr.simple.mcsema/stmtexpr.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/vla.simple.mcsema/vla.simple===
+rm -rf  ./Output/vla.simple.mcsema/vla.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Output/vla.simple.mcsema/vla.simple.cfg  -entrypoint=main -o ./Output/vla.simple.mcsema/vla.simple.new.bc   &>  ./Output/vla.simple.mcsema/vla.simple.new.convert.txt 
+Unsupported
+
+===./SignlessTypes/Large/Output/cast.simple.mcsema/cast.simple===
+rm -rf  ./SignlessTypes/Large/Output/cast.simple.mcsema/cast.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./SignlessTypes/Large/Output/cast.simple.mcsema/cast.simple.cfg  -entrypoint=main -o ./SignlessTypes/Large/Output/cast.simple.mcsema/cast.simple.new.bc   &>  ./SignlessTypes/Large/Output/cast.simple.mcsema/cast.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./SignlessTypes/Large/Output/cast.simple.mcsema/cast.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./SignlessTypes/Large/Output/cast.simple.mcsema/cast.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././SignlessTypes/Large/Output/cast.simple.mcsema/cast.simple  &>  out1 
+././SignlessTypes/Large/Output/cast.simple.mcsema/cast.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.simple===
+rm -rf  ./SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.simple.cfg  -entrypoint=main -o ./SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.simple.new.bc   &>  ./SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.simple  &>  out1 
+././SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./SignlessTypes/Output/cast2.simple.mcsema/cast2.simple===
+rm -rf  ./SignlessTypes/Output/cast2.simple.mcsema/cast2.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./SignlessTypes/Output/cast2.simple.mcsema/cast2.simple.cfg  -entrypoint=main -o ./SignlessTypes/Output/cast2.simple.mcsema/cast2.simple.new.bc   &>  ./SignlessTypes/Output/cast2.simple.mcsema/cast2.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./SignlessTypes/Output/cast2.simple.mcsema/cast2.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./SignlessTypes/Output/cast2.simple.mcsema/cast2.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././SignlessTypes/Output/cast2.simple.mcsema/cast2.simple  &>  out1 
+././SignlessTypes/Output/cast2.simple.mcsema/cast2.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./SignlessTypes/Output/ccc.simple.mcsema/ccc.simple===
+rm -rf  ./SignlessTypes/Output/ccc.simple.mcsema/ccc.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./SignlessTypes/Output/ccc.simple.mcsema/ccc.simple.cfg  -entrypoint=main -o ./SignlessTypes/Output/ccc.simple.mcsema/ccc.simple.new.bc   &>  ./SignlessTypes/Output/ccc.simple.mcsema/ccc.simple.new.convert.txt 
+Unsupported
+
+===./SignlessTypes/Output/div.simple.mcsema/div.simple===
+rm -rf  ./SignlessTypes/Output/div.simple.mcsema/div.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./SignlessTypes/Output/div.simple.mcsema/div.simple.cfg  -entrypoint=main -o ./SignlessTypes/Output/div.simple.mcsema/div.simple.new.bc   &>  ./SignlessTypes/Output/div.simple.mcsema/div.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./SignlessTypes/Output/div.simple.mcsema/div.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./SignlessTypes/Output/div.simple.mcsema/div.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././SignlessTypes/Output/div.simple.mcsema/div.simple  &>  out1 
+././SignlessTypes/Output/div.simple.mcsema/div.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./SignlessTypes/Output/factor.simple.mcsema/factor.simple===
+rm -rf  ./SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./SignlessTypes/Output/factor.simple.mcsema/factor.simple.cfg  -entrypoint=main -o ./SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.bc   &>  ./SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././SignlessTypes/Output/factor.simple.mcsema/factor.simple  &>  out1 
+././SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./SignlessTypes/Output/rem.simple.mcsema/rem.simple===
+rm -rf  ./SignlessTypes/Output/rem.simple.mcsema/rem.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./SignlessTypes/Output/rem.simple.mcsema/rem.simple.cfg  -entrypoint=main -o ./SignlessTypes/Output/rem.simple.mcsema/rem.simple.new.bc   &>  ./SignlessTypes/Output/rem.simple.mcsema/rem.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./SignlessTypes/Output/rem.simple.mcsema/rem.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./SignlessTypes/Output/rem.simple.mcsema/rem.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././SignlessTypes/Output/rem.simple.mcsema/rem.simple  &>  out1 
+././SignlessTypes/Output/rem.simple.mcsema/rem.simple.new.lifted  &>  out2 
+diff out1 out2 
+1,2c1,3
+< 
+<  *** REM test done! ***
+---
+> Test #5, failed in iteration #: 0
+> Failing test vector:
+> m=740882966, x_u=1616430695, y_u=1708849955, z_u=1669437588, x_s=-276737754, y_s=-672443628, z_s=-906079059
+rm -rf  out1 out 2 
+
+===./SignlessTypes/Output/shr.simple.mcsema/shr.simple===
+rm -rf  ./SignlessTypes/Output/shr.simple.mcsema/shr.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./SignlessTypes/Output/shr.simple.mcsema/shr.simple.cfg  -entrypoint=main -o ./SignlessTypes/Output/shr.simple.mcsema/shr.simple.new.bc   &>  ./SignlessTypes/Output/shr.simple.mcsema/shr.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./SignlessTypes/Output/shr.simple.mcsema/shr.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./SignlessTypes/Output/shr.simple.mcsema/shr.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././SignlessTypes/Output/shr.simple.mcsema/shr.simple  &>  out1 
+././SignlessTypes/Output/shr.simple.mcsema/shr.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Threads/Output/2010-12-08-tls.simple.mcsema/2010-12-08-tls.simple===
+rm -rf  ./Threads/Output/2010-12-08-tls.simple.mcsema/2010-12-08-tls.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Threads/Output/2010-12-08-tls.simple.mcsema/2010-12-08-tls.simple.cfg  -entrypoint=main -o ./Threads/Output/2010-12-08-tls.simple.mcsema/2010-12-08-tls.simple.new.bc   &>  ./Threads/Output/2010-12-08-tls.simple.mcsema/2010-12-08-tls.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Threads/Output/2010-12-08-tls.simple.mcsema/2010-12-08-tls.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Threads/Output/2010-12-08-tls.simple.mcsema/2010-12-08-tls.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Threads/Output/2010-12-08-tls.simple.mcsema/2010-12-08-tls.simple  &>  out1 
+././Threads/Output/2010-12-08-tls.simple.mcsema/2010-12-08-tls.simple.new.lifted  &>  out2 
+diff out1 out2 
+1c1
+< a is 4
+---
+> a is 0
+rm -rf  out1 out 2 
+
+===./Threads/Output/tls.simple.mcsema/tls.simple===
+rm -rf  ./Threads/Output/tls.simple.mcsema/tls.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Threads/Output/tls.simple.mcsema/tls.simple.cfg  -entrypoint=main -o ./Threads/Output/tls.simple.mcsema/tls.simple.new.bc   &>  ./Threads/Output/tls.simple.mcsema/tls.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Threads/Output/tls.simple.mcsema/tls.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Threads/Output/tls.simple.mcsema/tls.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Threads/Output/tls.simple.mcsema/tls.simple  &>  out1 
+././Threads/Output/tls.simple.mcsema/tls.simple.new.lifted  &>  out2 
+sh: line 1: 31714 Segmentation fault      ././Threads/Output/tls.simple.mcsema/tls.simple.new.lifted &>out2
+diff out1 out2 
+1,2d0
+< Thread 1: 2
+< Thread 2: 2
+rm -rf  out1 out 2 
+
+===./Vector/Output/build.simple.mcsema/build.simple===
+rm -rf  ./Vector/Output/build.simple.mcsema/build.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Vector/Output/build.simple.mcsema/build.simple.cfg  -entrypoint=main -o ./Vector/Output/build.simple.mcsema/build.simple.new.bc   &>  ./Vector/Output/build.simple.mcsema/build.simple.new.convert.txt 
+Unsupported
+
+===./Vector/Output/build2.simple.mcsema/build2.simple===
+rm -rf  ./Vector/Output/build2.simple.mcsema/build2.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Vector/Output/build2.simple.mcsema/build2.simple.cfg  -entrypoint=main -o ./Vector/Output/build2.simple.mcsema/build2.simple.new.bc   &>  ./Vector/Output/build2.simple.mcsema/build2.simple.new.convert.txt 
+Unsupported
+
+===./Vector/Output/divides.simple.mcsema/divides.simple===
+rm -rf  ./Vector/Output/divides.simple.mcsema/divides.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Vector/Output/divides.simple.mcsema/divides.simple.cfg  -entrypoint=main -o ./Vector/Output/divides.simple.mcsema/divides.simple.new.bc   &>  ./Vector/Output/divides.simple.mcsema/divides.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Vector/Output/divides.simple.mcsema/divides.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Vector/Output/divides.simple.mcsema/divides.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Vector/Output/divides.simple.mcsema/divides.simple  &>  out1 
+././Vector/Output/divides.simple.mcsema/divides.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Vector/Output/multiplies.simple.mcsema/multiplies.simple===
+rm -rf  ./Vector/Output/multiplies.simple.mcsema/multiplies.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Vector/Output/multiplies.simple.mcsema/multiplies.simple.cfg  -entrypoint=main -o ./Vector/Output/multiplies.simple.mcsema/multiplies.simple.new.bc   &>  ./Vector/Output/multiplies.simple.mcsema/multiplies.simple.new.convert.txt 
+Unsupported
+
+===./Vector/Output/simple.simple.mcsema/simple.simple===
+rm -rf  ./Vector/Output/simple.simple.mcsema/simple.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Vector/Output/simple.simple.mcsema/simple.simple.cfg  -entrypoint=main -o ./Vector/Output/simple.simple.mcsema/simple.simple.new.bc   &>  ./Vector/Output/simple.simple.mcsema/simple.simple.new.convert.txt 
+Unsupported
+
+===./Vector/Output/sumarray-dbl.simple.mcsema/sumarray-dbl.simple===
+rm -rf  ./Vector/Output/sumarray-dbl.simple.mcsema/sumarray-dbl.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Vector/Output/sumarray-dbl.simple.mcsema/sumarray-dbl.simple.cfg  -entrypoint=main -o ./Vector/Output/sumarray-dbl.simple.mcsema/sumarray-dbl.simple.new.bc   &>  ./Vector/Output/sumarray-dbl.simple.mcsema/sumarray-dbl.simple.new.convert.txt 
+Unsupported
+
+===./Vector/Output/sumarray.simple.mcsema/sumarray.simple===
+rm -rf  ./Vector/Output/sumarray.simple.mcsema/sumarray.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Vector/Output/sumarray.simple.mcsema/sumarray.simple.cfg  -entrypoint=main -o ./Vector/Output/sumarray.simple.mcsema/sumarray.simple.new.bc   &>  ./Vector/Output/sumarray.simple.mcsema/sumarray.simple.new.convert.txt 
+Unsupported
+
+===./Vector/SSE/Output/sse.expandfft.simple.mcsema/sse.expandfft.simple===
+rm -rf  ./Vector/SSE/Output/sse.expandfft.simple.mcsema/sse.expandfft.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Vector/SSE/Output/sse.expandfft.simple.mcsema/sse.expandfft.simple.cfg  -entrypoint=main -o ./Vector/SSE/Output/sse.expandfft.simple.mcsema/sse.expandfft.simple.new.bc   &>  ./Vector/SSE/Output/sse.expandfft.simple.mcsema/sse.expandfft.simple.new.convert.txt 
+Unsupported
+
+===./Vector/SSE/Output/sse.isamax.simple.mcsema/sse.isamax.simple===
+rm -rf  ./Vector/SSE/Output/sse.isamax.simple.mcsema/sse.isamax.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Vector/SSE/Output/sse.isamax.simple.mcsema/sse.isamax.simple.cfg  -entrypoint=main -o ./Vector/SSE/Output/sse.isamax.simple.mcsema/sse.isamax.simple.new.bc   &>  ./Vector/SSE/Output/sse.isamax.simple.mcsema/sse.isamax.simple.new.convert.txt 
+Unsupported
+
+===./Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple===
+rm -rf  ./Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple.cfg  -entrypoint=main -o ./Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple.new.bc   &>  ./Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple.new.convert.txt 
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign//drivers/ELF_64_linux.S ./Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+././Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple  &>  out1 
+././Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Vector/SSE/Output/sse.stepfft.simple.mcsema/sse.stepfft.simple===
+rm -rf  ./Vector/SSE/Output/sse.stepfft.simple.mcsema/sse.stepfft.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Vector/SSE/Output/sse.stepfft.simple.mcsema/sse.stepfft.simple.cfg  -entrypoint=main -o ./Vector/SSE/Output/sse.stepfft.simple.mcsema/sse.stepfft.simple.new.bc   &>  ./Vector/SSE/Output/sse.stepfft.simple.mcsema/sse.stepfft.simple.new.convert.txt 
+Unsupported
+
+===./Vectorizer/Output/gcc-loops.simple.mcsema/gcc-loops.simple===
+rm -rf  ./Vectorizer/Output/gcc-loops.simple.mcsema/gcc-loops.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Vectorizer/Output/gcc-loops.simple.mcsema/gcc-loops.simple.cfg  -entrypoint=main -o ./Vectorizer/Output/gcc-loops.simple.mcsema/gcc-loops.simple.new.bc   &>  ./Vectorizer/Output/gcc-loops.simple.mcsema/gcc-loops.simple.new.convert.txt 
+Unsupported
+
+Original Unsupported
+./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.mcsema/stdthreadbug.simple
+./Output/2003-05-31-LongShifts.simple.mcsema/2003-05-31-LongShifts.simple
+./Output/2005-05-11-Popcount-ffs-fls.simple.mcsema/2005-05-11-Popcount-ffs-fls.simple
+./Output/2005-05-12-Int64ToFP.simple.mcsema/2005-05-12-Int64ToFP.simple
+./Output/2005-07-17-INT-To-FP.simple.mcsema/2005-07-17-INT-To-FP.simple
+./Output/AtomicOps.simple.mcsema/AtomicOps.simple
+./Output/initp1.simple.mcsema/initp1.simple
+./Vector/Output/build.simple.mcsema/build.simple
+./Vector/Output/build2.simple.mcsema/build2.simple
+./Vector/Output/multiplies.simple.mcsema/multiplies.simple
+./Vector/Output/simple.simple.mcsema/simple.simple
+./Vector/Output/sumarray-dbl.simple.mcsema/sumarray-dbl.simple
+./Vector/Output/sumarray.simple.mcsema/sumarray.simple
+./Vector/SSE/Output/sse.expandfft.simple.mcsema/sse.expandfft.simple
+./Vector/SSE/Output/sse.isamax.simple.mcsema/sse.isamax.simple
+./Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple
+./Vector/SSE/Output/sse.stepfft.simple.mcsema/sse.stepfft.simple
+./Vectorizer/Output/gcc-loops.simple.mcsema/gcc-loops.simple
+
+Current Unsupported
+./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.mcsema/stdthreadbug.simple
+./Output/2005-05-11-Popcount-ffs-fls.simple.mcsema/2005-05-11-Popcount-ffs-fls.simple
+./Output/2005-05-12-Int64ToFP.simple.mcsema/2005-05-12-Int64ToFP.simple
+./Output/2005-07-17-INT-To-FP.simple.mcsema/2005-07-17-INT-To-FP.simple
+./Output/2008-07-13-InlineSetjmp.simple.mcsema/2008-07-13-InlineSetjmp.simple
+./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple
+./Output/byval-alignment.simple.mcsema/byval-alignment.simple
+./Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.simple
+./Output/initp1.simple.mcsema/initp1.simple
+./Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple
+./Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple
+./Output/vla.simple.mcsema/vla.simple
+./SignlessTypes/Output/ccc.simple.mcsema/ccc.simple
+./Vector/Output/build.simple.mcsema/build.simple
+./Vector/Output/build2.simple.mcsema/build2.simple
+./Vector/Output/multiplies.simple.mcsema/multiplies.simple
+./Vector/Output/simple.simple.mcsema/simple.simple
+./Vector/Output/sumarray-dbl.simple.mcsema/sumarray-dbl.simple
+./Vector/Output/sumarray.simple.mcsema/sumarray.simple
+./Vector/SSE/Output/sse.expandfft.simple.mcsema/sse.expandfft.simple
+./Vector/SSE/Output/sse.isamax.simple.mcsema/sse.isamax.simple
+./Vector/SSE/Output/sse.stepfft.simple.mcsema/sse.stepfft.simple
+./Vectorizer/Output/gcc-loops.simple.mcsema/gcc-loops.simple
+
+Current Pass
+./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple
+./Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.simple
+./Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.simple
+./Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.simple
+./Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.simple
+./Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.simple
+./Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.simple
+./Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.simple
+./Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.simple
+./Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.simple
+./Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.simple
+./Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple
+./Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple
+./Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.simple
+./Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.simple
+./Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple
+./Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.simple
+./Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.simple
+./Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.simple
+./Output/2003-05-31-LongShifts.simple.mcsema/2003-05-31-LongShifts.simple
+./Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.simple
+./Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.simple
+./Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.simple
+./Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.simple
+./Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.simple
+./Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.simple
+./Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.simple
+./Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.simple
+./Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.simple
+./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple
+./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple
+./Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.simple
+./Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.simple
+./Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.simple
+./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple
+./Output/2006-01-29-SimpleIndirectCall.simple.mcsema/2006-01-29-SimpleIndirectCall.simple
+./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple
+./Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.simple
+./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple
+./Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.simple
+./Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.simple
+./Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.simple
+./Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.simple
+./Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.simple
+./Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.simple
+./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple
+./Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple
+./Output/AtomicOps.simple.mcsema/AtomicOps.simple
+./Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple
+./Output/TestLoop.simple.mcsema/TestLoop.simple
+./Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.simple
+./Output/block-byref-test.simple.mcsema/block-byref-test.simple
+./Output/block-call-r7674133.simple.mcsema/block-call-r7674133.simple
+./Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.simple
+./Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.simple
+./Output/blockstret.simple.mcsema/blockstret.simple
+./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple
+./Output/member-function-pointers.simple.mcsema/member-function-pointers.simple
+./Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.simple
+./Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple
+./Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.simple
+./Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.simple
+./Output/printargs.simple.mcsema/printargs.simple
+./Output/stmtexpr.simple.mcsema/stmtexpr.simple
+./SignlessTypes/Large/Output/cast.simple.mcsema/cast.simple
+./SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.simple
+./SignlessTypes/Output/cast2.simple.mcsema/cast2.simple
+./SignlessTypes/Output/div.simple.mcsema/div.simple
+./SignlessTypes/Output/factor.simple.mcsema/factor.simple
+./SignlessTypes/Output/shr.simple.mcsema/shr.simple
+./Vector/Output/divides.simple.mcsema/divides.simple
+./Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple
+
+Current Diff
+./Output/2002-05-02-ArgumentTest.simple.mcsema/2002-05-02-ArgumentTest.simple
+./Output/2002-05-02-ManyArguments.simple.mcsema/2002-05-02-ManyArguments.simple
+./Output/2002-10-12-StructureArgs.simple.mcsema/2002-10-12-StructureArgs.simple
+./Output/2002-10-12-StructureArgsSimple.simple.mcsema/2002-10-12-StructureArgsSimple.simple
+./Output/2003-05-07-VarArgs.simple.mcsema/2003-05-07-VarArgs.simple
+./Output/2003-05-14-AtExit.simple.mcsema/2003-05-14-AtExit.simple
+./Output/2003-08-05-CastFPToUint.simple.mcsema/2003-08-05-CastFPToUint.simple
+./Output/2003-08-11-VaListArg.simple.mcsema/2003-08-11-VaListArg.simple
+./Output/2004-02-02-NegativeZero.simple.mcsema/2004-02-02-NegativeZero.simple
+./Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.simple
+./Output/2007-01-04-KNR-Args.simple.mcsema/2007-01-04-KNR-Args.simple
+./Output/FloatPrecision.simple.mcsema/FloatPrecision.simple
+./Output/StructModifyTest.simple.mcsema/StructModifyTest.simple
+./SignlessTypes/Output/rem.simple.mcsema/rem.simple
+./Threads/Output/2010-12-08-tls.simple.mcsema/2010-12-08-tls.simple
+./Threads/Output/tls.simple.mcsema/tls.simple
+
+Total: 111
+Original supported Count 93
+Original Unsupported Count 18
+Pass Count 72
+Diff Error Count 16
+Current supported Count 88
+Current unsupported Count 23
