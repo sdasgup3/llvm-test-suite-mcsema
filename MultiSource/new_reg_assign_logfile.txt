@@ -19,13 +19,13 @@ warning: overriding the module target triple with x86_64-unknown-linux-gnu
 1 warning generated.
 /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o: In function `call_gmon_start':
 (.text+0x7): undefined reference to `__gmon_start__'
-/tmp/five11-7ba48a.o: In function `___gmon_start__':
+/tmp/five11-d30fff.o: In function `___gmon_start__':
 ./Benchmarks/BitBench/five11/Output/five11.simple.mcsema/five11.simple.new.bc:(.text+0x6f): undefined reference to `__gmon_start__'
-/tmp/five11-7ba48a.o: In function `sub_4006a8':
+/tmp/five11-d30fff.o: In function `sub_4006a8':
 ./Benchmarks/BitBench/five11/Output/five11.simple.mcsema/five11.simple.new.bc:(.text+0x10ba): undefined reference to `__gmon_start__'
 ./Benchmarks/BitBench/five11/Output/five11.simple.mcsema/five11.simple.new.bc:(.text+0x10bf): undefined reference to `__gmon_start__'
 ./Benchmarks/BitBench/five11/Output/five11.simple.mcsema/five11.simple.new.bc:(.text+0x10c8): undefined reference to `__gmon_start__'
-/tmp/five11-7ba48a.o:./Benchmarks/BitBench/five11/Output/five11.simple.mcsema/five11.simple.new.bc:(.text+0x10d4): more undefined references to `__gmon_start__' follow
+/tmp/five11-d30fff.o:./Benchmarks/BitBench/five11/Output/five11.simple.mcsema/five11.simple.new.bc:(.text+0x10d4): more undefined references to `__gmon_start__' follow
 clang-3.5: error: linker command failed with exit code 1 (use -v to see invocation)
 
 ===./Benchmarks/BitBench/uudecode/Output/uudecode.simple.mcsema/uudecode.simple===
@@ -1121,6 +1121,55 @@ rm -rf  ./Applications/oggenc/Output/oggenc.simple.mcsema/oggenc.simple.mcsema/o
 sh: ./Applications/oggenc/Output/oggenc.simple.mcsema/oggenc.simple.mcsema/oggenc.simple.new.convert.txt: No such file or directory
 Unsupported
 
+Original Supported
+./Benchmarks/BitBench/drop3/Output/drop3.simple.mcsema/drop3.simple
+./Benchmarks/BitBench/five11/Output/five11.simple.mcsema/five11.simple
+./Benchmarks/BitBench/uudecode/Output/uudecode.simple.mcsema/uudecode.simple
+./Benchmarks/BitBench/uuencode/Output/uuencode.simple.mcsema/uuencode.simple
+./Benchmarks/Ptrdist/ft/Output/ft.simple.mcsema/ft.simple
+./Benchmarks/Ptrdist/ks/Output/ks.simple.mcsema/ks.simple
+./Benchmarks/MiBench/network-dijkstra/Output/network-dijkstra.simple.mcsema/network-dijkstra.simple
+./Benchmarks/MiBench/telecomm-CRC32/Output/telecomm-CRC32.simple.mcsema/telecomm-CRC32.simple
+./Benchmarks/MiBench/security-rijndael/Output/security-rijndael.simple.mcsema/security-rijndael.simple
+./Benchmarks/MiBench/network-patricia/Output/network-patricia.simple.mcsema/network-patricia.simple
+./Benchmarks/MiBench/security-sha/Output/security-sha.simple.mcsema/security-sha.simple
+./Benchmarks/MiBench/telecomm-adpcm/Output/telecomm-adpcm.simple.mcsema/telecomm-adpcm.simple
+./Benchmarks/MiBench/security-blowfish/Output/security-blowfish.simple.mcsema/security-blowfish.simple
+./Benchmarks/MiBench/automotive-basicmath/Output/automotive-basicmath.simple.mcsema/automotive-basicmath.simple
+./Benchmarks/McCat/01-qbsort/Output/qbsort.simple.mcsema/qbsort.simple
+./Benchmarks/McCat/03-testtrie/Output/testtrie.simple.mcsema/testtrie.simple
+./Benchmarks/McCat/15-trie/Output/trie.simple.mcsema/trie.simple
+./Benchmarks/McCat/17-bintr/Output/bintr.simple.mcsema/bintr.simple
+./Benchmarks/Prolangs-C/allroots/Output/allroots.simple.mcsema/allroots.simple
+./Benchmarks/Prolangs-C/fixoutput/Output/fixoutput.simple.mcsema/fixoutput.simple
+./Benchmarks/Prolangs-C/assembler/Output/assembler.simple.mcsema/assembler.simple
+./Benchmarks/Prolangs-C/loader/Output/loader.simple.mcsema/loader.simple
+./Benchmarks/Prolangs-C/simulator/Output/simulator.simple.mcsema/simulator.simple
+./Benchmarks/Olden/tsp/Output/tsp.simple.mcsema/tsp.simple
+./Benchmarks/Olden/treeadd/Output/treeadd.simple.mcsema/treeadd.simple
+./Benchmarks/Olden/bisort/Output/bisort.simple.mcsema/bisort.simple
+./Benchmarks/Olden/em3d/Output/em3d.simple.mcsema/em3d.simple
+./Benchmarks/Olden/mst/Output/mst.simple.mcsema/mst.simple
+./Benchmarks/Olden/perimeter/Output/perimeter.simple.mcsema/perimeter.simple
+./Benchmarks/mediabench/adpcm/rawdaudio/Output/rawdaudio.simple.mcsema/rawdaudio.simple
+./Benchmarks/mediabench/adpcm/rawcaudio/Output/rawcaudio.simple.mcsema/rawcaudio.simple
+./Benchmarks/mediabench/g721/g721encode/Output/encode.simple.mcsema/encode.simple
+./Benchmarks/TSVC/Recurrences-flt/Output/Recurrences-flt.simple.mcsema/Recurrences-flt.simple
+./Benchmarks/TSVC/Packing-flt/Output/Packing-flt.simple.mcsema/Packing-flt.simple
+./Benchmarks/TSVC/StatementReordering-flt/Output/StatementReordering-flt.simple.mcsema/StatementReordering-flt.simple
+./Benchmarks/TSVC/Searching-flt/Output/Searching-flt.simple.mcsema/Searching-flt.simple
+./Benchmarks/TSVC/IndirectAddressing-flt/Output/IndirectAddressing-flt.simple.mcsema/IndirectAddressing-flt.simple
+./Benchmarks/VersaBench/8b10b/Output/8b10b.simple.mcsema/8b10b.simple
+./Benchmarks/VersaBench/bmm/Output/bmm.simple.mcsema/bmm.simple
+./Benchmarks/Prolangs-C++/vcirc/Output/vcirc.simple.mcsema/vcirc.simple
+./Benchmarks/Prolangs-C++/NP/Output/np.simple.mcsema/np.simple
+./Benchmarks/llubenchmark/Output/llu.simple.mcsema/llu.simple
+./Benchmarks/Trimaran/enc-rc4/Output/enc-rc4.simple.mcsema/enc-rc4.simple
+./Benchmarks/Trimaran/netbench-url/Output/netbench-url.simple.mcsema/netbench-url.simple
+./Benchmarks/Trimaran/enc-pc1/Output/enc-pc1.simple.mcsema/enc-pc1.simple
+./Benchmarks/sim/Output/sim.simple.mcsema/sim.simple
+./Applications/aha/Output/aha.simple.mcsema/aha.simple
+
 Original Unsupported
 ./UnitTests/C++11/frame_layout/Output/frame_layout.simple.mcsema/frame_layout.simple
 ./Benchmarks/Ptrdist/yacr2/Output/yacr2.simple.mcsema/yacr2.simple
@@ -1281,6 +1330,37 @@ Original Unsupported
 ./Applications/minisat/Output/minisat.simple.mcsema/minisat.simple.mcsema/minisat.simple
 ./Applications/oggenc/Output/oggenc.simple.mcsema/oggenc.simple
 ./Applications/oggenc/Output/oggenc.simple.mcsema/oggenc.simple.mcsema/oggenc.simple
+
+Current Supported
+./Benchmarks/BitBench/five11/Output/five11.simple.mcsema/five11.simple
+./Benchmarks/MiBench/telecomm-CRC32/Output/telecomm-CRC32.simple.mcsema/telecomm-CRC32.simple
+./Benchmarks/MiBench/security-rijndael/Output/security-rijndael.simple.mcsema/security-rijndael.simple
+./Benchmarks/MiBench/security-sha/Output/security-sha.simple.mcsema/security-sha.simple
+./Benchmarks/MiBench/office-stringsearch/Output/office-stringsearch.simple.mcsema/office-stringsearch.simple
+./Benchmarks/McCat/12-IOtest/Output/iotest.simple.mcsema/iotest.simple
+./Benchmarks/McCat/17-bintr/Output/bintr.simple.mcsema/bintr.simple
+./Benchmarks/Prolangs-C/allroots/Output/allroots.simple.mcsema/allroots.simple
+./Benchmarks/Prolangs-C/compiler/Output/compiler.simple.mcsema/compiler.simple
+./Benchmarks/Prolangs-C/assembler/Output/assembler.simple.mcsema/assembler.simple
+./Benchmarks/Prolangs-C/loader/Output/loader.simple.mcsema/loader.simple
+./Benchmarks/Prolangs-C/gnugo/Output/gnugo.simple.mcsema/gnugo.simple
+./Benchmarks/Prolangs-C/simulator/Output/simulator.simple.mcsema/simulator.simple
+./Benchmarks/Olden/tsp/Output/tsp.simple.mcsema/tsp.simple
+./Benchmarks/Olden/bisort/Output/bisort.simple.mcsema/bisort.simple
+./Benchmarks/TSVC/Recurrences-flt/Output/Recurrences-flt.simple.mcsema/Recurrences-flt.simple
+./Benchmarks/TSVC/Packing-flt/Output/Packing-flt.simple.mcsema/Packing-flt.simple
+./Benchmarks/TSVC/StatementReordering-flt/Output/StatementReordering-flt.simple.mcsema/StatementReordering-flt.simple
+./Benchmarks/TSVC/Searching-flt/Output/Searching-flt.simple.mcsema/Searching-flt.simple
+./Benchmarks/TSVC/IndirectAddressing-flt/Output/IndirectAddressing-flt.simple.mcsema/IndirectAddressing-flt.simple
+./Benchmarks/VersaBench/8b10b/Output/8b10b.simple.mcsema/8b10b.simple
+./Benchmarks/Prolangs-C++/vcirc/Output/vcirc.simple.mcsema/vcirc.simple
+./Benchmarks/Prolangs-C++/NP/Output/np.simple.mcsema/np.simple
+./Benchmarks/llubenchmark/Output/llu.simple.mcsema/llu.simple
+./Benchmarks/Trimaran/enc-rc4/Output/enc-rc4.simple.mcsema/enc-rc4.simple
+./Benchmarks/Trimaran/enc-md5/Output/enc-md5.simple.mcsema/enc-md5.simple
+./Benchmarks/Trimaran/enc-3des/Output/enc-3des.simple.mcsema/enc-3des.simple
+./Benchmarks/Trimaran/enc-pc1/Output/enc-pc1.simple.mcsema/enc-pc1.simple
+./Applications/aha/Output/aha.simple.mcsema/aha.simple
 
 Current Unsupported
 ./UnitTests/C++11/frame_layout/Output/frame_layout.simple.mcsema/frame_layout.simple
