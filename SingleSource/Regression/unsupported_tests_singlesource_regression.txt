@@ -1,0 +1,72 @@
+Segmentation Faults
+====================
+./C++/Output/fixups.simple.mcsema/fixups.simple
+
+
+ERROR and Unsupported Instructions
+===========================
+./C++/EH/Output/class_hierarchy.simple.mcsema/class_hierarchy.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./C++/EH/Output/ctor_dtor_count-2.simple.mcsema/ctor_dtor_count-2.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./C++/EH/Output/ctor_dtor_count.simple.mcsema/ctor_dtor_count.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./C++/EH/Output/exception_spec_test.simple.mcsema/exception_spec_test.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./C++/EH/Output/function_try_block.simple.mcsema/function_try_block.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./C++/EH/Output/inlined_cleanup.simple.mcsema/inlined_cleanup.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./C++/EH/Output/recursive-throw.simple.mcsema/recursive-throw.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./C++/EH/Output/simple_rethrow.simple.mcsema/simple_rethrow.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./C++/EH/Output/simple_throw.simple.mcsema/simple_throw.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./C++/EH/Output/throw_rethrow_test.simple.mcsema/throw_rethrow_test.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./C++/Output/2003-06-08-VirtualFunctions.simple.mcsema/2003-06-08-VirtualFunctions.simple
+error: 
+Line: 1169
+File: /home/sdasgup3/Github/mcsema_latest/mc-sema/cfgToLLVM/raiseX86.cpp
+Could not find external: __cxa_pure_virtual
+
+
+./C++/Output/ofstream_ctor.simple.mcsema/ofstream_ctor.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./C/Output/DuffsDevice.simple.mcsema/DuffsDevice.simple
+Unsupported!
+4006f2 	pshufhw	$8, %xmm4, %xmm4
+
+./C/Output/matrixTranspose.simple.mcsema/matrixTranspose.simple
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_latest/mc-sema/cfgToLLVM/x86Helpers.cpp
+Want to use MEM as data ref but have no MEM reference
+
+
+./C/Output/uint64_to_float.simple.mcsema/uint64_to_float.simple
+Unsupported!
+400772 	bsrq	%rdx, %rcx
