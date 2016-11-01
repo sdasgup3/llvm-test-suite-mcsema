@@ -1,0 +1,660 @@
+
+Mcsema Home: /home/sdasgup3/Github/mcsema_latest/
+
+===./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.new.bc   -o ./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.new.trans.o ./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple  &>  out1 
+././C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.simple.new.bc   -o ./Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.simple.new.trans.o ./Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.simple  &>  out1 
+././Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.simple.new.bc   -o ./Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.simple.new.trans.o ./Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.simple  &>  out1 
+././Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.simple.new.bc   -o ./Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.simple.new.trans.o ./Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.simple  &>  out1 
+././Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.simple.new.bc   -o ./Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.simple.new.trans.o ./Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.simple  &>  out1 
+././Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.simple.new.bc   -o ./Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.simple.new.trans.o ./Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.simple  &>  out1 
+././Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.simple.new.bc   -o ./Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.simple.new.trans.o ./Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.simple  &>  out1 
+././Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.simple.new.bc   -o ./Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.simple.new.trans.o ./Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.simple  &>  out1 
+././Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.simple.new.bc   -o ./Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.simple.new.trans.o ./Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.simple  &>  out1 
+././Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.simple.new.bc   -o ./Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.simple.new.trans.o ./Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.simple  &>  out1 
+././Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.simple.new.bc   -o ./Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.simple.new.trans.o ./Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.simple  &>  out1 
+././Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple.new.bc   -o ./Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple.new.trans.o ./Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple  &>  out1 
+././Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple.new.bc   -o ./Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple.new.trans.o ./Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple  &>  out1 
+././Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.simple.new.bc   -o ./Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.simple.new.trans.o ./Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.simple  &>  out1 
+././Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.simple.new.bc   -o ./Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.simple.new.trans.o ./Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.simple  &>  out1 
+././Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple.new.bc   -o ./Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple.new.trans.o ./Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple  &>  out1 
+././Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.simple.new.bc   -o ./Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.simple.new.trans.o ./Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.simple  &>  out1 
+././Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.simple.new.bc   -o ./Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.simple.new.trans.o ./Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.simple  &>  out1 
+././Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.simple.new.bc   -o ./Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.simple.new.trans.o ./Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.simple  &>  out1 
+././Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.simple.new.bc   -o ./Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.simple.new.trans.o ./Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.simple  &>  out1 
+././Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.simple.new.bc   -o ./Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.simple.new.trans.o ./Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.simple  &>  out1 
+././Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.simple.new.bc   -o ./Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.simple.new.trans.o ./Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.simple  &>  out1 
+././Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.simple.new.bc   -o ./Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.simple.new.trans.o ./Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.simple  &>  out1 
+././Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.simple.new.bc   -o ./Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.simple.new.trans.o ./Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.simple  &>  out1 
+././Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.simple.new.bc   -o ./Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.simple.new.trans.o ./Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.simple  &>  out1 
+././Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.simple.new.bc   -o ./Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.simple.new.trans.o ./Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.simple  &>  out1 
+././Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.simple.new.bc   -o ./Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.simple.new.trans.o ./Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.simple  &>  out1 
+././Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.simple.new.bc   -o ./Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.simple.new.trans.o ./Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.simple  &>  out1 
+././Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.bc   -o ./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.trans.o ./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple  &>  out1 
+././Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.bc   -o ./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.trans.o ./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple  &>  out1 
+././Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.simple.new.bc   -o ./Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.simple.new.trans.o ./Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.simple  &>  out1 
+././Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.simple.new.bc   -o ./Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.simple.new.trans.o ./Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.simple  &>  out1 
+././Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.simple.new.bc   -o ./Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.simple.new.trans.o ./Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.simple  &>  out1 
+././Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.bc   -o ./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.trans.o ./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple  &>  out1 
+././Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.bc   -o ./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.trans.o ./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple  &>  out1 
+././Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.simple.new.bc   -o ./Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.simple.new.trans.o ./Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.simple  &>  out1 
+././Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.bc   -o ./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.trans.o ./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple  &>  out1 
+././Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.simple.new.bc   -o ./Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.simple.new.trans.o ./Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.simple  &>  out1 
+././Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.simple.new.bc   -o ./Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.simple.new.trans.o ./Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.simple  &>  out1 
+././Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.simple.new.bc   -o ./Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.simple.new.trans.o ./Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.simple  &>  out1 
+././Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.simple.new.bc   -o ./Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.simple.new.trans.o ./Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.simple  &>  out1 
+././Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.simple.new.bc   -o ./Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.simple.new.trans.o ./Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.simple  &>  out1 
+././Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.simple.new.trans.lifted  &>  out2 
+diff out1 out2 
+2,6c2,6
+< 1 5 6 6 7
+< 2 5 6 7 7
+< 3 5 6 7 8
+< 4 5 6 7 8
+< -1 5 6 7 8
+---
+> 1 7 8 8 6
+> 2 7 8 8 8
+> 3 7 8 8 8
+> 4 7 8 8 8
+> -1 7 8 8 8
+rm -rf  out1 out 2 
+
+===./Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.simple.new.bc   -o ./Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.simple.new.trans.o ./Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.simple  &>  out1 
+././Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.simple.new.trans.lifted  &>  out2 
+diff out1 out2 
+2,6c2,6
+< 1 5 6 6 7
+< 2 5 6 7 7
+< 3 5 6 7 7
+< 4 5 6 7 7
+< -1 5 6 7 7
+---
+> 1 7 8 8 6
+> 2 7 8 8 8
+> 3 7 8 8 8
+> 4 7 8 8 8
+> -1 7 8 8 8
+rm -rf  out1 out 2 
+
+===./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.bc   -o ./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.trans.o ./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple  &>  out1 
+././Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple.new.bc   -o ./Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple.new.trans.o ./Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple  &>  out1 
+././Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/AtomicOps.simple.mcsema/AtomicOps.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.bc   -o ./Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.trans.o ./Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/AtomicOps.simple.mcsema/AtomicOps.simple  &>  out1 
+././Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple.new.bc   -o ./Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple.new.trans.o ./Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple  &>  out1 
+././Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.simple.new.bc   -o ./Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.simple.new.trans.o ./Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.simple  &>  out1 
+././Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/block-byref-test.simple.mcsema/block-byref-test.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/block-byref-test.simple.mcsema/block-byref-test.simple.new.bc   -o ./Output/block-byref-test.simple.mcsema/block-byref-test.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/block-byref-test.simple.mcsema/block-byref-test.simple.new.trans.o ./Output/block-byref-test.simple.mcsema/block-byref-test.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/block-byref-test.simple.mcsema/block-byref-test.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/block-byref-test.simple.mcsema/block-byref-test.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/block-byref-test.simple.mcsema/block-byref-test.simple  &>  out1 
+././Output/block-byref-test.simple.mcsema/block-byref-test.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/block-call-r7674133.simple.mcsema/block-call-r7674133.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/block-call-r7674133.simple.mcsema/block-call-r7674133.simple.new.bc   -o ./Output/block-call-r7674133.simple.mcsema/block-call-r7674133.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/block-call-r7674133.simple.mcsema/block-call-r7674133.simple.new.trans.o ./Output/block-call-r7674133.simple.mcsema/block-call-r7674133.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/block-call-r7674133.simple.mcsema/block-call-r7674133.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/block-call-r7674133.simple.mcsema/block-call-r7674133.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/block-call-r7674133.simple.mcsema/block-call-r7674133.simple  &>  out1 
+././Output/block-call-r7674133.simple.mcsema/block-call-r7674133.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.simple.new.bc   -o ./Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.simple.new.trans.o ./Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.simple  &>  out1 
+././Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.simple.new.bc   -o ./Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.simple.new.trans.o ./Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.simple  &>  out1 
+././Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/blockstret.simple.mcsema/blockstret.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/blockstret.simple.mcsema/blockstret.simple.new.bc   -o ./Output/blockstret.simple.mcsema/blockstret.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/blockstret.simple.mcsema/blockstret.simple.new.trans.o ./Output/blockstret.simple.mcsema/blockstret.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/blockstret.simple.mcsema/blockstret.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/blockstret.simple.mcsema/blockstret.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/blockstret.simple.mcsema/blockstret.simple  &>  out1 
+././Output/blockstret.simple.mcsema/blockstret.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.bc   -o ./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.trans.o ./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple  &>  out1 
+././Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/member-function-pointers.simple.mcsema/member-function-pointers.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/member-function-pointers.simple.mcsema/member-function-pointers.simple.new.bc   -o ./Output/member-function-pointers.simple.mcsema/member-function-pointers.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/member-function-pointers.simple.mcsema/member-function-pointers.simple.new.trans.o ./Output/member-function-pointers.simple.mcsema/member-function-pointers.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/member-function-pointers.simple.mcsema/member-function-pointers.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/member-function-pointers.simple.mcsema/member-function-pointers.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/member-function-pointers.simple.mcsema/member-function-pointers.simple  &>  out1 
+././Output/member-function-pointers.simple.mcsema/member-function-pointers.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.simple.new.bc   -o ./Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.simple.new.trans.o ./Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.simple  &>  out1 
+././Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple.new.bc   -o ./Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple.new.trans.o ./Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple  &>  out1 
+././Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.simple.new.bc   -o ./Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.simple.new.trans.o ./Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.simple  &>  out1 
+././Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.simple.new.bc   -o ./Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.simple.new.trans.o ./Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.simple  &>  out1 
+././Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Output/stmtexpr.simple.mcsema/stmtexpr.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Output/stmtexpr.simple.mcsema/stmtexpr.simple.new.bc   -o ./Output/stmtexpr.simple.mcsema/stmtexpr.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Output/stmtexpr.simple.mcsema/stmtexpr.simple.new.trans.o ./Output/stmtexpr.simple.mcsema/stmtexpr.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Output/stmtexpr.simple.mcsema/stmtexpr.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Output/stmtexpr.simple.mcsema/stmtexpr.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Output/stmtexpr.simple.mcsema/stmtexpr.simple  &>  out1 
+././Output/stmtexpr.simple.mcsema/stmtexpr.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./SignlessTypes/Large/Output/cast.simple.mcsema/cast.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./SignlessTypes/Large/Output/cast.simple.mcsema/cast.simple.new.bc   -o ./SignlessTypes/Large/Output/cast.simple.mcsema/cast.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./SignlessTypes/Large/Output/cast.simple.mcsema/cast.simple.new.trans.o ./SignlessTypes/Large/Output/cast.simple.mcsema/cast.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./SignlessTypes/Large/Output/cast.simple.mcsema/cast.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./SignlessTypes/Large/Output/cast.simple.mcsema/cast.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././SignlessTypes/Large/Output/cast.simple.mcsema/cast.simple  &>  out1 
+././SignlessTypes/Large/Output/cast.simple.mcsema/cast.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.simple.new.bc   -o ./SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.simple.new.trans.o ./SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.simple  &>  out1 
+././SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./SignlessTypes/Output/cast2.simple.mcsema/cast2.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./SignlessTypes/Output/cast2.simple.mcsema/cast2.simple.new.bc   -o ./SignlessTypes/Output/cast2.simple.mcsema/cast2.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./SignlessTypes/Output/cast2.simple.mcsema/cast2.simple.new.trans.o ./SignlessTypes/Output/cast2.simple.mcsema/cast2.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./SignlessTypes/Output/cast2.simple.mcsema/cast2.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./SignlessTypes/Output/cast2.simple.mcsema/cast2.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././SignlessTypes/Output/cast2.simple.mcsema/cast2.simple  &>  out1 
+././SignlessTypes/Output/cast2.simple.mcsema/cast2.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./SignlessTypes/Output/div.simple.mcsema/div.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./SignlessTypes/Output/div.simple.mcsema/div.simple.new.bc   -o ./SignlessTypes/Output/div.simple.mcsema/div.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./SignlessTypes/Output/div.simple.mcsema/div.simple.new.trans.o ./SignlessTypes/Output/div.simple.mcsema/div.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./SignlessTypes/Output/div.simple.mcsema/div.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./SignlessTypes/Output/div.simple.mcsema/div.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././SignlessTypes/Output/div.simple.mcsema/div.simple  &>  out1 
+././SignlessTypes/Output/div.simple.mcsema/div.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./SignlessTypes/Output/factor.simple.mcsema/factor.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.bc   -o ./SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.trans.o ./SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././SignlessTypes/Output/factor.simple.mcsema/factor.simple  &>  out1 
+././SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./SignlessTypes/Output/shr.simple.mcsema/shr.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./SignlessTypes/Output/shr.simple.mcsema/shr.simple.new.bc   -o ./SignlessTypes/Output/shr.simple.mcsema/shr.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./SignlessTypes/Output/shr.simple.mcsema/shr.simple.new.trans.o ./SignlessTypes/Output/shr.simple.mcsema/shr.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./SignlessTypes/Output/shr.simple.mcsema/shr.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./SignlessTypes/Output/shr.simple.mcsema/shr.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././SignlessTypes/Output/shr.simple.mcsema/shr.simple  &>  out1 
+././SignlessTypes/Output/shr.simple.mcsema/shr.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Vector/Output/divides.simple.mcsema/divides.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Vector/Output/divides.simple.mcsema/divides.simple.new.bc   -o ./Vector/Output/divides.simple.mcsema/divides.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Vector/Output/divides.simple.mcsema/divides.simple.new.trans.o ./Vector/Output/divides.simple.mcsema/divides.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Vector/Output/divides.simple.mcsema/divides.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Vector/Output/divides.simple.mcsema/divides.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Vector/Output/divides.simple.mcsema/divides.simple  &>  out1 
+././Vector/Output/divides.simple.mcsema/divides.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple.new.bc   -o ./Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple.new.trans.o ./Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple  &>  out1 
+././Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+Original Supported
+
+Original Unsupported
+
+Current Supported
+
+Current Unsupported
+
+Current Pass
+./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple
+./Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.simple
+./Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.simple
+./Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.simple
+./Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.simple
+./Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.simple
+./Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.simple
+./Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.simple
+./Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.simple
+./Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.simple
+./Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.simple
+./Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple
+./Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple
+./Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.simple
+./Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.simple
+./Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple
+./Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.simple
+./Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.simple
+./Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.simple
+./Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.simple
+./Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.simple
+./Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.simple
+./Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.simple
+./Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.simple
+./Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.simple
+./Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.simple
+./Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.simple
+./Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.simple
+./Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple
+./Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple
+./Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.simple
+./Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.simple
+./Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.simple
+./Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple
+./Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple
+./Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.simple
+./Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple
+./Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.simple
+./Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.simple
+./Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.simple
+./Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.simple
+./Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple
+./Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple
+./Output/AtomicOps.simple.mcsema/AtomicOps.simple
+./Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple
+./Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.simple
+./Output/block-byref-test.simple.mcsema/block-byref-test.simple
+./Output/block-call-r7674133.simple.mcsema/block-call-r7674133.simple
+./Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.simple
+./Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.simple
+./Output/blockstret.simple.mcsema/blockstret.simple
+./Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple
+./Output/member-function-pointers.simple.mcsema/member-function-pointers.simple
+./Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.simple
+./Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple
+./Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.simple
+./Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.simple
+./Output/stmtexpr.simple.mcsema/stmtexpr.simple
+./SignlessTypes/Large/Output/cast.simple.mcsema/cast.simple
+./SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.simple
+./SignlessTypes/Output/cast2.simple.mcsema/cast2.simple
+./SignlessTypes/Output/div.simple.mcsema/div.simple
+./SignlessTypes/Output/factor.simple.mcsema/factor.simple
+./SignlessTypes/Output/shr.simple.mcsema/shr.simple
+./Vector/Output/divides.simple.mcsema/divides.simple
+./Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple
+
+Current Diff
+./Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.simple
+./Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.simple
+
+Total: 68
+Original supported Count 0
+Original Unsupported Count 0
+Pass Count 66
+Diff Error Count 2
+Current supported Count 0
+Current unsupported Count 0
