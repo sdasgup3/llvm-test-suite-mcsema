@@ -1,0 +1,104 @@
+Segmentation Faults
+====================
+./Output/2008-07-13-InlineSetjmp.simple.mcsema/2008-07-13-InlineSetjmp.simple 
+./Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.simple 
+./Output/initp1.simple.mcsema/initp1.simple 
+./Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple 
+./Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple 
+./Output/vla.simple.mcsema/vla.simple 
+./SignlessTypes/Output/ccc.simple.mcsema/ccc.simple 
+
+./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.mcsema/stdthreadbug.simple
+=========================================================================================
+/home/sdasgup3/Github/mcsema_latest//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.mcsema/stdthreadbug.simple.cfg  -o ./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.mcsema/stdthreadbug.simple.new.bc  -driver=mcsema_main,main,raw,return,C 
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Failed to open file ./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.mcsema/stdthreadbug.simple.cfg
+Could not process input module: ./C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.mcsema/stdthreadbug.simple.cfg
+
+
+
+./Vectorizer/Output/gcc-loops.simple.mcsema/gcc-loops.simple
+=============================================================
+/home/sdasgup3/Github/mcsema_latest//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Vectorizer/Output/gcc-loops.simple.mcsema/gcc-loops.simple.cfg  -o ./Vectorizer/Output/gcc-loops.simple.mcsema/gcc-loops.simple.new.bc  -driver=mcsema_main,main,raw,return,C 
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+Could not process input module: ./Vectorizer/Output/gcc-loops.simple.mcsema/gcc-loops.simple.cfg
+
+
+Unsupported Instructions
+===========================
+./Output/2005-05-11-Popcount-ffs-fls.simple.mcsema/2005-05-11-Popcount-ffs-fls.simple
+Unsupported!
+400940 	bsrq	%rbx, %rdx
+./Output/2005-05-12-Int64ToFP.simple.mcsema/2005-05-12-Int64ToFP.simple
+Unsupported!
+400621 	subpd	231(%rip), %xmm1
+./Output/2005-07-17-INT-To-FP.simple.mcsema/2005-07-17-INT-To-FP.simple
+Unsupported!
+400667 	subpd	321(%rip), %xmm4
+./Vector/Output/build.simple.mcsema/build.simple
+Unsupported!
+400652 	mulps	%xmm2, %xmm2
+./Vector/Output/build2.simple.mcsema/build2.simple
+Unsupported!
+4007b0 	addps	%xmm6, %xmm10
+./Vector/Output/multiplies.simple.mcsema/multiplies.simple
+Unsupported!
+400910 	pmullw	7095632(%rax), %xmm0
+./Vector/Output/simple.simple.mcsema/simple.simple
+Unsupported!
+4006a9 	movhpd	4196504(,%rax,8), %xmm0
+./Vector/Output/sumarray-dbl.simple.mcsema/sumarray-dbl.simple
+Unsupported!
+400640 	addpd	6302080(%rax), %xmm0
+--
+Unsupported!
+40066a 	unpckhpd	%xmm1, %xmm1
+./Vector/Output/sumarray.simple.mcsema/sumarray.simple
+Unsupported!
+40061d 	cvtdq2ps	%xmm2, %xmm2
+--
+Unsupported!
+400650 	addps	6297232(%rax), %xmm2
+./Vector/SSE/Output/sse.expandfft.simple.mcsema/sse.expandfft.simple
+Unsupported!
+400dd2 	addps	%xmm4, %xmm5
+--
+Unsupported!
+400d62 	addps	%xmm4, %xmm5
+--
+Unsupported!
+40110d 	addps	%xmm1, %xmm2
+--
+Unsupported!
+40103d 	addps	%xmm5, %xmm6
+--
+Unsupported!
+400f3f 	addps	%xmm5, %xmm6
+./Vector/SSE/Output/sse.isamax.simple.mcsema/sse.isamax.simple
+Unsupported!
+40081f 	cmpnleps	%xmm3, %xmm6
+--
+Unsupported!
+4008ab 	maxps	%xmm5, %xmm3
+--
+Unsupported!
+40086e 	addps	%xmm1, %xmm7
+--
+Unsupported!
+400865 	maxps	%xmm5, %xmm3
+--
+Unsupported!
+400905 	pslldq	$8, %xmm3
+--
+Unsupported!
+40094c 	cvtdq2ps	%xmm6, %xmm5
+./Vector/SSE/Output/sse.stepfft.simple.mcsema/sse.stepfft.simple
+Unsupported!
+4009e5 	mulps	%xmm3, %xmm0
