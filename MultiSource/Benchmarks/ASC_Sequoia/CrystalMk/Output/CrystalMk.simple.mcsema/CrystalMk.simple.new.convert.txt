@@ -1,0 +1,211 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 401590, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 401110, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400ea0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: IMM, to: 40157a, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 401540, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 401551, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 401551, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 401551, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 401551, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 401551, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 401551, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 401551, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 401551, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 401551, ro: 1, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 601df0, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601df0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602060, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602060, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602060, ro: 2, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 400680, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 602060, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602060, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 602060, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602067, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602060, ro: 2, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 400740, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400db0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 4014e0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400a50, ro: 0, rt: CODE
+Deserializing functions...
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 4014c0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 401510, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4014e0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4014d0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4014a8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4014b8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4014b0, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 4014c8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4014d0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4014d8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4014e0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4014c0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4014c8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4014f0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 401500, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4014a8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4014b0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4014b8, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 4014a8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4014b0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 401518, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 401520, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 401528, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 401530, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 401538, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4014e0, ro: 0, rt: DATA
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing symbol at: 601de0, sub_0x400710L, 8
+cur_pos: 601de0
+dse_base: 601de0
+new_cur_pos2: 601de8
+Deserializing data...
+Deserializing symbol at: 601de8, sub_0x4006f0L, 8
+cur_pos: 601de8
+dse_base: 601de8
+new_cur_pos2: 601df0
+Deserializing data...
+Deserializing data...
+Deserializing symbol at: 601ff8, ext___gmon_start__, 8
+cur_pos: 601ff8
+dse_base: 601ff8
+new_cur_pos2: 602000
+Deserializing data...
+Deserializing symbol at: 602018, ext_printf, 8
+cur_pos: 602000
+dse_base: 602018
+new_cur_pos: 602020
+Deserializing symbol at: 602020, ext___gmon_start__, 8
+cur_pos: 602020
+dse_base: 602020
+new_cur_pos2: 602028
+Deserializing symbol at: 602028, ext_puts, 8
+cur_pos: 602028
+dse_base: 602028
+new_cur_pos2: 602030
+Deserializing symbol at: 602030, ext_gettimeofday, 8
+cur_pos: 602030
+dse_base: 602030
+new_cur_pos2: 602038
+Deserializing symbol at: 602038, ext___libc_start_main, 8
+cur_pos: 602038
+dse_base: 602038
+new_cur_pos2: 602040
+Deserializing symbol at: 602040, ext_pow, 8
+cur_pos: 602040
+dse_base: 602040
+new_cur_pos2: 602048
+Deserializing symbol at: 602048, ext_clock, 8
+cur_pos: 602048
+dse_base: 602048
+new_cur_pos2: 602050
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding Offset Tables...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_401240
+Inserted function: sub_400710
+Inserted function: sub_4006f0
+Inserted function: sub_400680
+Inserted function: sub_400ea0
+Inserted function: sub_400740
+Inserted function: sub_400db0
+Inserted function: sub_400a50
+Inserted function: sub_401110
+inserting global data section named data_0x4014a0
+inserting global data section named data_0x4015b0
+inserting global data section named data_0x401610
+inserting global data section named data_0x601de0
+inserting global data section named data_0x601de8
+inserting global data section named data_0x601df0
+inserting global data section named data_0x601ff8
+inserting global data section named data_0x602000
+inserting global data section named data_0x602050
+inserting global data section named data_0x602060
+dataSectionToTypesContents: Found symbol: sub_0x400710L
+linuxGetInceptionFunction: Adding Callbacks to Module!
+dataSectionToTypesContents: Found symbol: sub_0x4006f0L
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_printf
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_puts
+dataSectionToTypesContents: Found symbol: ext_gettimeofday
+dataSectionToTypesContents: Found symbol: ext___libc_start_main
+dataSectionToTypesContents: Found symbol: ext_pow
+dataSectionToTypesContents: Found symbol: ext_clock
+doCallPCExtern paramCount  : 1 : puts
+1 : 2785790
+doCallPCtarget address : 401110
+doCallPCtarget address : 400ea0
+doCallPCExtern paramCount  : 1 : puts
+1 : 2785790
+doCallPCExtern paramCount  : 10 : printf
+10 : 2785790
+doCallPCExtern paramCount  : 10 : printf
+10 : 2785790
+doCallPCExtern paramCount  : 10 : printf
+10 : 2785790
+doCallPCExtern paramCount  : 10 : printf
+10 : 2785790
+doCallPCExtern paramCount  : 10 : printf
+10 : 2785790
+doCallPCExtern paramCount  : 10 : printf
+10 : 2785790
+doCallPCExtern paramCount  : 10 : printf
+10 : 2785790
+doCallPCExtern paramCount  : 10 : printf
+10 : 2785790
+doCallPCExtern paramCount  : 10 : printf
+10 : 2785790
+doCallPCExtern paramCount  : 10 : printf
+10 : 2785790
+translate_JMPr: regular jump via register: 4006e7
+translate_JMPr: regular jump via register: 4006a7
+doCallPCtarget address : 400680
+doCallPCExtern paramCount  : 2 : gettimeofday
+2 : 2785790
+doCallPCExtern paramCount  : 0 : clock
+0 : 2869e10
+doCallPCtarget address : 400a50
+doCallPCtarget address : 400db0
+doCallPCtarget address : 400740
+doCallPCExtern paramCount  : 2 : pow
+2 : 2785790
+Unsupported!
+400b10 	movupd	(%rsi,%rax,8), %xmm3
+1699
+Could not insert function: sub_400a50 into the LLVM module
+Failure to convert to LLVM module!

@@ -2,21 +2,100 @@ Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 400b90, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400b99, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400b90, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400ba1, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400b90, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400ba8, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400b90, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400bb1, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400b90, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400bbd, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400b90, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400be4, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400b90, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400bcb, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400b90, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400bd8, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400b90, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400bed, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400b60, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400b70, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400b80, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400b30, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400b50, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400b20, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400b28, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400b40, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400b18, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400b18, ro: 0, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 600df0, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 600df0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 601060, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 601060, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 601060, ro: 2, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 400670, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 601060, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601060, ro: 0, rt: DATA
 Deserializing functions...
-Deserializing functions...
-Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 601060, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 601067, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 601060, ro: 2, rt: DATA
 Deserializing data...
 Deserializing data...
 Deserializing data...
 Deserializing data...
+Deserializing symbol at: 600de0, sub_0x400700L, 8
+cur_pos: 600de0
+dse_base: 600de0
+new_cur_pos2: 600de8
+Deserializing data...
+Deserializing symbol at: 600de8, sub_0x4006e0L, 8
+cur_pos: 600de8
+dse_base: 600de8
+new_cur_pos2: 600df0
 Deserializing data...
 Deserializing data...
+Deserializing symbol at: 600ff8, ext___gmon_start__, 8
+cur_pos: 600ff8
+dse_base: 600ff8
+new_cur_pos2: 601000
+Deserializing data...
+Deserializing symbol at: 601018, ext_printf, 8
+cur_pos: 601000
+dse_base: 601018
+new_cur_pos: 601020
+Deserializing symbol at: 601020, ext___gmon_start__, 8
+cur_pos: 601020
+dse_base: 601020
+new_cur_pos2: 601028
+Deserializing symbol at: 601028, ext___libc_start_main, 8
+cur_pos: 601028
+dse_base: 601028
+new_cur_pos2: 601030
+Deserializing symbol at: 601030, ext_cos, 8
+cur_pos: 601030
+dse_base: 601030
+new_cur_pos2: 601038
+Deserializing symbol at: 601038, ext_pow, 8
+cur_pos: 601038
+dse_base: 601038
+new_cur_pos2: 601040
+Deserializing symbol at: 601040, ext_sqrt, 8
+cur_pos: 601040
+dse_base: 601040
+new_cur_pos2: 601048
+Deserializing symbol at: 601048, ext_sin, 8
+cur_pos: 601048
+dse_base: 601048
+new_cur_pos2: 601050
 Deserializing data...
 Deserializing data...
-Deserializing data...
-Deserializing data...
+Deserializing externs...
+Deserializing externs...
 Deserializing externs...
 Deserializing externs...
 Deserializing externs...
@@ -28,6 +107,7 @@ Done setting target
 Adding external funcs...
 Adding external data...
 Adding internal data...
+Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
@@ -36,11 +116,9 @@ Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_400750
-Inserted function: sub_4005d0
-Inserted function: sub_400610
-Inserted function: sub_400630
-Inserted function: sub_400600
-Inserted function: sub_400620
+Inserted function: sub_400700
+Inserted function: sub_4006e0
+Inserted function: sub_400670
 inserting global data section named data_0x400b10
 inserting global data section named data_0x400bf8
 inserting global data section named data_0x400c40
@@ -51,27 +129,37 @@ inserting global data section named data_0x600ff8
 inserting global data section named data_0x601000
 inserting global data section named data_0x601050
 inserting global data section named data_0x601060
-dataSectionToTypesContents : 400b10 e5
-229
-dataSectionToTypesContents : 400bf8 44
-68
-dataSectionToTypesContents : 400c40 124
-292
-dataSectionToTypesContents : 600de0 8
-8
-dataSectionToTypesContents : 600de8 8
-8
-dataSectionToTypesContents : 600df0 8
-8
-dataSectionToTypesContents : 600ff8 8
-8
-dataSectionToTypesContents : 601000 50
-80
-dataSectionToTypesContents : 601050 10
-16
-dataSectionToTypesContents : 601060 8
-8
-error: 
-Line: 471
-File: /home/sdasgup3/Github/mcsema/mc-sema/cfgToLLVM/raiseX86.h
-Unsupported bit width in write
+dataSectionToTypesContents: Found symbol: sub_0x400700L
+linuxGetInceptionFunction: Adding Callbacks to Module!
+dataSectionToTypesContents: Found symbol: sub_0x4006e0L
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_printf
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext___libc_start_main
+dataSectionToTypesContents: Found symbol: ext_cos
+dataSectionToTypesContents: Found symbol: ext_pow
+dataSectionToTypesContents: Found symbol: ext_sqrt
+dataSectionToTypesContents: Found symbol: ext_sin
+doCallPCExtern paramCount  : 2 : pow
+2 : 2418790
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 2418790
+doCallPCExtern paramCount  : 1 : sin
+1 : 2418790
+doCallPCExtern paramCount  : 1 : cos
+1 : 2418790
+Unsupported!
+400834 	divpd	%xmm3, %xmm1
+675
+Unsupported!
+4008e9 	addpd	%xmm4, %xmm3
+113
+doCallPCExtern paramCount  : 10 : printf
+10 : 2418790
+doCallPCExtern paramCount  : 10 : printf
+10 : 2418790
+Unsupported!
+4009a9 	unpckhpd	%xmm0, %xmm0
+2838
+Could not insert function: sub_400750 into the LLVM module
+Failure to convert to LLVM module!

@@ -2,20 +2,72 @@ Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 4017c3, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4017c0, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4017a8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400c00, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 602060, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602060, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 401798, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 601df0, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601df0, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 4006a0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 602078, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602078, ro: 0, rt: DATA
 Deserializing functions...
 Deserializing functions...
-Deserializing functions...
-Deserializing functions...
-Deserializing functions...
-Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 4017b0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4017a0, ro: 0, rt: DATA
 Deserializing data...
 Deserializing data...
 Deserializing data...
 Deserializing data...
+Deserializing symbol at: 601de0, sub_0x400730L, 8
+cur_pos: 601de0
+dse_base: 601de0
+new_cur_pos2: 601de8
+Deserializing data...
+Deserializing symbol at: 601de8, sub_0x400710L, 8
+cur_pos: 601de8
+dse_base: 601de8
+new_cur_pos2: 601df0
 Deserializing data...
 Deserializing data...
+Deserializing symbol at: 601ff8, ext___gmon_start__, 8
+cur_pos: 601ff8
+dse_base: 601ff8
+new_cur_pos2: 602000
 Deserializing data...
-Deserializing data...
+Deserializing symbol at: 602018, ext_memset, 8
+cur_pos: 602000
+dse_base: 602018
+new_cur_pos: 602020
+Deserializing symbol at: 602020, ext___gmon_start__, 8
+cur_pos: 602020
+dse_base: 602020
+new_cur_pos2: 602028
+Deserializing symbol at: 602028, ext_malloc, 8
+cur_pos: 602028
+dse_base: 602028
+new_cur_pos2: 602030
+Deserializing symbol at: 602030, ext___libc_start_main, 8
+cur_pos: 602030
+dse_base: 602030
+new_cur_pos2: 602038
+Deserializing symbol at: 602038, ext_free, 8
+cur_pos: 602038
+dse_base: 602038
+new_cur_pos2: 602040
+Deserializing symbol at: 602040, ext_fprintf, 8
+cur_pos: 602040
+dse_base: 602040
+new_cur_pos2: 602048
+Deserializing symbol at: 602048, ext_fflush, 8
+cur_pos: 602048
+dse_base: 602048
+new_cur_pos2: 602050
 Deserializing data...
 Deserializing data...
 Deserializing externs...
@@ -23,12 +75,16 @@ Deserializing externs...
 Deserializing externs...
 Deserializing externs...
 Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing external data...
 Creating module...
 Setting target...
 Done setting target
 Adding external funcs...
 Adding external data...
 Adding internal data...
+Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
@@ -37,12 +93,10 @@ Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_4011f0
-Inserted function: sub_400660
-Inserted function: sub_400640
+Inserted function: sub_400730
+Inserted function: sub_400710
+Inserted function: sub_4006a0
 Inserted function: sub_400c00
-Inserted function: sub_400650
-Inserted function: sub_400600
-Inserted function: sub_400620
 inserting global data section named data_0x401790
 inserting global data section named data_0x4017e4
 inserting global data section named data_0x401848
@@ -53,53 +107,50 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602050
 inserting global data section named data_0x602070
-dataSectionToTypesContents : 401790 54
-84
-dataSectionToTypesContents : 4017e4 64
-100
-dataSectionToTypesContents : 401848 1e4
-484
-dataSectionToTypesContents : 601de0 8
-8
-dataSectionToTypesContents : 601de8 8
-8
-dataSectionToTypesContents : 601df0 8
-8
-dataSectionToTypesContents : 601ff8 8
-8
-dataSectionToTypesContents : 602000 50
-80
-dataSectionToTypesContents : 602050 18
-24
-dataSectionToTypesContents : 602070 10
-16
-shouldSubtractImageBase: Not on Win32
-Unsupported!
-4012f0 	xorq	$123459876, %rcx
-5752
+dataSectionToTypesContents: Found symbol: sub_0x400730L
+linuxGetInceptionFunction: Adding Callbacks to Module!
+dataSectionToTypesContents: Found symbol: sub_0x400710L
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_memset
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_malloc
+dataSectionToTypesContents: Found symbol: ext___libc_start_main
+dataSectionToTypesContents: Found symbol: ext_free
+dataSectionToTypesContents: Found symbol: ext_fprintf
+dataSectionToTypesContents: Found symbol: ext_fflush
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1e71790
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1e71790
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1e71790
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1e71790
+doCallPCExtern paramCount  : 3 : memset
+3 : 1e71790
 Unsupported!
 4013b0 	movupd	-16(%rax,%rdx,8), %xmm0
 1699
 Unsupported!
 4014e0 	movupd	(%rsi,%rbp,8), %xmm3
 1699
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
+doCallPCtarget address : 400c00
+doCallPCExtern paramCount  : 1 : free
+1 : 1e71790
+doCallPCExtern paramCount  : 1 : free
+1 : 1e71790
+doCallPCExtern paramCount  : 1 : free
+1 : 1e71790
+doCallPCExtern paramCount  : 1 : free
+1 : 1e71790
 Unsupported!
 401600 	movupd	-16(%rbp), %xmm2
 1699
-shouldSubtractImageBase: Not on Win32
-doCallPCtarget address : 400620
-doCallPCtarget address : 400620
-doCallPCtarget address : 400620
-doCallPCtarget address : 400620
-doCallPCtarget address : 400600
-doCallPCtarget address : 400c00
-doCallPCtarget address : 400640
-doCallPCtarget address : 400640
-doCallPCtarget address : 400640
-doCallPCtarget address : 400640
-doCallPCtarget address : 400650
-doCallPCtarget address : 400660
+getValueForExternal: Found external data ref to: stdout
+doCallPCExtern paramCount  : 10 : fprintf
+10 : 1e71790
+getValueForExternal: Found external data ref to: stdout
+doCallPCExtern paramCount  : 1 : fflush
+1 : 1e71790
+Could not insert function: sub_4011f0 into the LLVM module
 Failure to convert to LLVM module!

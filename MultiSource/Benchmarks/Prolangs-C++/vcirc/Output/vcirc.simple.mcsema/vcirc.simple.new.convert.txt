@@ -1,0 +1,165 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 400790, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: IMM, to: 4009a0, ro: 5, rt: DATA
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 400630, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 601158, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601158, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 600df0, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 600df0, ro: 0, rt: DATA
+Deserializing functions...
+Deserializing data...
+Deserializing symbol at: 400938, dta_0x400960L, 8
+cur_pos: 400920
+dse_base: 400938
+new_cur_pos: 400940
+Deserializing symbol at: 400940, sub_0x400720L, 8
+cur_pos: 400940
+dse_base: 400940
+new_cur_pos2: 400948
+Deserializing symbol at: 400948, sub_0x400730L, 8
+cur_pos: 400948
+dse_base: 400948
+new_cur_pos2: 400950
+Deserializing symbol at: 400960, dta_0x601110L, 8
+cur_pos: 400950
+dse_base: 400960
+new_cur_pos: 400968
+Deserializing symbol at: 400968, dta_0x400950L, 8
+cur_pos: 400968
+dse_base: 400968
+new_cur_pos2: 400970
+Deserializing symbol at: 400978, dta_0x4009e8L, 8
+cur_pos: 400970
+dse_base: 400978
+new_cur_pos: 400980
+Deserializing symbol at: 400998, dta_0x4009c0L, 8
+cur_pos: 400980
+dse_base: 400998
+new_cur_pos: 4009a0
+Deserializing symbol at: 4009a0, sub_0x400780L, 8
+cur_pos: 4009a0
+dse_base: 4009a0
+new_cur_pos2: 4009a8
+Deserializing symbol at: 4009a8, sub_0x400790L, 8
+cur_pos: 4009a8
+dse_base: 4009a8
+new_cur_pos2: 4009b0
+Deserializing symbol at: 4009c0, dta_0x6010b0L, 8
+cur_pos: 4009b0
+dse_base: 4009c0
+new_cur_pos: 4009c8
+Deserializing symbol at: 4009c8, dta_0x4009b0L, 8
+cur_pos: 4009c8
+dse_base: 4009c8
+new_cur_pos2: 4009d0
+Deserializing symbol at: 4009d0, dta_0x400960L, 8
+cur_pos: 4009d0
+dse_base: 4009d0
+new_cur_pos2: 4009d8
+Deserializing symbol at: 4009e8, dta_0x601050L, 8
+cur_pos: 4009d8
+dse_base: 4009e8
+new_cur_pos: 4009f0
+Deserializing symbol at: 4009f0, dta_0x4009d8L, 8
+cur_pos: 4009f0
+dse_base: 4009f0
+new_cur_pos2: 4009f8
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing symbol at: 600de0, sub_0x4006c0L, 8
+cur_pos: 600de0
+dse_base: 600de0
+new_cur_pos2: 600de8
+Deserializing data...
+Deserializing symbol at: 600de8, sub_0x4006a0L, 8
+cur_pos: 600de8
+dse_base: 600de8
+new_cur_pos2: 600df0
+Deserializing data...
+Deserializing data...
+Deserializing symbol at: 600ff8, ext___gmon_start__, 8
+cur_pos: 600ff8
+dse_base: 600ff8
+new_cur_pos2: 601000
+Deserializing data...
+Deserializing symbol at: 601018, ext___gmon_start__, 8
+cur_pos: 601000
+dse_base: 601018
+new_cur_pos: 601020
+Deserializing symbol at: 601020, ext___libc_start_main, 8
+cur_pos: 601020
+dse_base: 601020
+new_cur_pos2: 601028
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding Offset Tables...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_4007f0
+Inserted function: sub_400720
+Inserted function: sub_400780
+Inserted function: sub_400790
+Inserted function: sub_400730
+Inserted function: sub_4006a0
+Inserted function: sub_4006c0
+Inserted function: sub_400630
+inserting global data section named data_0x400920
+inserting global data section named data_0x4009f8
+inserting global data section named data_0x400a80
+inserting global data section named data_0x600de0
+inserting global data section named data_0x600de8
+inserting global data section named data_0x600df0
+inserting global data section named data_0x600ff8
+inserting global data section named data_0x601000
+inserting global data section named data_0x601028
+inserting global data section named data_0x601040
+dataSectionToTypesContents: Found symbol: dta_0x400960L
+dataSectionToTypesContents: Found symbol: sub_0x400720L
+linuxGetInceptionFunction: Adding Callbacks to Module!
+translate_JMPr: regular jump via register: 400697
+translate_JMPr: regular jump via register: 400657
+dataSectionToTypesContents: Found symbol: sub_0x400730L
+dataSectionToTypesContents: Found symbol: dta_0x601110L
+dataSectionToTypesContents: Found symbol: dta_0x400950L
+dataSectionToTypesContents: Found symbol: dta_0x4009e8L
+dataSectionToTypesContents: Found symbol: dta_0x4009c0L
+dataSectionToTypesContents: Found symbol: sub_0x400780L
+dataSectionToTypesContents: Found symbol: sub_0x400790L
+dataSectionToTypesContents: Found symbol: dta_0x6010b0L
+dataSectionToTypesContents: Found symbol: dta_0x4009b0L
+dataSectionToTypesContents: Found symbol: dta_0x400960L
+dataSectionToTypesContents: Found symbol: dta_0x601050L
+dataSectionToTypesContents: Found symbol: dta_0x4009d8L
+dataSectionToTypesContents: Found symbol: sub_0x4006c0L
+dataSectionToTypesContents: Found symbol: sub_0x4006a0L
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext___libc_start_main
+doCallPCtarget address : 400790
+doCallPCtarget address : 400630
+Adding entry point: mcsema_main
+in : doPostAnalysis
+registering passes

@@ -2,18 +2,70 @@ Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 400858, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400848, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400850, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400885, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4008aa, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400834, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400838, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 40083c, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400840, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400844, ro: 0, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 600df0, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 600df0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 601048, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 601048, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 601048, ro: 2, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 400580, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 601048, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601048, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 601048, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 60104f, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 601048, ro: 2, rt: DATA
 Deserializing data...
 Deserializing data...
 Deserializing data...
 Deserializing data...
+Deserializing symbol at: 600de0, sub_0x400610L, 8
+cur_pos: 600de0
+dse_base: 600de0
+new_cur_pos2: 600de8
+Deserializing data...
+Deserializing symbol at: 600de8, sub_0x4005f0L, 8
+cur_pos: 600de8
+dse_base: 600de8
+new_cur_pos2: 600df0
 Deserializing data...
 Deserializing data...
+Deserializing symbol at: 600ff8, ext___gmon_start__, 8
+cur_pos: 600ff8
+dse_base: 600ff8
+new_cur_pos2: 601000
+Deserializing data...
+Deserializing symbol at: 601018, ext_printf, 8
+cur_pos: 601000
+dse_base: 601018
+new_cur_pos: 601020
+Deserializing symbol at: 601020, ext___gmon_start__, 8
+cur_pos: 601020
+dse_base: 601020
+new_cur_pos2: 601028
+Deserializing symbol at: 601028, ext_puts, 8
+cur_pos: 601028
+dse_base: 601028
+new_cur_pos2: 601030
+Deserializing symbol at: 601030, ext___libc_start_main, 8
+cur_pos: 601030
+dse_base: 601030
+new_cur_pos2: 601038
 Deserializing data...
 Deserializing data...
-Deserializing data...
-Deserializing data...
+Deserializing externs...
+Deserializing externs...
 Deserializing externs...
 Deserializing externs...
 Creating module...
@@ -22,6 +74,7 @@ Done setting target
 Adding external funcs...
 Adding external data...
 Adding internal data...
+Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
@@ -30,8 +83,9 @@ Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_400650
-Inserted function: sub_400510
-Inserted function: sub_400530
+Inserted function: sub_400610
+Inserted function: sub_4005f0
+Inserted function: sub_400580
 inserting global data section named data_0x400830
 inserting global data section named data_0x4008bc
 inserting global data section named data_0x4008f8
@@ -42,29 +96,22 @@ inserting global data section named data_0x600ff8
 inserting global data section named data_0x601000
 inserting global data section named data_0x601038
 inserting global data section named data_0x601048
-dataSectionToTypesContents : 400830 89
-137
-dataSectionToTypesContents : 4008bc 3c
-60
-dataSectionToTypesContents : 4008f8 10c
-268
-dataSectionToTypesContents : 600de0 8
-8
-dataSectionToTypesContents : 600de8 8
-8
-dataSectionToTypesContents : 600df0 8
-8
-dataSectionToTypesContents : 600ff8 8
-8
-dataSectionToTypesContents : 601000 38
-56
-dataSectionToTypesContents : 601038 10
-16
-dataSectionToTypesContents : 601048 8
-8
-shouldSubtractImageBase: Not on Win32
-doCallPCtarget address : 400530
-error: 
-Line: 471
-File: /home/sdasgup3/Github/mcsema/mc-sema/cfgToLLVM/raiseX86.h
-Unsupported bit width in write
+dataSectionToTypesContents: Found symbol: sub_0x400610L
+linuxGetInceptionFunction: Adding Callbacks to Module!
+dataSectionToTypesContents: Found symbol: sub_0x4005f0L
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_printf
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_puts
+dataSectionToTypesContents: Found symbol: ext___libc_start_main
+doCallPCExtern paramCount  : 1 : puts
+1 : 2f349a0
+Unsupported!
+4006e6 	mulps	%xmm6, %xmm6
+1735
+doCallPCExtern paramCount  : 10 : printf
+10 : 2f349a0
+doCallPCExtern paramCount  : 10 : printf
+10 : 2f349a0
+Could not insert function: sub_400650 into the LLVM module
+Failure to convert to LLVM module!

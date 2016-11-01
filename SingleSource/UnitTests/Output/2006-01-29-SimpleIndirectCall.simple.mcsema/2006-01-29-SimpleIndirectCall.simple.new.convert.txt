@@ -2,18 +2,64 @@ Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 4005f0, ro: 1, rt: CODE
+set_ref_reloc_type: Adding  ref: IMM, to: 400600, ro: 1, rt: CODE
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 600df0, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 600df0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 601040, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 601040, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 601040, ro: 2, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 400530, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 601040, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601040, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 601040, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 601047, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 601040, ro: 2, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 4006b4, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601020, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 4006c2, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601020, ro: 0, rt: DATA
 Deserializing data...
 Deserializing data...
 Deserializing data...
 Deserializing data...
+Deserializing symbol at: 600de0, sub_0x4005c0L, 8
+cur_pos: 600de0
+dse_base: 600de0
+new_cur_pos2: 600de8
+Deserializing data...
+Deserializing symbol at: 600de8, sub_0x4005a0L, 8
+cur_pos: 600de8
+dse_base: 600de8
+new_cur_pos2: 600df0
 Deserializing data...
 Deserializing data...
+Deserializing symbol at: 600ff8, ext___gmon_start__, 8
+cur_pos: 600ff8
+dse_base: 600ff8
+new_cur_pos2: 601000
+Deserializing data...
+Deserializing symbol at: 601018, ext___gmon_start__, 8
+cur_pos: 601000
+dse_base: 601018
+new_cur_pos: 601020
+Deserializing symbol at: 601020, ext_puts, 8
+cur_pos: 601020
+dse_base: 601020
+new_cur_pos2: 601028
+Deserializing symbol at: 601028, ext___libc_start_main, 8
+cur_pos: 601028
+dse_base: 601028
+new_cur_pos2: 601030
 Deserializing data...
 Deserializing data...
-Deserializing data...
-Deserializing data...
+Deserializing externs...
+Deserializing externs...
 Deserializing externs...
 Creating module...
 Setting target...
@@ -21,14 +67,16 @@ Done setting target
 Adding external funcs...
 Adding external data...
 Adding internal data...
+Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_400610
+Inserted function: sub_4005c0
+Inserted function: sub_4005a0
+Inserted function: sub_400530
 Inserted function: sub_4005f0
 Inserted function: sub_400600
 inserting global data section named data_0x4006b0
@@ -41,36 +89,26 @@ inserting global data section named data_0x600ff8
 inserting global data section named data_0x601000
 inserting global data section named data_0x601030
 inserting global data section named data_0x601040
-dataSectionToTypesContents : 4006b0 22
-34
-dataSectionToTypesContents : 4006d4 44
-68
-dataSectionToTypesContents : 400718 11c
-284
-dataSectionToTypesContents : 600de0 8
-8
-dataSectionToTypesContents : 600de8 8
-8
-dataSectionToTypesContents : 600df0 8
-8
-dataSectionToTypesContents : 600ff8 8
-8
-dataSectionToTypesContents : 601000 30
-48
-dataSectionToTypesContents : 601030 10
-16
-dataSectionToTypesContents : 601040 8
-8
-shouldSubtractImageBase: Not on Win32
-!!!WARNING WARNING WARNING!!!
-	Assuming all callbacks are to translated code!!!
-!!!WARNING WARNING WARNING!!!
-	Assuming all callbacks are to translated code!!!
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+translate_JMPr: regular jump via register: 400597
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+translate_JMPr: regular jump via register: 400557
+shouldSubtractImageBase: No __ImageBase defined
+dataSectionToTypesContents: Found symbol: sub_0x4005c0L
+dataSectionToTypesContents: Found symbol: sub_0x4005a0L
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_puts
+dataSectionToTypesContents: Found symbol: ext___libc_start_main
+doCallPCtarget address : 400530
 doCallPCExtern paramCount  : 1 : puts
-1 : 1495aa0
-shouldSubtractImageBase: Not on Win32
+1 : 18d8d40
+shouldSubtractImageBase: No __ImageBase defined
 doCallPCExtern paramCount  : 1 : puts
-1 : 1495aa0
-Adding entry point: mcsema_main
-in : doPostAnalysis
-registering passes
+1 : 18d8d40
+Adding entry point: main
+main is implemented by sub_400610
+NOT doing post analysis passes.

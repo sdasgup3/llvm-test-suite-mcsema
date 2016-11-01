@@ -2,25 +2,114 @@ Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 401180, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 40110a, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602084, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4010d0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4010c8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 401155, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4010c8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400b00, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 602084, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4010ec, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602084, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4010e8, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4010e8, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4010e8, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602084, ro: 0, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 601df0, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601df0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602080, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602080, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602080, ro: 2, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 400780, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 602080, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602080, ro: 0, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 602080, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602087, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602080, ro: 2, rt: DATA
 Deserializing functions...
-Deserializing functions...
-Deserializing functions...
-Deserializing functions...
-Deserializing functions...
-Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 602084, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4010e0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602084, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4010d8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4010e0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602084, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4010d8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4010d8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602084, ro: 0, rt: DATA
 Deserializing data...
 Deserializing data...
 Deserializing data...
 Deserializing data...
+Deserializing symbol at: 601de0, sub_0x400810L, 8
+cur_pos: 601de0
+dse_base: 601de0
+new_cur_pos2: 601de8
+Deserializing data...
+Deserializing symbol at: 601de8, sub_0x4007f0L, 8
+cur_pos: 601de8
+dse_base: 601de8
+new_cur_pos2: 601df0
 Deserializing data...
 Deserializing data...
+Deserializing symbol at: 601ff8, ext___gmon_start__, 8
+cur_pos: 601ff8
+dse_base: 601ff8
+new_cur_pos2: 602000
+Deserializing data...
+Deserializing symbol at: 602018, ext_printf, 8
+cur_pos: 602000
+dse_base: 602018
+new_cur_pos: 602020
+Deserializing symbol at: 602020, ext_seed48, 8
+cur_pos: 602020
+dse_base: 602020
+new_cur_pos2: 602028
+Deserializing symbol at: 602028, ext___gmon_start__, 8
+cur_pos: 602028
+dse_base: 602028
+new_cur_pos2: 602030
+Deserializing symbol at: 602030, ext_puts, 8
+cur_pos: 602030
+dse_base: 602030
+new_cur_pos2: 602038
+Deserializing symbol at: 602038, ext_malloc, 8
+cur_pos: 602038
+dse_base: 602038
+new_cur_pos2: 602040
+Deserializing symbol at: 602040, ext___libc_start_main, 8
+cur_pos: 602040
+dse_base: 602040
+new_cur_pos2: 602048
+Deserializing symbol at: 602048, ext_free, 8
+cur_pos: 602048
+dse_base: 602048
+new_cur_pos2: 602050
+Deserializing symbol at: 602050, ext_strlen, 8
+cur_pos: 602050
+dse_base: 602050
+new_cur_pos2: 602058
+Deserializing symbol at: 602058, ext_sscanf, 8
+cur_pos: 602058
+dse_base: 602058
+new_cur_pos2: 602060
+Deserializing symbol at: 602060, ext_strcpy, 8
+cur_pos: 602060
+dse_base: 602060
+new_cur_pos2: 602068
+Deserializing symbol at: 602068, ext_lrand48, 8
+cur_pos: 602068
+dse_base: 602068
+new_cur_pos2: 602070
 Deserializing data...
 Deserializing data...
-Deserializing data...
-Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing externs...
 Deserializing externs...
 Deserializing externs...
@@ -35,23 +124,17 @@ Done setting target
 Adding external funcs...
 Adding external data...
 Adding internal data...
+Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_400840
-Inserted function: sub_4006a0
-Inserted function: sub_400710
-Inserted function: sub_4006d0
-Inserted function: sub_400730
-Inserted function: sub_4006b0
-Inserted function: sub_4006e0
+Inserted function: sub_400810
+Inserted function: sub_4007f0
+Inserted function: sub_400780
 Inserted function: sub_400b00
-Inserted function: sub_400740
-Inserted function: sub_400720
 inserting global data section named data_0x4010c0
 inserting global data section named data_0x4011b0
 inserting global data section named data_0x401208
@@ -62,102 +145,84 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602070
 inserting global data section named data_0x602080
-dataSectionToTypesContents : 4010c0 f0
-240
-dataSectionToTypesContents : 4011b0 54
-84
-dataSectionToTypesContents : 401208 18c
-396
-dataSectionToTypesContents : 601de0 8
-8
-dataSectionToTypesContents : 601de8 8
-8
-dataSectionToTypesContents : 601df0 8
-8
-dataSectionToTypesContents : 601ff8 8
-8
-dataSectionToTypesContents : 602000 70
-112
-dataSectionToTypesContents : 602070 10
-16
-dataSectionToTypesContents : 602080 8
-8
-translate_MOV32mi: Other reloc
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-doCallPCtarget address : 400730
-doCallPCtarget address : 400720
-doCallPCtarget address : 400720
-doCallPCtarget address : 400720
-doCallPCtarget address : 400710
-doCallPCtarget address : 4006a0
-doCallPCtarget address : 4006d0
-doCallPCtarget address : 4006b0
-doCallPCtarget address : 4006e0
-doCallPCtarget address : 400b00
-doCallPCtarget address : 4006a0
-doCallPCtarget address : 4006a0
-doCallPCExtern paramCount  : 12 : printf
-12 : 309eaa0
-doCallPCExtern paramCount  : 1 : strlen
-1 : 309eaa0
-doCallPCExtern paramCount  : 1 : puts
-1 : 309eaa0
+dataSectionToTypesContents: Found symbol: sub_0x400810L
+dataSectionToTypesContents: Found symbol: sub_0x4007f0L
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_printf
+dataSectionToTypesContents: Found symbol: ext_seed48
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_puts
+dataSectionToTypesContents: Found symbol: ext_malloc
+dataSectionToTypesContents: Found symbol: ext___libc_start_main
+dataSectionToTypesContents: Found symbol: ext_free
+dataSectionToTypesContents: Found symbol: ext_strlen
+dataSectionToTypesContents: Found symbol: ext_sscanf
+dataSectionToTypesContents: Found symbol: ext_strcpy
+dataSectionToTypesContents: Found symbol: ext_lrand48
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 309eaa0
+2 : 23f02d0
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCExtern paramCount  : 10 : sscanf
+10 : 23f02d0
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCExtern paramCount  : 10 : sscanf
+10 : 23f02d0
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCExtern paramCount  : 10 : sscanf
+10 : 23f02d0
+doCallPCExtern paramCount  : 1 : strlen
+1 : 23f02d0
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCExtern paramCount  : 10 : printf
+10 : 23f02d0
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCExtern paramCount  : 1 : puts
+1 : 23f02d0
 doCallPCExtern paramCount  : 1 : seed48
-1 : 309eaa0
+1 : 23f02d0
+shouldSubtractImageBase: No __ImageBase defined
 doCallPCExtern paramCount  : 1 : malloc
-1 : 309eaa0
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-Unsupported!
-400f13 	movq	(%r15), %xmm0
-1665
-Unsupported!
-400ea4 	cvtsi2sdq	%rcx, %xmm0
-622
-Unsupported!
-400e56 	movq	(%r12), %xmm0
-1665
-Unsupported!
-400c2d 	cvtsi2sdq	%rcx, %xmm0
-622
-Unsupported!
-400bd8 	movq	(%r14), %xmm0
-1665
-Unsupported!
-400f8e 	cvtsi2sdq	%rcx, %xmm0
-622
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-Unsupported!
-400d56 	movq	(%r15), %xmm0
-1665
-Unsupported!
-400db9 	cvtsi2sdq	%rcx, %xmm0
-622
-Unsupported!
-400cfa 	cvtsi2sdq	%rcx, %xmm0
-622
-Unsupported!
-400ca5 	movq	(%r15), %xmm0
-1665
-doCallPCtarget address : 400740
-doCallPCtarget address : 400740
-doCallPCtarget address : 400740
-doCallPCtarget address : 400740
-doCallPCtarget address : 400740
-doCallPCtarget address : 400740
-doCallPCtarget address : 400740
-doCallPCtarget address : 400740
-doCallPCtarget address : 400740
-doCallPCtarget address : 400740
-Failure to convert to LLVM module!
+1 : 23f02d0
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCtarget address : 400b00
+doCallPCExtern paramCount  : 10 : printf
+10 : 23f02d0
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCExtern paramCount  : 10 : printf
+10 : 23f02d0
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+translate_JMPr: regular jump via register: 4007e7
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+translate_JMPr: regular jump via register: 4007a7
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCtarget address : 400780
+doCallPCExtern paramCount  : 0 : lrand48
+0 : 24876c0
+doCallPCExtern paramCount  : 0 : lrand48
+0 : 24876c0
+doCallPCExtern paramCount  : 0 : lrand48
+0 : 24876c0
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCExtern paramCount  : 0 : lrand48
+0 : 24876c0
+doCallPCExtern paramCount  : 0 : lrand48
+0 : 24876c0
+doCallPCExtern paramCount  : 0 : lrand48
+0 : 24876c0
+doCallPCExtern paramCount  : 0 : lrand48
+0 : 24876c0
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCExtern paramCount  : 0 : lrand48
+0 : 24876c0
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCExtern paramCount  : 0 : lrand48
+0 : 24876c0
+doCallPCExtern paramCount  : 0 : lrand48
+0 : 24876c0
+Adding entry point: main
+main is implemented by sub_400840
+NOT doing post analysis passes.

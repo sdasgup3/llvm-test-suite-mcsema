@@ -1,0 +1,248 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 6020a0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400fa4, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400ca0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: IMM, to: 400fbe, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400a80, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400a80, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400a80, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: IMM, to: 400fbc, ro: 1, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 601df0, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601df0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 6020a0, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 6020a0, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 6020a0, ro: 2, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 4008e0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 6020a8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6020a8, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 6020a0, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 6020a7, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 6020a0, ro: 2, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 400a80, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400a80, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400a80, ro: 0, rt: CODE
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 400ca0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400b50, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400ca0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400b50, ro: 0, rt: CODE
+Deserializing functions...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing symbol at: 601de0, sub_0x400970L, 8
+cur_pos: 601de0
+dse_base: 601de0
+new_cur_pos2: 601de8
+Deserializing data...
+Deserializing symbol at: 601de8, sub_0x400950L, 8
+cur_pos: 601de8
+dse_base: 601de8
+new_cur_pos2: 601df0
+Deserializing data...
+Deserializing data...
+Deserializing symbol at: 601ff8, ext___gmon_start__, 8
+cur_pos: 601ff8
+dse_base: 601ff8
+new_cur_pos2: 602000
+Deserializing data...
+Deserializing symbol at: 602018, ext_abort, 8
+cur_pos: 602000
+dse_base: 602018
+new_cur_pos: 602020
+Deserializing symbol at: 602020, ext___gmon_start__, 8
+cur_pos: 602020
+dse_base: 602020
+new_cur_pos2: 602028
+Deserializing symbol at: 602028, ext_puts, 8
+cur_pos: 602028
+dse_base: 602028
+new_cur_pos2: 602030
+Deserializing symbol at: 602030, ext_fseek, 8
+cur_pos: 602030
+dse_base: 602030
+new_cur_pos2: 602038
+Deserializing symbol at: 602038, ext_fopen, 8
+cur_pos: 602038
+dse_base: 602038
+new_cur_pos2: 602040
+Deserializing symbol at: 602040, ext___libc_start_main, 8
+cur_pos: 602040
+dse_base: 602040
+new_cur_pos2: 602048
+Deserializing symbol at: 602048, ext_free, 8
+cur_pos: 602048
+dse_base: 602048
+new_cur_pos2: 602050
+Deserializing symbol at: 602050, ext_strlen, 8
+cur_pos: 602050
+dse_base: 602050
+new_cur_pos2: 602058
+Deserializing symbol at: 602058, ext_strcpy, 8
+cur_pos: 602058
+dse_base: 602058
+new_cur_pos2: 602060
+Deserializing symbol at: 602060, ext_calloc, 8
+cur_pos: 602060
+dse_base: 602060
+new_cur_pos2: 602068
+Deserializing symbol at: 602068, ext_feof, 8
+cur_pos: 602068
+dse_base: 602068
+new_cur_pos2: 602070
+Deserializing symbol at: 602070, ext_fclose, 8
+cur_pos: 602070
+dse_base: 602070
+new_cur_pos2: 602078
+Deserializing symbol at: 602078, ext_fscanf, 8
+cur_pos: 602078
+dse_base: 602078
+new_cur_pos2: 602080
+Deserializing symbol at: 602080, ext_perror, 8
+cur_pos: 602080
+dse_base: 602080
+new_cur_pos2: 602088
+Deserializing symbol at: 602088, ext_fprintf, 8
+cur_pos: 602088
+dse_base: 602088
+new_cur_pos2: 602090
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding Offset Tables...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_400d70
+Inserted function: sub_400970
+Inserted function: sub_400950
+Inserted function: sub_4008e0
+Inserted function: sub_400a80
+Inserted function: sub_400ca0
+Inserted function: sub_400b50
+inserting global data section named data_0x400fa0
+inserting global data section named data_0x400fc4
+inserting global data section named data_0x401050
+inserting global data section named data_0x601de0
+inserting global data section named data_0x601de8
+inserting global data section named data_0x601df0
+inserting global data section named data_0x601ff8
+inserting global data section named data_0x602000
+inserting global data section named data_0x602090
+inserting global data section named data_0x6020a0
+dataSectionToTypesContents: Found symbol: sub_0x400970L
+linuxGetInceptionFunction: Adding Callbacks to Module!
+dataSectionToTypesContents: Found symbol: sub_0x400950L
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_abort
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_puts
+dataSectionToTypesContents: Found symbol: ext_fseek
+dataSectionToTypesContents: Found symbol: ext_fopen
+dataSectionToTypesContents: Found symbol: ext___libc_start_main
+dataSectionToTypesContents: Found symbol: ext_free
+dataSectionToTypesContents: Found symbol: ext_strlen
+dataSectionToTypesContents: Found symbol: ext_strcpy
+dataSectionToTypesContents: Found symbol: ext_calloc
+dataSectionToTypesContents: Found symbol: ext_feof
+dataSectionToTypesContents: Found symbol: ext_fclose
+dataSectionToTypesContents: Found symbol: ext_fscanf
+dataSectionToTypesContents: Found symbol: ext_perror
+dataSectionToTypesContents: Found symbol: ext_fprintf
+doCallPCExtern paramCount  : 10 : fprintf
+10 : 2a616e0
+doCallPCExtern paramCount  : 2 : fopen
+2 : 2a616e0
+doCallPCExtern paramCount  : 1 : perror
+1 : 2a616e0
+doCallPCExtern paramCount  : 1 : feof
+1 : 2a616e0
+doCallPCExtern paramCount  : 1 : fclose
+1 : 2a616e0
+doCallPCExtern paramCount  : 2 : calloc
+2 : 2a616e0
+doCallPCExtern paramCount  : 0 : abort
+0 : 2a61120
+doCallPCtarget address : 400ca0
+doCallPCExtern paramCount  : 10 : fscanf
+10 : 2a616e0
+doCallPCExtern paramCount  : 1 : strlen
+1 : 2a616e0
+doCallPCExtern paramCount  : 3 : fseek
+3 : 2a616e0
+doCallPCExtern paramCount  : 1 : feof
+1 : 2a616e0
+doCallPCtarget address : 400a80
+doCallPCExtern paramCount  : 0 : abort
+0 : 2a61120
+translate_JMPr: regular jump via register: 400947
+translate_JMPr: regular jump via register: 400907
+doCallPCtarget address : 400a80
+doCallPCtarget address : 400a80
+doCallPCtarget address : 4008e0
+doCallPCExtern paramCount  : 2 : calloc
+2 : 2a616e0
+doCallPCExtern paramCount  : 0 : abort
+0 : 2a61120
+doCallPCtarget address : 400a80
+doCallPCExtern paramCount  : 0 : abort
+0 : 2a61120
+doCallPCtarget address : 400a80
+doCallPCtarget address : 400a80
+doCallPCtarget address : 400b50
+doCallPCtarget address : 400ca0
+doCallPCExtern paramCount  : 0 : abort
+0 : 2a61120
+doCallPCExtern paramCount  : 1 : puts
+1 : 2a616e0
+doCallPCtarget address : 400b50
+doCallPCExtern paramCount  : 0 : abort
+0 : 2a61120
+doCallPCtarget address : 400ca0
+doCallPCExtern paramCount  : 1 : puts
+1 : 2a616e0
+doCallPCExtern paramCount  : 0 : abort
+0 : 2a61120
+doCallPCExtern paramCount  : 2 : calloc
+2 : 2a616e0
+doCallPCExtern paramCount  : 2 : calloc
+2 : 2a616e0
+doCallPCExtern paramCount  : 2 : strcpy
+2 : 2a616e0
+doCallPCExtern paramCount  : 1 : free
+1 : 2a616e0
+Adding entry point: mcsema_main
+in : doPostAnalysis
+registering passes

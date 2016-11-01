@@ -1,0 +1,176 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 601048, ro: 7, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601120, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 601040, ro: 7, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 601048, ro: 7, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601130, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 601040, ro: 7, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601138, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 601048, ro: 7, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601140, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 601040, ro: 7, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601148, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 601048, ro: 7, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601150, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601048, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 601048, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 601048, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601150, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601140, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601150, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 4008a8, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 601048, ro: 1, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 4008aa, ro: 1, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 400620, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 601118, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601118, ro: 0, rt: DATA
+Deserializing functions...
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 600df0, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 600df0, ro: 0, rt: DATA
+Deserializing data...
+Deserializing symbol at: 400848, dta_0x400860L, 8
+cur_pos: 400830
+dse_base: 400848
+new_cur_pos: 400850
+Deserializing symbol at: 400850, sub_0x4006e0L, 8
+cur_pos: 400850
+dse_base: 400850
+new_cur_pos2: 400858
+Deserializing symbol at: 400860, dta_0x6010d0L, 8
+cur_pos: 400858
+dse_base: 400860
+new_cur_pos: 400868
+Deserializing symbol at: 400868, dta_0x400858L, 8
+cur_pos: 400868
+dse_base: 400868
+new_cur_pos2: 400870
+Deserializing symbol at: 400870, dta_0x400880L, 8
+cur_pos: 400870
+dse_base: 400870
+new_cur_pos2: 400878
+Deserializing symbol at: 400880, dta_0x601070L, 8
+cur_pos: 400878
+dse_base: 400880
+new_cur_pos: 400888
+Deserializing symbol at: 400888, dta_0x400878L, 8
+cur_pos: 400888
+dse_base: 400888
+new_cur_pos2: 400890
+Deserializing symbol at: 400898, dta_0x400880L, 8
+cur_pos: 400890
+dse_base: 400898
+new_cur_pos: 4008a0
+Deserializing symbol at: 4008a0, sub_0x400790L, 8
+cur_pos: 4008a0
+dse_base: 4008a0
+new_cur_pos2: 4008a8
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing symbol at: 600de0, sub_0x4006b0L, 8
+cur_pos: 600de0
+dse_base: 600de0
+new_cur_pos2: 600de8
+Deserializing data...
+Deserializing symbol at: 600de8, sub_0x400690L, 8
+cur_pos: 600de8
+dse_base: 600de8
+new_cur_pos2: 600df0
+Deserializing data...
+Deserializing data...
+Deserializing symbol at: 600ff8, ext___gmon_start__, 8
+cur_pos: 600ff8
+dse_base: 600ff8
+new_cur_pos2: 601000
+Deserializing data...
+Deserializing symbol at: 601018, ext___gmon_start__, 8
+cur_pos: 601000
+dse_base: 601018
+new_cur_pos: 601020
+Deserializing symbol at: 601020, ext_puts, 8
+cur_pos: 601020
+dse_base: 601020
+new_cur_pos2: 601028
+Deserializing symbol at: 601028, ext___libc_start_main, 8
+cur_pos: 601028
+dse_base: 601028
+new_cur_pos2: 601030
+Deserializing data...
+Deserializing symbol at: 601040, dta_0x4008a0L, 8
+cur_pos: 601030
+dse_base: 601040
+new_cur_pos: 601048
+Deserializing symbol at: 601048, dta_0x400850L, 8
+cur_pos: 601048
+dse_base: 601048
+new_cur_pos2: 601050
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding Offset Tables...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_400700
+Inserted function: sub_4006e0
+Inserted function: sub_400790
+Inserted function: sub_400690
+Inserted function: sub_400620
+Inserted function: sub_4006b0
+inserting global data section named data_0x400830
+inserting global data section named data_0x4008ac
+inserting global data section named data_0x4008f0
+inserting global data section named data_0x600de0
+inserting global data section named data_0x600de8
+inserting global data section named data_0x600df0
+inserting global data section named data_0x600ff8
+inserting global data section named data_0x601000
+inserting global data section named data_0x601030
+inserting global data section named data_0x601060
+dataSectionToTypesContents: Found symbol: dta_0x400860L
+dataSectionToTypesContents: Found symbol: sub_0x4006e0L
+linuxGetInceptionFunction: Adding Callbacks to Module!
+dataSectionToTypesContents: Found symbol: dta_0x6010d0L
+dataSectionToTypesContents: Found symbol: dta_0x400858L
+dataSectionToTypesContents: Found symbol: dta_0x400880L
+dataSectionToTypesContents: Found symbol: dta_0x601070L
+dataSectionToTypesContents: Found symbol: dta_0x400878L
+dataSectionToTypesContents: Found symbol: dta_0x400880L
+dataSectionToTypesContents: Found symbol: sub_0x400790L
+dataSectionToTypesContents: Found symbol: sub_0x4006b0L
+dataSectionToTypesContents: Found symbol: sub_0x400690L
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_puts
+dataSectionToTypesContents: Found symbol: ext___libc_start_main
+dataSectionToTypesContents: Found symbol: dta_0x4008a0L
+dataSectionToTypesContents: Found symbol: dta_0x400850L
+doCallPCExtern paramCount  : 1 : puts
+1 : 3104790
+doCallPCExtern paramCount  : 1 : puts
+1 : 3104790
+translate_JMPr: regular jump via register: 400647
+translate_JMPr: regular jump via register: 400687
+doCallPCtarget address : 400620
+Adding entry point: mcsema_main
+in : doPostAnalysis
+registering passes

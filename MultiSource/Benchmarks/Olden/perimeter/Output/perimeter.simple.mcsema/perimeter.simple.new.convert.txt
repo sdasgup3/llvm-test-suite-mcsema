@@ -1,0 +1,206 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 4006d0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 60205c, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400ef8, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 60205c, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400b10, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400710, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: IMM, to: 400f23, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4007a0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: IMM, to: 400f36, ro: 1, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 601df0, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601df0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602058, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602058, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602058, ro: 2, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 400610, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 602058, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602058, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 4009d0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400900, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 4009d0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400900, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 4007a0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 4007a0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 4007a0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 4007a0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 4009d0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400900, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 4009d0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400900, ro: 0, rt: CODE
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 400f48, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400900, ro: 0, rt: CODE
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 602058, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 60205f, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602058, ro: 2, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 400710, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400710, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400710, ro: 0, rt: CODE
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 4009d0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 4009d0, ro: 0, rt: CODE
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 60205c, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 60205c, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602040, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 400b10, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400b10, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400b10, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400b10, ro: 0, rt: CODE
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing symbol at: 601de0, sub_0x4006a0L, 8
+cur_pos: 601de0
+dse_base: 601de0
+new_cur_pos2: 601de8
+Deserializing data...
+Deserializing symbol at: 601de8, sub_0x400680L, 8
+cur_pos: 601de8
+dse_base: 601de8
+new_cur_pos2: 601df0
+Deserializing data...
+Deserializing data...
+Deserializing symbol at: 601ff8, ext___gmon_start__, 8
+cur_pos: 601ff8
+dse_base: 601ff8
+new_cur_pos2: 602000
+Deserializing data...
+Deserializing symbol at: 602018, ext_printf, 8
+cur_pos: 602000
+dse_base: 602018
+new_cur_pos: 602020
+Deserializing symbol at: 602020, ext___gmon_start__, 8
+cur_pos: 602020
+dse_base: 602020
+new_cur_pos2: 602028
+Deserializing symbol at: 602028, ext_exit, 8
+cur_pos: 602028
+dse_base: 602028
+new_cur_pos2: 602030
+Deserializing symbol at: 602030, ext_malloc, 8
+cur_pos: 602030
+dse_base: 602030
+new_cur_pos2: 602038
+Deserializing symbol at: 602038, ext___libc_start_main, 8
+cur_pos: 602038
+dse_base: 602038
+new_cur_pos2: 602040
+Deserializing symbol at: 602040, ext_atoi, 8
+cur_pos: 602040
+dse_base: 602040
+new_cur_pos2: 602048
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding Offset Tables...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_400a80
+Inserted function: sub_4006a0
+Inserted function: sub_400680
+Inserted function: sub_4007a0
+Inserted function: sub_400900
+Inserted function: sub_400610
+Inserted function: sub_400710
+Inserted function: sub_4009d0
+Inserted function: sub_4006d0
+Inserted function: sub_400b10
+inserting global data section named data_0x400e50
+inserting global data section named data_0x400f58
+inserting global data section named data_0x400fc0
+inserting global data section named data_0x601de0
+inserting global data section named data_0x601de8
+inserting global data section named data_0x601df0
+inserting global data section named data_0x601ff8
+inserting global data section named data_0x602000
+inserting global data section named data_0x602048
+inserting global data section named data_0x602058
+dataSectionToTypesContents: Found symbol: sub_0x4006a0L
+linuxGetInceptionFunction: Adding Callbacks to Module!
+dataSectionToTypesContents: Found symbol: sub_0x400680L
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_printf
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_exit
+dataSectionToTypesContents: Found symbol: ext_malloc
+dataSectionToTypesContents: Found symbol: ext___libc_start_main
+dataSectionToTypesContents: Found symbol: ext_atoi
+doCallPCtarget address : 4006d0
+doCallPCExtern paramCount  : 10 : printf
+10 : 2d63790
+doCallPCtarget address : 400b10
+doCallPCtarget address : 400710
+doCallPCExtern paramCount  : 10 : printf
+10 : 2d63790
+doCallPCtarget address : 4007a0
+doCallPCExtern paramCount  : 10 : printf
+10 : 2d63790
+doCallPCExtern paramCount  : 1 : exit
+1 : 2d63790
+translate_JMPr: regular jump via register: 400677
+doJumpTableViaSwitch: Doing jumpt table via switch
+doJumpTableViaSwitch: Doing jumpt table via switch
+doJumpTableViaSwitch: Doing jumpt table via switch
+translate_JMPr: regular jump via register: 400637
+doJumpTableViaSwitch: Doing jumpt table via switch
+doJumpTableViaSwitch: Doing jumpt table via switch
+doCallPCtarget address : 400610
+doCallPCtarget address : 400900
+doCallPCtarget address : 4007a0
+doCallPCtarget address : 4007a0
+doCallPCtarget address : 4007a0
+doCallPCtarget address : 4007a0
+doCallPCtarget address : 400900
+doCallPCtarget address : 400900
+doCallPCtarget address : 4009d0
+doCallPCtarget address : 4009d0
+doCallPCtarget address : 400900
+doCallPCtarget address : 4009d0
+doCallPCtarget address : 4009d0
+doCallPCtarget address : 400900
+doCallPCtarget address : 400710
+doCallPCtarget address : 400710
+doCallPCtarget address : 400710
+doCallPCtarget address : 4009d0
+doCallPCtarget address : 4009d0
+doCallPCExtern paramCount  : 1 : atoi
+1 : 2d63790
+doCallPCExtern paramCount  : 1 : atoi
+1 : 2d63790
+doCallPCExtern paramCount  : 1 : malloc
+1 : 2d63790
+doCallPCtarget address : 400b10
+doCallPCtarget address : 400b10
+doCallPCtarget address : 400b10
+doCallPCtarget address : 400b10
+Adding entry point: mcsema_main
+in : doPostAnalysis
+registering passes

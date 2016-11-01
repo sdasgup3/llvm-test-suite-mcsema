@@ -2,18 +2,79 @@ Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 60204c, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400d64, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 60204c, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400d9e, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400c40, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400d24, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400de1, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400c00, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400c00, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400cec, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400c80, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 60204c, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400c00, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400c40, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400cb6, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400de1, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 60204c, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 60204c, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 60204c, ro: 0, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 601df0, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601df0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602048, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602048, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602048, ro: 2, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 400580, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 602048, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602048, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 602048, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 60204f, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602048, ro: 2, rt: DATA
 Deserializing data...
 Deserializing data...
 Deserializing data...
 Deserializing data...
+Deserializing symbol at: 601de0, sub_0x400610L, 8
+cur_pos: 601de0
+dse_base: 601de0
+new_cur_pos2: 601de8
+Deserializing data...
+Deserializing symbol at: 601de8, sub_0x4005f0L, 8
+cur_pos: 601de8
+dse_base: 601de8
+new_cur_pos2: 601df0
 Deserializing data...
 Deserializing data...
+Deserializing symbol at: 601ff8, ext___gmon_start__, 8
+cur_pos: 601ff8
+dse_base: 601ff8
+new_cur_pos2: 602000
+Deserializing data...
+Deserializing symbol at: 602018, ext_printf, 8
+cur_pos: 602000
+dse_base: 602018
+new_cur_pos: 602020
+Deserializing symbol at: 602020, ext___gmon_start__, 8
+cur_pos: 602020
+dse_base: 602020
+new_cur_pos2: 602028
+Deserializing symbol at: 602028, ext_puts, 8
+cur_pos: 602028
+dse_base: 602028
+new_cur_pos2: 602030
+Deserializing symbol at: 602030, ext___libc_start_main, 8
+cur_pos: 602030
+dse_base: 602030
+new_cur_pos2: 602038
 Deserializing data...
 Deserializing data...
-Deserializing data...
-Deserializing data...
+Deserializing externs...
+Deserializing externs...
 Deserializing externs...
 Deserializing externs...
 Creating module...
@@ -22,6 +83,7 @@ Done setting target
 Adding external funcs...
 Adding external data...
 Adding internal data...
+Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
@@ -30,8 +92,9 @@ Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_4007e0
-Inserted function: sub_400510
-Inserted function: sub_400530
+Inserted function: sub_400610
+Inserted function: sub_4005f0
+Inserted function: sub_400580
 inserting global data section named data_0x400bf0
 inserting global data section named data_0x400dec
 inserting global data section named data_0x400e48
@@ -42,45 +105,30 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602038
 inserting global data section named data_0x602048
-dataSectionToTypesContents : 400bf0 1f9
-505
-dataSectionToTypesContents : 400dec 5c
-92
-dataSectionToTypesContents : 400e48 184
-388
-dataSectionToTypesContents : 601de0 8
-8
-dataSectionToTypesContents : 601de8 8
-8
-dataSectionToTypesContents : 601df0 8
-8
-dataSectionToTypesContents : 601ff8 8
-8
-dataSectionToTypesContents : 602000 38
-56
-dataSectionToTypesContents : 602038 10
-16
-dataSectionToTypesContents : 602048 8
-8
-translate_MOV32mi: Other reloc
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
+dataSectionToTypesContents: Found symbol: sub_0x400610L
+linuxGetInceptionFunction: Adding Callbacks to Module!
+dataSectionToTypesContents: Found symbol: sub_0x4005f0L
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_printf
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_puts
+dataSectionToTypesContents: Found symbol: ext___libc_start_main
+doCallPCExtern paramCount  : 10 : printf
+10 : 3446790
+doCallPCExtern paramCount  : 10 : printf
+10 : 3446790
+doCallPCExtern paramCount  : 1 : puts
+1 : 3446790
 Unsupported!
 400940 	bsrq	%rbx, %rdx
 289
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-doCallPCtarget address : 400510
-doCallPCtarget address : 400510
-doCallPCtarget address : 400530
-doCallPCtarget address : 400510
-doCallPCtarget address : 400530
-doCallPCtarget address : 400510
-doCallPCtarget address : 400510
+doCallPCExtern paramCount  : 10 : printf
+10 : 3446790
+doCallPCExtern paramCount  : 1 : puts
+1 : 3446790
+doCallPCExtern paramCount  : 10 : printf
+10 : 3446790
+doCallPCExtern paramCount  : 10 : printf
+10 : 3446790
+Could not insert function: sub_4007e0 into the LLVM module
 Failure to convert to LLVM module!

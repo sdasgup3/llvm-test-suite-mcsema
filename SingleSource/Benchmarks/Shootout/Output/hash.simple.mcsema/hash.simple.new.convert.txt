@@ -2,26 +2,98 @@ Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 400d13, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400d04, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400d27, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400d24, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400d21, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400d30, ro: 1, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 601df0, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601df0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602088, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602088, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602088, ro: 2, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 4007c0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 602088, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602088, ro: 0, rt: DATA
 Deserializing functions...
-Deserializing functions...
-Deserializing functions...
-Deserializing functions...
-Deserializing functions...
-Deserializing functions...
-Deserializing functions...
-Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 602088, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 60208f, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602088, ro: 2, rt: DATA
 Deserializing data...
 Deserializing data...
 Deserializing data...
 Deserializing data...
+Deserializing symbol at: 601de0, sub_0x400850L, 8
+cur_pos: 601de0
+dse_base: 601de0
+new_cur_pos2: 601de8
+Deserializing data...
+Deserializing symbol at: 601de8, sub_0x400830L, 8
+cur_pos: 601de8
+dse_base: 601de8
+new_cur_pos2: 601df0
 Deserializing data...
 Deserializing data...
+Deserializing symbol at: 601ff8, ext___gmon_start__, 8
+cur_pos: 601ff8
+dse_base: 601ff8
+new_cur_pos2: 602000
+Deserializing data...
+Deserializing symbol at: 602018, ext_printf, 8
+cur_pos: 602000
+dse_base: 602018
+new_cur_pos: 602020
+Deserializing symbol at: 602020, ext___gmon_start__, 8
+cur_pos: 602020
+dse_base: 602020
+new_cur_pos2: 602028
+Deserializing symbol at: 602028, ext_exit, 8
+cur_pos: 602028
+dse_base: 602028
+new_cur_pos2: 602030
+Deserializing symbol at: 602030, ext_malloc, 8
+cur_pos: 602030
+dse_base: 602030
+new_cur_pos2: 602038
+Deserializing symbol at: 602038, ext___libc_start_main, 8
+cur_pos: 602038
+dse_base: 602038
+new_cur_pos2: 602040
+Deserializing symbol at: 602040, ext___strdup, 8
+cur_pos: 602040
+dse_base: 602040
+new_cur_pos2: 602048
+Deserializing symbol at: 602048, ext_free, 8
+cur_pos: 602048
+dse_base: 602048
+new_cur_pos2: 602050
+Deserializing symbol at: 602050, ext_sprintf, 8
+cur_pos: 602050
+dse_base: 602050
+new_cur_pos2: 602058
+Deserializing symbol at: 602058, ext_strtol, 8
+cur_pos: 602058
+dse_base: 602058
+new_cur_pos2: 602060
+Deserializing symbol at: 602060, ext_strcmp, 8
+cur_pos: 602060
+dse_base: 602060
+new_cur_pos2: 602068
+Deserializing symbol at: 602068, ext_calloc, 8
+cur_pos: 602068
+dse_base: 602068
+new_cur_pos2: 602070
+Deserializing symbol at: 602070, ext_perror, 8
+cur_pos: 602070
+dse_base: 602070
+new_cur_pos2: 602078
 Deserializing data...
 Deserializing data...
-Deserializing data...
-Deserializing data...
+Deserializing externs...
+Deserializing externs...
 Deserializing externs...
 Deserializing externs...
 Deserializing externs...
@@ -38,6 +110,7 @@ Done setting target
 Adding external funcs...
 Adding external data...
 Adding internal data...
+Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
@@ -46,16 +119,9 @@ Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_4009c0
-Inserted function: sub_400780
-Inserted function: sub_400740
-Inserted function: sub_400750
-Inserted function: sub_400770
-Inserted function: sub_400760
-Inserted function: sub_4006f0
-Inserted function: sub_4006d0
-Inserted function: sub_400720
-Inserted function: sub_400700
-Inserted function: sub_400730
+Inserted function: sub_400850
+Inserted function: sub_400830
+Inserted function: sub_4007c0
 inserting global data section named data_0x400d00
 inserting global data section named data_0x400e10
 inserting global data section named data_0x400e60
@@ -66,67 +132,53 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602078
 inserting global data section named data_0x602088
-dataSectionToTypesContents : 400d00 110
-272
-dataSectionToTypesContents : 400e10 4c
-76
-dataSectionToTypesContents : 400e60 174
-372
-dataSectionToTypesContents : 601de0 8
-8
-dataSectionToTypesContents : 601de8 8
-8
-dataSectionToTypesContents : 601df0 8
-8
-dataSectionToTypesContents : 601ff8 8
-8
-dataSectionToTypesContents : 602000 78
-120
-dataSectionToTypesContents : 602078 10
-16
-dataSectionToTypesContents : 602088 8
-8
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-doCallPCtarget address : 400750
-doCallPCtarget address : 400770
-doCallPCtarget address : 400730
-doCallPCtarget address : 4006d0
-doCallPCtarget address : 400740
-doCallPCtarget address : 400700
-doCallPCtarget address : 400730
-doCallPCtarget address : 400730
-doCallPCtarget address : 400720
-doCallPCtarget address : 400760
-doCallPCtarget address : 400780
-doCallPCtarget address : 4006f0
-doCallPC: Adding Unreachable Instruction to local noreturn
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-doCallPCtarget address : 400740
-doCallPCtarget address : 400760
-doCallPCExtern paramCount  : 1 : perror
-1 : 1b98aa0
-doCallPCExtern paramCount  : 12 : sprintf
-12 : 1b98aa0
+dataSectionToTypesContents: Found symbol: sub_0x400850L
+linuxGetInceptionFunction: Adding Callbacks to Module!
+dataSectionToTypesContents: Found symbol: sub_0x400830L
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_printf
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_exit
+dataSectionToTypesContents: Found symbol: ext_malloc
+dataSectionToTypesContents: Found symbol: ext___libc_start_main
+dataSectionToTypesContents: Found symbol: ext___strdup
+dataSectionToTypesContents: Found symbol: ext_free
+dataSectionToTypesContents: Found symbol: ext_sprintf
+dataSectionToTypesContents: Found symbol: ext_strtol
+dataSectionToTypesContents: Found symbol: ext_strcmp
+dataSectionToTypesContents: Found symbol: ext_calloc
+dataSectionToTypesContents: Found symbol: ext_perror
 doCallPCExtern paramCount  : 3 : strtol
-3 : 1b98aa0
+3 : 20b59a0
 doCallPCExtern paramCount  : 2 : calloc
-2 : 1b98aa0
-doCallPCExtern paramCount  : 2 : strcmp
-2 : 1b98aa0
-doCallPCExtern paramCount  : 1 : exit
-1 : 1b98aa0
-doCallPCExtern paramCount  : 12 : printf
-12 : 1b98aa0
-doCallPCExtern paramCount  : 1 : __strdup
-1 : 1b98aa0
-doCallPCExtern paramCount  : 1 : malloc
-1 : 1b98aa0
+2 : 20b59a0
 doCallPCExtern paramCount  : 1 : free
-1 : 1b98aa0
+1 : 20b59a0
+doCallPCExtern paramCount  : 10 : printf
+10 : 20b59a0
+doCallPCExtern paramCount  : 10 : sprintf
+10 : 20b59a0
+doCallPCExtern paramCount  : 1 : malloc
+1 : 20b59a0
+doCallPCExtern paramCount  : 1 : free
+1 : 20b59a0
+doCallPCExtern paramCount  : 1 : free
+1 : 20b59a0
+doCallPCExtern paramCount  : 1 : __strdup
+1 : 20b59a0
+doCallPCExtern paramCount  : 2 : strcmp
+2 : 20b59a0
+doCallPCExtern paramCount  : 1 : perror
+1 : 20b59a0
+doCallPCExtern paramCount  : 1 : exit
+1 : 20b59a0
+doCallPCExtern paramCount  : 10 : sprintf
+10 : 20b59a0
+doCallPCExtern paramCount  : 2 : strcmp
+2 : 20b59a0
+translate_JMPr: regular jump via register: 400827
+translate_JMPr: regular jump via register: 4007e7
+doCallPCtarget address : 4007c0
 Adding entry point: mcsema_main
 in : doPostAnalysis
 registering passes

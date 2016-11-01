@@ -2,25 +2,185 @@ Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 4013e1, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4013c5, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4013c7, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6020f4, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4013f0, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6020e8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400a60, ro: 4, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 6020a0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400b10, ro: 5, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 6020a8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400c70, ro: 4, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 6020b0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400c70, ro: 4, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 6020b8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400e00, ro: 4, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 6020c0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400e00, ro: 4, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 6020e8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602100, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6020f4, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6020f0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4013cf, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 60207c, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6020f8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4007c0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: IMM, to: 4013d8, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6020f0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6020f4, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 401391, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4013b2, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6020f0, ro: 0, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 601df0, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601df0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602080, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602080, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602080, ro: 2, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 400610, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 602080, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602080, ro: 0, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 602100, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602108, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602100, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602110, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602100, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6020f8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6020f8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6020f8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602118, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602108, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602110, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 60207c, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602100, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602100, ro: 0, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 602100, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602100, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 401380, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602100, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602100, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6020f0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602118, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602090, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602110, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602110, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602100, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6020f0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602118, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602090, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602108, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602108, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602110, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602108, ro: 1, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 602100, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602100, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 401380, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602100, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6020f0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602118, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602090, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602108, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602108, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6020f4, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602100, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6020f8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6020f8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6020f8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602108, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 60207c, ro: 0, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 401380, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602100, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602108, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6020b8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6020f4, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602100, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 401380, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602108, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6020c0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602108, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602110, ro: 0, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 602100, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602100, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 401380, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602100, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6020f0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602118, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602090, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602108, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602108, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602110, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602110, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602060, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602110, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602110, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602060, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602110, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602110, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602060, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602110, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602110, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602060, ro: 0, rt: DATA
 Deserializing functions...
-Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 602080, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602087, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602080, ro: 2, rt: DATA
 Deserializing data...
 Deserializing data...
 Deserializing data...
 Deserializing data...
+Deserializing symbol at: 601de0, sub_0x4006a0L, 8
+cur_pos: 601de0
+dse_base: 601de0
+new_cur_pos2: 601de8
+Deserializing data...
+Deserializing symbol at: 601de8, sub_0x400680L, 8
+cur_pos: 601de8
+dse_base: 601de8
+new_cur_pos2: 601df0
 Deserializing data...
 Deserializing data...
+Deserializing symbol at: 601ff8, ext___gmon_start__, 8
+cur_pos: 601ff8
+dse_base: 601ff8
+new_cur_pos2: 602000
+Deserializing data...
+Deserializing symbol at: 602018, ext_printf, 8
+cur_pos: 602000
+dse_base: 602018
+new_cur_pos: 602020
+Deserializing symbol at: 602020, ext___gmon_start__, 8
+cur_pos: 602020
+dse_base: 602020
+new_cur_pos2: 602028
+Deserializing symbol at: 602028, ext_puts, 8
+cur_pos: 602028
+dse_base: 602028
+new_cur_pos2: 602030
+Deserializing symbol at: 602030, ext_putchar, 8
+cur_pos: 602030
+dse_base: 602030
+new_cur_pos2: 602038
+Deserializing symbol at: 602038, ext_malloc, 8
+cur_pos: 602038
+dse_base: 602038
+new_cur_pos2: 602040
+Deserializing symbol at: 602040, ext___libc_start_main, 8
+cur_pos: 602040
+dse_base: 602040
+new_cur_pos2: 602048
 Deserializing data...
 Deserializing data...
-Deserializing data...
-Deserializing data...
+Deserializing externs...
+Deserializing externs...
 Deserializing externs...
 Deserializing externs...
 Deserializing externs...
@@ -31,23 +191,21 @@ Done setting target
 Adding external funcs...
 Adding external data...
 Adding internal data...
+Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_400f20
-Inserted function: sub_4005a0
-Inserted function: sub_400580
+Inserted function: sub_4006a0
+Inserted function: sub_400680
 Inserted function: sub_4007c0
 Inserted function: sub_400c70
-Inserted function: sub_4005c0
 Inserted function: sub_400e00
 Inserted function: sub_400a60
 Inserted function: sub_400b10
-Inserted function: sub_4005b0
+Inserted function: sub_400610
 inserting global data section named data_0x401360
 inserting global data section named data_0x401410
 inserting global data section named data_0x4014b8
@@ -58,132 +216,142 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602050
 inserting global data section named data_0x602080
-dataSectionToTypesContents : 401360 b0
-176
-dataSectionToTypesContents : 401410 a4
-164
-dataSectionToTypesContents : 4014b8 284
-644
-dataSectionToTypesContents : 601de0 8
-8
-dataSectionToTypesContents : 601de8 8
-8
-dataSectionToTypesContents : 601df0 8
-8
-dataSectionToTypesContents : 601ff8 8
-8
-dataSectionToTypesContents : 602000 48
-72
-dataSectionToTypesContents : 602050 30
-48
-dataSectionToTypesContents : 602080 a0
-160
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-translate_MOV32mi: Other reloc
-translate_MOV32mi: Other reloc
-shouldSubtractImageBase: Not on Win32
-translate_MOV32mi: Other reloc
-translate_MOV32mi: Other reloc
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-doCallPCtarget address : 4005a0
-doCallPCtarget address : 4005c0
-!!!WARNING WARNING WARNING!!!
-	Assuming all callbacks are to translated code!!!
-doCallPCtarget address : 4005c0
-doCallPCtarget address : 4005c0
-doCallPCtarget address : 4005c0
-!!!WARNING WARNING WARNING!!!
-	Assuming all callbacks are to translated code!!!
-doCallPCtarget address : 4005c0
-doCallPCtarget address : 4005c0
-doCallPCtarget address : 4005c0
-doCallPCtarget address : 4005c0
-!!!WARNING WARNING WARNING!!!
-	Assuming all callbacks are to translated code!!!
-doCallPCtarget address : 4005c0
-doCallPCtarget address : 4005c0
-doCallPCtarget address : 4005c0
-doCallPCtarget address : 4005c0
-!!!WARNING WARNING WARNING!!!
-	Assuming all callbacks are to translated code!!!
-doCallPCtarget address : 4005c0
-!!!WARNING WARNING WARNING!!!
-	Assuming all callbacks are to translated code!!!
-doCallPCtarget address : 4005c0
-!!!WARNING WARNING WARNING!!!
-	Assuming all callbacks are to translated code!!!
-doCallPCtarget address : 4005a0
-doCallPCtarget address : 4007c0
-doCallPCtarget address : 4005a0
-doCallPCtarget address : 400580
-doCallPCtarget address : 400580
-doCallPCtarget address : 400580
-doCallPCtarget address : 4005a0
-doCallPCtarget address : 400580
+shouldSubtractImageBase: No __ImageBase defined
+dataSectionToTypesContents: Found symbol: sub_0x4006a0L
+dataSectionToTypesContents: Found symbol: sub_0x400680L
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_printf
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_puts
+dataSectionToTypesContents: Found symbol: ext_putchar
+dataSectionToTypesContents: Found symbol: ext_malloc
+dataSectionToTypesContents: Found symbol: ext___libc_start_main
 doCallPCExtern paramCount  : 1 : puts
-1 : 16c1aa0
-doCallPCExtern paramCount  : 12 : printf
-12 : 16c1aa0
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-translate_MOV32mi: Other reloc
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-doCallPCtarget address : 4005b0
-doCallPCtarget address : 4005b0
-doCallPCtarget address : 400580
+1 : 1c1ef30
 doCallPCExtern paramCount  : 1 : malloc
-1 : 16c1aa0
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-translate_MOV64mi32: Other reloc
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-translate_MOV32mi: Other reloc
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-Unsupported!
-400a61 	decq	2102952(%rip)
-662
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-Unsupported!
-400a82 	xorq	$53256, %rax
-5748
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-doCallPCtarget address : 400580
-doCallPCtarget address : 4005b0
-doCallPCtarget address : 4005b0
-doCallPCtarget address : 400580
-Failure to convert to LLVM module!
+1 : 1c1ef30
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1c1ef30
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1c1ef30
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1c1ef30
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1c1ef30
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1c1ef30
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1c1ef30
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1c1ef30
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1c1ef30
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1c1ef30
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1c1ef30
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1c1ef30
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1c1ef30
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1c1ef30
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCExtern paramCount  : 1 : puts
+1 : 1c1ef30
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCtarget address : 4007c0
+doCallPCExtern paramCount  : 1 : puts
+1 : 1c1ef30
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c1ef30
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c1ef30
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c1ef30
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCExtern paramCount  : 1 : puts
+1 : 1c1ef30
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c1ef30
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+translate_JMPr: regular jump via register: 400677
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCtarget address : 400610
+doCallPCExtern paramCount  : 1 : putchar
+1 : 1c1ef30
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCExtern paramCount  : 1 : putchar
+1 : 1c1ef30
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c1ef30
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c1ef30
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCExtern paramCount  : 1 : putchar
+1 : 1c1ef30
+doCallPCExtern paramCount  : 1 : putchar
+1 : 1c1ef30
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c1ef30
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c1ef30
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+shouldSubtractImageBase: No __ImageBase defined
+translate_JMPr: regular jump via register: 400637
+Adding entry point: main
+main is implemented by sub_400f20
+NOT doing post analysis passes.

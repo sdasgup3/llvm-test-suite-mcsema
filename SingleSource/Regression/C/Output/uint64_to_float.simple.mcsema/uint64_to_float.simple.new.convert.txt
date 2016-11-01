@@ -2,20 +2,118 @@ Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 400d40, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 400d20, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400cde, ro: 1, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 601df0, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601df0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602050, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602050, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602050, ro: 2, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 4005f0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 602050, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602050, ro: 0, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 602050, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602057, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602050, ro: 2, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 400c64, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400c80, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 400c9f, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602018, ro: 0, rt: DATA
+Deserializing data...
+Deserializing symbol at: 400d20, dta_0x400cbeL, 8
+cur_pos: 400c60
+dse_base: 400d20
+new_cur_pos: 400d28
+Deserializing symbol at: 400d28, dta_0x400cc9L, 8
+cur_pos: 400d28
+dse_base: 400d28
+new_cur_pos2: 400d30
+Deserializing symbol at: 400d30, dta_0x400cceL, 8
+cur_pos: 400d30
+dse_base: 400d30
+new_cur_pos2: 400d38
+Deserializing symbol at: 400d38, dta_0x400cd1L, 8
+cur_pos: 400d38
+dse_base: 400d38
+new_cur_pos2: 400d40
 Deserializing data...
 Deserializing data...
 Deserializing data...
+Deserializing symbol at: 601de0, sub_0x400680L, 8
+cur_pos: 601de0
+dse_base: 601de0
+new_cur_pos2: 601de8
+Deserializing data...
+Deserializing symbol at: 601de8, sub_0x400660L, 8
+cur_pos: 601de8
+dse_base: 601de8
+new_cur_pos2: 601df0
 Deserializing data...
 Deserializing data...
+Deserializing symbol at: 601ff8, ext___gmon_start__, 8
+cur_pos: 601ff8
+dse_base: 601ff8
+new_cur_pos2: 602000
+Deserializing data...
+Deserializing symbol at: 602018, ext_printf, 8
+cur_pos: 602000
+dse_base: 602018
+new_cur_pos: 602020
+Deserializing symbol at: 602020, ext___gmon_start__, 8
+cur_pos: 602020
+dse_base: 602020
+new_cur_pos2: 602028
+Deserializing symbol at: 602028, ext_puts, 8
+cur_pos: 602028
+dse_base: 602028
+new_cur_pos2: 602030
+Deserializing symbol at: 602030, ext___libc_start_main, 8
+cur_pos: 602030
+dse_base: 602030
+new_cur_pos2: 602038
+Deserializing symbol at: 602038, ext_fesetround, 8
+cur_pos: 602038
+dse_base: 602038
+new_cur_pos2: 602040
 Deserializing data...
 Deserializing data...
-Deserializing data...
-Deserializing data...
-Deserializing data...
+Deserializing externs...
+Deserializing externs...
 Deserializing externs...
 Deserializing externs...
 Deserializing externs...
@@ -25,6 +123,7 @@ Done setting target
 Adding external funcs...
 Adding external data...
 Adding internal data...
+Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
@@ -33,10 +132,10 @@ Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_4008b0
-Inserted function: sub_400590
+Inserted function: sub_400680
+Inserted function: sub_400660
+Inserted function: sub_4005f0
 Inserted function: sub_400760
-Inserted function: sub_4005b0
-Inserted function: sub_400570
 inserting global data section named data_0x400c60
 inserting global data section named data_0x400d60
 inserting global data section named data_0x400da8
@@ -47,42 +146,66 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602040
 inserting global data section named data_0x602050
-dataSectionToTypesContents : 400c60 100
-256
-dataSectionToTypesContents : 400d60 44
-68
-dataSectionToTypesContents : 400da8 144
-324
-dataSectionToTypesContents : 601de0 8
-8
-dataSectionToTypesContents : 601de8 8
-8
-dataSectionToTypesContents : 601df0 8
-8
-dataSectionToTypesContents : 601ff8 8
-8
-dataSectionToTypesContents : 602000 40
-64
-dataSectionToTypesContents : 602040 10
-16
-dataSectionToTypesContents : 602050 8
-8
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
+dataSectionToTypesContents: Found symbol: dta_0x400cbeL
+dataSectionToTypesContents: Found symbol: dta_0x400cc9L
+dataSectionToTypesContents: Found symbol: dta_0x400cceL
+dataSectionToTypesContents: Found symbol: dta_0x400cd1L
+dataSectionToTypesContents: Found symbol: sub_0x400680L
+linuxGetInceptionFunction: Adding Callbacks to Module!
+dataSectionToTypesContents: Found symbol: sub_0x400660L
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_printf
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_puts
+dataSectionToTypesContents: Found symbol: ext___libc_start_main
+dataSectionToTypesContents: Found symbol: ext_fesetround
+doCallPCExtern paramCount  : 1 : fesetround
+1 : 1f6e790
+doCallPCExtern paramCount  : 10 : printf
+10 : 1f6e790
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCExtern paramCount  : 1 : puts
+1 : 1f6e790
+translate_JMPr: regular jump via register: 400657
+translate_JMPr: regular jump via register: 400617
 Unsupported!
-40090c 	shlq	%cl, %rdi
-2537
-Unsupported!
-40094e 	shlq	%cl, %r15
-2537
-shouldSubtractImageBase: Not on Win32
-Unsupported!
-4009d1 	shlq	%cl, %r14
-2537
-Unsupported!
-400a96 	shlq	%cl, %r12
-2537
-doCallPCtarget address : 4005b0
-doCallPCtarget address : 400570
-doCallPCtarget address : 400590
+400772 	bsrq	%rdx, %rcx
+289
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 400760
+doCallPCtarget address : 4005f0
+doCallPCExtern paramCount  : 10 : printf
+10 : 1f6e790
+doCallPCExtern paramCount  : 10 : printf
+10 : 1f6e790
+doCallPCExtern paramCount  : 10 : printf
+10 : 1f6e790
+Could not insert function: sub_400760 into the LLVM module
 Failure to convert to LLVM module!

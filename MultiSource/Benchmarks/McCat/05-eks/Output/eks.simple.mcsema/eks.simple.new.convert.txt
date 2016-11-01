@@ -1,0 +1,242 @@
+Looking up target...
+Reading module ...
+ TT x86-64 : x86_64-unknown-unknown 
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 6050b8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 402090, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 6050b0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 402090, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: IMM, to: 403c94, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 403820, ro: 1, rt: CODE
+set_ref_reloc_type: Adding  ref: IMM, to: 403c90, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 401d80, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 6050b0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 401530, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 6050b8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6050b0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4022b0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 401ea0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 6050b0, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 604df0, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604df0, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 4008b0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 6050a8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6050a8, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 403c60, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 605048, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 402260, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 402170, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 402260, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 402170, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 401f80, ro: 0, rt: CODE
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 605058, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 403c70, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403c00, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403c00, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403c70, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403c00, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403c00, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403c60, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 403c50, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403c58, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 403c00, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403c00, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403c60, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403c70, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403c00, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403c20, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403c80, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403c60, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403c18, ro: 0, rt: DATA
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing data...
+Deserializing symbol at: 604de0, sub_0x400940L, 8
+cur_pos: 604de0
+dse_base: 604de0
+new_cur_pos2: 604de8
+Deserializing data...
+Deserializing symbol at: 604de8, sub_0x400920L, 8
+cur_pos: 604de8
+dse_base: 604de8
+new_cur_pos2: 604df0
+Deserializing data...
+Deserializing data...
+Deserializing symbol at: 604ff8, ext___gmon_start__, 8
+cur_pos: 604ff8
+dse_base: 604ff8
+new_cur_pos2: 605000
+Deserializing data...
+Deserializing symbol at: 605018, ext_exp, 8
+cur_pos: 605000
+dse_base: 605018
+new_cur_pos: 605020
+Deserializing symbol at: 605020, ext_printf, 8
+cur_pos: 605020
+dse_base: 605020
+new_cur_pos2: 605028
+Deserializing symbol at: 605028, ext_memset, 8
+cur_pos: 605028
+dse_base: 605028
+new_cur_pos2: 605030
+Deserializing symbol at: 605030, ext___gmon_start__, 8
+cur_pos: 605030
+dse_base: 605030
+new_cur_pos2: 605038
+Deserializing symbol at: 605038, ext_puts, 8
+cur_pos: 605038
+dse_base: 605038
+new_cur_pos2: 605040
+Deserializing symbol at: 605040, ext_putchar, 8
+cur_pos: 605040
+dse_base: 605040
+new_cur_pos2: 605048
+Deserializing symbol at: 605048, ext_malloc, 8
+cur_pos: 605048
+dse_base: 605048
+new_cur_pos2: 605050
+Deserializing symbol at: 605050, ext___libc_start_main, 8
+cur_pos: 605050
+dse_base: 605050
+new_cur_pos2: 605058
+Deserializing symbol at: 605058, ext_free, 8
+cur_pos: 605058
+dse_base: 605058
+new_cur_pos2: 605060
+Deserializing symbol at: 605060, ext_sprintf, 8
+cur_pos: 605060
+dse_base: 605060
+new_cur_pos2: 605068
+Deserializing symbol at: 605068, ext_strcat, 8
+cur_pos: 605068
+dse_base: 605068
+new_cur_pos2: 605070
+Deserializing symbol at: 605070, ext_qsort, 8
+cur_pos: 605070
+dse_base: 605070
+new_cur_pos2: 605078
+Deserializing symbol at: 605078, ext_fprintf, 8
+cur_pos: 605078
+dse_base: 605078
+new_cur_pos2: 605080
+Deserializing symbol at: 605080, ext_sqrt, 8
+cur_pos: 605080
+dse_base: 605080
+new_cur_pos2: 605088
+Deserializing data...
+Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing external data...
+Creating module...
+Setting target...
+Done setting target
+Adding external funcs...
+Adding external data...
+Adding internal data...
+Adding Offset Tables...
+Adding entry points...
+Returning modue...
+Setting initial triples...
+Looking at entry points...
+Already have driver for: main
+Getting LLVM module...
+Converting to LLVM...
+Inserted function: sub_403860
+Inserted function: sub_400940
+Inserted function: sub_400920
+Inserted function: sub_403820
+Inserted function: sub_401ea0
+Inserted function: sub_401530
+Inserted function: sub_402260
+Inserted function: sub_4008b0
+Inserted function: sub_401f80
+Inserted function: sub_402090
+Inserted function: sub_402170
+Inserted function: sub_401d80
+Inserted function: sub_4022b0
+inserting global data section named data_0x403bf0
+inserting global data section named data_0x403ce0
+inserting global data section named data_0x403df8
+inserting global data section named data_0x604de0
+inserting global data section named data_0x604de8
+inserting global data section named data_0x604df0
+inserting global data section named data_0x604ff8
+inserting global data section named data_0x605000
+inserting global data section named data_0x605088
+inserting global data section named data_0x6050a0
+dataSectionToTypesContents: Found symbol: sub_0x400940L
+linuxGetInceptionFunction: Adding Callbacks to Module!
+dataSectionToTypesContents: Found symbol: sub_0x400920L
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_exp
+dataSectionToTypesContents: Found symbol: ext_printf
+dataSectionToTypesContents: Found symbol: ext_memset
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_puts
+dataSectionToTypesContents: Found symbol: ext_putchar
+dataSectionToTypesContents: Found symbol: ext_malloc
+dataSectionToTypesContents: Found symbol: ext___libc_start_main
+dataSectionToTypesContents: Found symbol: ext_free
+dataSectionToTypesContents: Found symbol: ext_sprintf
+dataSectionToTypesContents: Found symbol: ext_strcat
+dataSectionToTypesContents: Found symbol: ext_qsort
+dataSectionToTypesContents: Found symbol: ext_fprintf
+dataSectionToTypesContents: Found symbol: ext_sqrt
+doCallPCExtern paramCount  : 10 : sprintf
+10 : 2368640
+doCallPCExtern paramCount  : 2 : strcat
+2 : 2368640
+doCallPCtarget address : 401d80
+doCallPCtarget address : 401530
+doCallPCtarget address : 4022b0
+doCallPCtarget address : 401ea0
+doCallPCExtern paramCount  : 4 : qsort
+4 : 2368640
+getValueForExternal: Found external data ref to: stdout
+doCallPCExtern paramCount  : 10 : fprintf
+10 : 2368640
+translate_JMPr: regular jump via register: 400917
+doCallPCtarget address : 402090
+doCallPCtarget address : 402090
+doCallPCtarget address : 4008b0
+doCallPCExtern paramCount  : 1 : malloc
+1 : 2368640
+Unsupported!
+401800 	movupd	(%rcx,%rbx,8), %xmm4
+1699
+Unsupported!
+401ba0 	movupd	(%rdi), %xmm4
+1699
+doCallPCtarget address : 401f80
+doCallPCtarget address : 402170
+doCallPCtarget address : 402260
+doCallPCtarget address : 402170
+doCallPCtarget address : 402260
+Could not insert function: sub_401530 into the LLVM module
+Failure to convert to LLVM module!

@@ -2,20 +2,92 @@ Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 400b78, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4006f0, ro: 0, rt: CODE
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 601df0, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 601df0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602060, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602060, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602060, ro: 2, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 400610, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 602060, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602060, ro: 0, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 602060, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602067, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 602060, ro: 2, rt: DATA
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 602078, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 60207d, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 60207c, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 607220, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 607228, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 607310, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602d90, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602d98, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602d88, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602d88, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604d70, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602070, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6071d8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 60207c, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602080, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6071d8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400bbc, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400bad, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 602d88, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 400b48, ro: 0, rt: DATA
 Deserializing data...
 Deserializing data...
 Deserializing data...
 Deserializing data...
+Deserializing symbol at: 601de0, sub_0x4006a0L, 8
+cur_pos: 601de0
+dse_base: 601de0
+new_cur_pos2: 601de8
+Deserializing data...
+Deserializing symbol at: 601de8, sub_0x400680L, 8
+cur_pos: 601de8
+dse_base: 601de8
+new_cur_pos2: 601df0
 Deserializing data...
 Deserializing data...
+Deserializing symbol at: 601ff8, ext___gmon_start__, 8
+cur_pos: 601ff8
+dse_base: 601ff8
+new_cur_pos2: 602000
+Deserializing data...
+Deserializing symbol at: 602018, ext_printf, 8
+cur_pos: 602000
+dse_base: 602018
+new_cur_pos: 602020
+Deserializing symbol at: 602020, ext___gmon_start__, 8
+cur_pos: 602020
+dse_base: 602020
+new_cur_pos2: 602028
+Deserializing symbol at: 602028, ext_malloc, 8
+cur_pos: 602028
+dse_base: 602028
+new_cur_pos2: 602030
+Deserializing symbol at: 602030, ext___libc_start_main, 8
+cur_pos: 602030
+dse_base: 602030
+new_cur_pos2: 602038
+Deserializing symbol at: 602038, ext_clock, 8
+cur_pos: 602038
+dse_base: 602038
+new_cur_pos2: 602040
+Deserializing symbol at: 602040, ext_strcmp, 8
+cur_pos: 602040
+dse_base: 602040
+new_cur_pos2: 602048
 Deserializing data...
 Deserializing data...
-Deserializing data...
-Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing externs...
 Deserializing externs...
 Deserializing externs...
@@ -25,6 +97,7 @@ Done setting target
 Adding external funcs...
 Adding external data...
 Adding internal data...
+Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
@@ -33,10 +106,10 @@ Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_4006d0
-Inserted function: sub_400580
+Inserted function: sub_4006a0
+Inserted function: sub_400680
+Inserted function: sub_400610
 Inserted function: sub_4006f0
-Inserted function: sub_4005c0
-Inserted function: sub_4005a0
 inserting global data section named data_0x400b40
 inserting global data section named data_0x400bcc
 inserting global data section named data_0x400c60
@@ -47,42 +120,32 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602048
 inserting global data section named data_0x602060
-dataSectionToTypesContents : 400b40 8c
-140
-dataSectionToTypesContents : 400bcc 94
-148
-dataSectionToTypesContents : 400c60 20c
-524
-dataSectionToTypesContents : 601de0 8
-8
-dataSectionToTypesContents : 601de8 8
-8
-dataSectionToTypesContents : 601df0 8
-8
-dataSectionToTypesContents : 601ff8 8
-8
-dataSectionToTypesContents : 602000 48
-72
-dataSectionToTypesContents : 602048 14
-20
-dataSectionToTypesContents : 602060 5318
-21272
-shouldSubtractImageBase: Not on Win32
-doCallPCtarget address : 400580
+dataSectionToTypesContents: Found symbol: sub_0x4006a0L
+linuxGetInceptionFunction: Adding Callbacks to Module!
+dataSectionToTypesContents: Found symbol: sub_0x400680L
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_printf
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_malloc
+dataSectionToTypesContents: Found symbol: ext___libc_start_main
+dataSectionToTypesContents: Found symbol: ext_clock
+dataSectionToTypesContents: Found symbol: ext_strcmp
+doCallPCExtern paramCount  : 10 : printf
+10 : 1fb59a0
+translate_JMPr: regular jump via register: 400677
+translate_JMPr: regular jump via register: 400637
 doCallPCtarget address : 4006f0
-doCallPCExtern paramCount  : 12 : printf
-12 : 2e3daa0
-shouldSubtractImageBase: Not on Win32
-translate_MOV32mi: Other reloc
-doCallPCtarget address : 4005c0
-doCallPCtarget address : 4005c0
-doCallPCtarget address : 4005a0
-doCallPCtarget address : 4005a0
-doCallPCtarget address : 4005c0
+doCallPCtarget address : 400610
 doCallPCExtern paramCount  : 0 : clock
-0 : 2e41ad0
+0 : 1fe32b0
+doCallPCExtern paramCount  : 0 : clock
+0 : 1fe32b0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2e3daa0
+1 : 1fb59a0
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1fb59a0
+doCallPCExtern paramCount  : 0 : clock
+0 : 1fe32b0
 Adding entry point: mcsema_main
 in : doPostAnalysis
 registering passes

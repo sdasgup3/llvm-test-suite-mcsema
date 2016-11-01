@@ -2,30 +2,426 @@ Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a2, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 402bd0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 61b890, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b898, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b880, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b888, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a2, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040f8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604100, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040e8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040f0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a2, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 402d90, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 61b870, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b878, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b860, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b868, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a2, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040d8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040e0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040c8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040d0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a2, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 402f50, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 61b850, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b858, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b840, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b848, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a2, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040b8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040c0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040a8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040b0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a2, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403110, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 61b890, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b898, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b880, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b888, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a2, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4031b0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 6040f8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604100, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040e8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040f0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a2, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403250, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 61b870, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b878, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b860, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b868, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a2, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 4032f0, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 6040d8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040e0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040c8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040d0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a2, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403390, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 61b850, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b858, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b840, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b848, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a2, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403430, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 6040b8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040c0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040a8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040b0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a2, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b890, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b898, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b880, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b888, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a2, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040f8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604100, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040e8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040f0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a2, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b870, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b878, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b860, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b868, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a2, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040d8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040e0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040c8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040d0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a2, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b850, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b858, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b840, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b848, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a2, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040a8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040b0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040f8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040d8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040b8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040c0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040b8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040c0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a7, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403560, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040a0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b880, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b888, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403560, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a7, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403560, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040a0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403560, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a7, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403560, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040a0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403560, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040e8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040f0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a7, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403560, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040a0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403560, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a7, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403560, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040a0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403560, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b860, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b868, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a7, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403560, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040a0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403560, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a7, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403560, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040a0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403560, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040c8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040d0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a7, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403560, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040a0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403560, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a7, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403560, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040a0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403560, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b840, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b848, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a7, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403560, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040a0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403560, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604128, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: IMM, to: 4036a7, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403560, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040a0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 403560, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040a8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040b0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040e8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040f0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040a0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040c8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040d0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040a0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040a0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040a8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040b0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040a0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040a0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604098, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: IMM, to: 603df0, ro: 1, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 603df0, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 400910, ro: 0, rt: CODE
+set_ref_reloc_type: Adding  ref: MEM, to: 604110, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604110, ro: 0, rt: DATA
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 403390, ro: 0, rt: CODE
 Deserializing functions...
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 403430, ro: 0, rt: CODE
 Deserializing functions...
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 403110, ro: 0, rt: CODE
+Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 6040a8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b840, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040b0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b848, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040b8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b850, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040c0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b858, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040c8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b860, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040d0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b868, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040d8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b870, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040e0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b878, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040e8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b880, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040f0, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b888, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 6040f8, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b890, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 604100, ro: 0, rt: DATA
+set_ref_reloc_type: Adding  ref: MEM, to: 61b898, ro: 0, rt: DATA
 Deserializing functions...
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 4031b0, ro: 0, rt: CODE
 Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 403250, ro: 0, rt: CODE
 Deserializing functions...
-Deserializing functions...
-Deserializing functions...
-Deserializing functions...
-Deserializing functions...
-Deserializing functions...
+set_ref_reloc_type: Adding  ref: MEM, to: 4032f0, ro: 0, rt: CODE
 Deserializing functions...
 Deserializing data...
 Deserializing data...
 Deserializing data...
 Deserializing data...
+Deserializing symbol at: 603dd8, sub_0x4009a0L, 8
+cur_pos: 603dd8
+dse_base: 603dd8
+new_cur_pos2: 603de0
+Deserializing symbol at: 603de0, sub_0x400830L, 8
+cur_pos: 603de0
+dse_base: 603de0
+new_cur_pos2: 603de8
+Deserializing data...
+Deserializing symbol at: 603de8, sub_0x400980L, 8
+cur_pos: 603de8
+dse_base: 603de8
+new_cur_pos2: 603df0
 Deserializing data...
 Deserializing data...
+Deserializing symbol at: 603ff8, ext___gmon_start__, 8
+cur_pos: 603ff8
+dse_base: 603ff8
+new_cur_pos2: 604000
 Deserializing data...
+Deserializing symbol at: 604018, ext_exp, 8
+cur_pos: 604000
+dse_base: 604018
+new_cur_pos: 604020
+Deserializing symbol at: 604020, ext_printf, 8
+cur_pos: 604020
+dse_base: 604020
+new_cur_pos2: 604028
+Deserializing symbol at: 604028, ext___gmon_start__, 8
+cur_pos: 604028
+dse_base: 604028
+new_cur_pos2: 604030
+Deserializing symbol at: 604030, ext_exit, 8
+cur_pos: 604030
+dse_base: 604030
+new_cur_pos2: 604038
+Deserializing symbol at: 604038, ext___libc_start_main, 8
+cur_pos: 604038
+dse_base: 604038
+new_cur_pos2: 604040
+Deserializing symbol at: 604040, ext_strlen, 8
+cur_pos: 604040
+dse_base: 604040
+new_cur_pos2: 604048
+Deserializing symbol at: 604048, ext_strtol, 8
+cur_pos: 604048
+dse_base: 604048
+new_cur_pos2: 604050
+Deserializing symbol at: 604050, ext_clock, 8
+cur_pos: 604050
+dse_base: 604050
+new_cur_pos2: 604058
+Deserializing symbol at: 604058, ext_srand, 8
+cur_pos: 604058
+dse_base: 604058
+new_cur_pos2: 604060
+Deserializing symbol at: 604060, ext_realloc, 8
+cur_pos: 604060
+dse_base: 604060
+new_cur_pos2: 604068
+Deserializing symbol at: 604068, ext_rand, 8
+cur_pos: 604068
+dse_base: 604068
+new_cur_pos2: 604070
+Deserializing symbol at: 604070, ext_fprintf, 8
+cur_pos: 604070
+dse_base: 604070
+new_cur_pos2: 604078
+Deserializing symbol at: 604078, ext_log, 8
+cur_pos: 604078
+dse_base: 604078
+new_cur_pos2: 604080
+Deserializing symbol at: 604080, ext_strtod, 8
+cur_pos: 604080
+dse_base: 604080
+new_cur_pos2: 604088
 Deserializing data...
+Deserializing symbol at: 6040a8, dta_0x604140L, 8
+cur_pos: 604088
+dse_base: 6040a8
+new_cur_pos: 6040b0
+Deserializing symbol at: 6040b0, dta_0x607fc0L, 8
+cur_pos: 6040b0
+dse_base: 6040b0
+new_cur_pos2: 6040b8
+Deserializing symbol at: 6040b8, dta_0x60fcc0L, 8
+cur_pos: 6040b8
+dse_base: 6040b8
+new_cur_pos2: 6040c0
+Deserializing symbol at: 6040c0, dta_0x613b40L, 8
+cur_pos: 6040c0
+dse_base: 6040c0
+new_cur_pos2: 6040c8
+Deserializing symbol at: 6040c8, dta_0x607fc0L, 8
+cur_pos: 6040c8
+dse_base: 6040c8
+new_cur_pos2: 6040d0
+Deserializing symbol at: 6040d0, dta_0x60be40L, 8
+cur_pos: 6040d0
+dse_base: 6040d0
+new_cur_pos2: 6040d8
+Deserializing symbol at: 6040d8, dta_0x613b40L, 8
+cur_pos: 6040d8
+dse_base: 6040d8
+new_cur_pos2: 6040e0
+Deserializing symbol at: 6040e0, dta_0x6179c0L, 8
+cur_pos: 6040e0
+dse_base: 6040e0
+new_cur_pos2: 6040e8
+Deserializing symbol at: 6040e8, dta_0x60be40L, 8
+cur_pos: 6040e8
+dse_base: 6040e8
+new_cur_pos2: 6040f0
+Deserializing symbol at: 6040f0, dta_0x60fcc0L, 8
+cur_pos: 6040f0
+dse_base: 6040f0
+new_cur_pos2: 6040f8
+Deserializing symbol at: 6040f8, dta_0x6179c0L, 8
+cur_pos: 6040f8
+dse_base: 6040f8
+new_cur_pos2: 604100
+Deserializing symbol at: 604100, dta_0x61b840L, 8
+cur_pos: 604100
+dse_base: 604100
+new_cur_pos2: 604108
 Deserializing data...
-Deserializing data...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing externs...
 Deserializing externs...
 Deserializing externs...
@@ -37,6 +433,7 @@ Done setting target
 Adding external funcs...
 Adding external data...
 Adding internal data...
+Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
@@ -45,20 +442,19 @@ Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_400df0
-Inserted function: sub_400760
-Inserted function: sub_402d90
+Inserted function: sub_4009a0
+Inserted function: sub_400980
 Inserted function: sub_403390
-Inserted function: sub_4007b0
-Inserted function: sub_4007d0
-Inserted function: sub_4007f0
-Inserted function: sub_400820
+Inserted function: sub_402bd0
 Inserted function: sub_403430
 Inserted function: sub_402f50
 Inserted function: sub_403110
-Inserted function: sub_402bd0
+Inserted function: sub_400830
+Inserted function: sub_402d90
 Inserted function: sub_4031b0
 Inserted function: sub_403250
 Inserted function: sub_4032f0
+Inserted function: sub_400910
 inserting global data section named data_0x403550
 inserting global data section named data_0x4036b8
 inserting global data section named data_0x403760
@@ -69,261 +465,116 @@ inserting global data section named data_0x603ff8
 inserting global data section named data_0x604000
 inserting global data section named data_0x604088
 inserting global data section named data_0x604110
-dataSectionToTypesContents : 403550 167
-359
-dataSectionToTypesContents : 4036b8 a4
-164
-dataSectionToTypesContents : 403760 2d4
-724
-dataSectionToTypesContents : 603dd8 10
-16
-dataSectionToTypesContents : 603de8 8
-8
-dataSectionToTypesContents : 603df0 8
-8
-dataSectionToTypesContents : 603ff8 8
-8
-dataSectionToTypesContents : 604000 88
-136
-dataSectionToTypesContents : 604088 80
-128
-dataSectionToTypesContents : 604110 17790
-96144
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-shouldSubtractImageBase: Not on Win32
-doCallPCtarget address : 4007d0
-doCallPCtarget address : 4007b0
-doCallPCtarget address : 400820
-doCallPCtarget address : 4007f0
-doCallPCtarget address : 400760
-doCallPCtarget address : 400760
+dataSectionToTypesContents: Found symbol: sub_0x4009a0L
+linuxGetInceptionFunction: Adding Callbacks to Module!
+dataSectionToTypesContents: Found symbol: sub_0x400830L
+dataSectionToTypesContents: Found symbol: sub_0x400980L
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_exp
+dataSectionToTypesContents: Found symbol: ext_printf
+dataSectionToTypesContents: Found symbol: ext___gmon_start__
+dataSectionToTypesContents: Found symbol: ext_exit
+dataSectionToTypesContents: Found symbol: ext___libc_start_main
+dataSectionToTypesContents: Found symbol: ext_strlen
+dataSectionToTypesContents: Found symbol: ext_strtol
+dataSectionToTypesContents: Found symbol: ext_clock
+dataSectionToTypesContents: Found symbol: ext_srand
+dataSectionToTypesContents: Found symbol: ext_realloc
+dataSectionToTypesContents: Found symbol: ext_rand
+dataSectionToTypesContents: Found symbol: ext_fprintf
+dataSectionToTypesContents: Found symbol: ext_log
+dataSectionToTypesContents: Found symbol: ext_strtod
+dataSectionToTypesContents: Found symbol: dta_0x604140L
+dataSectionToTypesContents: Found symbol: dta_0x607fc0L
+dataSectionToTypesContents: Found symbol: dta_0x60fcc0L
+dataSectionToTypesContents: Found symbol: dta_0x613b40L
+dataSectionToTypesContents: Found symbol: dta_0x607fc0L
+dataSectionToTypesContents: Found symbol: dta_0x60be40L
+dataSectionToTypesContents: Found symbol: dta_0x613b40L
+dataSectionToTypesContents: Found symbol: dta_0x6179c0L
+dataSectionToTypesContents: Found symbol: dta_0x60be40L
+dataSectionToTypesContents: Found symbol: dta_0x60fcc0L
+dataSectionToTypesContents: Found symbol: dta_0x6179c0L
+dataSectionToTypesContents: Found symbol: dta_0x61b840L
+doCallPCExtern paramCount  : 1 : srand
+1 : 1c08790
+doCallPCExtern paramCount  : 3 : strtol
+3 : 1c08790
+doCallPCExtern paramCount  : 2 : strtod
+2 : 1c08790
+doCallPCExtern paramCount  : 0 : rand
+0 : 1edb380
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
 doCallPCtarget address : 403430
 doCallPCtarget address : 403390
-doCallPCtarget address : 400760
-doCallPCtarget address : 400760
-doCallPCtarget address : 400760
-doCallPCtarget address : 400760
-doCallPCtarget address : 400760
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
 doCallPCtarget address : 4032f0
-doCallPCtarget address : 400760
-doCallPCtarget address : 400760
-doCallPCtarget address : 400760
-doCallPCtarget address : 400760
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
 doCallPCtarget address : 403250
-doCallPCtarget address : 400760
-doCallPCtarget address : 400760
-doCallPCtarget address : 400760
-doCallPCtarget address : 400760
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
 doCallPCtarget address : 4031b0
-doCallPCtarget address : 400760
-doCallPCtarget address : 400760
-doCallPCtarget address : 400760
-doCallPCtarget address : 400760
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
 doCallPCtarget address : 403110
-doCallPCtarget address : 400760
-doCallPCtarget address : 400760
-doCallPCtarget address : 400760
-doCallPCtarget address : 400760
-doCallPCtarget address : 400760
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
 doCallPCtarget address : 402f50
-doCallPCtarget address : 400760
-doCallPCtarget address : 400760
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
 doCallPCtarget address : 402d90
-doCallPCtarget address : 400760
-doCallPCtarget address : 400760
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
 doCallPCtarget address : 402bd0
-doCallPCtarget address : 400760
-doCallPCExtern paramCount  : 12 : printf
-12 : 2c9ff70
+doCallPCExtern paramCount  : 10 : printf
+10 : 1c08790
+translate_JMPr: regular jump via register: 400977
+translate_JMPr: regular jump via register: 400937
+doCallPCtarget address : 400910
 doCallPCtarget address : 403390
-doCallPCExtern paramCount  : 3 : strtol
-3 : 2c9ff70
-doCallPCExtern paramCount  : 1 : srand
-1 : 2c9ff70
-doCallPCExtern paramCount  : 0 : rand
-0 : 2a7b860
-doCallPCExtern paramCount  : 2 : strtod
-2 : 2c9ff70
 doCallPCtarget address : 403430
 doCallPCtarget address : 403110
 doCallPCtarget address : 4031b0
