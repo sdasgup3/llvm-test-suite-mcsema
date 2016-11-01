@@ -1,0 +1,387 @@
+Segmentation Faults
+====================
+./CoyoteBench/Output/huffbench.simple.mcsema/huffbench.simple.cfg 
+./McGill/Output/exptree.simple.mcsema/exptree.simple.cfg 
+./McGill/Output/queens.simple.mcsema/queens.simple.cfg 
+./Polybench/linear-algebra/kernels/2mm/Output/2mm.simple.mcsema/2mm.simple.cfg 
+./Polybench/linear-algebra/kernels/3mm/Output/3mm.simple.mcsema/3mm.simple.cfg 
+./Polybench/linear-algebra/kernels/bicg/Output/bicg.simple.mcsema/bicg.simple.cfg 
+./Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema/cholesky.simple.cfg 
+./Polybench/linear-algebra/kernels/doitgen/Output/doitgen.simple.mcsema/doitgen.simple.cfg 
+./Polybench/linear-algebra/kernels/gemm/Output/gemm.simple.mcsema/gemm.simple.cfg 
+./Polybench/linear-algebra/kernels/gesummv/Output/gesummv.simple.mcsema/gesummv.simple.cfg 
+./Polybench/linear-algebra/kernels/mvt/Output/mvt.simple.mcsema/mvt.simple.cfg 
+./Polybench/linear-algebra/kernels/symm/Output/symm.simple.mcsema/symm.simple.cfg 
+./Polybench/linear-algebra/kernels/trisolv/Output/trisolv.simple.mcsema/trisolv.simple.cfg 
+./Polybench/linear-algebra/kernels/trmm/Output/trmm.simple.mcsema/trmm.simple.cfg 
+./Polybench/linear-algebra/solvers/durbin/Output/durbin.simple.mcsema/durbin.simple.cfg 
+./Polybench/linear-algebra/solvers/dynprog/Output/dynprog.simple.mcsema/dynprog.simple.cfg 
+./Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt.simple.mcsema/gramschmidt.simple.cfg 
+./Polybench/linear-algebra/solvers/lu/Output/lu.simple.mcsema/lu.simple.cfg 
+./Polybench/medley/floyd-warshall/Output/floyd-warshall.simple.mcsema/floyd-warshall.simple.cfg 
+./Polybench/medley/reg_detect/Output/reg_detect.simple.mcsema/reg_detect.simple.cfg 
+./Polybench/stencils/seidel-2d/Output/seidel-2d.simple.mcsema/seidel-2d.simple.cfg 
+./Shootout/Output/hash.simple.mcsema/hash.simple.cfg 
+./Shootout/Output/lists.simple.mcsema/lists.simple.cfg 
+./Shootout/Output/strcat.simple.mcsema/strcat.simple.cfg 
+
+
+./Adobe-C++/Output/functionobjects.simple.mcsema/functionobjects.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.simple
+Unsupported!
+400fc5 	shufpd	$0, %xmm0, %xmm0
+
+./Adobe-C++/Output/simple_types_constant_folding.simple.mcsema/simple_types_constant_folding.simple
+Unsupported!
+4033dd 	shufpd	$0, %xmm0, %xmm0
+
+./Adobe-C++/Output/simple_types_loop_invariant.simple.mcsema/simple_types_loop_invariant.simple
+Unsupported!
+40229d 	shufpd	$0, %xmm0, %xmm0
+
+./Adobe-C++/Output/stepanov_vector.simple.mcsema/stepanov_vector.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./BenchmarkGame/Output/fannkuch.simple.mcsema/fannkuch.simple
+Unsupported!
+400757 	pslldq	$8, %xmm0
+
+./BenchmarkGame/Output/n-body.simple.mcsema/n-body.simple
+Unsupported!
+400ac6 	movupd	2102682(%rip), %xmm1
+
+./BenchmarkGame/Output/partialsums.simple.mcsema/partialsums.simple
+Unsupported!
+400834 	divpd	%xmm3, %xmm1
+--
+Unsupported!
+4008e9 	addpd	%xmm4, %xmm3
+--
+Unsupported!
+4009a9 	unpckhpd	%xmm0, %xmm0
+
+./BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.simple
+Unsupported!
+400bcf 	imulq	$1103515245, 2102390(%rip), %rcx
+--
+Unsupported!
+400c69 	subpd	%xmm4, %xmm0
+
+./BenchmarkGame/Output/spectral-norm.simple.mcsema/spectral-norm.simple
+Unsupported!
+400970 	movupd	%xmm0, (%rbx,%rcx,8)
+--
+Unsupported!
+400b0a 	unpckhpd	%xmm0, %xmm0
+--
+Unsupported!
+400aed 	movhpd	(%rbx), %xmm0
+
+./CoyoteBench/Output/almabench.simple.mcsema/almabench.simple
+Unsupported!
+400b93 	movhpd	4203552(%rbp,%r14), %xmm1
+--
+Unsupported!
+400cba 	unpckhpd	%xmm1, %xmm1
+
+./CoyoteBench/Output/fftbench.simple.mcsema/fftbench.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./CoyoteBench/Output/lpbench.simple.mcsema/lpbench.simple
+Unsupported!
+4013b0 	movupd	-16(%rax,%rdx,8), %xmm0
+--
+Unsupported!
+4014e0 	movupd	(%rsi,%rbp,8), %xmm3
+--
+Unsupported!
+401600 	movupd	-16(%rbp), %xmm2
+
+./Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.simple
+Unsupported!
+4008f0 	addps	6628752(,%rdx,4), %xmm0
+--
+Unsupported!
+400ad0 	addps	6628752(,%rdx,4), %xmm0
+--
+Unsupported!
+400e20 	addps	6628752(,%rdx,4), %xmm0
+--
+Unsupported!
+400ff0 	addps	6628752(,%rdx,4), %xmm0
+--
+Unsupported!
+4011f0 	addps	6628752(,%rdx,4), %xmm0
+--
+Unsupported!
+4014a0 	addps	6307952(%rsi,%rdx,4), %xmm0
+--
+Unsupported!
+401680 	addps	6307952(%rsi,%rdx,4), %xmm0
+
+./Misc-C++-EH/Output/spirit.simple.mcsema/spirit.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Misc-C++/Large/Output/ray.simple.mcsema/ray.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Misc-C++/Large/Output/sphereflake.simple.mcsema/sphereflake.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Misc-C++/Output/bigfib.simple.mcsema/bigfib.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Misc-C++/Output/oopack_v1p8.simple.mcsema/oopack_v1p8.simple
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_latest/mc-sema/cfgToLLVM/x86Helpers.cpp
+Want to use MEM as data ref but have no MEM reference
+
+
+./Misc-C++/Output/stepanov_container.simple.mcsema/stepanov_container.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Misc/Output/dt.simple.mcsema/dt.simple
+Unsupported!
+4007e0 	movupd	(%rax,%rbx,8), %xmm0
+
+./Misc/Output/ffbench.simple.mcsema/ffbench.simple
+Unsupported!
+4008ec 	cmplesd	%xmm3, %xmm1
+
+./Misc/Output/flops-1.simple.mcsema/flops-1.simple
+Unsupported!
+4007bd 	shufpd	$0, %xmm5, %xmm5
+
+./Misc/Output/flops-5.simple.mcsema/flops-5.simple
+Unsupported!
+400865 	mulpd	%xmm3, %xmm11
+
+./Misc/Output/flops-6.simple.mcsema/flops-6.simple
+Unsupported!
+400863 	mulpd	%xmm6, %xmm2
+
+./Misc/Output/flops.simple.mcsema/flops.simple
+Unsupported!
+40094c 	shufpd	$0, %xmm6, %xmm6
+--
+Unsupported!
+4015d2 	movhpd	2103997(%rip), %xmm12
+--
+Unsupported!
+401924 	movhpd	2103147(%rip), %xmm12
+--
+Unsupported!
+401663 	mulpd	%xmm4, %xmm3
+--
+Unsupported!
+4019b3 	mulpd	%xmm4, %xmm3
+
+./Misc/Output/fp-convert.simple.mcsema/fp-convert.simple
+Unsupported!
+400681 	addps	%xmm8, %xmm5
+--
+Unsupported!
+4006ad 	cvtdq2ps	%xmm7, %xmm7
+
+./Misc/Output/matmul_f64_4x4.simple.mcsema/matmul_f64_4x4.simple
+Unsupported!
+400640 	movupd	(%rdx), %xmm15
+
+./Misc/Output/oourafft.simple.mcsema/oourafft.simple
+Unsupported!
+400a70 	movupd	(%r13,%rax,8), %xmm0
+--
+Unsupported!
+400cd0 	movupd	(%r13,%rcx,8), %xmm0
+--
+Unsupported!
+400ed0 	movupd	(%rbx,%rax,8), %xmm0
+--
+Unsupported!
+40104a 	cmpltsd	%xmm3, %xmm0
+
+./Misc/Output/pi.simple.mcsema/pi.simple
+Unsupported!
+4006e6 	mulps	%xmm6, %xmm6
+
+./Misc/Output/salsa20.simple.mcsema/salsa20.simple
+Unsupported!
+40092d 	pslldq	$8, %xmm0
+
+./Polybench/datamining/correlation/Output/correlation.simple.mcsema/correlation.simple
+Unsupported!
+400b0e 	cmpnlesd	993(%rip), %xmm1
+--
+Unsupported!
+400b90 	movupd	(%r13,%rdi,8), %xmm2
+
+./Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.simple
+Unsupported!
+400a50 	movupd	-16(%r12,%rbx,8), %xmm0
+
+./Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.simple
+Unsupported!
+400ac4 	shufpd	$0, %xmm0, %xmm0
+
+./Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.simple
+Unsupported!
+400c10 	movupd	(%r11), %xmm0
+--
+Unsupported!
+400df0 	movupd	-16(%r14,%rax,8), %xmm0
+
+./Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.simple
+Unsupported!
+400a30 	movupd	-16(%rsi), %xmm1
+
+./Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.simple
+Unsupported!
+4009f0 	movupd	-16(%rsi), %xmm1
+
+./Polybench/stencils/adi/Output/adi.simple.mcsema/adi.simple
+Unsupported!
+400e60 	movupd	8380416(%rbx,%rax,8), %xmm0
+--
+Unsupported!
+400c20 	movupd	(%r9), %xmm0
+--
+Unsupported!
+400f90 	movupd	(%rax), %xmm0
+
+./Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.simple
+Unsupported!
+400ab5 	shufpd	$0, %xmm4, %xmm4
+--
+Unsupported!
+400bc0 	movupd	(%rcx), %xmm4
+--
+Unsupported!
+400c90 	movupd	(%rcx), %xmm4
+--
+Unsupported!
+400dc0 	movupd	(%r8), %xmm4
+
+./Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.simple
+Unsupported!
+400e03 	pslldq	$8, %xmm10
+--
+Unsupported!
+4012b3 	imulq	$520, 208(%rsp), %rbp
+
+./Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.simple
+Unsupported!
+4009d0 	movupd	(%rbx,%rdi,8), %xmm2
+--
+Unsupported!
+400ab0 	movupd	-16(%r14,%rax,8), %xmm2
+
+./Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.simple
+Unsupported!
+400a70 	movupd	8000(%rcx), %xmm2
+--
+Unsupported!
+400c90 	movupd	-16(%rcx), %xmm2
+
+./Shootout-C++/EH/Output/except.simple.mcsema/except.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/ackermann.simple.mcsema/ackermann.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/ary.simple.mcsema/ary.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/ary2.simple.mcsema/ary2.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/ary3.simple.mcsema/ary3.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/fibo.simple.mcsema/fibo.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/hash2.simple.mcsema/hash2.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/heapsort.simple.mcsema/heapsort.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/hello.simple.mcsema/hello.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/lists1.simple.mcsema/lists1.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/matrix.simple.mcsema/matrix.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/methcall.simple.mcsema/methcall.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/moments.simple.mcsema/moments.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/nestedloop.simple.mcsema/nestedloop.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/objinst.simple.mcsema/objinst.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/random.simple.mcsema/random.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/reversefile.simple.mcsema/reversefile.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/sieve.simple.mcsema/sieve.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/spellcheck.simple.mcsema/spellcheck.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/sumcol.simple.mcsema/sumcol.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/wc.simple.mcsema/wc.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/wordfreq.simple.mcsema/wordfreq.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./SmallPT/Output/smallpt.simple.mcsema/smallpt.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
