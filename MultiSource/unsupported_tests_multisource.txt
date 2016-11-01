@@ -1,0 +1,916 @@
+Segmentation Faults
+=====================
+./Benchmarks/BitBench/drop3/Output/drop3.simple.mcsema/drop3.simple.cfg 
+./Benchmarks/BitBench/uudecode/Output/uudecode.simple.mcsema/uudecode.simple.cfg 
+./Benchmarks/BitBench/uuencode/Output/uuencode.simple.mcsema/uuencode.simple.cfg 
+./Benchmarks/Ptrdist/ft/Output/ft.simple.mcsema/ft.simple.cfg 
+./Benchmarks/Ptrdist/ks/Output/ks.simple.mcsema/ks.simple.cfg 
+./Benchmarks/Ptrdist/yacr2/Output/yacr2.simple.mcsema/yacr2.simple.cfg 
+./Benchmarks/Ptrdist/anagram/Output/anagram.simple.mcsema/anagram.simple.cfg 
+./Benchmarks/MiBench/network-dijkstra/Output/network-dijkstra.simple.mcsema/network-dijkstra.simple.cfg 
+./Benchmarks/MiBench/office-ispell/Output/office-ispell.simple.mcsema/office-ispell.simple.cfg 
+./Benchmarks/MiBench/network-patricia/Output/network-patricia.simple.mcsema/network-patricia.simple.cfg 
+./Benchmarks/MiBench/telecomm-adpcm/Output/telecomm-adpcm.simple.mcsema/telecomm-adpcm.simple.cfg 
+./Benchmarks/MiBench/automotive-susan/Output/automotive-susan.simple.mcsema/automotive-susan.simple.cfg 
+./Benchmarks/MiBench/security-blowfish/Output/security-blowfish.simple.mcsema/security-blowfish.simple.cfg 
+./Benchmarks/McCat/01-qbsort/Output/qbsort.simple.mcsema/qbsort.simple.cfg 
+./Benchmarks/McCat/09-vor/Output/vor.simple.mcsema/vor.simple.cfg 
+./Benchmarks/McCat/03-testtrie/Output/testtrie.simple.mcsema/testtrie.simple.cfg 
+./Benchmarks/McCat/15-trie/Output/trie.simple.mcsema/trie.simple.cfg 
+./Benchmarks/Prolangs-C/agrep/Output/agrep.simple.mcsema/agrep.simple.cfg 
+./Benchmarks/Prolangs-C/fixoutput/Output/fixoutput.simple.mcsema/fixoutput.simple.cfg 
+./Benchmarks/Prolangs-C/unix-tbl/Output/unix-tbl.simple.mcsema/unix-tbl.simple.cfg 
+./Benchmarks/FreeBench/fourinarow/Output/fourinarow.simple.mcsema/fourinarow.simple.cfg 
+./Benchmarks/FreeBench/mason/Output/mason.simple.mcsema/mason.simple.cfg 
+./Benchmarks/ASC_Sequoia/IRSmk/Output/IRSmk.simple.mcsema/IRSmk.simple.cfg 
+./Benchmarks/Olden/treeadd/Output/treeadd.simple.mcsema/treeadd.simple.cfg 
+./Benchmarks/Olden/em3d/Output/em3d.simple.mcsema/em3d.simple.cfg 
+./Benchmarks/Olden/mst/Output/mst.simple.mcsema/mst.simple.cfg 
+./Benchmarks/Olden/perimeter/Output/perimeter.simple.mcsema/perimeter.simple.cfg 
+./Benchmarks/mediabench/adpcm/rawdaudio/Output/rawdaudio.simple.mcsema/rawdaudio.simple.cfg 
+./Benchmarks/mediabench/adpcm/rawcaudio/Output/rawcaudio.simple.mcsema/rawcaudio.simple.cfg 
+./Benchmarks/mediabench/g721/g721encode/Output/encode.simple.mcsema/encode.simple.cfg 
+./Benchmarks/VersaBench/ecbdes/Output/ecbdes.simple.mcsema/ecbdes.simple.cfg 
+./Benchmarks/VersaBench/bmm/Output/bmm.simple.mcsema/bmm.simple.cfg 
+./Benchmarks/Trimaran/netbench-url/Output/netbench-url.simple.mcsema/netbench-url.simple.cfg 
+./Benchmarks/sim/Output/sim.simple.mcsema/sim.simple.cfg 
+./Applications/d/Output/make_dparser.simple.mcsema/make_dparser.simple.cfg 
+./Applications/Burg/Output/burg.simple.mcsema/burg.simple.cfg 
+./Applications/treecc/Output/treecc.simple.mcsema/treecc.simple.cfg 
+./Applications/spiff/Output/spiff.simple.mcsema/spiff.simple.cfg 
+
+
+./UnitTests/C++11/frame_layout/Output/frame_layout.simple.mcsema/frame_layout.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/Ptrdist/bc/Output/bc.simple.mcsema/bc.simple
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_latest/mc-sema/cfgToLLVM/x86Helpers.cpp
+Want to use MEM as data ref but have no MEM reference
+
+./Benchmarks/Fhourstones/Output/fhourstones.simple.mcsema/fhourstones.simple
+Unsupported!
+400978 	imulq	$224, 16(%rsp), %rbp
+Unsupported!
+400a8d 	imulq	$224, 16(%rsp), %rax
+
+./Benchmarks/MallocBench/gs/Output/gs.simple.mcsema/gs.simple
+Unsupported!
+421f28 	imulq	$86400000, (%rsp), %rax
+
+./Benchmarks/MallocBench/cfrac/Output/cfrac.simple.mcsema/cfrac.simple
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_latest/mc-sema/cfgToLLVM/x86Helpers.cpp
+Want to use MEM as data ref but have no MEM reference
+
+
+./Benchmarks/MallocBench/espresso/Output/espresso.simple.mcsema/espresso.simple
+Unsupported!
+425cb3 	imulq	$1000, 8(%rsp), %rcx
+
+./Benchmarks/MiBench/consumer-typeset/Output/consumer-typeset.simple.mcsema/consumer-typeset.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/MiBench/consumer-lame/Output/consumer-lame.simple.mcsema/consumer-lame.simple
+Unsupported!
+402cfb 	addpd	%xmm9, %xmm13
+Unsupported!
+402d9b 	shufpd	$0, %xmm0, %xmm0
+Unsupported!
+402e4e 	addpd	%xmm15, %xmm4
+Unsupported!
+402f59 	addpd	%xmm8, %xmm1
+Unsupported!
+402fc3 	movhpd	%xmm13, 512(%rsi)
+Unsupported!
+40301f 	unpckhpd	%xmm3, %xmm3
+
+./Benchmarks/MiBench/telecomm-FFT/Output/telecomm-fft.simple.mcsema/telecomm-fft.simple
+Unsupported!
+4010b0 	imulq	$1103515245, 2101213(%rip), %rax
+
+./Benchmarks/MiBench/automotive-bitcount/Output/automotive-bitcount.simple.mcsema/automotive-bitcount.simple
+Unsupported!
+400e41 	imulq	$1103515245, 2101852(%rip), %rax
+Unsupported!
+400db0 	imulq	$1103515245, 2101997(%rip), %rax
+
+./Benchmarks/MiBench/telecomm-gsm/Output/telecomm-gsm.simple.mcsema/telecomm-gsm.simple
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_latest/mc-sema/cfgToLLVM/x86Helpers.cpp
+Want to use MEM as data ref but have no MEM reference
+
+
+./Benchmarks/MiBench/consumer-jpeg/Output/consumer-jpeg.simple.mcsema/consumer-jpeg.simple
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_latest/mc-sema/cfgToLLVM/x86Helpers.cpp
+Want to use MEM as data ref but have no MEM reference
+
+
+./Benchmarks/McCat/04-bisect/Output/bisect.simple.mcsema/bisect.simple
+Unsupported!
+400ab0 	movupd	(%rsi,%rbx,8), %xmm0
+
+./Benchmarks/McCat/18-imp/Output/imp.simple.mcsema/imp.simple
+Unsupported!
+401958 	mulps	%xmm4, %xmm7
+Unsupported!
+4019b8 	mulps	%xmm5, %xmm7
+
+./Benchmarks/McCat/05-eks/Output/eks.simple.mcsema/eks.simple
+Unsupported!
+401800 	movupd	(%rcx,%rbx,8), %xmm4
+Unsupported!
+401ba0 	movupd	(%rdi), %xmm4
+
+./Benchmarks/McCat/08-main/Output/main.simple.mcsema/main.simple
+Unsupported!
+4024fc 	shufpd	$0, %xmm0, %xmm0
+
+./Benchmarks/Prolangs-C/football/Output/football.simple.mcsema/football.simple
+Unsupported!
+4015ee 	cmpeqsd	%xmm0, %xmm2
+Unsupported!
+40165a 	cmpeqsd	%xmm0, %xmm2
+
+./Benchmarks/Prolangs-C/cdecl/Output/cdecl.simple.mcsema/cdecl.simple
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_latest/mc-sema/cfgToLLVM/x86Helpers.cpp
+Want to use MEM as data ref but have no MEM reference
+
+./Benchmarks/Prolangs-C/TimberWolfMC/Output/timberwolfmc.simple.mcsema/timberwolfmc.simple
+Unsupported!
+424b56 	pslldq	$8, %xmm1
+
+./Benchmarks/Prolangs-C/bison/Output/mybison.simple.mcsema/mybison.simple
+doCallPCExtern paramCount  : 1 : perror
+1 : 1d2c790
+Unsupported!
+40808d 	decw	(%rbx,%rdx,2)
+
+./Benchmarks/Prolangs-C/plot2fig/Output/plot2fig.simple.mcsema/plot2fig.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/Prolangs-C/unix-smail/Output/unix-smail.simple.mcsema/unix-smail.simple
+error: 
+Line: 41
+File: /home/sdasgup3/Github/mcsema_latest/mc-sema/cfgToLLVM/x86Helpers.h
+Could not find external: tzname
+
+./Benchmarks/Prolangs-C/archie-client/Output/archie.simple.mcsema/archie.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/SciMark2-C/Output/scimark2.simple.mcsema/scimark2.simple
+Unsupported!
+400d40 	movupd	(%r14,%rdx,8), %xmm2
+
+./Benchmarks/FreeBench/distray/Output/distray.simple.mcsema/distray.simple
+Unsupported!
+400a8f 	mulpd	2107353(%rip), %xmm1
+Unsupported!
+400fa9 	mulpd	%xmm0, %xmm1
+Unsupported!
+400eb2 	mulpd	144(%rsp), %xmm0
+Unsupported!
+400c7e 	mulpd	96(%rsp), %xmm0
+
+./Benchmarks/FreeBench/pcompress2/Output/pcompress2.simple.mcsema/pcompress2.simple
+Unsupported!
+400b4c 	pslldq	$8, %xmm3
+Unsupported!
+400c01 	pslldq	$8, %xmm1
+
+./Benchmarks/FreeBench/pifft/Output/pifft.simple.mcsema/pifft.simple
+Unsupported!
+40abb8 	movupd	(%rbx), %xmm0
+
+./Benchmarks/FreeBench/neural/Output/neural.simple.mcsema/neural.simple
+Unsupported!
+401a38 	cmpnltps	%xmm0, %xmm1
+Unsupported!
+401bc5 	cvtdq2ps	%xmm0, %xmm0
+
+./Benchmarks/FreeBench/analyzer/Output/analyzer.simple.mcsema/analyzer.simple
+Unsupported!
+401553 	subpd	%xmm3, %xmm1
+
+./Benchmarks/PAQ8p/Output/paq8p.simple.mcsema/paq8p.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/ASC_Sequoia/AMGmk/Output/AMGmk.simple.mcsema/AMGmk.simple
+Unsupported!
+401b10 	movupd	(%r12,%rdx,8), %xmm2
+Unsupported!
+401bc0 	movupd	(%r12,%rsi,8), %xmm2
+Unsupported!
+401fb0 	movupd	(%r12,%rdx,8), %xmm1
+
+./Benchmarks/ASC_Sequoia/CrystalMk/Output/CrystalMk.simple.mcsema/CrystalMk.simple
+Unsupported!
+400b10 	movupd	(%rsi,%rax,8), %xmm3
+
+./Benchmarks/Fhourstones-3.1/Output/fhourstones3.1.simple.mcsema/fhourstones3.1.simple
+Unsupported!
+4012c7 	imulq	$196, 48(%rsp), %rax
+Unsupported!
+40142e 	imulq	$196, 48(%rsp), %rcx
+
+./Benchmarks/nbench/Output/nbench.simple.mcsema/nbench.simple
+Unsupported!
+405723 	subpd	21701(%rip), %xmm0
+Unsupported!
+40529d 	subpd	22859(%rip), %xmm0
+Unsupported!
+40553d 	subpd	22187(%rip), %xmm0
+
+./Benchmarks/NPB-serial/is/Output/is.simple.mcsema/is.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/ASCI_Purple/SMG2000/Output/smg2000.simple.mcsema/smg2000.simple
+Unsupported!
+412bd0 	movupd	%xmm0, (%r14,%rdx,8)
+
+./Benchmarks/mafft/Output/pairlocalalign.simple.mcsema/pairlocalalign.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/Olden/voronoi/Output/voronoi.simple.mcsema/voronoi.simple
+Unsupported!
+403340 	movupd	32(%rsp), %xmm0
+
+./Benchmarks/Olden/power/Output/power.simple.mcsema/power.simple
+Unsupported!
+4018cd 	movupd	16(%rbx), %xmm0
+Unsupported!
+401958 	subpd	%xmm7, %xmm0
+
+./Benchmarks/Olden/bh/Output/bh.simple.mcsema/bh.simple
+Unsupported!
+400c31 	addpd	112(%rsp), %xmm0
+Unsupported!
+400d51 	divpd	%xmm1, %xmm2
+Unsupported!
+400e20 	movupd	16(%rbx), %xmm6
+Unsupported!
+400ed0 	unpckhpd	%xmm6, %xmm6
+
+./Benchmarks/Olden/health/Output/health.simple.mcsema/health.simple
+Unsupported!
+400957 	addps	64(%rsp), %xmm0
+Unsupported!
+4009aa 	addps	%xmm4, %xmm0
+
+./Benchmarks/Bullet/Output/bullet.simple.mcsema/bullet.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/mediabench/jpeg/jpeg-6a/Output/cjpeg.simple.mcsema/cjpeg.simple
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_latest/mc-sema/cfgToLLVM/x86Helpers.cpp
+Want to use MEM as data ref but have no MEM reference
+
+./Benchmarks/mediabench/gsm/toast/Output/toast.simple.mcsema/toast.simple
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_latest/mc-sema/cfgToLLVM/x86Helpers.cpp
+Want to use MEM as data ref but have no MEM reference
+
+./Benchmarks/mediabench/mpeg2/mpeg2dec/Output/mpeg2decode.simple.mcsema/mpeg2decode.simple
+Unsupported!
+404ff4 	pshufhw	$8, %xmm6, %xmm6
+
+./Benchmarks/tramp3d-v4/Output/tramp3d-v4.simple.mcsema/tramp3d-v4.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/TSVC/Packing-dbl/Output/Packing-dbl.simple.mcsema/Packing-dbl.simple
+Unsupported!
+406181 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4061d2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+406221 	shufpd	$0, %xmm1, %xmm1
+
+./Benchmarks/TSVC/NodeSplitting-dbl/Output/NodeSplitting-dbl.simple.mcsema/NodeSplitting-dbl.simple
+Unsupported!
+406818 	movhpd	8768736(%rax), %xmm1
+
+./Benchmarks/TSVC/Recurrences-dbl/Output/Recurrences-dbl.simple.mcsema/Recurrences-dbl.simple
+Unsupported!
+406161 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4061b2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+406201 	shufpd	$0, %xmm1, %xmm1
+
+./Benchmarks/TSVC/InductionVariable-flt/Output/InductionVariable-flt.simple.mcsema/InductionVariable-flt.simple
+Unsupported!
+405cc0 	addps	7738528(,%rax,4), %xmm0
+
+./Benchmarks/TSVC/Expansion-flt/Output/Expansion-flt.simple.mcsema/Expansion-flt.simple
+Unsupported!
+405cb8 	mulps	7994624(,%rax,4), %xmm0
+
+./Benchmarks/TSVC/CrossingThresholds-dbl/Output/CrossingThresholds-dbl.simple.mcsema/CrossingThresholds-dbl.simple
+Unsupported!
+4019f2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+401a44 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+401ca4 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+40206e 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+40231f 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402b89 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402af5 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402bd2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402ca2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402c13 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402ce4 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402deb 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4034a6 	shufpd	$0, %xmm0, %xmm0
+Unsupported!
+403fa4 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+403fe6 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+404297 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+404625 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4049ae 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4049f0 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+404d9f 	movupd	%xmm0, 9707496(,%rax,8)
+Unsupported!
+4054bc 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+40581b 	shufpd	$0, %xmm1, %xmm1
+
+./Benchmarks/TSVC/ControlLoops-dbl/Output/ControlLoops-dbl.simple.mcsema/ControlLoops-dbl.simple
+Unsupported!
+4019f2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+401a44 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+401ca4 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+40206e 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+40231f 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402b89 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402af5 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402bd2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402ca2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402c13 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402ce4 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402deb 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4034a6 	shufpd	$0, %xmm0, %xmm0
+Unsupported!
+403fa4 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+403fe6 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+404297 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+404625 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4049ae 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4049f0 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+404d9f 	movupd	%xmm0, 9707496(,%rax,8)
+Unsupported!
+4054bc 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+40581b 	shufpd	$0, %xmm1, %xmm1
+
+./Benchmarks/TSVC/Symbolics-flt/Output/Symbolics-flt.simple.mcsema/Symbolics-flt.simple
+Unsupported!
+40647c 	mulps	%xmm0, %xmm1
+
+./Benchmarks/TSVC/LoopRerolling-dbl/Output/LoopRerolling-dbl.simple.mcsema/LoopRerolling-dbl.simple
+Unsupported!
+4065d0 	movupd	8768768(,%rax,8), %xmm0
+
+./Benchmarks/TSVC/Reductions-flt/Output/Reductions-flt.simple.mcsema/Reductions-flt.simple
+Unsupported!
+4066cb 	cmpnless	%xmm2, %xmm1
+
+./Benchmarks/TSVC/InductionVariable-dbl/Output/InductionVariable-dbl.simple.mcsema/InductionVariable-dbl.simple
+Unsupported!
+4019f2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+401a44 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+401ca4 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+40206e 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+40231f 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402b89 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402af5 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402bd2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402ca2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402c13 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402ce4 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402deb 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4034a6 	shufpd	$0, %xmm0, %xmm0
+Unsupported!
+403fa4 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+403fe6 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+404297 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+404625 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4049ae 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4049f0 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+404d9f 	movupd	%xmm0, 9707496(,%rax,8)
+Unsupported!
+4054bc 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+40581b 	shufpd	$0, %xmm1, %xmm1
+
+./Benchmarks/TSVC/ControlFlow-dbl/Output/ControlFlow-dbl.simple.mcsema/ControlFlow-dbl.simple
+Unsupported!
+406030 	movupd	8520928(%rbp,%rcx,8), %xmm0
+
+./Benchmarks/TSVC/Searching-dbl/Output/Searching-dbl.simple.mcsema/Searching-dbl.simple
+Unsupported!
+4019f2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+401a44 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+401ca4 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+40206e 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+40231f 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402b89 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402af5 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402bd2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402ca2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402c13 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402ce4 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402deb 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4034a6 	shufpd	$0, %xmm0, %xmm0
+Unsupported!
+403fa4 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+403fe6 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+404297 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+404625 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4049ae 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4049f0 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+404d9f 	movupd	%xmm0, 9703400(,%rax,8)
+Unsupported!
+4054bc 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+40581b 	shufpd	$0, %xmm1, %xmm1
+
+./Benchmarks/TSVC/CrossingThresholds-flt/Output/CrossingThresholds-flt.simple.mcsema/CrossingThresholds-flt.simple
+Unsupported!
+406665 	cmpeqss	%xmm2, %xmm1
+
+./Benchmarks/TSVC/ControlLoops-flt/Output/ControlLoops-flt.simple.mcsema/ControlLoops-flt.simple
+Unsupported!
+406458 	mulps	%xmm2, %xmm0
+
+./Benchmarks/TSVC/IndirectAddressing-dbl/Output/IndirectAddressing-dbl.simple.mcsema/IndirectAddressing-dbl.simple
+Unsupported!
+4019f2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+401a44 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+401ca4 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+40206e 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+40231f 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402b89 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402af5 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402bd2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402ca2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402c13 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402ce4 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402deb 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4034a6 	shufpd	$0, %xmm0, %xmm0
+Unsupported!
+403fa4 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+403fe6 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+404297 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+404625 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4049ae 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4049f0 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+404d9f 	movupd	%xmm0, 9707496(,%rax,8)
+Unsupported!
+4054bc 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+40581b 	shufpd	$0, %xmm1, %xmm1
+
+./Benchmarks/TSVC/NodeSplitting-flt/Output/NodeSplitting-flt.simple.mcsema/NodeSplitting-flt.simple
+Unsupported!
+4063d0 	addps	%xmm0, %xmm1
+
+./Benchmarks/TSVC/Reductions-dbl/Output/Reductions-dbl.simple.mcsema/Reductions-dbl.simple
+Unsupported!
+407111 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+407162 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4071b1 	shufpd	$0, %xmm1, %xmm1
+
+./Benchmarks/TSVC/Expansion-dbl/Output/Expansion-dbl.simple.mcsema/Expansion-dbl.simple
+Unsupported!
+4019f2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+401a44 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+401ca4 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+40206e 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+40231f 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402b89 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402af5 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402bd2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402ca2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402c13 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402ce4 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402deb 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4034a6 	shufpd	$0, %xmm0, %xmm0
+Unsupported!
+403fa4 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+403fe6 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+404297 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+404625 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4049ae 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4049f0 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+404d9f 	movupd	%xmm0, 9707496(,%rax,8)
+Unsupported!
+4054bc 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+40581b 	shufpd	$0, %xmm1, %xmm1
+
+./Benchmarks/TSVC/Equivalencing-dbl/Output/Equivalencing-dbl.simple.mcsema/Equivalencing-dbl.simple
+Unsupported!
+406112 	addpd	8512736(,%rsi,8), %xmm0
+
+./Benchmarks/TSVC/LinearDependence-flt/Output/LinearDependence-flt.simple.mcsema/LinearDependence-flt.simple
+Unsupported!
+405cc8 	addps	%xmm2, %xmm0
+
+./Benchmarks/TSVC/Symbolics-dbl/Output/Symbolics-dbl.simple.mcsema/Symbolics-dbl.simple
+Unsupported!
+4064a0 	movupd	(%rcx), %xmm0
+
+./Benchmarks/TSVC/GlobalDataFlow-dbl/Output/GlobalDataFlow-dbl.simple.mcsema/GlobalDataFlow-dbl.simple
+Unsupported!
+405d70 	movupd	8768744(,%rax,8), %xmm0
+
+./Benchmarks/TSVC/LoopRestructuring-flt/Output/LoopRestructuring-flt.simple.mcsema/LoopRestructuring-flt.simple
+Unsupported!
+40667a 	addps	%xmm0, %xmm1
+
+./Benchmarks/TSVC/LinearDependence-dbl/Output/LinearDependence-dbl.simple.mcsema/LinearDependence-dbl.simple
+Unsupported!
+4072c9 	shufpd	$0, %xmm1, %xmm1
+
+./Benchmarks/TSVC/StatementReordering-dbl/Output/StatementReordering-dbl.simple.mcsema/StatementReordering-dbl.simple
+Unsupported!
+406191 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4061e2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+406231 	shufpd	$0, %xmm1, %xmm1
+
+./Benchmarks/TSVC/LoopRerolling-flt/Output/LoopRerolling-flt.simple.mcsema/LoopRerolling-flt.simple
+Unsupported!
+406598 	mulps	%xmm3, %xmm0
+
+./Benchmarks/TSVC/Equivalencing-flt/Output/Equivalencing-flt.simple.mcsema/Equivalencing-flt.simple
+Unsupported!
+4064e0 	addps	7482524(,%rcx,4), %xmm0
+
+./Benchmarks/TSVC/GlobalDataFlow-flt/Output/GlobalDataFlow-flt.simple.mcsema/GlobalDataFlow-flt.simple
+Unsupported!
+40680b 	mulps	%xmm1, %xmm1
+
+./Benchmarks/TSVC/LoopRestructuring-dbl/Output/LoopRestructuring-dbl.simple.mcsema/LoopRestructuring-dbl.simple
+Unsupported!
+4019f2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+401a44 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+401ca4 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+40206e 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+40231f 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402b89 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402af5 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402bd2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402ca2 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402c13 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402ce4 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+402deb 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4034a6 	shufpd	$0, %xmm0, %xmm0
+Unsupported!
+403fa4 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+403fe6 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+404297 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+404625 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4049ae 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+4049f0 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+404d9f 	movupd	%xmm0, 9707496(,%rax,8)
+Unsupported!
+4054bc 	shufpd	$0, %xmm1, %xmm1
+Unsupported!
+40581b 	shufpd	$0, %xmm1, %xmm1
+
+./Benchmarks/TSVC/ControlFlow-flt/Output/ControlFlow-flt.simple.mcsema/ControlFlow-flt.simple
+Unsupported!
+406050 	mulps	7746784(,%rcx,4), %xmm1
+
+./Benchmarks/VersaBench/beamformer/Output/beamformer.simple.mcsema/beamformer.simple
+error: 
+Line: 41
+File: /home/sdasgup3/Github/mcsema_latest/mc-sema/cfgToLLVM/x86Helpers.h
+Could not find external: optarg
+
+./Benchmarks/VersaBench/dbms/Output/dbms.simple.mcsema/dbms.simple
+Unsupported!
+403e7b 	movupd	16(%rbx), %xmm2
+
+./Benchmarks/Prolangs-C++/family/Output/family.simple.mcsema/family.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/Prolangs-C++/employ/Output/employ.simple.mcsema/employ.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/Prolangs-C++/shapes/Output/shapes.simple.mcsema/shapes.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/Prolangs-C++/primes/Output/primes.simple.mcsema/primes.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/Prolangs-C++/ocean/Output/ocean.simple.mcsema/ocean.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/Prolangs-C++/life/Output/life.simple.mcsema/life.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/Prolangs-C++/deriv1/Output/deriv1.simple.mcsema/deriv1.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/Prolangs-C++/city/Output/city.simple.mcsema/city.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/Prolangs-C++/office/Output/office.simple.mcsema/office.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/Prolangs-C++/trees/Output/trees.simple.mcsema/trees.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/Prolangs-C++/fsm/Output/fsm.simple.mcsema/fsm.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/Prolangs-C++/objects/Output/objects.simple.mcsema/objects.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/Prolangs-C++/deriv2/Output/deriv2.simple.mcsema/deriv2.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/Prolangs-C++/garage/Output/garage.simple.mcsema/garage.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/Prolangs-C++/simul/Output/simul.simple.mcsema/simul.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/7zip/Output/7zip-benchmark.simple.mcsema/7zip-benchmark.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Benchmarks/Trimaran/netbench-crc/Output/netbench-crc.simple.mcsema/netbench-crc.simple
+Unsupported!
+400a0f 	pslldq	$8, %xmm0
+
+./Applications/ALAC/encode/Output/alacconvert-encode.simple.mcsema/alacconvert-encode.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Applications/ALAC/decode/Output/alacconvert-decode.simple.mcsema/alacconvert-decode.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Applications/sgefa/Output/sgefa.simple.mcsema/sgefa.simple
+Unsupported!
+403647 	mulps	%xmm1, %xmm2
+
+./Applications/hexxagon/Output/hexxagon.simple.mcsema/hexxagon.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Applications/kimwitu++/Output/kc.simple.mcsema/kc.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Applications/obsequi/Output/Obsequi.simple.mcsema/Obsequi.simple
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_latest/mc-sema/cfgToLLVM/x86Helpers.cpp
+Want to use MEM as data ref but have no MEM reference
+
+
+./Applications/sqlite3/Output/sqlite3.simple.mcsema/sqlite3.simple
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_latest/mc-sema/cfgToLLVM/x86Helpers.cpp
+Want to use MEM as data ref but have no MEM reference
+
+./Applications/JM/ldecod/Output/ldecod.simple.mcsema/ldecod.simple
+Unsupported!
+41d24f 	imulq	$408, 16(%rsp), %rcx
+Unsupported!
+41d189 	imulq	$408, 16(%rsp), %rcx
+Unsupported!
+41d295 	imulq	$408, (%rsp), %rcx
+Unsupported!
+41d1c5 	imulq	$408, (%rsp), %rcx
+Unsupported!
+41d2e0 	imulq	$408, 8(%rsp), %rcx
+Unsupported!
+41d20a 	imulq	$408, 8(%rsp), %rcx
+
+./Applications/JM/ldecod/Output/ldecod.simple.mcsema/ldecod.simple.mcsema/ldecod.simple
+
+./Applications/JM/lencod/Output/lencod.simple.mcsema/lencod.simple
+Unsupported!
+430112 	pslldq	$8, %xmm1
+
+./Applications/JM/lencod/Output/lencod.simple.mcsema/lencod.simple.mcsema/lencod.simple
+
+./Applications/lambda-0.1.3/Output/lambda.simple.mcsema/lambda.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Applications/SIBsim4/Output/SIBsim4.simple.mcsema/SIBsim4.simple
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_latest/mc-sema/cfgToLLVM/x86Helpers.cpp
+Want to use MEM as data ref but have no MEM reference
+
+./Applications/lua/Output/lua.simple.mcsema/lua.simple
+Unsupported!
+40d485 	decw	96(%rbx)
+
+./Applications/hbd/Output/hbd.simple.mcsema/hbd.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Applications/lemon/Output/lemon.simple.mcsema/lemon.simple
+Unsupported!
+40142b 	pslldq	$8, %xmm14
+
+./Applications/SPASS/Output/SPASS.simple.mcsema/SPASS.simple
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_latest/mc-sema/cfgToLLVM/x86Helpers.cpp
+Want to use MEM as data ref but have no MEM reference
+
+
+./Applications/viterbi/Output/viterbi.simple.mcsema/viterbi.simple
+Unsupported!
+400ff8 	pslldq	$8, %xmm0
+
+./Applications/siod/Output/siod.simple.mcsema/siod.simple
+Unsupported!
+41497a 	adcq	$-1, %r15
+
+./Applications/ClamAV/Output/clamscan.simple.mcsema/clamscan.simple
+Unsupported!
+403347 	subpd	437377(%rip), %xmm1
+
+./Applications/minisat/Output/minisat.simple.mcsema/minisat.simple
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_latest/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Applications/oggenc/Output/oggenc.simple.mcsema/oggenc.simple
+Unsupported!
+42d145 	mulps	%xmm8, %xmm6
+Unsupported!
+42d4e9 	addps	%xmm0, %xmm1
+Unsupported!
+42cd79 	mulps	%xmm4, %xmm7
