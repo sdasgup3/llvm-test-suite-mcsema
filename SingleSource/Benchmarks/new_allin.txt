@@ -1,0 +1,1096 @@
+
+Mcsema Home: /home/sdasgup3/Github/mcsema_latest/
+
+===./Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple.new.bc   -o ./Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple.new.trans.o ./Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple  &>  out1 
+././Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple.new.trans.lifted  &>  out2 
+sh: line 1: 20838 Segmentation fault      ././Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple.new.trans.lifted &>out2
+rm -rf  out1 out 2 
+
+===./BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.simple.new.bc   -o ./BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.simple.new.trans.o ./BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.simple  &>  out1 
+././BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Dhrystone/Output/dry.simple.mcsema/dry.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Dhrystone/Output/dry.simple.mcsema/dry.simple.new.bc   -o ./Dhrystone/Output/dry.simple.mcsema/dry.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Dhrystone/Output/dry.simple.mcsema/dry.simple.new.trans.o ./Dhrystone/Output/dry.simple.mcsema/dry.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Dhrystone/Output/dry.simple.mcsema/dry.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Dhrystone/Output/dry.simple.mcsema/dry.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Dhrystone/Output/dry.simple.mcsema/dry.simple  &>  out1 
+././Dhrystone/Output/dry.simple.mcsema/dry.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Dhrystone/Output/fldry.simple.mcsema/fldry.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Dhrystone/Output/fldry.simple.mcsema/fldry.simple.new.bc   -o ./Dhrystone/Output/fldry.simple.mcsema/fldry.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Dhrystone/Output/fldry.simple.mcsema/fldry.simple.new.trans.o ./Dhrystone/Output/fldry.simple.mcsema/fldry.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Dhrystone/Output/fldry.simple.mcsema/fldry.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Dhrystone/Output/fldry.simple.mcsema/fldry.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Dhrystone/Output/fldry.simple.mcsema/fldry.simple  &>  out1 
+././Dhrystone/Output/fldry.simple.mcsema/fldry.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./McGill/Output/chomp.simple.mcsema/chomp.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./McGill/Output/chomp.simple.mcsema/chomp.simple.new.bc   -o ./McGill/Output/chomp.simple.mcsema/chomp.simple.new.trans.bc   &>  /dev/null 
+sh: line 1: 20874 Aborted                 opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./McGill/Output/chomp.simple.mcsema/chomp.simple.new.bc -o ./McGill/Output/chomp.simple.mcsema/chomp.simple.new.trans.bc &>/dev/null
+llc -march=x86-64 -filetype=obj -o ./McGill/Output/chomp.simple.mcsema/chomp.simple.new.trans.o ./McGill/Output/chomp.simple.mcsema/chomp.simple.new.trans.bc 
+llc: ./McGill/Output/chomp.simple.mcsema/chomp.simple.new.trans.bc: error: Could not open input file: No such file or directory
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./McGill/Output/chomp.simple.mcsema/chomp.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./McGill/Output/chomp.simple.mcsema/chomp.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+clang-4.0: error: no such file or directory: './McGill/Output/chomp.simple.mcsema/chomp.simple.new.trans.o'
+././McGill/Output/chomp.simple.mcsema/chomp.simple  &>  out1 
+././McGill/Output/chomp.simple.mcsema/chomp.simple.new.trans.lifted  &>  out2 
+diff out1 out2 
+1,22c1
+< Mode : 1 -> multiple first moves
+<        2 -> report game
+<        3 -> good positions
+<  Selection : Enter number of Columns : Enter number of Rows    : player 0 plays at (2,2)
+< player 1 plays at (7,1)
+< player 0 plays at (0,2)
+< player 1 plays at (7,0)
+< player 0 plays at (6,1)
+< player 1 plays at (6,0)
+< player 0 plays at (5,1)
+< player 1 plays at (5,0)
+< player 0 plays at (4,1)
+< player 1 plays at (4,0)
+< player 0 plays at (3,1)
+< player 1 plays at (3,0)
+< player 0 plays at (2,1)
+< player 1 plays at (2,0)
+< player 0 plays at (1,1)
+< player 1 plays at (1,0)
+< player 0 plays at (0,1)
+< player 1 plays at (0,0)
+< player 1 loses
+---
+> sh: ././McGill/Output/chomp.simple.mcsema/chomp.simple.new.trans.lifted: No such file or directory
+rm -rf  out1 out 2 
+
+===./Misc/Output/flops-7.simple.mcsema/flops-7.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Misc/Output/flops-7.simple.mcsema/flops-7.simple.new.bc   -o ./Misc/Output/flops-7.simple.mcsema/flops-7.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Misc/Output/flops-7.simple.mcsema/flops-7.simple.new.trans.o ./Misc/Output/flops-7.simple.mcsema/flops-7.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Misc/Output/flops-7.simple.mcsema/flops-7.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Misc/Output/flops-7.simple.mcsema/flops-7.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Misc/Output/flops-7.simple.mcsema/flops-7.simple  &>  out1 
+././Misc/Output/flops-7.simple.mcsema/flops-7.simple.new.trans.lifted  &>  out2 
+diff out1 out2 
+6c6
+<      7          0.0000      0.0000      0.0000
+---
+>      7          0.0000      0.0098      0.0098
+rm -rf  out1 out 2 
+
+===./Misc/Output/flops-8.simple.mcsema/flops-8.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Misc/Output/flops-8.simple.mcsema/flops-8.simple.new.bc   -o ./Misc/Output/flops-8.simple.mcsema/flops-8.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Misc/Output/flops-8.simple.mcsema/flops-8.simple.new.trans.o ./Misc/Output/flops-8.simple.mcsema/flops-8.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Misc/Output/flops-8.simple.mcsema/flops-8.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Misc/Output/flops-8.simple.mcsema/flops-8.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Misc/Output/flops-8.simple.mcsema/flops-8.simple  &>  out1 
+././Misc/Output/flops-8.simple.mcsema/flops-8.simple.new.trans.lifted  &>  out2 
+diff out1 out2 
+6c6
+<      8          0.0000      0.0000      0.0000
+---
+>      8          0.0000      0.2166      0.0000
+rm -rf  out1 out 2 
+
+===./Misc/Output/lowercase.simple.mcsema/lowercase.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Misc/Output/lowercase.simple.mcsema/lowercase.simple.new.bc   -o ./Misc/Output/lowercase.simple.mcsema/lowercase.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Misc/Output/lowercase.simple.mcsema/lowercase.simple.new.trans.o ./Misc/Output/lowercase.simple.mcsema/lowercase.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Misc/Output/lowercase.simple.mcsema/lowercase.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Misc/Output/lowercase.simple.mcsema/lowercase.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Misc/Output/lowercase.simple.mcsema/lowercase.simple  &>  out1 
+././Misc/Output/lowercase.simple.mcsema/lowercase.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Misc/Output/mandel-2.simple.mcsema/mandel-2.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Misc/Output/mandel-2.simple.mcsema/mandel-2.simple.new.bc   -o ./Misc/Output/mandel-2.simple.mcsema/mandel-2.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Misc/Output/mandel-2.simple.mcsema/mandel-2.simple.new.trans.o ./Misc/Output/mandel-2.simple.mcsema/mandel-2.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Misc/Output/mandel-2.simple.mcsema/mandel-2.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Misc/Output/mandel-2.simple.mcsema/mandel-2.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Misc/Output/mandel-2.simple.mcsema/mandel-2.simple  &>  out1 
+././Misc/Output/mandel-2.simple.mcsema/mandel-2.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Shootout/Output/ackermann.simple.mcsema/ackermann.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Shootout/Output/ackermann.simple.mcsema/ackermann.simple.new.bc   -o ./Shootout/Output/ackermann.simple.mcsema/ackermann.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Shootout/Output/ackermann.simple.mcsema/ackermann.simple.new.trans.o ./Shootout/Output/ackermann.simple.mcsema/ackermann.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Shootout/Output/ackermann.simple.mcsema/ackermann.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Shootout/Output/ackermann.simple.mcsema/ackermann.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Shootout/Output/ackermann.simple.mcsema/ackermann.simple  &>  out1 
+././Shootout/Output/ackermann.simple.mcsema/ackermann.simple.new.trans.lifted  &>  out2 
+sh: line 1: 20941 Segmentation fault      ././Shootout/Output/ackermann.simple.mcsema/ackermann.simple.new.trans.lifted &>out2
+diff out1 out2 
+1d0
+< Ack(3,8): 2045
+rm -rf  out1 out 2 
+
+===./Shootout/Output/ary3.simple.mcsema/ary3.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Shootout/Output/ary3.simple.mcsema/ary3.simple.new.bc   -o ./Shootout/Output/ary3.simple.mcsema/ary3.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Shootout/Output/ary3.simple.mcsema/ary3.simple.new.trans.o ./Shootout/Output/ary3.simple.mcsema/ary3.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Shootout/Output/ary3.simple.mcsema/ary3.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Shootout/Output/ary3.simple.mcsema/ary3.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Shootout/Output/ary3.simple.mcsema/ary3.simple  &>  out1 
+././Shootout/Output/ary3.simple.mcsema/ary3.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Shootout/Output/fib2.simple.mcsema/fib2.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Shootout/Output/fib2.simple.mcsema/fib2.simple.new.bc   -o ./Shootout/Output/fib2.simple.mcsema/fib2.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Shootout/Output/fib2.simple.mcsema/fib2.simple.new.trans.o ./Shootout/Output/fib2.simple.mcsema/fib2.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Shootout/Output/fib2.simple.mcsema/fib2.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Shootout/Output/fib2.simple.mcsema/fib2.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Shootout/Output/fib2.simple.mcsema/fib2.simple  &>  out1 
+././Shootout/Output/fib2.simple.mcsema/fib2.simple.new.trans.lifted  &>  out2 
+sh: line 1: 20964 Segmentation fault      ././Shootout/Output/fib2.simple.mcsema/fib2.simple.new.trans.lifted &>out2
+diff out1 out2 
+1d0
+< 701408733
+rm -rf  out1 out 2 
+
+===./Shootout/Output/hello.simple.mcsema/hello.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Shootout/Output/hello.simple.mcsema/hello.simple.new.bc   -o ./Shootout/Output/hello.simple.mcsema/hello.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Shootout/Output/hello.simple.mcsema/hello.simple.new.trans.o ./Shootout/Output/hello.simple.mcsema/hello.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Shootout/Output/hello.simple.mcsema/hello.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Shootout/Output/hello.simple.mcsema/hello.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Shootout/Output/hello.simple.mcsema/hello.simple  &>  out1 
+././Shootout/Output/hello.simple.mcsema/hello.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Shootout/Output/nestedloop.simple.mcsema/nestedloop.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Shootout/Output/nestedloop.simple.mcsema/nestedloop.simple.new.bc   -o ./Shootout/Output/nestedloop.simple.mcsema/nestedloop.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Shootout/Output/nestedloop.simple.mcsema/nestedloop.simple.new.trans.o ./Shootout/Output/nestedloop.simple.mcsema/nestedloop.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Shootout/Output/nestedloop.simple.mcsema/nestedloop.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Shootout/Output/nestedloop.simple.mcsema/nestedloop.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Shootout/Output/nestedloop.simple.mcsema/nestedloop.simple  &>  out1 
+././Shootout/Output/nestedloop.simple.mcsema/nestedloop.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Shootout/Output/sieve.simple.mcsema/sieve.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Shootout/Output/sieve.simple.mcsema/sieve.simple.new.bc   -o ./Shootout/Output/sieve.simple.mcsema/sieve.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Shootout/Output/sieve.simple.mcsema/sieve.simple.new.trans.o ./Shootout/Output/sieve.simple.mcsema/sieve.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Shootout/Output/sieve.simple.mcsema/sieve.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Shootout/Output/sieve.simple.mcsema/sieve.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Shootout/Output/sieve.simple.mcsema/sieve.simple  &>  out1 
+././Shootout/Output/sieve.simple.mcsema/sieve.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple.new.bc   -o ./Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple.new.trans.o ./Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple  &>  out1 
+././Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple.new.trans.lifted  &>  out2 
+sh: line 1: 21012 Segmentation fault      ././Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple.new.trans.lifted &>out2
+diff out1 out2 
+2,100d1
+< -49783
+< -49692
+< -49678
+< -49470
+< -49442
+< -49423
+< -49393
+< -49388
+< -49184
+< -48907
+< -48821
+< -48807
+< -48750
+< -48705
+< -48704
+< -48454
+< -48432
+< -47989
+< -47757
+< -47642
+< -47607
+< -47503
+< -47378
+< -47284
+< -47206
+< -47156
+< -47152
+< -46907
+< -46856
+< -46737
+< -46734
+< -46323
+< -46122
+< -45996
+< -45765
+< -45583
+< -45547
+< -45431
+< -45322
+< -45290
+< -44932
+< -44759
+< -44411
+< -44378
+< -44344
+< -44163
+< -44089
+< -44053
+< -43907
+< -43809
+< -43671
+< -43623
+< -43588
+< -43400
+< -43373
+< -43255
+< -43129
+< -42918
+< -42791
+< -42427
+< -42191
+< -42101
+< -42057
+< -41994
+< -41976
+< -41632
+< -41313
+< -40933
+< -40713
+< -40665
+< -40503
+< -40392
+< -40014
+< -39944
+< -39905
+< -39878
+< -39872
+< -39853
+< -39848
+< -39788
+< -39774
+< -39455
+< -39398
+< -39387
+< -38809
+< -38547
+< -38351
+< -38347
+< -38333
+< -38309
+< -38301
+< -38259
+< -38193
+< -38015
+< -37987
+< -37795
+< -37786
+< -37434
+< -37366
+rm -rf  out1 out 2 
+
+===./Stanford/Output/IntMM.simple.mcsema/IntMM.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Stanford/Output/IntMM.simple.mcsema/IntMM.simple.new.bc   -o ./Stanford/Output/IntMM.simple.mcsema/IntMM.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Stanford/Output/IntMM.simple.mcsema/IntMM.simple.new.trans.o ./Stanford/Output/IntMM.simple.mcsema/IntMM.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Stanford/Output/IntMM.simple.mcsema/IntMM.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Stanford/Output/IntMM.simple.mcsema/IntMM.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Stanford/Output/IntMM.simple.mcsema/IntMM.simple  &>  out1 
+././Stanford/Output/IntMM.simple.mcsema/IntMM.simple.new.trans.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===./Stanford/Output/Perm.simple.mcsema/Perm.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Stanford/Output/Perm.simple.mcsema/Perm.simple.new.bc   -o ./Stanford/Output/Perm.simple.mcsema/Perm.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Stanford/Output/Perm.simple.mcsema/Perm.simple.new.trans.o ./Stanford/Output/Perm.simple.mcsema/Perm.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Stanford/Output/Perm.simple.mcsema/Perm.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Stanford/Output/Perm.simple.mcsema/Perm.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Stanford/Output/Perm.simple.mcsema/Perm.simple  &>  out1 
+././Stanford/Output/Perm.simple.mcsema/Perm.simple.new.trans.lifted  &>  out2 
+sh: line 1: 21035 Segmentation fault      ././Stanford/Output/Perm.simple.mcsema/Perm.simple.new.trans.lifted &>out2
+diff out1 out2 
+1,100d0
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+< 43300
+rm -rf  out1 out 2 
+
+===./Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple.new.bc   -o ./Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple.new.trans.o ./Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple  &>  out1 
+././Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple.new.trans.lifted  &>  out2 
+sh: line 1: 21047 Segmentation fault      ././Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple.new.trans.lifted &>out2
+diff out1 out2 
+1,200d0
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+< 77
+< 2005
+rm -rf  out1 out 2 
+
+===./Stanford/Output/Queens.simple.mcsema/Queens.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Stanford/Output/Queens.simple.mcsema/Queens.simple.new.bc   -o ./Stanford/Output/Queens.simple.mcsema/Queens.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Stanford/Output/Queens.simple.mcsema/Queens.simple.new.trans.o ./Stanford/Output/Queens.simple.mcsema/Queens.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Stanford/Output/Queens.simple.mcsema/Queens.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Stanford/Output/Queens.simple.mcsema/Queens.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Stanford/Output/Queens.simple.mcsema/Queens.simple  &>  out1 
+././Stanford/Output/Queens.simple.mcsema/Queens.simple.new.trans.lifted  &>  out2 
+sh: line 1: 21059 Segmentation fault      ././Stanford/Output/Queens.simple.mcsema/Queens.simple.new.trans.lifted &>out2
+diff out1 out2 
+1,100d0
+< 1
+< 2
+< 3
+< 4
+< 5
+< 6
+< 7
+< 8
+< 9
+< 10
+< 11
+< 12
+< 13
+< 14
+< 15
+< 16
+< 17
+< 18
+< 19
+< 20
+< 21
+< 22
+< 23
+< 24
+< 25
+< 26
+< 27
+< 28
+< 29
+< 30
+< 31
+< 32
+< 33
+< 34
+< 35
+< 36
+< 37
+< 38
+< 39
+< 40
+< 41
+< 42
+< 43
+< 44
+< 45
+< 46
+< 47
+< 48
+< 49
+< 50
+< 51
+< 52
+< 53
+< 54
+< 55
+< 56
+< 57
+< 58
+< 59
+< 60
+< 61
+< 62
+< 63
+< 64
+< 65
+< 66
+< 67
+< 68
+< 69
+< 70
+< 71
+< 72
+< 73
+< 74
+< 75
+< 76
+< 77
+< 78
+< 79
+< 80
+< 81
+< 82
+< 83
+< 84
+< 85
+< 86
+< 87
+< 88
+< 89
+< 90
+< 91
+< 92
+< 93
+< 94
+< 95
+< 96
+< 97
+< 98
+< 99
+< 100
+rm -rf  out1 out 2 
+
+===./Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple.new.bc   -o ./Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple.new.trans.o ./Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple  &>  out1 
+././Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple.new.trans.lifted  &>  out2 
+sh: line 1: 21071 Segmentation fault      ././Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple.new.trans.lifted &>out2
+diff out1 out2 
+1,100d0
+< -50000
+< -49999
+< -49997
+< -49985
+< -49964
+< -49962
+< -49944
+< -49939
+< -49915
+< -49880
+< -49878
+< -49867
+< -49866
+< -49841
+< -49821
+< -49817
+< -49814
+< -49813
+< -49796
+< -49786
+< -49783
+< -49780
+< -49761
+< -49733
+< -49718
+< -49714
+< -49712
+< -49694
+< -49692
+< -49679
+< -49678
+< -49677
+< -49662
+< -49643
+< -49616
+< -49612
+< -49589
+< -49560
+< -49530
+< -49527
+< -49526
+< -49524
+< -49509
+< -49485
+< -49470
+< -49457
+< -49451
+< -49442
+< -49441
+< -49440
+< -49430
+< -49423
+< -49422
+< -49414
+< -49395
+< -49393
+< -49388
+< -49375
+< -49371
+< -49340
+< -49318
+< -49313
+< -49296
+< -49274
+< -49268
+< -49257
+< -49256
+< -49207
+< -49199
+< -49192
+< -49190
+< -49184
+< -49183
+< -49179
+< -49176
+< -49170
+< -49169
+< -49141
+< -49130
+< -49122
+< -49117
+< -49110
+< -49079
+< -49073
+< -49069
+< -49046
+< -49033
+< -49021
+< -49018
+< -49012
+< -48999
+< -48996
+< -48994
+< -48968
+< -48955
+< -48951
+< -48919
+< -48915
+< -48908
+< -48907
+rm -rf  out1 out 2 
+
+===./Stanford/Output/Towers.simple.mcsema/Towers.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Stanford/Output/Towers.simple.mcsema/Towers.simple.new.bc   -o ./Stanford/Output/Towers.simple.mcsema/Towers.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Stanford/Output/Towers.simple.mcsema/Towers.simple.new.trans.o ./Stanford/Output/Towers.simple.mcsema/Towers.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Stanford/Output/Towers.simple.mcsema/Towers.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Stanford/Output/Towers.simple.mcsema/Towers.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Stanford/Output/Towers.simple.mcsema/Towers.simple  &>  out1 
+././Stanford/Output/Towers.simple.mcsema/Towers.simple.new.trans.lifted  &>  out2 
+sh: line 1: 21083 Segmentation fault      ././Stanford/Output/Towers.simple.mcsema/Towers.simple.new.trans.lifted &>out2
+diff out1 out2 
+1,100d0
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+< 16383
+rm -rf  out1 out 2 
+
+===./Stanford/Output/Treesort.simple.mcsema/Treesort.simple===
+opt -load=/home/sdasgup3/Github/binary-decompilation/build/lib/LLVMstack_deconstructor.so -stack-decons ./Stanford/Output/Treesort.simple.mcsema/Treesort.simple.new.bc   -o ./Stanford/Output/Treesort.simple.mcsema/Treesort.simple.new.trans.bc   &>  /dev/null 
+llc -march=x86-64 -filetype=obj -o ./Stanford/Output/Treesort.simple.mcsema/Treesort.simple.new.trans.o ./Stanford/Output/Treesort.simple.mcsema/Treesort.simple.new.trans.bc 
+clang   -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o ./Stanford/Output/Treesort.simple.mcsema/Treesort.simple.new.trans.lifted /home/sdasgup3/Github/binary-decompilation/test/utils//driver_64.c ./Stanford/Output/Treesort.simple.mcsema/Treesort.simple.new.trans.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+././Stanford/Output/Treesort.simple.mcsema/Treesort.simple  &>  out1 
+././Stanford/Output/Treesort.simple.mcsema/Treesort.simple.new.trans.lifted  &>  out2 
+sh: line 1: 21095 Segmentation fault      ././Stanford/Output/Treesort.simple.mcsema/Treesort.simple.new.trans.lifted &>out2
+diff out1 out2 
+2,100d1
+< -15986
+< -10769
+< 2540
+< -8555
+< -48454
+< -44053
+< 15224
+< 14193
+< -24666
+< -35161
+< -10556
+< -46323
+< -7086
+< -26077
+< -47152
+< -43671
+< -9026
+< -9633
+< -17764
+< -44411
+< 5354
+< 4955
+< 6952
+< -415
+< -10026
+< -7913
+< 5492
+< -11011
+< 13442
+< -24685
+< 5504
+< 4697
+< -3090
+< -38193
+< -47284
+< -19851
+< -23782
+< 7883
+< -26920
+< -36527
+< -29178
+< -43129
+< -20444
+< -13587
+< -16206
+< -36605
+< -208
+< -1207
+< 1822
+< -30913
+< -20484
+< -411
+< -4790
+< -35269
+< -20856
+< -28607
+< -16586
+< -9737
+< -22828
+< 11485
+< -30494
+< 3699
+< 1248
+< 4153
+< 5710
+< 12207
+< -2900
+< 13909
+< -3206
+< 6571
+< -40392
+< -42191
+< -37786
+< -38809
+< -1660
+< -1331
+< -29422
+< -34845
+< 9872
+< -44759
+< 8574
+< -39905
+< 5468
+< -42427
+< -19030
+< 2331
+< -19992
+< -11743
+< -27242
+< 727
+< -22476
+< 13501
+< -12990
+< -21165
+< -39872
+< -16871
+< 10414
+< 9359
+< 4620
+rm -rf  out1 out 2 
+
+Original Supported
+
+Original Unsupported
+
+Current Supported
+
+Current Unsupported
+
+Current Pass
+./Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple
+./BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.simple
+./Dhrystone/Output/dry.simple.mcsema/dry.simple
+./Dhrystone/Output/fldry.simple.mcsema/fldry.simple
+./Misc/Output/lowercase.simple.mcsema/lowercase.simple
+./Misc/Output/mandel-2.simple.mcsema/mandel-2.simple
+./Shootout/Output/ary3.simple.mcsema/ary3.simple
+./Shootout/Output/hello.simple.mcsema/hello.simple
+./Shootout/Output/nestedloop.simple.mcsema/nestedloop.simple
+./Shootout/Output/sieve.simple.mcsema/sieve.simple
+./Stanford/Output/IntMM.simple.mcsema/IntMM.simple
+
+Current Diff
+./McGill/Output/chomp.simple.mcsema/chomp.simple
+./Misc/Output/flops-7.simple.mcsema/flops-7.simple
+./Misc/Output/flops-8.simple.mcsema/flops-8.simple
+./Shootout/Output/ackermann.simple.mcsema/ackermann.simple
+./Shootout/Output/fib2.simple.mcsema/fib2.simple
+./Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple
+./Stanford/Output/Perm.simple.mcsema/Perm.simple
+./Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple
+./Stanford/Output/Queens.simple.mcsema/Queens.simple
+./Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple
+./Stanford/Output/Towers.simple.mcsema/Towers.simple
+./Stanford/Output/Treesort.simple.mcsema/Treesort.simple
+
+Total: 23
+Original supported Count 0
+Original Unsupported Count 0
+Pass Count 11
+Diff Error Count 12
+Current supported Count 0
+Current unsupported Count 0
