@@ -1,0 +1,216 @@
+./Output/2005-05-11-Popcount-ffs-fls.simple.mcsema/2005-05-11-Popcount-ffs-fls.simple
+=====
+Unsupported opcode 289!	bsrq	%rbx, %rdx # 400940400940 
+289
+
+./Output/2005-05-12-Int64ToFP.simple.mcsema/2005-05-12-Int64ToFP.simple
+=====
+Unsupported opcode 2705!	subpd	231(%rip), %xmm1 # 400621400621 
+2705
+
+./Output/2005-07-17-INT-To-FP.simple.mcsema/2005-07-17-INT-To-FP.simple
+=====
+Unsupported opcode 2705!	subpd	321(%rip), %xmm4 # 400667400667 
+2705
+
+./Output/2008-07-13-InlineSetjmp.simple.mcsema/2008-07-13-InlineSetjmp.simple
+=====
+Basic Block in function 'sub_4006c0' does not have terminator!
+label %instr_0x4006e4
+
+./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple
+=====
+Both operands to ICmp instruction are not of the same type!
+  %221 = icmp eq i2 %220, i8 3, !mcsema_real_eip !18
+Stored value type does not match pointer operand type!
+  store i8 0, i2* %219, !mcsema_real_eip !18
+ i2Switch constants must all be same type as switch value!
+  switch i2 %229, label %fpu_read_empty [
+--
+Stored value type does not match pointer operand type!
+  store i8 3, i2* %239, !mcsema_real_eip !19
+ i2Both operands to ICmp instruction are not of the same type!
+  %269 = icmp eq i2 %268, i8 3, !mcsema_real_eip !22
+Stored value type does not match pointer operand type!
+  store i8 0, i2* %267, !mcsema_real_eip !22
+ i2Switch constants must all be same type as switch value!
+  switch i2 %277, label %fpu_read_empty7 [
+--
+Stored value type does not match pointer operand type!
+  store i8 3, i2* %287, !mcsema_real_eip !23
+ i2Both operands to ICmp instruction are not of the same type!
+  %605 = icmp eq i2 %604, i8 3, !mcsema_real_eip !49
+Stored value type does not match pointer operand type!
+  store i8 0, i2* %603, !mcsema_real_eip !49
+ i2Switch constants must all be same type as switch value!
+  switch i2 %632, label %fpu_read_empty15 [
+--
+Stored value type does not match pointer operand type!
+  store i8 3, i2* %641, !mcsema_real_eip !52
+
+./Output/byval-alignment.simple.mcsema/byval-alignment.simple
+=====
+Both operands to ICmp instruction are not of the same type!
+  %61 = icmp eq i2 %60, i8 3, !mcsema_real_eip !7
+Stored value type does not match pointer operand type!
+  store i8 0, i2* %59, !mcsema_real_eip !7
+ i2Switch constants must all be same type as switch value!
+  switch i2 %69, label %fpu_read_empty [
+--
+Stored value type does not match pointer operand type!
+  store i8 3, i2* %79, !mcsema_real_eip !8
+ i2Both operands to ICmp instruction are not of the same type!
+  %99 = icmp eq i2 %98, i8 3, !mcsema_real_eip !10
+Stored value type does not match pointer operand type!
+  store i8 0, i2* %97, !mcsema_real_eip !10
+ i2Switch constants must all be same type as switch value!
+  switch i2 %107, label %fpu_read_empty7 [
+--
+Stored value type does not match pointer operand type!
+  store i8 3, i2* %117, !mcsema_real_eip !11
+ i2Both operands to ICmp instruction are not of the same type!
+  %42 = icmp eq i2 %41, i8 3, !mcsema_real_eip !5
+Stored value type does not match pointer operand type!
+  store i8 0, i2* %40, !mcsema_real_eip !5
+ i2Both operands to ICmp instruction are not of the same type!
+  %57 = icmp eq i2 %56, i8 3, !mcsema_real_eip !6
+Stored value type does not match pointer operand type!
+  store i8 0, i2* %55, !mcsema_real_eip !6
+ i2Switch constants must all be same type as switch value!
+  switch i2 %63, label %fpu_read_empty [
+--
+Switch constants must all be same type as switch value!
+  switch i2 %72, label %fpu_read_empty5 [
+--
+Both operands to ICmp instruction are not of the same type!
+  %85 = icmp eq i2 %84, i8 3, !mcsema_real_eip !7
+Stored value type does not match pointer operand type!
+  store i8 0, i2* %83, !mcsema_real_eip !7
+ i2Switch constants must all be same type as switch value!
+  switch i2 %96, label %fpu_read_empty12 [
+--
+Stored value type does not match pointer operand type!
+  store i8 3, i2* %105, !mcsema_real_eip !8
+ i2Both operands to ICmp instruction are not of the same type!
+  %122 = icmp eq i2 %121, i8 3, !mcsema_real_eip !9
+Stored value type does not match pointer operand type!
+  store i8 0, i2* %120, !mcsema_real_eip !9
+ i2Switch constants must all be same type as switch value!
+  switch i2 %128, label %fpu_read_empty20 [
+--
+Switch constants must all be same type as switch value!
+  switch i2 %137, label %fpu_read_empty24 [
+--
+Both operands to ICmp instruction are not of the same type!
+  %150 = icmp eq i2 %149, i8 3, !mcsema_real_eip !10
+Stored value type does not match pointer operand type!
+  store i8 0, i2* %148, !mcsema_real_eip !10
+ i2Stored value type does not match pointer operand type!
+  store i8 3, i2* %155, !mcsema_real_eip !10
+ i2Switch constants must all be same type as switch value!
+  switch i2 %168, label %fpu_read_empty32 [
+--
+Stored value type does not match pointer operand type!
+  store i8 3, i2* %177, !mcsema_real_eip !11
+
+./Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.simple
+=====
+Basic Block in function 'sub_400640' does not have terminator!
+label %instr_0x400658
+
+./Output/initp1.simple.mcsema/initp1.simple
+=====
+Basic Block in function 'sub_4008e0' does not have terminator!
+label %instr_0x400be8
+
+./Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple
+=====
+Basic Block in function 'sub_4005f0' does not have terminator!
+label %instr_0x4006bf
+
+./Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple
+=====
+Basic Block in function 'sub_4005f0' does not have terminator!
+label %instr_0x400634
+
+./Output/vla.simple.mcsema/vla.simple
+=====
+Basic Block in function 'sub_400810' does not have terminator!
+label %instr_0x4008b1
+
+./SignlessTypes/Output/ccc.simple.mcsema/ccc.simple
+=====
+Basic Block in function 'sub_4006c0' does not have terminator!
+label %instr_0x400730
+
+./Vector/Output/build.simple.mcsema/build.simple
+=====
+Unsupported opcode 1735!	mulps	%xmm2, %xmm2 # 400652400652 
+1735
+
+./Vector/Output/build2.simple.mcsema/build2.simple
+=====
+Unsupported opcode 115!	addps	%xmm6, %xmm10 # 4007b04007b0 
+115
+
+./Vector/Output/multiplies.simple.mcsema/multiplies.simple
+=====
+Unsupported opcode 2064!	pmullw	7095632(%rax), %xmm0 # 400910400910 
+2064
+
+./Vector/Output/simple.simple.mcsema/simple.simple
+=====
+Unsupported opcode 1641!	movhpd	4196504(,%rax,8), %xmm0 # 4006a94006a9 
+1641
+
+./Vector/Output/sumarray-dbl.simple.mcsema/sumarray-dbl.simple
+=====
+Unsupported opcode 112!	addpd	6302080(%rax), %xmm0 # 400640400640 
+112
+Unsupported opcode 2838!	unpckhpd	%xmm1, %xmm1 # 40066a40066a 
+2838
+
+./Vector/Output/sumarray.simple.mcsema/sumarray.simple
+=====
+Unsupported opcode 606!	cvtdq2ps	%xmm2, %xmm2 # 40061d40061d 
+606
+Unsupported opcode 114!	addps	6297232(%rax), %xmm2 # 400650400650 
+114
+
+./Vector/SSE/Output/sse.expandfft.simple.mcsema/sse.expandfft.simple
+=====
+Unsupported opcode 115!	addps	%xmm4, %xmm5 # 400dd2400dd2 
+115
+Unsupported opcode 115!	addps	%xmm4, %xmm5 # 400d62400d62 
+115
+Unsupported opcode 115!	addps	%xmm1, %xmm2 # 40110d40110d 
+115
+Unsupported opcode 115!	addps	%xmm5, %xmm6 # 40103d40103d 
+115
+Unsupported opcode 115!	addps	%xmm5, %xmm6 # 400f3f400f3f 
+115
+
+./Vector/SSE/Output/sse.isamax.simple.mcsema/sse.isamax.simple
+=====
+Unsupported opcode 553!	cmpnleps	%xmm3, %xmm6 # 40081f40081f 
+553
+Unsupported opcode 1314!	maxps	%xmm5, %xmm3 # 4008ab4008ab 
+1314
+Unsupported opcode 115!	addps	%xmm1, %xmm7 # 40086e40086e 
+115
+Unsupported opcode 1314!	maxps	%xmm5, %xmm3 # 400865400865 
+1314
+Unsupported opcode 2124!	pslldq	$8, %xmm3 # 400905400905 
+2124
+Unsupported opcode 606!	cvtdq2ps	%xmm6, %xmm5 # 40094c40094c 
+606
+
+./Vector/SSE/Output/sse.stepfft.simple.mcsema/sse.stepfft.simple
+=====
+Unsupported opcode 1735!	mulps	%xmm3, %xmm0 # 4009e54009e5 
+1735
+
+./Vectorizer/Output/gcc-loops.simple.mcsema/gcc-loops.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
