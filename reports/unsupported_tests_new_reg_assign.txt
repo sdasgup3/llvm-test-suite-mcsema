@@ -1,0 +1,348 @@
+imulq	$224, 16(%rsp), %rbp  
+imulq	$224, 16(%rsp), %rax  
+imulq	$86400000, (%rsp), %rax  
+imulq	$1000, 8(%rsp), %rcx  
+addpd	%xmm9, %xmm13  
+shufpd	$0, %xmm0, %xmm0  
+addpd	%xmm15, %xmm4  
+addpd	%xmm8, %xmm1  
+movhpd	%xmm13, 512(%rsi)  
+unpckhpd	%xmm3, %xmm3  
+imulq	$1103515245, 2101213(%rip), %rax  
+imulq	$1103515245, 2101852(%rip), %rax  
+imulq	$1103515245, 2101997(%rip), %rax  
+movupd	(%rsi,%rbx,8), %xmm0  
+mulps	%xmm4, %xmm7  
+mulps	%xmm5, %xmm7  
+movupd	(%rcx,%rbx,8), %xmm4  
+movupd	(%rdi), %xmm4  
+shufpd	$0, %xmm0, %xmm0  
+cmpeqsd	%xmm0, %xmm2  
+cmpeqsd	%xmm0, %xmm2  
+pslldq	$8, %xmm1  
+decw	(%rbx,%rdx,2)  
+movupd	(%r14,%rdx,8), %xmm2  
+mulpd	2107353(%rip), %xmm1  
+mulpd	%xmm0, %xmm1  
+mulpd	144(%rsp), %xmm0  
+mulpd	96(%rsp), %xmm0  
+pslldq	$8, %xmm3  
+pslldq	$8, %xmm1  
+movupd	(%rbx), %xmm0  
+cmpnltps	%xmm0, %xmm1  
+cvtdq2ps	%xmm0, %xmm0  
+subpd	%xmm3, %xmm1  
+movupd	(%r12,%rdx,8), %xmm2  
+movupd	(%r12,%rsi,8), %xmm2  
+movupd	(%r12,%rdx,8), %xmm1  
+movupd	(%rsi,%rax,8), %xmm3  
+imulq	$196, 48(%rsp), %rax  
+imulq	$196, 48(%rsp), %rcx  
+subpd	21701(%rip), %xmm0  
+subpd	22859(%rip), %xmm0  
+subpd	22187(%rip), %xmm0  
+movupd	%xmm0, (%r14,%rdx,8)  
+movupd	32(%rsp), %xmm0  
+movupd	16(%rbx), %xmm0  
+subpd	%xmm7, %xmm0  
+addpd	112(%rsp), %xmm0  
+divpd	%xmm1, %xmm2  
+movupd	16(%rbx), %xmm6  
+unpckhpd	%xmm6, %xmm6  
+addps	64(%rsp), %xmm0  
+addps	%xmm4, %xmm0  
+pshufhw	$8, %xmm6, %xmm6  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+movhpd	8768736(%rax), %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+addps	7738528(,%rax,4), %xmm0  
+mulps	7994624(,%rax,4), %xmm0  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm0, %xmm0  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+movupd	%xmm0, 9707496(,%rax,8)  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm0, %xmm0  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+movupd	%xmm0, 9707496(,%rax,8)  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+mulps	%xmm0, %xmm1  
+movupd	8768768(,%rax,8), %xmm0  
+cmpnless	%xmm2, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm0, %xmm0  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+movupd	%xmm0, 9707496(,%rax,8)  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+movupd	8520928(%rbp,%rcx,8), %xmm0  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm0, %xmm0  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+movupd	%xmm0, 9703400(,%rax,8)  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+cmpeqss	%xmm2, %xmm1  
+mulps	%xmm2, %xmm0  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm0, %xmm0  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+movupd	%xmm0, 9707496(,%rax,8)  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+addps	%xmm0, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm0, %xmm0  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+movupd	%xmm0, 9707496(,%rax,8)  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+addpd	8512736(,%rsi,8), %xmm0  
+addps	%xmm2, %xmm0  
+movupd	(%rcx), %xmm0  
+movupd	8768744(,%rax,8), %xmm0  
+addps	%xmm0, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+mulps	%xmm3, %xmm0  
+addps	7482524(,%rcx,4), %xmm0  
+mulps	%xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm0, %xmm0  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+movupd	%xmm0, 9707496(,%rax,8)  
+shufpd	$0, %xmm1, %xmm1  
+shufpd	$0, %xmm1, %xmm1  
+mulps	7746784(,%rcx,4), %xmm1  
+movupd	16(%rbx), %xmm2  
+pslldq	$8, %xmm0  
+mulps	%xmm1, %xmm2  
+imulq	$408, 16(%rsp), %rcx  
+imulq	$408, 16(%rsp), %rcx  
+imulq	$408, (%rsp), %rcx  
+imulq	$408, (%rsp), %rcx  
+imulq	$408, 8(%rsp), %rcx  
+imulq	$408, 8(%rsp), %rcx  
+pslldq	$8, %xmm1  
+decw	96(%rbx)  
+pslldq	$8, %xmm14  
+pslldq	$8, %xmm0  
+adcq	$-1, %r15  
+subpd	437377(%rip), %xmm1  
+mulps	%xmm8, %xmm6  
+addps	%xmm0, %xmm1  
+mulps	%xmm4, %xmm7  
+shufpd	$0, %xmm0, %xmm0  
+shufpd	$0, %xmm0, %xmm0  
+shufpd	$0, %xmm0, %xmm0  
+pslldq	$8, %xmm0  
+movupd	2102682(%rip), %xmm1  
+divpd	%xmm3, %xmm1  
+addpd	%xmm4, %xmm3  
+unpckhpd	%xmm0, %xmm0  
+imulq	$1103515245, 2102390(%rip), %rcx  
+subpd	%xmm4, %xmm0  
+movupd	%xmm0, (%rbx,%rcx,8)  
+unpckhpd	%xmm0, %xmm0  
+movhpd	(%rbx), %xmm0  
+movhpd	4203552(%rbp,%r14), %xmm1  
+unpckhpd	%xmm1, %xmm1  
+movupd	-16(%rax,%rdx,8), %xmm0  
+movupd	(%rsi,%rbp,8), %xmm3  
+movupd	-16(%rbp), %xmm2  
+addps	6628752(,%rdx,4), %xmm0  
+addps	6628752(,%rdx,4), %xmm0  
+addps	6628752(,%rdx,4), %xmm0  
+addps	6628752(,%rdx,4), %xmm0  
+addps	6628752(,%rdx,4), %xmm0  
+addps	6307952(%rsi,%rdx,4), %xmm0  
+addps	6307952(%rsi,%rdx,4), %xmm0  
+movupd	(%rax,%rbx,8), %xmm0  
+cmplesd	%xmm3, %xmm1  
+shufpd	$0, %xmm5, %xmm5  
+mulpd	%xmm3, %xmm11  
+mulpd	%xmm6, %xmm2  
+shufpd	$0, %xmm6, %xmm6  
+movhpd	2103997(%rip), %xmm12  
+movhpd	2103147(%rip), %xmm12  
+mulpd	%xmm4, %xmm3  
+mulpd	%xmm4, %xmm3  
+addps	%xmm8, %xmm5  
+cvtdq2ps	%xmm7, %xmm7  
+movupd	(%rdx), %xmm15  
+movupd	(%r13,%rax,8), %xmm0  
+movupd	(%r13,%rcx,8), %xmm0  
+movupd	(%rbx,%rax,8), %xmm0  
+cmpltsd	%xmm3, %xmm0  
+mulps	%xmm6, %xmm6  
+pslldq	$8, %xmm0  
+cmpnlesd	993(%rip), %xmm1  
+movupd	(%r13,%rdi,8), %xmm2  
+movupd	-16(%r12,%rbx,8), %xmm0  
+shufpd	$0, %xmm0, %xmm0  
+movupd	(%r11), %xmm0  
+movupd	-16(%r14,%rax,8), %xmm0  
+movupd	-16(%rsi), %xmm1  
+movupd	-16(%rsi), %xmm1  
+movupd	8380416(%rbx,%rax,8), %xmm0  
+movupd	(%r9), %xmm0  
+movupd	(%rax), %xmm0  
+shufpd	$0, %xmm4, %xmm4  
+movupd	(%rcx), %xmm4  
+movupd	(%rcx), %xmm4  
+movupd	(%r8), %xmm4  
+pslldq	$8, %xmm10  
+imulq	$520, 208(%rsp), %rbp  
+movupd	(%rbx,%rdi,8), %xmm2  
+movupd	-16(%r14,%rax,8), %xmm2  
+movupd	8000(%rcx), %xmm2  
+movupd	-16(%rcx), %xmm2  
+pshufhw	$8, %xmm4, %xmm4  
+bsrq	%rdx, %rcx  
+bsrq	%rbx, %rdx  
+subpd	231(%rip), %xmm1  
+subpd	321(%rip), %xmm4  
+mulps	%xmm2, %xmm2  
+addps	%xmm6, %xmm10  
+pmullw	7095632(%rax), %xmm0  
+movhpd	4196504(,%rax,8), %xmm0  
+addpd	6302080(%rax), %xmm0  
+unpckhpd	%xmm1, %xmm1  
+cvtdq2ps	%xmm2, %xmm2  
+addps	6297232(%rax), %xmm2  
+addps	%xmm4, %xmm5  
+addps	%xmm4, %xmm5  
+addps	%xmm1, %xmm2  
+addps	%xmm5, %xmm6  
+addps	%xmm5, %xmm6  
+cmpnleps	%xmm3, %xmm6  
+maxps	%xmm5, %xmm3  
+addps	%xmm1, %xmm7  
+maxps	%xmm5, %xmm3  
+pslldq	$8, %xmm3  
+cvtdq2ps	%xmm6, %xmm5  
+mulps	%xmm3, %xmm0  
