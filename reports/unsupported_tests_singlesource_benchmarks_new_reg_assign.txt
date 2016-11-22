@@ -1,0 +1,536 @@
+
+./Adobe-C++/Output/functionobjects.simple.mcsema/functionobjects.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm0, %xmm0 # 400fc5400fc5 
+2602
+
+./Adobe-C++/Output/simple_types_constant_folding.simple.mcsema/simple_types_constant_folding.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm0, %xmm0 # 4033dd4033dd 
+2602
+
+./Adobe-C++/Output/simple_types_loop_invariant.simple.mcsema/simple_types_loop_invariant.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm0, %xmm0 # 40229d40229d 
+2602
+
+./Adobe-C++/Output/stepanov_vector.simple.mcsema/stepanov_vector.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./BenchmarkGame/Output/fannkuch.simple.mcsema/fannkuch.simple
+=====
+Unsupported opcode 2124!	pslldq	$8, %xmm0 # 400757400757 
+2124
+
+./BenchmarkGame/Output/n-body.simple.mcsema/n-body.simple
+=====
+Unsupported opcode 1699!	movupd	2102682(%rip), %xmm1 # 400ac6400ac6 
+1699
+
+./BenchmarkGame/Output/partialsums.simple.mcsema/partialsums.simple
+=====
+Unsupported opcode 675!	divpd	%xmm3, %xmm1 # 400834400834 
+675
+Unsupported opcode 113!	addpd	%xmm4, %xmm3 # 4008e94008e9 
+113
+--
+Unsupported opcode 2838!	unpckhpd	%xmm0, %xmm0 # 4009a94009a9 
+2838
+
+./BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.simple
+=====
+Unsupported opcode 882!	imulq	$1103515245, 2102390(%rip), %rcx # 400bcf400bcf 
+882
+Unsupported opcode 2706!	subpd	%xmm4, %xmm0 # 400c69400c69 
+2706
+
+./BenchmarkGame/Output/spectral-norm.simple.mcsema/spectral-norm.simple
+=====
+Unsupported opcode 1698!	movupd	%xmm0, (%rbx,%rcx,8) # 400970400970 
+1698
+Unsupported opcode 2838!	unpckhpd	%xmm0, %xmm0 # 400b0a400b0a 
+2838
+Unsupported opcode 1641!	movhpd	(%rbx), %xmm0 # 400aed400aed 
+1641
+
+./CoyoteBench/Output/almabench.simple.mcsema/almabench.simple
+=====
+Unsupported opcode 1641!	movhpd	4203552(%rbp,%r14), %xmm1 # 400b93400b93 
+1641
+--
+Unsupported opcode 2838!	unpckhpd	%xmm1, %xmm1 # 400cba400cba 
+2838
+
+./CoyoteBench/Output/fftbench.simple.mcsema/fftbench.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./CoyoteBench/Output/huffbench.simple.mcsema/huffbench.simple
+=====
+Basic Block in function 'sub_4008d0' does not have terminator!
+label %instr_0x40105d
+
+./CoyoteBench/Output/lpbench.simple.mcsema/lpbench.simple
+=====
+Unsupported opcode 1699!	movupd	-16(%rax,%rdx,8), %xmm0 # 4013b04013b0 
+1699
+Unsupported opcode 1699!	movupd	(%rsi,%rbp,8), %xmm3 # 4014e04014e0 
+1699
+--
+Unsupported opcode 1699!	movupd	-16(%rbp), %xmm2 # 401600401600 
+1699
+
+./Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.simple
+=====
+Unsupported opcode 114!	addps	6628752(,%rdx,4), %xmm0 # 4008f04008f0 
+114
+--
+Unsupported opcode 114!	addps	6628752(,%rdx,4), %xmm0 # 400ad0400ad0 
+114
+--
+Unsupported opcode 114!	addps	6628752(,%rdx,4), %xmm0 # 400e20400e20 
+114
+--
+Unsupported opcode 114!	addps	6628752(,%rdx,4), %xmm0 # 400ff0400ff0 
+114
+Unsupported opcode 114!	addps	6628752(,%rdx,4), %xmm0 # 4011f04011f0 
+114
+--
+Unsupported opcode 114!	addps	6307952(%rsi,%rdx,4), %xmm0 # 4014a04014a0 
+114
+--
+Unsupported opcode 114!	addps	6307952(%rsi,%rdx,4), %xmm0 # 401680401680 
+114
+
+./McGill/Output/exptree.simple.mcsema/exptree.simple
+=====
+Basic Block in function 'sub_401030' does not have terminator!
+label %instr_0x401234
+
+./McGill/Output/queens.simple.mcsema/queens.simple
+=====
+Basic Block in function 'sub_400820' does not have terminator!
+label %instr_0x400b1d
+
+./Misc-C++-EH/Output/spirit.simple.mcsema/spirit.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Misc-C++/Large/Output/ray.simple.mcsema/ray.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Misc-C++/Large/Output/sphereflake.simple.mcsema/sphereflake.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Misc-C++/Output/bigfib.simple.mcsema/bigfib.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Misc-C++/Output/oopack_v1p8.simple.mcsema/oopack_v1p8.simple
+=====
+
+./Misc-C++/Output/stepanov_container.simple.mcsema/stepanov_container.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Misc/Output/dt.simple.mcsema/dt.simple
+=====
+Unsupported opcode 1699!	movupd	(%rax,%rbx,8), %xmm0 # 4007e04007e0 
+1699
+
+./Misc/Output/ffbench.simple.mcsema/ffbench.simple
+=====
+Unsupported opcode 558!	cmplesd	%xmm3, %xmm1 # 4008ec4008ec 
+558
+
+./Misc/Output/flops-1.simple.mcsema/flops-1.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm5, %xmm5 # 4007bd4007bd 
+2602
+
+./Misc/Output/flops-5.simple.mcsema/flops-5.simple
+=====
+Unsupported opcode 1733!	mulpd	%xmm3, %xmm11 # 400865400865 
+1733
+
+./Misc/Output/flops-6.simple.mcsema/flops-6.simple
+=====
+Unsupported opcode 1733!	mulpd	%xmm6, %xmm2 # 400863400863 
+1733
+
+./Misc/Output/flops.simple.mcsema/flops.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm6, %xmm6 # 40094c40094c 
+2602
+--
+Unsupported opcode 1641!	movhpd	2103997(%rip), %xmm12 # 4015d24015d2 
+1641
+--
+Unsupported opcode 1641!	movhpd	2103147(%rip), %xmm12 # 401924401924 
+1641
+Unsupported opcode 1733!	mulpd	%xmm4, %xmm3 # 401663401663 
+1733
+--
+Unsupported opcode 1733!	mulpd	%xmm4, %xmm3 # 4019b34019b3 
+1733
+
+./Misc/Output/fp-convert.simple.mcsema/fp-convert.simple
+=====
+Unsupported opcode 115!	addps	%xmm8, %xmm5 # 400681400681 
+115
+Unsupported opcode 606!	cvtdq2ps	%xmm7, %xmm7 # 4006ad4006ad 
+606
+
+./Misc/Output/matmul_f64_4x4.simple.mcsema/matmul_f64_4x4.simple
+=====
+Unsupported opcode 1699!	movupd	(%rdx), %xmm15 # 400640400640 
+1699
+
+./Misc/Output/oourafft.simple.mcsema/oourafft.simple
+=====
+Unsupported opcode 1699!	movupd	(%r13,%rax,8), %xmm0 # 400a70400a70 
+1699
+--
+Unsupported opcode 1699!	movupd	(%r13,%rcx,8), %xmm0 # 400cd0400cd0 
+1699
+--
+Unsupported opcode 1699!	movupd	(%rbx,%rax,8), %xmm0 # 400ed0400ed0 
+1699
+--
+Unsupported opcode 558!	cmpltsd	%xmm3, %xmm0 # 40104a40104a 
+558
+
+./Misc/Output/pi.simple.mcsema/pi.simple
+=====
+Unsupported opcode 1735!	mulps	%xmm6, %xmm6 # 4006e64006e6 
+1735
+
+./Misc/Output/salsa20.simple.mcsema/salsa20.simple
+=====
+Unsupported opcode 2124!	pslldq	$8, %xmm0 # 40092d40092d 
+2124
+
+./Polybench/datamining/correlation/Output/correlation.simple.mcsema/correlation.simple
+=====
+Unsupported opcode 556!	cmpnlesd	993(%rip), %xmm1 # 400b0e400b0e 
+556
+Unsupported opcode 1699!	movupd	(%r13,%rdi,8), %xmm2 # 400b90400b90 
+1699
+
+./Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.simple
+=====
+Unsupported opcode 1699!	movupd	-16(%r12,%rbx,8), %xmm0 # 400a50400a50 
+1699
+
+./Polybench/linear-algebra/kernels/2mm/Output/2mm.simple.mcsema/2mm.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400d83
+
+./Polybench/linear-algebra/kernels/3mm/Output/3mm.simple.mcsema/3mm.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400e79
+
+./Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm0, %xmm0 # 400ac4400ac4 
+2602
+
+./Polybench/linear-algebra/kernels/bicg/Output/bicg.simple.mcsema/bicg.simple
+=====
+Basic Block in function 'sub_400900' does not have terminator!
+label %instr_0x400c76
+
+./Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema/cholesky.simple
+=====
+Basic Block in function 'sub_400910' does not have terminator!
+label %instr_0x400c77
+
+./Polybench/linear-algebra/kernels/doitgen/Output/doitgen.simple.mcsema/doitgen.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400d29
+
+./Polybench/linear-algebra/kernels/gemm/Output/gemm.simple.mcsema/gemm.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400c01
+
+./Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.simple
+=====
+Unsupported opcode 1699!	movupd	(%r11), %xmm0 # 400c10400c10 
+1699
+Unsupported opcode 1699!	movupd	-16(%r14,%rax,8), %xmm0 # 400df0400df0 
+1699
+
+./Polybench/linear-algebra/kernels/gesummv/Output/gesummv.simple.mcsema/gesummv.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400baf
+
+./Polybench/linear-algebra/kernels/mvt/Output/mvt.simple.mcsema/mvt.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400c71
+
+./Polybench/linear-algebra/kernels/symm/Output/symm.simple.mcsema/symm.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400c21
+
+./Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.simple
+=====
+Unsupported opcode 1699!	movupd	-16(%rsi), %xmm1 # 400a30400a30 
+1699
+
+./Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.simple
+=====
+Unsupported opcode 1699!	movupd	-16(%rsi), %xmm1 # 4009f04009f0 
+1699
+
+./Polybench/linear-algebra/kernels/trisolv/Output/trisolv.simple.mcsema/trisolv.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400afc
+
+./Polybench/linear-algebra/kernels/trmm/Output/trmm.simple.mcsema/trmm.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400b16
+
+./Polybench/linear-algebra/solvers/durbin/Output/durbin.simple.mcsema/durbin.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400cc9
+
+./Polybench/linear-algebra/solvers/dynprog/Output/dynprog.simple.mcsema/dynprog.simple
+=====
+Basic Block in function 'sub_4008f0' does not have terminator!
+label %instr_0x400bd0
+
+./Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt.simple.mcsema/gramschmidt.simple
+=====
+Basic Block in function 'sub_400910' does not have terminator!
+label %instr_0x400ef7
+
+./Polybench/linear-algebra/solvers/lu/Output/lu.simple.mcsema/lu.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400b2d
+
+./Polybench/medley/floyd-warshall/Output/floyd-warshall.simple.mcsema/floyd-warshall.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400acc
+
+./Polybench/medley/reg_detect/Output/reg_detect.simple.mcsema/reg_detect.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x401393
+
+./Polybench/stencils/adi/Output/adi.simple.mcsema/adi.simple
+=====
+Unsupported opcode 1699!	movupd	8380416(%rbx,%rax,8), %xmm0 # 400e60400e60 
+1699
+Unsupported opcode 1699!	movupd	(%r9), %xmm0 # 400c20400c20 
+1699
+Unsupported opcode 1699!	movupd	(%rax), %xmm0 # 400f90400f90 
+1699
+
+./Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm4, %xmm4 # 400ab5400ab5 
+2602
+Unsupported opcode 1699!	movupd	(%rcx), %xmm4 # 400bc0400bc0 
+1699
+Unsupported opcode 1699!	movupd	(%rcx), %xmm4 # 400c90400c90 
+1699
+Unsupported opcode 1699!	movupd	(%r8), %xmm4 # 400dc0400dc0 
+1699
+
+./Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.simple
+=====
+Unsupported opcode 2124!	pslldq	$8, %xmm10 # 400e03400e03 
+2124
+Unsupported opcode 882!	imulq	$520, 208(%rsp), %rbp # 4012b34012b3 
+882
+
+./Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.simple
+=====
+Unsupported opcode 1699!	movupd	(%rbx,%rdi,8), %xmm2 # 4009d04009d0 
+1699
+Unsupported opcode 1699!	movupd	-16(%r14,%rax,8), %xmm2 # 400ab0400ab0 
+1699
+
+./Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.simple
+=====
+Unsupported opcode 1699!	movupd	8000(%rcx), %xmm2 # 400a70400a70 
+1699
+Unsupported opcode 1699!	movupd	-16(%rcx), %xmm2 # 400c90400c90 
+1699
+
+./Polybench/stencils/seidel-2d/Output/seidel-2d.simple.mcsema/seidel-2d.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400b2d
+
+./Shootout-C++/EH/Output/except.simple.mcsema/except.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/ackermann.simple.mcsema/ackermann.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/ary.simple.mcsema/ary.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/ary2.simple.mcsema/ary2.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/ary3.simple.mcsema/ary3.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/fibo.simple.mcsema/fibo.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/hash.simple.mcsema/hash.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/hash2.simple.mcsema/hash2.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/heapsort.simple.mcsema/heapsort.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/hello.simple.mcsema/hello.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/lists.simple.mcsema/lists.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/lists1.simple.mcsema/lists1.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/matrix.simple.mcsema/matrix.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/methcall.simple.mcsema/methcall.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/moments.simple.mcsema/moments.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/nestedloop.simple.mcsema/nestedloop.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/objinst.simple.mcsema/objinst.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/random.simple.mcsema/random.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/reversefile.simple.mcsema/reversefile.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/sieve.simple.mcsema/sieve.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/spellcheck.simple.mcsema/spellcheck.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/strcat.simple.mcsema/strcat.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/sumcol.simple.mcsema/sumcol.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/wc.simple.mcsema/wc.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout-C++/Output/wordfreq.simple.mcsema/wordfreq.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+
+./Shootout/Output/hash.simple.mcsema/hash.simple
+=====
+Basic Block in function 'sub_4009c0' does not have terminator!
+label %instr_0x400c74
+
+./Shootout/Output/lists.simple.mcsema/lists.simple
+=====
+Basic Block in function 'sub_400a80' does not have terminator!
+label %instr_0x400d5d
+
+./Shootout/Output/strcat.simple.mcsema/strcat.simple
+=====
+Basic Block in function 'sub_4007f0' does not have terminator!
+label %instr_0x4008f0
+
+./SmallPT/Output/smallpt.simple.mcsema/smallpt.simple
+=====
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
