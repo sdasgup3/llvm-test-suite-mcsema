@@ -1,0 +1,32 @@
+
+./Vector/Output/multiplies.simple.mcsema/multiplies.simple
+========
+Unsupported opcode 2064!	pmullw	7095632(%rax), %xmm0 # 400910400910 
+2064
+translate_CALLpcrel32: function is: printf, cc is: 0
+
+./Vector/Output/sumarray-dbl.simple.mcsema/sumarray-dbl.simple
+========
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
+
+./Vector/Output/sumarray.simple.mcsema/sumarray.simple
+========
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
+
+./Vector/SSE/Output/sse.isamax.simple.mcsema/sse.isamax.simple
+========
+Unsupported opcode 553!	cmpnleps	%xmm3, %xmm6 # 40081f40081f 
+553
+Unsupported opcode 553!	cmpnleps	%xmm3, %xmm6 # 40087f40087f 
+553
+doCallPCtarget address : 400530
+
+./Vectorizer/Output/gcc-loops.simple.mcsema/gcc-loops.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
