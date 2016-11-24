@@ -649,6 +649,8 @@ rm -rf  out1 out 2
 rm -rf  ./C/Output/uint64_to_float.simple.mcsema/uint64_to_float.simple.new.bc 
 /home/sdasgup3/Github/mcsema_new_reg_assign//build/mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./C/Output/uint64_to_float.simple.mcsema/uint64_to_float.simple.cfg  -entrypoint=main -o ./C/Output/uint64_to_float.simple.mcsema/uint64_to_float.simple.new.bc   &>  ./C/Output/uint64_to_float.simple.mcsema/uint64_to_float.simple.new.convert.txt 
 Unsupported
+Unsupported opcode 289!	bsrq	%rdx, %rcx # 400772400772 
+289
 
 Original Unsupported
 ./C++/EH/Output/class_hierarchy.simple.mcsema/class_hierarchy.simple
