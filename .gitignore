@@ -1,0 +1,10 @@
+*.diff-mcsema
+*.simple.new.lifted
+*.out-mcsema
+*.out-mcsema.time
+*.simple.new.bc
+*.native
+*.diff-simple
+*.exe-simple
+*.report.txt
+*.out-nat.time
