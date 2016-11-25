@@ -1,6 +1,19 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: IMM, to: 400f2e, ro: 1, rt: DATA
 set_ref_reloc_type: Adding  ref: IMM, to: 400f14, ro: 1, rt: DATA
@@ -110,19 +123,6 @@ dse_base: 602078
 new_cur_pos2: 602080
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -133,8 +133,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_400c40
@@ -154,8 +152,8 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602080
 inserting global data section named data_0x602090
+translate_CALLpcrel32: function is: printf, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x4008d0L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x4008b0L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_printf
@@ -172,72 +170,100 @@ dataSectionToTypesContents: Found symbol: ext_sscanf
 dataSectionToTypesContents: Found symbol: ext_fwrite
 dataSectionToTypesContents: Found symbol: ext_perror
 doCallPCExtern paramCount  : 10 : printf
-10 : 168fe70
+10 : 2b92d40
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 168fe70
+1 : 2b92d40
+translate_CALLpcrel32: function is: fopen, cc is: 0
 doCallPCExtern paramCount  : 2 : fopen
-2 : 168fe70
+2 : 2b92d40
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 168fe70
+10 : 2b92d40
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 168fe70
+1 : 2b92d40
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 168fe70
+1 : 2b92d40
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 168fe70
+1 : 2b92d40
+translate_CALLpcrel32: function is: perror, cc is: 0
 doCallPCExtern paramCount  : 1 : perror
-1 : 168fe70
+1 : 2b92d40
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 168fe70
+1 : 2b92d40
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 168fe70
+1 : 2b92d40
+translate_CALLpcrel32: function is: fgets, cc is: 0
 doCallPCExtern paramCount  : 3 : fgets
-3 : 168fe70
+3 : 2b92d40
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 168fe70
+1 : 2b92d40
+translate_CALLpcrel32: function is: sscanf, cc is: 0
 doCallPCExtern paramCount  : 10 : sscanf
-10 : 168fe70
+10 : 2b92d40
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 168fe70
+1 : 2b92d40
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 168fe70
+1 : 2b92d40
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 168fe70
+1 : 2b92d40
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 400bd0
 doCallPCtarget address : 400900
 doCallPCExtern paramCount  : 10 : printf
-10 : 168fe70
+10 : 2b92d40
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 168fe70
+1 : 2b92d40
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 168fe70
+4 : 2b92d40
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 168fe70
+1 : 2b92d40
 translate_JMPr: regular jump via register: 4008a7
 translate_JMPr: regular jump via register: 400867
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCtarget address : 400840
 doCallPCExtern paramCount  : 1 : malloc
-1 : 168fe70
+1 : 2b92d40
+translate_CALLpcrel32: function is: bcopy, cc is: 0
 doCallPCExtern paramCount  : 3 : bcopy
-3 : 168fe70
+3 : 2b92d40
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCtarget address : 400b40
 doCallPCtarget address : 400b40
 doCallPCExtern paramCount  : 1 : free
-1 : 168fe70
+1 : 2b92d40
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 168fe70
+1 : 2b92d40
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 168fe70
+1 : 2b92d40
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 168fe70
+1 : 2b92d40
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 168fe70
+1 : 2b92d40
+translate_CALLpcrel32: function is: bcopy, cc is: 0
 doCallPCExtern paramCount  : 3 : bcopy
-3 : 168fe70
+3 : 2b92d40
+translate_CALLpcrel32: function is: bcopy, cc is: 0
 doCallPCExtern paramCount  : 3 : bcopy
-3 : 168fe70
+3 : 2b92d40
 doCallPCtarget address : 400b40
 doCallPCtarget address : 400b40
-Adding entry point: mcsema_main
-in : doPostAnalysis
-registering passes
+Adding entry point: main
+main is implemented by sub_400c40
+NOT doing post analysis passes.

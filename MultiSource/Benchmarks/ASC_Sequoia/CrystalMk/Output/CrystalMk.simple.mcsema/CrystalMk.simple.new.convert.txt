@@ -1,6 +1,13 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: IMM, to: 401590, ro: 1, rt: DATA
 set_ref_reloc_type: Adding  ref: MEM, to: 401110, ro: 0, rt: CODE
@@ -115,13 +122,6 @@ dse_base: 602048
 new_cur_pos2: 602050
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -132,8 +132,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_401240
@@ -155,8 +153,8 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602050
 inserting global data section named data_0x602060
+translate_CALLpcrel32: function is: puts, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400710L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x4006f0L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_printf
@@ -167,45 +165,57 @@ dataSectionToTypesContents: Found symbol: ext___libc_start_main
 dataSectionToTypesContents: Found symbol: ext_pow
 dataSectionToTypesContents: Found symbol: ext_clock
 doCallPCExtern paramCount  : 1 : puts
-1 : 2785790
+1 : 29e3690
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 401110
 doCallPCtarget address : 400ea0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2785790
+1 : 29e3690
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2785790
+10 : 29e3690
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2785790
+10 : 29e3690
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2785790
+10 : 29e3690
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2785790
+10 : 29e3690
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2785790
+10 : 29e3690
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2785790
+10 : 29e3690
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2785790
+10 : 29e3690
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2785790
+10 : 29e3690
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2785790
+10 : 29e3690
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2785790
+10 : 29e3690
 translate_JMPr: regular jump via register: 4006e7
 translate_JMPr: regular jump via register: 4006a7
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCtarget address : 400680
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 2785790
+2 : 29e3690
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 2869e10
+0 : 2acf0e0
+translate_CALLpcrel32: function is: pow, cc is: 0
 doCallPCtarget address : 400a50
 doCallPCtarget address : 400db0
 doCallPCtarget address : 400740
 doCallPCExtern paramCount  : 2 : pow
-2 : 2785790
-Unsupported!
-400b10 	movupd	(%rsi,%rax,8), %xmm3
-1699
-Could not insert function: sub_400a50 into the LLVM module
-Failure to convert to LLVM module!
+2 : 29e3690
+Adding entry point: main
+main is implemented by sub_401240
+NOT doing post analysis passes.

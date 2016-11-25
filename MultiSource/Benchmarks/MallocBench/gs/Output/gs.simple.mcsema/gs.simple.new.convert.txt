@@ -1,6 +1,57 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 41db50, ro: 0, rt: CODE
 set_ref_reloc_type: Adding  ref: MEM, to: 41c2b0, ro: 0, rt: CODE
@@ -6997,57 +7048,6 @@ cur_pos: 62fba8
 dse_base: 62fba8
 new_cur_pos2: 62fbb0
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Deserializing external data...
 Deserializing external data...
 Creating module...
@@ -7060,8 +7060,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_4037e0
@@ -7722,8 +7720,8 @@ inserting global data section named data_0x62dff8
 inserting global data section named data_0x62e000
 inserting global data section named data_0x62e1b0
 inserting global data section named data_0x62fbc0
+translate_CALLpcrel32: function is: getenv, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x408cf0L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x408d30L
 dataSectionToTypesContents: Found symbol: sub_0x408d80L
 dataSectionToTypesContents: Found symbol: sub_0x408dc0L
@@ -8418,19 +8416,22 @@ dataSectionToTypesContents: Found symbol: sub_0x424520L
 dataSectionToTypesContents: Found symbol: dta_0x426ae6L
 dataSectionToTypesContents: Found symbol: sub_0x4247d0L
 doCallPCExtern paramCount  : 1 : getenv
-1 : 188f790
+1 : 2709410
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCtarget address : 40b1d0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 188f790
+1 : 2709410
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCtarget address : 40b1d0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 188f790
+2 : 2709410
 doCallPCtarget address : 40a240
 doCallPCtarget address : 41db50
 doCallPCtarget address : 41c2b0
 doCallPCtarget address : 40a460
 doCallPC: Adding Unreachable Instruction to local noreturn
 doJumpTableViaSwitch: Doing jumpt table via switch
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCtarget address : 403ef0
 doCallPCtarget address : 423ff0
 doCallPCtarget address : 418b60
@@ -8461,7 +8462,8 @@ doCallPCtarget address : 418ac0
 doCallPCtarget address : 418b60
 doCallPCtarget address : 40a840
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 188f790
+3 : 2709410
+translate_CALLpcrel32: function is: asin, cc is: 0
 doCallPCtarget address : 40d140
 doCallPCtarget address : 414f10
 doCallPCtarget address : 418990
@@ -8472,7 +8474,8 @@ doCallPCtarget address : 418990
 doCallPCtarget address : 40bdd0
 doCallPCtarget address : 418990
 doCallPCExtern paramCount  : 1 : asin
-1 : 188f790
+1 : 2709410
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCtarget address : 40c330
 doCallPCtarget address : 40f3b0
 doCallPCtarget address : 4102b0
@@ -8483,10 +8486,12 @@ doCallPCtarget address : 411740
 doCallPCtarget address : 413870
 doCallPCtarget address : 411770
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 188f790
+3 : 2709410
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCtarget address : 415940
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 188f790
+3 : 2709410
+translate_CALLpcrel32: function is: memcmp, cc is: 0
 doCallPCtarget address : 40d140
 doCallPCtarget address : 418990
 doCallPCtarget address : 407430
@@ -8502,16 +8507,20 @@ doCallPCtarget address : 406400
 doCallPCtarget address : 40a840
 doCallPCtarget address : 4188b0
 doCallPCExtern paramCount  : 3 : memcmp
-3 : 188f790
+3 : 2709410
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCtarget address : 414170
 doCallPCtarget address : 414170
 doCallPCExtern paramCount  : 3 : memset
-3 : 188f790
+3 : 2709410
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 188f790
+3 : 2709410
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 188f790
+3 : 2709410
 translate_JMPr: regular jump via register: 401437
+translate_CALLpcrel32: function is: fflush, cc is: 0
 doCallPCtarget address : 411770
 doCallPCtarget address : 40b090
 doCallPCtarget address : 4119d0
@@ -8544,14 +8553,17 @@ doCallPCtarget address : 407410
 doCallPCtarget address : 418610
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 1 : fflush
-1 : 188f790
+1 : 2709410
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 188f790
+1 : 2709410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 419870
 doCallPCtarget address : 4198b0
 doCallPCtarget address : 4198b0
 doCallPCExtern paramCount  : 10 : printf
-10 : 188f790
+10 : 2709410
+translate_CALLpcrel32: function is: sqrtf, cc is: 0
 doCallPCtarget address : 4198a0
 doCallPCtarget address : 412810
 doCallPCtarget address : 411770
@@ -8559,21 +8571,29 @@ doCallPCtarget address : 4102b0
 doCallPCtarget address : 411770
 doCallPCtarget address : 406490
 doCallPCExtern paramCount  : 1 : sqrtf
-1 : 188f790
+1 : 2709410
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 188f790
+3 : 2709410
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 188f790
+3 : 2709410
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 188f790
+3 : 2709410
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 188f790
+3 : 2709410
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 188f790
+3 : 2709410
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 188f790
+3 : 2709410
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 188f790
+3 : 2709410
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCtarget address : 4073d0
 doCallPCtarget address : 414170
 doCallPCtarget address : 4056b0
@@ -8593,7 +8613,8 @@ doCallPCtarget address : 411770
 doCallPCtarget address : 412280
 doCallPCtarget address : 412110
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 188f790
+3 : 2709410
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCtarget address : 40f3b0
 doCallPCtarget address : 412a90
 doCallPCtarget address : 412740
@@ -8602,13 +8623,16 @@ doCallPCtarget address : 412810
 doCallPCtarget address : 412280
 doCallPCtarget address : 412110
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 188f790
+3 : 2709410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 188f790
+4 : 2709410
+translate_CALLpcrel32: function is: ftell, cc is: 0
 doCallPCExtern paramCount  : 1 : ftell
-1 : 188f790
+1 : 2709410
 translate_JMPr: regular jump via register: 419122
 translate_JMPr: regular jump via register: 403285
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCtarget address : 411770
 doCallPCtarget address : 411740
 doCallPCtarget address : 411cd0
@@ -8624,28 +8648,33 @@ doCallPCtarget address : 423510
 doCallPCtarget address : 40a060
 doCallPCtarget address : 414170
 doCallPCExtern paramCount  : 3 : memset
-3 : 188f790
+3 : 2709410
+translate_CALLpcrel32: function is: floor, cc is: 0
 doCallPCExtern paramCount  : 1 : floor
-1 : 188f790
+1 : 2709410
 translate_JMPr: regular jump via register: 401a7a
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCtarget address : 4036d0
 doCallPCExtern paramCount  : 3 : memset
-3 : 188f790
+3 : 2709410
+translate_CALLpcrel32: function is: sin, cc is: 0
 doCallPCExtern paramCount  : 1 : sin
-1 : 188f790
+1 : 2709410
+translate_CALLpcrel32: function is: cos, cc is: 0
 doCallPCExtern paramCount  : 1 : cos
-1 : 188f790
+1 : 2709410
+translate_CALLpcrel32: function is: tan, cc is: 0
 doCallPCtarget address : 40bce0
 doCallPCtarget address : 40bce0
 doCallPCExtern paramCount  : 1 : tan
-1 : 188f790
+1 : 2709410
+translate_CALLpcrel32: function is: cos, cc is: 0
 doCallPCExtern paramCount  : 1 : cos
-1 : 188f790
+1 : 2709410
+translate_CALLpcrel32: function is: sin, cc is: 0
 doCallPCExtern paramCount  : 1 : sin
-1 : 188f790
-Unsupported!
-421f28 	imulq	$86400000, (%rsp), %rax
-882
+1 : 2709410
+translate_CALLpcrel32: function is: fflush, cc is: 0
 doCallPCtarget address : 40b090
 doCallPCtarget address : 40b090
 doCallPCtarget address : 40b090
@@ -8666,5 +8695,348 @@ doCallPCtarget address : 40a070
 doCallPCtarget address : 4056c0
 doCallPCtarget address : 409fc0
 doCallPCtarget address : 4036d0
-Could not insert function: sub_421ef0 into the LLVM module
-Failure to convert to LLVM module!
+doCallPCtarget address : 406770
+getValueForExternal: Found external data ref to: stderr
+doCallPCExtern paramCount  : 1 : fflush
+1 : 2709410
+translate_CALLpcrel32: function is: exit, cc is: 0
+doCallPCExtern paramCount  : 1 : exit
+1 : 2709410
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCtarget address : 419870
+doCallPCtarget address : 4198b0
+doCallPCtarget address : 4198b0
+doCallPCExtern paramCount  : 10 : printf
+10 : 2709410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
+doCallPCtarget address : 4198a0
+doCallPCtarget address : 414170
+doCallPCtarget address : 404260
+doCallPCtarget address : 414420
+doCallPCtarget address : 404b50
+doCallPCtarget address : 405670
+doCallPCtarget address : 405690
+doCallPCtarget address : 4073d0
+doCallPCtarget address : 414420
+doCallPCtarget address : 414420
+doCallPCtarget address : 404b30
+doCallPCExtern paramCount  : 4 : fwrite
+4 : 2709410
+translate_CALLpcrel32: function is: fflush, cc is: 0
+doCallPCExtern paramCount  : 1 : fflush
+1 : 2709410
+translate_CALLpcrel32: function is: ftell, cc is: 0
+doCallPCExtern paramCount  : 1 : ftell
+1 : 2709410
+translate_CALLpcrel32: function is: ftell, cc is: 0
+doCallPCExtern paramCount  : 1 : ftell
+1 : 2709410
+translate_CALLpcrel32: function is: fseek, cc is: 0
+doCallPCExtern paramCount  : 3 : fseek
+3 : 2709410
+translate_CALLpcrel32: function is: feof, cc is: 0
+doCallPCExtern paramCount  : 1 : feof
+1 : 2709410
+translate_CALLpcrel32: function is: ftell, cc is: 0
+doCallPCExtern paramCount  : 1 : ftell
+1 : 2709410
+translate_CALLpcrel32: function is: fseek, cc is: 0
+doCallPCExtern paramCount  : 3 : fseek
+3 : 2709410
+translate_CALLpcrel32: function is: sqrtf, cc is: 0
+doCallPCtarget address : 4066f0
+doCallPCtarget address : 418990
+doCallPCtarget address : 414170
+doCallPCtarget address : 4042e0
+doCallPCtarget address : 414420
+doCallPCtarget address : 41a320
+doCallPCtarget address : 418c70
+doCallPCtarget address : 417df0
+doCallPCtarget address : 40a510
+doCallPCtarget address : 40a6c0
+doCallPCtarget address : 412330
+doCallPCtarget address : 401550
+doCallPCtarget address : 406cc0
+doCallPCtarget address : 40d030
+doCallPCtarget address : 414420
+doCallPCtarget address : 418990
+doCallPCExtern paramCount  : 1 : sqrtf
+1 : 2709410
+translate_CALLpcrel32: function is: unlink, cc is: 0
+doCallPCtarget address : 409fb0
+doCallPCtarget address : 41cf30
+doCallPCtarget address : 41e2c0
+doCallPCtarget address : 4013d0
+doCallPCtarget address : 423510
+doCallPCtarget address : 418860
+doCallPCtarget address : 414f10
+doCallPCtarget address : 418640
+doCallPCtarget address : 414f10
+doCallPCtarget address : 418940
+doCallPCExtern paramCount  : 1 : unlink
+1 : 2709410
+translate_CALLpcrel32: function is: memcpy, cc is: 0
+doCallPCtarget address : 414420
+doCallPCtarget address : 414170
+doCallPCtarget address : 414170
+doCallPCtarget address : 414420
+doCallPCtarget address : 414170
+doCallPCtarget address : 414420
+doCallPCExtern paramCount  : 3 : memcpy
+3 : 2709410
+translate_CALLpcrel32: function is: fopen, cc is: 0
+doCallPCExtern paramCount  : 2 : fopen
+2 : 2709410
+translate_CALLpcrel32: function is: cos, cc is: 0
+doCallPCtarget address : 414420
+doCallPCtarget address : 4188d0
+doCallPCtarget address : 419040
+doCallPCtarget address : 418de0
+doCallPCtarget address : 418b60
+doCallPCtarget address : 406790
+doCallPCtarget address : 414f20
+doCallPCtarget address : 418990
+doCallPCExtern paramCount  : 1 : cos
+1 : 2709410
+translate_JMPr: regular jump via register: 41fab1
+translate_CALLpcrel32: function is: memcpy, cc is: 0
+doCallPCtarget address : 414f10
+doCallPCtarget address : 40a1f0
+doCallPCtarget address : 414170
+doCallPCtarget address : 40a200
+doCallPCtarget address : 40a230
+doCallPCtarget address : 423510
+doCallPCtarget address : 414f10
+doCallPCtarget address : 4153e0
+doCallPCtarget address : 414170
+doCallPCtarget address : 414170
+doCallPCtarget address : 414420
+doCallPCExtern paramCount  : 3 : memcpy
+3 : 2709410
+translate_CALLpcrel32: function is: malloc, cc is: 0
+doCallPCExtern paramCount  : 1 : malloc
+1 : 2709410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
+getValueForExternal: Found external data ref to: stderr
+doCallPCExtern paramCount  : 10 : fprintf
+10 : 2709410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
+getValueForExternal: Found external data ref to: stderr
+doCallPCExtern paramCount  : 10 : fprintf
+10 : 2709410
+translate_CALLpcrel32: function is: _setjmp, cc is: 0
+doCallPCtarget address : 4120f0
+doCallPCtarget address : 411970
+doCallPCtarget address : 4119d0
+doCallPCtarget address : 40ea80
+doCallPCtarget address : 40ea80
+doCallPCtarget address : 40ea80
+doCallPCtarget address : 40d3f0
+doCallPCtarget address : 40ea80
+doCallPCtarget address : 414420
+doCallPCtarget address : 414420
+doCallPCtarget address : 414f20
+doCallPCtarget address : 414170
+doCallPCtarget address : 414170
+doCallPCtarget address : 404570
+doCallPCtarget address : 414420
+doCallPCtarget address : 404b50
+doCallPCtarget address : 405670
+doCallPCtarget address : 405690
+doCallPCtarget address : 4073d0
+doCallPCtarget address : 414420
+doCallPCtarget address : 414420
+doCallPCtarget address : 404b30
+doCallPCExtern paramCount  : 1 : _setjmp
+1 : 2709410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
+doCallPCtarget address : 401580
+doCallPCtarget address : 40b1d0
+doCallPCtarget address : 40b230
+doCallPCExtern paramCount  : 10 : fprintf
+10 : 2709410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
+doCallPCtarget address : 401590
+doCallPCtarget address : 401590
+doCallPCExtern paramCount  : 4 : fwrite
+4 : 2709410
+translate_CALLpcrel32: function is: memcpy, cc is: 0
+doCallPCExtern paramCount  : 3 : memcpy
+3 : 2709410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
+doCallPCExtern paramCount  : 4 : fwrite
+4 : 2709410
+translate_CALLpcrel32: function is: memset, cc is: 0
+doCallPCtarget address : 41e2c0
+doCallPCtarget address : 4191d0
+doCallPCtarget address : 414f10
+doCallPCtarget address : 4150d0
+doCallPCtarget address : 418ac0
+doCallPCtarget address : 418990
+doCallPCtarget address : 406400
+doCallPCtarget address : 40ab80
+doCallPCExtern paramCount  : 3 : memset
+3 : 2709410
+translate_JMPr: regular jump via register: 4025bd
+translate_CALLpcrel32: function is: sin, cc is: 0
+doCallPCtarget address : 418990
+doCallPCExtern paramCount  : 1 : sin
+1 : 2709410
+translate_CALLpcrel32: function is: puts, cc is: 0
+doCallPCtarget address : 4036c0
+doCallPCExtern paramCount  : 1 : puts
+1 : 2709410
+translate_CALLpcrel32: function is: strchr, cc is: 0
+doCallPCExtern paramCount  : 2 : strchr
+2 : 2709410
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCtarget address : 419820
+doCallPCExtern paramCount  : 10 : printf
+10 : 2709410
+translate_CALLpcrel32: function is: strlen, cc is: 0
+doCallPCExtern paramCount  : 1 : strlen
+1 : 2709410
+translate_CALLpcrel32: function is: strcpy, cc is: 0
+doCallPCtarget address : 40b1d0
+doCallPCExtern paramCount  : 2 : strcpy
+2 : 2709410
+translate_CALLpcrel32: function is: sscanf, cc is: 0
+doCallPCtarget address : 419810
+doCallPCtarget address : 419850
+doCallPCExtern paramCount  : 10 : sscanf
+10 : 2709410
+translate_CALLpcrel32: function is: strchr, cc is: 0
+doCallPCExtern paramCount  : 2 : strchr
+2 : 2709410
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCExtern paramCount  : 10 : printf
+10 : 2709410
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCExtern paramCount  : 10 : printf
+10 : 2709410
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCExtern paramCount  : 10 : printf
+10 : 2709410
+translate_CALLpcrel32: function is: memcmp, cc is: 0
+doCallPCtarget address : 40acd0
+doCallPCExtern paramCount  : 3 : memcmp
+3 : 2709410
+translate_CALLpcrel32: function is: memcpy, cc is: 0
+doCallPCtarget address : 418ac0
+doCallPCtarget address : 418ac0
+doCallPCtarget address : 418b60
+doCallPCtarget address : 40a6c0
+doCallPCtarget address : 423510
+doCallPCtarget address : 4123c0
+doCallPCtarget address : 4123c0
+doCallPCExtern paramCount  : 3 : memcpy
+3 : 2709410
+translate_CALLpcrel32: function is: memcpy, cc is: 0
+doCallPCExtern paramCount  : 3 : memcpy
+3 : 2709410
+doCallPCtarget address : 40ea80
+doCallPCtarget address : 40d3f0
+doCallPCtarget address : 40ea80
+doCallPCtarget address : 414420
+doCallPCtarget address : 414420
+doCallPCtarget address : 414f20
+doCallPCtarget address : 414170
+doCallPCtarget address : 4046a0
+doCallPCtarget address : 414420
+doCallPCtarget address : 404b50
+doCallPCtarget address : 405670
+doCallPCtarget address : 405690
+doCallPCtarget address : 4073d0
+doCallPCtarget address : 414420
+doCallPCtarget address : 414420
+doCallPCtarget address : 404b30
+doCallPCExtern paramCount  : 1 : fclose
+1 : 2709410
+translate_CALLpcrel32: function is: memset, cc is: 0
+doCallPCtarget address : 411970
+doCallPCtarget address : 4119d0
+doCallPCtarget address : 411970
+doCallPCtarget address : 411970
+doCallPCtarget address : 412050
+doCallPCtarget address : 412050
+doCallPCtarget address : 4119d0
+doCallPCtarget address : 4119d0
+doCallPCtarget address : 4119d0
+doCallPCtarget address : 412050
+doCallPCtarget address : 4119d0
+doCallPCtarget address : 411cd0
+doCallPCtarget address : 412050
+doCallPCtarget address : 4119d0
+doCallPCtarget address : 4119d0
+doCallPCtarget address : 40d3f0
+doCallPCtarget address : 40ea80
+doCallPCtarget address : 414420
+doCallPCtarget address : 414420
+doCallPCtarget address : 414f20
+doCallPCtarget address : 4067c0
+doCallPCtarget address : 423510
+doCallPCtarget address : 414170
+doCallPCExtern paramCount  : 3 : memset
+3 : 2709410
+translate_CALLpcrel32: function is: memset, cc is: 0
+doCallPCtarget address : 414170
+doCallPCtarget address : 414170
+doCallPCExtern paramCount  : 3 : memset
+3 : 2709410
+translate_CALLpcrel32: function is: memset, cc is: 0
+doCallPCExtern paramCount  : 3 : memset
+3 : 2709410
+translate_CALLpcrel32: function is: floorf, cc is: 0
+doCallPCtarget address : 4120f0
+doCallPCtarget address : 40d3f0
+doCallPCtarget address : 40ea80
+doCallPCtarget address : 414420
+doCallPCtarget address : 414420
+doCallPCtarget address : 414f20
+doCallPCtarget address : 418ac0
+doCallPCtarget address : 406380
+doCallPCtarget address : 404b50
+doCallPCtarget address : 405670
+doCallPCtarget address : 405690
+doCallPCtarget address : 4073d0
+doCallPCtarget address : 414420
+doCallPCtarget address : 414420
+doCallPCtarget address : 404b30
+doCallPCExtern paramCount  : 1 : floorf
+1 : 2709410
+translate_JMPr: regular jump via register: 4013f7
+translate_CALLpcrel32: function is: memcpy, cc is: 0
+doCallPCtarget address : 414f20
+doCallPCtarget address : 41cf30
+doCallPCtarget address : 41dfe0
+doCallPCtarget address : 418a40
+doCallPCtarget address : 409f40
+doCallPCtarget address : 4073e0
+doCallPCtarget address : 418ac0
+doCallPCtarget address : 406800
+doCallPCExtern paramCount  : 3 : memcpy
+3 : 2709410
+doJumpTableViaSwitch: Doing jumpt table via switch
+translate_CALLpcrel32: function is: memcpy, cc is: 0
+doCallPCtarget address : 411740
+doCallPCtarget address : 411cd0
+doCallPCtarget address : 4119d0
+doCallPCtarget address : 411970
+doCallPCtarget address : 411770
+doCallPCtarget address : 4056a0
+doCallPCtarget address : 40b090
+doCallPCtarget address : 40b090
+doCallPCtarget address : 40b090
+doCallPCtarget address : 412050
+doCallPCtarget address : 4120f0
+doCallPCtarget address : 411970
+doCallPCtarget address : 4119d0
+doCallPCtarget address : 40cd10
+doCallPCExtern paramCount  : 3 : memcpy
+3 : 2709410
+doCallPCtarget address : 415940
+doCallPCtarget address : 418640
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
+Want to use MEM as data ref but have no MEM reference

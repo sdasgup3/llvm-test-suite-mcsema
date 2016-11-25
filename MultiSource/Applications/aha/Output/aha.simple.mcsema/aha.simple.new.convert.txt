@@ -1,6 +1,10 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: IMM, to: 40126a, ro: 1, rt: DATA
 set_ref_reloc_type: Adding  ref: MEM, to: 602474, ro: 0, rt: DATA
@@ -403,10 +407,6 @@ cur_pos: 6023a0
 dse_base: 6023a0
 new_cur_pos2: 6023a8
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -417,8 +417,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_400f90
@@ -454,8 +452,8 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602040
 inserting global data section named data_0x602400
+translate_CALLpcrel32: function is: printf, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400610L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x4005f0L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_printf
@@ -514,53 +512,67 @@ dataSectionToTypesContents: Found symbol: dta_0x4011c7L
 dataSectionToTypesContents: Found symbol: dta_0x401171L
 dataSectionToTypesContents: Found symbol: dta_0x4011ccL
 doCallPCExtern paramCount  : 10 : printf
-10 : 313b1f0
+10 : 2e6a320
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 4010c0
 doCallPCtarget address : 400dc0
 doCallPCExtern paramCount  : 10 : printf
-10 : 313b1f0
+10 : 2e6a320
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 313b1f0
+10 : 2e6a320
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 313b1f0
+10 : 2e6a320
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 400cc0
 doCallPCExtern paramCount  : 10 : printf
-10 : 313b1f0
+10 : 2e6a320
 translate_JMPr: regular jump via register: 4005a7
 translate_JMPr: regular jump via register: 4005e7
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 400580
 doCallPCtarget address : 400b20
 doCallPCExtern paramCount  : 10 : printf
-10 : 313b1f0
+10 : 2e6a320
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 4009e0
 doCallPCtarget address : 400cc0
 doCallPCtarget address : 400cc0
 doCallPCExtern paramCount  : 10 : printf
-10 : 313b1f0
+10 : 2e6a320
 doCallPCtarget address : 4008e0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 313b1f0
+1 : 2e6a320
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 313b1f0
+10 : 2e6a320
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 313b1f0
+1 : 2e6a320
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 313b1f0
+10 : 2e6a320
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 313b1f0
+10 : 2e6a320
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 313b1f0
+1 : 2e6a320
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 313b1f0
+10 : 2e6a320
 doCallPCExtern paramCount  : 1 : putchar
-1 : 313b1f0
+1 : 2e6a320
 doCallPCtarget address : 4008e0
 doCallPCExtern paramCount  : 10 : printf
-10 : 313b1f0
+10 : 2e6a320
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 313b1f0
+1 : 2e6a320
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 313b1f0
-Adding entry point: mcsema_main
-in : doPostAnalysis
-registering passes
+10 : 2e6a320
+Adding entry point: main
+main is implemented by sub_400f90
+NOT doing post analysis passes.

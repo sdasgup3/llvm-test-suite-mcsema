@@ -1,6 +1,25 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 6030c0, ro: 0, rt: DATA
 set_ref_reloc_type: Adding  ref: IMM, to: 402450, ro: 1, rt: DATA
@@ -447,25 +466,6 @@ dse_base: 6030a8
 new_cur_pos2: 6030b0
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Deserializing external data...
 Creating module...
 Setting target...
@@ -477,8 +477,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_401810
@@ -501,8 +499,8 @@ inserting global data section named data_0x602ff8
 inserting global data section named data_0x603000
 inserting global data section named data_0x6030b0
 inserting global data section named data_0x6030c0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400ae0L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x400ac0L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_memset
@@ -525,95 +523,195 @@ dataSectionToTypesContents: Found symbol: ext_fwrite
 dataSectionToTypesContents: Found symbol: ext_fprintf
 dataSectionToTypesContents: Found symbol: ext_memcpy
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2cc8940
+10 : 317b3a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2cc8940
+10 : 317b3a0
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCtarget address : 401300
 doCallPCtarget address : 401300
 doCallPCtarget address : 401300
 doCallPCtarget address : 401300
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2cc8940
+2 : 317b3a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2cc8940
+1 : 317b3a0
+translate_CALLpcrel32: function is: remove, cc is: 0
 doCallPCtarget address : 401f00
 doCallPCExtern paramCount  : 1 : remove
-1 : 2cc8940
+1 : 317b3a0
 translate_JMPr: regular jump via register: 400ab7
 translate_JMPr: regular jump via register: 400a77
+translate_CALLpcrel32: function is: __xstat, cc is: 0
 doCallPCtarget address : 400a50
 doCallPCExtern paramCount  : 3 : __xstat
-3 : 2cc8940
+3 : 317b3a0
+translate_CALLpcrel32: function is: fopen, cc is: 0
 doCallPCExtern paramCount  : 2 : fopen
-2 : 2cc8940
+2 : 317b3a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2cc8940
+10 : 317b3a0
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2cc8940
+1 : 317b3a0
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2cc8940
+2 : 317b3a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2cc8940
+1 : 317b3a0
+translate_CALLpcrel32: function is: fopen, cc is: 0
 doCallPCExtern paramCount  : 2 : fopen
-2 : 2cc8940
+2 : 317b3a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2cc8940
+4 : 317b3a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2cc8940
+1 : 317b3a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2cc8940
+1 : 317b3a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2cc8940
+1 : 317b3a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2cc8940
+1 : 317b3a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2cc8940
+1 : 317b3a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2cc8940
+4 : 317b3a0
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2cc8940
+1 : 317b3a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2cc8940
+4 : 317b3a0
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 2cc8940
+1 : 317b3a0
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 2cc8940
+1 : 317b3a0
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 2cc8940
+1 : 317b3a0
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCtarget address : 400b10
 doCallPCExtern paramCount  : 1 : free
-1 : 2cc8940
+1 : 317b3a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2cc8940
+4 : 317b3a0
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 2cc8940
+1 : 317b3a0
+translate_CALLpcrel32: function is: fclose, cc is: 0
 doCallPCExtern paramCount  : 1 : fclose
-1 : 2cc8940
+1 : 317b3a0
+translate_CALLpcrel32: function is: fclose, cc is: 0
 doCallPCExtern paramCount  : 1 : fclose
-1 : 2cc8940
+1 : 317b3a0
+translate_CALLpcrel32: function is: fread, cc is: 0
 doCallPCExtern paramCount  : 4 : fread
-4 : 2cc8940
+4 : 317b3a0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2cc8940
+1 : 317b3a0
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2cc8940
+1 : 317b3a0
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 2cc8940
+3 : 317b3a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2cc8940
+10 : 317b3a0
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2cc8940
+1 : 317b3a0
+translate_CALLpcrel32: function is: qsort, cc is: 0
 doCallPCExtern paramCount  : 4 : qsort
-4 : 2cc8940
+4 : 317b3a0
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 2cc8940
-Unsupported!
-400b4c 	pslldq	$8, %xmm3
-2124
-Unsupported!
-400c01 	pslldq	$8, %xmm1
-2124
+3 : 317b3a0
 doCallPCtarget address : 401070
 doCallPCtarget address : 401070
-Could not insert function: sub_400b10 into the LLVM module
-Failure to convert to LLVM module!
+doCallPCExtern paramCount  : 3 : memcmp
+3 : 317b3a0
+translate_CALLpcrel32: function is: fopen, cc is: 0
+doCallPCExtern paramCount  : 2 : fopen
+2 : 317b3a0
+translate_CALLpcrel32: function is: fread, cc is: 0
+doCallPCExtern paramCount  : 4 : fread
+4 : 317b3a0
+translate_CALLpcrel32: function is: fread, cc is: 0
+doCallPCExtern paramCount  : 4 : fread
+4 : 317b3a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
+doCallPCExtern paramCount  : 1 : malloc
+1 : 317b3a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
+doCallPCExtern paramCount  : 1 : malloc
+1 : 317b3a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
+doCallPCExtern paramCount  : 1 : malloc
+1 : 317b3a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
+doCallPCExtern paramCount  : 1 : malloc
+1 : 317b3a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
+doCallPCExtern paramCount  : 4 : fwrite
+4 : 317b3a0
+translate_CALLpcrel32: function is: exit, cc is: 0
+doCallPCExtern paramCount  : 1 : exit
+1 : 317b3a0
+translate_CALLpcrel32: function is: fread, cc is: 0
+doCallPCExtern paramCount  : 4 : fread
+4 : 317b3a0
+translate_CALLpcrel32: function is: fclose, cc is: 0
+doCallPCExtern paramCount  : 1 : fclose
+1 : 317b3a0
+translate_CALLpcrel32: function is: free, cc is: 0
+doCallPCtarget address : 4018d0
+doCallPCExtern paramCount  : 1 : free
+1 : 317b3a0
+translate_CALLpcrel32: function is: free, cc is: 0
+doCallPCExtern paramCount  : 1 : free
+1 : 317b3a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
+doCallPCExtern paramCount  : 1 : malloc
+1 : 317b3a0
+translate_CALLpcrel32: function is: memset, cc is: 0
+doCallPCExtern paramCount  : 3 : memset
+3 : 317b3a0
+translate_CALLpcrel32: function is: memcpy, cc is: 0
+doCallPCExtern paramCount  : 3 : memcpy
+3 : 317b3a0
+translate_CALLpcrel32: function is: free, cc is: 0
+doCallPCExtern paramCount  : 1 : free
+1 : 317b3a0
+translate_CALLpcrel32: function is: free, cc is: 0
+doCallPCExtern paramCount  : 1 : free
+1 : 317b3a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
+getValueForExternal: Found external data ref to: stdout
+doCallPCExtern paramCount  : 4 : fwrite
+4 : 317b3a0
+doCallPCExtern paramCount  : 1 : free
+1 : 317b3a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
+doCallPCExtern paramCount  : 4 : fwrite
+4 : 317b3a0
+translate_CALLpcrel32: function is: exit, cc is: 0
+doCallPCExtern paramCount  : 1 : exit
+1 : 317b3a0
+Adding entry point: main
+main is implemented by sub_401810
+NOT doing post analysis passes.

@@ -1,6 +1,27 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: IMM, to: 407f60, ro: 1, rt: DATA
 set_ref_reloc_type: Adding  ref: IMM, to: 407f80, ro: 1, rt: DATA
@@ -227,27 +248,6 @@ dse_base: 6090b8
 new_cur_pos2: 6090c0
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -258,8 +258,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_406d40
@@ -290,8 +288,8 @@ inserting global data section named data_0x608ff8
 inserting global data section named data_0x609000
 inserting global data section named data_0x6090c0
 inserting global data section named data_0x6090d0
+translate_CALLpcrel32: function is: puts, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400b50L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x400b30L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_exp
@@ -319,36 +317,50 @@ doCallPCtarget address : 400b80
 doCallPCtarget address : 400cc0
 doCallPCtarget address : 400b80
 doCallPCExtern paramCount  : 1 : puts
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: exp, cc is: 0
 doCallPCExtern paramCount  : 1 : exp
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCtarget address : 401a30
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: exp, cc is: 0
 doCallPCExtern paramCount  : 1 : exp
-1 : 2dd8600
+1 : 26bd410
 doJumpTableViaSwitch: Doing jumpt table via switch
+translate_CALLpcrel32: function is: exp, cc is: 0
 doCallPCtarget address : 400dc0
 doCallPCExtern paramCount  : 1 : exp
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 2dd8600
+3 : 26bd410
+translate_CALLpcrel32: function is: strtol, cc is: 0
 doCallPCExtern paramCount  : 3 : strtol
-3 : 2dd8600
+3 : 26bd410
+translate_CALLpcrel32: function is: strtod, cc is: 0
 doCallPCExtern paramCount  : 2 : strtod
-2 : 2dd8600
+2 : 26bd410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 401000
 doCallPCtarget address : 402bb0
 doCallPCtarget address : 404540
@@ -358,142 +370,202 @@ doCallPCtarget address : 404c40
 doCallPCtarget address : 405e70
 doCallPCtarget address : 4020b0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2dd8600
+1 : 26bd410
 translate_JMPr: regular jump via register: 400ae7
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCtarget address : 400ac0
 doCallPCExtern paramCount  : 3 : memset
-3 : 2dd8600
+3 : 26bd410
+translate_CALLpcrel32: function is: sqrtf, cc is: 0
 doCallPCExtern paramCount  : 1 : sqrtf
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 2dd8600
+3 : 26bd410
+translate_CALLpcrel32: function is: sqrtf, cc is: 0
 doCallPCExtern paramCount  : 1 : sqrtf
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 2dd8600
+3 : 26bd410
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 2dd8600
+3 : 26bd410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 2dd8600
+1 : 26bd410
 doCallPCExtern paramCount  : 1 : free
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2dd8600
+4 : 26bd410
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: fopen, cc is: 0
 doCallPCExtern paramCount  : 2 : fopen
-2 : 2dd8600
+2 : 26bd410
+translate_CALLpcrel32: function is: fgetc, cc is: 0
 doCallPCExtern paramCount  : 1 : fgetc
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: fgetc, cc is: 0
 doCallPCExtern paramCount  : 1 : fgetc
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2dd8600
+10 : 26bd410
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCtarget address : 400c10
 doCallPCtarget address : 400c10
 doCallPCtarget address : 400c10
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: fread, cc is: 0
 doCallPCExtern paramCount  : 4 : fread
-4 : 2dd8600
+4 : 26bd410
 doCallPCExtern paramCount  : 1 : fclose
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 2dd8600
+3 : 26bd410
 translate_JMPr: regular jump via register: 400b27
+translate_CALLpcrel32: function is: fopen, cc is: 0
 doCallPCExtern paramCount  : 2 : fopen
-2 : 2dd8600
+2 : 26bd410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2dd8600
+4 : 26bd410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2dd8600
+10 : 26bd410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2dd8600
+4 : 26bd410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2dd8600
+4 : 26bd410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2dd8600
+10 : 26bd410
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2dd8600
+1 : 26bd410
 doCallPCExtern paramCount  : 1 : fclose
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2dd8600
+10 : 26bd410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2dd8600
+10 : 26bd410
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCtarget address : 401860
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: exp, cc is: 0
 doCallPCExtern paramCount  : 1 : exp
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCtarget address : 401610
 doCallPCtarget address : 401610
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 2dd8600
+3 : 26bd410
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 2dd8600
+3 : 26bd410
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 2dd8600
+3 : 26bd410
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
 doCallPCExtern paramCount  : 1 : _IO_getc
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2dd8600
+10 : 26bd410
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: fgets, cc is: 0
 doCallPCExtern paramCount  : 3 : fgets
-3 : 2dd8600
+3 : 26bd410
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
 doCallPCExtern paramCount  : 1 : _IO_getc
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
 doCallPCExtern paramCount  : 1 : _IO_getc
-1 : 2dd8600
+1 : 26bd410
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 2dd8600
+3 : 26bd410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2dd8600
+4 : 26bd410
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2dd8600
-Adding entry point: mcsema_main
-in : doPostAnalysis
-registering passes
+1 : 26bd410
+Adding entry point: main
+main is implemented by sub_406d40
+NOT doing post analysis passes.

@@ -1,6 +1,13 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 603220, ro: 0, rt: DATA
 set_ref_reloc_type: Adding  ref: MEM, to: 401240, ro: 0, rt: CODE
@@ -325,13 +332,6 @@ dse_base: 603048
 new_cur_pos2: 603050
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -342,8 +342,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_400c80
@@ -375,8 +373,8 @@ inserting global data section named data_0x602ff8
 inserting global data section named data_0x603000
 inserting global data section named data_0x603050
 inserting global data section named data_0x603220
+translate_CALLpcrel32: function is: puts, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400720L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x400700L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_printf
@@ -388,29 +386,33 @@ dataSectionToTypesContents: Found symbol: ext__IO_getc
 dataSectionToTypesContents: Found symbol: ext_calloc
 doCallPCtarget address : 4012e0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2098da0
+1 : 275f410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2098da0
+10 : 275f410
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
 doCallPCtarget address : 400da0
 doCallPCExtern paramCount  : 1 : _IO_getc
-1 : 2098da0
+1 : 275f410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 401240
 doCallPCExtern paramCount  : 10 : printf
-10 : 2098da0
+10 : 275f410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 401120
 doCallPCExtern paramCount  : 1 : puts
-1 : 2098da0
+1 : 275f410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 401340
 doCallPCtarget address : 400b80
 doCallPCExtern paramCount  : 10 : printf
-10 : 2098da0
+10 : 275f410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2098da0
+10 : 275f410
 translate_JMPr: regular jump via register: 4006f7
 translate_JMPr: regular jump via register: 4006b7
-Unsupported!
-400978 	imulq	$224, 16(%rsp), %rbp
-882
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 4018d0
 doCallPCtarget address : 400690
 doCallPCtarget address : 401150
@@ -433,9 +435,32 @@ doCallPCtarget address : 400760
 doCallPCtarget address : 4011d0
 doCallPCtarget address : 401120
 doCallPCExtern paramCount  : 10 : printf
-10 : 2098da0
-Unsupported!
-400a8d 	imulq	$224, 16(%rsp), %rax
-882
-Could not insert function: sub_400760 into the LLVM module
-Failure to convert to LLVM module!
+10 : 275f410
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCExtern paramCount  : 10 : printf
+10 : 275f410
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCExtern paramCount  : 10 : printf
+10 : 275f410
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCExtern paramCount  : 10 : printf
+10 : 275f410
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCExtern paramCount  : 10 : printf
+10 : 275f410
+translate_CALLpcrel32: function is: calloc, cc is: 0
+doCallPCtarget address : 400e80
+doCallPCExtern paramCount  : 2 : calloc
+2 : 275f410
+translate_CALLpcrel32: function is: calloc, cc is: 0
+doCallPCExtern paramCount  : 2 : calloc
+2 : 275f410
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCExtern paramCount  : 10 : printf
+10 : 275f410
+translate_CALLpcrel32: function is: exit, cc is: 0
+doCallPCExtern paramCount  : 1 : exit
+1 : 275f410
+Adding entry point: main
+main is implemented by sub_400c80
+NOT doing post analysis passes.

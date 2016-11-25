@@ -1,6 +1,25 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: IMM, to: 4041c8, ro: 1, rt: DATA
 set_ref_reloc_type: Adding  ref: IMM, to: 4041c4, ro: 1, rt: DATA
@@ -250,25 +269,6 @@ dse_base: 6050a8
 new_cur_pos2: 6050b0
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -279,8 +279,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_402f90
@@ -313,8 +311,8 @@ inserting global data section named data_0x604ff8
 inserting global data section named data_0x605000
 inserting global data section named data_0x6050b0
 inserting global data section named data_0x6050c0
+translate_CALLpcrel32: function is: putchar, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400a90L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x400a70L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_printf
@@ -337,66 +335,94 @@ dataSectionToTypesContents: Found symbol: ext_realloc
 dataSectionToTypesContents: Found symbol: ext_fprintf
 dataSectionToTypesContents: Found symbol: ext_fflush
 doCallPCExtern paramCount  : 1 : putchar
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 33a0270
+2 : 265fe40
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 33a19e0
+0 : 26615b0
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCtarget address : 403100
 doCallPCExtern paramCount  : 1 : putchar
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCtarget address : 4032e0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCtarget address : 4034a0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 33a0270
+2 : 265fe40
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 33a19e0
+0 : 26615b0
 translate_JMPr: regular jump via register: 400a67
 translate_JMPr: regular jump via register: 400a27
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCtarget address : 400a00
 doCallPCtarget address : 403780
 doCallPCtarget address : 403780
@@ -405,30 +431,38 @@ doCallPCtarget address : 403830
 doCallPCtarget address : 403ae0
 doCallPCtarget address : 403ae0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 33a0270
+2 : 265fe40
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 33a19e0
+0 : 26615b0
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCtarget address : 403e50
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 33a0270
+2 : 265fe40
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 33a19e0
+0 : 26615b0
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 403800
 doCallPCExtern paramCount  : 10 : printf
-10 : 33a0270
+10 : 265fe40
 doCallPCtarget address : 402820
 doCallPCtarget address : 402820
 doCallPCExtern paramCount  : 1 : free
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: calloc, cc is: 0
 doCallPCtarget address : 402820
 doCallPCtarget address : 402820
 doCallPCtarget address : 402760
 doCallPCExtern paramCount  : 2 : calloc
-2 : 33a0270
+2 : 265fe40
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 33a0270
+10 : 265fe40
+translate_CALLpcrel32: function is: fflush, cc is: 0
 doCallPCExtern paramCount  : 1 : fflush
-1 : 33a0270
+1 : 265fe40
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCtarget address : 4025f0
 doCallPCtarget address : 402760
 doCallPCtarget address : 402760
@@ -436,31 +470,70 @@ doCallPCtarget address : 402830
 doCallPCtarget address : 403ae0
 doCallPCtarget address : 403ae0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 33a0270
+2 : 265fe40
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 33a19e0
+0 : 26615b0
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCtarget address : 401a40
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 33a0270
+2 : 265fe40
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 33a19e0
+0 : 26615b0
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 402820
 doCallPCtarget address : 400b10
 doCallPCtarget address : 403800
 doCallPCtarget address : 403800
 doCallPCtarget address : 403800
 doCallPCExtern paramCount  : 10 : printf
-10 : 33a0270
+10 : 265fe40
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 33a0270
-Unsupported!
-401b10 	movupd	(%r12,%rdx,8), %xmm2
-1699
-Unsupported!
-401bc0 	movupd	(%r12,%rsi,8), %xmm2
-1699
-Unsupported!
-401fb0 	movupd	(%r12,%rdx,8), %xmm1
-1699
-Could not insert function: sub_401a40 into the LLVM module
-Failure to convert to LLVM module!
+3 : 265fe40
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
+doCallPCtarget address : 402820
+doCallPCtarget address : 402820
+doCallPCtarget address : 402820
+doCallPCtarget address : 402820
+doCallPCtarget address : 402820
+doCallPCtarget address : 402760
+doCallPCtarget address : 402760
+doCallPCtarget address : 402760
+doCallPCtarget address : 402760
+doCallPCtarget address : 402760
+doCallPCtarget address : 402760
+doCallPCtarget address : 400ac0
+doCallPCtarget address : 403780
+doCallPCtarget address : 403780
+doCallPCtarget address : 403780
+doCallPCtarget address : 402760
+doCallPCtarget address : 402760
+doCallPCtarget address : 402830
+doCallPCtarget address : 403ae0
+doCallPCExtern paramCount  : 2 : gettimeofday
+2 : 265fe40
+translate_CALLpcrel32: function is: clock, cc is: 0
+doCallPCExtern paramCount  : 0 : clock
+0 : 26615b0
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
+doCallPCtarget address : 403620
+doCallPCExtern paramCount  : 2 : gettimeofday
+2 : 265fe40
+translate_CALLpcrel32: function is: clock, cc is: 0
+doCallPCExtern paramCount  : 0 : clock
+0 : 26615b0
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCtarget address : 402820
+doCallPCtarget address : 400b10
+doCallPCtarget address : 403800
+doCallPCtarget address : 403800
+doCallPCtarget address : 403800
+doCallPCExtern paramCount  : 10 : printf
+10 : 265fe40
+doCallPCtarget address : 402760
+doCallPCtarget address : 402820
+Adding entry point: main
+main is implemented by sub_402f90
+NOT doing post analysis passes.

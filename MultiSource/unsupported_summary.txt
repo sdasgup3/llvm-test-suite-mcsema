@@ -1,0 +1,572 @@
+
+./UnitTests/C++11/frame_layout/Output/frame_layout.simple.mcsema/frame_layout.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/Ptrdist/bc/Output/bc.simple.mcsema/bc.simple
+========
+error: 
+Generic error: Line: 316
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/peToCFG/peToCFG.cpp
+Could not find external: optind
+
+./Benchmarks/MallocBench/gs/Output/gs.simple.mcsema/gs.simple
+========
+Deserializing symbol at: 62e158, ext_perror, 8
+cur_pos: 62e158
+dse_base: 62e158
+--
+dataSectionToTypesContents: Found symbol: ext_perror
+dataSectionToTypesContents: Found symbol: ext_fprintf
+dataSectionToTypesContents: Found symbol: ext_localtime
+--
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
+
+./Benchmarks/MallocBench/cfrac/Output/cfrac.simple.mcsema/cfrac.simple
+========
+error: 
+Generic error: Line: 316
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/peToCFG/peToCFG.cpp
+Could not find external: optind
+
+./Benchmarks/MallocBench/espresso/Output/espresso.simple.mcsema/espresso.simple
+========
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
+
+./Benchmarks/MiBench/consumer-typeset/Output/consumer-typeset.simple.mcsema/consumer-typeset.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/MiBench/consumer-lame/Output/consumer-lame.simple.mcsema/consumer-lame.simple
+========
+Deserializing symbol at: 6290c0, ext_ferror, 8
+cur_pos: 6290c0
+dse_base: 6290c0
+--
+dataSectionToTypesContents: Found symbol: ext_ferror
+dataSectionToTypesContents: Found symbol: ext___xstat
+dataSectionToTypesContents: Found symbol: ext_sprintf
+--
+doCallPCExtern paramCount  : 1 : ferror
+1 : 1f76410
+translate_CALLpcrel32: function is: memset, cc is: 0
+--
+Unsupported opcode 556!	cmpltsd	92940(%rip), %xmm0 # 40bbab40bbab 
+556
+translate_CALLpcrel32: function is: fprintf, cc is: 0
+
+./Benchmarks/MiBench/telecomm-gsm/Output/telecomm-gsm.simple.mcsema/telecomm-gsm.simple
+========
+error: 
+Generic error: Line: 316
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/peToCFG/peToCFG.cpp
+Could not find external: optind
+
+./Benchmarks/MiBench/consumer-jpeg/Output/consumer-jpeg.simple.mcsema/consumer-jpeg.simple
+========
+Deserializing symbol at: 628060, ext_ferror, 8
+cur_pos: 628060
+dse_base: 628060
+--
+dataSectionToTypesContents: Found symbol: ext_ferror
+dataSectionToTypesContents: Found symbol: ext___ctype_b_loc
+dataSectionToTypesContents: Found symbol: ext_sprintf
+--
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
+
+./Benchmarks/McCat/04-bisect/Output/bisect.simple.mcsema/bisect.simple
+========
+Unsupported opcode 558!	cmpnlesd	%xmm2, %xmm3 # 400e52400e52 
+558
+translate_CALLpcrel32: function is: fwrite, cc is: 0
+
+./Benchmarks/Prolangs-C/football/Output/football.simple.mcsema/football.simple
+========
+Unsupported opcode 558!	cmpeqsd	%xmm0, %xmm2 # 4015ee4015ee 
+558
+Unsupported opcode 558!	cmpeqsd	%xmm0, %xmm2 # 40165a40165a 
+558
+translate_CALLpcrel32: function is: memcpy, cc is: 0
+
+./Benchmarks/Prolangs-C/cdecl/Output/cdecl.simple.mcsema/cdecl.simple
+========
+error: 
+Generic error: Line: 316
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/peToCFG/peToCFG.cpp
+Could not find external: optind
+
+./Benchmarks/Prolangs-C/plot2fig/Output/plot2fig.simple.mcsema/plot2fig.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/Prolangs-C/unix-smail/Output/unix-smail.simple.mcsema/unix-smail.simple
+========
+error: 
+Generic error: Line: 316
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/peToCFG/peToCFG.cpp
+Could not find external: tzname
+
+./Benchmarks/Prolangs-C/archie-client/Output/archie.simple.mcsema/archie.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/FreeBench/neural/Output/neural.simple.mcsema/neural.simple
+========
+Unsupported opcode 553!	cmpnltps	%xmm0, %xmm1 # 401a38401a38 
+553
+translate_CALLpcrel32: function is: exp, cc is: 0
+
+./Benchmarks/PAQ8p/Output/paq8p.simple.mcsema/paq8p.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/nbench/Output/nbench.simple.mcsema/nbench.simple
+========
+Unsupported opcode 2588!	shrdw	$7, %bp, %bx # 4063c64063c6 
+2588
+doCallPCtarget address : 4021f0
+
+./Benchmarks/NPB-serial/is/Output/is.simple.mcsema/is.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/mafft/Output/pairlocalalign.simple.mcsema/pairlocalalign.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/Bullet/Output/bullet.simple.mcsema/bullet.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/mediabench/jpeg/jpeg-6a/Output/cjpeg.simple.mcsema/cjpeg.simple
+========
+Deserializing symbol at: 628060, ext_ferror, 8
+cur_pos: 628060
+dse_base: 628060
+--
+dataSectionToTypesContents: Found symbol: ext_ferror
+dataSectionToTypesContents: Found symbol: ext___ctype_b_loc
+dataSectionToTypesContents: Found symbol: ext_sprintf
+--
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
+
+./Benchmarks/mediabench/gsm/toast/Output/toast.simple.mcsema/toast.simple
+========
+error: 
+Generic error: Line: 316
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/peToCFG/peToCFG.cpp
+Could not find external: optind
+
+./Benchmarks/tramp3d-v4/Output/tramp3d-v4.simple.mcsema/tramp3d-v4.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/TSVC/CrossingThresholds-dbl/Output/CrossingThresholds-dbl.simple.mcsema/CrossingThresholds-dbl.simple
+========
+Unsupported opcode 558!	cmpeqsd	%xmm1, %xmm0 # 406666406666 
+558
+translate_CALLpcrel32: function is: printf, cc is: 0
+
+./Benchmarks/TSVC/Reductions-flt/Output/Reductions-flt.simple.mcsema/Reductions-flt.simple
+========
+Unsupported opcode 564!	cmpnless	%xmm2, %xmm1 # 4066cb4066cb 
+564
+translate_CALLpcrel32: function is: printf, cc is: 0
+
+./Benchmarks/TSVC/CrossingThresholds-flt/Output/CrossingThresholds-flt.simple.mcsema/CrossingThresholds-flt.simple
+========
+Unsupported opcode 564!	cmpeqss	%xmm2, %xmm1 # 406665406665 
+564
+translate_CALLpcrel32: function is: printf, cc is: 0
+
+./Benchmarks/TSVC/Reductions-dbl/Output/Reductions-dbl.simple.mcsema/Reductions-dbl.simple
+========
+Unsupported opcode 558!	cmpnlesd	%xmm2, %xmm1 # 4066dd4066dd 
+558
+translate_CALLpcrel32: function is: printf, cc is: 0
+
+./Benchmarks/VersaBench/beamformer/Output/beamformer.simple.mcsema/beamformer.simple
+========
+error: 
+Generic error: Line: 316
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/peToCFG/peToCFG.cpp
+Could not find external: optarg
+
+./Benchmarks/VersaBench/dbms/Output/dbms.simple.mcsema/dbms.simple
+========
+Unsupported opcode 564!	cmpnless	%xmm2, %xmm0 # 404012404012 
+564
+doCallPCtarget address : 402990
+
+./Benchmarks/Prolangs-C++/family/Output/family.simple.mcsema/family.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/Prolangs-C++/employ/Output/employ.simple.mcsema/employ.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/Prolangs-C++/shapes/Output/shapes.simple.mcsema/shapes.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/Prolangs-C++/primes/Output/primes.simple.mcsema/primes.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/Prolangs-C++/ocean/Output/ocean.simple.mcsema/ocean.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/Prolangs-C++/life/Output/life.simple.mcsema/life.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/Prolangs-C++/deriv1/Output/deriv1.simple.mcsema/deriv1.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/Prolangs-C++/city/Output/city.simple.mcsema/city.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/Prolangs-C++/office/Output/office.simple.mcsema/office.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/Prolangs-C++/trees/Output/trees.simple.mcsema/trees.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/Prolangs-C++/fsm/Output/fsm.simple.mcsema/fsm.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/Prolangs-C++/objects/Output/objects.simple.mcsema/objects.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/Prolangs-C++/deriv2/Output/deriv2.simple.mcsema/deriv2.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/Prolangs-C++/garage/Output/garage.simple.mcsema/garage.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/Prolangs-C++/simul/Output/simul.simple.mcsema/simul.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Benchmarks/7zip/Output/7zip-benchmark.simple.mcsema/7zip-benchmark.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Applications/ALAC/encode/Output/alacconvert-encode.simple.mcsema/alacconvert-encode.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Applications/ALAC/decode/Output/alacconvert-decode.simple.mcsema/alacconvert-decode.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Applications/sgefa/Output/sgefa.simple.mcsema/sgefa.simple
+========
+Unsupported opcode 564!	cmpnltss	%xmm4, %xmm0 # 400929400929 
+564
+Unsupported opcode 564!	cmpnltss	%xmm4, %xmm0 # 4009c84009c8 
+564
+doCallPCtarget address : 4008d0
+
+./Applications/hexxagon/Output/hexxagon.simple.mcsema/hexxagon.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Applications/kimwitu++/Output/kc.simple.mcsema/kc.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Applications/obsequi/Output/Obsequi.simple.mcsema/Obsequi.simple
+========
+error: 
+Generic error: Line: 316
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/peToCFG/peToCFG.cpp
+Could not find external: optind
+
+./Applications/sqlite3/Output/sqlite3.simple.mcsema/sqlite3.simple
+========
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
+
+./Applications/JM/lencod/Output/lencod.simple.mcsema/lencod.simple
+========
+Unsupported opcode 558!	cmpltsd	%xmm2, %xmm1 # 4867e44867e4 
+558
+translate_CALLpcrel32: function is: exp2, cc is: 0
+--
+Unsupported opcode 558!	cmpltsd	%xmm1, %xmm3 # 48715b48715b 
+558
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+
+./Applications/lambda-0.1.3/Output/lambda.simple.mcsema/lambda.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Applications/SIBsim4/Output/SIBsim4.simple.mcsema/SIBsim4.simple
+========
+error: 
+Generic error: Line: 316
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/peToCFG/peToCFG.cpp
+Could not find external: optind
+
+./Applications/lua/Output/lua.simple.mcsema/lua.simple
+========
+Deserializing symbol at: 62b140, ext_ferror, 8
+cur_pos: 62b140
+dse_base: 62b140
+--
+Deserializing symbol at: 62b180, ext_strerror, 8
+cur_pos: 62b180
+dse_base: 62b180
+--
+dataSectionToTypesContents: Found symbol: ext_ferror
+dataSectionToTypesContents: Found symbol: ext_pclose
+dataSectionToTypesContents: Found symbol: ext_cosh
+--
+dataSectionToTypesContents: Found symbol: ext_strerror
+dataSectionToTypesContents: Found symbol: ext_strstr
+dataSectionToTypesContents: Found symbol: ext_strcat
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCtarget address : 4039b0
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: sinh, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCtarget address : 405320
+doCallPCtarget address : 403ca0
+--
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: fopen, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: fopen, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCtarget address : 4039b0
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: __ctype_tolower_loc, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCtarget address : 405320
+doCallPCtarget address : 403ca0
+--
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: time, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCtarget address : 4039b0
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: atan, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCtarget address : 4039b0
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: strlen, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCtarget address : 403ca0
+doCallPCtarget address : 4039b0
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: srand, cc is: 0
+--
+translate_CALLpcrel32: function is: ferror, cc is: 0
+doCallPCtarget address : 405830
+doCallPCtarget address : 410730
+--
+doCallPCExtern paramCount  : 1 : ferror
+1 : 3257410
+translate_CALLpcrel32: function is: __errno_location, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCtarget address : 4039b0
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: setvbuf, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCtarget address : 405320
+doCallPCtarget address : 403ca0
+--
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: memset, cc is: 0
+--
+translate_CALLpcrel32: function is: ferror, cc is: 0
+doCallPCtarget address : 405830
+doCallPCtarget address : 410730
+--
+doCallPCExtern paramCount  : 1 : ferror
+1 : 3257410
+translate_CALLpcrel32: function is: __errno_location, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCtarget address : 4039b0
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
+--
+Unsupported opcode 556!	cmpeqsd	(%r15), %xmm0 # 41fee141fee1 
+556
+doCallPCtarget address : 40c3f0
+
+./Applications/hbd/Output/hbd.simple.mcsema/hbd.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Applications/SPASS/Output/SPASS.simple.mcsema/SPASS.simple
+========
+Deserializing symbol at: 68d0a8, ext_ferror, 8
+cur_pos: 68d0a8
+dse_base: 68d0a8
+--
+dataSectionToTypesContents: Found symbol: ext_ferror
+dataSectionToTypesContents: Found symbol: ext___ctype_b_loc
+dataSectionToTypesContents: Found symbol: ext_sprintf
+--
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
+
+./Applications/ClamAV/Output/clamscan.simple.mcsema/clamscan.simple
+========
+error: 
+Generic error: Line: 316
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/peToCFG/peToCFG.cpp
+Could not find external: optind
+
+./Applications/minisat/Output/minisat.simple.mcsema/minisat.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Applications/minisat/Output/minisat.simple.mcsema/minisat.simple.mcsema/minisat.simple
+========
+
+./Applications/oggenc/Output/oggenc.simple.mcsema/oggenc.simple
+========
+Deserializing symbol at: 63d0f0, ext_strerror, 8
+cur_pos: 63d0f0
+dse_base: 63d0f0
+--
+Deserializing symbol at: 63d190, ext_perror, 8
+cur_pos: 63d190
+dse_base: 63d190
+--
+dataSectionToTypesContents: Found symbol: ext_strerror
+dataSectionToTypesContents: Found symbol: ext_strcat
+dataSectionToTypesContents: Found symbol: ext_memmove
+--
+dataSectionToTypesContents: Found symbol: ext_perror
+dataSectionToTypesContents: Found symbol: ext_rand
+dataSectionToTypesContents: Found symbol: ext_fprintf
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCExtern paramCount  : 1 : strerror
+1 : 2559410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCExtern paramCount  : 1 : strerror
+1 : 2559410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
+--
+Unsupported opcode 1650!	movmskps	%xmm0, %eax # 41f5b241f5b2 
+1650
+Could not insert function: sub_41f400 into the LLVM module

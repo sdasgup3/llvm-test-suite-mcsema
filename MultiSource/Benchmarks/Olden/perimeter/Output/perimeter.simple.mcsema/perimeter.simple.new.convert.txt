@@ -1,6 +1,12 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 4006d0, ro: 0, rt: CODE
 set_ref_reloc_type: Adding  ref: MEM, to: 60205c, ro: 0, rt: DATA
@@ -103,12 +109,6 @@ dse_base: 602040
 new_cur_pos2: 602048
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -119,8 +119,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_400a80
@@ -143,8 +141,8 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602048
 inserting global data section named data_0x602058
+translate_CALLpcrel32: function is: printf, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x4006a0L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x400680L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_printf
@@ -155,16 +153,19 @@ dataSectionToTypesContents: Found symbol: ext___libc_start_main
 dataSectionToTypesContents: Found symbol: ext_atoi
 doCallPCtarget address : 4006d0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2d63790
+10 : 18da410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 400b10
 doCallPCtarget address : 400710
 doCallPCExtern paramCount  : 10 : printf
-10 : 2d63790
+10 : 18da410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 4007a0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2d63790
+10 : 18da410
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2d63790
+1 : 18da410
 translate_JMPr: regular jump via register: 400677
 doJumpTableViaSwitch: Doing jumpt table via switch
 doJumpTableViaSwitch: Doing jumpt table via switch
@@ -172,6 +173,7 @@ doJumpTableViaSwitch: Doing jumpt table via switch
 translate_JMPr: regular jump via register: 400637
 doJumpTableViaSwitch: Doing jumpt table via switch
 doJumpTableViaSwitch: Doing jumpt table via switch
+translate_CALLpcrel32: function is: atoi, cc is: 0
 doCallPCtarget address : 400610
 doCallPCtarget address : 400900
 doCallPCtarget address : 4007a0
@@ -192,15 +194,16 @@ doCallPCtarget address : 400710
 doCallPCtarget address : 4009d0
 doCallPCtarget address : 4009d0
 doCallPCExtern paramCount  : 1 : atoi
-1 : 2d63790
+1 : 18da410
 doCallPCExtern paramCount  : 1 : atoi
-1 : 2d63790
+1 : 18da410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2d63790
+1 : 18da410
 doCallPCtarget address : 400b10
 doCallPCtarget address : 400b10
 doCallPCtarget address : 400b10
 doCallPCtarget address : 400b10
-Adding entry point: mcsema_main
-in : doPostAnalysis
-registering passes
+Adding entry point: main
+main is implemented by sub_400a80
+NOT doing post analysis passes.

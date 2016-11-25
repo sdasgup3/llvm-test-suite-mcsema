@@ -1,6 +1,12 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 400a20, ro: 0, rt: CODE
 set_ref_reloc_type: Adding  ref: IMM, to: 401bf0, ro: 1, rt: DATA
@@ -170,12 +176,6 @@ dse_base: 603040
 new_cur_pos2: 603048
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -186,8 +186,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_401890
@@ -211,8 +209,8 @@ inserting global data section named data_0x602ff8
 inserting global data section named data_0x603000
 inserting global data section named data_0x603050
 inserting global data section named data_0x6032b0
+translate_CALLpcrel32: function is: puts, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x4006c0L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x4006a0L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_printf
@@ -222,21 +220,122 @@ dataSectionToTypesContents: Found symbol: ext_malloc
 dataSectionToTypesContents: Found symbol: ext___libc_start_main
 dataSectionToTypesContents: Found symbol: ext_sqrt
 doCallPCExtern paramCount  : 1 : puts
-1 : 1ec9790
+1 : 1653410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 4006f0
 doCallPCExtern paramCount  : 1 : puts
-1 : 1ec9790
+1 : 1653410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 400a20
 doCallPCExtern paramCount  : 1 : puts
-1 : 1ec9790
-Unsupported!
-4018cd 	movupd	16(%rbx), %xmm0
-1699
+1 : 1653410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 400a20
 doCallPCExtern paramCount  : 10 : printf
-10 : 1ec9790
-Unsupported!
-401958 	subpd	%xmm7, %xmm0
-2706
-Could not insert function: sub_401890 into the LLVM module
-Failure to convert to LLVM module!
+10 : 1653410
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCExtern paramCount  : 10 : printf
+10 : 1653410
+translate_JMPr: regular jump via register: 400697
+translate_JMPr: regular jump via register: 400657
+translate_CALLpcrel32: function is: malloc, cc is: 0
+doCallPCtarget address : 400630
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1653410
+translate_CALLpcrel32: function is: malloc, cc is: 0
+doCallPCtarget address : 400800
+doCallPCtarget address : 400800
+doCallPCtarget address : 400800
+doCallPCtarget address : 400800
+doCallPCtarget address : 400800
+doCallPCtarget address : 400800
+doCallPCtarget address : 400800
+doCallPCtarget address : 400800
+doCallPCtarget address : 400800
+doCallPCtarget address : 400800
+doCallPCtarget address : 400800
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1653410
+translate_CALLpcrel32: function is: malloc, cc is: 0
+doCallPCtarget address : 400800
+doCallPCtarget address : 400880
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1653410
+translate_CALLpcrel32: function is: malloc, cc is: 0
+doCallPCtarget address : 400880
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1653410
+translate_CALLpcrel32: function is: malloc, cc is: 0
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1653410
+translate_CALLpcrel32: function is: malloc, cc is: 0
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1653410
+translate_CALLpcrel32: function is: malloc, cc is: 0
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1653410
+translate_CALLpcrel32: function is: malloc, cc is: 0
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1653410
+translate_CALLpcrel32: function is: malloc, cc is: 0
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1653410
+translate_CALLpcrel32: function is: malloc, cc is: 0
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1653410
+translate_CALLpcrel32: function is: malloc, cc is: 0
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1653410
+translate_CALLpcrel32: function is: malloc, cc is: 0
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1653410
+translate_CALLpcrel32: function is: malloc, cc is: 0
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1653410
+translate_CALLpcrel32: function is: malloc, cc is: 0
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1653410
+translate_CALLpcrel32: function is: malloc, cc is: 0
+doCallPCExtern paramCount  : 1 : malloc
+1 : 1653410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCtarget address : 400a80
+doCallPCtarget address : 400c70
+doCallPCtarget address : 400a80
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 1653410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCtarget address : 400c70
+doCallPCtarget address : 400f60
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 1653410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 1653410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 1653410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 1653410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 1653410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 1653410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 1653410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 1653410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 1653410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 1653410
+Adding entry point: main
+main is implemented by sub_401890
+NOT doing post analysis passes.

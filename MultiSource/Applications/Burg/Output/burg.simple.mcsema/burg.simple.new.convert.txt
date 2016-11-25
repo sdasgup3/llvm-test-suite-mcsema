@@ -1,6 +1,32 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 4050a0, ro: 0, rt: CODE
 set_ref_reloc_type: Adding  ref: MEM, to: 403730, ro: 0, rt: CODE
@@ -2389,32 +2415,6 @@ cur_pos: 60f0f0
 dse_base: 60f130
 new_cur_pos: 60f138
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Deserializing external data...
 Deserializing external data...
 Deserializing external data...
@@ -2428,8 +2428,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_405870
@@ -2567,8 +2565,8 @@ inserting global data section named data_0x60eff8
 inserting global data section named data_0x60f000
 inserting global data section named data_0x60f0f0
 inserting global data section named data_0x60f5e0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x4058c3L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x405a61L
 dataSectionToTypesContents: Found symbol: sub_0x405a61L
 dataSectionToTypesContents: Found symbol: sub_0x405a61L
@@ -2614,14 +2612,18 @@ doCallPCtarget address : 404670
 doCallPCtarget address : 403cc0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 4035d0
 doCallPCtarget address : 401e50
 doCallPCtarget address : 4057f0
@@ -2629,15 +2631,18 @@ getValueForExternal: Found external data ref to: stderr
 doCallPCtarget address : 403130
 doCallPCtarget address : 406220
 doCallPCExtern paramCount  : 1 : puts
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 4032d0
 doCallPCtarget address : 400dd0
 doCallPCtarget address : 402740
 doCallPCtarget address : 405e80
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: freopen, cc is: 0
 doCallPCtarget address : 402bd0
 doCallPCtarget address : 4029f0
 doCallPCtarget address : 402ae0
@@ -2656,100 +2661,134 @@ doCallPCtarget address : 402da0
 doCallPCtarget address : 403430
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 3 : freopen
-3 : 2afebb0
+3 : 36c0730
+translate_CALLpcrel32: function is: fopen, cc is: 0
 doCallPCtarget address : 401700
 doCallPCExtern paramCount  : 2 : fopen
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCtarget address : 4050a0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: atoi, cc is: 0
 doCallPCtarget address : 403730
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 1 : atoi
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 40a290
 doCallPCtarget address : 4057f0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCtarget address : 403a80
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fputs, cc is: 0
 doCallPCExtern paramCount  : 2 : fputs
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 403a80
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
 doCallPCtarget address : 40a290
 doCallPCtarget address : 4057f0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 2afebb0
+3 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 407f70
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: malloc, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCtarget address : 4056e0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 2afebb0
+3 : 36c0730
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 2afebb0
+3 : 36c0730
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCtarget address : 4056e0
 doCallPCtarget address : 4050f0
 doCallPCExtern paramCount  : 1 : free
-1 : 2afebb0
+1 : 36c0730
 doJumpTableViaSwitch: Doing jumpt table via switch
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCtarget address : 405760
 doCallPCtarget address : 405760
 doCallPCtarget address : 4047b0
@@ -2767,33 +2806,43 @@ doCallPCtarget address : 405760
 doCallPCtarget address : 405740
 doCallPCtarget address : 405720
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 40a290
 doCallPCtarget address : 40a290
 doCallPCtarget address : 405720
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: atoi, cc is: 0
 doCallPCExtern paramCount  : 1 : atoi
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: freopen, cc is: 0
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 3 : freopen
-3 : 2afebb0
+3 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fopen, cc is: 0
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 2 : fopen
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 getValueForExternal: Found external data ref to: stderr
 doCallPCtarget address : 409e10
@@ -2804,16 +2853,19 @@ doCallPCtarget address : 404670
 doCallPCtarget address : 403cc0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 4035d0
 doCallPCtarget address : 401e50
 doCallPCtarget address : 4057f0
 doCallPCtarget address : 403130
 doCallPCtarget address : 406220
 doCallPCExtern paramCount  : 1 : puts
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCtarget address : 4032d0
 doCallPCtarget address : 400dd0
 doCallPCtarget address : 402740
@@ -2837,69 +2889,95 @@ doCallPCtarget address : 403430
 doCallPCtarget address : 401700
 doCallPCtarget address : 4050a0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 403730
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 40a290
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 404f30
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 1 : _IO_getc
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
 doCallPCtarget address : 40a290
 doCallPCtarget address : 4057f0
 doCallPCtarget address : 405820
@@ -2908,205 +2986,277 @@ doCallPCtarget address : 4057f0
 doCallPCtarget address : 4057f0
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 1 : _IO_getc
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: __ctype_b_loc, cc is: 0
 doCallPCExtern paramCount  : 0 : __ctype_b_loc
-0 : 2afe160
+0 : 36bfd10
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 1 : _IO_getc
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 1 : _IO_getc
-1 : 2afebb0
+1 : 36c0730
 doJumpTableViaSwitch: Doing jumpt table via switch
 doCallPCtarget address : 4056e0
 doCallPC: Adding Unreachable Instruction to local noreturn
+translate_CALLpcrel32: function is: ungetc, cc is: 0
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 2 : ungetc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 1 : _IO_getc
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 1 : _IO_getc
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: ungetc, cc is: 0
 doCallPCtarget address : 4056e0
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 2 : ungetc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCtarget address : 40a290
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: ungetc, cc is: 0
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 2 : ungetc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 4056e0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 1 : _IO_getc
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: __ctype_b_loc, cc is: 0
 doCallPCtarget address : 4056e0
 doCallPCExtern paramCount  : 0 : __ctype_b_loc
-0 : 2afe160
+0 : 36bfd10
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 1 : _IO_getc
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 1 : _IO_getc
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: ungetc, cc is: 0
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 2 : ungetc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 1 : _IO_getc
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCtarget address : 4056e0
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 1 : _IO_getc
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 1 : _IO_getc
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: ungetc, cc is: 0
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 2 : ungetc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 1 : _IO_getc
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 401130
 doCallPCtarget address : 4057f0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 4057f0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 40a290
 doCallPCtarget address : 405720
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 40a290
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
 doCallPCtarget address : 40a290
 doCallPCtarget address : 4057f0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 401880
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 403a80
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 404a20
 doCallPCtarget address : 408010
 doCallPCtarget address : 407f70
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCtarget address : 406080
 getValueForExternal: Found external data ref to: stderr
 doCallPCtarget address : 406080
@@ -3119,12 +3269,15 @@ getValueForExternal: Found external data ref to: stderr
 getValueForExternal: Found external data ref to: stderr
 doCallPCtarget address : 404a20
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCtarget address : 40a290
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fputs, cc is: 0
 doCallPCtarget address : 405ed0
 doCallPCtarget address : 405760
 doCallPCtarget address : 4041e0
@@ -3138,115 +3291,144 @@ doCallPCtarget address : 40a290
 doCallPCtarget address : 40a290
 doCallPCtarget address : 405c70
 doCallPCExtern paramCount  : 2 : fputs
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 404f30
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
 doCallPCtarget address : 404f30
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
 translate_JMPr: regular jump via register: 405845
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 405820
 doCallPCtarget address : 405f80
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCtarget address : 4060a0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 2afebb0
+1 : 36c0730
 doCallPCtarget address : 405000
 doCallPCExtern paramCount  : 1 : putchar
-1 : 2afebb0
+1 : 36c0730
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
 doCallPCtarget address : 40a290
 doCallPCtarget address : 40a290
 doCallPCtarget address : 40a290
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 2afebb0
+1 : 36c0730
 doCallPCExtern paramCount  : 1 : putchar
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
 translate_JMPr: regular jump via register: 400d17
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 40a290
 doCallPCtarget address : 404150
 doCallPCtarget address : 405760
 doCallPCtarget address : 400cb0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: freopen, cc is: 0
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 3 : freopen
-3 : 2afebb0
+3 : 36c0730
+translate_CALLpcrel32: function is: fopen, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 2 : fopen
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCtarget address : 409e10
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 403ec0
 doCallPCtarget address : 409020
 doCallPCtarget address : 404670
 doCallPCtarget address : 403cc0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 4035d0
 doCallPCtarget address : 401e50
 doCallPCtarget address : 4057f0
 doCallPCtarget address : 403130
 doCallPCtarget address : 406220
 doCallPCExtern paramCount  : 1 : puts
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: atoi, cc is: 0
 doCallPCtarget address : 4032d0
 doCallPCtarget address : 400dd0
 doCallPCtarget address : 402740
 doCallPCtarget address : 405e80
 doCallPCExtern paramCount  : 1 : atoi
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCtarget address : 402bd0
 doCallPCtarget address : 4029f0
@@ -3267,13 +3449,15 @@ doCallPCtarget address : 403430
 doCallPCtarget address : 401700
 doCallPCtarget address : 4050a0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCtarget address : 403730
 doCallPCtarget address : 40a290
 doCallPCtarget address : 405760
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2afebb0
+2 : 36c0730
 translate_JMPr: regular jump via register: 400cd7
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 40a290
 doCallPCtarget address : 404200
 doCallPCtarget address : 40a290
@@ -3285,129 +3469,172 @@ doCallPCtarget address : 404150
 doCallPCtarget address : 404200
 doCallPCtarget address : 407e00
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 4057f0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fputs, cc is: 0
 doCallPCExtern paramCount  : 2 : fputs
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 2afebb0
+3 : 36c0730
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCtarget address : 403960
 doCallPCtarget address : 407e90
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: strcat, cc is: 0
 doCallPCExtern paramCount  : 2 : strcat
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCtarget address : 403960
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCtarget address : 403960
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 407f70
 doCallPCtarget address : 405ed0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 4041e0
 doCallPCtarget address : 407d30
 doCallPCtarget address : 407f70
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 405fa0
 doCallPCtarget address : 405760
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: freopen, cc is: 0
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 3 : freopen
-3 : 2afebb0
+3 : 36c0730
+translate_CALLpcrel32: function is: fopen, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 2 : fopen
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCtarget address : 409e10
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 403ec0
 doCallPCtarget address : 409020
 doCallPCtarget address : 404670
 doCallPCtarget address : 403cc0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 4035d0
 doCallPCtarget address : 401e50
 doCallPCtarget address : 4057f0
 doCallPCtarget address : 403130
 doCallPCtarget address : 406220
 doCallPCExtern paramCount  : 1 : puts
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: atoi, cc is: 0
 doCallPCtarget address : 4032d0
 doCallPCtarget address : 400dd0
 doCallPCtarget address : 402740
 doCallPCtarget address : 405e80
 doCallPCExtern paramCount  : 1 : atoi
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCtarget address : 402bd0
 doCallPCtarget address : 4029f0
@@ -3428,283 +3655,406 @@ doCallPCtarget address : 403430
 doCallPCtarget address : 401700
 doCallPCtarget address : 4050a0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 403730
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: qsort, cc is: 0
 doCallPCtarget address : 40a290
 doCallPCExtern paramCount  : 4 : qsort
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: qsort, cc is: 0
 doCallPCtarget address : 40a290
 doCallPCtarget address : 4057f0
 doCallPCExtern paramCount  : 4 : qsort
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 4057f0
 doCallPCtarget address : 40a290
 doCallPCtarget address : 4057f0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCtarget address : 40a290
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCtarget address : 40a290
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 405760
 doCallPCtarget address : 405790
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCtarget address : 4057f0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
 doJumpTableViaSwitch: Doing jumpt table via switch
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 400d70
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 405760
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 400d70
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 400d70
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 4057f0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
 doJumpTableViaSwitch: Doing jumpt table via switch
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
 doCallPCtarget address : 408be0
 doCallPCtarget address : 408be0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 40a290
 doCallPCtarget address : 40a290
 doCallPCtarget address : 407ae0
@@ -3714,37 +4064,47 @@ doCallPCtarget address : 40a290
 doCallPCtarget address : 40a290
 doCallPCtarget address : 40a290
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
 doCallPCtarget address : 407910
 doCallPCtarget address : 40a2f0
 doCallPCtarget address : 408be0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 408be0
 doCallPCtarget address : 408be0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCtarget address : 408be0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCtarget address : 40a290
 doCallPCtarget address : 405740
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCtarget address : 40a290
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCtarget address : 405760
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 405740
 doCallPCtarget address : 40a290
 doCallPCtarget address : 40a290
@@ -3757,106 +4117,137 @@ doCallPCtarget address : 40a2f0
 doCallPCtarget address : 40a290
 doCallPCtarget address : 405760
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCtarget address : 40a290
 doCallPCtarget address : 40a290
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCtarget address : 40a290
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2afebb0
+2 : 36c0730
 doCallPCtarget address : 405760
 doCallPCtarget address : 40a290
 doCallPCtarget address : 405760
 doCallPCExtern paramCount  : 1 : free
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
 doJumpTableViaSwitch: Doing jumpt table via switch
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
 doCallPCtarget address : 40a290
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: freopen, cc is: 0
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 3 : freopen
-3 : 2afebb0
+3 : 36c0730
+translate_CALLpcrel32: function is: fopen, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 2 : fopen
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCtarget address : 409e10
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 403ec0
 doCallPCtarget address : 409020
 doCallPCtarget address : 404670
 doCallPCtarget address : 403cc0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 4035d0
 doCallPCtarget address : 401e50
 doCallPCtarget address : 4057f0
 doCallPCtarget address : 403130
 doCallPCtarget address : 406220
 doCallPCExtern paramCount  : 1 : puts
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: atoi, cc is: 0
 doCallPCtarget address : 4032d0
 doCallPCtarget address : 400dd0
 doCallPCtarget address : 402740
 doCallPCtarget address : 405e80
 doCallPCExtern paramCount  : 1 : atoi
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCtarget address : 402bd0
 doCallPCtarget address : 4029f0
@@ -3877,80 +4268,104 @@ doCallPCtarget address : 403430
 doCallPCtarget address : 401700
 doCallPCtarget address : 4050a0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 403730
 doCallPCtarget address : 405720
 getValueForExternal: Found external data ref to: stderr
 doCallPCtarget address : 407f70
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 405ed0
 getValueForExternal: Found external data ref to: stderr
 doCallPCtarget address : 40a290
 doCallPCtarget address : 405760
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 40a290
 doCallPCtarget address : 4057f0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 402250
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: freopen, cc is: 0
 getValueForExternal: Found external data ref to: stdin
 doCallPCExtern paramCount  : 3 : freopen
-3 : 2afebb0
+3 : 36c0730
+translate_CALLpcrel32: function is: fopen, cc is: 0
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 2 : fopen
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCtarget address : 409e10
 getValueForExternal: Found external data ref to: stderr
@@ -3960,16 +4375,19 @@ doCallPCtarget address : 404670
 doCallPCtarget address : 403cc0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 4035d0
 doCallPCtarget address : 401e50
 doCallPCtarget address : 4057f0
 doCallPCtarget address : 403130
 doCallPCtarget address : 406220
 doCallPCExtern paramCount  : 1 : puts
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCtarget address : 4032d0
 doCallPCtarget address : 400dd0
 doCallPCtarget address : 402740
@@ -3993,35 +4411,45 @@ doCallPCtarget address : 403430
 doCallPCtarget address : 401700
 doCallPCtarget address : 4050a0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 403730
 doCallPCtarget address : 40a290
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2afebb0
+1 : 36c0730
 doCallPCtarget address : 406010
 doCallPCExtern paramCount  : 1 : puts
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 408e40
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 408cc0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 40a290
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
 doCallPCExtern paramCount  : 1 : free
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 407c80
 doCallPCtarget address : 405c70
 doCallPCtarget address : 404df0
@@ -4030,62 +4458,80 @@ doCallPCtarget address : 407ca0
 doCallPCtarget address : 4057f0
 doCallPCtarget address : 407cd0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 405e80
 doCallPCtarget address : 4057f0
 doCallPCtarget address : 4081b0
 doCallPCtarget address : 40a290
 doCallPCExtern paramCount  : 1 : puts
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 405e80
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
 doCallPCExtern paramCount  : 1 : puts
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2afebb0
+1 : 36c0730
 doCallPCtarget address : 406010
 doCallPCExtern paramCount  : 1 : puts
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 408e40
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 408cc0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
 doCallPCExtern paramCount  : 1 : puts
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCtarget address : 40a290
 doCallPCtarget address : 40a290
 doCallPCExtern paramCount  : 3 : memset
-3 : 2afebb0
+3 : 36c0730
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCtarget address : 40a2f0
 doCallPCtarget address : 4041e0
 doCallPCtarget address : 404df0
 doCallPCtarget address : 405cc0
 doCallPCtarget address : 40a290
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 2afebb0
+3 : 36c0730
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCtarget address : 40a2f0
 doCallPCtarget address : 404e80
 doCallPCtarget address : 404200
@@ -4094,12 +4540,14 @@ doCallPCtarget address : 404150
 doCallPCtarget address : 404df0
 doCallPCtarget address : 40a290
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 2afebb0
+3 : 36c0730
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCtarget address : 40a2f0
 doCallPCtarget address : 40a290
 doCallPCtarget address : 40a290
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 2afebb0
+3 : 36c0730
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 40a2f0
 doCallPCtarget address : 40a2f0
 doCallPCtarget address : 404150
@@ -4139,18 +4587,21 @@ doCallPCtarget address : 404200
 doCallPCtarget address : 404150
 doCallPCtarget address : 404200
 doCallPCExtern paramCount  : 1 : puts
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 40a290
 doCallPCtarget address : 405020
 doCallPCtarget address : 405020
 doCallPCExtern paramCount  : 1 : puts
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 404150
 doCallPCtarget address : 404180
 doCallPCtarget address : 404200
 doCallPCtarget address : 4041e0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 404150
 doCallPCtarget address : 404180
 doCallPCtarget address : 404200
@@ -4204,28 +4655,35 @@ doCallPCtarget address : 405f30
 doCallPCtarget address : 405f30
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCtarget address : 404f30
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 405f30
 doCallPCtarget address : 405f30
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCtarget address : 4057f0
 doCallPCtarget address : 405820
@@ -4233,36 +4691,48 @@ doCallPCtarget address : 405820
 doCallPCtarget address : 4057f0
 doCallPCtarget address : 4057f0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 2afebb0
+1 : 36c0730
 doCallPCExtern paramCount  : 1 : puts
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 2afebb0
+1 : 36c0730
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
 doCallPCExtern paramCount  : 1 : putchar
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 405760
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCtarget address : 402250
 doCallPCtarget address : 404df0
 doCallPCtarget address : 4092c0
@@ -4281,173 +4751,237 @@ doCallPCtarget address : 404150
 doCallPCtarget address : 404e90
 doCallPCtarget address : 40a290
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 2afebb0
+3 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 40a2f0
 doCallPCtarget address : 405760
 doCallPCtarget address : 405760
 doCallPCtarget address : 407ff0
 doCallPCtarget address : 405760
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 404f30
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 401880
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 403a80
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 407e00
 doCallPCtarget address : 40a290
 doCallPCtarget address : 4057f0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCtarget address : 403b30
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 407e90
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCtarget address : 40a290
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2afebb0
+10 : 36c0730
 doCallPCExtern paramCount  : 1 : puts
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 405020
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2afebb0
+1 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 403bf0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 403bf0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 408be0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: strcat, cc is: 0
 doCallPCExtern paramCount  : 2 : strcat
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCtarget address : 403b30
 doCallPCtarget address : 404240
 doCallPCtarget address : 40a290
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 2afebb0
+3 : 36c0730
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2afebb0
+4 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
+10 : 36c0730
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2afebb0
+2 : 36c0730
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2afebb0
-Adding entry point: mcsema_main
-in : doPostAnalysis
-registering passes
+10 : 36c0730
+Adding entry point: main
+main is implemented by sub_405870
+NOT doing post analysis passes.

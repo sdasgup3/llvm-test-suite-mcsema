@@ -1,6 +1,34 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: IMM, to: 405609, ro: 1, rt: DATA
 set_ref_reloc_type: Adding  ref: IMM, to: 405610, ro: 1, rt: DATA
@@ -1197,34 +1225,6 @@ cur_pos: 608898
 dse_base: 6088b0
 new_cur_pos: 6088b8
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -1235,8 +1235,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_400d20
@@ -1295,8 +1293,8 @@ inserting global data section named data_0x607ff8
 inserting global data section named data_0x608000
 inserting global data section named data_0x608100
 inserting global data section named data_0x6088e0
+translate_CALLpcrel32: function is: fopen, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400cf0L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x400cd0L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_log10
@@ -1434,554 +1432,766 @@ dataSectionToTypesContents: Found symbol: dta_0x405740L
 dataSectionToTypesContents: Found symbol: dta_0x405e40L
 doCallPCtarget address : 405420
 doCallPCExtern paramCount  : 2 : fopen
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fopen, cc is: 0
 doCallPCExtern paramCount  : 2 : fopen
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fclose, cc is: 0
 doCallPCtarget address : 402e40
 doCallPCExtern paramCount  : 1 : fclose
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: fclose, cc is: 0
 doCallPCExtern paramCount  : 1 : fclose
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fopen, cc is: 0
 doCallPCExtern paramCount  : 2 : fopen
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fopen, cc is: 0
 doCallPCExtern paramCount  : 2 : fopen
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fopen, cc is: 0
 doCallPCExtern paramCount  : 2 : fopen
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fclose, cc is: 0
 doCallPCtarget address : 4032c0
 doCallPCExtern paramCount  : 1 : fclose
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: fclose, cc is: 0
 doCallPCExtern paramCount  : 1 : fclose
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: fclose, cc is: 0
 doCallPCExtern paramCount  : 1 : fclose
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: system, cc is: 0
 doCallPCExtern paramCount  : 1 : system
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: system, cc is: 0
 doCallPCExtern paramCount  : 1 : system
-1 : 2d6b790
+1 : 32223a0
 translate_JMPr: regular jump via register: 400cc7
 translate_JMPr: regular jump via register: 400c87
+translate_CALLpcrel32: function is: feof, cc is: 0
 doCallPCtarget address : 400c60
 doCallPCtarget address : 4023b0
 doCallPCtarget address : 404a80
 doCallPCExtern paramCount  : 1 : feof
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
 doCallPCtarget address : 404ad0
 doCallPCExtern paramCount  : 1 : _IO_getc
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: feof, cc is: 0
 doCallPCExtern paramCount  : 1 : feof
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCtarget address : 404ad0
 doCallPCtarget address : 404a80
 doCallPCtarget address : 400f30
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: feof, cc is: 0
 doCallPCtarget address : 405380
 doCallPCtarget address : 400ff0
 doCallPCExtern paramCount  : 1 : feof
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 405380
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: fscanf, cc is: 0
 doCallPCExtern paramCount  : 10 : fscanf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCtarget address : 405380
 doCallPCtarget address : 405380
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 404e40
 doCallPCtarget address : 405380
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 405380
 doCallPCtarget address : 402470
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCtarget address : 405430
 doCallPCtarget address : 404b70
 doCallPCtarget address : 405380
 doCallPCtarget address : 402420
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strncpy, cc is: 0
 doCallPCExtern paramCount  : 3 : strncpy
-3 : 2d6b790
+3 : 32223a0
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 405430
 doCallPCtarget address : 4024e0
 doCallPCtarget address : 4024e0
 doCallPCtarget address : 405380
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strncpy, cc is: 0
 doCallPCtarget address : 404e40
 doCallPCExtern paramCount  : 3 : strncpy
-3 : 2d6b790
+3 : 32223a0
+translate_CALLpcrel32: function is: fputs, cc is: 0
 doCallPCExtern paramCount  : 2 : fputs
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCtarget address : 402100
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strncpy, cc is: 0
 doCallPCExtern paramCount  : 3 : strncpy
-3 : 2d6b790
+3 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 404b70
 doCallPCtarget address : 400f30
 doCallPCtarget address : 405430
 doCallPCtarget address : 4024e0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
 doCallPCtarget address : 404e40
 doCallPCExtern paramCount  : 1 : _IO_getc
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: feof, cc is: 0
 doCallPCExtern paramCount  : 1 : feof
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strncmp, cc is: 0
 doCallPCExtern paramCount  : 3 : strncmp
-3 : 2d6b790
+3 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2d6b790
+2 : 32223a0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: pow, cc is: 0
 doCallPCExtern paramCount  : 2 : pow
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fscanf, cc is: 0
 doCallPCExtern paramCount  : 10 : fscanf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
 doCallPCExtern paramCount  : 1 : _IO_getc
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 4050b0
 doCallPCtarget address : 402e00
 doCallPCtarget address : 402e00
 doCallPCtarget address : 402d30
 doCallPCtarget address : 4024e0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 402e00
 doCallPCtarget address : 401070
 doCallPCtarget address : 401480
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 405430
 doCallPCtarget address : 405430
 doCallPCtarget address : 4023d0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: ldexp, cc is: 0
 doCallPCtarget address : 402440
 doCallPCtarget address : 402440
 doCallPCExtern paramCount  : 2 : ldexp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 401320
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: ldexp, cc is: 0
 doCallPCExtern paramCount  : 2 : ldexp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: ldexp, cc is: 0
 doCallPCtarget address : 400ff0
 doCallPCExtern paramCount  : 2 : ldexp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: ldexp, cc is: 0
 doCallPCExtern paramCount  : 2 : ldexp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: ldexp, cc is: 0
 doCallPCExtern paramCount  : 2 : ldexp
-2 : 2d6b790
+2 : 32223a0
 doJumpTableViaSwitch: Doing jumpt table via switch
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 404e20
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: ldexp, cc is: 0
 doCallPCExtern paramCount  : 2 : ldexp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 400ff0
 doCallPCtarget address : 401320
 doCallPCtarget address : 404e40
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: ldexp, cc is: 0
 doCallPCExtern paramCount  : 2 : ldexp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: ldexp, cc is: 0
 doCallPCExtern paramCount  : 2 : ldexp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 400ff0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: ldexp, cc is: 0
 doCallPCtarget address : 401320
 doCallPCtarget address : 402810
 doCallPCtarget address : 400ff0
 doCallPCtarget address : 402440
 doCallPCtarget address : 402440
 doCallPCExtern paramCount  : 2 : ldexp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: ldexp, cc is: 0
 doCallPCExtern paramCount  : 2 : ldexp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: ldexp, cc is: 0
 doCallPCtarget address : 402440
 doCallPCtarget address : 400ff0
 doCallPCExtern paramCount  : 2 : ldexp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCtarget address : 402470
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 400ff0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
 doJumpTableViaSwitch: Doing jumpt table via switch
+translate_CALLpcrel32: function is: ldexp, cc is: 0
 doCallPCtarget address : 400ff0
 doCallPCtarget address : 400ff0
 doCallPCExtern paramCount  : 2 : ldexp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 400ff0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: ldexp, cc is: 0
 doCallPCExtern paramCount  : 2 : ldexp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 401320
 doCallPCtarget address : 404e20
 doCallPCtarget address : 404e40
 doCallPCtarget address : 400ff0
 doCallPCtarget address : 400ff0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: ldexp, cc is: 0
 doCallPCExtern paramCount  : 2 : ldexp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: fputs, cc is: 0
 doCallPCExtern paramCount  : 2 : fputs
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCtarget address : 404b70
 doCallPCtarget address : 402440
 doCallPCtarget address : 402440
 doCallPCtarget address : 402440
 doCallPCtarget address : 402440
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fgetc, cc is: 0
 doCallPCExtern paramCount  : 1 : fgetc
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: ungetc, cc is: 0
 doCallPCExtern paramCount  : 2 : ungetc
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fscanf, cc is: 0
 doCallPCExtern paramCount  : 10 : fscanf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fputs, cc is: 0
 doCallPCtarget address : 405380
 doCallPCExtern paramCount  : 2 : fputs
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCtarget address : 404e40
 doCallPCtarget address : 404b70
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strncpy, cc is: 0
 doCallPCExtern paramCount  : 3 : strncpy
-3 : 2d6b790
+3 : 32223a0
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCtarget address : 404b70
 doCallPCtarget address : 404e40
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCtarget address : 404e50
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCtarget address : 400ff0
 doCallPCtarget address : 405430
 doCallPCtarget address : 402590
 doCallPCExtern paramCount  : 1 : free
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCtarget address : 400ff0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCtarget address : 402590
 doCallPCtarget address : 404e40
 doCallPCtarget address : 404e40
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCtarget address : 400ff0
 doCallPCExtern paramCount  : 1 : free
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 400ff0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strcat, cc is: 0
 doCallPCExtern paramCount  : 2 : strcat
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strncpy, cc is: 0
 doCallPCExtern paramCount  : 3 : strncpy
-3 : 2d6b790
+3 : 32223a0
+translate_CALLpcrel32: function is: strcat, cc is: 0
 doCallPCExtern paramCount  : 2 : strcat
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 400ff0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strncpy, cc is: 0
 doCallPCExtern paramCount  : 3 : strncpy
-3 : 2d6b790
+3 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCtarget address : 400ff0
 doCallPCExtern paramCount  : 1 : free
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: ldexp, cc is: 0
 doCallPCExtern paramCount  : 2 : ldexp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCtarget address : 400ff0
 doCallPCExtern paramCount  : 1 : free
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: log10, cc is: 0
 doCallPCtarget address : 404e40
 doCallPCExtern paramCount  : 1 : log10
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: log10, cc is: 0
 doCallPCExtern paramCount  : 1 : log10
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCtarget address : 400ff0
 doCallPCExtern paramCount  : 1 : free
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 4024e0
 doCallPCtarget address : 4024e0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 4024e0
 doCallPCtarget address : 4024e0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 405380
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 404e50
 doCallPCtarget address : 400f30
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: strncpy, cc is: 0
 doCallPCExtern paramCount  : 3 : strncpy
-3 : 2d6b790
+3 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: feof, cc is: 0
 doCallPCtarget address : 405490
 doCallPCExtern paramCount  : 1 : feof
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 400f30
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCtarget address : 4050b0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCtarget address : 405430
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 402d30
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: feof, cc is: 0
 doCallPCExtern paramCount  : 1 : feof
-1 : 2d6b790
+1 : 32223a0
 doJumpTableViaSwitch: Doing jumpt table via switch
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 405490
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 4046a0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2d6b790
+2 : 32223a0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 4024e0
 doCallPCtarget address : 4024e0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2d6b790
+2 : 32223a0
 doJumpTableViaSwitch: Doing jumpt table via switch
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 4045b0
 doCallPCtarget address : 404390
 doCallPCtarget address : 402810
@@ -2001,147 +2211,191 @@ doCallPCtarget address : 403870
 doCallPCtarget address : 404e40
 doCallPCtarget address : 404e40
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 405430
 doCallPCtarget address : 402810
 doCallPCtarget address : 400f30
 doCallPCtarget address : 404e20
 doCallPCtarget address : 404e40
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 400f30
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 405430
 doCallPCtarget address : 405430
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCtarget address : 4023d0
 doCallPCtarget address : 405430
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 400f30
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 405430
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 405430
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 4023d0
 doCallPCtarget address : 405430
 doCallPCtarget address : 402590
 doCallPCtarget address : 400f30
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCtarget address : 404e20
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 404e40
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCtarget address : 404890
 doCallPCtarget address : 404e50
 doCallPCtarget address : 400f30
 doCallPCtarget address : 402420
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strncpy, cc is: 0
 doCallPCExtern paramCount  : 3 : strncpy
-3 : 2d6b790
+3 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 404960
 doCallPCtarget address : 404910
 doCallPCtarget address : 404e20
 doCallPCtarget address : 404e40
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 400f30
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 404e50
 doCallPCtarget address : 400f30
 doCallPCtarget address : 405430
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 405430
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 400f30
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 404e20
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 404e40
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
 doCallPCtarget address : 404e40
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 404e40
 doCallPCtarget address : 404e20
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 404e40
 doCallPCtarget address : 402440
 doCallPCtarget address : 404e40
 doCallPCtarget address : 402db0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 402db0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 4024e0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d6b790
+4 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCtarget address : 404890
 doCallPCtarget address : 404e50
 doCallPCtarget address : 400f30
@@ -2150,51 +2404,67 @@ doCallPCtarget address : 404910
 doCallPCtarget address : 404e20
 doCallPCtarget address : 402420
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strncpy, cc is: 0
 doCallPCExtern paramCount  : 3 : strncpy
-3 : 2d6b790
+3 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 404960
 doCallPCtarget address : 404e40
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 402810
 doCallPCtarget address : 400f30
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCtarget address : 4024e0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 402db0
 doCallPCtarget address : 404e20
 doCallPCtarget address : 404e40
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
+10 : 32223a0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 2d6b790
+2 : 32223a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2d6b790
+2 : 32223a0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d6b790
+1 : 32223a0
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 2d6b790
-Adding entry point: mcsema_main
-in : doPostAnalysis
-registering passes
+10 : 32223a0
+Adding entry point: main
+main is implemented by sub_400d20
+NOT doing post analysis passes.

@@ -1,6 +1,19 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 402c10, ro: 0, rt: CODE
 set_ref_reloc_type: Adding  ref: IMM, to: 403522, ro: 1, rt: DATA
@@ -223,19 +236,6 @@ dse_base: 605078
 new_cur_pos2: 605080
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -246,8 +246,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_4021b0
@@ -284,8 +282,8 @@ inserting global data section named data_0x604ff8
 inserting global data section named data_0x605000
 inserting global data section named data_0x605080
 inserting global data section named data_0x605098
+translate_CALLpcrel32: function is: printf, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x4008e0L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x4008c0L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext___isnanf
@@ -302,35 +300,44 @@ dataSectionToTypesContents: Found symbol: ext_strtol
 dataSectionToTypesContents: Found symbol: ext_sqrt
 dataSectionToTypesContents: Found symbol: ext_log
 doCallPCExtern paramCount  : 10 : printf
-10 : 2d4e790
+10 : 2d01410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 400930
 doCallPCExtern paramCount  : 10 : printf
-10 : 2d4e790
+10 : 2d01410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 402350
 doCallPCtarget address : 402350
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d4e790
+1 : 2d01410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2d4e790
+1 : 2d01410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2d4e790
+1 : 2d01410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2d4e790
+10 : 2d01410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 400cb0
 doCallPCtarget address : 401fe0
 doCallPCtarget address : 402c10
 doCallPCExtern paramCount  : 10 : printf
-10 : 2d4e790
+10 : 2d01410
 translate_JMPr: regular jump via register: 4008b7
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 400850
 doCallPCExtern paramCount  : 10 : printf
-10 : 2d4e790
+10 : 2d01410
 doCallPCtarget address : 401fe0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d4e790
+1 : 2d01410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 402600
 doCallPCExtern paramCount  : 10 : printf
-10 : 2d4e790
+10 : 2d01410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 4026e0
 doCallPCtarget address : 4026e0
 doCallPCtarget address : 403360
@@ -347,39 +354,104 @@ doCallPCtarget address : 402800
 doCallPCtarget address : 4025c0
 doCallPCtarget address : 402600
 doCallPCExtern paramCount  : 10 : printf
-10 : 2d4e790
+10 : 2d01410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 401a60
 doCallPCtarget address : 401a60
 doCallPCtarget address : 402930
 doCallPCtarget address : 402930
 doCallPCtarget address : 402800
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d4e790
+1 : 2d01410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d4e790
+1 : 2d01410
 translate_JMPr: regular jump via register: 400877
 doCallPCExtern paramCount  : 1 : sqrt
-1 : 2d4e790
+1 : 2d01410
+translate_CALLpcrel32: function is: __isnanf, cc is: 0
 doCallPCExtern paramCount  : 1 : __isnanf
-1 : 2d4e790
+1 : 2d01410
+translate_CALLpcrel32: function is: __isnanf, cc is: 0
 doCallPCExtern paramCount  : 1 : __isnanf
-1 : 2d4e790
+1 : 2d01410
+translate_CALLpcrel32: function is: __isnanf, cc is: 0
 doCallPCExtern paramCount  : 1 : __isnanf
-1 : 2d4e790
+1 : 2d01410
+translate_CALLpcrel32: function is: __isnanf, cc is: 0
 doCallPCExtern paramCount  : 1 : __isnanf
-1 : 2d4e790
+1 : 2d01410
 doCallPCExtern paramCount  : 10 : printf
-10 : 2d4e790
+10 : 2d01410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCtarget address : 402350
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2d4e790
+1 : 2d01410
+translate_CALLpcrel32: function is: log, cc is: 0
 doCallPCExtern paramCount  : 1 : log
-1 : 2d4e790
+1 : 2d01410
+translate_CALLpcrel32: function is: exp, cc is: 0
 doCallPCExtern paramCount  : 1 : exp
-1 : 2d4e790
-Unsupported!
-403340 	movupd	32(%rsp), %xmm0
-1699
+1 : 2d01410
+translate_CALLpcrel32: function is: strtol, cc is: 0
 doCallPCtarget address : 402350
-Could not insert function: sub_403340 into the LLVM module
-Failure to convert to LLVM module!
+doCallPCExtern paramCount  : 3 : strtol
+3 : 2d01410
+translate_CALLpcrel32: function is: strtol, cc is: 0
+doCallPCExtern paramCount  : 3 : strtol
+3 : 2d01410
+translate_CALLpcrel32: function is: strtol, cc is: 0
+doCallPCExtern paramCount  : 3 : strtol
+3 : 2d01410
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCExtern paramCount  : 10 : printf
+10 : 2d01410
+translate_CALLpcrel32: function is: puts, cc is: 0
+doCallPCExtern paramCount  : 1 : puts
+1 : 2d01410
+translate_CALLpcrel32: function is: exit, cc is: 0
+doCallPCExtern paramCount  : 1 : exit
+1 : 2d01410
+translate_CALLpcrel32: function is: memalign, cc is: 0
+doCallPCtarget address : 401c50
+doCallPCtarget address : 401c50
+doCallPCtarget address : 401c50
+doCallPCtarget address : 401c50
+doCallPCtarget address : 400cb0
+doCallPCtarget address : 400cb0
+doCallPCtarget address : 401050
+doCallPCtarget address : 403360
+doCallPCtarget address : 403380
+doCallPCtarget address : 403340
+doCallPCtarget address : 403320
+doCallPCtarget address : 403360
+doCallPCtarget address : 403360
+doCallPCtarget address : 4032e0
+doCallPCtarget address : 403360
+doCallPCtarget address : 403300
+doCallPCtarget address : 4033a0
+doCallPCtarget address : 403320
+doCallPCtarget address : 403340
+doCallPCtarget address : 401c50
+doCallPCtarget address : 401c50
+doCallPCtarget address : 401c50
+doCallPCExtern paramCount  : 2 : memalign
+2 : 2d01410
+translate_CALLpcrel32: function is: puts, cc is: 0
+doCallPCExtern paramCount  : 1 : puts
+1 : 2d01410
+translate_CALLpcrel32: function is: exit, cc is: 0
+doCallPCExtern paramCount  : 1 : exit
+1 : 2d01410
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCExtern paramCount  : 10 : printf
+10 : 2d01410
+translate_CALLpcrel32: function is: exit, cc is: 0
+doCallPCExtern paramCount  : 1 : exit
+1 : 2d01410
+translate_CALLpcrel32: function is: puts, cc is: 0
+doCallPCExtern paramCount  : 1 : puts
+1 : 2d01410
+Adding entry point: main
+main is implemented by sub_4021b0
+NOT doing post analysis passes.

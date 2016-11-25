@@ -1,6 +1,21 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 6020d0, ro: 0, rt: DATA
 set_ref_reloc_type: Adding  ref: IMM, to: 400bc0, ro: 1, rt: CODE
@@ -140,21 +155,6 @@ dse_base: 602088
 new_cur_pos2: 602090
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Deserializing external data...
 Creating module...
 Setting target...
@@ -166,8 +166,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_400d10
@@ -193,8 +191,8 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602090
 inserting global data section named data_0x6020a0
+translate_CALLpcrel32: function is: fopen, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x4009d0L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x4009b0L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_printf
@@ -216,89 +214,118 @@ doCallPCtarget address : 400db0
 doCallPCtarget address : 400be0
 doCallPCtarget address : 400ef0
 doCallPCExtern paramCount  : 2 : fopen
-2 : 1bdc880
+2 : 3223410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCtarget address : 400be0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 1bdc880
+10 : 3223410
 doCallPCExtern paramCount  : 10 : printf
-10 : 1bdc880
+10 : 3223410
 translate_JMPr: regular jump via register: 400967
+translate_CALLpcrel32: function is: feof, cc is: 0
 doCallPCtarget address : 400940
 doCallPCExtern paramCount  : 1 : feof
-1 : 1bdc880
+1 : 3223410
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
 doCallPCExtern paramCount  : 1 : _IO_getc
-1 : 1bdc880
+1 : 3223410
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
 doCallPCExtern paramCount  : 1 : _IO_getc
-1 : 1bdc880
+1 : 3223410
+translate_CALLpcrel32: function is: __ctype_tolower_loc, cc is: 0
 doCallPCExtern paramCount  : 0 : __ctype_tolower_loc
-0 : 1bdcc00
+0 : 32a4c60
+translate_CALLpcrel32: function is: __ctype_tolower_loc, cc is: 0
 doCallPCExtern paramCount  : 0 : __ctype_tolower_loc
-0 : 1bdcc00
+0 : 32a4c60
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCtarget address : 400b60
 doCallPCtarget address : 400df0
 doCallPCExtern paramCount  : 1 : free
-1 : 1bdc880
+1 : 3223410
+translate_CALLpcrel32: function is: feof, cc is: 0
 doCallPCtarget address : 400a60
 doCallPCExtern paramCount  : 1 : feof
-1 : 1bdc880
+1 : 3223410
+translate_CALLpcrel32: function is: feof, cc is: 0
 doCallPCExtern paramCount  : 1 : feof
-1 : 1bdc880
+1 : 3223410
+translate_CALLpcrel32: function is: calloc, cc is: 0
 doCallPCtarget address : 400a00
 doCallPCtarget address : 400a60
 doCallPCExtern paramCount  : 2 : calloc
-2 : 1bdc880
+2 : 3223410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1bdc880
+4 : 3223410
+translate_CALLpcrel32: function is: strncpy, cc is: 0
 doCallPCExtern paramCount  : 3 : strncpy
-3 : 1bdc880
+3 : 3223410
+translate_CALLpcrel32: function is: calloc, cc is: 0
 doCallPCExtern paramCount  : 2 : calloc
-2 : 1bdc880
+2 : 3223410
+translate_CALLpcrel32: function is: __ctype_tolower_loc, cc is: 0
 doCallPCExtern paramCount  : 0 : __ctype_tolower_loc
-0 : 1bdcc00
+0 : 32a4c60
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 400df0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1bdc880
+4 : 3223410
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 1bdc880
+1 : 3223410
 translate_JMPr: regular jump via register: 4009a7
+translate_CALLpcrel32: function is: calloc, cc is: 0
 doCallPCExtern paramCount  : 2 : calloc
-2 : 1bdc880
+2 : 3223410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1bdc880
+4 : 3223410
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 1bdc880
+1 : 3223410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 1bdc880
+1 : 3223410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1bdc880
+1 : 3223410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1bdc880
+4 : 3223410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 1bdc880
+1 : 3223410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1bdc880
+1 : 3223410
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 1bdc880
+2 : 3223410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1bdc880
+4 : 3223410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1bdc880
+4 : 3223410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCtarget address : 400b60
 doCallPCExtern paramCount  : 1 : free
-1 : 1bdc880
+1 : 3223410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 400a60
 doCallPCtarget address : 400ef0
 doCallPCtarget address : 400b20
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1bdc880
-Adding entry point: mcsema_main
-in : doPostAnalysis
-registering passes
+4 : 3223410
+Adding entry point: main
+main is implemented by sub_400d10
+NOT doing post analysis passes.

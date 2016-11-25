@@ -1,6 +1,18 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: IMM, to: 400cb0, ro: 1, rt: DATA
 set_ref_reloc_type: Adding  ref: IMM, to: 400ca4, ro: 1, rt: DATA
@@ -93,18 +105,6 @@ dse_base: 602070
 new_cur_pos2: 602078
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -115,8 +115,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_400af0
@@ -134,8 +132,8 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602078
 inserting global data section named data_0x602088
+translate_CALLpcrel32: function is: malloc, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400890L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x400870L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_printf
@@ -151,39 +149,53 @@ dataSectionToTypesContents: Found symbol: ext_sscanf
 dataSectionToTypesContents: Found symbol: ext_fread
 dataSectionToTypesContents: Found symbol: ext_perror
 doCallPCExtern paramCount  : 1 : malloc
-1 : 32a9790
+1 : 238e410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 32a9790
+1 : 238e410
+translate_CALLpcrel32: function is: fopen, cc is: 0
 doCallPCExtern paramCount  : 2 : fopen
-2 : 32a9790
+2 : 238e410
+translate_CALLpcrel32: function is: perror, cc is: 0
 doCallPCExtern paramCount  : 1 : perror
-1 : 32a9790
+1 : 238e410
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 32a9790
+1 : 238e410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 32a9790
+1 : 238e410
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 32a9790
+1 : 238e410
+translate_CALLpcrel32: function is: fread, cc is: 0
 doCallPCExtern paramCount  : 4 : fread
-4 : 32a9790
+4 : 238e410
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 32a9790
+2 : 238e410
+translate_CALLpcrel32: function is: sscanf, cc is: 0
 doCallPCExtern paramCount  : 10 : sscanf
-10 : 32a9790
+10 : 238e410
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 32a9790
+1 : 238e410
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 32a9790
+1 : 238e410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 4008f0
 doCallPCExtern paramCount  : 10 : printf
-10 : 32a9790
+10 : 238e410
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 32a9790
+1 : 238e410
 translate_JMPr: regular jump via register: 400867
 translate_JMPr: regular jump via register: 400827
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCtarget address : 400800
 doCallPCExtern paramCount  : 1 : exit
-1 : 32a9790
-Adding entry point: mcsema_main
-in : doPostAnalysis
-registering passes
+1 : 238e410
+Adding entry point: main
+main is implemented by sub_400af0
+NOT doing post analysis passes.

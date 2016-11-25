@@ -1,6 +1,18 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: IMM, to: 402240, ro: 1, rt: DATA
 set_ref_reloc_type: Adding  ref: MEM, to: 603340, ro: 0, rt: DATA
@@ -225,18 +237,6 @@ dse_base: 603070
 new_cur_pos2: 603078
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Deserializing external data...
 Deserializing external data...
 Creating module...
@@ -249,8 +249,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_400910
@@ -269,8 +267,8 @@ inserting global data section named data_0x602ff8
 inserting global data section named data_0x603000
 inserting global data section named data_0x603080
 inserting global data section named data_0x603310
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x4008e0L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x4008c0L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
@@ -287,66 +285,120 @@ dataSectionToTypesContents: Found symbol: ext_fprintf
 dataSectionToTypesContents: Found symbol: ext_sqrt
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 294f790
+10 : 3011410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 294f790
+10 : 3011410
+translate_CALLpcrel32: function is: fopen, cc is: 0
 doCallPCExtern paramCount  : 2 : fopen
-2 : 294f790
+2 : 3011410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 294f790
+1 : 3011410
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 294f790
+1 : 3011410
+translate_CALLpcrel32: function is: fscanf, cc is: 0
 doCallPCExtern paramCount  : 10 : fscanf
-10 : 294f790
+10 : 3011410
+translate_CALLpcrel32: function is: fclose, cc is: 0
 doCallPCExtern paramCount  : 1 : fclose
-1 : 294f790
+1 : 3011410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 294f790
+4 : 3011410
+translate_CALLpcrel32: function is: fputc, cc is: 0
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 2 : fputc
-2 : 294f790
+2 : 3011410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 294f790
+10 : 3011410
+translate_CALLpcrel32: function is: fputc, cc is: 0
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 2 : fputc
-2 : 294f790
+2 : 3011410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 294f790
+4 : 3011410
+translate_CALLpcrel32: function is: fputc, cc is: 0
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 2 : fputc
-2 : 294f790
-Unsupported!
-400a8f 	mulpd	2107353(%rip), %xmm1
-1732
-Unsupported!
-400fa9 	mulpd	%xmm0, %xmm1
-1733
+2 : 3011410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
 doCallPCExtern paramCount  : 1 : sqrt
-1 : 294f790
+1 : 3011410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
 doCallPCExtern paramCount  : 1 : sqrt
-1 : 294f790
-Unsupported!
-400eb2 	mulpd	144(%rsp), %xmm0
-1732
+1 : 3011410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCtarget address : 4010a0
 doCallPCExtern paramCount  : 1 : sqrt
-1 : 294f790
+1 : 3011410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
 doCallPCExtern paramCount  : 1 : sqrt
-1 : 294f790
-Unsupported!
-400c7e 	mulpd	96(%rsp), %xmm0
-1732
+1 : 3011410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 3011410
+translate_CALLpcrel32: function is: fputc, cc is: 0
+doCallPCtarget address : 4010a0
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 2 : fputc
-2 : 294f790
+2 : 3011410
+translate_CALLpcrel32: function is: fputc, cc is: 0
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 2 : fputc
-2 : 294f790
+2 : 3011410
+translate_CALLpcrel32: function is: fputc, cc is: 0
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 2 : fputc
-2 : 294f790
-Could not insert function: sub_400910 into the LLVM module
-Failure to convert to LLVM module!
+2 : 3011410
+translate_JMPr: regular jump via register: 4008b7
+translate_JMPr: regular jump via register: 400877
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCtarget address : 400850
+doCallPCtarget address : 401d90
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 3011410
+translate_CALLpcrel32: function is: atan, cc is: 0
+doCallPCExtern paramCount  : 1 : atan
+1 : 3011410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCtarget address : 401d90
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 3011410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCtarget address : 4010a0
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 3011410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 3011410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 3011410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 3011410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCtarget address : 401d90
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 3011410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 3011410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 3011410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCtarget address : 4010a0
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 3011410
+Adding entry point: main
+main is implemented by sub_400910
+NOT doing post analysis passes.

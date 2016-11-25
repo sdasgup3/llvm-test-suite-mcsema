@@ -1,6 +1,20 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: IMM, to: 4019ea, ro: 1, rt: DATA
 set_ref_reloc_type: Adding  ref: IMM, to: 401a45, ro: 1, rt: DATA
@@ -183,20 +197,6 @@ dse_base: 603080
 new_cur_pos2: 603088
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Deserializing external data...
 Creating module...
 Setting target...
@@ -208,8 +208,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_4015e0
@@ -237,7 +235,6 @@ inserting global data section named data_0x603000
 inserting global data section named data_0x603090
 inserting global data section named data_0x60daf0
 dataSectionToTypesContents: Found symbol: sub_0x400960L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x400940L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
@@ -256,103 +253,138 @@ dataSectionToTypesContents: Found symbol: ext_fwrite
 dataSectionToTypesContents: Found symbol: ext_fprintf
 doCallPCtarget address : 401730
 doCallPC: Adding Unreachable Instruction to local noreturn
+translate_CALLpcrel32: function is: strtol, cc is: 0
 doCallPCExtern paramCount  : 3 : strtol
-3 : 1cd29f0
+3 : 2cde410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 4013c0
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1cd29f0
+4 : 2cde410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 1cd29f0
+10 : 2cde410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCtarget address : 400990
 doCallPCtarget address : 400a40
 doCallPCtarget address : 400ba0
 doCallPCExtern paramCount  : 1 : free
-1 : 1cd29f0
+1 : 2cde410
 translate_JMPr: regular jump via register: 400937
+translate_CALLpcrel32: function is: memcmp, cc is: 0
 doCallPCtarget address : 4008d0
 doCallPCExtern paramCount  : 3 : memcmp
-3 : 1cd29f0
+3 : 2cde410
+translate_CALLpcrel32: function is: memcmp, cc is: 0
 doCallPCExtern paramCount  : 3 : memcmp
-3 : 1cd29f0
+3 : 2cde410
+translate_CALLpcrel32: function is: memcmp, cc is: 0
 doCallPCExtern paramCount  : 3 : memcmp
-3 : 1cd29f0
+3 : 2cde410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 1cd29f0
+10 : 2cde410
+translate_CALLpcrel32: function is: fopen, cc is: 0
 doCallPCExtern paramCount  : 2 : fopen
-2 : 1cd29f0
+2 : 2cde410
+translate_CALLpcrel32: function is: fgets, cc is: 0
 doCallPCtarget address : 401730
 doCallPCExtern paramCount  : 3 : fgets
-3 : 1cd29f0
+3 : 2cde410
 doCallPCtarget address : 401730
 doCallPCtarget address : 401730
 doCallPC: Adding Unreachable Instruction to local noreturn
+translate_CALLpcrel32: function is: sscanf, cc is: 0
 doCallPCExtern paramCount  : 10 : sscanf
-10 : 1cd29f0
+10 : 2cde410
+translate_CALLpcrel32: function is: sscanf, cc is: 0
 doCallPCExtern paramCount  : 10 : sscanf
-10 : 1cd29f0
+10 : 2cde410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 1cd29f0
+1 : 2cde410
+translate_CALLpcrel32: function is: fgets, cc is: 0
 doCallPCtarget address : 4012b0
 doCallPCExtern paramCount  : 3 : fgets
-3 : 1cd29f0
+3 : 2cde410
+translate_CALLpcrel32: function is: sscanf, cc is: 0
 doCallPCExtern paramCount  : 10 : sscanf
-10 : 1cd29f0
+10 : 2cde410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1cd29f0
+4 : 2cde410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 1cd29f0
+1 : 2cde410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1cd29f0
+4 : 2cde410
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 1cd29f0
+1 : 2cde410
+translate_CALLpcrel32: function is: strncpy, cc is: 0
 doCallPCtarget address : 400f50
 doCallPCtarget address : 400e30
 doCallPCtarget address : 401060
 doCallPCExtern paramCount  : 3 : strncpy
-3 : 1cd29f0
+3 : 2cde410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCtarget address : 400e30
 doCallPCExtern paramCount  : 1 : malloc
-1 : 1cd29f0
+1 : 2cde410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCtarget address : 401730
 doCallPCExtern paramCount  : 1 : malloc
-1 : 1cd29f0
+1 : 2cde410
+translate_CALLpcrel32: function is: strncpy, cc is: 0
 doCallPCExtern paramCount  : 3 : strncpy
-3 : 1cd29f0
+3 : 2cde410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 1cd29f0
+1 : 2cde410
 doCallPCtarget address : 401730
 doCallPC: Adding Unreachable Instruction to local noreturn
 translate_JMPr: regular jump via register: 4008f7
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 1cd29f0
+1 : 2cde410
 doCallPCtarget address : 401730
 doCallPC: Adding Unreachable Instruction to local noreturn
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1cd29f0
+1 : 2cde410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 1cd29f0
+1 : 2cde410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCtarget address : 401730
 doCallPCExtern paramCount  : 1 : malloc
-1 : 1cd29f0
+1 : 2cde410
+translate_CALLpcrel32: function is: strncpy, cc is: 0
 doCallPCExtern paramCount  : 3 : strncpy
-3 : 1cd29f0
+3 : 2cde410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 1cd29f0
+1 : 2cde410
 doCallPCtarget address : 401730
 doCallPC: Adding Unreachable Instruction to local noreturn
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 1cd29f0
+10 : 2cde410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 1cd29f0
+10 : 2cde410
+translate_CALLpcrel32: function is: fputc, cc is: 0
 doCallPCExtern paramCount  : 2 : fputc
-2 : 1cd29f0
+2 : 2cde410
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 1cd29f0
+1 : 2cde410
+translate_CALLpcrel32: function is: __gmon_start__, cc is: 0
 doCallPCtarget address : 400788
 doCallPCExtern paramCount  : 0 : __gmon_start__
-0 : 1cd4550
-Adding entry point: mcsema_main
-in : doPostAnalysis
-registering passes
+0 : 2e013a0
+Adding entry point: main
+main is implemented by sub_4015e0
+NOT doing post analysis passes.
