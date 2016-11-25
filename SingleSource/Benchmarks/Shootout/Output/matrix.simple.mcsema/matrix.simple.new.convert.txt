@@ -1,6 +1,13 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: IMM, to: 400ef0, ro: 1, rt: DATA
 set_ref_reloc_type: Adding  ref: MEM, to: 400ed0, ro: 0, rt: DATA
@@ -73,13 +80,6 @@ dse_base: 602048
 new_cur_pos2: 602050
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -106,6 +106,7 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602050
 inserting global data section named data_0x602060
+translate_CALLpcrel32: function is: malloc, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x4006e0L
 dataSectionToTypesContents: Found symbol: sub_0x4006c0L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
@@ -117,94 +118,128 @@ dataSectionToTypesContents: Found symbol: ext___libc_start_main
 dataSectionToTypesContents: Found symbol: ext_free
 dataSectionToTypesContents: Found symbol: ext_strtol
 doCallPCExtern paramCount  : 1 : malloc
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: strtol, cc is: 0
 doCallPCExtern paramCount  : 3 : strtol
-3 : 1e6fd40
+3 : 28b9410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 1e6fd40
-shouldSubtractImageBase: No __ImageBase defined
+1 : 28b9410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 1e6fd40
+10 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
+1 : 28b9410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e6fd40
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+1 : 28b9410
 translate_JMPr: regular jump via register: 4006b7
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
 translate_JMPr: regular jump via register: 400677
 doCallPCtarget address : 400650
 Adding entry point: main

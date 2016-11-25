@@ -1,6 +1,11 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: IMM, to: 400d40, ro: 1, rt: DATA
 set_ref_reloc_type: Adding  ref: MEM, to: 400760, ro: 0, rt: CODE
@@ -112,11 +117,6 @@ dse_base: 602038
 new_cur_pos2: 602040
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -127,8 +127,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_4008b0
@@ -146,12 +144,12 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602040
 inserting global data section named data_0x602050
+translate_CALLpcrel32: function is: fesetround, cc is: 0
 dataSectionToTypesContents: Found symbol: dta_0x400cbeL
 dataSectionToTypesContents: Found symbol: dta_0x400cc9L
 dataSectionToTypesContents: Found symbol: dta_0x400cceL
 dataSectionToTypesContents: Found symbol: dta_0x400cd1L
 dataSectionToTypesContents: Found symbol: sub_0x400680L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x400660L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_printf
@@ -160,9 +158,11 @@ dataSectionToTypesContents: Found symbol: ext_puts
 dataSectionToTypesContents: Found symbol: ext___libc_start_main
 dataSectionToTypesContents: Found symbol: ext_fesetround
 doCallPCExtern paramCount  : 1 : fesetround
-1 : 1f6e790
+1 : 17f6410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 1f6e790
+10 : 17f6410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 400760
 doCallPCtarget address : 400760
 doCallPCtarget address : 400760
@@ -170,12 +170,10 @@ doCallPCtarget address : 400760
 doCallPCtarget address : 400760
 doCallPCtarget address : 400760
 doCallPCExtern paramCount  : 1 : puts
-1 : 1f6e790
+1 : 17f6410
 translate_JMPr: regular jump via register: 400657
 translate_JMPr: regular jump via register: 400617
-Unsupported!
-400772 	bsrq	%rdx, %rcx
-289
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 400760
 doCallPCtarget address : 400760
 doCallPCtarget address : 400760
@@ -202,10 +200,12 @@ doCallPCtarget address : 400760
 doCallPCtarget address : 400760
 doCallPCtarget address : 4005f0
 doCallPCExtern paramCount  : 10 : printf
-10 : 1f6e790
+10 : 17f6410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 1f6e790
+10 : 17f6410
 doCallPCExtern paramCount  : 10 : printf
-10 : 1f6e790
-Could not insert function: sub_400760 into the LLVM module
-Failure to convert to LLVM module!
+10 : 17f6410
+Adding entry point: main
+main is implemented by sub_4008b0
+NOT doing post analysis passes.

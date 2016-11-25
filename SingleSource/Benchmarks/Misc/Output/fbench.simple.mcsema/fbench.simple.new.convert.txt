@@ -1,6 +1,18 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: IMM, to: 4016f0, ro: 1, rt: DATA
 set_ref_reloc_type: Adding  ref: IMM, to: 401484, ro: 1, rt: DATA
@@ -251,18 +263,6 @@ dse_base: 602070
 new_cur_pos2: 602078
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -290,9 +290,7 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602078
 inserting global data section named data_0x602090
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+translate_CALLpcrel32: function is: puts, cc is: 0
 dataSectionToTypesContents: Found symbol: dta_0x401486L
 dataSectionToTypesContents: Found symbol: dta_0x4014beL
 dataSectionToTypesContents: Found symbol: dta_0x4014f6L
@@ -317,122 +315,115 @@ dataSectionToTypesContents: Found symbol: ext_asin
 dataSectionToTypesContents: Found symbol: ext_strcmp
 dataSectionToTypesContents: Found symbol: ext_sin
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d9ce30
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+1 : 1d97550
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2d9ce30
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1d97550
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2d9ce30
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1d97550
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d9ce30
-shouldSubtractImageBase: No __ImageBase defined
+1 : 1d97550
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d9ce30
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+1 : 1d97550
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2d9ce30
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1d97550
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2d9ce30
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1d97550
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2d9ce30
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1d97550
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2d9ce30
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1d97550
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2d9ce30
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1d97550
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2d9ce30
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1d97550
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2d9ce30
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1d97550
+translate_CALLpcrel32: function is: sprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : sprintf
-10 : 2d9ce30
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1d97550
+translate_CALLpcrel32: function is: strcmp, cc is: 0
 doCallPCExtern paramCount  : 2 : strcmp
-2 : 2d9ce30
-shouldSubtractImageBase: No __ImageBase defined
+2 : 1d97550
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2d9ce30
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1d97550
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2d9ce30
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1d97550
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2d9ce30
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1d97550
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2d9ce30
+10 : 1d97550
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 2d9ce30
+1 : 1d97550
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCtarget address : 400d70
 doCallPCExtern paramCount  : 1 : putchar
-1 : 2d9ce30
+1 : 1d97550
+translate_CALLpcrel32: function is: sin, cc is: 0
 doCallPCtarget address : 400d70
 doCallPCtarget address : 400d70
 doCallPCExtern paramCount  : 1 : sin
-1 : 2d9ce30
+1 : 1d97550
+translate_CALLpcrel32: function is: sin, cc is: 0
 doCallPCExtern paramCount  : 1 : sin
-1 : 2d9ce30
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+1 : 1d97550
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 2d9ce30
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+1 : 1d97550
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 2d9ce30
+10 : 1d97550
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 2d9ce30
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+1 : 1d97550
 translate_JMPr: regular jump via register: 400837
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
 translate_JMPr: regular jump via register: 4007f7
-shouldSubtractImageBase: No __ImageBase defined
+translate_CALLpcrel32: function is: sin, cc is: 0
 doCallPCtarget address : 4007d0
 doCallPCExtern paramCount  : 1 : sin
-1 : 2d9ce30
+1 : 1d97550
+translate_CALLpcrel32: function is: sin, cc is: 0
 doCallPCExtern paramCount  : 1 : sin
-1 : 2d9ce30
+1 : 1d97550
+translate_CALLpcrel32: function is: asin, cc is: 0
 doCallPCExtern paramCount  : 1 : asin
-1 : 2d9ce30
+1 : 1d97550
+translate_CALLpcrel32: function is: cos, cc is: 0
 doCallPCExtern paramCount  : 1 : cos
-1 : 2d9ce30
+1 : 1d97550
+translate_CALLpcrel32: function is: cos, cc is: 0
 doCallPCExtern paramCount  : 1 : cos
-1 : 2d9ce30
+1 : 1d97550
+translate_CALLpcrel32: function is: asin, cc is: 0
 doCallPCExtern paramCount  : 1 : asin
-1 : 2d9ce30
+1 : 1d97550
+translate_CALLpcrel32: function is: asin, cc is: 0
 doCallPCExtern paramCount  : 1 : asin
-1 : 2d9ce30
+1 : 1d97550
+translate_CALLpcrel32: function is: sin, cc is: 0
 doCallPCExtern paramCount  : 1 : sin
-1 : 2d9ce30
+1 : 1d97550
+translate_CALLpcrel32: function is: sin, cc is: 0
 doCallPCExtern paramCount  : 1 : sin
-1 : 2d9ce30
+1 : 1d97550
+translate_CALLpcrel32: function is: tan, cc is: 0
 doCallPCExtern paramCount  : 1 : tan
-1 : 2d9ce30
+1 : 1d97550
 Adding entry point: main
 main is implemented by sub_400890
 NOT doing post analysis passes.

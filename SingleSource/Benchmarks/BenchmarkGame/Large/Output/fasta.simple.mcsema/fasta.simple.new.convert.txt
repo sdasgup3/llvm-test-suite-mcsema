@@ -1,6 +1,13 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 602100, ro: 0, rt: DATA
 set_ref_reloc_type: Adding  ref: IMM, to: 6020e0, ro: 1, rt: DATA
@@ -114,13 +121,6 @@ dse_base: 602048
 new_cur_pos2: 602050
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Deserializing external data...
 Creating module...
 Setting target...
@@ -148,7 +148,7 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602050
 inserting global data section named data_0x602110
-shouldSubtractImageBase: No __ImageBase defined
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400740L
 dataSectionToTypesContents: Found symbol: sub_0x400720L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
@@ -161,39 +161,40 @@ dataSectionToTypesContents: Found symbol: ext_memcpy
 dataSectionToTypesContents: Found symbol: ext__IO_putc
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 26bdd40
+4 : 1d6f410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 26bdd40
-shouldSubtractImageBase: No __ImageBase defined
+1 : 1d6f410
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 26bdd40
+3 : 1d6f410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 26bdd40
+4 : 1d6f410
+translate_CALLpcrel32: function is: _IO_putc, cc is: 0
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 2 : _IO_putc
-2 : 26bdd40
+2 : 1d6f410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 26bdd40
-shouldSubtractImageBase: No __ImageBase defined
+1 : 1d6f410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 26bdd40
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+4 : 1d6f410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 26bdd40
-shouldSubtractImageBase: No __ImageBase defined
+4 : 1d6f410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 26bdd40
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+4 : 1d6f410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 26bdd40
-shouldSubtractImageBase: No __ImageBase defined
+4 : 1d6f410
 translate_JMPr: regular jump via register: 400717
 translate_JMPr: regular jump via register: 4006d7
 doCallPCtarget address : 4006b0

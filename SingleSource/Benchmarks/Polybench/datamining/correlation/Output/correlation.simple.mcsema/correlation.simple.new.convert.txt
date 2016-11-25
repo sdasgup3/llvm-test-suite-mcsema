@@ -1,6 +1,16 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 602078, ro: 0, rt: DATA
 set_ref_reloc_type: Adding  ref: IMM, to: 400f27, ro: 1, rt: DATA
@@ -88,16 +98,6 @@ dse_base: 602060
 new_cur_pos2: 602068
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -108,8 +108,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_400910
@@ -126,8 +124,8 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602068
 inserting global data section named data_0x602078
+translate_CALLpcrel32: function is: posix_memalign, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400820L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x400800L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_printf
@@ -141,38 +139,47 @@ dataSectionToTypesContents: Found symbol: ext_fputs
 dataSectionToTypesContents: Found symbol: ext_fwrite
 dataSectionToTypesContents: Found symbol: ext_sqrt
 doCallPCExtern paramCount  : 3 : posix_memalign
-3 : 23b61f0
+3 : 223b410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 23b61f0
+4 : 223b410
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 23b61f0
+1 : 223b410
+translate_CALLpcrel32: function is: posix_memalign, cc is: 0
 doCallPCExtern paramCount  : 3 : posix_memalign
-3 : 23b61f0
+3 : 223b410
+translate_CALLpcrel32: function is: posix_memalign, cc is: 0
 doCallPCExtern paramCount  : 3 : posix_memalign
-3 : 23b61f0
+3 : 223b410
+translate_CALLpcrel32: function is: posix_memalign, cc is: 0
 doCallPCExtern paramCount  : 3 : posix_memalign
-3 : 23b61f0
+3 : 223b410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
 doCallPCExtern paramCount  : 1 : sqrt
-1 : 23b61f0
-Unsupported!
-400b0e 	cmpnlesd	993(%rip), %xmm1
+1 : 223b410
+Unsupported opcode 556!	cmpnlesd	993(%rip), %xmm1 # 400b0e400b0e 
 556
-Unsupported!
-400b90 	movupd	(%r13,%rdi,8), %xmm2
-1699
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 23b61f0
+1 : 223b410
+translate_CALLpcrel32: function is: fputs, cc is: 0
 doCallPCExtern paramCount  : 2 : fputs
-2 : 23b61f0
+2 : 223b410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 23b61f0
+1 : 223b410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 23b61f0
+1 : 223b410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 23b61f0
+1 : 223b410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 23b61f0
+1 : 223b410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 23b61f0
+1 : 223b410
 Could not insert function: sub_400910 into the LLVM module
 Failure to convert to LLVM module!

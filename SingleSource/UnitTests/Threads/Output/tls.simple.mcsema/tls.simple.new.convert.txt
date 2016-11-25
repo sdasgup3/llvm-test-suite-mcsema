@@ -1,6 +1,11 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: IMM, to: 400700, ro: 1, rt: CODE
 set_ref_reloc_type: Adding  ref: IMM, to: 400824, ro: 1, rt: DATA
@@ -64,11 +69,6 @@ dse_base: 601038
 new_cur_pos2: 601040
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -97,6 +97,7 @@ inserting global data section named data_0x600ff8
 inserting global data section named data_0x601000
 inserting global data section named data_0x601040
 inserting global data section named data_0x601050
+translate_CALLpcrel32: function is: pthread_create, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x4006d0L
 dataSectionToTypesContents: Found symbol: sub_0x4006b0L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
@@ -106,25 +107,23 @@ dataSectionToTypesContents: Found symbol: ext___libc_start_main
 dataSectionToTypesContents: Found symbol: ext_pthread_create
 dataSectionToTypesContents: Found symbol: ext_pthread_join
 doCallPCExtern paramCount  : 4 : pthread_create
-4 : 1e492d0
+4 : 33de850
+translate_CALLpcrel32: function is: pthread_join, cc is: 0
 doCallPCExtern paramCount  : 2 : pthread_join
-2 : 1e492d0
-shouldSubtractImageBase: No __ImageBase defined
+2 : 33de850
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 1e492d0
+10 : 33de850
+translate_CALLpcrel32: function is: pthread_create, cc is: 0
 doCallPCExtern paramCount  : 4 : pthread_create
-4 : 1e492d0
+4 : 33de850
+translate_CALLpcrel32: function is: pthread_join, cc is: 0
 doCallPCExtern paramCount  : 2 : pthread_join
-2 : 1e492d0
-shouldSubtractImageBase: No __ImageBase defined
+2 : 33de850
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 1e492d0
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+10 : 33de850
 translate_JMPr: regular jump via register: 4006a7
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
 translate_JMPr: regular jump via register: 400667
 doCallPCtarget address : 400640
 Adding entry point: main

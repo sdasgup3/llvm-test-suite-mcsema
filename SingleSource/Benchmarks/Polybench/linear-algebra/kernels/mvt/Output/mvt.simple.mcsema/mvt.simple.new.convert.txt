@@ -1,6 +1,15 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 602070, ro: 0, rt: DATA
 set_ref_reloc_type: Adding  ref: IMM, to: 400d2f, ro: 1, rt: DATA
@@ -82,15 +91,6 @@ dse_base: 602058
 new_cur_pos2: 602060
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -101,8 +101,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_4008b0
@@ -119,8 +117,8 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602060
 inserting global data section named data_0x602070
+translate_CALLpcrel32: function is: posix_memalign, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x4007c0L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x4007a0L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_printf
@@ -133,40 +131,55 @@ dataSectionToTypesContents: Found symbol: ext_free
 dataSectionToTypesContents: Found symbol: ext_fputs
 dataSectionToTypesContents: Found symbol: ext_fwrite
 doCallPCExtern paramCount  : 3 : posix_memalign
-3 : 19528b0
+3 : 2d91aa0
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 19528b0
+4 : 2d91aa0
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 19528b0
+1 : 2d91aa0
+translate_CALLpcrel32: function is: posix_memalign, cc is: 0
 doCallPCExtern paramCount  : 3 : posix_memalign
-3 : 19528b0
+3 : 2d91aa0
+translate_CALLpcrel32: function is: posix_memalign, cc is: 0
 doCallPCExtern paramCount  : 3 : posix_memalign
-3 : 19528b0
+3 : 2d91aa0
+translate_CALLpcrel32: function is: posix_memalign, cc is: 0
 doCallPCExtern paramCount  : 3 : posix_memalign
-3 : 19528b0
+3 : 2d91aa0
+translate_CALLpcrel32: function is: posix_memalign, cc is: 0
 doCallPCExtern paramCount  : 3 : posix_memalign
-3 : 19528b0
+3 : 2d91aa0
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 19528b0
+1 : 2d91aa0
+translate_CALLpcrel32: function is: fputs, cc is: 0
 doCallPCExtern paramCount  : 2 : fputs
-2 : 19528b0
+2 : 2d91aa0
+translate_CALLpcrel32: function is: fputs, cc is: 0
 doCallPCExtern paramCount  : 2 : fputs
-2 : 19528b0
+2 : 2d91aa0
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 19528b0
+1 : 2d91aa0
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 19528b0
+1 : 2d91aa0
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 19528b0
+1 : 2d91aa0
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 19528b0
+1 : 2d91aa0
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 19528b0
+1 : 2d91aa0
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 19528b0
+1 : 2d91aa0
 translate_JMPr: regular jump via register: 400797
 translate_JMPr: regular jump via register: 400757
 doCallPCtarget address : 400730
-Adding entry point: mcsema_main
-in : doPostAnalysis
-registering passes
+Adding entry point: main
+main is implemented by sub_4008b0
+NOT doing post analysis passes.

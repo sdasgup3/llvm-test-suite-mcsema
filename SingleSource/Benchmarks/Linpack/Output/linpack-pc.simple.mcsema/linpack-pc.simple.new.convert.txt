@@ -1,6 +1,13 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 40313c, ro: 0, rt: DATA
 set_ref_reloc_type: Adding  ref: MEM, to: 652fb0, ro: 0, rt: DATA
@@ -281,13 +288,6 @@ dse_base: 604048
 new_cur_pos2: 604050
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -298,8 +298,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_4007a0
@@ -319,8 +317,8 @@ inserting global data section named data_0x603ff8
 inserting global data section named data_0x604000
 inserting global data section named data_0x604050
 inserting global data section named data_0x604060
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400740L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x400720L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_memset
@@ -331,141 +329,177 @@ dataSectionToTypesContents: Found symbol: ext_fwrite
 dataSectionToTypesContents: Found symbol: ext_fprintf
 dataSectionToTypesContents: Found symbol: ext_memcpy
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1e8c590
+4 : 1fac410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1e8c590
+4 : 1fac410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1e8c590
+4 : 1fac410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 1e8c590
+10 : 1fac410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 1e8c590
+10 : 1fac410
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 1e8c590
-Unsupported!
-4008f0 	addps	6628752(,%rdx,4), %xmm0
-114
+3 : 1fac410
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 1e8c830
+0 : 2208670
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 401a00
 doCallPCExtern paramCount  : 0 : clock
-0 : 1e8c830
+0 : 2208670
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 1e8c830
+0 : 2208670
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 402050
 doCallPCExtern paramCount  : 0 : clock
-0 : 1e8c830
+0 : 2208670
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 1e8c590
+3 : 1fac410
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 1e8c590
-Unsupported!
-400ad0 	addps	6628752(,%rdx,4), %xmm0
-114
+3 : 1fac410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCtarget address : 402540
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1e8c590
+4 : 1fac410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1e8c590
+4 : 1fac410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 1e8c590
+10 : 1fac410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 1e8c590
+10 : 1fac410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 1e8c590
+10 : 1fac410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1e8c590
+4 : 1fac410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1e8c590
+4 : 1fac410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1e8c590
+4 : 1fac410
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 1e8c830
+0 : 2208670
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 1e8c830
+0 : 2208670
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 1e8c590
+10 : 1fac410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 1e8c590
+10 : 1fac410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1e8c590
+4 : 1fac410
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 1e8c830
+0 : 2208670
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 1e8c830
+0 : 2208670
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 1e8c590
+10 : 1fac410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 1e8c590
+10 : 1fac410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 1e8c590
+10 : 1fac410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1e8c590
+4 : 1fac410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1e8c590
+4 : 1fac410
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 1e8c830
+0 : 2208670
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 1e8c590
-Unsupported!
-400e20 	addps	6628752(,%rdx,4), %xmm0
-114
+3 : 1fac410
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 1e8c590
+3 : 1fac410
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 1e8c590
-Unsupported!
-400ff0 	addps	6628752(,%rdx,4), %xmm0
-114
-Unsupported!
-4011f0 	addps	6628752(,%rdx,4), %xmm0
-114
+3 : 1fac410
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 401a00
 doCallPCtarget address : 401a00
 doCallPCExtern paramCount  : 0 : clock
-0 : 1e8c830
+0 : 2208670
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 1e8c830
+0 : 2208670
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 402050
 doCallPCExtern paramCount  : 0 : clock
-0 : 1e8c830
+0 : 2208670
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 1e8c590
+10 : 1fac410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1e8c590
+4 : 1fac410
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 1e8c830
+0 : 2208670
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 1e8c590
-Unsupported!
-4014a0 	addps	6307952(%rsi,%rdx,4), %xmm0
-114
+3 : 1fac410
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 1e8c830
+0 : 2208670
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 1e8c590
+10 : 1fac410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 1e8c590
+10 : 1fac410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1e8c590
+4 : 1fac410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 1e8c590
+4 : 1fac410
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 1e8c830
+0 : 2208670
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 1e8c590
-Unsupported!
-401680 	addps	6307952(%rsi,%rdx,4), %xmm0
-114
+3 : 1fac410
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 401a00
 doCallPCExtern paramCount  : 0 : clock
-0 : 1e8c830
+0 : 2208670
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 1e8c830
+0 : 2208670
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 402050
 doCallPCExtern paramCount  : 0 : clock
-0 : 1e8c830
+0 : 2208670
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 1e8c590
-Could not insert function: sub_4007a0 into the LLVM module
-Failure to convert to LLVM module!
+10 : 1fac410
+translate_JMPr: regular jump via register: 400717
+translate_JMPr: regular jump via register: 4006d7
+doCallPCtarget address : 4006b0
+Adding entry point: main
+main is implemented by sub_4007a0
+NOT doing post analysis passes.

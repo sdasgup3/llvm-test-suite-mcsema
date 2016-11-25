@@ -1,6 +1,9 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 4006e0, ro: 0, rt: CODE
 set_ref_reloc_type: Adding  ref: IMM, to: 400afc, ro: 1, rt: DATA
@@ -69,9 +72,6 @@ dse_base: 601028
 new_cur_pos2: 601030
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -82,8 +82,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_4005f0
@@ -101,8 +99,8 @@ inserting global data section named data_0x600ff8
 inserting global data section named data_0x601000
 inserting global data section named data_0x601030
 inserting global data section named data_0x601040
+translate_CALLpcrel32: function is: printf, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x4005c0L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x4005a0L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_printf
@@ -110,29 +108,16 @@ dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext___libc_start_main
 doCallPCtarget address : 4006e0
 doCallPCExtern paramCount  : 10 : printf
-10 : 1e9c790
+10 : 3153410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 1e9c790
+10 : 3153410
 translate_JMPr: regular jump via register: 400597
 translate_JMPr: regular jump via register: 400557
-Unsupported!
-40081f 	cmpnleps	%xmm3, %xmm6
+Unsupported opcode 553!	cmpnleps	%xmm3, %xmm6 # 40081f40081f 
 553
-Unsupported!
-4008ab 	maxps	%xmm5, %xmm3
-1314
-Unsupported!
-40086e 	addps	%xmm1, %xmm7
-115
-Unsupported!
-400865 	maxps	%xmm5, %xmm3
-1314
-Unsupported!
-400905 	pslldq	$8, %xmm3
-2124
-Unsupported!
-40094c 	cvtdq2ps	%xmm6, %xmm5
-606
+Unsupported opcode 553!	cmpnleps	%xmm3, %xmm6 # 40087f40087f 
+553
 doCallPCtarget address : 400530
 Could not insert function: sub_4006e0 into the LLVM module
 Failure to convert to LLVM module!

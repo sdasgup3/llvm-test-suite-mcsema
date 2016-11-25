@@ -1,6 +1,10 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 601048, ro: 0, rt: DATA
 set_ref_reloc_type: Adding  ref: MEM, to: 400768, ro: 0, rt: DATA
@@ -59,10 +63,6 @@ dse_base: 601030
 new_cur_pos2: 601038
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -89,7 +89,7 @@ inserting global data section named data_0x600ff8
 inserting global data section named data_0x601000
 inserting global data section named data_0x601038
 inserting global data section named data_0x601050
-shouldSubtractImageBase: No __ImageBase defined
+translate_CALLpcrel32: function is: strtol, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400610L
 dataSectionToTypesContents: Found symbol: sub_0x4005f0L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
@@ -98,16 +98,11 @@ dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext___libc_start_main
 dataSectionToTypesContents: Found symbol: ext_strtol
 doCallPCExtern paramCount  : 3 : strtol
-3 : 26f1d40
-shouldSubtractImageBase: No __ImageBase defined
+3 : 1972410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 26f1d40
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1972410
 translate_JMPr: regular jump via register: 4005e7
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
 translate_JMPr: regular jump via register: 4005a7
 doCallPCtarget address : 400580
 Adding entry point: main

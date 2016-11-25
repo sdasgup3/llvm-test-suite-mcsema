@@ -1,6 +1,9 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 400720, ro: 0, rt: CODE
 set_ref_reloc_type: Adding  ref: MEM, to: 400720, ro: 0, rt: CODE
@@ -74,9 +77,6 @@ dse_base: 601028
 new_cur_pos2: 601030
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -104,18 +104,8 @@ inserting global data section named data_0x600ff8
 inserting global data section named data_0x601000
 inserting global data section named data_0x601030
 inserting global data section named data_0x601040
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
 translate_JMPr: regular jump via register: 400597
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
 translate_JMPr: regular jump via register: 400557
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
 dataSectionToTypesContents: Found symbol: sub_0x4005c0L
 dataSectionToTypesContents: Found symbol: sub_0x4005a0L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
@@ -134,7 +124,7 @@ doCallPCtarget address : 400720
 doCallPCtarget address : 400720
 doCallPCtarget address : 400530
 doCallPCExtern paramCount  : 10 : printf
-10 : 2bf0d40
+10 : 2c5b410
 Adding entry point: main
 main is implemented by sub_4008f0
 NOT doing post analysis passes.

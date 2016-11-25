@@ -1,6 +1,11 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 6012a8, ro: 0, rt: DATA
 set_ref_reloc_type: Adding  ref: MEM, to: 6012c0, ro: 0, rt: DATA
@@ -86,11 +91,6 @@ dse_base: 601038
 new_cur_pos2: 601040
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -117,6 +117,7 @@ inserting global data section named data_0x600ff8
 inserting global data section named data_0x601000
 inserting global data section named data_0x601040
 inserting global data section named data_0x601130
+translate_CALLpcrel32: function is: putchar, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400650L
 dataSectionToTypesContents: Found symbol: sub_0x400630L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
@@ -126,25 +127,20 @@ dataSectionToTypesContents: Found symbol: ext_puts
 dataSectionToTypesContents: Found symbol: ext_putchar
 dataSectionToTypesContents: Found symbol: ext___libc_start_main
 doCallPCExtern paramCount  : 1 : putchar
-1 : 1dfff20
-shouldSubtractImageBase: No __ImageBase defined
+1 : 154cbd0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 1dfff20
-shouldSubtractImageBase: No __ImageBase defined
+1 : 154cbd0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 1dfff20
-shouldSubtractImageBase: No __ImageBase defined
+1 : 154cbd0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 1dfff20
-shouldSubtractImageBase: No __ImageBase defined
+1 : 154cbd0
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 1dfff20
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+10 : 154cbd0
 translate_JMPr: regular jump via register: 400627
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
 translate_JMPr: regular jump via register: 4005e7
 doCallPCtarget address : 4005c0
 Adding entry point: main

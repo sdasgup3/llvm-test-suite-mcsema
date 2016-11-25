@@ -1,6 +1,10 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: IMM, to: 400f80, ro: 1, rt: DATA
 set_ref_reloc_type: Adding  ref: MEM, to: 602080, ro: 0, rt: DATA
@@ -99,10 +103,6 @@ dse_base: 602030
 new_cur_pos2: 602038
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -113,8 +113,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_400ab0
@@ -132,11 +130,8 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602040
 inserting global data section named data_0x602168
+translate_CALLpcrel32: function is: sqrt, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400650L
-linuxGetInceptionFunction: Adding Callbacks to Module!
-Unsupported!
-400ac6 	movupd	2102682(%rip), %xmm1
-1699
 dataSectionToTypesContents: Found symbol: sub_0x400630L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_printf
@@ -144,13 +139,23 @@ dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext___libc_start_main
 dataSectionToTypesContents: Found symbol: ext_sqrt
 doCallPCExtern paramCount  : 1 : sqrt
-1 : 27b3790
+1 : 1e95410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 27b3790
+10 : 1e95410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
 doCallPCtarget address : 400680
 doCallPCExtern paramCount  : 1 : sqrt
-1 : 27b3790
+1 : 1e95410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 27b3790
-Could not insert function: sub_400ab0 into the LLVM module
-Failure to convert to LLVM module!
+10 : 1e95410
+translate_JMPr: regular jump via register: 400627
+translate_JMPr: regular jump via register: 4005e7
+translate_CALLpcrel32: function is: sqrt, cc is: 0
+doCallPCtarget address : 4005c0
+doCallPCExtern paramCount  : 1 : sqrt
+1 : 1e95410
+Adding entry point: main
+main is implemented by sub_400ab0
+NOT doing post analysis passes.

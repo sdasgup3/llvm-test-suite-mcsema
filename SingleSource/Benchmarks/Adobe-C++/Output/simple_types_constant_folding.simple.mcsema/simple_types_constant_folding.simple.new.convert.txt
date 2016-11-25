@@ -1,6 +1,19 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 6250bc, ro: 0, rt: DATA
 set_ref_reloc_type: Adding  ref: IMM, to: 41fc70, ro: 1, rt: DATA
@@ -7324,19 +7337,6 @@ dse_base: 625078
 new_cur_pos2: 625080
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -7347,8 +7347,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_400d00
@@ -7629,8 +7627,8 @@ inserting global data section named data_0x624ff8
 inserting global data section named data_0x625000
 inserting global data section named data_0x625080
 inserting global data section named data_0x6250a0
+translate_CALLpcrel32: function is: memset, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x4008b0L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x400890L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_exp
@@ -7647,7 +7645,8 @@ dataSectionToTypesContents: Found symbol: ext_fprintf
 dataSectionToTypesContents: Found symbol: ext_log
 dataSectionToTypesContents: Found symbol: ext_strtod
 doCallPCExtern paramCount  : 3 : memset
-3 : 3c8f1e0
+3 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 4035a0
 doCallPCtarget address : 403700
 doCallPCtarget address : 403850
@@ -7655,34 +7654,47 @@ doCallPCtarget address : 4039a0
 doCallPCtarget address : 403b00
 doCallPCtarget address : 403c30
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: strtol, cc is: 0
 doCallPCExtern paramCount  : 3 : strtol
-3 : 3c8f1e0
+3 : 4183340
+translate_CALLpcrel32: function is: strtod, cc is: 0
 doCallPCExtern paramCount  : 2 : strtod
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 403d70
 doCallPCtarget address : 403ea0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 3c8f1e0
+10 : 4183340
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 3c8f1e0
+1 : 4183340
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 403fd0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCtarget address : 404100
 doCallPCtarget address : 404230
 doCallPCtarget address : 404370
@@ -7704,7 +7716,8 @@ doCallPCtarget address : 406380
 doCallPCtarget address : 406590
 doCallPCtarget address : 4067c0
 doCallPCExtern paramCount  : 3 : memset
-3 : 3c8f1e0
+3 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 4069f0
 doCallPCtarget address : 406b10
 doCallPCtarget address : 406c40
@@ -7712,26 +7725,35 @@ doCallPCtarget address : 406d60
 doCallPCtarget address : 406e90
 doCallPCtarget address : 406fb0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 4070e0
 doCallPCtarget address : 407200
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 407320
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 407440
 doCallPCtarget address : 407560
 doCallPCtarget address : 407690
@@ -7759,26 +7781,35 @@ doCallPCtarget address : 409ea0
 doCallPCtarget address : 409fe0
 doCallPCtarget address : 40a120
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 40a260
 doCallPCtarget address : 40a3a0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 40a4e0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 40a620
 doCallPCtarget address : 40a760
 doCallPCtarget address : 40a8a0
@@ -7806,26 +7837,35 @@ doCallPCtarget address : 40d140
 doCallPCtarget address : 40d260
 doCallPCtarget address : 40d390
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 40d4b0
 doCallPCtarget address : 40d5d0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 40d6f0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 40d810
 doCallPCtarget address : 40d940
 doCallPCtarget address : 40da60
@@ -7853,26 +7893,35 @@ doCallPCtarget address : 4101b0
 doCallPCtarget address : 4102d0
 doCallPCtarget address : 4103f0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 410510
 doCallPCtarget address : 410630
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 410750
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 410870
 doCallPCtarget address : 410990
 doCallPCtarget address : 410ab0
@@ -7900,26 +7949,35 @@ doCallPCtarget address : 4131e0
 doCallPCtarget address : 413300
 doCallPCtarget address : 413420
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 413540
 doCallPCtarget address : 413660
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 413780
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 4138a0
 doCallPCtarget address : 4139c0
 doCallPCtarget address : 413ae0
@@ -7947,26 +8005,35 @@ doCallPCtarget address : 4161d0
 doCallPCtarget address : 4162f0
 doCallPCtarget address : 416410
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 416530
 doCallPCtarget address : 416650
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 416770
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 416890
 doCallPCtarget address : 4169b0
 doCallPCtarget address : 416ad0
@@ -7994,29 +8061,35 @@ doCallPCtarget address : 419140
 doCallPCtarget address : 419260
 doCallPCtarget address : 419380
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 4194a0
 doCallPCtarget address : 4195c0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
+2 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 4196e0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCExtern paramCount  : 0 : clock
-0 : 3c8a2c0
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
 doCallPCExtern paramCount  : 2 : realloc
-2 : 3c8f1e0
-Unsupported!
-4033dd 	shufpd	$0, %xmm0, %xmm0
-2602
+2 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 419800
 doCallPCtarget address : 419920
 doCallPCtarget address : 419a40
@@ -8069,5 +8142,60 @@ doCallPCtarget address : 41f1a0
 doCallPCtarget address : 41f350
 doCallPCtarget address : 41f540
 doCallPCtarget address : 41f6f0
-Could not insert function: sub_400d00 into the LLVM module
+doCallPCExtern paramCount  : 0 : clock
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
+doCallPCExtern paramCount  : 0 : clock
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
+doCallPCExtern paramCount  : 2 : realloc
+2 : 4183340
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCExtern paramCount  : 10 : printf
+10 : 4183340
+translate_CALLpcrel32: function is: exit, cc is: 0
+doCallPCExtern paramCount  : 1 : exit
+1 : 4183340
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCExtern paramCount  : 10 : printf
+10 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
+doCallPCExtern paramCount  : 0 : clock
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
+doCallPCExtern paramCount  : 0 : clock
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
+doCallPCExtern paramCount  : 2 : realloc
+2 : 4183340
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCExtern paramCount  : 10 : printf
+10 : 4183340
+translate_CALLpcrel32: function is: exit, cc is: 0
+doCallPCExtern paramCount  : 1 : exit
+1 : 4183340
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCExtern paramCount  : 10 : printf
+10 : 4183340
+translate_CALLpcrel32: function is: clock, cc is: 0
+doCallPCExtern paramCount  : 0 : clock
+0 : 417bc00
+translate_CALLpcrel32: function is: clock, cc is: 0
+doCallPCExtern paramCount  : 0 : clock
+0 : 417bc00
+translate_CALLpcrel32: function is: realloc, cc is: 0
+doCallPCExtern paramCount  : 2 : realloc
+2 : 4183340
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCExtern paramCount  : 10 : printf
+10 : 4183340
+translate_CALLpcrel32: function is: exit, cc is: 0
+doCallPCExtern paramCount  : 1 : exit
+1 : 4183340
+Unsupported opcode 2140!	psrldq	$2, %xmm1 # 40e04340e043 
+2140
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCExtern paramCount  : 10 : printf
+10 : 4183340
+Could not insert function: sub_40df80 into the LLVM module
 Failure to convert to LLVM module!

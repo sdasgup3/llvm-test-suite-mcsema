@@ -1,6 +1,15 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 603118, ro: 0, rt: DATA
 set_ref_reloc_type: Adding  ref: MEM, to: 603128, ro: 0, rt: DATA
@@ -149,15 +158,6 @@ dse_base: 603058
 new_cur_pos2: 603060
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -185,7 +185,7 @@ inserting global data section named data_0x602ff8
 inserting global data section named data_0x603000
 inserting global data section named data_0x603060
 inserting global data section named data_0x603078
-shouldSubtractImageBase: No __ImageBase defined
+translate_CALLpcrel32: function is: printf, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400780L
 dataSectionToTypesContents: Found symbol: sub_0x400760L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
@@ -199,75 +199,75 @@ dataSectionToTypesContents: Found symbol: ext_malloc
 dataSectionToTypesContents: Found symbol: ext___libc_start_main
 dataSectionToTypesContents: Found symbol: ext_free
 doCallPCExtern paramCount  : 10 : printf
-10 : 256cf20
-shouldSubtractImageBase: No __ImageBase defined
+10 : 2914410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 256cf20
+10 : 2914410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 256cf20
+1 : 2914410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 256cf20
+1 : 2914410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 256cf20
+1 : 2914410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 256cf20
+1 : 2914410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 256cf20
+1 : 2914410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 256cf20
+1 : 2914410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 256cf20
+1 : 2914410
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 256cf20
+3 : 2914410
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 256cf20
+3 : 2914410
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 256cf20
+3 : 2914410
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 256cf20
+3 : 2914410
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 256cf20
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+3 : 2914410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 401170
 doCallPCExtern paramCount  : 10 : printf
-10 : 256cf20
-shouldSubtractImageBase: No __ImageBase defined
+10 : 2914410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 256cf20
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+10 : 2914410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 256cf20
-shouldSubtractImageBase: No __ImageBase defined
+1 : 2914410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 256cf20
-shouldSubtractImageBase: No __ImageBase defined
+1 : 2914410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 256cf20
-shouldSubtractImageBase: No __ImageBase defined
+1 : 2914410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 256cf20
-shouldSubtractImageBase: No __ImageBase defined
+1 : 2914410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 256cf20
-shouldSubtractImageBase: No __ImageBase defined
+1 : 2914410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 256cf20
+1 : 2914410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 256cf20
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+1 : 2914410
 translate_JMPr: regular jump via register: 400757
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
 translate_JMPr: regular jump via register: 400717
 doCallPCtarget address : 4006f0
 Adding entry point: main

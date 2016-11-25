@@ -1,6 +1,10 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: IMM, to: 400d30, ro: 1, rt: DATA
 set_ref_reloc_type: Adding  ref: MEM, to: 400d10, ro: 0, rt: DATA
@@ -94,10 +98,6 @@ dse_base: 602030
 new_cur_pos2: 602038
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -124,6 +124,7 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602038
 inserting global data section named data_0x602050
+translate_CALLpcrel32: function is: floor, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400630L
 dataSectionToTypesContents: Found symbol: sub_0x400610L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
@@ -132,27 +133,13 @@ dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext___libc_start_main
 dataSectionToTypesContents: Found symbol: ext_floor
 doCallPCExtern paramCount  : 1 : floor
-1 : 1d412d0
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+1 : 2744c00
+translate_CALLpcrel32: function is: floor, cc is: 0
 doCallPCExtern paramCount  : 1 : floor
-1 : 1d412d0
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+1 : 2744c00
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 1d412d0
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+10 : 2744c00
 translate_JMPr: regular jump via register: 400607
 translate_JMPr: regular jump via register: 4005c7
 doCallPCtarget address : 4005a0

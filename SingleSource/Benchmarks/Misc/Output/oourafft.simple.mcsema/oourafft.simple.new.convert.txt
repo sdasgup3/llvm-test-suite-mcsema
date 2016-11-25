@@ -1,6 +1,17 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: IMM, to: 402b30, ro: 1, rt: DATA
 set_ref_reloc_type: Adding  ref: MEM, to: 402b10, ro: 0, rt: DATA
@@ -129,17 +140,6 @@ dse_base: 604068
 new_cur_pos2: 604070
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -150,8 +150,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_400870
@@ -172,8 +170,8 @@ inserting global data section named data_0x603ff8
 inserting global data section named data_0x604000
 inserting global data section named data_0x604070
 inserting global data section named data_0x604080
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400840L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x400820L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_printf
@@ -188,27 +186,33 @@ dataSectionToTypesContents: Found symbol: ext_free
 dataSectionToTypesContents: Found symbol: ext_memcpy
 dataSectionToTypesContents: Found symbol: ext_sin
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 2bc1210
+2 : 27ee410
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 2bc1210
+2 : 27ee410
+translate_CALLpcrel32: function is: memalign, cc is: 0
 doCallPCExtern paramCount  : 2 : memalign
-2 : 2bc1210
+2 : 27ee410
+translate_CALLpcrel32: function is: memalign, cc is: 0
 doCallPCExtern paramCount  : 2 : memalign
-2 : 2bc1210
+2 : 27ee410
+translate_CALLpcrel32: function is: cos, cc is: 0
 doCallPCExtern paramCount  : 1 : cos
-1 : 2bc1210
+1 : 27ee410
+translate_CALLpcrel32: function is: sin, cc is: 0
 doCallPCExtern paramCount  : 1 : sin
-1 : 2bc1210
+1 : 27ee410
+translate_CALLpcrel32: function is: memalign, cc is: 0
 doCallPCtarget address : 401a50
 doCallPCExtern paramCount  : 2 : memalign
-2 : 2bc1210
+2 : 27ee410
+translate_CALLpcrel32: function is: memalign, cc is: 0
 doCallPCExtern paramCount  : 2 : memalign
-2 : 2bc1210
+2 : 27ee410
+translate_CALLpcrel32: function is: memalign, cc is: 0
 doCallPCExtern paramCount  : 2 : memalign
-2 : 2bc1210
-Unsupported!
-400a70 	movupd	(%r13,%rax,8), %xmm0
-1699
+2 : 27ee410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 401a50
 doCallPCtarget address : 401fe0
 doCallPCtarget address : 402400
@@ -216,28 +220,28 @@ doCallPCtarget address : 402400
 doCallPCtarget address : 402400
 doCallPCtarget address : 401290
 doCallPCExtern paramCount  : 10 : printf
-10 : 2bc1210
+10 : 27ee410
+translate_CALLpcrel32: function is: abort, cc is: 0
 doCallPCExtern paramCount  : 0 : abort
-0 : 2bc0c50
+0 : 2a018b0
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 2bc1210
-Unsupported!
-400cd0 	movupd	(%r13,%rcx,8), %xmm0
-1699
+3 : 27ee410
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCtarget address : 401a50
 doCallPCtarget address : 401fe0
 doCallPCtarget address : 402400
 doCallPCtarget address : 402400
 doCallPCtarget address : 402400
 doCallPCExtern paramCount  : 3 : memset
-3 : 2bc1210
+3 : 27ee410
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 2bc1210
+2 : 27ee410
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 2bc1210
-Unsupported!
-400ed0 	movupd	(%rbx,%rax,8), %xmm0
-1699
+3 : 27ee410
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCtarget address : 401a50
 doCallPCtarget address : 401fe0
 doCallPCtarget address : 402400
@@ -245,19 +249,23 @@ doCallPCtarget address : 402400
 doCallPCtarget address : 402400
 doCallPCtarget address : 401290
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 2bc1210
-Unsupported!
-40104a 	cmpltsd	%xmm3, %xmm0
+2 : 27ee410
+Unsupported opcode 558!	cmpltsd	%xmm3, %xmm0 # 40104a40104a 
 558
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 2bc1210
+1 : 27ee410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 2bc1210
+1 : 27ee410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 2bc1210
+1 : 27ee410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 2bc1210
+1 : 27ee410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 2bc1210
+1 : 27ee410
 Could not insert function: sub_400870 into the LLVM module
 Failure to convert to LLVM module!

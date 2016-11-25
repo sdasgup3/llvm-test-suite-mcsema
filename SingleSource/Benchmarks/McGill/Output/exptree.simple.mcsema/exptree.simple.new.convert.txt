@@ -1,6 +1,17 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 602098, ro: 0, rt: DATA
 set_ref_reloc_type: Adding  ref: MEM, to: 60209c, ro: 0, rt: DATA
@@ -156,17 +167,6 @@ dse_base: 602068
 new_cur_pos2: 602070
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Deserializing external data...
 Creating module...
 Setting target...
@@ -178,8 +178,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_401260
@@ -200,10 +198,9 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602070
 inserting global data section named data_0x602080
-dataSectionToTypesContents: Found symbol: sub_0x400880L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 translate_JMPr: regular jump via register: 400857
 translate_JMPr: regular jump via register: 400817
+dataSectionToTypesContents: Found symbol: sub_0x400880L
 dataSectionToTypesContents: Found symbol: sub_0x400860L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_printf
@@ -221,79 +218,107 @@ doCallPCtarget address : 401030
 doCallPCtarget address : 400f40
 doCallPCtarget address : 4007f0
 doCallPCExtern paramCount  : 1 : puts
-1 : 16d1590
+1 : 2b04080
 doCallPCtarget address : 400bd0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 16d1590
+1 : 2b04080
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 16d1590
+10 : 2b04080
 doJumpTableViaSwitch: Doing jumpt table via switch
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 16d1590
+10 : 2b04080
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 16d1590
+1 : 2b04080
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 16d1590
+1 : 2b04080
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 16d1590
+1 : 2b04080
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 16d1590
+1 : 2b04080
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 16d1590
+1 : 2b04080
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 16d1590
+10 : 2b04080
 doJumpTableViaSwitch: Doing jumpt table via switch
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 16d1590
+1 : 2b04080
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 16d1590
+10 : 2b04080
 doJumpTableViaSwitch: Doing jumpt table via switch
 doJumpTableViaSwitch: Doing jumpt table via switch
 doCallPCtarget address : 400a50
 doCallPCtarget address : 400bd0
 doCallPCtarget address : 400bd0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 16d1590
+1 : 2b04080
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 16d1590
+10 : 2b04080
 doJumpTableViaSwitch: Doing jumpt table via switch
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 16d1590
+10 : 2b04080
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 16d1590
+1 : 2b04080
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 16d1590
+1 : 2b04080
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 16d1590
+1 : 2b04080
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 16d1590
+1 : 2b04080
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 16d1590
+1 : 2b04080
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 16d1590
+10 : 2b04080
 doJumpTableViaSwitch: Doing jumpt table via switch
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 16d1590
+1 : 2b04080
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 16d1590
+10 : 2b04080
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
 doCallPCExtern paramCount  : 1 : _IO_getc
-1 : 16d1590
+1 : 2b04080
+translate_CALLpcrel32: function is: calloc, cc is: 0
 doCallPCExtern paramCount  : 2 : calloc
-2 : 16d1590
+2 : 2b04080
+translate_CALLpcrel32: function is: calloc, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 2 : calloc
-2 : 16d1590
+2 : 2b04080
+translate_CALLpcrel32: function is: ungetc, cc is: 0
 doCallPCExtern paramCount  : 2 : ungetc
-2 : 16d1590
+2 : 2b04080
+translate_CALLpcrel32: function is: fscanf, cc is: 0
 doCallPCExtern paramCount  : 10 : fscanf
-10 : 16d1590
+10 : 2b04080
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 16d1590
+4 : 2b04080
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 16d1590
+1 : 2b04080
+translate_CALLpcrel32: function is: calloc, cc is: 0
 getValueForExternal: Found external data ref to: stderr
 doCallPCExtern paramCount  : 2 : calloc
-2 : 16d1590
-Adding entry point: mcsema_main
-in : doPostAnalysis
-registering passes
+2 : 2b04080
+Adding entry point: main
+main is implemented by sub_401260
+NOT doing post analysis passes.

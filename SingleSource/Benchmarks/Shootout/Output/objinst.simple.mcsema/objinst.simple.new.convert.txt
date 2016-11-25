@@ -1,6 +1,13 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: IMM, to: 400710, ro: 4, rt: CODE
 set_ref_reloc_type: Adding  ref: IMM, to: 400720, ro: 4, rt: CODE
@@ -91,13 +98,6 @@ dse_base: 601048
 new_cur_pos2: 601050
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -127,6 +127,7 @@ inserting global data section named data_0x600ff8
 inserting global data section named data_0x601000
 inserting global data section named data_0x601050
 inserting global data section named data_0x601060
+translate_CALLpcrel32: function is: malloc, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x4006e0L
 dataSectionToTypesContents: Found symbol: sub_0x4006c0L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
@@ -138,67 +139,66 @@ dataSectionToTypesContents: Found symbol: ext___libc_start_main
 dataSectionToTypesContents: Found symbol: ext_free
 dataSectionToTypesContents: Found symbol: ext_strtol
 doCallPCExtern paramCount  : 1 : malloc
-1 : 1fbbd40
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+1 : 21e8410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 1fbbd40
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+1 : 21e8410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 1fbbd40
-shouldSubtractImageBase: No __ImageBase defined
+1 : 21e8410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 1fbbd40
-shouldSubtractImageBase: No __ImageBase defined
+1 : 21e8410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 400710
 doCallPCExtern paramCount  : 1 : puts
-1 : 1fbbd40
-shouldSubtractImageBase: No __ImageBase defined
+1 : 21e8410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 400720
 doCallPCExtern paramCount  : 1 : puts
-1 : 1fbbd40
+1 : 21e8410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1fbbd40
+1 : 21e8410
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 1fbbd40
+1 : 21e8410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 1fbbd40
-shouldSubtractImageBase: No __ImageBase defined
+1 : 21e8410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 1fbbd40
-shouldSubtractImageBase: No __ImageBase defined
+1 : 21e8410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 1fbbd40
-shouldSubtractImageBase: No __ImageBase defined
+1 : 21e8410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 1fbbd40
-shouldSubtractImageBase: No __ImageBase defined
+1 : 21e8410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 400710
 doCallPCExtern paramCount  : 1 : puts
-1 : 1fbbd40
-shouldSubtractImageBase: No __ImageBase defined
+1 : 21e8410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCtarget address : 400780
 doCallPCExtern paramCount  : 1 : puts
-1 : 1fbbd40
-shouldSubtractImageBase: No __ImageBase defined
+1 : 21e8410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 1fbbd40
-shouldSubtractImageBase: No __ImageBase defined
+1 : 21e8410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 1fbbd40
+1 : 21e8410
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 1fbbd40
+1 : 21e8410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1fbbd40
+1 : 21e8410
+translate_CALLpcrel32: function is: strtol, cc is: 0
 doCallPCExtern paramCount  : 3 : strtol
-3 : 1fbbd40
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+3 : 21e8410
 translate_JMPr: regular jump via register: 4006b7
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
 translate_JMPr: regular jump via register: 400677
 doCallPCtarget address : 400650
 Adding entry point: main

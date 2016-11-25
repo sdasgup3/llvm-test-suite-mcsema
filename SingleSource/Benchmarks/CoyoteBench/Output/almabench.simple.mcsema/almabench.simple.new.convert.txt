@@ -1,6 +1,16 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: IMM, to: 402960, ro: 1, rt: DATA
 set_ref_reloc_type: Adding  ref: IMM, to: 402960, ro: 1, rt: DATA
@@ -230,16 +240,6 @@ dse_base: 603060
 new_cur_pos2: 603068
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Deserializing external data...
 Creating module...
 Setting target...
@@ -251,8 +251,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_4011f0
@@ -271,8 +269,8 @@ inserting global data section named data_0x602ff8
 inserting global data section named data_0x603000
 inserting global data section named data_0x603068
 inserting global data section named data_0x603080
+translate_CALLpcrel32: function is: sqrt, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x401000L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x401000L
 dataSectionToTypesContents: Found symbol: dta_0x402400L
 dataSectionToTypesContents: Found symbol: dta_0x402400L
@@ -304,88 +302,137 @@ dataSectionToTypesContents: Found symbol: ext_sin
 dataSectionToTypesContents: Found symbol: ext_fflush
 doCallPCtarget address : 400890
 doCallPCExtern paramCount  : 1 : sqrt
-1 : 222f790
+1 : 1f79410
+translate_CALLpcrel32: function is: atan2, cc is: 0
 doCallPCExtern paramCount  : 2 : atan2
-2 : 222f790
+2 : 1f79410
+translate_CALLpcrel32: function is: asin, cc is: 0
 doCallPCExtern paramCount  : 1 : asin
-1 : 222f790
+1 : 1f79410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 222f790
+10 : 1f79410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 222f790
+10 : 1f79410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 222f790
+10 : 1f79410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 222f790
+10 : 1f79410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 222f790
+10 : 1f79410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 222f790
+10 : 1f79410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 222f790
+10 : 1f79410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 222f790
+10 : 1f79410
+translate_CALLpcrel32: function is: fflush, cc is: 0
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 1 : fflush
-1 : 222f790
+1 : 1f79410
 translate_JMPr: regular jump via register: 4007e7
+translate_CALLpcrel32: function is: fmod, cc is: 0
 doCallPCExtern paramCount  : 2 : fmod
-2 : 222f790
+2 : 1f79410
+translate_CALLpcrel32: function is: fmod, cc is: 0
 doCallPCExtern paramCount  : 2 : fmod
-2 : 222f790
+2 : 1f79410
+translate_CALLpcrel32: function is: cos, cc is: 0
 doCallPCExtern paramCount  : 1 : cos
-1 : 222f790
+1 : 1f79410
+translate_CALLpcrel32: function is: sin, cc is: 0
 doCallPCExtern paramCount  : 1 : sin
-1 : 222f790
+1 : 1f79410
+translate_CALLpcrel32: function is: cos, cc is: 0
 doCallPCExtern paramCount  : 1 : cos
-1 : 222f790
-Unsupported!
-400b93 	movhpd	4203552(%rbp,%r14), %xmm1
-1641
-doCallPCExtern paramCount  : 1 : cos
-1 : 222f790
+1 : 1f79410
+translate_CALLpcrel32: function is: sin, cc is: 0
 doCallPCExtern paramCount  : 1 : sin
-1 : 222f790
+1 : 1f79410
+translate_CALLpcrel32: function is: cos, cc is: 0
 doCallPCExtern paramCount  : 1 : cos
-1 : 222f790
+1 : 1f79410
+translate_CALLpcrel32: function is: sin, cc is: 0
 doCallPCExtern paramCount  : 1 : sin
-1 : 222f790
-Unsupported!
-400cba 	unpckhpd	%xmm1, %xmm1
-2838
-doCallPCExtern paramCount  : 1 : sin
-1 : 222f790
+1 : 1f79410
+translate_CALLpcrel32: function is: cos, cc is: 0
 doCallPCExtern paramCount  : 1 : cos
-1 : 222f790
+1 : 1f79410
+translate_CALLpcrel32: function is: sin, cc is: 0
+doCallPCExtern paramCount  : 1 : sin
+1 : 1f79410
+translate_CALLpcrel32: function is: cos, cc is: 0
+doCallPCExtern paramCount  : 1 : cos
+1 : 1f79410
+translate_CALLpcrel32: function is: sin, cc is: 0
+doCallPCExtern paramCount  : 1 : sin
+1 : 1f79410
+translate_CALLpcrel32: function is: fmod, cc is: 0
+doCallPCExtern paramCount  : 2 : fmod
+2 : 1f79410
+translate_CALLpcrel32: function is: sin, cc is: 0
+doCallPCExtern paramCount  : 1 : sin
+1 : 1f79410
+translate_CALLpcrel32: function is: sin, cc is: 0
+doCallPCExtern paramCount  : 1 : sin
+1 : 1f79410
+translate_CALLpcrel32: function is: cos, cc is: 0
+doCallPCExtern paramCount  : 1 : cos
+1 : 1f79410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
 doCallPCExtern paramCount  : 1 : sqrt
-1 : 222f790
+1 : 1f79410
+translate_CALLpcrel32: function is: sin, cc is: 0
 doCallPCExtern paramCount  : 1 : sin
-1 : 222f790
+1 : 1f79410
+translate_CALLpcrel32: function is: cos, cc is: 0
 doCallPCExtern paramCount  : 1 : cos
-1 : 222f790
+1 : 1f79410
+translate_CALLpcrel32: function is: atan2, cc is: 0
 doCallPCExtern paramCount  : 2 : atan2
-2 : 222f790
+2 : 1f79410
+translate_CALLpcrel32: function is: cos, cc is: 0
 doCallPCExtern paramCount  : 1 : cos
-1 : 222f790
+1 : 1f79410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
 doCallPCExtern paramCount  : 1 : sqrt
-1 : 222f790
+1 : 1f79410
+translate_CALLpcrel32: function is: sin, cc is: 0
 doCallPCExtern paramCount  : 1 : sin
-1 : 222f790
+1 : 1f79410
+translate_CALLpcrel32: function is: cos, cc is: 0
 doCallPCExtern paramCount  : 1 : cos
-1 : 222f790
+1 : 1f79410
+translate_CALLpcrel32: function is: sin, cc is: 0
 doCallPCExtern paramCount  : 1 : sin
-1 : 222f790
+1 : 1f79410
+translate_CALLpcrel32: function is: sin, cc is: 0
 doCallPCExtern paramCount  : 1 : sin
-1 : 222f790
+1 : 1f79410
+translate_CALLpcrel32: function is: cos, cc is: 0
 doCallPCExtern paramCount  : 1 : cos
-1 : 222f790
+1 : 1f79410
+translate_CALLpcrel32: function is: sqrt, cc is: 0
 doCallPCExtern paramCount  : 1 : sqrt
-1 : 222f790
+1 : 1f79410
+translate_CALLpcrel32: function is: cos, cc is: 0
 doCallPCExtern paramCount  : 1 : cos
-1 : 222f790
+1 : 1f79410
+translate_CALLpcrel32: function is: sin, cc is: 0
 doCallPCExtern paramCount  : 1 : sin
-1 : 222f790
+1 : 1f79410
+translate_CALLpcrel32: function is: cos, cc is: 0
 doCallPCExtern paramCount  : 1 : cos
-1 : 222f790
-Could not insert function: sub_400890 into the LLVM module
-Failure to convert to LLVM module!
+1 : 1f79410
+translate_JMPr: regular jump via register: 4007a7
+doCallPCtarget address : 400780
+Adding entry point: main
+main is implemented by sub_4011f0
+NOT doing post analysis passes.

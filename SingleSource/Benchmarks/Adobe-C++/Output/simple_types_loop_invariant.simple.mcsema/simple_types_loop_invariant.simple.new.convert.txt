@@ -1,6 +1,19 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 418ba0, ro: 0, rt: DATA
 set_ref_reloc_type: Adding  ref: IMM, to: 61d0d0, ro: 1, rt: DATA
@@ -4480,19 +4493,6 @@ dse_base: 61d078
 new_cur_pos2: 61d080
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -4503,8 +4503,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_400d00
@@ -4689,8 +4687,8 @@ inserting global data section named data_0x61cff8
 inserting global data section named data_0x61d000
 inserting global data section named data_0x61d080
 inserting global data section named data_0x61d0a0
+translate_CALLpcrel32: function is: memset, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x4008b0L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x400890L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_exp
@@ -4707,7 +4705,8 @@ dataSectionToTypesContents: Found symbol: ext_fprintf
 dataSectionToTypesContents: Found symbol: ext_log
 dataSectionToTypesContents: Found symbol: ext_strtod
 doCallPCExtern paramCount  : 3 : memset
-3 : 32f5510
+3 : 224c410
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCtarget address : 4024c0
 doCallPCtarget address : 402750
 doCallPCtarget address : 402920
@@ -4727,7 +4726,8 @@ doCallPCtarget address : 404830
 doCallPCtarget address : 404a80
 doCallPCtarget address : 404cb0
 doCallPCExtern paramCount  : 3 : memset
-3 : 32f5510
+3 : 224c410
+translate_CALLpcrel32: function is: strtol, cc is: 0
 doCallPCtarget address : 404f00
 doCallPCtarget address : 405120
 doCallPCtarget address : 405280
@@ -4747,9 +4747,11 @@ doCallPCtarget address : 406f70
 doCallPCtarget address : 4071a0
 doCallPCtarget address : 4073c0
 doCallPCExtern paramCount  : 3 : strtol
-3 : 32f5510
+3 : 224c410
+translate_CALLpcrel32: function is: strtod, cc is: 0
 doCallPCExtern paramCount  : 2 : strtod
-2 : 32f5510
+2 : 224c410
+translate_CALLpcrel32: function is: strtod, cc is: 0
 doCallPCtarget address : 4075f0
 doCallPCtarget address : 407810
 doCallPCtarget address : 407980
@@ -4769,10 +4771,8 @@ doCallPCtarget address : 409720
 doCallPCtarget address : 409970
 doCallPCtarget address : 409bb0
 doCallPCExtern paramCount  : 2 : strtod
-2 : 32f5510
-Unsupported!
-40229d 	shufpd	$0, %xmm0, %xmm0
-2602
+2 : 224c410
+translate_CALLpcrel32: function is: clock, cc is: 0
 doCallPCtarget address : 409e00
 doCallPCtarget address : 40a010
 doCallPCtarget address : 40a170
@@ -4887,5 +4887,60 @@ doCallPCtarget address : 4183b0
 doCallPCtarget address : 418550
 doCallPCtarget address : 418740
 doCallPCtarget address : 418920
-Could not insert function: sub_400d00 into the LLVM module
+doCallPCExtern paramCount  : 0 : clock
+0 : 3f84960
+translate_CALLpcrel32: function is: clock, cc is: 0
+doCallPCExtern paramCount  : 0 : clock
+0 : 3f84960
+translate_CALLpcrel32: function is: realloc, cc is: 0
+doCallPCExtern paramCount  : 2 : realloc
+2 : 224c410
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCExtern paramCount  : 10 : printf
+10 : 224c410
+translate_CALLpcrel32: function is: exit, cc is: 0
+doCallPCExtern paramCount  : 1 : exit
+1 : 224c410
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCExtern paramCount  : 10 : printf
+10 : 224c410
+translate_CALLpcrel32: function is: clock, cc is: 0
+doCallPCExtern paramCount  : 0 : clock
+0 : 3f84960
+translate_CALLpcrel32: function is: clock, cc is: 0
+doCallPCExtern paramCount  : 0 : clock
+0 : 3f84960
+translate_CALLpcrel32: function is: realloc, cc is: 0
+doCallPCExtern paramCount  : 2 : realloc
+2 : 224c410
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCExtern paramCount  : 10 : printf
+10 : 224c410
+translate_CALLpcrel32: function is: exit, cc is: 0
+doCallPCExtern paramCount  : 1 : exit
+1 : 224c410
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCExtern paramCount  : 10 : printf
+10 : 224c410
+translate_CALLpcrel32: function is: clock, cc is: 0
+doCallPCExtern paramCount  : 0 : clock
+0 : 3f84960
+translate_CALLpcrel32: function is: clock, cc is: 0
+doCallPCExtern paramCount  : 0 : clock
+0 : 3f84960
+translate_CALLpcrel32: function is: realloc, cc is: 0
+doCallPCExtern paramCount  : 2 : realloc
+2 : 224c410
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCExtern paramCount  : 10 : printf
+10 : 224c410
+translate_CALLpcrel32: function is: exit, cc is: 0
+doCallPCExtern paramCount  : 1 : exit
+1 : 224c410
+Unsupported opcode 2140!	psrldq	$2, %xmm1 # 40a46340a463 
+2140
+translate_CALLpcrel32: function is: printf, cc is: 0
+doCallPCExtern paramCount  : 10 : printf
+10 : 224c410
+Could not insert function: sub_40a390 into the LLVM module
 Failure to convert to LLVM module!

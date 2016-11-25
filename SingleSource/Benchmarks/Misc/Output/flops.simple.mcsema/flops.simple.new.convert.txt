@@ -1,6 +1,12 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: IMM, to: 6032d8, ro: 1, rt: DATA
 set_ref_reloc_type: Adding  ref: MEM, to: 6032d8, ro: 0, rt: DATA
@@ -537,12 +543,6 @@ dse_base: 603040
 new_cur_pos2: 603048
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -553,8 +553,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_4006d0
@@ -571,8 +569,8 @@ inserting global data section named data_0x602ff8
 inserting global data section named data_0x603000
 inserting global data section named data_0x603048
 inserting global data section named data_0x603140
+translate_CALLpcrel32: function is: putchar, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x4006a0L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x400680L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_printf
@@ -582,101 +580,130 @@ dataSectionToTypesContents: Found symbol: ext_gettimeofday
 dataSectionToTypesContents: Found symbol: ext_putchar
 dataSectionToTypesContents: Found symbol: ext___libc_start_main
 doCallPCExtern paramCount  : 1 : putchar
-1 : 16049a0
+1 : 2d85240
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 16049a0
+1 : 2d85240
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 16049a0
+1 : 2d85240
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 16049a0
+1 : 2d85240
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 16049a0
+2 : 2d85240
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 16049a0
+2 : 2d85240
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 16049a0
+2 : 2d85240
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 16049a0
+2 : 2d85240
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 16049a0
+10 : 2d85240
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 16049a0
+2 : 2d85240
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 16049a0
+2 : 2d85240
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 16049a0
+2 : 2d85240
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 16049a0
+2 : 2d85240
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 16049a0
-Unsupported!
-40094c 	shufpd	$0, %xmm6, %xmm6
-2602
+2 : 2d85240
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 16049a0
+2 : 2d85240
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 16049a0
+10 : 2d85240
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 16049a0
+2 : 2d85240
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 16049a0
+2 : 2d85240
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 16049a0
+10 : 2d85240
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 16049a0
+2 : 2d85240
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 16049a0
+2 : 2d85240
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 16049a0
+10 : 2d85240
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 16049a0
+2 : 2d85240
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 16049a0
+2 : 2d85240
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 16049a0
+10 : 2d85240
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 16049a0
-Unsupported!
-4015d2 	movhpd	2103997(%rip), %xmm12
-1641
+2 : 2d85240
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 16049a0
+2 : 2d85240
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 16049a0
+10 : 2d85240
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 16049a0
-Unsupported!
-401924 	movhpd	2103147(%rip), %xmm12
-1641
-Unsupported!
-401663 	mulpd	%xmm4, %xmm3
-1733
+2 : 2d85240
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 16049a0
+2 : 2d85240
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 16049a0
+10 : 2d85240
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 16049a0
-Unsupported!
-4019b3 	mulpd	%xmm4, %xmm3
-1733
+2 : 2d85240
+translate_CALLpcrel32: function is: gettimeofday, cc is: 0
 doCallPCExtern paramCount  : 2 : gettimeofday
-2 : 16049a0
+2 : 2d85240
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 16049a0
+10 : 2d85240
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 16049a0
+1 : 2d85240
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 16049a0
+10 : 2d85240
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 16049a0
+10 : 2d85240
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 16049a0
+10 : 2d85240
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 16049a0
+10 : 2d85240
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 16049a0
+10 : 2d85240
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 16049a0
-Could not insert function: sub_4006d0 into the LLVM module
-Failure to convert to LLVM module!
+10 : 2d85240
+translate_JMPr: regular jump via register: 400677
+translate_JMPr: regular jump via register: 400637
+doCallPCtarget address : 400610
+Adding entry point: main
+main is implemented by sub_4006d0
+NOT doing post analysis passes.

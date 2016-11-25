@@ -1,6 +1,9 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 601040, ro: 0, rt: DATA
 set_ref_reloc_type: Adding  ref: MEM, to: 400888, ro: 0, rt: DATA
@@ -62,9 +65,6 @@ dse_base: 601028
 new_cur_pos2: 601030
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -91,8 +91,7 @@ inserting global data section named data_0x600ff8
 inserting global data section named data_0x601000
 inserting global data section named data_0x601030
 inserting global data section named data_0x601040
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+translate_CALLpcrel32: function is: _IO_putc, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400610L
 dataSectionToTypesContents: Found symbol: sub_0x4005f0L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
@@ -100,18 +99,11 @@ dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext___libc_start_main
 dataSectionToTypesContents: Found symbol: ext__IO_putc
 doCallPCExtern paramCount  : 2 : _IO_putc
-2 : 1c3dd40
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+2 : 1a39410
+translate_CALLpcrel32: function is: _IO_putc, cc is: 0
 doCallPCExtern paramCount  : 2 : _IO_putc
-2 : 1c3dd40
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+2 : 1a39410
 translate_JMPr: regular jump via register: 4005e7
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
 translate_JMPr: regular jump via register: 4005a7
 doCallPCtarget address : 400580
 Adding entry point: main

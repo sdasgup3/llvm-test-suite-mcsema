@@ -1,6 +1,10 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 400b60, ro: 0, rt: CODE
 set_ref_reloc_type: Adding  ref: MEM, to: 400b60, ro: 0, rt: CODE
@@ -87,10 +91,6 @@ dse_base: 602030
 new_cur_pos2: 602038
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -120,13 +120,9 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602038
 inserting global data section named data_0x602050
-shouldSubtractImageBase: No __ImageBase defined
 translate_JMPr: regular jump via register: 4005e7
 translate_JMPr: regular jump via register: 4005a7
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+translate_CALLpcrel32: function is: putchar, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400610L
 dataSectionToTypesContents: Found symbol: sub_0x4005f0L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
@@ -148,15 +144,16 @@ doCallPCtarget address : 400580
 doCallPCtarget address : 4007b0
 doCallPCtarget address : 400950
 doCallPCExtern paramCount  : 1 : putchar
-1 : 29a42d0
-shouldSubtractImageBase: No __ImageBase defined
+1 : 1ddfbd0
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 29a42d0
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1ddfbd0
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 29a42d0
+10 : 1ddfbd0
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 29a42d0
+1 : 1ddfbd0
 Adding entry point: main
 main is implemented by sub_400cd0
 NOT doing post analysis passes.

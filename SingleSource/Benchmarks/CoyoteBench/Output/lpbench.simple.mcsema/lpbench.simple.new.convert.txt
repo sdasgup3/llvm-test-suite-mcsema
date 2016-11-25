@@ -1,6 +1,13 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: IMM, to: 4017c3, ro: 1, rt: DATA
 set_ref_reloc_type: Adding  ref: IMM, to: 4017c0, ro: 1, rt: DATA
@@ -70,13 +77,6 @@ dse_base: 602048
 new_cur_pos2: 602050
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Deserializing external data...
 Creating module...
 Setting target...
@@ -88,8 +88,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_4011f0
@@ -107,8 +105,8 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602050
 inserting global data section named data_0x602070
+translate_CALLpcrel32: function is: malloc, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400730L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x400710L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_memset
@@ -119,38 +117,43 @@ dataSectionToTypesContents: Found symbol: ext_free
 dataSectionToTypesContents: Found symbol: ext_fprintf
 dataSectionToTypesContents: Found symbol: ext_fflush
 doCallPCExtern paramCount  : 1 : malloc
-1 : 1e71790
+1 : 1e1c410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 1e71790
+1 : 1e1c410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 1e71790
+1 : 1e1c410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 1e71790
+1 : 1e1c410
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 1e71790
-Unsupported!
-4013b0 	movupd	-16(%rax,%rdx,8), %xmm0
-1699
-Unsupported!
-4014e0 	movupd	(%rsi,%rbp,8), %xmm3
-1699
+3 : 1e1c410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCtarget address : 400c00
 doCallPCExtern paramCount  : 1 : free
-1 : 1e71790
+1 : 1e1c410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e71790
+1 : 1e1c410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e71790
+1 : 1e1c410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 1e71790
-Unsupported!
-401600 	movupd	-16(%rbp), %xmm2
-1699
+1 : 1e1c410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 10 : fprintf
-10 : 1e71790
+10 : 1e1c410
+translate_CALLpcrel32: function is: fflush, cc is: 0
 getValueForExternal: Found external data ref to: stdout
 doCallPCExtern paramCount  : 1 : fflush
-1 : 1e71790
-Could not insert function: sub_4011f0 into the LLVM module
-Failure to convert to LLVM module!
+1 : 1e1c410
+translate_JMPr: regular jump via register: 400707
+translate_JMPr: regular jump via register: 4006c7
+doCallPCtarget address : 4006a0
+Adding entry point: main
+main is implemented by sub_4011f0
+NOT doing post analysis passes.

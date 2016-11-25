@@ -1,6 +1,16 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 602078, ro: 0, rt: DATA
 set_ref_reloc_type: Adding  ref: IMM, to: 400d5f, ro: 1, rt: DATA
@@ -83,16 +93,6 @@ dse_base: 602060
 new_cur_pos2: 602068
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -103,8 +103,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_400900
@@ -121,8 +119,8 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602068
 inserting global data section named data_0x602078
+translate_CALLpcrel32: function is: posix_memalign, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400810L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x4007f0L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_printf
@@ -136,35 +134,49 @@ dataSectionToTypesContents: Found symbol: ext_free
 dataSectionToTypesContents: Found symbol: ext_fputs
 dataSectionToTypesContents: Found symbol: ext_fwrite
 doCallPCExtern paramCount  : 3 : posix_memalign
-3 : 2d72790
+3 : 2b7a410
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 doCallPCExtern paramCount  : 4 : fwrite
-4 : 2d72790
+4 : 2b7a410
+translate_CALLpcrel32: function is: exit, cc is: 0
 doCallPCExtern paramCount  : 1 : exit
-1 : 2d72790
+1 : 2b7a410
+translate_CALLpcrel32: function is: posix_memalign, cc is: 0
 doCallPCExtern paramCount  : 3 : posix_memalign
-3 : 2d72790
+3 : 2b7a410
+translate_CALLpcrel32: function is: posix_memalign, cc is: 0
 doCallPCExtern paramCount  : 3 : posix_memalign
-3 : 2d72790
+3 : 2b7a410
+translate_CALLpcrel32: function is: posix_memalign, cc is: 0
 doCallPCExtern paramCount  : 3 : posix_memalign
-3 : 2d72790
+3 : 2b7a410
+translate_CALLpcrel32: function is: memset, cc is: 0
 doCallPCExtern paramCount  : 3 : memset
-3 : 2d72790
-Unsupported!
-400ac4 	shufpd	$0, %xmm0, %xmm0
-2602
+3 : 2b7a410
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 2d72790
+1 : 2b7a410
+translate_CALLpcrel32: function is: fputs, cc is: 0
 doCallPCExtern paramCount  : 2 : fputs
-2 : 2d72790
+2 : 2b7a410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 2d72790
+1 : 2b7a410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 2d72790
+1 : 2b7a410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 2d72790
+1 : 2b7a410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 2d72790
+1 : 2b7a410
+translate_CALLpcrel32: function is: free, cc is: 0
 doCallPCExtern paramCount  : 1 : free
-1 : 2d72790
-Could not insert function: sub_400900 into the LLVM module
-Failure to convert to LLVM module!
+1 : 2b7a410
+translate_JMPr: regular jump via register: 4007e7
+translate_JMPr: regular jump via register: 4007a7
+doCallPCtarget address : 400780
+Adding entry point: main
+main is implemented by sub_400900
+NOT doing post analysis passes.

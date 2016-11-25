@@ -1,6 +1,10 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 400660, ro: 0, rt: CODE
 set_ref_reloc_type: Adding  ref: MEM, to: 401710, ro: 0, rt: CODE
@@ -278,10 +282,6 @@ dse_base: 603030
 new_cur_pos2: 603038
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -310,6 +310,7 @@ inserting global data section named data_0x602ff8
 inserting global data section named data_0x603000
 inserting global data section named data_0x603038
 inserting global data section named data_0x603050
+translate_CALLpcrel32: function is: random, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400630L
 dataSectionToTypesContents: Found symbol: sub_0x400610L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
@@ -318,65 +319,24 @@ dataSectionToTypesContents: Found symbol: ext___libc_start_main
 dataSectionToTypesContents: Found symbol: ext_random
 dataSectionToTypesContents: Found symbol: ext_memcpy
 doCallPCExtern paramCount  : 0 : random
-0 : 279e740
+0 : 3257810
+translate_CALLpcrel32: function is: random, cc is: 0
 doCallPCtarget address : 401710
 doCallPCExtern paramCount  : 0 : random
-0 : 279e740
+0 : 3257810
+translate_CALLpcrel32: function is: random, cc is: 0
 doCallPCtarget address : 400660
 doCallPCExtern paramCount  : 0 : random
-0 : 279e740
+0 : 3257810
+translate_CALLpcrel32: function is: random, cc is: 0
 doCallPCExtern paramCount  : 0 : random
-0 : 279e740
-shouldSubtractImageBase: No __ImageBase defined
+0 : 3257810
 translate_JMPr: regular jump via register: 400607
 translate_JMPr: regular jump via register: 4005c7
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 doCallPCtarget address : 4005a0
 doCallPCExtern paramCount  : 3 : memcpy
-3 : 2627d40
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+3 : 3256e60
 Adding entry point: main
 main is implemented by sub_401d00
 NOT doing post analysis passes.

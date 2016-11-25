@@ -1,6 +1,9 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: MEM, to: 4005f0, ro: 0, rt: CODE
 set_ref_reloc_type: Adding  ref: IMM, to: 400988, ro: 1, rt: DATA
@@ -87,9 +90,6 @@ dse_base: 601028
 new_cur_pos2: 601030
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -121,7 +121,7 @@ inserting global data section named data_0x600ff8
 inserting global data section named data_0x601000
 inserting global data section named data_0x601030
 inserting global data section named data_0x601040
-shouldSubtractImageBase: No __ImageBase defined
+translate_CALLpcrel32: function is: printf, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x4005c0L
 dataSectionToTypesContents: Found symbol: sub_0x4005a0L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
@@ -130,29 +130,24 @@ dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext___libc_start_main
 doCallPCtarget address : 4005f0
 doCallPCExtern paramCount  : 10 : printf
-10 : 1f51d40
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1491410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 400670
 doCallPCExtern paramCount  : 10 : printf
-10 : 1f51d40
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1491410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 4006d0
 doCallPCExtern paramCount  : 10 : printf
-10 : 1f51d40
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1491410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 400630
 doCallPCExtern paramCount  : 10 : printf
-10 : 1f51d40
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1491410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 400740
 doCallPCExtern paramCount  : 10 : printf
-10 : 1f51d40
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1491410
 translate_JMPr: regular jump via register: 400597
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
 translate_JMPr: regular jump via register: 400557
 doCallPCtarget address : 400530
 doCallPCtarget address : 400740

@@ -1,6 +1,17 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: IMM, to: 401180, ro: 1, rt: DATA
 set_ref_reloc_type: Adding  ref: IMM, to: 40110a, ro: 1, rt: DATA
@@ -107,17 +118,6 @@ dse_base: 602068
 new_cur_pos2: 602070
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -145,6 +145,7 @@ inserting global data section named data_0x601ff8
 inserting global data section named data_0x602000
 inserting global data section named data_0x602070
 inserting global data section named data_0x602080
+translate_CALLpcrel32: function is: strcpy, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400810L
 dataSectionToTypesContents: Found symbol: sub_0x4007f0L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
@@ -160,69 +161,71 @@ dataSectionToTypesContents: Found symbol: ext_sscanf
 dataSectionToTypesContents: Found symbol: ext_strcpy
 dataSectionToTypesContents: Found symbol: ext_lrand48
 doCallPCExtern paramCount  : 2 : strcpy
-2 : 23f02d0
-shouldSubtractImageBase: No __ImageBase defined
+2 : 1f409a0
+translate_CALLpcrel32: function is: sscanf, cc is: 0
 doCallPCExtern paramCount  : 10 : sscanf
-10 : 23f02d0
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1f409a0
+translate_CALLpcrel32: function is: sscanf, cc is: 0
 doCallPCExtern paramCount  : 10 : sscanf
-10 : 23f02d0
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1f409a0
+translate_CALLpcrel32: function is: sscanf, cc is: 0
 doCallPCExtern paramCount  : 10 : sscanf
-10 : 23f02d0
+10 : 1f409a0
+translate_CALLpcrel32: function is: strlen, cc is: 0
 doCallPCExtern paramCount  : 1 : strlen
-1 : 23f02d0
-shouldSubtractImageBase: No __ImageBase defined
+1 : 1f409a0
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 23f02d0
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1f409a0
+translate_CALLpcrel32: function is: puts, cc is: 0
 doCallPCExtern paramCount  : 1 : puts
-1 : 23f02d0
+1 : 1f409a0
+translate_CALLpcrel32: function is: seed48, cc is: 0
 doCallPCExtern paramCount  : 1 : seed48
-1 : 23f02d0
-shouldSubtractImageBase: No __ImageBase defined
+1 : 1f409a0
+translate_CALLpcrel32: function is: malloc, cc is: 0
 doCallPCExtern paramCount  : 1 : malloc
-1 : 23f02d0
-shouldSubtractImageBase: No __ImageBase defined
+1 : 1f409a0
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCtarget address : 400b00
 doCallPCExtern paramCount  : 10 : printf
-10 : 23f02d0
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1f409a0
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 23f02d0
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
+10 : 1f409a0
 translate_JMPr: regular jump via register: 4007e7
-shouldSubtractImageBase: No __ImageBase defined
-shouldSubtractImageBase: No __ImageBase defined
 translate_JMPr: regular jump via register: 4007a7
-shouldSubtractImageBase: No __ImageBase defined
+translate_CALLpcrel32: function is: lrand48, cc is: 0
 doCallPCtarget address : 400780
 doCallPCExtern paramCount  : 0 : lrand48
-0 : 24876c0
+0 : 1f403e0
+translate_CALLpcrel32: function is: lrand48, cc is: 0
 doCallPCExtern paramCount  : 0 : lrand48
-0 : 24876c0
+0 : 1f403e0
+translate_CALLpcrel32: function is: lrand48, cc is: 0
 doCallPCExtern paramCount  : 0 : lrand48
-0 : 24876c0
-shouldSubtractImageBase: No __ImageBase defined
+0 : 1f403e0
+translate_CALLpcrel32: function is: lrand48, cc is: 0
 doCallPCExtern paramCount  : 0 : lrand48
-0 : 24876c0
+0 : 1f403e0
+translate_CALLpcrel32: function is: lrand48, cc is: 0
 doCallPCExtern paramCount  : 0 : lrand48
-0 : 24876c0
+0 : 1f403e0
+translate_CALLpcrel32: function is: lrand48, cc is: 0
 doCallPCExtern paramCount  : 0 : lrand48
-0 : 24876c0
+0 : 1f403e0
+translate_CALLpcrel32: function is: lrand48, cc is: 0
 doCallPCExtern paramCount  : 0 : lrand48
-0 : 24876c0
-shouldSubtractImageBase: No __ImageBase defined
+0 : 1f403e0
+translate_CALLpcrel32: function is: lrand48, cc is: 0
 doCallPCExtern paramCount  : 0 : lrand48
-0 : 24876c0
-shouldSubtractImageBase: No __ImageBase defined
+0 : 1f403e0
+translate_CALLpcrel32: function is: lrand48, cc is: 0
 doCallPCExtern paramCount  : 0 : lrand48
-0 : 24876c0
+0 : 1f403e0
+translate_CALLpcrel32: function is: lrand48, cc is: 0
 doCallPCExtern paramCount  : 0 : lrand48
-0 : 24876c0
+0 : 1f403e0
 Adding entry point: main
 main is implemented by sub_400840
 NOT doing post analysis passes.

@@ -1,6 +1,10 @@
 Looking up target...
 Reading module ...
  TT x86-64 : x86_64-unknown-unknown 
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
+Deserializing externs...
 Deserializing functions...
 set_ref_reloc_type: Adding  ref: IMM, to: 400bc0, ro: 1, rt: DATA
 set_ref_reloc_type: Adding  ref: IMM, to: 400bc0, ro: 1, rt: DATA
@@ -74,10 +78,6 @@ dse_base: 601030
 new_cur_pos2: 601038
 Deserializing data...
 Deserializing data...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
-Deserializing externs...
 Creating module...
 Setting target...
 Done setting target
@@ -88,8 +88,6 @@ Adding Offset Tables...
 Adding entry points...
 Returning modue...
 Setting initial triples...
-Looking at entry points...
-Already have driver for: main
 Getting LLVM module...
 Converting to LLVM...
 Inserted function: sub_4008a0
@@ -107,8 +105,8 @@ inserting global data section named data_0x600ff8
 inserting global data section named data_0x601000
 inserting global data section named data_0x601038
 inserting global data section named data_0x601048
+translate_CALLpcrel32: function is: printf, cc is: 0
 dataSectionToTypesContents: Found symbol: sub_0x400610L
-linuxGetInceptionFunction: Adding Callbacks to Module!
 dataSectionToTypesContents: Found symbol: sub_0x4005f0L
 dataSectionToTypesContents: Found symbol: ext___gmon_start__
 dataSectionToTypesContents: Found symbol: ext_printf
@@ -117,50 +115,67 @@ dataSectionToTypesContents: Found symbol: ext_putchar
 dataSectionToTypesContents: Found symbol: ext___libc_start_main
 doCallPCtarget address : 400640
 doCallPCExtern paramCount  : 10 : printf
-10 : 17a8790
+10 : 2362410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 17a8790
+10 : 2362410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 17a8790
+10 : 2362410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 17a8790
+10 : 2362410
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 17a8790
+1 : 2362410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 17a8790
+10 : 2362410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 17a8790
+10 : 2362410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 17a8790
+10 : 2362410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 17a8790
+10 : 2362410
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 17a8790
+1 : 2362410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 17a8790
+10 : 2362410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 17a8790
+10 : 2362410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 17a8790
+10 : 2362410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 17a8790
+10 : 2362410
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 17a8790
+1 : 2362410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 17a8790
+10 : 2362410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 17a8790
+10 : 2362410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 17a8790
+10 : 2362410
+translate_CALLpcrel32: function is: printf, cc is: 0
 doCallPCExtern paramCount  : 10 : printf
-10 : 17a8790
+10 : 2362410
+translate_CALLpcrel32: function is: putchar, cc is: 0
 doCallPCExtern paramCount  : 1 : putchar
-1 : 17a8790
+1 : 2362410
 translate_JMPr: regular jump via register: 4005e7
 translate_JMPr: regular jump via register: 4005a7
-Unsupported!
-400640 	movupd	(%rdx), %xmm15
-1699
 doCallPCtarget address : 400580
-Could not insert function: sub_400640 into the LLVM module
-Failure to convert to LLVM module!
+Adding entry point: main
+main is implemented by sub_4008a0
+NOT doing post analysis passes.
