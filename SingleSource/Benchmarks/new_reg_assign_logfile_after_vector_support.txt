@@ -1,0 +1,1780 @@
+
+Mcsema Home: /home/sdasgup3/Github/mcsema_new_reg_assign/build/
+
+===./Adobe-C++/Output/functionobjects.simple.mcsema/functionobjects.simple===
+rm -rf  ./Adobe-C++/Output/functionobjects.simple.mcsema/functionobjects.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Adobe-C++/Output/functionobjects.simple.mcsema/functionobjects.simple.cfg  -entrypoint=main -o ./Adobe-C++/Output/functionobjects.simple.mcsema/functionobjects.simple.new.bc   1>./Adobe-C++/Output/functionobjects.simple.mcsema/functionobjects.simple.new.convert.txt 2>&1 
+ls ./Adobe-C++/Output/functionobjects.simple.mcsema/functionobjects.simple.new.bc 
+ls: cannot access ./Adobe-C++/Output/functionobjects.simple.mcsema/functionobjects.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Adobe-C++/Output/functionobjects.simple.mcsema/functionobjects.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Adobe-C++/Output/functionobjects.simple.mcsema/functionobjects.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Adobe-C++/Output/functionobjects.simple.mcsema/functionobjects.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.simple===
+rm -rf  ./Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.simple.cfg  -entrypoint=main -o ./Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.simple.new.bc   1>./Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.simple.new.convert.txt 2>&1 
+ls ./Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.simple.new.bc 
+./Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Adobe-C++/Output/simple_types_constant_folding.simple.mcsema/simple_types_constant_folding.simple===
+rm -rf  ./Adobe-C++/Output/simple_types_constant_folding.simple.mcsema/simple_types_constant_folding.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Adobe-C++/Output/simple_types_constant_folding.simple.mcsema/simple_types_constant_folding.simple.cfg  -entrypoint=main -o ./Adobe-C++/Output/simple_types_constant_folding.simple.mcsema/simple_types_constant_folding.simple.new.bc   1>./Adobe-C++/Output/simple_types_constant_folding.simple.mcsema/simple_types_constant_folding.simple.new.convert.txt 2>&1 
+ls ./Adobe-C++/Output/simple_types_constant_folding.simple.mcsema/simple_types_constant_folding.simple.new.bc 
+ls: cannot access ./Adobe-C++/Output/simple_types_constant_folding.simple.mcsema/simple_types_constant_folding.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Adobe-C++/Output/simple_types_constant_folding.simple.mcsema/simple_types_constant_folding.simple.new.convert.txt 
+Unsupported opcode 2140!	psrldq	$2, %xmm1 # 40e04340e043 
+2140
+translate_CALLpcrel32: function is: printf, cc is: 0
+echo  >> unsupported_summary.raw 
+echo ./Adobe-C++/Output/simple_types_constant_folding.simple.mcsema/simple_types_constant_folding.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Adobe-C++/Output/simple_types_constant_folding.simple.mcsema/simple_types_constant_folding.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Adobe-C++/Output/simple_types_loop_invariant.simple.mcsema/simple_types_loop_invariant.simple===
+rm -rf  ./Adobe-C++/Output/simple_types_loop_invariant.simple.mcsema/simple_types_loop_invariant.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Adobe-C++/Output/simple_types_loop_invariant.simple.mcsema/simple_types_loop_invariant.simple.cfg  -entrypoint=main -o ./Adobe-C++/Output/simple_types_loop_invariant.simple.mcsema/simple_types_loop_invariant.simple.new.bc   1>./Adobe-C++/Output/simple_types_loop_invariant.simple.mcsema/simple_types_loop_invariant.simple.new.convert.txt 2>&1 
+ls ./Adobe-C++/Output/simple_types_loop_invariant.simple.mcsema/simple_types_loop_invariant.simple.new.bc 
+ls: cannot access ./Adobe-C++/Output/simple_types_loop_invariant.simple.mcsema/simple_types_loop_invariant.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Adobe-C++/Output/simple_types_loop_invariant.simple.mcsema/simple_types_loop_invariant.simple.new.convert.txt 
+Unsupported opcode 2140!	psrldq	$2, %xmm1 # 40a46340a463 
+2140
+translate_CALLpcrel32: function is: printf, cc is: 0
+echo  >> unsupported_summary.raw 
+echo ./Adobe-C++/Output/simple_types_loop_invariant.simple.mcsema/simple_types_loop_invariant.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Adobe-C++/Output/simple_types_loop_invariant.simple.mcsema/simple_types_loop_invariant.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple===
+rm -rf  ./Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple.cfg  -entrypoint=main -o ./Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple.new.bc   1>./Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple.new.convert.txt 2>&1 
+ls ./Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple.new.bc 
+./Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Adobe-C++/Output/stepanov_vector.simple.mcsema/stepanov_vector.simple===
+rm -rf  ./Adobe-C++/Output/stepanov_vector.simple.mcsema/stepanov_vector.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Adobe-C++/Output/stepanov_vector.simple.mcsema/stepanov_vector.simple.cfg  -entrypoint=main -o ./Adobe-C++/Output/stepanov_vector.simple.mcsema/stepanov_vector.simple.new.bc   1>./Adobe-C++/Output/stepanov_vector.simple.mcsema/stepanov_vector.simple.new.convert.txt 2>&1 
+ls ./Adobe-C++/Output/stepanov_vector.simple.mcsema/stepanov_vector.simple.new.bc 
+ls: cannot access ./Adobe-C++/Output/stepanov_vector.simple.mcsema/stepanov_vector.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Adobe-C++/Output/stepanov_vector.simple.mcsema/stepanov_vector.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Adobe-C++/Output/stepanov_vector.simple.mcsema/stepanov_vector.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Adobe-C++/Output/stepanov_vector.simple.mcsema/stepanov_vector.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./BenchmarkGame/Large/Output/fasta.simple.mcsema/fasta.simple===
+rm -rf  ./BenchmarkGame/Large/Output/fasta.simple.mcsema/fasta.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./BenchmarkGame/Large/Output/fasta.simple.mcsema/fasta.simple.cfg  -entrypoint=main -o ./BenchmarkGame/Large/Output/fasta.simple.mcsema/fasta.simple.new.bc   1>./BenchmarkGame/Large/Output/fasta.simple.mcsema/fasta.simple.new.convert.txt 2>&1 
+ls ./BenchmarkGame/Large/Output/fasta.simple.mcsema/fasta.simple.new.bc 
+./BenchmarkGame/Large/Output/fasta.simple.mcsema/fasta.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./BenchmarkGame/Large/Output/fasta.simple.mcsema/fasta.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./BenchmarkGame/Large/Output/fasta.simple.mcsema/fasta.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./BenchmarkGame/Output/fannkuch.simple.mcsema/fannkuch.simple===
+rm -rf  ./BenchmarkGame/Output/fannkuch.simple.mcsema/fannkuch.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./BenchmarkGame/Output/fannkuch.simple.mcsema/fannkuch.simple.cfg  -entrypoint=main -o ./BenchmarkGame/Output/fannkuch.simple.mcsema/fannkuch.simple.new.bc   1>./BenchmarkGame/Output/fannkuch.simple.mcsema/fannkuch.simple.new.convert.txt 2>&1 
+ls ./BenchmarkGame/Output/fannkuch.simple.mcsema/fannkuch.simple.new.bc 
+./BenchmarkGame/Output/fannkuch.simple.mcsema/fannkuch.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./BenchmarkGame/Output/fannkuch.simple.mcsema/fannkuch.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./BenchmarkGame/Output/fannkuch.simple.mcsema/fannkuch.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./BenchmarkGame/Output/n-body.simple.mcsema/n-body.simple===
+rm -rf  ./BenchmarkGame/Output/n-body.simple.mcsema/n-body.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./BenchmarkGame/Output/n-body.simple.mcsema/n-body.simple.cfg  -entrypoint=main -o ./BenchmarkGame/Output/n-body.simple.mcsema/n-body.simple.new.bc   1>./BenchmarkGame/Output/n-body.simple.mcsema/n-body.simple.new.convert.txt 2>&1 
+ls ./BenchmarkGame/Output/n-body.simple.mcsema/n-body.simple.new.bc 
+./BenchmarkGame/Output/n-body.simple.mcsema/n-body.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./BenchmarkGame/Output/n-body.simple.mcsema/n-body.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./BenchmarkGame/Output/n-body.simple.mcsema/n-body.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.simple===
+rm -rf  ./BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.simple.cfg  -entrypoint=main -o ./BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.simple.new.bc   1>./BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.simple.new.convert.txt 2>&1 
+ls ./BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.simple.new.bc 
+./BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./BenchmarkGame/Output/partialsums.simple.mcsema/partialsums.simple===
+rm -rf  ./BenchmarkGame/Output/partialsums.simple.mcsema/partialsums.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./BenchmarkGame/Output/partialsums.simple.mcsema/partialsums.simple.cfg  -entrypoint=main -o ./BenchmarkGame/Output/partialsums.simple.mcsema/partialsums.simple.new.bc   1>./BenchmarkGame/Output/partialsums.simple.mcsema/partialsums.simple.new.convert.txt 2>&1 
+ls ./BenchmarkGame/Output/partialsums.simple.mcsema/partialsums.simple.new.bc 
+./BenchmarkGame/Output/partialsums.simple.mcsema/partialsums.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./BenchmarkGame/Output/partialsums.simple.mcsema/partialsums.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./BenchmarkGame/Output/partialsums.simple.mcsema/partialsums.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.simple===
+rm -rf  ./BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.simple.cfg  -entrypoint=main -o ./BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.simple.new.bc   1>./BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.simple.new.convert.txt 2>&1 
+ls ./BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.simple.new.bc 
+./BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./BenchmarkGame/Output/recursive.simple.mcsema/recursive.simple===
+rm -rf  ./BenchmarkGame/Output/recursive.simple.mcsema/recursive.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./BenchmarkGame/Output/recursive.simple.mcsema/recursive.simple.cfg  -entrypoint=main -o ./BenchmarkGame/Output/recursive.simple.mcsema/recursive.simple.new.bc   1>./BenchmarkGame/Output/recursive.simple.mcsema/recursive.simple.new.convert.txt 2>&1 
+ls ./BenchmarkGame/Output/recursive.simple.mcsema/recursive.simple.new.bc 
+./BenchmarkGame/Output/recursive.simple.mcsema/recursive.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./BenchmarkGame/Output/recursive.simple.mcsema/recursive.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./BenchmarkGame/Output/recursive.simple.mcsema/recursive.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./BenchmarkGame/Output/spectral-norm.simple.mcsema/spectral-norm.simple===
+rm -rf  ./BenchmarkGame/Output/spectral-norm.simple.mcsema/spectral-norm.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./BenchmarkGame/Output/spectral-norm.simple.mcsema/spectral-norm.simple.cfg  -entrypoint=main -o ./BenchmarkGame/Output/spectral-norm.simple.mcsema/spectral-norm.simple.new.bc   1>./BenchmarkGame/Output/spectral-norm.simple.mcsema/spectral-norm.simple.new.convert.txt 2>&1 
+ls ./BenchmarkGame/Output/spectral-norm.simple.mcsema/spectral-norm.simple.new.bc 
+./BenchmarkGame/Output/spectral-norm.simple.mcsema/spectral-norm.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./BenchmarkGame/Output/spectral-norm.simple.mcsema/spectral-norm.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./BenchmarkGame/Output/spectral-norm.simple.mcsema/spectral-norm.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./CoyoteBench/Output/almabench.simple.mcsema/almabench.simple===
+rm -rf  ./CoyoteBench/Output/almabench.simple.mcsema/almabench.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./CoyoteBench/Output/almabench.simple.mcsema/almabench.simple.cfg  -entrypoint=main -o ./CoyoteBench/Output/almabench.simple.mcsema/almabench.simple.new.bc   1>./CoyoteBench/Output/almabench.simple.mcsema/almabench.simple.new.convert.txt 2>&1 
+ls ./CoyoteBench/Output/almabench.simple.mcsema/almabench.simple.new.bc 
+./CoyoteBench/Output/almabench.simple.mcsema/almabench.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./CoyoteBench/Output/almabench.simple.mcsema/almabench.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./CoyoteBench/Output/almabench.simple.mcsema/almabench.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./CoyoteBench/Output/fftbench.simple.mcsema/fftbench.simple===
+rm -rf  ./CoyoteBench/Output/fftbench.simple.mcsema/fftbench.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./CoyoteBench/Output/fftbench.simple.mcsema/fftbench.simple.cfg  -entrypoint=main -o ./CoyoteBench/Output/fftbench.simple.mcsema/fftbench.simple.new.bc   1>./CoyoteBench/Output/fftbench.simple.mcsema/fftbench.simple.new.convert.txt 2>&1 
+ls ./CoyoteBench/Output/fftbench.simple.mcsema/fftbench.simple.new.bc 
+ls: cannot access ./CoyoteBench/Output/fftbench.simple.mcsema/fftbench.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./CoyoteBench/Output/fftbench.simple.mcsema/fftbench.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./CoyoteBench/Output/fftbench.simple.mcsema/fftbench.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./CoyoteBench/Output/fftbench.simple.mcsema/fftbench.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./CoyoteBench/Output/huffbench.simple.mcsema/huffbench.simple===
+rm -rf  ./CoyoteBench/Output/huffbench.simple.mcsema/huffbench.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./CoyoteBench/Output/huffbench.simple.mcsema/huffbench.simple.cfg  -entrypoint=main -o ./CoyoteBench/Output/huffbench.simple.mcsema/huffbench.simple.new.bc   1>./CoyoteBench/Output/huffbench.simple.mcsema/huffbench.simple.new.convert.txt 2>&1 
+ls ./CoyoteBench/Output/huffbench.simple.mcsema/huffbench.simple.new.bc 
+./CoyoteBench/Output/huffbench.simple.mcsema/huffbench.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./CoyoteBench/Output/huffbench.simple.mcsema/huffbench.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./CoyoteBench/Output/huffbench.simple.mcsema/huffbench.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./CoyoteBench/Output/lpbench.simple.mcsema/lpbench.simple===
+rm -rf  ./CoyoteBench/Output/lpbench.simple.mcsema/lpbench.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./CoyoteBench/Output/lpbench.simple.mcsema/lpbench.simple.cfg  -entrypoint=main -o ./CoyoteBench/Output/lpbench.simple.mcsema/lpbench.simple.new.bc   1>./CoyoteBench/Output/lpbench.simple.mcsema/lpbench.simple.new.convert.txt 2>&1 
+ls ./CoyoteBench/Output/lpbench.simple.mcsema/lpbench.simple.new.bc 
+./CoyoteBench/Output/lpbench.simple.mcsema/lpbench.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./CoyoteBench/Output/lpbench.simple.mcsema/lpbench.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./CoyoteBench/Output/lpbench.simple.mcsema/lpbench.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Dhrystone/Output/dry.simple.mcsema/dry.simple===
+rm -rf  ./Dhrystone/Output/dry.simple.mcsema/dry.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Dhrystone/Output/dry.simple.mcsema/dry.simple.cfg  -entrypoint=main -o ./Dhrystone/Output/dry.simple.mcsema/dry.simple.new.bc   1>./Dhrystone/Output/dry.simple.mcsema/dry.simple.new.convert.txt 2>&1 
+ls ./Dhrystone/Output/dry.simple.mcsema/dry.simple.new.bc 
+./Dhrystone/Output/dry.simple.mcsema/dry.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Dhrystone/Output/dry.simple.mcsema/dry.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Dhrystone/Output/dry.simple.mcsema/dry.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Dhrystone/Output/fldry.simple.mcsema/fldry.simple===
+rm -rf  ./Dhrystone/Output/fldry.simple.mcsema/fldry.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Dhrystone/Output/fldry.simple.mcsema/fldry.simple.cfg  -entrypoint=main -o ./Dhrystone/Output/fldry.simple.mcsema/fldry.simple.new.bc   1>./Dhrystone/Output/fldry.simple.mcsema/fldry.simple.new.convert.txt 2>&1 
+ls ./Dhrystone/Output/fldry.simple.mcsema/fldry.simple.new.bc 
+./Dhrystone/Output/fldry.simple.mcsema/fldry.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Dhrystone/Output/fldry.simple.mcsema/fldry.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Dhrystone/Output/fldry.simple.mcsema/fldry.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.simple===
+rm -rf  ./Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.simple.cfg  -entrypoint=main -o ./Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.simple.new.bc   1>./Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.simple.new.convert.txt 2>&1 
+ls ./Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.simple.new.bc 
+./Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./McGill/Output/chomp.simple.mcsema/chomp.simple===
+rm -rf  ./McGill/Output/chomp.simple.mcsema/chomp.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./McGill/Output/chomp.simple.mcsema/chomp.simple.cfg  -entrypoint=main -o ./McGill/Output/chomp.simple.mcsema/chomp.simple.new.bc   1>./McGill/Output/chomp.simple.mcsema/chomp.simple.new.convert.txt 2>&1 
+ls ./McGill/Output/chomp.simple.mcsema/chomp.simple.new.bc 
+./McGill/Output/chomp.simple.mcsema/chomp.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./McGill/Output/chomp.simple.mcsema/chomp.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./McGill/Output/chomp.simple.mcsema/chomp.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./McGill/Output/exptree.simple.mcsema/exptree.simple===
+rm -rf  ./McGill/Output/exptree.simple.mcsema/exptree.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./McGill/Output/exptree.simple.mcsema/exptree.simple.cfg  -entrypoint=main -o ./McGill/Output/exptree.simple.mcsema/exptree.simple.new.bc   1>./McGill/Output/exptree.simple.mcsema/exptree.simple.new.convert.txt 2>&1 
+ls ./McGill/Output/exptree.simple.mcsema/exptree.simple.new.bc 
+./McGill/Output/exptree.simple.mcsema/exptree.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./McGill/Output/exptree.simple.mcsema/exptree.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./McGill/Output/exptree.simple.mcsema/exptree.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./McGill/Output/misr.simple.mcsema/misr.simple===
+rm -rf  ./McGill/Output/misr.simple.mcsema/misr.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./McGill/Output/misr.simple.mcsema/misr.simple.cfg  -entrypoint=main -o ./McGill/Output/misr.simple.mcsema/misr.simple.new.bc   1>./McGill/Output/misr.simple.mcsema/misr.simple.new.convert.txt 2>&1 
+ls ./McGill/Output/misr.simple.mcsema/misr.simple.new.bc 
+./McGill/Output/misr.simple.mcsema/misr.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./McGill/Output/misr.simple.mcsema/misr.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./McGill/Output/misr.simple.mcsema/misr.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./McGill/Output/queens.simple.mcsema/queens.simple===
+rm -rf  ./McGill/Output/queens.simple.mcsema/queens.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./McGill/Output/queens.simple.mcsema/queens.simple.cfg  -entrypoint=main -o ./McGill/Output/queens.simple.mcsema/queens.simple.new.bc   1>./McGill/Output/queens.simple.mcsema/queens.simple.new.convert.txt 2>&1 
+ls ./McGill/Output/queens.simple.mcsema/queens.simple.new.bc 
+./McGill/Output/queens.simple.mcsema/queens.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./McGill/Output/queens.simple.mcsema/queens.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./McGill/Output/queens.simple.mcsema/queens.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc-C++-EH/Output/spirit.simple.mcsema/spirit.simple===
+rm -rf  ./Misc-C++-EH/Output/spirit.simple.mcsema/spirit.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc-C++-EH/Output/spirit.simple.mcsema/spirit.simple.cfg  -entrypoint=main -o ./Misc-C++-EH/Output/spirit.simple.mcsema/spirit.simple.new.bc   1>./Misc-C++-EH/Output/spirit.simple.mcsema/spirit.simple.new.convert.txt 2>&1 
+ls ./Misc-C++-EH/Output/spirit.simple.mcsema/spirit.simple.new.bc 
+ls: cannot access ./Misc-C++-EH/Output/spirit.simple.mcsema/spirit.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Misc-C++-EH/Output/spirit.simple.mcsema/spirit.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Misc-C++-EH/Output/spirit.simple.mcsema/spirit.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Misc-C++-EH/Output/spirit.simple.mcsema/spirit.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Misc-C++/Large/Output/ray.simple.mcsema/ray.simple===
+rm -rf  ./Misc-C++/Large/Output/ray.simple.mcsema/ray.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc-C++/Large/Output/ray.simple.mcsema/ray.simple.cfg  -entrypoint=main -o ./Misc-C++/Large/Output/ray.simple.mcsema/ray.simple.new.bc   1>./Misc-C++/Large/Output/ray.simple.mcsema/ray.simple.new.convert.txt 2>&1 
+ls ./Misc-C++/Large/Output/ray.simple.mcsema/ray.simple.new.bc 
+ls: cannot access ./Misc-C++/Large/Output/ray.simple.mcsema/ray.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Misc-C++/Large/Output/ray.simple.mcsema/ray.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Misc-C++/Large/Output/ray.simple.mcsema/ray.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Misc-C++/Large/Output/ray.simple.mcsema/ray.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Misc-C++/Large/Output/sphereflake.simple.mcsema/sphereflake.simple===
+rm -rf  ./Misc-C++/Large/Output/sphereflake.simple.mcsema/sphereflake.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc-C++/Large/Output/sphereflake.simple.mcsema/sphereflake.simple.cfg  -entrypoint=main -o ./Misc-C++/Large/Output/sphereflake.simple.mcsema/sphereflake.simple.new.bc   1>./Misc-C++/Large/Output/sphereflake.simple.mcsema/sphereflake.simple.new.convert.txt 2>&1 
+ls ./Misc-C++/Large/Output/sphereflake.simple.mcsema/sphereflake.simple.new.bc 
+ls: cannot access ./Misc-C++/Large/Output/sphereflake.simple.mcsema/sphereflake.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Misc-C++/Large/Output/sphereflake.simple.mcsema/sphereflake.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Misc-C++/Large/Output/sphereflake.simple.mcsema/sphereflake.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Misc-C++/Large/Output/sphereflake.simple.mcsema/sphereflake.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Misc-C++/Output/bigfib.simple.mcsema/bigfib.simple===
+rm -rf  ./Misc-C++/Output/bigfib.simple.mcsema/bigfib.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc-C++/Output/bigfib.simple.mcsema/bigfib.simple.cfg  -entrypoint=main -o ./Misc-C++/Output/bigfib.simple.mcsema/bigfib.simple.new.bc   1>./Misc-C++/Output/bigfib.simple.mcsema/bigfib.simple.new.convert.txt 2>&1 
+ls ./Misc-C++/Output/bigfib.simple.mcsema/bigfib.simple.new.bc 
+ls: cannot access ./Misc-C++/Output/bigfib.simple.mcsema/bigfib.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Misc-C++/Output/bigfib.simple.mcsema/bigfib.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Misc-C++/Output/bigfib.simple.mcsema/bigfib.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Misc-C++/Output/bigfib.simple.mcsema/bigfib.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Misc-C++/Output/mandel-text.simple.mcsema/mandel-text.simple===
+rm -rf  ./Misc-C++/Output/mandel-text.simple.mcsema/mandel-text.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc-C++/Output/mandel-text.simple.mcsema/mandel-text.simple.cfg  -entrypoint=main -o ./Misc-C++/Output/mandel-text.simple.mcsema/mandel-text.simple.new.bc   1>./Misc-C++/Output/mandel-text.simple.mcsema/mandel-text.simple.new.convert.txt 2>&1 
+ls ./Misc-C++/Output/mandel-text.simple.mcsema/mandel-text.simple.new.bc 
+./Misc-C++/Output/mandel-text.simple.mcsema/mandel-text.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc-C++/Output/mandel-text.simple.mcsema/mandel-text.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc-C++/Output/mandel-text.simple.mcsema/mandel-text.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc-C++/Output/oopack_v1p8.simple.mcsema/oopack_v1p8.simple===
+rm -rf  ./Misc-C++/Output/oopack_v1p8.simple.mcsema/oopack_v1p8.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc-C++/Output/oopack_v1p8.simple.mcsema/oopack_v1p8.simple.cfg  -entrypoint=main -o ./Misc-C++/Output/oopack_v1p8.simple.mcsema/oopack_v1p8.simple.new.bc   1>./Misc-C++/Output/oopack_v1p8.simple.mcsema/oopack_v1p8.simple.new.convert.txt 2>&1 
+ls ./Misc-C++/Output/oopack_v1p8.simple.mcsema/oopack_v1p8.simple.new.bc 
+ls: cannot access ./Misc-C++/Output/oopack_v1p8.simple.mcsema/oopack_v1p8.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Misc-C++/Output/oopack_v1p8.simple.mcsema/oopack_v1p8.simple.new.convert.txt 
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
+echo  >> unsupported_summary.raw 
+echo ./Misc-C++/Output/oopack_v1p8.simple.mcsema/oopack_v1p8.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Misc-C++/Output/oopack_v1p8.simple.mcsema/oopack_v1p8.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Misc-C++/Output/stepanov_container.simple.mcsema/stepanov_container.simple===
+rm -rf  ./Misc-C++/Output/stepanov_container.simple.mcsema/stepanov_container.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc-C++/Output/stepanov_container.simple.mcsema/stepanov_container.simple.cfg  -entrypoint=main -o ./Misc-C++/Output/stepanov_container.simple.mcsema/stepanov_container.simple.new.bc   1>./Misc-C++/Output/stepanov_container.simple.mcsema/stepanov_container.simple.new.convert.txt 2>&1 
+ls ./Misc-C++/Output/stepanov_container.simple.mcsema/stepanov_container.simple.new.bc 
+ls: cannot access ./Misc-C++/Output/stepanov_container.simple.mcsema/stepanov_container.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Misc-C++/Output/stepanov_container.simple.mcsema/stepanov_container.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Misc-C++/Output/stepanov_container.simple.mcsema/stepanov_container.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Misc-C++/Output/stepanov_container.simple.mcsema/stepanov_container.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Misc-C++/Output/stepanov_v1p2.simple.mcsema/stepanov_v1p2.simple===
+rm -rf  ./Misc-C++/Output/stepanov_v1p2.simple.mcsema/stepanov_v1p2.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc-C++/Output/stepanov_v1p2.simple.mcsema/stepanov_v1p2.simple.cfg  -entrypoint=main -o ./Misc-C++/Output/stepanov_v1p2.simple.mcsema/stepanov_v1p2.simple.new.bc   1>./Misc-C++/Output/stepanov_v1p2.simple.mcsema/stepanov_v1p2.simple.new.convert.txt 2>&1 
+ls ./Misc-C++/Output/stepanov_v1p2.simple.mcsema/stepanov_v1p2.simple.new.bc 
+./Misc-C++/Output/stepanov_v1p2.simple.mcsema/stepanov_v1p2.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc-C++/Output/stepanov_v1p2.simple.mcsema/stepanov_v1p2.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc-C++/Output/stepanov_v1p2.simple.mcsema/stepanov_v1p2.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc/Output/ReedSolomon.simple.mcsema/ReedSolomon.simple===
+rm -rf  ./Misc/Output/ReedSolomon.simple.mcsema/ReedSolomon.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/ReedSolomon.simple.mcsema/ReedSolomon.simple.cfg  -entrypoint=main -o ./Misc/Output/ReedSolomon.simple.mcsema/ReedSolomon.simple.new.bc   1>./Misc/Output/ReedSolomon.simple.mcsema/ReedSolomon.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/ReedSolomon.simple.mcsema/ReedSolomon.simple.new.bc 
+./Misc/Output/ReedSolomon.simple.mcsema/ReedSolomon.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc/Output/ReedSolomon.simple.mcsema/ReedSolomon.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc/Output/ReedSolomon.simple.mcsema/ReedSolomon.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc/Output/dt.simple.mcsema/dt.simple===
+rm -rf  ./Misc/Output/dt.simple.mcsema/dt.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/dt.simple.mcsema/dt.simple.cfg  -entrypoint=main -o ./Misc/Output/dt.simple.mcsema/dt.simple.new.bc   1>./Misc/Output/dt.simple.mcsema/dt.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/dt.simple.mcsema/dt.simple.new.bc 
+./Misc/Output/dt.simple.mcsema/dt.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc/Output/dt.simple.mcsema/dt.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc/Output/dt.simple.mcsema/dt.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc/Output/fbench.simple.mcsema/fbench.simple===
+rm -rf  ./Misc/Output/fbench.simple.mcsema/fbench.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/fbench.simple.mcsema/fbench.simple.cfg  -entrypoint=main -o ./Misc/Output/fbench.simple.mcsema/fbench.simple.new.bc   1>./Misc/Output/fbench.simple.mcsema/fbench.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/fbench.simple.mcsema/fbench.simple.new.bc 
+./Misc/Output/fbench.simple.mcsema/fbench.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc/Output/fbench.simple.mcsema/fbench.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc/Output/fbench.simple.mcsema/fbench.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc/Output/ffbench.simple.mcsema/ffbench.simple===
+rm -rf  ./Misc/Output/ffbench.simple.mcsema/ffbench.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/ffbench.simple.mcsema/ffbench.simple.cfg  -entrypoint=main -o ./Misc/Output/ffbench.simple.mcsema/ffbench.simple.new.bc   1>./Misc/Output/ffbench.simple.mcsema/ffbench.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/ffbench.simple.mcsema/ffbench.simple.new.bc 
+ls: cannot access ./Misc/Output/ffbench.simple.mcsema/ffbench.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Misc/Output/ffbench.simple.mcsema/ffbench.simple.new.convert.txt 
+Unsupported opcode 558!	cmplesd	%xmm3, %xmm1 # 4008ec4008ec 
+558
+translate_CALLpcrel32: function is: fprintf, cc is: 0
+echo  >> unsupported_summary.raw 
+echo ./Misc/Output/ffbench.simple.mcsema/ffbench.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Misc/Output/ffbench.simple.mcsema/ffbench.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Misc/Output/flops-1.simple.mcsema/flops-1.simple===
+rm -rf  ./Misc/Output/flops-1.simple.mcsema/flops-1.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/flops-1.simple.mcsema/flops-1.simple.cfg  -entrypoint=main -o ./Misc/Output/flops-1.simple.mcsema/flops-1.simple.new.bc   1>./Misc/Output/flops-1.simple.mcsema/flops-1.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/flops-1.simple.mcsema/flops-1.simple.new.bc 
+./Misc/Output/flops-1.simple.mcsema/flops-1.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc/Output/flops-1.simple.mcsema/flops-1.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc/Output/flops-1.simple.mcsema/flops-1.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc/Output/flops-2.simple.mcsema/flops-2.simple===
+rm -rf  ./Misc/Output/flops-2.simple.mcsema/flops-2.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/flops-2.simple.mcsema/flops-2.simple.cfg  -entrypoint=main -o ./Misc/Output/flops-2.simple.mcsema/flops-2.simple.new.bc   1>./Misc/Output/flops-2.simple.mcsema/flops-2.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/flops-2.simple.mcsema/flops-2.simple.new.bc 
+./Misc/Output/flops-2.simple.mcsema/flops-2.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc/Output/flops-2.simple.mcsema/flops-2.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc/Output/flops-2.simple.mcsema/flops-2.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc/Output/flops-3.simple.mcsema/flops-3.simple===
+rm -rf  ./Misc/Output/flops-3.simple.mcsema/flops-3.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/flops-3.simple.mcsema/flops-3.simple.cfg  -entrypoint=main -o ./Misc/Output/flops-3.simple.mcsema/flops-3.simple.new.bc   1>./Misc/Output/flops-3.simple.mcsema/flops-3.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/flops-3.simple.mcsema/flops-3.simple.new.bc 
+./Misc/Output/flops-3.simple.mcsema/flops-3.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc/Output/flops-3.simple.mcsema/flops-3.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc/Output/flops-3.simple.mcsema/flops-3.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc/Output/flops-4.simple.mcsema/flops-4.simple===
+rm -rf  ./Misc/Output/flops-4.simple.mcsema/flops-4.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/flops-4.simple.mcsema/flops-4.simple.cfg  -entrypoint=main -o ./Misc/Output/flops-4.simple.mcsema/flops-4.simple.new.bc   1>./Misc/Output/flops-4.simple.mcsema/flops-4.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/flops-4.simple.mcsema/flops-4.simple.new.bc 
+./Misc/Output/flops-4.simple.mcsema/flops-4.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc/Output/flops-4.simple.mcsema/flops-4.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc/Output/flops-4.simple.mcsema/flops-4.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc/Output/flops-5.simple.mcsema/flops-5.simple===
+rm -rf  ./Misc/Output/flops-5.simple.mcsema/flops-5.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/flops-5.simple.mcsema/flops-5.simple.cfg  -entrypoint=main -o ./Misc/Output/flops-5.simple.mcsema/flops-5.simple.new.bc   1>./Misc/Output/flops-5.simple.mcsema/flops-5.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/flops-5.simple.mcsema/flops-5.simple.new.bc 
+./Misc/Output/flops-5.simple.mcsema/flops-5.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc/Output/flops-5.simple.mcsema/flops-5.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc/Output/flops-5.simple.mcsema/flops-5.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc/Output/flops-6.simple.mcsema/flops-6.simple===
+rm -rf  ./Misc/Output/flops-6.simple.mcsema/flops-6.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/flops-6.simple.mcsema/flops-6.simple.cfg  -entrypoint=main -o ./Misc/Output/flops-6.simple.mcsema/flops-6.simple.new.bc   1>./Misc/Output/flops-6.simple.mcsema/flops-6.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/flops-6.simple.mcsema/flops-6.simple.new.bc 
+./Misc/Output/flops-6.simple.mcsema/flops-6.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc/Output/flops-6.simple.mcsema/flops-6.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc/Output/flops-6.simple.mcsema/flops-6.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc/Output/flops-7.simple.mcsema/flops-7.simple===
+rm -rf  ./Misc/Output/flops-7.simple.mcsema/flops-7.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/flops-7.simple.mcsema/flops-7.simple.cfg  -entrypoint=main -o ./Misc/Output/flops-7.simple.mcsema/flops-7.simple.new.bc   1>./Misc/Output/flops-7.simple.mcsema/flops-7.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/flops-7.simple.mcsema/flops-7.simple.new.bc 
+./Misc/Output/flops-7.simple.mcsema/flops-7.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc/Output/flops-7.simple.mcsema/flops-7.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc/Output/flops-7.simple.mcsema/flops-7.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc/Output/flops-8.simple.mcsema/flops-8.simple===
+rm -rf  ./Misc/Output/flops-8.simple.mcsema/flops-8.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/flops-8.simple.mcsema/flops-8.simple.cfg  -entrypoint=main -o ./Misc/Output/flops-8.simple.mcsema/flops-8.simple.new.bc   1>./Misc/Output/flops-8.simple.mcsema/flops-8.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/flops-8.simple.mcsema/flops-8.simple.new.bc 
+./Misc/Output/flops-8.simple.mcsema/flops-8.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc/Output/flops-8.simple.mcsema/flops-8.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc/Output/flops-8.simple.mcsema/flops-8.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc/Output/flops.simple.mcsema/flops.simple===
+rm -rf  ./Misc/Output/flops.simple.mcsema/flops.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/flops.simple.mcsema/flops.simple.cfg  -entrypoint=main -o ./Misc/Output/flops.simple.mcsema/flops.simple.new.bc   1>./Misc/Output/flops.simple.mcsema/flops.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/flops.simple.mcsema/flops.simple.new.bc 
+./Misc/Output/flops.simple.mcsema/flops.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc/Output/flops.simple.mcsema/flops.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc/Output/flops.simple.mcsema/flops.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc/Output/fp-convert.simple.mcsema/fp-convert.simple===
+rm -rf  ./Misc/Output/fp-convert.simple.mcsema/fp-convert.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/fp-convert.simple.mcsema/fp-convert.simple.cfg  -entrypoint=main -o ./Misc/Output/fp-convert.simple.mcsema/fp-convert.simple.new.bc   1>./Misc/Output/fp-convert.simple.mcsema/fp-convert.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/fp-convert.simple.mcsema/fp-convert.simple.new.bc 
+./Misc/Output/fp-convert.simple.mcsema/fp-convert.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc/Output/fp-convert.simple.mcsema/fp-convert.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc/Output/fp-convert.simple.mcsema/fp-convert.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc/Output/himenobmtxpa.simple.mcsema/himenobmtxpa.simple===
+rm -rf  ./Misc/Output/himenobmtxpa.simple.mcsema/himenobmtxpa.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/himenobmtxpa.simple.mcsema/himenobmtxpa.simple.cfg  -entrypoint=main -o ./Misc/Output/himenobmtxpa.simple.mcsema/himenobmtxpa.simple.new.bc   1>./Misc/Output/himenobmtxpa.simple.mcsema/himenobmtxpa.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/himenobmtxpa.simple.mcsema/himenobmtxpa.simple.new.bc 
+./Misc/Output/himenobmtxpa.simple.mcsema/himenobmtxpa.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc/Output/himenobmtxpa.simple.mcsema/himenobmtxpa.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc/Output/himenobmtxpa.simple.mcsema/himenobmtxpa.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc/Output/lowercase.simple.mcsema/lowercase.simple===
+rm -rf  ./Misc/Output/lowercase.simple.mcsema/lowercase.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/lowercase.simple.mcsema/lowercase.simple.cfg  -entrypoint=main -o ./Misc/Output/lowercase.simple.mcsema/lowercase.simple.new.bc   1>./Misc/Output/lowercase.simple.mcsema/lowercase.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/lowercase.simple.mcsema/lowercase.simple.new.bc 
+./Misc/Output/lowercase.simple.mcsema/lowercase.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc/Output/lowercase.simple.mcsema/lowercase.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc/Output/lowercase.simple.mcsema/lowercase.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc/Output/mandel-2.simple.mcsema/mandel-2.simple===
+rm -rf  ./Misc/Output/mandel-2.simple.mcsema/mandel-2.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/mandel-2.simple.mcsema/mandel-2.simple.cfg  -entrypoint=main -o ./Misc/Output/mandel-2.simple.mcsema/mandel-2.simple.new.bc   1>./Misc/Output/mandel-2.simple.mcsema/mandel-2.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/mandel-2.simple.mcsema/mandel-2.simple.new.bc 
+./Misc/Output/mandel-2.simple.mcsema/mandel-2.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc/Output/mandel-2.simple.mcsema/mandel-2.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc/Output/mandel-2.simple.mcsema/mandel-2.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc/Output/mandel.simple.mcsema/mandel.simple===
+rm -rf  ./Misc/Output/mandel.simple.mcsema/mandel.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/mandel.simple.mcsema/mandel.simple.cfg  -entrypoint=main -o ./Misc/Output/mandel.simple.mcsema/mandel.simple.new.bc   1>./Misc/Output/mandel.simple.mcsema/mandel.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/mandel.simple.mcsema/mandel.simple.new.bc 
+./Misc/Output/mandel.simple.mcsema/mandel.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc/Output/mandel.simple.mcsema/mandel.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc/Output/mandel.simple.mcsema/mandel.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc/Output/matmul_f64_4x4.simple.mcsema/matmul_f64_4x4.simple===
+rm -rf  ./Misc/Output/matmul_f64_4x4.simple.mcsema/matmul_f64_4x4.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/matmul_f64_4x4.simple.mcsema/matmul_f64_4x4.simple.cfg  -entrypoint=main -o ./Misc/Output/matmul_f64_4x4.simple.mcsema/matmul_f64_4x4.simple.new.bc   1>./Misc/Output/matmul_f64_4x4.simple.mcsema/matmul_f64_4x4.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/matmul_f64_4x4.simple.mcsema/matmul_f64_4x4.simple.new.bc 
+./Misc/Output/matmul_f64_4x4.simple.mcsema/matmul_f64_4x4.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc/Output/matmul_f64_4x4.simple.mcsema/matmul_f64_4x4.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc/Output/matmul_f64_4x4.simple.mcsema/matmul_f64_4x4.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc/Output/oourafft.simple.mcsema/oourafft.simple===
+rm -rf  ./Misc/Output/oourafft.simple.mcsema/oourafft.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/oourafft.simple.mcsema/oourafft.simple.cfg  -entrypoint=main -o ./Misc/Output/oourafft.simple.mcsema/oourafft.simple.new.bc   1>./Misc/Output/oourafft.simple.mcsema/oourafft.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/oourafft.simple.mcsema/oourafft.simple.new.bc 
+ls: cannot access ./Misc/Output/oourafft.simple.mcsema/oourafft.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Misc/Output/oourafft.simple.mcsema/oourafft.simple.new.convert.txt 
+Unsupported opcode 558!	cmpltsd	%xmm3, %xmm0 # 40104a40104a 
+558
+translate_CALLpcrel32: function is: free, cc is: 0
+echo  >> unsupported_summary.raw 
+echo ./Misc/Output/oourafft.simple.mcsema/oourafft.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Misc/Output/oourafft.simple.mcsema/oourafft.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Misc/Output/perlin.simple.mcsema/perlin.simple===
+rm -rf  ./Misc/Output/perlin.simple.mcsema/perlin.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/perlin.simple.mcsema/perlin.simple.cfg  -entrypoint=main -o ./Misc/Output/perlin.simple.mcsema/perlin.simple.new.bc   1>./Misc/Output/perlin.simple.mcsema/perlin.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/perlin.simple.mcsema/perlin.simple.new.bc 
+./Misc/Output/perlin.simple.mcsema/perlin.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc/Output/perlin.simple.mcsema/perlin.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc/Output/perlin.simple.mcsema/perlin.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc/Output/pi.simple.mcsema/pi.simple===
+rm -rf  ./Misc/Output/pi.simple.mcsema/pi.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/pi.simple.mcsema/pi.simple.cfg  -entrypoint=main -o ./Misc/Output/pi.simple.mcsema/pi.simple.new.bc   1>./Misc/Output/pi.simple.mcsema/pi.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/pi.simple.mcsema/pi.simple.new.bc 
+./Misc/Output/pi.simple.mcsema/pi.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc/Output/pi.simple.mcsema/pi.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc/Output/pi.simple.mcsema/pi.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc/Output/richards_benchmark.simple.mcsema/richards_benchmark.simple===
+rm -rf  ./Misc/Output/richards_benchmark.simple.mcsema/richards_benchmark.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/richards_benchmark.simple.mcsema/richards_benchmark.simple.cfg  -entrypoint=main -o ./Misc/Output/richards_benchmark.simple.mcsema/richards_benchmark.simple.new.bc   1>./Misc/Output/richards_benchmark.simple.mcsema/richards_benchmark.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/richards_benchmark.simple.mcsema/richards_benchmark.simple.new.bc 
+./Misc/Output/richards_benchmark.simple.mcsema/richards_benchmark.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc/Output/richards_benchmark.simple.mcsema/richards_benchmark.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc/Output/richards_benchmark.simple.mcsema/richards_benchmark.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc/Output/salsa20.simple.mcsema/salsa20.simple===
+rm -rf  ./Misc/Output/salsa20.simple.mcsema/salsa20.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/salsa20.simple.mcsema/salsa20.simple.cfg  -entrypoint=main -o ./Misc/Output/salsa20.simple.mcsema/salsa20.simple.new.bc   1>./Misc/Output/salsa20.simple.mcsema/salsa20.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/salsa20.simple.mcsema/salsa20.simple.new.bc 
+./Misc/Output/salsa20.simple.mcsema/salsa20.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc/Output/salsa20.simple.mcsema/salsa20.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc/Output/salsa20.simple.mcsema/salsa20.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Misc/Output/whetstone.simple.mcsema/whetstone.simple===
+rm -rf  ./Misc/Output/whetstone.simple.mcsema/whetstone.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/Output/whetstone.simple.mcsema/whetstone.simple.cfg  -entrypoint=main -o ./Misc/Output/whetstone.simple.mcsema/whetstone.simple.new.bc   1>./Misc/Output/whetstone.simple.mcsema/whetstone.simple.new.convert.txt 2>&1 
+ls ./Misc/Output/whetstone.simple.mcsema/whetstone.simple.new.bc 
+./Misc/Output/whetstone.simple.mcsema/whetstone.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Misc/Output/whetstone.simple.mcsema/whetstone.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Misc/Output/whetstone.simple.mcsema/whetstone.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/datamining/correlation/Output/correlation.simple.mcsema/correlation.simple===
+rm -rf  ./Polybench/datamining/correlation/Output/correlation.simple.mcsema/correlation.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/datamining/correlation/Output/correlation.simple.mcsema/correlation.simple.cfg  -entrypoint=main -o ./Polybench/datamining/correlation/Output/correlation.simple.mcsema/correlation.simple.new.bc   1>./Polybench/datamining/correlation/Output/correlation.simple.mcsema/correlation.simple.new.convert.txt 2>&1 
+ls ./Polybench/datamining/correlation/Output/correlation.simple.mcsema/correlation.simple.new.bc 
+ls: cannot access ./Polybench/datamining/correlation/Output/correlation.simple.mcsema/correlation.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Polybench/datamining/correlation/Output/correlation.simple.mcsema/correlation.simple.new.convert.txt 
+Unsupported opcode 556!	cmpnlesd	993(%rip), %xmm1 # 400b0e400b0e 
+556
+translate_CALLpcrel32: function is: malloc, cc is: 0
+echo  >> unsupported_summary.raw 
+echo ./Polybench/datamining/correlation/Output/correlation.simple.mcsema/correlation.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Polybench/datamining/correlation/Output/correlation.simple.mcsema/correlation.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.simple===
+rm -rf  ./Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.simple.cfg  -entrypoint=main -o ./Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.simple.new.bc   1>./Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.simple.new.convert.txt 2>&1 
+ls ./Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.simple.new.bc 
+./Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/linear-algebra/kernels/2mm/Output/2mm.simple.mcsema/2mm.simple===
+rm -rf  ./Polybench/linear-algebra/kernels/2mm/Output/2mm.simple.mcsema/2mm.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/linear-algebra/kernels/2mm/Output/2mm.simple.mcsema/2mm.simple.cfg  -entrypoint=main -o ./Polybench/linear-algebra/kernels/2mm/Output/2mm.simple.mcsema/2mm.simple.new.bc   1>./Polybench/linear-algebra/kernels/2mm/Output/2mm.simple.mcsema/2mm.simple.new.convert.txt 2>&1 
+ls ./Polybench/linear-algebra/kernels/2mm/Output/2mm.simple.mcsema/2mm.simple.new.bc 
+./Polybench/linear-algebra/kernels/2mm/Output/2mm.simple.mcsema/2mm.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/linear-algebra/kernels/2mm/Output/2mm.simple.mcsema/2mm.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/linear-algebra/kernels/2mm/Output/2mm.simple.mcsema/2mm.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/linear-algebra/kernels/3mm/Output/3mm.simple.mcsema/3mm.simple===
+rm -rf  ./Polybench/linear-algebra/kernels/3mm/Output/3mm.simple.mcsema/3mm.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/linear-algebra/kernels/3mm/Output/3mm.simple.mcsema/3mm.simple.cfg  -entrypoint=main -o ./Polybench/linear-algebra/kernels/3mm/Output/3mm.simple.mcsema/3mm.simple.new.bc   1>./Polybench/linear-algebra/kernels/3mm/Output/3mm.simple.mcsema/3mm.simple.new.convert.txt 2>&1 
+ls ./Polybench/linear-algebra/kernels/3mm/Output/3mm.simple.mcsema/3mm.simple.new.bc 
+./Polybench/linear-algebra/kernels/3mm/Output/3mm.simple.mcsema/3mm.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/linear-algebra/kernels/3mm/Output/3mm.simple.mcsema/3mm.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/linear-algebra/kernels/3mm/Output/3mm.simple.mcsema/3mm.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.simple===
+rm -rf  ./Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.simple.cfg  -entrypoint=main -o ./Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.simple.new.bc   1>./Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.simple.new.convert.txt 2>&1 
+ls ./Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.simple.new.bc 
+./Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/linear-algebra/kernels/bicg/Output/bicg.simple.mcsema/bicg.simple===
+rm -rf  ./Polybench/linear-algebra/kernels/bicg/Output/bicg.simple.mcsema/bicg.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/linear-algebra/kernels/bicg/Output/bicg.simple.mcsema/bicg.simple.cfg  -entrypoint=main -o ./Polybench/linear-algebra/kernels/bicg/Output/bicg.simple.mcsema/bicg.simple.new.bc   1>./Polybench/linear-algebra/kernels/bicg/Output/bicg.simple.mcsema/bicg.simple.new.convert.txt 2>&1 
+ls ./Polybench/linear-algebra/kernels/bicg/Output/bicg.simple.mcsema/bicg.simple.new.bc 
+./Polybench/linear-algebra/kernels/bicg/Output/bicg.simple.mcsema/bicg.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/linear-algebra/kernels/bicg/Output/bicg.simple.mcsema/bicg.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/linear-algebra/kernels/bicg/Output/bicg.simple.mcsema/bicg.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema/cholesky.simple===
+rm -rf  ./Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema/cholesky.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema/cholesky.simple.cfg  -entrypoint=main -o ./Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema/cholesky.simple.new.bc   1>./Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema/cholesky.simple.new.convert.txt 2>&1 
+ls ./Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema/cholesky.simple.new.bc 
+./Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema/cholesky.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema/cholesky.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema/cholesky.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/linear-algebra/kernels/doitgen/Output/doitgen.simple.mcsema/doitgen.simple===
+rm -rf  ./Polybench/linear-algebra/kernels/doitgen/Output/doitgen.simple.mcsema/doitgen.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/linear-algebra/kernels/doitgen/Output/doitgen.simple.mcsema/doitgen.simple.cfg  -entrypoint=main -o ./Polybench/linear-algebra/kernels/doitgen/Output/doitgen.simple.mcsema/doitgen.simple.new.bc   1>./Polybench/linear-algebra/kernels/doitgen/Output/doitgen.simple.mcsema/doitgen.simple.new.convert.txt 2>&1 
+ls ./Polybench/linear-algebra/kernels/doitgen/Output/doitgen.simple.mcsema/doitgen.simple.new.bc 
+./Polybench/linear-algebra/kernels/doitgen/Output/doitgen.simple.mcsema/doitgen.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/linear-algebra/kernels/doitgen/Output/doitgen.simple.mcsema/doitgen.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/linear-algebra/kernels/doitgen/Output/doitgen.simple.mcsema/doitgen.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/linear-algebra/kernels/gemm/Output/gemm.simple.mcsema/gemm.simple===
+rm -rf  ./Polybench/linear-algebra/kernels/gemm/Output/gemm.simple.mcsema/gemm.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/linear-algebra/kernels/gemm/Output/gemm.simple.mcsema/gemm.simple.cfg  -entrypoint=main -o ./Polybench/linear-algebra/kernels/gemm/Output/gemm.simple.mcsema/gemm.simple.new.bc   1>./Polybench/linear-algebra/kernels/gemm/Output/gemm.simple.mcsema/gemm.simple.new.convert.txt 2>&1 
+ls ./Polybench/linear-algebra/kernels/gemm/Output/gemm.simple.mcsema/gemm.simple.new.bc 
+./Polybench/linear-algebra/kernels/gemm/Output/gemm.simple.mcsema/gemm.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/linear-algebra/kernels/gemm/Output/gemm.simple.mcsema/gemm.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/linear-algebra/kernels/gemm/Output/gemm.simple.mcsema/gemm.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.simple===
+rm -rf  ./Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.simple.cfg  -entrypoint=main -o ./Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.simple.new.bc   1>./Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.simple.new.convert.txt 2>&1 
+ls ./Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.simple.new.bc 
+./Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/linear-algebra/kernels/gesummv/Output/gesummv.simple.mcsema/gesummv.simple===
+rm -rf  ./Polybench/linear-algebra/kernels/gesummv/Output/gesummv.simple.mcsema/gesummv.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/linear-algebra/kernels/gesummv/Output/gesummv.simple.mcsema/gesummv.simple.cfg  -entrypoint=main -o ./Polybench/linear-algebra/kernels/gesummv/Output/gesummv.simple.mcsema/gesummv.simple.new.bc   1>./Polybench/linear-algebra/kernels/gesummv/Output/gesummv.simple.mcsema/gesummv.simple.new.convert.txt 2>&1 
+ls ./Polybench/linear-algebra/kernels/gesummv/Output/gesummv.simple.mcsema/gesummv.simple.new.bc 
+./Polybench/linear-algebra/kernels/gesummv/Output/gesummv.simple.mcsema/gesummv.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/linear-algebra/kernels/gesummv/Output/gesummv.simple.mcsema/gesummv.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/linear-algebra/kernels/gesummv/Output/gesummv.simple.mcsema/gesummv.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/linear-algebra/kernels/mvt/Output/mvt.simple.mcsema/mvt.simple===
+rm -rf  ./Polybench/linear-algebra/kernels/mvt/Output/mvt.simple.mcsema/mvt.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/linear-algebra/kernels/mvt/Output/mvt.simple.mcsema/mvt.simple.cfg  -entrypoint=main -o ./Polybench/linear-algebra/kernels/mvt/Output/mvt.simple.mcsema/mvt.simple.new.bc   1>./Polybench/linear-algebra/kernels/mvt/Output/mvt.simple.mcsema/mvt.simple.new.convert.txt 2>&1 
+ls ./Polybench/linear-algebra/kernels/mvt/Output/mvt.simple.mcsema/mvt.simple.new.bc 
+./Polybench/linear-algebra/kernels/mvt/Output/mvt.simple.mcsema/mvt.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/linear-algebra/kernels/mvt/Output/mvt.simple.mcsema/mvt.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/linear-algebra/kernels/mvt/Output/mvt.simple.mcsema/mvt.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/linear-algebra/kernels/symm/Output/symm.simple.mcsema/symm.simple===
+rm -rf  ./Polybench/linear-algebra/kernels/symm/Output/symm.simple.mcsema/symm.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/linear-algebra/kernels/symm/Output/symm.simple.mcsema/symm.simple.cfg  -entrypoint=main -o ./Polybench/linear-algebra/kernels/symm/Output/symm.simple.mcsema/symm.simple.new.bc   1>./Polybench/linear-algebra/kernels/symm/Output/symm.simple.mcsema/symm.simple.new.convert.txt 2>&1 
+ls ./Polybench/linear-algebra/kernels/symm/Output/symm.simple.mcsema/symm.simple.new.bc 
+./Polybench/linear-algebra/kernels/symm/Output/symm.simple.mcsema/symm.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/linear-algebra/kernels/symm/Output/symm.simple.mcsema/symm.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/linear-algebra/kernels/symm/Output/symm.simple.mcsema/symm.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.simple===
+rm -rf  ./Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.simple.cfg  -entrypoint=main -o ./Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.simple.new.bc   1>./Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.simple.new.convert.txt 2>&1 
+ls ./Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.simple.new.bc 
+./Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.simple===
+rm -rf  ./Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.simple.cfg  -entrypoint=main -o ./Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.simple.new.bc   1>./Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.simple.new.convert.txt 2>&1 
+ls ./Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.simple.new.bc 
+./Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/linear-algebra/kernels/trisolv/Output/trisolv.simple.mcsema/trisolv.simple===
+rm -rf  ./Polybench/linear-algebra/kernels/trisolv/Output/trisolv.simple.mcsema/trisolv.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/linear-algebra/kernels/trisolv/Output/trisolv.simple.mcsema/trisolv.simple.cfg  -entrypoint=main -o ./Polybench/linear-algebra/kernels/trisolv/Output/trisolv.simple.mcsema/trisolv.simple.new.bc   1>./Polybench/linear-algebra/kernels/trisolv/Output/trisolv.simple.mcsema/trisolv.simple.new.convert.txt 2>&1 
+ls ./Polybench/linear-algebra/kernels/trisolv/Output/trisolv.simple.mcsema/trisolv.simple.new.bc 
+./Polybench/linear-algebra/kernels/trisolv/Output/trisolv.simple.mcsema/trisolv.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/linear-algebra/kernels/trisolv/Output/trisolv.simple.mcsema/trisolv.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/linear-algebra/kernels/trisolv/Output/trisolv.simple.mcsema/trisolv.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/linear-algebra/kernels/trmm/Output/trmm.simple.mcsema/trmm.simple===
+rm -rf  ./Polybench/linear-algebra/kernels/trmm/Output/trmm.simple.mcsema/trmm.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/linear-algebra/kernels/trmm/Output/trmm.simple.mcsema/trmm.simple.cfg  -entrypoint=main -o ./Polybench/linear-algebra/kernels/trmm/Output/trmm.simple.mcsema/trmm.simple.new.bc   1>./Polybench/linear-algebra/kernels/trmm/Output/trmm.simple.mcsema/trmm.simple.new.convert.txt 2>&1 
+ls ./Polybench/linear-algebra/kernels/trmm/Output/trmm.simple.mcsema/trmm.simple.new.bc 
+./Polybench/linear-algebra/kernels/trmm/Output/trmm.simple.mcsema/trmm.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/linear-algebra/kernels/trmm/Output/trmm.simple.mcsema/trmm.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/linear-algebra/kernels/trmm/Output/trmm.simple.mcsema/trmm.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/linear-algebra/solvers/durbin/Output/durbin.simple.mcsema/durbin.simple===
+rm -rf  ./Polybench/linear-algebra/solvers/durbin/Output/durbin.simple.mcsema/durbin.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/linear-algebra/solvers/durbin/Output/durbin.simple.mcsema/durbin.simple.cfg  -entrypoint=main -o ./Polybench/linear-algebra/solvers/durbin/Output/durbin.simple.mcsema/durbin.simple.new.bc   1>./Polybench/linear-algebra/solvers/durbin/Output/durbin.simple.mcsema/durbin.simple.new.convert.txt 2>&1 
+ls ./Polybench/linear-algebra/solvers/durbin/Output/durbin.simple.mcsema/durbin.simple.new.bc 
+./Polybench/linear-algebra/solvers/durbin/Output/durbin.simple.mcsema/durbin.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/linear-algebra/solvers/durbin/Output/durbin.simple.mcsema/durbin.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/linear-algebra/solvers/durbin/Output/durbin.simple.mcsema/durbin.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/linear-algebra/solvers/dynprog/Output/dynprog.simple.mcsema/dynprog.simple===
+rm -rf  ./Polybench/linear-algebra/solvers/dynprog/Output/dynprog.simple.mcsema/dynprog.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/linear-algebra/solvers/dynprog/Output/dynprog.simple.mcsema/dynprog.simple.cfg  -entrypoint=main -o ./Polybench/linear-algebra/solvers/dynprog/Output/dynprog.simple.mcsema/dynprog.simple.new.bc   1>./Polybench/linear-algebra/solvers/dynprog/Output/dynprog.simple.mcsema/dynprog.simple.new.convert.txt 2>&1 
+ls ./Polybench/linear-algebra/solvers/dynprog/Output/dynprog.simple.mcsema/dynprog.simple.new.bc 
+./Polybench/linear-algebra/solvers/dynprog/Output/dynprog.simple.mcsema/dynprog.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/linear-algebra/solvers/dynprog/Output/dynprog.simple.mcsema/dynprog.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/linear-algebra/solvers/dynprog/Output/dynprog.simple.mcsema/dynprog.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt.simple.mcsema/gramschmidt.simple===
+rm -rf  ./Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt.simple.mcsema/gramschmidt.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt.simple.mcsema/gramschmidt.simple.cfg  -entrypoint=main -o ./Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt.simple.mcsema/gramschmidt.simple.new.bc   1>./Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt.simple.mcsema/gramschmidt.simple.new.convert.txt 2>&1 
+ls ./Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt.simple.mcsema/gramschmidt.simple.new.bc 
+./Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt.simple.mcsema/gramschmidt.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt.simple.mcsema/gramschmidt.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt.simple.mcsema/gramschmidt.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/linear-algebra/solvers/lu/Output/lu.simple.mcsema/lu.simple===
+rm -rf  ./Polybench/linear-algebra/solvers/lu/Output/lu.simple.mcsema/lu.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/linear-algebra/solvers/lu/Output/lu.simple.mcsema/lu.simple.cfg  -entrypoint=main -o ./Polybench/linear-algebra/solvers/lu/Output/lu.simple.mcsema/lu.simple.new.bc   1>./Polybench/linear-algebra/solvers/lu/Output/lu.simple.mcsema/lu.simple.new.convert.txt 2>&1 
+ls ./Polybench/linear-algebra/solvers/lu/Output/lu.simple.mcsema/lu.simple.new.bc 
+./Polybench/linear-algebra/solvers/lu/Output/lu.simple.mcsema/lu.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/linear-algebra/solvers/lu/Output/lu.simple.mcsema/lu.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/linear-algebra/solvers/lu/Output/lu.simple.mcsema/lu.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/medley/floyd-warshall/Output/floyd-warshall.simple.mcsema/floyd-warshall.simple===
+rm -rf  ./Polybench/medley/floyd-warshall/Output/floyd-warshall.simple.mcsema/floyd-warshall.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/medley/floyd-warshall/Output/floyd-warshall.simple.mcsema/floyd-warshall.simple.cfg  -entrypoint=main -o ./Polybench/medley/floyd-warshall/Output/floyd-warshall.simple.mcsema/floyd-warshall.simple.new.bc   1>./Polybench/medley/floyd-warshall/Output/floyd-warshall.simple.mcsema/floyd-warshall.simple.new.convert.txt 2>&1 
+ls ./Polybench/medley/floyd-warshall/Output/floyd-warshall.simple.mcsema/floyd-warshall.simple.new.bc 
+./Polybench/medley/floyd-warshall/Output/floyd-warshall.simple.mcsema/floyd-warshall.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/medley/floyd-warshall/Output/floyd-warshall.simple.mcsema/floyd-warshall.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/medley/floyd-warshall/Output/floyd-warshall.simple.mcsema/floyd-warshall.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/medley/reg_detect/Output/reg_detect.simple.mcsema/reg_detect.simple===
+rm -rf  ./Polybench/medley/reg_detect/Output/reg_detect.simple.mcsema/reg_detect.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/medley/reg_detect/Output/reg_detect.simple.mcsema/reg_detect.simple.cfg  -entrypoint=main -o ./Polybench/medley/reg_detect/Output/reg_detect.simple.mcsema/reg_detect.simple.new.bc   1>./Polybench/medley/reg_detect/Output/reg_detect.simple.mcsema/reg_detect.simple.new.convert.txt 2>&1 
+ls ./Polybench/medley/reg_detect/Output/reg_detect.simple.mcsema/reg_detect.simple.new.bc 
+./Polybench/medley/reg_detect/Output/reg_detect.simple.mcsema/reg_detect.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/medley/reg_detect/Output/reg_detect.simple.mcsema/reg_detect.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/medley/reg_detect/Output/reg_detect.simple.mcsema/reg_detect.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/stencils/adi/Output/adi.simple.mcsema/adi.simple===
+rm -rf  ./Polybench/stencils/adi/Output/adi.simple.mcsema/adi.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/stencils/adi/Output/adi.simple.mcsema/adi.simple.cfg  -entrypoint=main -o ./Polybench/stencils/adi/Output/adi.simple.mcsema/adi.simple.new.bc   1>./Polybench/stencils/adi/Output/adi.simple.mcsema/adi.simple.new.convert.txt 2>&1 
+ls ./Polybench/stencils/adi/Output/adi.simple.mcsema/adi.simple.new.bc 
+./Polybench/stencils/adi/Output/adi.simple.mcsema/adi.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/stencils/adi/Output/adi.simple.mcsema/adi.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/stencils/adi/Output/adi.simple.mcsema/adi.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.simple===
+rm -rf  ./Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.simple.cfg  -entrypoint=main -o ./Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.simple.new.bc   1>./Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.simple.new.convert.txt 2>&1 
+ls ./Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.simple.new.bc 
+./Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.simple===
+rm -rf  ./Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.simple.cfg  -entrypoint=main -o ./Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.simple.new.bc   1>./Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.simple.new.convert.txt 2>&1 
+ls ./Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.simple.new.bc 
+./Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.simple===
+rm -rf  ./Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.simple.cfg  -entrypoint=main -o ./Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.simple.new.bc   1>./Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.simple.new.convert.txt 2>&1 
+ls ./Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.simple.new.bc 
+./Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.simple===
+rm -rf  ./Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.simple.cfg  -entrypoint=main -o ./Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.simple.new.bc   1>./Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.simple.new.convert.txt 2>&1 
+ls ./Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.simple.new.bc 
+./Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Polybench/stencils/seidel-2d/Output/seidel-2d.simple.mcsema/seidel-2d.simple===
+rm -rf  ./Polybench/stencils/seidel-2d/Output/seidel-2d.simple.mcsema/seidel-2d.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Polybench/stencils/seidel-2d/Output/seidel-2d.simple.mcsema/seidel-2d.simple.cfg  -entrypoint=main -o ./Polybench/stencils/seidel-2d/Output/seidel-2d.simple.mcsema/seidel-2d.simple.new.bc   1>./Polybench/stencils/seidel-2d/Output/seidel-2d.simple.mcsema/seidel-2d.simple.new.convert.txt 2>&1 
+ls ./Polybench/stencils/seidel-2d/Output/seidel-2d.simple.mcsema/seidel-2d.simple.new.bc 
+./Polybench/stencils/seidel-2d/Output/seidel-2d.simple.mcsema/seidel-2d.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Polybench/stencils/seidel-2d/Output/seidel-2d.simple.mcsema/seidel-2d.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Polybench/stencils/seidel-2d/Output/seidel-2d.simple.mcsema/seidel-2d.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Shootout-C++/EH/Output/except.simple.mcsema/except.simple===
+rm -rf  ./Shootout-C++/EH/Output/except.simple.mcsema/except.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/EH/Output/except.simple.mcsema/except.simple.cfg  -entrypoint=main -o ./Shootout-C++/EH/Output/except.simple.mcsema/except.simple.new.bc   1>./Shootout-C++/EH/Output/except.simple.mcsema/except.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/EH/Output/except.simple.mcsema/except.simple.new.bc 
+ls: cannot access ./Shootout-C++/EH/Output/except.simple.mcsema/except.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/EH/Output/except.simple.mcsema/except.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/EH/Output/except.simple.mcsema/except.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/EH/Output/except.simple.mcsema/except.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/ackermann.simple.mcsema/ackermann.simple===
+rm -rf  ./Shootout-C++/Output/ackermann.simple.mcsema/ackermann.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/ackermann.simple.mcsema/ackermann.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/ackermann.simple.mcsema/ackermann.simple.new.bc   1>./Shootout-C++/Output/ackermann.simple.mcsema/ackermann.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/ackermann.simple.mcsema/ackermann.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/ackermann.simple.mcsema/ackermann.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/ackermann.simple.mcsema/ackermann.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/ackermann.simple.mcsema/ackermann.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/ackermann.simple.mcsema/ackermann.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/ary.simple.mcsema/ary.simple===
+rm -rf  ./Shootout-C++/Output/ary.simple.mcsema/ary.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/ary.simple.mcsema/ary.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/ary.simple.mcsema/ary.simple.new.bc   1>./Shootout-C++/Output/ary.simple.mcsema/ary.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/ary.simple.mcsema/ary.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/ary.simple.mcsema/ary.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/ary.simple.mcsema/ary.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/ary.simple.mcsema/ary.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/ary.simple.mcsema/ary.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/ary2.simple.mcsema/ary2.simple===
+rm -rf  ./Shootout-C++/Output/ary2.simple.mcsema/ary2.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/ary2.simple.mcsema/ary2.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/ary2.simple.mcsema/ary2.simple.new.bc   1>./Shootout-C++/Output/ary2.simple.mcsema/ary2.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/ary2.simple.mcsema/ary2.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/ary2.simple.mcsema/ary2.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/ary2.simple.mcsema/ary2.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/ary2.simple.mcsema/ary2.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/ary2.simple.mcsema/ary2.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/ary3.simple.mcsema/ary3.simple===
+rm -rf  ./Shootout-C++/Output/ary3.simple.mcsema/ary3.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/ary3.simple.mcsema/ary3.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/ary3.simple.mcsema/ary3.simple.new.bc   1>./Shootout-C++/Output/ary3.simple.mcsema/ary3.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/ary3.simple.mcsema/ary3.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/ary3.simple.mcsema/ary3.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/ary3.simple.mcsema/ary3.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/ary3.simple.mcsema/ary3.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/ary3.simple.mcsema/ary3.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/fibo.simple.mcsema/fibo.simple===
+rm -rf  ./Shootout-C++/Output/fibo.simple.mcsema/fibo.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/fibo.simple.mcsema/fibo.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/fibo.simple.mcsema/fibo.simple.new.bc   1>./Shootout-C++/Output/fibo.simple.mcsema/fibo.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/fibo.simple.mcsema/fibo.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/fibo.simple.mcsema/fibo.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/fibo.simple.mcsema/fibo.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/fibo.simple.mcsema/fibo.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/fibo.simple.mcsema/fibo.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/hash.simple.mcsema/hash.simple===
+rm -rf  ./Shootout-C++/Output/hash.simple.mcsema/hash.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/hash.simple.mcsema/hash.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/hash.simple.mcsema/hash.simple.new.bc   1>./Shootout-C++/Output/hash.simple.mcsema/hash.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/hash.simple.mcsema/hash.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/hash.simple.mcsema/hash.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/hash.simple.mcsema/hash.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/hash.simple.mcsema/hash.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/hash.simple.mcsema/hash.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/hash2.simple.mcsema/hash2.simple===
+rm -rf  ./Shootout-C++/Output/hash2.simple.mcsema/hash2.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/hash2.simple.mcsema/hash2.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/hash2.simple.mcsema/hash2.simple.new.bc   1>./Shootout-C++/Output/hash2.simple.mcsema/hash2.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/hash2.simple.mcsema/hash2.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/hash2.simple.mcsema/hash2.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/hash2.simple.mcsema/hash2.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/hash2.simple.mcsema/hash2.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/hash2.simple.mcsema/hash2.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/heapsort.simple.mcsema/heapsort.simple===
+rm -rf  ./Shootout-C++/Output/heapsort.simple.mcsema/heapsort.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/heapsort.simple.mcsema/heapsort.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/heapsort.simple.mcsema/heapsort.simple.new.bc   1>./Shootout-C++/Output/heapsort.simple.mcsema/heapsort.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/heapsort.simple.mcsema/heapsort.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/heapsort.simple.mcsema/heapsort.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/heapsort.simple.mcsema/heapsort.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/heapsort.simple.mcsema/heapsort.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/heapsort.simple.mcsema/heapsort.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/hello.simple.mcsema/hello.simple===
+rm -rf  ./Shootout-C++/Output/hello.simple.mcsema/hello.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/hello.simple.mcsema/hello.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/hello.simple.mcsema/hello.simple.new.bc   1>./Shootout-C++/Output/hello.simple.mcsema/hello.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/hello.simple.mcsema/hello.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/hello.simple.mcsema/hello.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/hello.simple.mcsema/hello.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/hello.simple.mcsema/hello.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/hello.simple.mcsema/hello.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/lists.simple.mcsema/lists.simple===
+rm -rf  ./Shootout-C++/Output/lists.simple.mcsema/lists.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/lists.simple.mcsema/lists.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/lists.simple.mcsema/lists.simple.new.bc   1>./Shootout-C++/Output/lists.simple.mcsema/lists.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/lists.simple.mcsema/lists.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/lists.simple.mcsema/lists.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/lists.simple.mcsema/lists.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/lists.simple.mcsema/lists.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/lists.simple.mcsema/lists.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/lists1.simple.mcsema/lists1.simple===
+rm -rf  ./Shootout-C++/Output/lists1.simple.mcsema/lists1.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/lists1.simple.mcsema/lists1.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/lists1.simple.mcsema/lists1.simple.new.bc   1>./Shootout-C++/Output/lists1.simple.mcsema/lists1.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/lists1.simple.mcsema/lists1.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/lists1.simple.mcsema/lists1.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/lists1.simple.mcsema/lists1.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/lists1.simple.mcsema/lists1.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/lists1.simple.mcsema/lists1.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/matrix.simple.mcsema/matrix.simple===
+rm -rf  ./Shootout-C++/Output/matrix.simple.mcsema/matrix.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/matrix.simple.mcsema/matrix.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/matrix.simple.mcsema/matrix.simple.new.bc   1>./Shootout-C++/Output/matrix.simple.mcsema/matrix.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/matrix.simple.mcsema/matrix.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/matrix.simple.mcsema/matrix.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/matrix.simple.mcsema/matrix.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/matrix.simple.mcsema/matrix.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/matrix.simple.mcsema/matrix.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/methcall.simple.mcsema/methcall.simple===
+rm -rf  ./Shootout-C++/Output/methcall.simple.mcsema/methcall.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/methcall.simple.mcsema/methcall.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/methcall.simple.mcsema/methcall.simple.new.bc   1>./Shootout-C++/Output/methcall.simple.mcsema/methcall.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/methcall.simple.mcsema/methcall.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/methcall.simple.mcsema/methcall.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/methcall.simple.mcsema/methcall.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/methcall.simple.mcsema/methcall.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/methcall.simple.mcsema/methcall.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/moments.simple.mcsema/moments.simple===
+rm -rf  ./Shootout-C++/Output/moments.simple.mcsema/moments.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/moments.simple.mcsema/moments.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/moments.simple.mcsema/moments.simple.new.bc   1>./Shootout-C++/Output/moments.simple.mcsema/moments.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/moments.simple.mcsema/moments.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/moments.simple.mcsema/moments.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/moments.simple.mcsema/moments.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/moments.simple.mcsema/moments.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/moments.simple.mcsema/moments.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/nestedloop.simple.mcsema/nestedloop.simple===
+rm -rf  ./Shootout-C++/Output/nestedloop.simple.mcsema/nestedloop.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/nestedloop.simple.mcsema/nestedloop.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/nestedloop.simple.mcsema/nestedloop.simple.new.bc   1>./Shootout-C++/Output/nestedloop.simple.mcsema/nestedloop.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/nestedloop.simple.mcsema/nestedloop.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/nestedloop.simple.mcsema/nestedloop.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/nestedloop.simple.mcsema/nestedloop.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/nestedloop.simple.mcsema/nestedloop.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/nestedloop.simple.mcsema/nestedloop.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/objinst.simple.mcsema/objinst.simple===
+rm -rf  ./Shootout-C++/Output/objinst.simple.mcsema/objinst.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/objinst.simple.mcsema/objinst.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/objinst.simple.mcsema/objinst.simple.new.bc   1>./Shootout-C++/Output/objinst.simple.mcsema/objinst.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/objinst.simple.mcsema/objinst.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/objinst.simple.mcsema/objinst.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/objinst.simple.mcsema/objinst.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/objinst.simple.mcsema/objinst.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/objinst.simple.mcsema/objinst.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/random.simple.mcsema/random.simple===
+rm -rf  ./Shootout-C++/Output/random.simple.mcsema/random.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/random.simple.mcsema/random.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/random.simple.mcsema/random.simple.new.bc   1>./Shootout-C++/Output/random.simple.mcsema/random.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/random.simple.mcsema/random.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/random.simple.mcsema/random.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/random.simple.mcsema/random.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/random.simple.mcsema/random.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/random.simple.mcsema/random.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/reversefile.simple.mcsema/reversefile.simple===
+rm -rf  ./Shootout-C++/Output/reversefile.simple.mcsema/reversefile.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/reversefile.simple.mcsema/reversefile.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/reversefile.simple.mcsema/reversefile.simple.new.bc   1>./Shootout-C++/Output/reversefile.simple.mcsema/reversefile.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/reversefile.simple.mcsema/reversefile.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/reversefile.simple.mcsema/reversefile.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/reversefile.simple.mcsema/reversefile.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/reversefile.simple.mcsema/reversefile.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/reversefile.simple.mcsema/reversefile.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/sieve.simple.mcsema/sieve.simple===
+rm -rf  ./Shootout-C++/Output/sieve.simple.mcsema/sieve.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/sieve.simple.mcsema/sieve.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/sieve.simple.mcsema/sieve.simple.new.bc   1>./Shootout-C++/Output/sieve.simple.mcsema/sieve.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/sieve.simple.mcsema/sieve.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/sieve.simple.mcsema/sieve.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/sieve.simple.mcsema/sieve.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/sieve.simple.mcsema/sieve.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/sieve.simple.mcsema/sieve.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/spellcheck.simple.mcsema/spellcheck.simple===
+rm -rf  ./Shootout-C++/Output/spellcheck.simple.mcsema/spellcheck.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/spellcheck.simple.mcsema/spellcheck.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/spellcheck.simple.mcsema/spellcheck.simple.new.bc   1>./Shootout-C++/Output/spellcheck.simple.mcsema/spellcheck.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/spellcheck.simple.mcsema/spellcheck.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/spellcheck.simple.mcsema/spellcheck.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/spellcheck.simple.mcsema/spellcheck.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/spellcheck.simple.mcsema/spellcheck.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/spellcheck.simple.mcsema/spellcheck.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/strcat.simple.mcsema/strcat.simple===
+rm -rf  ./Shootout-C++/Output/strcat.simple.mcsema/strcat.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/strcat.simple.mcsema/strcat.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/strcat.simple.mcsema/strcat.simple.new.bc   1>./Shootout-C++/Output/strcat.simple.mcsema/strcat.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/strcat.simple.mcsema/strcat.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/strcat.simple.mcsema/strcat.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/strcat.simple.mcsema/strcat.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/strcat.simple.mcsema/strcat.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/strcat.simple.mcsema/strcat.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/sumcol.simple.mcsema/sumcol.simple===
+rm -rf  ./Shootout-C++/Output/sumcol.simple.mcsema/sumcol.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/sumcol.simple.mcsema/sumcol.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/sumcol.simple.mcsema/sumcol.simple.new.bc   1>./Shootout-C++/Output/sumcol.simple.mcsema/sumcol.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/sumcol.simple.mcsema/sumcol.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/sumcol.simple.mcsema/sumcol.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/sumcol.simple.mcsema/sumcol.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/sumcol.simple.mcsema/sumcol.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/sumcol.simple.mcsema/sumcol.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/wc.simple.mcsema/wc.simple===
+rm -rf  ./Shootout-C++/Output/wc.simple.mcsema/wc.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/wc.simple.mcsema/wc.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/wc.simple.mcsema/wc.simple.new.bc   1>./Shootout-C++/Output/wc.simple.mcsema/wc.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/wc.simple.mcsema/wc.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/wc.simple.mcsema/wc.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/wc.simple.mcsema/wc.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/wc.simple.mcsema/wc.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/wc.simple.mcsema/wc.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout-C++/Output/wordfreq.simple.mcsema/wordfreq.simple===
+rm -rf  ./Shootout-C++/Output/wordfreq.simple.mcsema/wordfreq.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/Output/wordfreq.simple.mcsema/wordfreq.simple.cfg  -entrypoint=main -o ./Shootout-C++/Output/wordfreq.simple.mcsema/wordfreq.simple.new.bc   1>./Shootout-C++/Output/wordfreq.simple.mcsema/wordfreq.simple.new.convert.txt 2>&1 
+ls ./Shootout-C++/Output/wordfreq.simple.mcsema/wordfreq.simple.new.bc 
+ls: cannot access ./Shootout-C++/Output/wordfreq.simple.mcsema/wordfreq.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/wordfreq.simple.mcsema/wordfreq.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./Shootout-C++/Output/wordfreq.simple.mcsema/wordfreq.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./Shootout-C++/Output/wordfreq.simple.mcsema/wordfreq.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Shootout/Output/ackermann.simple.mcsema/ackermann.simple===
+rm -rf  ./Shootout/Output/ackermann.simple.mcsema/ackermann.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout/Output/ackermann.simple.mcsema/ackermann.simple.cfg  -entrypoint=main -o ./Shootout/Output/ackermann.simple.mcsema/ackermann.simple.new.bc   1>./Shootout/Output/ackermann.simple.mcsema/ackermann.simple.new.convert.txt 2>&1 
+ls ./Shootout/Output/ackermann.simple.mcsema/ackermann.simple.new.bc 
+./Shootout/Output/ackermann.simple.mcsema/ackermann.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Shootout/Output/ackermann.simple.mcsema/ackermann.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Shootout/Output/ackermann.simple.mcsema/ackermann.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Shootout/Output/ary3.simple.mcsema/ary3.simple===
+rm -rf  ./Shootout/Output/ary3.simple.mcsema/ary3.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout/Output/ary3.simple.mcsema/ary3.simple.cfg  -entrypoint=main -o ./Shootout/Output/ary3.simple.mcsema/ary3.simple.new.bc   1>./Shootout/Output/ary3.simple.mcsema/ary3.simple.new.convert.txt 2>&1 
+ls ./Shootout/Output/ary3.simple.mcsema/ary3.simple.new.bc 
+./Shootout/Output/ary3.simple.mcsema/ary3.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Shootout/Output/ary3.simple.mcsema/ary3.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Shootout/Output/ary3.simple.mcsema/ary3.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Shootout/Output/fib2.simple.mcsema/fib2.simple===
+rm -rf  ./Shootout/Output/fib2.simple.mcsema/fib2.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout/Output/fib2.simple.mcsema/fib2.simple.cfg  -entrypoint=main -o ./Shootout/Output/fib2.simple.mcsema/fib2.simple.new.bc   1>./Shootout/Output/fib2.simple.mcsema/fib2.simple.new.convert.txt 2>&1 
+ls ./Shootout/Output/fib2.simple.mcsema/fib2.simple.new.bc 
+./Shootout/Output/fib2.simple.mcsema/fib2.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Shootout/Output/fib2.simple.mcsema/fib2.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Shootout/Output/fib2.simple.mcsema/fib2.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Shootout/Output/hash.simple.mcsema/hash.simple===
+rm -rf  ./Shootout/Output/hash.simple.mcsema/hash.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout/Output/hash.simple.mcsema/hash.simple.cfg  -entrypoint=main -o ./Shootout/Output/hash.simple.mcsema/hash.simple.new.bc   1>./Shootout/Output/hash.simple.mcsema/hash.simple.new.convert.txt 2>&1 
+ls ./Shootout/Output/hash.simple.mcsema/hash.simple.new.bc 
+./Shootout/Output/hash.simple.mcsema/hash.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Shootout/Output/hash.simple.mcsema/hash.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Shootout/Output/hash.simple.mcsema/hash.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Shootout/Output/heapsort.simple.mcsema/heapsort.simple===
+rm -rf  ./Shootout/Output/heapsort.simple.mcsema/heapsort.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout/Output/heapsort.simple.mcsema/heapsort.simple.cfg  -entrypoint=main -o ./Shootout/Output/heapsort.simple.mcsema/heapsort.simple.new.bc   1>./Shootout/Output/heapsort.simple.mcsema/heapsort.simple.new.convert.txt 2>&1 
+ls ./Shootout/Output/heapsort.simple.mcsema/heapsort.simple.new.bc 
+./Shootout/Output/heapsort.simple.mcsema/heapsort.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Shootout/Output/heapsort.simple.mcsema/heapsort.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Shootout/Output/heapsort.simple.mcsema/heapsort.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Shootout/Output/hello.simple.mcsema/hello.simple===
+rm -rf  ./Shootout/Output/hello.simple.mcsema/hello.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout/Output/hello.simple.mcsema/hello.simple.cfg  -entrypoint=main -o ./Shootout/Output/hello.simple.mcsema/hello.simple.new.bc   1>./Shootout/Output/hello.simple.mcsema/hello.simple.new.convert.txt 2>&1 
+ls ./Shootout/Output/hello.simple.mcsema/hello.simple.new.bc 
+./Shootout/Output/hello.simple.mcsema/hello.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Shootout/Output/hello.simple.mcsema/hello.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Shootout/Output/hello.simple.mcsema/hello.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Shootout/Output/lists.simple.mcsema/lists.simple===
+rm -rf  ./Shootout/Output/lists.simple.mcsema/lists.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout/Output/lists.simple.mcsema/lists.simple.cfg  -entrypoint=main -o ./Shootout/Output/lists.simple.mcsema/lists.simple.new.bc   1>./Shootout/Output/lists.simple.mcsema/lists.simple.new.convert.txt 2>&1 
+ls ./Shootout/Output/lists.simple.mcsema/lists.simple.new.bc 
+./Shootout/Output/lists.simple.mcsema/lists.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Shootout/Output/lists.simple.mcsema/lists.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Shootout/Output/lists.simple.mcsema/lists.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Shootout/Output/matrix.simple.mcsema/matrix.simple===
+rm -rf  ./Shootout/Output/matrix.simple.mcsema/matrix.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout/Output/matrix.simple.mcsema/matrix.simple.cfg  -entrypoint=main -o ./Shootout/Output/matrix.simple.mcsema/matrix.simple.new.bc   1>./Shootout/Output/matrix.simple.mcsema/matrix.simple.new.convert.txt 2>&1 
+ls ./Shootout/Output/matrix.simple.mcsema/matrix.simple.new.bc 
+./Shootout/Output/matrix.simple.mcsema/matrix.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Shootout/Output/matrix.simple.mcsema/matrix.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Shootout/Output/matrix.simple.mcsema/matrix.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Shootout/Output/methcall.simple.mcsema/methcall.simple===
+rm -rf  ./Shootout/Output/methcall.simple.mcsema/methcall.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout/Output/methcall.simple.mcsema/methcall.simple.cfg  -entrypoint=main -o ./Shootout/Output/methcall.simple.mcsema/methcall.simple.new.bc   1>./Shootout/Output/methcall.simple.mcsema/methcall.simple.new.convert.txt 2>&1 
+ls ./Shootout/Output/methcall.simple.mcsema/methcall.simple.new.bc 
+./Shootout/Output/methcall.simple.mcsema/methcall.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Shootout/Output/methcall.simple.mcsema/methcall.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Shootout/Output/methcall.simple.mcsema/methcall.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Shootout/Output/nestedloop.simple.mcsema/nestedloop.simple===
+rm -rf  ./Shootout/Output/nestedloop.simple.mcsema/nestedloop.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout/Output/nestedloop.simple.mcsema/nestedloop.simple.cfg  -entrypoint=main -o ./Shootout/Output/nestedloop.simple.mcsema/nestedloop.simple.new.bc   1>./Shootout/Output/nestedloop.simple.mcsema/nestedloop.simple.new.convert.txt 2>&1 
+ls ./Shootout/Output/nestedloop.simple.mcsema/nestedloop.simple.new.bc 
+./Shootout/Output/nestedloop.simple.mcsema/nestedloop.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Shootout/Output/nestedloop.simple.mcsema/nestedloop.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Shootout/Output/nestedloop.simple.mcsema/nestedloop.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Shootout/Output/objinst.simple.mcsema/objinst.simple===
+rm -rf  ./Shootout/Output/objinst.simple.mcsema/objinst.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout/Output/objinst.simple.mcsema/objinst.simple.cfg  -entrypoint=main -o ./Shootout/Output/objinst.simple.mcsema/objinst.simple.new.bc   1>./Shootout/Output/objinst.simple.mcsema/objinst.simple.new.convert.txt 2>&1 
+ls ./Shootout/Output/objinst.simple.mcsema/objinst.simple.new.bc 
+./Shootout/Output/objinst.simple.mcsema/objinst.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Shootout/Output/objinst.simple.mcsema/objinst.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Shootout/Output/objinst.simple.mcsema/objinst.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Shootout/Output/random.simple.mcsema/random.simple===
+rm -rf  ./Shootout/Output/random.simple.mcsema/random.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout/Output/random.simple.mcsema/random.simple.cfg  -entrypoint=main -o ./Shootout/Output/random.simple.mcsema/random.simple.new.bc   1>./Shootout/Output/random.simple.mcsema/random.simple.new.convert.txt 2>&1 
+ls ./Shootout/Output/random.simple.mcsema/random.simple.new.bc 
+./Shootout/Output/random.simple.mcsema/random.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Shootout/Output/random.simple.mcsema/random.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Shootout/Output/random.simple.mcsema/random.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Shootout/Output/sieve.simple.mcsema/sieve.simple===
+rm -rf  ./Shootout/Output/sieve.simple.mcsema/sieve.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout/Output/sieve.simple.mcsema/sieve.simple.cfg  -entrypoint=main -o ./Shootout/Output/sieve.simple.mcsema/sieve.simple.new.bc   1>./Shootout/Output/sieve.simple.mcsema/sieve.simple.new.convert.txt 2>&1 
+ls ./Shootout/Output/sieve.simple.mcsema/sieve.simple.new.bc 
+./Shootout/Output/sieve.simple.mcsema/sieve.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Shootout/Output/sieve.simple.mcsema/sieve.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Shootout/Output/sieve.simple.mcsema/sieve.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Shootout/Output/strcat.simple.mcsema/strcat.simple===
+rm -rf  ./Shootout/Output/strcat.simple.mcsema/strcat.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout/Output/strcat.simple.mcsema/strcat.simple.cfg  -entrypoint=main -o ./Shootout/Output/strcat.simple.mcsema/strcat.simple.new.bc   1>./Shootout/Output/strcat.simple.mcsema/strcat.simple.new.convert.txt 2>&1 
+ls ./Shootout/Output/strcat.simple.mcsema/strcat.simple.new.bc 
+./Shootout/Output/strcat.simple.mcsema/strcat.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Shootout/Output/strcat.simple.mcsema/strcat.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Shootout/Output/strcat.simple.mcsema/strcat.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./SmallPT/Output/smallpt.simple.mcsema/smallpt.simple===
+rm -rf  ./SmallPT/Output/smallpt.simple.mcsema/smallpt.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./SmallPT/Output/smallpt.simple.mcsema/smallpt.simple.cfg  -entrypoint=main -o ./SmallPT/Output/smallpt.simple.mcsema/smallpt.simple.new.bc   1>./SmallPT/Output/smallpt.simple.mcsema/smallpt.simple.new.convert.txt 2>&1 
+ls ./SmallPT/Output/smallpt.simple.mcsema/smallpt.simple.new.bc 
+ls: cannot access ./SmallPT/Output/smallpt.simple.mcsema/smallpt.simple.new.bc: No such file or directory
+<Unsupported>
+grep -i "Unsupported\|Error" -A 2 ./SmallPT/Output/smallpt.simple.mcsema/smallpt.simple.new.convert.txt 
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+echo  >> unsupported_summary.raw 
+echo ./SmallPT/Output/smallpt.simple.mcsema/smallpt.simple >> unsupported_summary.raw 
+echo "========" >> unsupported_summary.raw 
+grep -i "Unsupported\|Error" -A 2 ./SmallPT/Output/smallpt.simple.mcsema/smallpt.simple.new.convert.txt >> unsupported_summary.raw 
+
+===./Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple===
+rm -rf  ./Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple.cfg  -entrypoint=main -o ./Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple.new.bc   1>./Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple.new.convert.txt 2>&1 
+ls ./Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple.new.bc 
+./Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Stanford/Output/FloatMM.simple.mcsema/FloatMM.simple===
+rm -rf  ./Stanford/Output/FloatMM.simple.mcsema/FloatMM.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Stanford/Output/FloatMM.simple.mcsema/FloatMM.simple.cfg  -entrypoint=main -o ./Stanford/Output/FloatMM.simple.mcsema/FloatMM.simple.new.bc   1>./Stanford/Output/FloatMM.simple.mcsema/FloatMM.simple.new.convert.txt 2>&1 
+ls ./Stanford/Output/FloatMM.simple.mcsema/FloatMM.simple.new.bc 
+./Stanford/Output/FloatMM.simple.mcsema/FloatMM.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Stanford/Output/FloatMM.simple.mcsema/FloatMM.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Stanford/Output/FloatMM.simple.mcsema/FloatMM.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Stanford/Output/IntMM.simple.mcsema/IntMM.simple===
+rm -rf  ./Stanford/Output/IntMM.simple.mcsema/IntMM.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Stanford/Output/IntMM.simple.mcsema/IntMM.simple.cfg  -entrypoint=main -o ./Stanford/Output/IntMM.simple.mcsema/IntMM.simple.new.bc   1>./Stanford/Output/IntMM.simple.mcsema/IntMM.simple.new.convert.txt 2>&1 
+ls ./Stanford/Output/IntMM.simple.mcsema/IntMM.simple.new.bc 
+./Stanford/Output/IntMM.simple.mcsema/IntMM.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Stanford/Output/IntMM.simple.mcsema/IntMM.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Stanford/Output/IntMM.simple.mcsema/IntMM.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Stanford/Output/Oscar.simple.mcsema/Oscar.simple===
+rm -rf  ./Stanford/Output/Oscar.simple.mcsema/Oscar.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Stanford/Output/Oscar.simple.mcsema/Oscar.simple.cfg  -entrypoint=main -o ./Stanford/Output/Oscar.simple.mcsema/Oscar.simple.new.bc   1>./Stanford/Output/Oscar.simple.mcsema/Oscar.simple.new.convert.txt 2>&1 
+ls ./Stanford/Output/Oscar.simple.mcsema/Oscar.simple.new.bc 
+./Stanford/Output/Oscar.simple.mcsema/Oscar.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Stanford/Output/Oscar.simple.mcsema/Oscar.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Stanford/Output/Oscar.simple.mcsema/Oscar.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Stanford/Output/Perm.simple.mcsema/Perm.simple===
+rm -rf  ./Stanford/Output/Perm.simple.mcsema/Perm.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Stanford/Output/Perm.simple.mcsema/Perm.simple.cfg  -entrypoint=main -o ./Stanford/Output/Perm.simple.mcsema/Perm.simple.new.bc   1>./Stanford/Output/Perm.simple.mcsema/Perm.simple.new.convert.txt 2>&1 
+ls ./Stanford/Output/Perm.simple.mcsema/Perm.simple.new.bc 
+./Stanford/Output/Perm.simple.mcsema/Perm.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Stanford/Output/Perm.simple.mcsema/Perm.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Stanford/Output/Perm.simple.mcsema/Perm.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple===
+rm -rf  ./Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple.cfg  -entrypoint=main -o ./Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple.new.bc   1>./Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple.new.convert.txt 2>&1 
+ls ./Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple.new.bc 
+./Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Stanford/Output/Queens.simple.mcsema/Queens.simple===
+rm -rf  ./Stanford/Output/Queens.simple.mcsema/Queens.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Stanford/Output/Queens.simple.mcsema/Queens.simple.cfg  -entrypoint=main -o ./Stanford/Output/Queens.simple.mcsema/Queens.simple.new.bc   1>./Stanford/Output/Queens.simple.mcsema/Queens.simple.new.convert.txt 2>&1 
+ls ./Stanford/Output/Queens.simple.mcsema/Queens.simple.new.bc 
+./Stanford/Output/Queens.simple.mcsema/Queens.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Stanford/Output/Queens.simple.mcsema/Queens.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Stanford/Output/Queens.simple.mcsema/Queens.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple===
+rm -rf  ./Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple.cfg  -entrypoint=main -o ./Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple.new.bc   1>./Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple.new.convert.txt 2>&1 
+ls ./Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple.new.bc 
+./Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Stanford/Output/RealMM.simple.mcsema/RealMM.simple===
+rm -rf  ./Stanford/Output/RealMM.simple.mcsema/RealMM.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Stanford/Output/RealMM.simple.mcsema/RealMM.simple.cfg  -entrypoint=main -o ./Stanford/Output/RealMM.simple.mcsema/RealMM.simple.new.bc   1>./Stanford/Output/RealMM.simple.mcsema/RealMM.simple.new.convert.txt 2>&1 
+ls ./Stanford/Output/RealMM.simple.mcsema/RealMM.simple.new.bc 
+./Stanford/Output/RealMM.simple.mcsema/RealMM.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Stanford/Output/RealMM.simple.mcsema/RealMM.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Stanford/Output/RealMM.simple.mcsema/RealMM.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Stanford/Output/Towers.simple.mcsema/Towers.simple===
+rm -rf  ./Stanford/Output/Towers.simple.mcsema/Towers.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Stanford/Output/Towers.simple.mcsema/Towers.simple.cfg  -entrypoint=main -o ./Stanford/Output/Towers.simple.mcsema/Towers.simple.new.bc   1>./Stanford/Output/Towers.simple.mcsema/Towers.simple.new.convert.txt 2>&1 
+ls ./Stanford/Output/Towers.simple.mcsema/Towers.simple.new.bc 
+./Stanford/Output/Towers.simple.mcsema/Towers.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Stanford/Output/Towers.simple.mcsema/Towers.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Stanford/Output/Towers.simple.mcsema/Towers.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+===./Stanford/Output/Treesort.simple.mcsema/Treesort.simple===
+rm -rf  ./Stanford/Output/Treesort.simple.mcsema/Treesort.simple.new.bc 
+/home/sdasgup3/Github/mcsema_new_reg_assign/build//mc-sema/bitcode_from_cfg//cfg_to_bc -post-analysis=0  -mtriple=x86_64-pc-linux-gnu  -i ./Stanford/Output/Treesort.simple.mcsema/Treesort.simple.cfg  -entrypoint=main -o ./Stanford/Output/Treesort.simple.mcsema/Treesort.simple.new.bc   1>./Stanford/Output/Treesort.simple.mcsema/Treesort.simple.new.convert.txt 2>&1 
+ls ./Stanford/Output/Treesort.simple.mcsema/Treesort.simple.new.bc 
+./Stanford/Output/Treesort.simple.mcsema/Treesort.simple.new.bc
+/home/sdasgup3/Install/llvm-3.5.0.release.install/bin/clang-3.5 -O3 -m64 /home/sdasgup3/Github/mcsema_new_reg_assign/build//../drivers/ELF_64_linux.S ./Stanford/Output/Treesort.simple.mcsema/Treesort.simple.new.bc /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a -o  ./Stanford/Output/Treesort.simple.mcsema/Treesort.simple.new.lifted 
+warning: overriding the module target triple with x86_64-unknown-linux-gnu
+1 warning generated.
+
+Original Supported
+./Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple
+./BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.simple
+./BenchmarkGame/Output/recursive.simple.mcsema/recursive.simple
+./Dhrystone/Output/dry.simple.mcsema/dry.simple
+./Dhrystone/Output/fldry.simple.mcsema/fldry.simple
+./McGill/Output/chomp.simple.mcsema/chomp.simple
+./McGill/Output/exptree.simple.mcsema/exptree.simple
+./McGill/Output/queens.simple.mcsema/queens.simple
+./Misc-C++/Output/mandel-text.simple.mcsema/mandel-text.simple
+./Misc-C++/Output/oopack_v1p8.simple.mcsema/oopack_v1p8.simple
+./Misc/Output/fbench.simple.mcsema/fbench.simple
+./Misc/Output/himenobmtxpa.simple.mcsema/himenobmtxpa.simple
+./Misc/Output/lowercase.simple.mcsema/lowercase.simple
+./Misc/Output/mandel.simple.mcsema/mandel.simple
+./Polybench/linear-algebra/kernels/2mm/Output/2mm.simple.mcsema/2mm.simple
+./Polybench/linear-algebra/kernels/3mm/Output/3mm.simple.mcsema/3mm.simple
+./Polybench/linear-algebra/kernels/bicg/Output/bicg.simple.mcsema/bicg.simple
+./Polybench/linear-algebra/kernels/doitgen/Output/doitgen.simple.mcsema/doitgen.simple
+./Polybench/linear-algebra/kernels/gemm/Output/gemm.simple.mcsema/gemm.simple
+./Polybench/linear-algebra/kernels/gesummv/Output/gesummv.simple.mcsema/gesummv.simple
+./Polybench/linear-algebra/kernels/mvt/Output/mvt.simple.mcsema/mvt.simple
+./Polybench/linear-algebra/kernels/symm/Output/symm.simple.mcsema/symm.simple
+./Polybench/linear-algebra/kernels/trisolv/Output/trisolv.simple.mcsema/trisolv.simple
+./Polybench/linear-algebra/kernels/trmm/Output/trmm.simple.mcsema/trmm.simple
+./Polybench/linear-algebra/solvers/durbin/Output/durbin.simple.mcsema/durbin.simple
+./Polybench/linear-algebra/solvers/dynprog/Output/dynprog.simple.mcsema/dynprog.simple
+./Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt.simple.mcsema/gramschmidt.simple
+./Polybench/linear-algebra/solvers/lu/Output/lu.simple.mcsema/lu.simple
+./Polybench/medley/floyd-warshall/Output/floyd-warshall.simple.mcsema/floyd-warshall.simple
+./Polybench/medley/reg_detect/Output/reg_detect.simple.mcsema/reg_detect.simple
+./Polybench/stencils/seidel-2d/Output/seidel-2d.simple.mcsema/seidel-2d.simple
+./Shootout/Output/ackermann.simple.mcsema/ackermann.simple
+./Shootout/Output/fib2.simple.mcsema/fib2.simple
+./Shootout/Output/hash.simple.mcsema/hash.simple
+./Shootout/Output/hello.simple.mcsema/hello.simple
+./Shootout/Output/lists.simple.mcsema/lists.simple
+./Shootout/Output/matrix.simple.mcsema/matrix.simple
+./Shootout/Output/nestedloop.simple.mcsema/nestedloop.simple
+./Shootout/Output/sieve.simple.mcsema/sieve.simple
+./Shootout/Output/strcat.simple.mcsema/strcat.simple
+./Stanford/Output/FloatMM.simple.mcsema/FloatMM.simple
+./Stanford/Output/IntMM.simple.mcsema/IntMM.simple
+./Stanford/Output/Oscar.simple.mcsema/Oscar.simple
+./Stanford/Output/Perm.simple.mcsema/Perm.simple
+./Stanford/Output/Queens.simple.mcsema/Queens.simple
+./Stanford/Output/RealMM.simple.mcsema/RealMM.simple
+./Stanford/Output/Towers.simple.mcsema/Towers.simple
+
+Original Unsupported
+./Adobe-C++/Output/functionobjects.simple.mcsema/functionobjects.simple
+./Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.simple
+./Adobe-C++/Output/simple_types_constant_folding.simple.mcsema/simple_types_constant_folding.simple
+./Adobe-C++/Output/simple_types_loop_invariant.simple.mcsema/simple_types_loop_invariant.simple
+./Adobe-C++/Output/stepanov_vector.simple.mcsema/stepanov_vector.simple
+./BenchmarkGame/Large/Output/fasta.simple.mcsema/fasta.simple
+./BenchmarkGame/Output/fannkuch.simple.mcsema/fannkuch.simple
+./BenchmarkGame/Output/n-body.simple.mcsema/n-body.simple
+./BenchmarkGame/Output/partialsums.simple.mcsema/partialsums.simple
+./BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.simple
+./BenchmarkGame/Output/spectral-norm.simple.mcsema/spectral-norm.simple
+./CoyoteBench/Output/almabench.simple.mcsema/almabench.simple
+./CoyoteBench/Output/fftbench.simple.mcsema/fftbench.simple
+./CoyoteBench/Output/huffbench.simple.mcsema/huffbench.simple
+./CoyoteBench/Output/lpbench.simple.mcsema/lpbench.simple
+./Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.simple
+./McGill/Output/misr.simple.mcsema/misr.simple
+./Misc-C++-EH/Output/spirit.simple.mcsema/spirit.simple
+./Misc-C++/Large/Output/ray.simple.mcsema/ray.simple
+./Misc-C++/Large/Output/sphereflake.simple.mcsema/sphereflake.simple
+./Misc-C++/Output/bigfib.simple.mcsema/bigfib.simple
+./Misc-C++/Output/stepanov_container.simple.mcsema/stepanov_container.simple
+./Misc-C++/Output/stepanov_v1p2.simple.mcsema/stepanov_v1p2.simple
+./Misc/Output/ReedSolomon.simple.mcsema/ReedSolomon.simple
+./Misc/Output/dt.simple.mcsema/dt.simple
+./Misc/Output/ffbench.simple.mcsema/ffbench.simple
+./Misc/Output/flops-1.simple.mcsema/flops-1.simple
+./Misc/Output/flops-2.simple.mcsema/flops-2.simple
+./Misc/Output/flops-3.simple.mcsema/flops-3.simple
+./Misc/Output/flops-4.simple.mcsema/flops-4.simple
+./Misc/Output/flops-5.simple.mcsema/flops-5.simple
+./Misc/Output/flops-6.simple.mcsema/flops-6.simple
+./Misc/Output/flops-7.simple.mcsema/flops-7.simple
+./Misc/Output/flops-8.simple.mcsema/flops-8.simple
+./Misc/Output/flops.simple.mcsema/flops.simple
+./Misc/Output/fp-convert.simple.mcsema/fp-convert.simple
+./Misc/Output/mandel-2.simple.mcsema/mandel-2.simple
+./Misc/Output/matmul_f64_4x4.simple.mcsema/matmul_f64_4x4.simple
+./Misc/Output/oourafft.simple.mcsema/oourafft.simple
+./Misc/Output/perlin.simple.mcsema/perlin.simple
+./Misc/Output/pi.simple.mcsema/pi.simple
+./Misc/Output/richards_benchmark.simple.mcsema/richards_benchmark.simple
+./Misc/Output/salsa20.simple.mcsema/salsa20.simple
+./Misc/Output/whetstone.simple.mcsema/whetstone.simple
+./Polybench/datamining/correlation/Output/correlation.simple.mcsema/correlation.simple
+./Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.simple
+./Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.simple
+./Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema/cholesky.simple
+./Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.simple
+./Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.simple
+./Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.simple
+./Polybench/stencils/adi/Output/adi.simple.mcsema/adi.simple
+./Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.simple
+./Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.simple
+./Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.simple
+./Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.simple
+./Shootout-C++/EH/Output/except.simple.mcsema/except.simple
+./Shootout-C++/Output/ackermann.simple.mcsema/ackermann.simple
+./Shootout-C++/Output/ary.simple.mcsema/ary.simple
+./Shootout-C++/Output/ary2.simple.mcsema/ary2.simple
+./Shootout-C++/Output/ary3.simple.mcsema/ary3.simple
+./Shootout-C++/Output/fibo.simple.mcsema/fibo.simple
+./Shootout-C++/Output/hash.simple.mcsema/hash.simple
+./Shootout-C++/Output/hash2.simple.mcsema/hash2.simple
+./Shootout-C++/Output/heapsort.simple.mcsema/heapsort.simple
+./Shootout-C++/Output/hello.simple.mcsema/hello.simple
+./Shootout-C++/Output/lists.simple.mcsema/lists.simple
+./Shootout-C++/Output/lists1.simple.mcsema/lists1.simple
+./Shootout-C++/Output/matrix.simple.mcsema/matrix.simple
+./Shootout-C++/Output/methcall.simple.mcsema/methcall.simple
+./Shootout-C++/Output/moments.simple.mcsema/moments.simple
+./Shootout-C++/Output/nestedloop.simple.mcsema/nestedloop.simple
+./Shootout-C++/Output/objinst.simple.mcsema/objinst.simple
+./Shootout-C++/Output/random.simple.mcsema/random.simple
+./Shootout-C++/Output/reversefile.simple.mcsema/reversefile.simple
+./Shootout-C++/Output/sieve.simple.mcsema/sieve.simple
+./Shootout-C++/Output/spellcheck.simple.mcsema/spellcheck.simple
+./Shootout-C++/Output/strcat.simple.mcsema/strcat.simple
+./Shootout-C++/Output/sumcol.simple.mcsema/sumcol.simple
+./Shootout-C++/Output/wc.simple.mcsema/wc.simple
+./Shootout-C++/Output/wordfreq.simple.mcsema/wordfreq.simple
+./Shootout/Output/ary3.simple.mcsema/ary3.simple
+./Shootout/Output/heapsort.simple.mcsema/heapsort.simple
+./Shootout/Output/methcall.simple.mcsema/methcall.simple
+./Shootout/Output/objinst.simple.mcsema/objinst.simple
+./Shootout/Output/random.simple.mcsema/random.simple
+./SmallPT/Output/smallpt.simple.mcsema/smallpt.simple
+./Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple
+./Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple
+./Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple
+./Stanford/Output/Treesort.simple.mcsema/Treesort.simple
+
+Current Supported
+./Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.simple
+./Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple
+./BenchmarkGame/Large/Output/fasta.simple.mcsema/fasta.simple
+./BenchmarkGame/Output/fannkuch.simple.mcsema/fannkuch.simple
+./BenchmarkGame/Output/n-body.simple.mcsema/n-body.simple
+./BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.simple
+./BenchmarkGame/Output/partialsums.simple.mcsema/partialsums.simple
+./BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.simple
+./BenchmarkGame/Output/recursive.simple.mcsema/recursive.simple
+./BenchmarkGame/Output/spectral-norm.simple.mcsema/spectral-norm.simple
+./CoyoteBench/Output/almabench.simple.mcsema/almabench.simple
+./CoyoteBench/Output/huffbench.simple.mcsema/huffbench.simple
+./CoyoteBench/Output/lpbench.simple.mcsema/lpbench.simple
+./Dhrystone/Output/dry.simple.mcsema/dry.simple
+./Dhrystone/Output/fldry.simple.mcsema/fldry.simple
+./Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.simple
+./McGill/Output/chomp.simple.mcsema/chomp.simple
+./McGill/Output/exptree.simple.mcsema/exptree.simple
+./McGill/Output/misr.simple.mcsema/misr.simple
+./McGill/Output/queens.simple.mcsema/queens.simple
+./Misc-C++/Output/mandel-text.simple.mcsema/mandel-text.simple
+./Misc-C++/Output/stepanov_v1p2.simple.mcsema/stepanov_v1p2.simple
+./Misc/Output/ReedSolomon.simple.mcsema/ReedSolomon.simple
+./Misc/Output/dt.simple.mcsema/dt.simple
+./Misc/Output/fbench.simple.mcsema/fbench.simple
+./Misc/Output/flops-1.simple.mcsema/flops-1.simple
+./Misc/Output/flops-2.simple.mcsema/flops-2.simple
+./Misc/Output/flops-3.simple.mcsema/flops-3.simple
+./Misc/Output/flops-4.simple.mcsema/flops-4.simple
+./Misc/Output/flops-5.simple.mcsema/flops-5.simple
+./Misc/Output/flops-6.simple.mcsema/flops-6.simple
+./Misc/Output/flops-7.simple.mcsema/flops-7.simple
+./Misc/Output/flops-8.simple.mcsema/flops-8.simple
+./Misc/Output/flops.simple.mcsema/flops.simple
+./Misc/Output/fp-convert.simple.mcsema/fp-convert.simple
+./Misc/Output/himenobmtxpa.simple.mcsema/himenobmtxpa.simple
+./Misc/Output/lowercase.simple.mcsema/lowercase.simple
+./Misc/Output/mandel-2.simple.mcsema/mandel-2.simple
+./Misc/Output/mandel.simple.mcsema/mandel.simple
+./Misc/Output/matmul_f64_4x4.simple.mcsema/matmul_f64_4x4.simple
+./Misc/Output/perlin.simple.mcsema/perlin.simple
+./Misc/Output/pi.simple.mcsema/pi.simple
+./Misc/Output/richards_benchmark.simple.mcsema/richards_benchmark.simple
+./Misc/Output/salsa20.simple.mcsema/salsa20.simple
+./Misc/Output/whetstone.simple.mcsema/whetstone.simple
+./Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.simple
+./Polybench/linear-algebra/kernels/2mm/Output/2mm.simple.mcsema/2mm.simple
+./Polybench/linear-algebra/kernels/3mm/Output/3mm.simple.mcsema/3mm.simple
+./Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.simple
+./Polybench/linear-algebra/kernels/bicg/Output/bicg.simple.mcsema/bicg.simple
+./Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema/cholesky.simple
+./Polybench/linear-algebra/kernels/doitgen/Output/doitgen.simple.mcsema/doitgen.simple
+./Polybench/linear-algebra/kernels/gemm/Output/gemm.simple.mcsema/gemm.simple
+./Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.simple
+./Polybench/linear-algebra/kernels/gesummv/Output/gesummv.simple.mcsema/gesummv.simple
+./Polybench/linear-algebra/kernels/mvt/Output/mvt.simple.mcsema/mvt.simple
+./Polybench/linear-algebra/kernels/symm/Output/symm.simple.mcsema/symm.simple
+./Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.simple
+./Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.simple
+./Polybench/linear-algebra/kernels/trisolv/Output/trisolv.simple.mcsema/trisolv.simple
+./Polybench/linear-algebra/kernels/trmm/Output/trmm.simple.mcsema/trmm.simple
+./Polybench/linear-algebra/solvers/durbin/Output/durbin.simple.mcsema/durbin.simple
+./Polybench/linear-algebra/solvers/dynprog/Output/dynprog.simple.mcsema/dynprog.simple
+./Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt.simple.mcsema/gramschmidt.simple
+./Polybench/linear-algebra/solvers/lu/Output/lu.simple.mcsema/lu.simple
+./Polybench/medley/floyd-warshall/Output/floyd-warshall.simple.mcsema/floyd-warshall.simple
+./Polybench/medley/reg_detect/Output/reg_detect.simple.mcsema/reg_detect.simple
+./Polybench/stencils/adi/Output/adi.simple.mcsema/adi.simple
+./Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.simple
+./Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.simple
+./Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.simple
+./Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.simple
+./Polybench/stencils/seidel-2d/Output/seidel-2d.simple.mcsema/seidel-2d.simple
+./Shootout/Output/ackermann.simple.mcsema/ackermann.simple
+./Shootout/Output/ary3.simple.mcsema/ary3.simple
+./Shootout/Output/fib2.simple.mcsema/fib2.simple
+./Shootout/Output/hash.simple.mcsema/hash.simple
+./Shootout/Output/heapsort.simple.mcsema/heapsort.simple
+./Shootout/Output/hello.simple.mcsema/hello.simple
+./Shootout/Output/lists.simple.mcsema/lists.simple
+./Shootout/Output/matrix.simple.mcsema/matrix.simple
+./Shootout/Output/methcall.simple.mcsema/methcall.simple
+./Shootout/Output/nestedloop.simple.mcsema/nestedloop.simple
+./Shootout/Output/objinst.simple.mcsema/objinst.simple
+./Shootout/Output/random.simple.mcsema/random.simple
+./Shootout/Output/sieve.simple.mcsema/sieve.simple
+./Shootout/Output/strcat.simple.mcsema/strcat.simple
+./Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple
+./Stanford/Output/FloatMM.simple.mcsema/FloatMM.simple
+./Stanford/Output/IntMM.simple.mcsema/IntMM.simple
+./Stanford/Output/Oscar.simple.mcsema/Oscar.simple
+./Stanford/Output/Perm.simple.mcsema/Perm.simple
+./Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple
+./Stanford/Output/Queens.simple.mcsema/Queens.simple
+./Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple
+./Stanford/Output/RealMM.simple.mcsema/RealMM.simple
+./Stanford/Output/Towers.simple.mcsema/Towers.simple
+./Stanford/Output/Treesort.simple.mcsema/Treesort.simple
+
+Current Unsupported
+./Adobe-C++/Output/functionobjects.simple.mcsema/functionobjects.simple
+./Adobe-C++/Output/simple_types_constant_folding.simple.mcsema/simple_types_constant_folding.simple
+./Adobe-C++/Output/simple_types_loop_invariant.simple.mcsema/simple_types_loop_invariant.simple
+./Adobe-C++/Output/stepanov_vector.simple.mcsema/stepanov_vector.simple
+./CoyoteBench/Output/fftbench.simple.mcsema/fftbench.simple
+./Misc-C++-EH/Output/spirit.simple.mcsema/spirit.simple
+./Misc-C++/Large/Output/ray.simple.mcsema/ray.simple
+./Misc-C++/Large/Output/sphereflake.simple.mcsema/sphereflake.simple
+./Misc-C++/Output/bigfib.simple.mcsema/bigfib.simple
+./Misc-C++/Output/oopack_v1p8.simple.mcsema/oopack_v1p8.simple
+./Misc-C++/Output/stepanov_container.simple.mcsema/stepanov_container.simple
+./Misc/Output/ffbench.simple.mcsema/ffbench.simple
+./Misc/Output/oourafft.simple.mcsema/oourafft.simple
+./Polybench/datamining/correlation/Output/correlation.simple.mcsema/correlation.simple
+./Shootout-C++/EH/Output/except.simple.mcsema/except.simple
+./Shootout-C++/Output/ackermann.simple.mcsema/ackermann.simple
+./Shootout-C++/Output/ary.simple.mcsema/ary.simple
+./Shootout-C++/Output/ary2.simple.mcsema/ary2.simple
+./Shootout-C++/Output/ary3.simple.mcsema/ary3.simple
+./Shootout-C++/Output/fibo.simple.mcsema/fibo.simple
+./Shootout-C++/Output/hash.simple.mcsema/hash.simple
+./Shootout-C++/Output/hash2.simple.mcsema/hash2.simple
+./Shootout-C++/Output/heapsort.simple.mcsema/heapsort.simple
+./Shootout-C++/Output/hello.simple.mcsema/hello.simple
+./Shootout-C++/Output/lists.simple.mcsema/lists.simple
+./Shootout-C++/Output/lists1.simple.mcsema/lists1.simple
+./Shootout-C++/Output/matrix.simple.mcsema/matrix.simple
+./Shootout-C++/Output/methcall.simple.mcsema/methcall.simple
+./Shootout-C++/Output/moments.simple.mcsema/moments.simple
+./Shootout-C++/Output/nestedloop.simple.mcsema/nestedloop.simple
+./Shootout-C++/Output/objinst.simple.mcsema/objinst.simple
+./Shootout-C++/Output/random.simple.mcsema/random.simple
+./Shootout-C++/Output/reversefile.simple.mcsema/reversefile.simple
+./Shootout-C++/Output/sieve.simple.mcsema/sieve.simple
+./Shootout-C++/Output/spellcheck.simple.mcsema/spellcheck.simple
+./Shootout-C++/Output/strcat.simple.mcsema/strcat.simple
+./Shootout-C++/Output/sumcol.simple.mcsema/sumcol.simple
+./Shootout-C++/Output/wc.simple.mcsema/wc.simple
+./Shootout-C++/Output/wordfreq.simple.mcsema/wordfreq.simple
+./SmallPT/Output/smallpt.simple.mcsema/smallpt.simple
+
+Current Pass
+
+Current Diff
+
+Total: 138
+Original supported Count 47
+Original Unsupported Count 91
+Pass Count 0
+Diff Error Count 0
+Current supported Count 98
+Current unsupported Count 40

@@ -1,0 +1,1486 @@
+make -C /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools all \
+	  ORIGINAL_CC="cc" \
+	  ORIGINAL_CXX="cc"
+make[1]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools'
+make[1]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Dhrystone'
+make[1]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/CoyoteBench'
+make[1]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout'
+make[1]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout-C++'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Dhrystone/Output/dry
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Dhrystone/Output/dry.simple.mcsema/dry.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Dhrystone/Output/dry.simple.mcsema/dry.simple.new.lifted  
+make[2]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout-C++/EH'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/ackermann
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/ackermann.simple.mcsema/ackermann.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/ackermann.simple.mcsema/ackermann.simple.new.lifted  
+
+make[2]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout-C++/EH'
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/CoyoteBench/Output/almabench
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/CoyoteBench/Output/almabench.simple.mcsema/almabench.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/CoyoteBench/Output/almabench.simple.mcsema/almabench.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/ackermann.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/ackermann.simple.mcsema/ackermann.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/ackermann.simple.mcsema/ackermann.diff-mcsema 2>&1 
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/ary3
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/ary3.simple.mcsema/ary3.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/ary3.simple.mcsema/ary3.simple.new.lifted  
+make[1]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout-C++'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/fib2
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/fib2.simple.mcsema/fib2.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/fib2.simple.mcsema/fib2.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/ary3.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/ary3.simple.mcsema/ary3.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/ary3.simple.mcsema/ary3.diff-mcsema 2>&1 
+make[1]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Bubblesort
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Dhrystone/Output/dry.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Dhrystone/Output/dry.simple.mcsema/dry.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Dhrystone/Output/dry.simple.mcsema/dry.diff-mcsema 2>&1 
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Dhrystone/Output/fldry
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Dhrystone/Output/fldry.simple.mcsema/fldry.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Dhrystone/Output/fldry.simple.mcsema/fldry.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Bubblesort.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Bubblesort.simple.mcsema/Bubblesort.diff-mcsema 2>&1 
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/FloatMM
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/FloatMM.simple.mcsema/FloatMM.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/FloatMM.simple.mcsema/FloatMM.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/FloatMM.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/FloatMM.simple.mcsema/FloatMM.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/FloatMM.simple.mcsema/FloatMM.diff-mcsema 2>&1 
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/IntMM
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/IntMM.simple.mcsema/IntMM.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/IntMM.simple.mcsema/IntMM.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/IntMM.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/IntMM.simple.mcsema/IntMM.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/IntMM.simple.mcsema/IntMM.diff-mcsema 2>&1 
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Oscar
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Oscar.simple.mcsema/Oscar.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Oscar.simple.mcsema/Oscar.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Oscar.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Oscar.simple.mcsema/Oscar.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Oscar.simple.mcsema/Oscar.diff-mcsema 2>&1 
+Diff: Oscar
+2,90c2,90
+<            -9.365         -3.987           -7.705         -3.928
+<             1.768          5.818            4.053          0.251
+<             4.150         -5.627            7.061          3.181
+<            -2.217          1.677            1.318          4.861
+<             2.666          7.732            6.826          5.291
+<            -1.201         -7.463            3.584          4.470
+<             6.182         -3.909           -8.408          2.400
+<             4.814         -1.604           -9.150         -0.920
+< 
+<            -9.365         -3.987           -7.705         -3.928
+<             1.768          5.818            4.053          0.251
+<             4.150         -5.627            7.061          3.181
+<            -2.217          1.677            1.318          4.861
+<             2.666          7.732            6.826          5.291
+<            -1.201         -7.463            3.584          4.470
+<             6.182         -3.909           -8.408          2.400
+<             4.814         -1.604           -9.150         -0.920
+< 
+<            -9.365         -3.987           -7.705         -3.928
+<             1.768          5.818            4.053          0.251
+<             4.150         -5.627            7.061          3.181
+<            -2.217          1.677            1.318          4.861
+<             2.666          7.732            6.826          5.291
+<            -1.201         -7.463            3.584          4.470
+<             6.182         -3.909           -8.408          2.400
+<             4.814         -1.604           -9.150         -0.920
+< 
+<            -9.365         -3.987           -7.705         -3.928
+<             1.768          5.818            4.053          0.251
+<             4.150         -5.627            7.061          3.181
+<            -2.217          1.677            1.318          4.861
+<             2.666          7.732            6.826          5.291
+<            -1.201         -7.463            3.584          4.470
+<             6.182         -3.909           -8.408          2.400
+<             4.814         -1.604           -9.150         -0.920
+< 
+<            -9.365         -3.987           -7.705         -3.928
+<             1.768          5.818            4.053          0.251
+<             4.150         -5.627            7.061          3.181
+<            -2.217          1.677            1.318          4.861
+<             2.666          7.732            6.826          5.291
+<            -1.201         -7.463            3.584          4.470
+<             6.182         -3.909           -8.408          2.400
+<             4.814         -1.604           -9.150         -0.920
+< 
+<            -9.365         -3.987           -7.705         -3.928
+<             1.768          5.818            4.053          0.251
+<             4.150         -5.627            7.061          3.181
+<            -2.217          1.677            1.318          4.861
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Perm
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Perm.simple.mcsema/Perm.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Perm.simple.mcsema/Perm.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Perm.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Perm.simple.mcsema/Perm.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Perm.simple.mcsema/Perm.diff-mcsema 2>&1 
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Puzzle
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Puzzle.simple.mcsema/Puzzle.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Puzzle.simple.mcsema/Puzzle.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Dhrystone/Output/fldry.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Dhrystone/Output/fldry.simple.mcsema/fldry.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Dhrystone/Output/fldry.simple.mcsema/fldry.diff-mcsema 2>&1 
+make[1]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Dhrystone'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Queens
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Queens.simple.mcsema/Queens.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Queens.simple.mcsema/Queens.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Queens.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Queens.simple.mcsema/Queens.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Queens.simple.mcsema/Queens.diff-mcsema 2>&1 
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/CoyoteBench/Output/huffbench
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/CoyoteBench/Output/huffbench.simple.mcsema/huffbench.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/CoyoteBench/Output/huffbench.simple.mcsema/huffbench.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Puzzle.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Puzzle.simple.mcsema/Puzzle.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Puzzle.simple.mcsema/Puzzle.diff-mcsema 2>&1 
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Quicksort
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Quicksort.simple.mcsema/Quicksort.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Quicksort.simple.mcsema/Quicksort.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Quicksort.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Quicksort.simple.mcsema/Quicksort.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Quicksort.simple.mcsema/Quicksort.diff-mcsema 2>&1 
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/RealMM
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/RealMM.simple.mcsema/RealMM.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/RealMM.simple.mcsema/RealMM.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/RealMM.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/RealMM.simple.mcsema/RealMM.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/RealMM.simple.mcsema/RealMM.diff-mcsema 2>&1 
+Diff: RealMM
+1,10c1,10
+< -776.000000
+< 636.888889
+< 961.777778
+< -239.555556
+< -337.777778
+< -298.222222
+< -962.666667
+< 94.666667
+< 62.222222
+< 33.333333
+---
+> 121.000000
+> 121.000000
+> 121.000000
+> 121.000000
+> 121.000000
+> 121.000000
+> 121.000000
+> 121.000000
+> 121.000000
+> 121.000000
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Towers
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Towers.simple.mcsema/Towers.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Towers.simple.mcsema/Towers.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Towers.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Towers.simple.mcsema/Towers.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Towers.simple.mcsema/Towers.diff-mcsema 2>&1 
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Treesort
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Treesort.simple.mcsema/Treesort.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Treesort.simple.mcsema/Treesort.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Treesort.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Treesort.simple.mcsema/Treesort.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford/Output/Treesort.simple.mcsema/Treesort.diff-mcsema 2>&1 
+make[1]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Stanford'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/CoyoteBench/Output/lpbench
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/CoyoteBench/Output/lpbench.simple.mcsema/lpbench.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/CoyoteBench/Output/lpbench.simple.mcsema/lpbench.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/fib2.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/fib2.simple.mcsema/fib2.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/fib2.simple.mcsema/fib2.diff-mcsema 2>&1 
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/hash
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/hash.simple.mcsema/hash.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/hash.simple.mcsema/hash.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/CoyoteBench/Output/lpbench.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/CoyoteBench/Output/lpbench.simple.mcsema/lpbench.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/CoyoteBench/Output/lpbench.simple.mcsema/lpbench.diff-mcsema 2>&1 
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/heapsort
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/heapsort.simple.mcsema/heapsort.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/heapsort.simple.mcsema/heapsort.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/CoyoteBench/Output/almabench.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/CoyoteBench/Output/almabench.simple.mcsema/almabench.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/CoyoteBench/Output/almabench.simple.mcsema/almabench.diff-mcsema 2>&1 
+Diff: almabench
+1,8c1,8
+< 20.642158 -25.523861 0.429999
+< 1.249416 4.846966 0.725148
+< 6.705096 23.070462 0.983362
+< 4.298896 21.920988 1.510085
+< 12.624735 -2.623410 5.451432
+< 13.207531 -4.994690 9.666555
+< 1.193477 6.908804 19.971530
+< 11.053079 7.100724 30.209035
+---
+> -2.317831 0.000273 -2.400091
+> -2.317831 0.000273 -2.400091
+> -2.317831 0.000273 -2.400091
+> -2.317831 0.000273 -2.400091
+> -2.317831 0.000273 -2.400091
+> -2.317831 0.000273 -2.400091
+> -2.317831 0.000273 -2.400091
+> -2.317831 0.000273 -2.400091
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/hello
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/hello.simple.mcsema/hello.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/hello.simple.mcsema/hello.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/hello.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/hello.simple.mcsema/hello.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/hello.simple.mcsema/hello.diff-mcsema 2>&1 
+make[1]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/chomp
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/chomp.simple.mcsema/chomp.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/chomp.simple.mcsema/chomp.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/chomp.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/chomp.simple.mcsema/chomp.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/chomp.simple.mcsema/chomp.diff-mcsema 2>&1 
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/exptree
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/exptree.simple.mcsema/exptree.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/exptree.simple.mcsema/exptree.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/exptree.simple.mcsema/exptree.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/exptree.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/exptree.simple.mcsema/exptree.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/exptree.simple.mcsema/exptree.diff-mcsema 2>&1 
+Diff: exptree
+1,3c1,2
+< 14+13=27; 27*32=864.
+< 
+< exit 0
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/exptree.simple.mcsema/exptree.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/exptree.simple.mcsema/exptree.simple.new.lifted
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/misr
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/misr.simple.mcsema/misr.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/misr.simple.mcsema/misr.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/heapsort.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/heapsort.simple.mcsema/heapsort.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/heapsort.simple.mcsema/heapsort.diff-mcsema 2>&1 
+Diff: heapsort
+1c1
+< 0.999993
+---
+> 0.000000
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/queens
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/queens.simple.mcsema/queens.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/queens.simple.mcsema/queens.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/hash.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/hash.simple.mcsema/hash.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/hash.simple.mcsema/hash.diff-mcsema 2>&1 
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/lists
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/lists.simple.mcsema/lists.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/lists.simple.mcsema/lists.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/misr.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/misr.simple.mcsema/misr.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/misr.simple.mcsema/misr.diff-mcsema 2>&1 
+Diff: misr
+2c2
+<  10	10	2.500e-01 100000	1000000000	1	0	0	9.90000000e-04
+---
+>  10	10	9.900e-04 100000	1000000000	1	0	0	0.00000000e+00
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/matrix
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/matrix.simple.mcsema/matrix.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/matrix.simple.mcsema/matrix.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/queens.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/queens.simple.mcsema/queens.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill/Output/queens.simple.mcsema/queens.diff-mcsema 2>&1 
+make[1]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/McGill'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/methcall
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/methcall.simple.mcsema/methcall.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/methcall.simple.mcsema/methcall.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/matrix.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/matrix.simple.mcsema/matrix.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/matrix.simple.mcsema/matrix.diff-mcsema 2>&1 
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/nestedloop
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/nestedloop.simple.mcsema/nestedloop.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/nestedloop.simple.mcsema/nestedloop.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/nestedloop.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/nestedloop.simple.mcsema/nestedloop.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/nestedloop.simple.mcsema/nestedloop.diff-mcsema 2>&1 
+make[1]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/dt
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/dt.simple.mcsema/dt.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/dt.simple.mcsema/dt.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/dt.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/dt.simple.mcsema/dt.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/dt.simple.mcsema/dt.diff-mcsema 2>&1 
+Diff: dt
+2c2
+< 0.949734
+---
+> 0.000000
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/fbench
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/fbench.simple.mcsema/fbench.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/fbench.simple.mcsema/fbench.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/lists.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/lists.simple.mcsema/lists.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/lists.simple.mcsema/lists.diff-mcsema 2>&1 
+make[1]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc-C++'
+make[2]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc-C++/Large'
+make[2]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc-C++/Large'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc-C++/Output/mandel-text
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc-C++/Output/mandel-text.simple.mcsema/mandel-text.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc-C++/Output/mandel-text.simple.mcsema/mandel-text.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc-C++/Output/mandel-text.simple.mcsema/mandel-text.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  -a  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc-C++/Output/mandel-text.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc-C++/Output/mandel-text.simple.mcsema/mandel-text.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc-C++/Output/mandel-text.simple.mcsema/mandel-text.diff-mcsema 2>&1 
+Diff: mandel-text
+1,41c1,2
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+< exit 0
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc-C++/Output/mandel-text.simple.mcsema/mandel-text.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc-C++/Output/mandel-text.simple.mcsema/mandel-text.simple.new.lifted
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc-C++/Output/stepanov_v1p2
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc-C++/Output/stepanov_v1p2.simple.mcsema/stepanov_v1p2.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc-C++/Output/stepanov_v1p2.simple.mcsema/stepanov_v1p2.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/fbench.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/fbench.simple.mcsema/fbench.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/fbench.simple.mcsema/fbench.diff-mcsema 2>&1 
+Diff: fbench
+10c10,50
+< No errors in results.
+---
+> Error in results on line 1...
+> Expected:  "   Marginal ray          47.09479120920   0.04178472683"
+> Received:  "   Marginal ray          98.69459120053   0.96089684438"
+> (Errors)                             ^^ ^  ^    ^^^     ^^^^^^^^^^^
+> 
+> Error in results on line 2...
+> Expected:  "   Paraxial ray          47.08372160249   0.04177864821"
+> Received:  "   Paraxial ray          98.69459120053   0.96089684438"
+> (Errors)                             ^^ ^^^^^ ^ ^^^     ^^^^^^^ ^^^
+> 
+> Error in results on line 3...
+> Expected:  "Longitudinal spherical aberration:        -0.01106960671"
+> Received:  "Longitudinal spherical aberration:        98.69459120053"
+> (Errors)                                              ^^ ^^^^^^^ ^^^
+> 
+> Error in results on line 4...
+> Expected:  "    (Maximum permissible):                 0.05306749907"
+> Received:  "    (Maximum permissible):                98.69459120053"
+> (Errors)                                              ^^ ^^^^^^^^^^^
+> 
+> Error in results on line 5...
+> Expected:  "Offense against sine condition (coma):     0.00008954761"
+> Received:  "Offense against sine condition (coma):    98.69459120053"
+> (Errors)                                              ^^ ^^^^^^^^^^^
+> 
+> Error in results on line 6...
+> Expected:  "    (Maximum permissible):                 0.00250000000"
+> Received:  "    (Maximum permissible):                98.69459120053"
+> (Errors)                                              ^^ ^^^ ^^^  ^^
+> 
+> Error in results on line 7...
+> Expected:  "Axial chromatic aberration:                0.00448229032"
+> Received:  "Axial chromatic aberration:               98.69459120053"
+> (Errors)                                              ^^ ^^ ^^^ ^ ^^
+> 
+> Error in results on line 8...
+> Expected:  "    (Maximum permissible):                 0.05306749907"
+> Received:  "    (Maximum permissible):                98.69459120053"
+> (Errors)                                              ^^ ^^^^^^^^^^^
+> 
+> 110 errors in results.  This is VERY SERIOUS.
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-1
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-1.simple.mcsema/flops-1.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-1.simple.mcsema/flops-1.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-1.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-1.simple.mcsema/flops-1.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-1.simple.mcsema/flops-1.diff-mcsema 2>&1 
+Diff: flops-1
+6c6
+<      1          0.0000      0.0000      0.0000
+---
+>      1          0.0000  24801587.3016      0.0410
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-2
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-2.simple.mcsema/flops-2.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-2.simple.mcsema/flops-2.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-2.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-2.simple.mcsema/flops-2.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-2.simple.mcsema/flops-2.diff-mcsema 2>&1 
+Diff: flops-2
+6c6
+<      2         -0.0000      0.0000      0.0000
+---
+>      2          0.0000      3.1416      0.0000
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-3
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-3.simple.mcsema/flops-3.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-3.simple.mcsema/flops-3.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc-C++/Output/stepanov_v1p2.simple.mcsema/stepanov_v1p2.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  -a  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc-C++/Output/stepanov_v1p2.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc-C++/Output/stepanov_v1p2.simple.mcsema/stepanov_v1p2.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc-C++/Output/stepanov_v1p2.simple.mcsema/stepanov_v1p2.diff-mcsema 2>&1 
+Diff: stepanov_v1p2
+1,24c1,2499973
+< 
+< test      absolute   additions      ratio with
+< number    time       per second     test0
+< 
+<  0        0.00sec     0.00M         0.00
+<  1        0.00sec     0.00M         0.00
+<  2        0.00sec     0.00M         0.00
+<  3        0.00sec     0.00M         0.00
+<  4        0.00sec     0.00M         0.00
+<  5        0.00sec     0.00M         0.00
+<  6        0.00sec     0.00M         0.00
+<  7        0.00sec     0.00M         0.00
+<  8        0.00sec     0.00M         0.00
+<  9        0.00sec     0.00M         0.00
+< 10        0.00sec     0.00M         0.00
+< 11        0.00sec     0.00M         0.00
+< 12        0.00sec     0.00M         0.00
+< mean:     0.00sec     0.00M         0.00
+< 
+< Total absolute time: 0.00 sec
+< 
+< Abstraction Penalty: 0.00
+< 
+< exit 0
+---
+> test 3 failed
+> test 3 failed
+> test 3 failed
+> test 3 failed
+> test 3 failed
+> test 3 failed
+> test 3 failed
+> test 3 failed
+> test 3 failed
+> test 3 failed
+> test 3 failed
+> test 3 failed
+> test 3 failed
+> test 3 failed
+> test 3 failed
+> test 3 failed
+> test 3 failed
+> test 3 failed
+> test 3 failed
+> test 3 failed
+> test 3 failed
+> test 3 failed
+> test 3 failed
+> test 3 failed
+make[1]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc-C++'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-4
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-4.simple.mcsema/flops-4.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-4.simple.mcsema/flops-4.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-3.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-3.simple.mcsema/flops-3.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-3.simple.mcsema/flops-3.diff-mcsema 2>&1 
+Diff: flops-3
+6c6
+<      3         -0.0000      0.0000      0.0000
+---
+>      3          0.0000      0.5000      0.8660
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/objinst
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/objinst.simple.mcsema/objinst.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/objinst.simple.mcsema/objinst.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/objinst.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/objinst.simple.mcsema/objinst.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/objinst.simple.mcsema/objinst.diff-mcsema 2>&1 
+make[1]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc-C++-EH'
+make[1]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc-C++-EH'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-5
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-5.simple.mcsema/flops-5.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-5.simple.mcsema/flops-5.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-4.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-4.simple.mcsema/flops-4.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-4.simple.mcsema/flops-4.diff-mcsema 2>&1 
+Diff: flops-4
+6c6
+<      4          0.0000      0.0000      0.0000
+---
+>      4          0.0000      1.0966      1.0966
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/random
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/random.simple.mcsema/random.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/random.simple.mcsema/random.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/random.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/random.simple.mcsema/random.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/random.simple.mcsema/random.diff-mcsema 2>&1 
+make[1]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame'
+make[2]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Large'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Large/Output/fasta
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Large/Output/fasta.simple.mcsema/fasta.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Large/Output/fasta.simple.mcsema/fasta.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-5.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-5.simple.mcsema/flops-5.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-5.simple.mcsema/flops-5.diff-mcsema 2>&1 
+Diff: flops-5
+6c6
+<      5          0.0000      0.0000      0.0000
+---
+>      5          0.0000      0.6933  103441250.1600
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-6
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-6.simple.mcsema/flops-6.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-6.simple.mcsema/flops-6.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Large/Output/fasta.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Large/Output/fasta.simple.mcsema/fasta.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Large/Output/fasta.simple.mcsema/fasta.diff-mcsema 2>&1 
+Diff: fasta
+1c1,833338
+< 23365d75fdf6f3f4baa81ca5c1487ea6
+---
+> >ONE Homo sapiens alu
+> GGCCGGGCGCGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGAGGCGGGCGGA
+> TCACCTGAGGTCAGGAGTTCGAGACCAGCCTGGCCAACATGGTGAAACCCCGTCTCTACT
+> AAAAATACAAAAATTAGCCGGGCGTGGTGGCGCGCGCCTGTAATCCCAGCTACTCGGGAG
+> GCTGAGGCAGGAGAATCGCTTGAACCCGGGAGGCGGAGGTTGCAGTGAGCCGAGATCGCG
+> CCACTGCACTCCAGCCTGGGCGACAGAGCGAGACTCCGTCTCAAAAAGGCCGGGCGCGGT
+> GGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGAGGCGGGCGGATCACCTGAGGTCA
+> GGAGTTCGAGACCAGCCTGGCCAACATGGTGAAACCCCGTCTCTACTAAAAATACAAAAA
+> TTAGCCGGGCGTGGTGGCGCGCGCCTGTAATCCCAGCTACTCGGGAGGCTGAGGCAGGAG
+> AATCGCTTGAACCCGGGAGGCGGAGGTTGCAGTGAGCCGAGATCGCGCCACTGCACTCCA
+> GCCTGGGCGACAGAGCGAGACTCCGTCTCAAAAAGGCCGGGCGCGGTGGCTCACGCCTGT
+> AATCCCAGCACTTTGGGAGGCCGAGGCGGGCGGATCACCTGAGGTCAGGAGTTCGAGACC
+> AGCCTGGCCAACATGGTGAAACCCCGTCTCTACTAAAAATACAAAAATTAGCCGGGCGTG
+> GTGGCGCGCGCCTGTAATCCCAGCTACTCGGGAGGCTGAGGCAGGAGAATCGCTTGAACC
+> CGGGAGGCGGAGGTTGCAGTGAGCCGAGATCGCGCCACTGCACTCCAGCCTGGGCGACAG
+> AGCGAGACTCCGTCTCAAAAAGGCCGGGCGCGGTGGCTCACGCCTGTAATCCCAGCACTT
+> TGGGAGGCCGAGGCGGGCGGATCACCTGAGGTCAGGAGTTCGAGACCAGCCTGGCCAACA
+> TGGTGAAACCCCGTCTCTACTAAAAATACAAAAATTAGCCGGGCGTGGTGGCGCGCGCCT
+> GTAATCCCAGCTACTCGGGAGGCTGAGGCAGGAGAATCGCTTGAACCCGGGAGGCGGAGG
+> TTGCAGTGAGCCGAGATCGCGCCACTGCACTCCAGCCTGGGCGACAGAGCGAGACTCCGT
+> CTCAAAAAGGCCGGGCGCGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGAGG
+> CGGGCGGATCACCTGAGGTCAGGAGTTCGAGACCAGCCTGGCCAACATGGTGAAACCCCG
+> TCTCTACTAAAAATACAAAAATTAGCCGGGCGTGGTGGCGCGCGCCTGTAATCCCAGCTA
+> CTCGGGAGGCTGAGGCAGGAGAATCGCTTGAACCCGGGAGGCGGAGGTTGCAGTGAGCCG
+> AGATCGCGCCACTGCACTCCAGCCTGGGCGACAGAGCGAGACTCCGTCTCAAAAAGGCCG
+> GGCGCGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGAGGCGGGCGGATCACC
+> TGAGGTCAGGAGTTCGAGACCAGCCTGGCCAACATGGTGAAACCCCGTCTCTACTAAAAA
+> TACAAAAATTAGCCGGGCGTGGTGGCGCGCGCCTGTAATCCCAGCTACTCGGGAGGCTGA
+> GGCAGGAGAATCGCTTGAACCCGGGAGGCGGAGGTTGCAGTGAGCCGAGATCGCGCCACT
+> GCACTCCAGCCTGGGCGACAGAGCGAGACTCCGTCTCAAAAAGGCCGGGCGCGGTGGCTC
+> ACGCCTGTAATCCCAGCACTTTGGGAGGCCGAGGCGGGCGGATCACCTGAGGTCAGGAGT
+> TCGAGACCAGCCTGGCCAACATGGTGAAACCCCGTCTCTACTAAAAATACAAAAATTAGC
+> CGGGCGTGGTGGCGCGCGCCTGTAATCCCAGCTACTCGGGAGGCTGAGGCAGGAGAATCG
+> CTTGAACCCGGGAGGCGGAGGTTGCAGTGAGCCGAGATCGCGCCACTGCACTCCAGCCTG
+> GGCGACAGAGCGAGACTCCGTCTCAAAAAGGCCGGGCGCGGTGGCTCACGCCTGTAATCC
+> CAGCACTTTGGGAGGCCGAGGCGGGCGGATCACCTGAGGTCAGGAGTTCGAGACCAGCCT
+> GGCCAACATGGTGAAACCCCGTCTCTACTAAAAATACAAAAATTAGCCGGGCGTGGTGGC
+> GCGCGCCTGTAATCCCAGCTACTCGGGAGGCTGAGGCAGGAGAATCGCTTGAACCCGGGA
+> GGCGGAGGTTGCAGTGAGCCGAGATCGCGCCACTGCACTCCAGCCTGGGCGACAGAGCGA
+> GACTCCGTCTCAAAAAGGCCGGGCGCGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGA
+> GGCCGAGGCGGGCGGATCACCTGAGGTCAGGAGTTCGAGACCAGCCTGGCCAACATGGTG
+> AAACCCCGTCTCTACTAAAAATACAAAAATTAGCCGGGCGTGGTGGCGCGCGCCTGTAAT
+> CCCAGCTACTCGGGAGGCTGAGGCAGGAGAATCGCTTGAACCCGGGAGGCGGAGGTTGCA
+> GTGAGCCGAGATCGCGCCACTGCACTCCAGCCTGGGCGACAGAGCGAGACTCCGTCTCAA
+> AAAGGCCGGGCGCGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGAGGCGGGC
+> GGATCACCTGAGGTCAGGAGTTCGAGACCAGCCTGGCCAACATGGTGAAACCCCGTCTCT
+> ACTAAAAATACAAAAATTAGCCGGGCGTGGTGGCGCGCGCCTGTAATCCCAGCTACTCGG
+make[2]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Large'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/fannkuch
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/fannkuch.simple.mcsema/fannkuch.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/fannkuch.simple.mcsema/fannkuch.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-6.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-6.simple.mcsema/flops-6.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-6.simple.mcsema/flops-6.diff-mcsema 2>&1 
+Diff: flops-6
+6c6
+<      6          0.0000      0.0000      0.0000
+---
+>      6          0.0000      0.2500  49737010.5643
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-7
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-7.simple.mcsema/flops-7.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-7.simple.mcsema/flops-7.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-7.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-7.simple.mcsema/flops-7.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-7.simple.mcsema/flops-7.diff-mcsema 2>&1 
+Diff: flops-7
+6c6
+<      7          0.0000      0.0000      0.0000
+---
+>      7          0.0000      0.0098      0.0098
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-8
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-8.simple.mcsema/flops-8.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-8.simple.mcsema/flops-8.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-8.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-8.simple.mcsema/flops-8.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops-8.simple.mcsema/flops-8.diff-mcsema 2>&1 
+Diff: flops-8
+6c6
+<      8          0.0000      0.0000      0.0000
+---
+>      8          0.0000      0.2917      0.5000
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops.simple.mcsema/flops.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops.simple.mcsema/flops.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops.simple.mcsema/flops.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops.simple.mcsema/flops.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops.simple.mcsema/flops.diff-mcsema 2>&1 
+Diff: flops
+2,22c2,3
+<    FLOPS C Program (Double Precision), V2.0 18 Dec 1992
+< 
+<    Module     Error        RunTime      MFLOPS
+<                             (usec)
+<      1         -0.0000      0.0000      0.0000
+<      2         -0.0000      0.0000      0.0000
+<      3          0.0000      0.0000      0.0000
+<      4          0.0000      0.0000      0.0000
+<      5         -0.0000      0.0000      0.0000
+<      6          0.0000      0.0000      0.0000
+<      7          0.0000      0.0000      0.0000
+<      8         -0.0000      0.0000      0.0000
+< 
+<    Iterations      =   62912865
+<    NullTime (usec) =     0.0000
+<    MFLOPS(1)       =     0.0000
+<    MFLOPS(2)       =     0.0000
+<    MFLOPS(3)       =     0.0000
+<    MFLOPS(4)       =     0.0000
+< 
+< exit 0
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops.simple.mcsema/flops.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/flops.simple.mcsema/flops.simple.new.lifted
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/fp-convert
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/fp-convert.simple.mcsema/fp-convert.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/fp-convert.simple.mcsema/fp-convert.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/fannkuch.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/fannkuch.simple.mcsema/fannkuch.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/fannkuch.simple.mcsema/fannkuch.diff-mcsema 2>&1 
+Diff: fannkuch
+31c31
+< Pfannkuchen(11) = 51
+---
+> Pfannkuchen(11) = 0
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/n-body
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/n-body.simple.mcsema/n-body.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/n-body.simple.mcsema/n-body.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/CoyoteBench/Output/huffbench.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/CoyoteBench/Output/huffbench.simple.mcsema/huffbench.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/CoyoteBench/Output/huffbench.simple.mcsema/huffbench.diff-mcsema 2>&1 
+make[1]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/CoyoteBench'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/himenobmtxpa
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/himenobmtxpa.simple.mcsema/himenobmtxpa.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/himenobmtxpa.simple.mcsema/himenobmtxpa.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/n-body.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/n-body.simple.mcsema/n-body.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/n-body.simple.mcsema/n-body.diff-mcsema 2>&1 
+Diff: n-body
+1,2c1,2
+< -0.169075164
+< -0.169083134
+---
+> -0.170410781
+> 0.001301763
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/nsieve-bits
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/himenobmtxpa.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/himenobmtxpa.simple.mcsema/himenobmtxpa.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/himenobmtxpa.simple.mcsema/himenobmtxpa.diff-mcsema 2>&1 
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/partialsums
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/partialsums.simple.mcsema/partialsums.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/partialsums.simple.mcsema/partialsums.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/partialsums.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/partialsums.simple.mcsema/partialsums.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/partialsums.simple.mcsema/partialsums.diff-mcsema 2>&1 
+Diff: partialsums
+1,2c1,2
+< 3.000000000	(2/3)^k
+< 3160.817621887	k^-0.5
+---
+> 1.000000000	(2/3)^k
+> 1.000000000	k^-0.5
+4,5c4,5
+< 30.314541510	Flint Hills
+< 42.995233998	Cookson Hills
+---
+> 0.999999600	Flint Hills
+> 0.999999600	Cookson Hills
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/sieve
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/sieve.simple.mcsema/sieve.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/sieve.simple.mcsema/sieve.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/nsieve-bits.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/nsieve-bits.simple.mcsema/nsieve-bits.diff-mcsema 2>&1 
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/puzzle
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/fp-convert.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/fp-convert.simple.mcsema/fp-convert.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/fp-convert.simple.mcsema/fp-convert.diff-mcsema 2>&1 
+Diff: fp-convert
+1c1
+< Total is 1.43169e+15
+---
+> Total is 1.22938e+07
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/lowercase
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/lowercase.simple.mcsema/lowercase.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/lowercase.simple.mcsema/lowercase.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/lowercase.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/lowercase.simple.mcsema/lowercase.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/lowercase.simple.mcsema/lowercase.diff-mcsema 2>&1 
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/mandel-2
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/mandel-2.simple.mcsema/mandel-2.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/mandel-2.simple.mcsema/mandel-2.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/puzzle.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.diff-mcsema 2>&1 
+Diff: puzzle
+1,5c1,5
+< Found duplicate: 256943
+< Found duplicate: 106186
+< Found duplicate: 465226
+< Found duplicate: 112763
+< Found duplicate: 406647
+---
+> Found duplicate: 16
+> Found duplicate: 458787
+> Found duplicate: 83710
+> Found duplicate: 306321
+> Found duplicate: 14481
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/recursive
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/recursive.simple.mcsema/recursive.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/recursive.simple.mcsema/recursive.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/mandel-2.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/mandel-2.simple.mcsema/mandel-2.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/mandel-2.simple.mcsema/mandel-2.diff-mcsema 2>&1 
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/mandel
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/mandel.simple.mcsema/mandel.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/mandel.simple.mcsema/mandel.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/mandel.simple.mcsema/mandel.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/mandel.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/mandel.simple.mcsema/mandel.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/mandel.simple.mcsema/mandel.diff-mcsema 2>&1 
+Diff: mandel
+1,2c1,2
+< -9999
+< exit 0
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/mandel.simple.mcsema/mandel.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/mandel.simple.mcsema/mandel.simple.new.lifted
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/matmul_f64_4x4
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/matmul_f64_4x4.simple.mcsema/matmul_f64_4x4.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/matmul_f64_4x4.simple.mcsema/matmul_f64_4x4.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/recursive.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/recursive.simple.mcsema/recursive.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/recursive.simple.mcsema/recursive.diff-mcsema 2>&1 
+Diff: recursive
+2c2
+< Fib(38.0): 63245986.0
+---
+> Fib(63245986.0): 2.0
+5c5
+< Tak(3.0,2.0,1.0): 2.0
+---
+> Tak(3.0,2.0,1.0): 1.0
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/spectral-norm
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/spectral-norm.simple.mcsema/spectral-norm.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/spectral-norm.simple.mcsema/spectral-norm.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/matmul_f64_4x4.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/matmul_f64_4x4.simple.mcsema/matmul_f64_4x4.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/matmul_f64_4x4.simple.mcsema/matmul_f64_4x4.diff-mcsema 2>&1 
+Diff: matmul_f64_4x4
+1,4c1,4
+<    77.52   78.96   93.52  112.90
+<   102.80   77.77   99.35  161.85
+<    73.20   99.92   92.08  136.12
+<    48.26   34.92   49.74   67.12
+---
+>     6.40    6.40    6.40    6.40
+>     6.40    6.40    6.40    6.40
+>     6.40    6.40    6.40    6.40
+>     6.40    6.40    6.40    6.40
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/perlin
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/perlin.simple.mcsema/perlin.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/perlin.simple.mcsema/perlin.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/perlin.simple.mcsema/perlin.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/perlin.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/perlin.simple.mcsema/perlin.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/perlin.simple.mcsema/perlin.diff-mcsema 2>&1 
+Diff: perlin
+1,2c1,2
+< 1.755618e+02
+< exit 0
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/perlin.simple.mcsema/perlin.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/perlin.simple.mcsema/perlin.simple.new.lifted
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/pi
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/pi.simple.mcsema/pi.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/pi.simple.mcsema/pi.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/spectral-norm.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/spectral-norm.simple.mcsema/spectral-norm.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/spectral-norm.simple.mcsema/spectral-norm.diff-mcsema 2>&1 
+make[1]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/ReedSolomon
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/ReedSolomon.simple.mcsema/ReedSolomon.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/ReedSolomon.simple.mcsema/ReedSolomon.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/pi.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/pi.simple.mcsema/pi.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/pi.simple.mcsema/pi.diff-mcsema 2>&1 
+Diff: pi
+2,3c2,3
+<  x =  0.150572    y =         0.49  low = 31314973 j = 40000001
+< Pi =  3.131497 ztot =         0.00 itot = 40000000
+---
+>  x =  0.000000    y =         0.00  low =        1 j = 40000001
+> Pi =      -nan ztot =         0.00 itot = 40000000
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/strcat
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/strcat.simple.mcsema/strcat.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/strcat.simple.mcsema/strcat.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/strcat.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/strcat.simple.mcsema/strcat.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/strcat.simple.mcsema/strcat.diff-mcsema 2>&1 
+make[1]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Adobe-C++'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Adobe-C++/Output/loop_unroll
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  -a  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Adobe-C++/Output/loop_unroll.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.diff-mcsema 2>&1 
+Diff: loop_unroll
+1c1,2
+< exit 0
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.simple.new.lifted
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Adobe-C++/Output/stepanov_abstraction
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  -a  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Adobe-C++/Output/stepanov_abstraction.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.diff-mcsema 2>&1 
+Diff: stepanov_abstraction
+1c1,2
+< exit 0
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Adobe-C++/Output/stepanov_abstraction.simple.mcsema/stepanov_abstraction.simple.new.lifted
+make[1]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Adobe-C++'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/richards_benchmark
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/richards_benchmark.simple.mcsema/richards_benchmark.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/richards_benchmark.simple.mcsema/richards_benchmark.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/richards_benchmark.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/richards_benchmark.simple.mcsema/richards_benchmark.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/richards_benchmark.simple.mcsema/richards_benchmark.diff-mcsema 2>&1 
+make[1]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench'
+make[2]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/datamining'
+make[3]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/datamining/correlation'
+make[3]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/datamining/correlation'
+make[3]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/datamining/covariance'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/datamining/covariance/Output/covariance
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/datamining/covariance/Output/covariance.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.diff-mcsema 2>&1 
+Diff: covariance
+1c1,2
+< 7a284ecb4d8b0f9e4132181b8c8754cc
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.simple.new.lifted
+make[3]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/datamining/covariance'
+make[2]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/datamining'
+make[2]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra'
+make[3]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels'
+make[4]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/2mm'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/2mm/Output/2mm
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/2mm/Output/2mm.simple.mcsema/2mm.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/2mm/Output/2mm.simple.mcsema/2mm.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/sieve.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/sieve.simple.mcsema/sieve.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/sieve.simple.mcsema/sieve.diff-mcsema 2>&1 
+make[3]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers'
+make[4]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/durbin'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/durbin/Output/durbin
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/durbin/Output/durbin.simple.mcsema/durbin.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/durbin/Output/durbin.simple.mcsema/durbin.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/durbin/Output/durbin.simple.mcsema/durbin.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/durbin/Output/durbin.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/durbin/Output/durbin.simple.mcsema/durbin.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/durbin/Output/durbin.simple.mcsema/durbin.diff-mcsema 2>&1 
+Diff: durbin
+1c1,2
+< 5a60e01ba29a050bf6526ed97989884f
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/durbin/Output/durbin.simple.mcsema/durbin.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/durbin/Output/durbin.simple.mcsema/durbin.simple.new.lifted
+make[4]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/durbin'
+make[4]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/dynprog'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/dynprog/Output/dynprog
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/dynprog/Output/dynprog.simple.mcsema/dynprog.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/dynprog/Output/dynprog.simple.mcsema/dynprog.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/dynprog/Output/dynprog.simple.mcsema/dynprog.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/dynprog/Output/dynprog.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/dynprog/Output/dynprog.simple.mcsema/dynprog.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/dynprog/Output/dynprog.simple.mcsema/dynprog.diff-mcsema 2>&1 
+Diff: dynprog
+1c1,2
+< 3266e7ad50094462f6638a86d596e029
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/dynprog/Output/dynprog.simple.mcsema/dynprog.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/dynprog/Output/dynprog.simple.mcsema/dynprog.simple.new.lifted
+make[4]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/dynprog'
+make[4]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/gramschmidt'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt.simple.mcsema/gramschmidt.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt.simple.mcsema/gramschmidt.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt.simple.mcsema/gramschmidt.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt.simple.mcsema/gramschmidt.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt.simple.mcsema/gramschmidt.diff-mcsema 2>&1 
+Diff: gramschmidt
+1c1,2
+< afd6148086976ac742f6e23d958a9abd
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt.simple.mcsema/gramschmidt.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt.simple.mcsema/gramschmidt.simple.new.lifted
+make[4]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/gramschmidt'
+make[4]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/lu'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/lu/Output/lu
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/lu/Output/lu.simple.mcsema/lu.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/lu/Output/lu.simple.mcsema/lu.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/lu/Output/lu.simple.mcsema/lu.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/lu/Output/lu.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/lu/Output/lu.simple.mcsema/lu.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/lu/Output/lu.simple.mcsema/lu.diff-mcsema 2>&1 
+Diff: lu
+1c1,2
+< 83a3b7d418f8e147ab88fa04966c7c37
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/lu/Output/lu.simple.mcsema/lu.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/lu/Output/lu.simple.mcsema/lu.simple.new.lifted
+make[4]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/lu'
+make[3]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/solvers'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/salsa20
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/salsa20.simple.mcsema/salsa20.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/salsa20.simple.mcsema/salsa20.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/ReedSolomon.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/ReedSolomon.simple.mcsema/ReedSolomon.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/ReedSolomon.simple.mcsema/ReedSolomon.diff-mcsema 2>&1 
+make[2]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley'
+make[3]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley/floyd-warshall'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley/floyd-warshall/Output/floyd-warshall
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley/floyd-warshall/Output/floyd-warshall.simple.mcsema/floyd-warshall.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley/floyd-warshall/Output/floyd-warshall.simple.mcsema/floyd-warshall.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley/floyd-warshall/Output/floyd-warshall.simple.mcsema/floyd-warshall.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley/floyd-warshall/Output/floyd-warshall.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley/floyd-warshall/Output/floyd-warshall.simple.mcsema/floyd-warshall.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley/floyd-warshall/Output/floyd-warshall.simple.mcsema/floyd-warshall.diff-mcsema 2>&1 
+Diff: floyd-warshall
+1c1,2
+< 72d6ab856485d06c244c238122cd13a8
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley/floyd-warshall/Output/floyd-warshall.simple.mcsema/floyd-warshall.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley/floyd-warshall/Output/floyd-warshall.simple.mcsema/floyd-warshall.simple.new.lifted
+make[3]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley/floyd-warshall'
+make[3]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley/reg_detect'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley/reg_detect/Output/reg_detect
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley/reg_detect/Output/reg_detect.simple.mcsema/reg_detect.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley/reg_detect/Output/reg_detect.simple.mcsema/reg_detect.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley/reg_detect/Output/reg_detect.simple.mcsema/reg_detect.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley/reg_detect/Output/reg_detect.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley/reg_detect/Output/reg_detect.simple.mcsema/reg_detect.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley/reg_detect/Output/reg_detect.simple.mcsema/reg_detect.diff-mcsema 2>&1 
+Diff: reg_detect
+1c1,2
+< eef6cdaf9c1cdebe72d8f267816fad2d
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley/reg_detect/Output/reg_detect.simple.mcsema/reg_detect.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley/reg_detect/Output/reg_detect.simple.mcsema/reg_detect.simple.new.lifted
+make[3]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley/reg_detect'
+make[2]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/medley'
+make[1]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Linpack'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Linpack/Output/linpack-pc
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.0001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Linpack/Output/linpack-pc.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.diff-mcsema 2>&1 
+Diff: linpack-pc
+1,38c1,2
+< Rolled Single Precision Linpack Benchmark - PC Version in 'C/C++'
+< 
+< Compiler     INSERT COMPILER NAME HERE
+< Optimisation INSERT OPTIMISATION OPTIONS HERE
+< 
+< norm resid      resid           machep         x[0]-1          x[n-1]-1
+<    1.6    3.80277634e-05   1.19209290e-07  -1.38282776e-05  -7.51018524e-06
+< 
+< Times are reported for matrices of order          100
+< 1 pass times for array with leading dimension of  201
+< 
+<       dgefa      dgesl      total     Mflops       unit      ratio
+< 
+< Calculating matgen overhead
+<        100 times   0.00 seconds
+<        200 times   0.00 seconds
+<        400 times   0.00 seconds
+< Overhead for 1 matgen      0.00000 seconds
+< 
+< Calculating matgen/dgefa passes for 5 seconds
+<        100 times   0.00 seconds
+<        200 times   0.00 seconds
+<        400 times   0.00 seconds
+< Passes used          0 
+< 
+< Times for array with leading dimension of 201
+< 
+<       dgefa      dgesl      total     Mflops       unit      ratio
+< Average                                 0.00
+< 
+< Calculating matgen2 overhead
+< Overhead for 1 matgen      0.00000 seconds
+< 
+< Times for array with leading dimension of 200
+< 
+<       dgefa      dgesl      total     Mflops       unit      ratio
+< Average                                 0.00
+< exit 0
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.simple.new.lifted
+make[1]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Linpack'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/whetstone
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/whetstone.simple.mcsema/whetstone.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/whetstone.simple.mcsema/whetstone.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/whetstone.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/whetstone.simple.mcsema/whetstone.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/whetstone.simple.mcsema/whetstone.diff-mcsema 2>&1 
+Diff: whetstone
+1,10c1,10
+<       0       0       0   1.0000e+00  -1.0000e+00  -1.0000e+00  -1.0000e+00
+< 1200000 1400000 1200000   2.9797e-32  -3.7671e-32   2.9784e-32  -3.7682e-32
+< 1400000 1200000 1200000   5.5551e-95  -6.9990e-95  -8.8181e-95  -2.1373e-94
+< 34500000       1       1   1.0000e+00  -1.0000e+00  -1.0000e+00  -1.0000e+00
+< 21000000       1       2   6.0000e+00   6.0000e+00  -8.8181e-95  -2.1373e-94
+< 3200000       1       2   1.4592e-70   1.4592e-70   1.4592e-70   1.4592e-70
+< 89900000       1       2   1.0000e+00   1.0000e+00   9.9994e-01   9.9994e-01
+< 61600000       1       2   3.0000e+00   2.0000e+00   3.0000e+00  -2.1373e-94
+<       0       2       3   1.0000e+00  -1.0000e+00  -1.0000e+00  -1.0000e+00
+< 9300000       2       3   1.0000e+00   1.0000e+00   1.0000e+00   1.0000e+00
+---
+>       0       0       0   0.0000e+00   2.0547e-81   0.0000e+00  8.2567e-317
+> 1200000 1400000 1200000   4.9998e-01  -3.7684e-32  -3.7682e-32   2.9784e-32
+> 1400000 1200000 1200000  -2.1373e-94  -1.2554e-94  -2.1373e-94  -8.8183e-95
+> 34500000       1       1  -2.1373e-94  -1.2554e-94  -2.1373e-94  -8.8183e-95
+> 21000000       1       2  -2.1373e-94  -1.2554e-94  -2.1373e-94  -8.8183e-95
+> 3200000       1       2 -5.5140e-233   1.3292e+36   2.5826e-03   1.0330e-02
+> 89900000       1       2   4.9998e-01   9.9994e-01   9.9995e-01   1.0330e-02
+> 61600000       1       2   4.9998e-01   9.9994e-01   9.9995e-01   1.0330e-02
+>       0       2       3   4.9998e-01   9.9994e-01   9.9995e-01   1.0330e-02
+> 9300000       2       3   1.0000e+00   1.0000e+00  -1.5395e-39   4.6222e-27
+make[4]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/3mm'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/3mm/Output/3mm
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/3mm/Output/3mm.simple.mcsema/3mm.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/3mm/Output/3mm.simple.mcsema/3mm.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/2mm/Output/2mm.simple.mcsema/2mm.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/2mm/Output/2mm.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/2mm/Output/2mm.simple.mcsema/2mm.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/2mm/Output/2mm.simple.mcsema/2mm.diff-mcsema 2>&1 
+Diff: 2mm
+1c1,2
+< f9f294040187318bc2cc477e7eecab01
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/2mm/Output/2mm.simple.mcsema/2mm.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/2mm/Output/2mm.simple.mcsema/2mm.simple.new.lifted
+make[4]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/2mm'
+make[1]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/SmallPT'
+make[1]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/SmallPT'
+make[4]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/atax'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/atax/Output/atax
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/atax/Output/atax.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.diff-mcsema 2>&1 
+Diff: atax
+1c1,2
+< 88a04eb3d01f6346a6ee4b678e311fe5
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.simple.new.lifted
+make[4]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/atax'
+make[2]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils'
+make[3]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/adi'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/adi/Output/adi
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/adi/Output/adi.simple.mcsema/adi.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/adi/Output/adi.simple.mcsema/adi.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/adi/Output/adi.simple.mcsema/adi.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/adi/Output/adi.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/adi/Output/adi.simple.mcsema/adi.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/adi/Output/adi.simple.mcsema/adi.diff-mcsema 2>&1 
+Diff: adi
+1c1,2
+< 1823d3f6cf83a9b28749d6edaa5fedc9
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/adi/Output/adi.simple.mcsema/adi.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/adi/Output/adi.simple.mcsema/adi.simple.new.lifted
+make[3]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/adi'
+make[3]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/fdtd-2d'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/fdtd-2d/Output/fdtd-2d
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/fdtd-2d/Output/fdtd-2d.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.diff-mcsema 2>&1 
+Diff: fdtd-2d
+1c1,2
+< 70ea9d7528f3022d056656af4d540929
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.simple.new.lifted
+make[3]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/fdtd-2d'
+make[3]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/fdtd-apml'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/fdtd-apml/Output/fdtd-apml
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/fdtd-apml/Output/fdtd-apml.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.diff-mcsema 2>&1 
+Diff: fdtd-apml
+1c1,2
+< 2106d674b5073dd2209dc6d1e2131fa6
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.simple.new.lifted
+make[3]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/fdtd-apml'
+make[3]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/jacobi-1d-imper'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.diff-mcsema 2>&1 
+Diff: jacobi-1d-imper
+1c1,2
+< 53110044128f4550e864b8dd19771ba2
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.simple.new.lifted
+make[3]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/jacobi-1d-imper'
+make[3]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/jacobi-2d-imper'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.diff-mcsema 2>&1 
+Diff: jacobi-2d-imper
+1c1,2
+< 58213157f3b250a08e33f260ecf70ee0
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.simple.new.lifted
+make[3]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/jacobi-2d-imper'
+make[3]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/seidel-2d'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/seidel-2d/Output/seidel-2d
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/seidel-2d/Output/seidel-2d.simple.mcsema/seidel-2d.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/seidel-2d/Output/seidel-2d.simple.mcsema/seidel-2d.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/seidel-2d/Output/seidel-2d.simple.mcsema/seidel-2d.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/seidel-2d/Output/seidel-2d.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/seidel-2d/Output/seidel-2d.simple.mcsema/seidel-2d.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/seidel-2d/Output/seidel-2d.simple.mcsema/seidel-2d.diff-mcsema 2>&1 
+Diff: seidel-2d
+1c1,2
+< 58213157f3b250a08e33f260ecf70ee0
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/seidel-2d/Output/seidel-2d.simple.mcsema/seidel-2d.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/seidel-2d/Output/seidel-2d.simple.mcsema/seidel-2d.simple.new.lifted
+make[3]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils/seidel-2d'
+make[2]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/stencils'
+make[4]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/bicg'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/bicg/Output/bicg
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/bicg/Output/bicg.simple.mcsema/bicg.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/bicg/Output/bicg.simple.mcsema/bicg.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/bicg/Output/bicg.simple.mcsema/bicg.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/bicg/Output/bicg.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/bicg/Output/bicg.simple.mcsema/bicg.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/bicg/Output/bicg.simple.mcsema/bicg.diff-mcsema 2>&1 
+Diff: bicg
+1c1,2
+< 22fab907b016327a2808510b55959131
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/bicg/Output/bicg.simple.mcsema/bicg.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/bicg/Output/bicg.simple.mcsema/bicg.simple.new.lifted
+make[4]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/bicg'
+make[4]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/cholesky'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/cholesky/Output/cholesky
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema/cholesky.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema/cholesky.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema/cholesky.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/cholesky/Output/cholesky.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema/cholesky.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema/cholesky.diff-mcsema 2>&1 
+Diff: cholesky
+1c1,2
+< 5da79cc798c356034dfdf5ac98b3ecaa
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema/cholesky.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema/cholesky.simple.new.lifted
+make[4]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/cholesky'
+make[4]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/doitgen'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/doitgen/Output/doitgen
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/doitgen/Output/doitgen.simple.mcsema/doitgen.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/doitgen/Output/doitgen.simple.mcsema/doitgen.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/methcall.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/methcall.simple.mcsema/methcall.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout/Output/methcall.simple.mcsema/methcall.diff-mcsema 2>&1 
+make[1]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Shootout'
+make[4]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemm'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemm/Output/gemm
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemm/Output/gemm.simple.mcsema/gemm.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemm/Output/gemm.simple.mcsema/gemm.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/doitgen/Output/doitgen.simple.mcsema/doitgen.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/doitgen/Output/doitgen.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/doitgen/Output/doitgen.simple.mcsema/doitgen.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/doitgen/Output/doitgen.simple.mcsema/doitgen.diff-mcsema 2>&1 
+Diff: doitgen
+1c1,2
+< 73c37cc505bf1b3706695ed80db85dbf
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/doitgen/Output/doitgen.simple.mcsema/doitgen.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/doitgen/Output/doitgen.simple.mcsema/doitgen.simple.new.lifted
+make[4]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/doitgen'
+make[4]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemver'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemver/Output/gemver
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemver/Output/gemver.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.diff-mcsema 2>&1 
+Diff: gemver
+1c1,2
+< ac3ff05caf9d54194c1534186f5807f7
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.simple.new.lifted
+make[4]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemver'
+make[4]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gesummv'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gesummv/Output/gesummv
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gesummv/Output/gesummv.simple.mcsema/gesummv.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gesummv/Output/gesummv.simple.mcsema/gesummv.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gesummv/Output/gesummv.simple.mcsema/gesummv.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gesummv/Output/gesummv.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gesummv/Output/gesummv.simple.mcsema/gesummv.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gesummv/Output/gesummv.simple.mcsema/gesummv.diff-mcsema 2>&1 
+Diff: gesummv
+1c1,2
+< 23b6382cb41cacbb93c669e92d7c4b7e
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gesummv/Output/gesummv.simple.mcsema/gesummv.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gesummv/Output/gesummv.simple.mcsema/gesummv.simple.new.lifted
+make[4]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gesummv'
+make[4]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/mvt'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/mvt/Output/mvt
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/mvt/Output/mvt.simple.mcsema/mvt.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/mvt/Output/mvt.simple.mcsema/mvt.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/mvt/Output/mvt.simple.mcsema/mvt.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/mvt/Output/mvt.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/mvt/Output/mvt.simple.mcsema/mvt.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/mvt/Output/mvt.simple.mcsema/mvt.diff-mcsema 2>&1 
+Diff: mvt
+1c1,2
+< 74b403cb1904ef24879eeb0f8e031b4e
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/mvt/Output/mvt.simple.mcsema/mvt.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/mvt/Output/mvt.simple.mcsema/mvt.simple.new.lifted
+make[4]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/mvt'
+make[4]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/symm'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/symm/Output/symm
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/symm/Output/symm.simple.mcsema/symm.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/symm/Output/symm.simple.mcsema/symm.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/symm/Output/symm.simple.mcsema/symm.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/symm/Output/symm.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/symm/Output/symm.simple.mcsema/symm.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/symm/Output/symm.simple.mcsema/symm.diff-mcsema 2>&1 
+Diff: symm
+1c1,2
+< e1dddd8c9c19bf9f1e7cbf0c239ce46a
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/symm/Output/symm.simple.mcsema/symm.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/symm/Output/symm.simple.mcsema/symm.simple.new.lifted
+make[4]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/symm'
+make[4]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syr2k'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syr2k/Output/syr2k
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemm/Output/gemm.simple.mcsema/gemm.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemm/Output/gemm.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemm/Output/gemm.simple.mcsema/gemm.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemm/Output/gemm.simple.mcsema/gemm.diff-mcsema 2>&1 
+Diff: gemm
+1c1,2
+< 622af90c831b234ea835317cd4bb4123
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemm/Output/gemm.simple.mcsema/gemm.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemm/Output/gemm.simple.mcsema/gemm.simple.new.lifted
+make[4]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemm'
+make[4]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syrk'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syrk/Output/syrk
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syrk/Output/syrk.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.diff-mcsema 2>&1 
+Diff: syrk
+1c1,2
+< 622af90c831b234ea835317cd4bb4123
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.simple.new.lifted
+make[4]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syrk'
+make[4]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trisolv'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trisolv/Output/trisolv
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trisolv/Output/trisolv.simple.mcsema/trisolv.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trisolv/Output/trisolv.simple.mcsema/trisolv.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trisolv/Output/trisolv.simple.mcsema/trisolv.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trisolv/Output/trisolv.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trisolv/Output/trisolv.simple.mcsema/trisolv.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trisolv/Output/trisolv.simple.mcsema/trisolv.diff-mcsema 2>&1 
+Diff: trisolv
+1c1,2
+< 6b6b1c3ed0d6abeda5af3b76f89a3331
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trisolv/Output/trisolv.simple.mcsema/trisolv.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trisolv/Output/trisolv.simple.mcsema/trisolv.simple.new.lifted
+make[4]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trisolv'
+make[4]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trmm'
+
+=========================================
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trmm/Output/trmm
+
+/home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trmm/Output/trmm.simple.mcsema/trmm.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trmm/Output/trmm.simple.mcsema/trmm.simple.new.lifted  
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syr2k/Output/syr2k.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.diff-mcsema 2>&1 
+Diff: syr2k
+1c1,2
+< 3c957bddeddf967b7ae73a4c4546e229
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.simple.new.lifted
+make[4]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syr2k'
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trmm/Output/trmm.simple.mcsema/trmm.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trmm/Output/trmm.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trmm/Output/trmm.simple.mcsema/trmm.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trmm/Output/trmm.simple.mcsema/trmm.diff-mcsema 2>&1 
+Diff: trmm
+1c1,2
+< 93f3c10749d75b23e8a19b6931b48486
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trmm/Output/trmm.simple.mcsema/trmm.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trmm/Output/trmm.simple.mcsema/trmm.simple.new.lifted
+make[4]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trmm'
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/salsa20.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/salsa20.simple.mcsema/salsa20.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/salsa20.simple.mcsema/salsa20.diff-mcsema 2>&1 
+Diff: salsa20
+1c1
+< got:       f655703d
+---
+> got:       7a1e8d7f
+3c3
+< exit 0
+---
+> exit 1
+make[1]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc'
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
+TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/3mm/Output/3mm.simple.mcsema/3mm.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp   /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/3mm/Output/3mm.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/3mm/Output/3mm.simple.mcsema/3mm.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/3mm/Output/3mm.simple.mcsema/3mm.diff-mcsema 2>&1 
+Diff: 3mm
+1c1,2
+< f52121e0bccc072008e52a06798e05db
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/3mm/Output/3mm.simple.mcsema/3mm.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/3mm/Output/3mm.simple.mcsema/3mm.simple.new.lifted
+make[4]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/3mm'
+make[3]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra/kernels'
+make[2]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench/linear-algebra'
+make[1]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Polybench'
