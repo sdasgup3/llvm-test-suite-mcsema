@@ -8,7 +8,6 @@
 TESTNAME = $*
 
 $(PROGRAMS_TO_TEST:%=test.$(TEST).%): \
-test.$(TEST).%: Output/%.llvm.bc
+test.$(TEST).%: Output/%.simple
 	@echo "========================================="
 	@echo "Running '$(TEST)' test on '$(TESTNAME)' program"
-	wc -c $<
