@@ -11,49 +11,181 @@ make[2]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSo
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.expandfft
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.expandfft.simple.mcsema/sse.expandfft.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.expandfft.simple.mcsema/sse.expandfft.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.016 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.expandfft.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.expandfft.simple.mcsema/sse.expandfft.out-mcsema > Output/sse.expandfft.simple.mcsema/sse.expandfft.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.016 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.expandfft.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.expandfft.simple.mcsema/sse.expandfft.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.expandfft.simple.mcsema/sse.expandfft.diff-mcsema 2>&1 
 Diff: sse.expandfft
+1c1
+<  for n=1024, fwd/bck error=1.159249e-07
+---
+>  for n=1024, fwd/bck error=-nan
+3,258c3,258
+< 1  0  0.999981  0.00613588  
+< 0.999925  0.0122715  0.999831  0.0184067  
+< 0.999699  0.0245412  0.999529  0.0306748  
+< 0.999322  0.0368072  0.999078  0.0429383  
+< 0.998795  0.0490677  0.998476  0.0551952  
+< 0.998118  0.0613207  0.997723  0.0674439  
+< 0.99729  0.0735646  0.99682  0.0796824  
+< 0.996313  0.0857973  0.995767  0.091909  
+< 0.995185  0.0980171  0.994565  0.104122  
+< 0.993907  0.110222  0.993212  0.116319  
+< 0.99248  0.122411  0.99171  0.128498  
+< 0.990903  0.134581  0.990058  0.140658  
+< 0.989177  0.14673  0.988258  0.152797  
+< 0.987301  0.158858  0.986308  0.164913  
+< 0.985278  0.170962  0.98421  0.177004  
+< 0.983105  0.18304  0.981964  0.189069  
+< 0.980785  0.19509  0.97957  0.201105  
+< 0.978317  0.207111  0.977028  0.21311  
+< 0.975702  0.219101  0.974339  0.225084  
+< 0.97294  0.231058  0.971504  0.237024  
+< 0.970031  0.24298  0.968522  0.248928  
+< 0.966976  0.254866  0.965394  0.260794  
+< 0.963776  0.266713  0.962121  0.272621  
+< 0.960431  0.27852  0.958703  0.284408  
+< 0.95694  0.290285  0.955141  0.296151  
+< 0.953306  0.302006  0.951435  0.30785  
+< 0.949528  0.313682  0.947586  0.319502  
+< 0.945607  0.32531  0.943593  0.331106  
+< 0.941544  0.33689  0.939459  0.342661  
+< 0.937339  0.348419  0.935184  0.354164  
+< 0.932993  0.359895  0.930767  0.365613  
+< 0.928506  0.371317  0.92621  0.377007  
+< 0.92388  0.382683  0.921514  0.388345  
+< 0.919114  0.393992  0.916679  0.399624  
+< 0.91421  0.405241  0.911706  0.410843  
+< 0.909168  0.41643  0.906596  0.422  
+< 0.903989  0.427555  0.901349  0.433094  
+< 0.898674  0.438616  0.895966  0.444122  
+< 0.893224  0.449611  0.890449  0.455084  
+< 0.88764  0.460539  0.884797  0.465977  
+< 0.881921  0.471397  0.879012  0.476799  
+< 0.87607  0.482184  0.873095  0.48755  
+< 0.870087  0.492898  0.867046  0.498228  
+< 0.863973  0.503538  0.860867  0.50883  
+< 0.857729  0.514103  0.854558  0.519356  
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.shift
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.016 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.shift.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.out-mcsema > Output/sse.shift.simple.mcsema/sse.shift.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.016 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.shift.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.shift.simple.mcsema/sse.shift.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.stepfft
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.stepfft.simple.mcsema/sse.stepfft.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.stepfft.simple.mcsema/sse.stepfft.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.016 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.stepfft.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.stepfft.simple.mcsema/sse.stepfft.out-mcsema > Output/sse.stepfft.simple.mcsema/sse.stepfft.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.016 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.stepfft.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.stepfft.simple.mcsema/sse.stepfft.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE/Output/sse.stepfft.simple.mcsema/sse.stepfft.diff-mcsema 2>&1 
 Diff: sse.stepfft
+1c1
+<  for n=1024, fwd/bck error=1.159249e-07
+---
+>  for n=1024, fwd/bck error=-nan
+3,258c3,258
+< 1  0  0.999981  0.00613588  
+< 0.999925  0.0122715  0.999831  0.0184067  
+< 0.999699  0.0245412  0.999529  0.0306748  
+< 0.999322  0.0368072  0.999078  0.0429383  
+< 0.998795  0.0490677  0.998476  0.0551952  
+< 0.998118  0.0613207  0.997723  0.0674439  
+< 0.99729  0.0735646  0.99682  0.0796824  
+< 0.996313  0.0857973  0.995767  0.091909  
+< 0.995185  0.0980171  0.994565  0.104122  
+< 0.993907  0.110222  0.993212  0.116319  
+< 0.99248  0.122411  0.99171  0.128498  
+< 0.990903  0.134581  0.990058  0.140658  
+< 0.989177  0.14673  0.988258  0.152797  
+< 0.987301  0.158858  0.986308  0.164913  
+< 0.985278  0.170962  0.98421  0.177004  
+< 0.983105  0.18304  0.981964  0.189069  
+< 0.980785  0.19509  0.97957  0.201105  
+< 0.978317  0.207111  0.977028  0.21311  
+< 0.975702  0.219101  0.974339  0.225084  
+< 0.97294  0.231058  0.971504  0.237024  
+< 0.970031  0.24298  0.968522  0.248928  
+< 0.966976  0.254866  0.965394  0.260794  
+< 0.963776  0.266713  0.962121  0.272621  
+< 0.960431  0.27852  0.958703  0.284408  
+< 0.95694  0.290285  0.955141  0.296151  
+< 0.953306  0.302006  0.951435  0.30785  
+< 0.949528  0.313682  0.947586  0.319502  
+< 0.945607  0.32531  0.943593  0.331106  
+< 0.941544  0.33689  0.939459  0.342661  
+< 0.937339  0.348419  0.935184  0.354164  
+< 0.932993  0.359895  0.930767  0.365613  
+< 0.928506  0.371317  0.92621  0.377007  
+< 0.92388  0.382683  0.921514  0.388345  
+< 0.919114  0.393992  0.916679  0.399624  
+< 0.91421  0.405241  0.911706  0.410843  
+< 0.909168  0.41643  0.906596  0.422  
+< 0.903989  0.427555  0.901349  0.433094  
+< 0.898674  0.438616  0.895966  0.444122  
+< 0.893224  0.449611  0.890449  0.455084  
+< 0.88764  0.460539  0.884797  0.465977  
+< 0.881921  0.471397  0.879012  0.476799  
+< 0.87607  0.482184  0.873095  0.48755  
+< 0.870087  0.492898  0.867046  0.498228  
+< 0.863973  0.503538  0.860867  0.50883  
+< 0.857729  0.514103  0.854558  0.519356  
 make[2]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/SSE'
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/build2
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/build2.simple.mcsema/build2.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/build2.simple.mcsema/build2.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/build2.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/build2.simple.mcsema/build2.out-mcsema > Output/build2.simple.mcsema/build2.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/build2.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/build2.simple.mcsema/build2.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/build2.simple.mcsema/build2.diff-mcsema 2>&1 
 Diff: build2
+1,3c1,3
+< 2000000.000000 2000000.000000 2000000.000000 2000000.000000
+< 6000000.000000 8000000.000000 10000000.000000 12000000.000000
+< 12000000.000000 16000000.000000 17864136.000000 14000000.000000
+---
+> 2000000.000000 2000000.000000 1839722678540083708875083568372437040322727378944.000000 0.000000
+> 12000000.000000 10000000.000000 8644783851018171401859898734005650960607727346253824.000000 0.000000
+> 14000000.000000 17864136.000000 2213064668715147264288053838022018584814568473406472192.000000 0.000000
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/build
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/build.simple.mcsema/build.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/build.simple.mcsema/build.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/build.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/build.simple.mcsema/build.out-mcsema > Output/build.simple.mcsema/build.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/build.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/build.simple.mcsema/build.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/build.simple.mcsema/build.diff-mcsema 2>&1 
 Diff: build
+1,4c1,4
+< 1.234000 1.234000 1.234000 1.234000
+< 1.522756 1.522756 1.522756 1.522756
+< 1.234000 1.234000 0.000000 0.000000
+< 2.468000 2.468000 0.000000 0.000000
+---
+> 1.234000 0.029250 0.029250 0.000000
+> 1.522756 0.147756 0.147756 0.147756
+> 0.000000 0.029250 0.000000 0.029250
+> 0.000000 0.000000 7.487999 7.488000
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/divides
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/divides.simple.mcsema/divides.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/divides.simple.mcsema/divides.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/divides.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/divides.simple.mcsema/divides.out-mcsema > Output/divides.simple.mcsema/divides.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/divides.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/divides.simple.mcsema/divides.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/divides.simple.mcsema/divides.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/simple
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/simple.simple.mcsema/simple.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/simple.simple.mcsema/simple.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/simple.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/simple.simple.mcsema/simple.out-mcsema > Output/simple.simple.mcsema/simple.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/simple.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/simple.simple.mcsema/simple.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector/Output/simple.simple.mcsema/simple.diff-mcsema 2>&1 
 Diff: simple
+1,6c1,6
+< 1.522756 1.522756 1.522756 1.522756
+< 2.468000 2.468000 0.000000 0.000000
+< 2.468000 2.468000 19.752001 19.752001
+< 19.752001 19.752001 2.222000 2.222000
+< 1746.37 1746.37
+< 1746.37 3685.81
+---
+> 1.522756 1.522756 0.147756 0.029250
+> 0.000000 0.000000 7.488000 0.029250
+> 19.752001 19.752001 7.488000 0.029250
+> 2.222000 2.222000 125896272.404313 0.029250
+> 2.222 2.222
+> 2.222 2.222
 make[1]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vector'
 make[1]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vectorizer'
 make[1]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Vectorizer'
@@ -64,51 +196,60 @@ make[2]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSo
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Large/Output/cast
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Large/Output/cast.simple.mcsema/cast.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Large/Output/cast.simple.mcsema/cast.simple.new.lifted 31415926 
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Large/Output/cast.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Large/Output/cast.simple.mcsema/cast.out-mcsema > Output/cast.simple.mcsema/cast.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Large/Output/cast.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Large/Output/cast.simple.mcsema/cast.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Large/Output/cast.simple.mcsema/cast.diff-mcsema 2>&1 
 make[2]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Large'
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/cast2
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/cast2.simple.mcsema/cast2.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/cast2.simple.mcsema/cast2.simple.new.lifted 31415926 
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/cast2.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/cast2.simple.mcsema/cast2.out-mcsema > Output/cast2.simple.mcsema/cast2.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/cast2.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/cast2.simple.mcsema/cast2.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/cast2.simple.mcsema/cast2.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/cast-bug
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.simple.new.lifted 31415926 
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/cast-bug.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.out-mcsema > Output/cast-bug.simple.mcsema/cast-bug.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/cast-bug.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/cast-bug.simple.mcsema/cast-bug.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/ccc
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/ccc.simple.mcsema/ccc.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/ccc.simple.mcsema/ccc.simple.new.lifted 31415926 
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/ccc.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/ccc.simple.mcsema/ccc.out-mcsema > Output/ccc.simple.mcsema/ccc.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/ccc.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/ccc.simple.mcsema/ccc.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/ccc.simple.mcsema/ccc.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/div
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/div.simple.mcsema/div.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/div.simple.mcsema/div.simple.new.lifted 31415926 
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/div.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/div.simple.mcsema/div.out-mcsema > Output/div.simple.mcsema/div.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/div.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/div.simple.mcsema/div.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/div.simple.mcsema/div.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/factor
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/factor.simple.mcsema/factor.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/factor.simple.mcsema/factor.simple.new.lifted 31415926 
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/factor.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/factor.simple.mcsema/factor.out-mcsema > Output/factor.simple.mcsema/factor.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/factor.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/factor.simple.mcsema/factor.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/factor.simple.mcsema/factor.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/rem
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/rem.simple.mcsema/rem.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/rem.simple.mcsema/rem.simple.new.lifted 31415926 
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/rem.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/rem.simple.mcsema/rem.out-mcsema > Output/rem.simple.mcsema/rem.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/rem.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/rem.simple.mcsema/rem.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/rem.simple.mcsema/rem.diff-mcsema 2>&1 
 Diff: rem
+1,3c1,4
+< 
+<  *** REM test done! ***
+< exit 0
+---
+> Test #5, failed in iteration #: 0
+> Failing test vector:
+> m=740882966, x_u=1616430695, y_u=1708849955, z_u=1669437588, x_s=-276737754, y_s=-672443628, z_s=-906079059
+> exit 1
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/shr
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/shr.simple.mcsema/shr.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/shr.simple.mcsema/shr.simple.new.lifted 31415926 
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/shr.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/shr.simple.mcsema/shr.out-mcsema > Output/shr.simple.mcsema/shr.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/shr.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/shr.simple.mcsema/shr.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes/Output/shr.simple.mcsema/shr.diff-mcsema 2>&1 
 make[1]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/SignlessTypes'
 make[1]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Threads'
 
@@ -116,8 +257,12 @@ make[1]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSo
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Threads/Output/2010-12-08-tls
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Threads/Output/2010-12-08-tls.simple.mcsema/2010-12-08-tls.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Threads/Output/2010-12-08-tls.simple.mcsema/2010-12-08-tls.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Threads/Output/2010-12-08-tls.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Threads/Output/2010-12-08-tls.simple.mcsema/2010-12-08-tls.out-mcsema > Output/2010-12-08-tls.simple.mcsema/2010-12-08-tls.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Threads/Output/2010-12-08-tls.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Threads/Output/2010-12-08-tls.simple.mcsema/2010-12-08-tls.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Threads/Output/2010-12-08-tls.simple.mcsema/2010-12-08-tls.diff-mcsema 2>&1 
 Diff: 2010-12-08-tls
+1c1
+< a is 4
+---
+> a is 0
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Threads/Output/tls
@@ -125,8 +270,15 @@ Diff: 2010-12-08-tls
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Threads/Output/tls.simple.mcsema/tls.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Threads/Output/tls.simple.mcsema/tls.simple.new.lifted  
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
 TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Threads/Output/tls.simple.mcsema/tls.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Threads/Output/tls.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Threads/Output/tls.simple.mcsema/tls.out-mcsema > Output/tls.simple.mcsema/tls.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Threads/Output/tls.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Threads/Output/tls.simple.mcsema/tls.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Threads/Output/tls.simple.mcsema/tls.diff-mcsema 2>&1 
 Diff: tls
+1,3c1,2
+< Thread 1: 2
+< Thread 2: 2
+< exit 0
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Threads/Output/tls.simple.mcsema/tls.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Threads/Output/tls.simple.mcsema/tls.simple.new.lifted
 make[1]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Threads'
 make[1]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/C++11'
 
@@ -134,200 +286,232 @@ make[1]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSo
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/C++11/Output/stdthreadbug
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/C++11/Output/stdthreadbug.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.out-mcsema > Output/stdthreadbug.simple.mcsema/stdthreadbug.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/C++11/Output/stdthreadbug.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/C++11/Output/stdthreadbug.simple.mcsema/stdthreadbug.diff-mcsema 2>&1 
 make[1]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/C++11'
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-04-DynAllocAndRestore
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-04-DynAllocAndRestore.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.out-mcsema > Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-04-DynAllocAndRestore.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-04-DynAllocAndRestore.simple.mcsema/2006-12-04-DynAllocAndRestore.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-byref-cxxobj-test
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-byref-cxxobj-test.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.out-mcsema > Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-byref-cxxobj-test.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-byref-cxxobj-test.simple.mcsema/block-byref-cxxobj-test.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-call-r7674133
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-call-r7674133.simple.mcsema/block-call-r7674133.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-call-r7674133.simple.mcsema/block-call-r7674133.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-call-r7674133.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-call-r7674133.simple.mcsema/block-call-r7674133.out-mcsema > Output/block-call-r7674133.simple.mcsema/block-call-r7674133.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-call-r7674133.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-call-r7674133.simple.mcsema/block-call-r7674133.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-call-r7674133.simple.mcsema/block-call-r7674133.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-copied-in-cxxobj-1
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-copied-in-cxxobj-1.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.out-mcsema > Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-copied-in-cxxobj-1.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-copied-in-cxxobj-1.simple.mcsema/block-copied-in-cxxobj-1.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-copied-in-cxxobj
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-copied-in-cxxobj.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.out-mcsema > Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-copied-in-cxxobj.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-copied-in-cxxobj.simple.mcsema/block-copied-in-cxxobj.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/conditional-gnu-ext-cxx
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/conditional-gnu-ext-cxx.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.out-mcsema > Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/conditional-gnu-ext-cxx.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/conditional-gnu-ext-cxx.simple.mcsema/conditional-gnu-ext-cxx.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/DefaultInitDynArrays
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/DefaultInitDynArrays.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.out-mcsema > Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/DefaultInitDynArrays.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/DefaultInitDynArrays.simple.mcsema/DefaultInitDynArrays.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/initp1
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/initp1.simple.mcsema/initp1.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/initp1.simple.mcsema/initp1.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/initp1.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/initp1.simple.mcsema/initp1.out-mcsema > Output/initp1.simple.mcsema/initp1.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/initp1.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/initp1.simple.mcsema/initp1.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/initp1.simple.mcsema/initp1.diff-mcsema 2>&1 
 Diff: initp1
+1c1
+< exit 0
+---
+> exit 1
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/member-function-pointers
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/member-function-pointers.simple.mcsema/member-function-pointers.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/member-function-pointers.simple.mcsema/member-function-pointers.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/member-function-pointers.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/member-function-pointers.simple.mcsema/member-function-pointers.out-mcsema > Output/member-function-pointers.simple.mcsema/member-function-pointers.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/member-function-pointers.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/member-function-pointers.simple.mcsema/member-function-pointers.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/member-function-pointers.simple.mcsema/member-function-pointers.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/stmtexpr
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/stmtexpr.simple.mcsema/stmtexpr.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/stmtexpr.simple.mcsema/stmtexpr.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/stmtexpr.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/stmtexpr.simple.mcsema/stmtexpr.out-mcsema > Output/stmtexpr.simple.mcsema/stmtexpr.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/stmtexpr.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/stmtexpr.simple.mcsema/stmtexpr.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/stmtexpr.simple.mcsema/stmtexpr.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-04-17-PrintfChar
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-04-17-PrintfChar.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.out-mcsema > Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-04-17-PrintfChar.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-04-17-PrintfChar.simple.mcsema/2002-04-17-PrintfChar.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-ArgumentTest
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-ArgumentTest.simple.mcsema/2002-05-02-ArgumentTest.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-ArgumentTest.simple.mcsema/2002-05-02-ArgumentTest.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-ArgumentTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-ArgumentTest.simple.mcsema/2002-05-02-ArgumentTest.out-mcsema > Output/2002-05-02-ArgumentTest.simple.mcsema/2002-05-02-ArgumentTest.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-ArgumentTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-ArgumentTest.simple.mcsema/2002-05-02-ArgumentTest.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-ArgumentTest.simple.mcsema/2002-05-02-ArgumentTest.diff-mcsema 2>&1 
 Diff: 2002-05-02-ArgumentTest
+1c1
+< 12, 1.245000, 120, 123456677890, -10, 4500000000000000.000000
+---
+> 12, 0.000000, 120, 123456677890, -10, 0.000000
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest1
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest1.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.out-mcsema > Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest1.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest1.simple.mcsema/2002-05-02-CastTest1.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest2
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest2.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.out-mcsema > Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest2.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest2.simple.mcsema/2002-05-02-CastTest2.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest3
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest3.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.out-mcsema > Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest3.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest3.simple.mcsema/2002-05-02-CastTest3.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.out-mcsema > Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-CastTest.simple.mcsema/2002-05-02-CastTest.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-ManyArguments
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-ManyArguments.simple.mcsema/2002-05-02-ManyArguments.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-ManyArguments.simple.mcsema/2002-05-02-ManyArguments.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-ManyArguments.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-ManyArguments.simple.mcsema/2002-05-02-ManyArguments.out-mcsema > Output/2002-05-02-ManyArguments.simple.mcsema/2002-05-02-ManyArguments.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-ManyArguments.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-ManyArguments.simple.mcsema/2002-05-02-ManyArguments.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-02-ManyArguments.simple.mcsema/2002-05-02-ManyArguments.diff-mcsema 2>&1 
 Diff: 2002-05-02-ManyArguments
+1c1
+< 12, 2, 123.234000, 1231.123169, -12
+---
+> 12, 2, 0.000000, 0.000000, -12
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-03-NotTest
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-03-NotTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.out-mcsema > Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-03-NotTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-03-NotTest.simple.mcsema/2002-05-03-NotTest.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-19-DivTest
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-19-DivTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.out-mcsema > Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-19-DivTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-05-19-DivTest.simple.mcsema/2002-05-19-DivTest.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-02-CastTest2
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-02-CastTest2.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.out-mcsema > Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-02-CastTest2.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-02-CastTest2.simple.mcsema/2002-08-02-CastTest2.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-02-CastTest
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-02-CastTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.out-mcsema > Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-02-CastTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-02-CastTest.simple.mcsema/2002-08-02-CastTest.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-19-CodegenBug
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-19-CodegenBug.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.out-mcsema > Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-19-CodegenBug.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-08-19-CodegenBug.simple.mcsema/2002-08-19-CodegenBug.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-09-ArrayResolution
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-09-ArrayResolution.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.out-mcsema > Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-09-ArrayResolution.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-09-ArrayResolution.simple.mcsema/2002-10-09-ArrayResolution.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-12-StructureArgs
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-12-StructureArgs.simple.mcsema/2002-10-12-StructureArgs.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-12-StructureArgs.simple.mcsema/2002-10-12-StructureArgs.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-12-StructureArgs.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-12-StructureArgs.simple.mcsema/2002-10-12-StructureArgs.out-mcsema > Output/2002-10-12-StructureArgs.simple.mcsema/2002-10-12-StructureArgs.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-12-StructureArgs.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-12-StructureArgs.simple.mcsema/2002-10-12-StructureArgs.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-12-StructureArgs.simple.mcsema/2002-10-12-StructureArgs.diff-mcsema 2>&1 
 Diff: 2002-10-12-StructureArgs
+1c1
+< 0.500000, 1.200000, -123.010000, 0.333333
+---
+> 0.000000, 0.000000, 0.000000, 0.000000
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-12-StructureArgsSimple
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-12-StructureArgsSimple.simple.mcsema/2002-10-12-StructureArgsSimple.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-12-StructureArgsSimple.simple.mcsema/2002-10-12-StructureArgsSimple.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-12-StructureArgsSimple.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-12-StructureArgsSimple.simple.mcsema/2002-10-12-StructureArgsSimple.out-mcsema > Output/2002-10-12-StructureArgsSimple.simple.mcsema/2002-10-12-StructureArgsSimple.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-12-StructureArgsSimple.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-12-StructureArgsSimple.simple.mcsema/2002-10-12-StructureArgsSimple.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-12-StructureArgsSimple.simple.mcsema/2002-10-12-StructureArgsSimple.diff-mcsema 2>&1 
 Diff: 2002-10-12-StructureArgsSimple
+1c1
+< 0.500000, 1.200000
+---
+> 0.000000, 0.000000
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-13-BadLoad
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-13-BadLoad.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.out-mcsema > Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-13-BadLoad.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-10-13-BadLoad.simple.mcsema/2002-10-13-BadLoad.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-12-13-MishaTest
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-12-13-MishaTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.out-mcsema > Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-12-13-MishaTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2002-12-13-MishaTest.simple.mcsema/2002-12-13-MishaTest.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-04-22-Switch
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-04-22-Switch.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.out-mcsema > Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-04-22-Switch.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-04-22-Switch.simple.mcsema/2003-04-22-Switch.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-02-DependentPHI
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-02-DependentPHI.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.out-mcsema > Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-02-DependentPHI.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-02-DependentPHI.simple.mcsema/2003-05-02-DependentPHI.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-07-VarArgs
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-07-VarArgs.simple.mcsema/2003-05-07-VarArgs.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-07-VarArgs.simple.mcsema/2003-05-07-VarArgs.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-07-VarArgs.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-07-VarArgs.simple.mcsema/2003-05-07-VarArgs.out-mcsema > Output/2003-05-07-VarArgs.simple.mcsema/2003-05-07-VarArgs.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-07-VarArgs.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-07-VarArgs.simple.mcsema/2003-05-07-VarArgs.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-07-VarArgs.simple.mcsema/2003-05-07-VarArgs.diff-mcsema 2>&1 
 Diff: 2003-05-07-VarArgs
+11,12c11,12
+< double 1.000000
+< double 2.000000
+---
+> double 0.000000
+> double 0.000000
+16,17c16,17
+< QuadWord { 19, 20.000000 }
+< LargeS { 21, 22.000000, 0x1, 23 }
+---
+> QuadWord { 19, 0.000000 }
+> LargeS { 21, 0.000000, 0x1, 23 }
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-12-MinIntProblem
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-12-MinIntProblem.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.out-mcsema > Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-12-MinIntProblem.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-12-MinIntProblem.simple.mcsema/2003-05-12-MinIntProblem.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-14-AtExit
@@ -335,340 +519,477 @@ Diff: 2003-05-07-VarArgs
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-14-AtExit.simple.mcsema/2003-05-14-AtExit.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-14-AtExit.simple.mcsema/2003-05-14-AtExit.simple.new.lifted  
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
 TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-14-AtExit.simple.mcsema/2003-05-14-AtExit.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-14-AtExit.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-14-AtExit.simple.mcsema/2003-05-14-AtExit.out-mcsema > Output/2003-05-14-AtExit.simple.mcsema/2003-05-14-AtExit.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-14-AtExit.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-14-AtExit.simple.mcsema/2003-05-14-AtExit.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-14-AtExit.simple.mcsema/2003-05-14-AtExit.diff-mcsema 2>&1 
 Diff: 2003-05-14-AtExit
+2,3c2,3
+< Exiting!
+< exit 0
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-14-AtExit.simple.mcsema/2003-05-14-AtExit.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-14-AtExit.simple.mcsema/2003-05-14-AtExit.simple.new.lifted
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-26-Shorts
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-26-Shorts.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.out-mcsema > Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-26-Shorts.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-26-Shorts.simple.mcsema/2003-05-26-Shorts.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-31-CastToBool
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-31-CastToBool.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.out-mcsema > Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-31-CastToBool.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-31-CastToBool.simple.mcsema/2003-05-31-CastToBool.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-31-LongShifts
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-31-LongShifts.simple.mcsema/2003-05-31-LongShifts.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-31-LongShifts.simple.mcsema/2003-05-31-LongShifts.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-31-LongShifts.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-31-LongShifts.simple.mcsema/2003-05-31-LongShifts.out-mcsema > Output/2003-05-31-LongShifts.simple.mcsema/2003-05-31-LongShifts.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-31-LongShifts.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-31-LongShifts.simple.mcsema/2003-05-31-LongShifts.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-05-31-LongShifts.simple.mcsema/2003-05-31-LongShifts.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-06-IntOverflow
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-06-IntOverflow.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.out-mcsema > Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-06-IntOverflow.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-06-IntOverflow.simple.mcsema/2003-07-06-IntOverflow.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-08-BitOpsTest
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-08-BitOpsTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.out-mcsema > Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-08-BitOpsTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-08-BitOpsTest.simple.mcsema/2003-07-08-BitOpsTest.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-09-LoadShorts
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-09-LoadShorts.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.out-mcsema > Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-09-LoadShorts.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-09-LoadShorts.simple.mcsema/2003-07-09-LoadShorts.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-09-SignedArgs
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-09-SignedArgs.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.out-mcsema > Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-09-SignedArgs.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-09-SignedArgs.simple.mcsema/2003-07-09-SignedArgs.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-10-SignConversions
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-10-SignConversions.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.out-mcsema > Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-10-SignConversions.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-07-10-SignConversions.simple.mcsema/2003-07-10-SignConversions.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-05-CastFPToUint
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-05-CastFPToUint.simple.mcsema/2003-08-05-CastFPToUint.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-05-CastFPToUint.simple.mcsema/2003-08-05-CastFPToUint.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-05-CastFPToUint.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-05-CastFPToUint.simple.mcsema/2003-08-05-CastFPToUint.out-mcsema > Output/2003-08-05-CastFPToUint.simple.mcsema/2003-08-05-CastFPToUint.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-05-CastFPToUint.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-05-CastFPToUint.simple.mcsema/2003-08-05-CastFPToUint.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-05-CastFPToUint.simple.mcsema/2003-08-05-CastFPToUint.diff-mcsema 2>&1 
 Diff: 2003-08-05-CastFPToUint
+1c1
+< DC = 240.000000, DS = 65520.000000, DI = 4294967280.000000
+---
+> DC = 0.000000, DS = 0.000000, DI = 0.000000
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-11-VaListArg
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-11-VaListArg.simple.mcsema/2003-08-11-VaListArg.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-11-VaListArg.simple.mcsema/2003-08-11-VaListArg.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-11-VaListArg.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-11-VaListArg.simple.mcsema/2003-08-11-VaListArg.out-mcsema > Output/2003-08-11-VaListArg.simple.mcsema/2003-08-11-VaListArg.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-11-VaListArg.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-11-VaListArg.simple.mcsema/2003-08-11-VaListArg.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-11-VaListArg.simple.mcsema/2003-08-11-VaListArg.diff-mcsema 2>&1 
 Diff: 2003-08-11-VaListArg
+21,22c21,22
+< double 1.000000
+< double 2.000000
+---
+> double 0.000000
+> double 0.000000
+25,26c25,26
+< double 1.000000
+< double 2.000000
+---
+> double 0.000000
+> double 0.000000
+30,31c30,31
+< QuadWord { 19, 20.000000 }
+< LargeS { 21, 22.000000, 0x1, 23 }
+---
+> QuadWord { 19, 0.000000 }
+> LargeS { 21, 0.000000, 0x1, 23 }
+33,34c33,34
+< QuadWord { 19, 20.000000 }
+< LargeS { 21, 22.000000, 0x1, 23 }
+---
+> QuadWord { 19, 0.000000 }
+> LargeS { 21, 0.000000, 0x1, 23 }
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-20-FoldBug
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-20-FoldBug.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.out-mcsema > Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-20-FoldBug.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-08-20-FoldBug.simple.mcsema/2003-08-20-FoldBug.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-09-18-BitFieldTest
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-09-18-BitFieldTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.out-mcsema > Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-09-18-BitFieldTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-09-18-BitFieldTest.simple.mcsema/2003-09-18-BitFieldTest.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-10-13-SwitchTest
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-10-13-SwitchTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.out-mcsema > Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-10-13-SwitchTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-10-13-SwitchTest.simple.mcsema/2003-10-13-SwitchTest.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-10-29-ScalarReplBug
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-10-29-ScalarReplBug.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.out-mcsema > Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-10-29-ScalarReplBug.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2003-10-29-ScalarReplBug.simple.mcsema/2003-10-29-ScalarReplBug.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-02-02-NegativeZero
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-02-02-NegativeZero.simple.mcsema/2004-02-02-NegativeZero.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-02-02-NegativeZero.simple.mcsema/2004-02-02-NegativeZero.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-02-02-NegativeZero.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-02-02-NegativeZero.simple.mcsema/2004-02-02-NegativeZero.out-mcsema > Output/2004-02-02-NegativeZero.simple.mcsema/2004-02-02-NegativeZero.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-02-02-NegativeZero.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-02-02-NegativeZero.simple.mcsema/2004-02-02-NegativeZero.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-02-02-NegativeZero.simple.mcsema/2004-02-02-NegativeZero.diff-mcsema 2>&1 
 Diff: 2004-02-02-NegativeZero
+1d0
+< -0.000000 -0.000000
+3c2,3
+< negzero = -0.000000  poszero = 0.000000
+---
+> 0.000000 0.000000
+> negzero = 0.000000  poszero = 0.000000
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-06-20-StaticBitfieldInit
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-06-20-StaticBitfieldInit.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.out-mcsema > Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-06-20-StaticBitfieldInit.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-06-20-StaticBitfieldInit.simple.mcsema/2004-06-20-StaticBitfieldInit.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-11-28-GlobalBoolLayout
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-11-28-GlobalBoolLayout.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.out-mcsema > Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-11-28-GlobalBoolLayout.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2004-11-28-GlobalBoolLayout.simple.mcsema/2004-11-28-GlobalBoolLayout.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-11-Popcount-ffs-fls
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-11-Popcount-ffs-fls.simple.mcsema/2005-05-11-Popcount-ffs-fls.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-11-Popcount-ffs-fls.simple.mcsema/2005-05-11-Popcount-ffs-fls.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-11-Popcount-ffs-fls.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-11-Popcount-ffs-fls.simple.mcsema/2005-05-11-Popcount-ffs-fls.out-mcsema > Output/2005-05-11-Popcount-ffs-fls.simple.mcsema/2005-05-11-Popcount-ffs-fls.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-11-Popcount-ffs-fls.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-11-Popcount-ffs-fls.simple.mcsema/2005-05-11-Popcount-ffs-fls.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-11-Popcount-ffs-fls.simple.mcsema/2005-05-11-Popcount-ffs-fls.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-12-Int64ToFP
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-12-Int64ToFP.simple.mcsema/2005-05-12-Int64ToFP.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-12-Int64ToFP.simple.mcsema/2005-05-12-Int64ToFP.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-12-Int64ToFP.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-12-Int64ToFP.simple.mcsema/2005-05-12-Int64ToFP.out-mcsema > Output/2005-05-12-Int64ToFP.simple.mcsema/2005-05-12-Int64ToFP.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-12-Int64ToFP.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-12-Int64ToFP.simple.mcsema/2005-05-12-Int64ToFP.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-12-Int64ToFP.simple.mcsema/2005-05-12-Int64ToFP.diff-mcsema 2>&1 
 Diff: 2005-05-12-Int64ToFP
+9,16c9,16
+< 9223372036854775932 = 9223372036854775808.000000  -9223372036854775684 = -9223372036854775808.000000
+< 10376293541461622908 = 10376293541461622784.000000  -8070450532247928708 = -8070450532247928832.000000
+< 11529215046068469884 = 11529215046068469760.000000  -6917529027641081732 = -6917529027641081856.000000
+< 12682136550675316860 = 12682136550675316736.000000  -5764607523034234756 = -5764607523034234880.000000
+< 13835058055282163836 = 13835058055282163712.000000  -4611686018427387780 = -4611686018427387904.000000
+< 14987979559889010812 = 14987979559889010688.000000  -3458764513820540804 = -3458764513820540928.000000
+< 16140901064495857788 = 16140901064495857664.000000  -2305843009213693828 = -2305843009213693952.000000
+< 17293822569102704764 = 17293822569102704640.000000  -1152921504606846852 = -1152921504606846848.000000
+---
+> 9223372036854775932 = -9223372036854775808.000000  -9223372036854775684 = 9223372036854775808.000000
+> 10376293541461622908 = -8070450532247928832.000000  -8070450532247928708 = 10376293541461622784.000000
+> 11529215046068469884 = -6917529027641081856.000000  -6917529027641081732 = 11529215046068469760.000000
+> 12682136550675316860 = -5764607523034234880.000000  -5764607523034234756 = 12682136550675316736.000000
+> 13835058055282163836 = -4611686018427387904.000000  -4611686018427387780 = 13835058055282163712.000000
+> 14987979559889010812 = -3458764513820540928.000000  -3458764513820540804 = 14987979559889010688.000000
+> 16140901064495857788 = -2305843009213693952.000000  -2305843009213693828 = 16140901064495857664.000000
+> 17293822569102704764 = -1152921504606846848.000000  -1152921504606846852 = 17293822569102704640.000000
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-13-SDivTwo
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-13-SDivTwo.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.out-mcsema > Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-13-SDivTwo.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-05-13-SDivTwo.simple.mcsema/2005-05-13-SDivTwo.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-07-15-Bitfield-ABI
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-07-15-Bitfield-ABI.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.out-mcsema > Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-07-15-Bitfield-ABI.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-07-15-Bitfield-ABI.simple.mcsema/2005-07-15-Bitfield-ABI.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-07-17-INT-To-FP
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-07-17-INT-To-FP.simple.mcsema/2005-07-17-INT-To-FP.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-07-17-INT-To-FP.simple.mcsema/2005-07-17-INT-To-FP.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-07-17-INT-To-FP.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-07-17-INT-To-FP.simple.mcsema/2005-07-17-INT-To-FP.out-mcsema > Output/2005-07-17-INT-To-FP.simple.mcsema/2005-07-17-INT-To-FP.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-07-17-INT-To-FP.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-07-17-INT-To-FP.simple.mcsema/2005-07-17-INT-To-FP.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-07-17-INT-To-FP.simple.mcsema/2005-07-17-INT-To-FP.diff-mcsema 2>&1 
 Diff: 2005-07-17-INT-To-FP
+3,139c3,139
+< 1 4.000000, 1024.000000, 67108864.000000, 288230376151711744.000000
+< 1 4.000000, 1024.000000, 67108864.000000, 288230376151711744.000000
+< 2 8.000000, 2048.000000, 134217728.000000, 576460752303423488.000000
+< 2 8.000000, 2048.000000, 134217728.000000, 576460752303423488.000000
+< 3 12.000000, 3072.000000, 201326592.000000, 864691128455135232.000000
+< 3 12.000000, 3072.000000, 201326592.000000, 864691128455135232.000000
+< 4 16.000000, 4096.000000, 268435456.000000, 1152921504606846976.000000
+< 4 16.000000, 4096.000000, 268435456.000000, 1152921504606846976.000000
+< 5 20.000000, 5120.000000, 335544320.000000, 1441151880758558720.000000
+< 5 20.000000, 5120.000000, 335544320.000000, 1441151880758558720.000000
+< 6 24.000000, 6144.000000, 402653184.000000, 1729382256910270464.000000
+< 6 24.000000, 6144.000000, 402653184.000000, 1729382256910270464.000000
+< 7 28.000000, 7168.000000, 469762048.000000, 2017612633061982208.000000
+< 7 28.000000, 7168.000000, 469762048.000000, 2017612633061982208.000000
+< 8 32.000000, 8192.000000, 536870912.000000, 2305843009213693952.000000
+< 8 32.000000, 8192.000000, 536870912.000000, 2305843009213693952.000000
+< 9 36.000000, 9216.000000, 603979776.000000, 2594073385365405696.000000
+< 9 36.000000, 9216.000000, 603979776.000000, 2594073385365405696.000000
+< 10 40.000000, 10240.000000, 671088640.000000, 2882303761517117440.000000
+< 10 40.000000, 10240.000000, 671088640.000000, 2882303761517117440.000000
+< 11 44.000000, 11264.000000, 738197504.000000, 3170534137668829184.000000
+< 11 44.000000, 11264.000000, 738197504.000000, 3170534137668829184.000000
+< 12 48.000000, 12288.000000, 805306368.000000, 3458764513820540928.000000
+< 12 48.000000, 12288.000000, 805306368.000000, 3458764513820540928.000000
+< 13 52.000000, 13312.000000, 872415232.000000, 3746994889972252672.000000
+< 13 52.000000, 13312.000000, 872415232.000000, 3746994889972252672.000000
+< 14 56.000000, 14336.000000, 939524096.000000, 4035225266123964416.000000
+< 14 56.000000, 14336.000000, 939524096.000000, 4035225266123964416.000000
+< 15 60.000000, 15360.000000, 1006632960.000000, 4323455642275676160.000000
+< 15 60.000000, 15360.000000, 1006632960.000000, 4323455642275676160.000000
+< 16 64.000000, 16384.000000, 1073741824.000000, 4611686018427387904.000000
+< 16 64.000000, 16384.000000, 1073741824.000000, 4611686018427387904.000000
+< 17 68.000000, 17408.000000, 1140850688.000000, 4899916394579099648.000000
+< 17 68.000000, 17408.000000, 1140850688.000000, 4899916394579099648.000000
+< 18 72.000000, 18432.000000, 1207959552.000000, 5188146770730811392.000000
+< 18 72.000000, 18432.000000, 1207959552.000000, 5188146770730811392.000000
+< 19 76.000000, 19456.000000, 1275068416.000000, 5476377146882523136.000000
+< 19 76.000000, 19456.000000, 1275068416.000000, 5476377146882523136.000000
+< 20 80.000000, 20480.000000, 1342177280.000000, 5764607523034234880.000000
+< 20 80.000000, 20480.000000, 1342177280.000000, 5764607523034234880.000000
+< 21 84.000000, 21504.000000, 1409286144.000000, 6052837899185946624.000000
+< 21 84.000000, 21504.000000, 1409286144.000000, 6052837899185946624.000000
+< 22 88.000000, 22528.000000, 1476395008.000000, 6341068275337658368.000000
+< 22 88.000000, 22528.000000, 1476395008.000000, 6341068275337658368.000000
+< 23 92.000000, 23552.000000, 1543503872.000000, 6629298651489370112.000000
+< 23 92.000000, 23552.000000, 1543503872.000000, 6629298651489370112.000000
+< 24 96.000000, 24576.000000, 1610612736.000000, 6917529027641081856.000000
+< 24 96.000000, 24576.000000, 1610612736.000000, 6917529027641081856.000000
+< 25 100.000000, 25600.000000, 1677721600.000000, 7205759403792793600.000000
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-11-29-LongSwitch
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-11-29-LongSwitch.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.out-mcsema > Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-11-29-LongSwitch.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2005-11-29-LongSwitch.simple.mcsema/2005-11-29-LongSwitch.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-01-23-UnionInit
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-01-23-UnionInit.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.out-mcsema > Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-01-23-UnionInit.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-01-23-UnionInit.simple.mcsema/2006-01-23-UnionInit.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-01-29-SimpleIndirectCall
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-01-29-SimpleIndirectCall.simple.mcsema/2006-01-29-SimpleIndirectCall.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-01-29-SimpleIndirectCall.simple.mcsema/2006-01-29-SimpleIndirectCall.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-01-29-SimpleIndirectCall.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-01-29-SimpleIndirectCall.simple.mcsema/2006-01-29-SimpleIndirectCall.out-mcsema > Output/2006-01-29-SimpleIndirectCall.simple.mcsema/2006-01-29-SimpleIndirectCall.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-01-29-SimpleIndirectCall.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-01-29-SimpleIndirectCall.simple.mcsema/2006-01-29-SimpleIndirectCall.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-01-29-SimpleIndirectCall.simple.mcsema/2006-01-29-SimpleIndirectCall.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-02-04-DivRem
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-02-04-DivRem.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.out-mcsema > Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-02-04-DivRem.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-02-04-DivRem.simple.mcsema/2006-02-04-DivRem.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-01-float_varg
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-01-float_varg.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.out-mcsema > Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-01-float_varg.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-01-float_varg.simple.mcsema/2006-12-01-float_varg.diff-mcsema 2>&1 
 Diff: 2006-12-01-float_varg
+1c1
+< foo 1.230000 12312.100000 3.100000 13.100000
+---
+> foo 0.000000 0.000000 0.000000 -5486124068793688683255936251187209270074392635932332070112001988456197381759672947165175699536362793613284725337872111744958183862744647903224103718245670299614498700710006264535590197791934024641512541262359795191593953928908168990292758500391456212260452596575509589842140073806143686060649302051520512.000000
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-07-Compare64BitConstant
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-07-Compare64BitConstant.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.out-mcsema > Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-07-Compare64BitConstant.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-07-Compare64BitConstant.simple.mcsema/2006-12-07-Compare64BitConstant.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-11-LoadConstants
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-11-LoadConstants.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.out-mcsema > Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-11-LoadConstants.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2006-12-11-LoadConstants.simple.mcsema/2006-12-11-LoadConstants.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-01-04-KNR-Args
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-01-04-KNR-Args.simple.mcsema/2007-01-04-KNR-Args.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-01-04-KNR-Args.simple.mcsema/2007-01-04-KNR-Args.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-01-04-KNR-Args.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-01-04-KNR-Args.simple.mcsema/2007-01-04-KNR-Args.out-mcsema > Output/2007-01-04-KNR-Args.simple.mcsema/2007-01-04-KNR-Args.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-01-04-KNR-Args.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-01-04-KNR-Args.simple.mcsema/2007-01-04-KNR-Args.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-01-04-KNR-Args.simple.mcsema/2007-01-04-KNR-Args.diff-mcsema 2>&1 
 Diff: 2007-01-04-KNR-Args
+1,2c1,2
+< a 4.000000 1 5.000000 2 4.000000 3 5.000000
+< a 4.000000 1 5.000000 2 4.000000 3 5.000000
+---
+> a 0.000000 1 0.000000 2 0.000000 3 0.000000
+> a 0.000000 1 0.000000 2 0.000000 3 0.000000
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-03-02-VaCopy
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-03-02-VaCopy.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.out-mcsema > Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-03-02-VaCopy.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-03-02-VaCopy.simple.mcsema/2007-03-02-VaCopy.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-04-10-BitfieldTest
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-04-10-BitfieldTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.out-mcsema > Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-04-10-BitfieldTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-04-10-BitfieldTest.simple.mcsema/2007-04-10-BitfieldTest.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-04-25-weak
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-04-25-weak.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.out-mcsema > Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-04-25-weak.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2007-04-25-weak.simple.mcsema/2007-04-25-weak.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2008-04-18-LoopBug
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2008-04-18-LoopBug.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.out-mcsema > Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2008-04-18-LoopBug.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2008-04-18-LoopBug.simple.mcsema/2008-04-18-LoopBug.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2008-04-20-LoopBug2
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2008-04-20-LoopBug2.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.out-mcsema > Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2008-04-20-LoopBug2.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2008-04-20-LoopBug2.simple.mcsema/2008-04-20-LoopBug2.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2009-04-16-BitfieldInitialization
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2009-04-16-BitfieldInitialization.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.out-mcsema > Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2009-04-16-BitfieldInitialization.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.diff-mcsema 2>&1 
 Diff: 2009-04-16-BitfieldInitialization
+4c4
+< 4: 1.000000 4 17.000000
+---
+> 4: 17.000000 4 0.000000
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2009-12-07-StructReturn
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2009-12-07-StructReturn.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.out-mcsema > Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2009-12-07-StructReturn.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2009-12-07-StructReturn.simple.mcsema/2009-12-07-StructReturn.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2010-05-24-BitfieldTest
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2010-05-24-BitfieldTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.out-mcsema > Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2010-05-24-BitfieldTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/2010-05-24-BitfieldTest.simple.mcsema/2010-05-24-BitfieldTest.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/AtomicOps
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/AtomicOps.simple.mcsema/AtomicOps.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/AtomicOps.simple.mcsema/AtomicOps.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/AtomicOps.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/AtomicOps.simple.mcsema/AtomicOps.out-mcsema > Output/AtomicOps.simple.mcsema/AtomicOps.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/AtomicOps.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/AtomicOps.simple.mcsema/AtomicOps.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/AtomicOps.simple.mcsema/AtomicOps.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-byref-test
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-byref-test.simple.mcsema/block-byref-test.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-byref-test.simple.mcsema/block-byref-test.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-byref-test.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-byref-test.simple.mcsema/block-byref-test.out-mcsema > Output/block-byref-test.simple.mcsema/block-byref-test.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-byref-test.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-byref-test.simple.mcsema/block-byref-test.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/block-byref-test.simple.mcsema/block-byref-test.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/blockstret
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/blockstret.simple.mcsema/blockstret.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/blockstret.simple.mcsema/blockstret.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/blockstret.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/blockstret.simple.mcsema/blockstret.out-mcsema > Output/blockstret.simple.mcsema/blockstret.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/blockstret.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/blockstret.simple.mcsema/blockstret.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/blockstret.simple.mcsema/blockstret.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/byval-alignment
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/byval-alignment.simple.mcsema/byval-alignment.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/byval-alignment.simple.mcsema/byval-alignment.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/byval-alignment.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/byval-alignment.simple.mcsema/byval-alignment.out-mcsema > Output/byval-alignment.simple.mcsema/byval-alignment.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/byval-alignment.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/byval-alignment.simple.mcsema/byval-alignment.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/byval-alignment.simple.mcsema/byval-alignment.diff-mcsema 2>&1 
 Diff: byval-alignment
+1c1
+< g0.x: 2.0000, g0.y: 3.0000
+---
+> g0.x: 3.0000, g0.y: 0.0000
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/conditional-gnu-ext
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/conditional-gnu-ext.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.out-mcsema > Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/conditional-gnu-ext.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/FloatPrecision
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/FloatPrecision.simple.mcsema/FloatPrecision.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/FloatPrecision.simple.mcsema/FloatPrecision.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/FloatPrecision.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/FloatPrecision.simple.mcsema/FloatPrecision.out-mcsema > Output/FloatPrecision.simple.mcsema/FloatPrecision.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/FloatPrecision.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/FloatPrecision.simple.mcsema/FloatPrecision.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/FloatPrecision.simple.mcsema/FloatPrecision.diff-mcsema 2>&1 
 Diff: FloatPrecision
+1c1
+< 2147483648000.000000
+---
+> 0.000000
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-1
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-1.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.out-mcsema > Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-1.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-1.simple.mcsema/ms_struct-bitfield-1.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.out-mcsema > Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield.simple.mcsema/ms_struct-bitfield.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-init-1
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-init-1.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.out-mcsema > Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-init-1.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-init
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-init.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.out-mcsema > Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-init.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct_pack_layout-1
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct_pack_layout-1.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.out-mcsema > Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct_pack_layout-1.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct_pack_layout-1.simple.mcsema/ms_struct_pack_layout-1.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct_pack_layout
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct_pack_layout.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.out-mcsema > Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct_pack_layout.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/ms_struct_pack_layout.simple.mcsema/ms_struct_pack_layout.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/printargs
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/printargs.simple.mcsema/printargs.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/printargs.simple.mcsema/printargs.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/printargs.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/printargs.simple.mcsema/printargs.out-mcsema > Output/printargs.simple.mcsema/printargs.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/printargs.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/printargs.simple.mcsema/printargs.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/printargs.simple.mcsema/printargs.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/StructModifyTest
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/StructModifyTest.simple.mcsema/StructModifyTest.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/StructModifyTest.simple.mcsema/StructModifyTest.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/StructModifyTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/StructModifyTest.simple.mcsema/StructModifyTest.out-mcsema > Output/StructModifyTest.simple.mcsema/StructModifyTest.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/StructModifyTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/StructModifyTest.simple.mcsema/StructModifyTest.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/StructModifyTest.simple.mcsema/StructModifyTest.diff-mcsema 2>&1 
 Diff: StructModifyTest
+1,2c1,2
+< 1, 123.419998, 19.000000, 123455678902
+< 2, 23.420000, 29.000000, 23455678902
+---
+> 1, 0.000000, 0.000000, 123455678902
+> 2, 0.000000, 0.000000, 23455678902
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/TestLoop
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/TestLoop.simple.mcsema/TestLoop.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/TestLoop.simple.mcsema/TestLoop.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/TestLoop.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/TestLoop.simple.mcsema/TestLoop.out-mcsema > Output/TestLoop.simple.mcsema/TestLoop.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/TestLoop.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/TestLoop.simple.mcsema/TestLoop.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/TestLoop.simple.mcsema/TestLoop.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/vla
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/vla.simple.mcsema/vla.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/vla.simple.mcsema/vla.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/vla.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/vla.simple.mcsema/vla.out-mcsema > Output/vla.simple.mcsema/vla.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/vla.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/vla.simple.mcsema/vla.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/UnitTests/Output/vla.simple.mcsema/vla.diff-mcsema 2>&1 

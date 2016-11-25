@@ -11,112 +11,123 @@ make[2]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSo
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/EH/Output/ConditionalExpr
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/EH/Output/ConditionalExpr.simple.mcsema/ConditionalExpr.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/EH/Output/ConditionalExpr.simple.mcsema/ConditionalExpr.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/EH/Output/ConditionalExpr.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/EH/Output/ConditionalExpr.simple.mcsema/ConditionalExpr.out-mcsema > Output/ConditionalExpr.simple.mcsema/ConditionalExpr.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/EH/Output/ConditionalExpr.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/EH/Output/ConditionalExpr.simple.mcsema/ConditionalExpr.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/EH/Output/ConditionalExpr.simple.mcsema/ConditionalExpr.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/EH/Output/dead_try_block
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/EH/Output/dead_try_block.simple.mcsema/dead_try_block.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/EH/Output/dead_try_block.simple.mcsema/dead_try_block.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/EH/Output/dead_try_block.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/EH/Output/dead_try_block.simple.mcsema/dead_try_block.out-mcsema > Output/dead_try_block.simple.mcsema/dead_try_block.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/EH/Output/dead_try_block.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/EH/Output/dead_try_block.simple.mcsema/dead_try_block.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/EH/Output/dead_try_block.simple.mcsema/dead_try_block.diff-mcsema 2>&1 
 make[2]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/EH'
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-05-14-array-init
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-05-14-array-init.simple.mcsema/2003-05-14-array-init.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-05-14-array-init.simple.mcsema/2003-05-14-array-init.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-05-14-array-init.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-05-14-array-init.simple.mcsema/2003-05-14-array-init.out-mcsema > Output/2003-05-14-array-init.simple.mcsema/2003-05-14-array-init.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-05-14-array-init.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-05-14-array-init.simple.mcsema/2003-05-14-array-init.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-05-14-array-init.simple.mcsema/2003-05-14-array-init.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-05-14-expr_stmt
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-05-14-expr_stmt.simple.mcsema/2003-05-14-expr_stmt.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-05-14-expr_stmt.simple.mcsema/2003-05-14-expr_stmt.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-05-14-expr_stmt.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-05-14-expr_stmt.simple.mcsema/2003-05-14-expr_stmt.out-mcsema > Output/2003-05-14-expr_stmt.simple.mcsema/2003-05-14-expr_stmt.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-05-14-expr_stmt.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-05-14-expr_stmt.simple.mcsema/2003-05-14-expr_stmt.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-05-14-expr_stmt.simple.mcsema/2003-05-14-expr_stmt.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-06-08-BaseType
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-06-08-BaseType.simple.mcsema/2003-06-08-BaseType.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-06-08-BaseType.simple.mcsema/2003-06-08-BaseType.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-06-08-BaseType.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-06-08-BaseType.simple.mcsema/2003-06-08-BaseType.out-mcsema > Output/2003-06-08-BaseType.simple.mcsema/2003-06-08-BaseType.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-06-08-BaseType.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-06-08-BaseType.simple.mcsema/2003-06-08-BaseType.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-06-08-BaseType.simple.mcsema/2003-06-08-BaseType.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-06-13-Crasher
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-06-13-Crasher.simple.mcsema/2003-06-13-Crasher.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-06-13-Crasher.simple.mcsema/2003-06-13-Crasher.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-06-13-Crasher.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-06-13-Crasher.simple.mcsema/2003-06-13-Crasher.out-mcsema > Output/2003-06-13-Crasher.simple.mcsema/2003-06-13-Crasher.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-06-13-Crasher.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-06-13-Crasher.simple.mcsema/2003-06-13-Crasher.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-06-13-Crasher.simple.mcsema/2003-06-13-Crasher.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-08-20-EnumSizeProblem
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-08-20-EnumSizeProblem.simple.mcsema/2003-08-20-EnumSizeProblem.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-08-20-EnumSizeProblem.simple.mcsema/2003-08-20-EnumSizeProblem.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-08-20-EnumSizeProblem.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-08-20-EnumSizeProblem.simple.mcsema/2003-08-20-EnumSizeProblem.out-mcsema > Output/2003-08-20-EnumSizeProblem.simple.mcsema/2003-08-20-EnumSizeProblem.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-08-20-EnumSizeProblem.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-08-20-EnumSizeProblem.simple.mcsema/2003-08-20-EnumSizeProblem.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-08-20-EnumSizeProblem.simple.mcsema/2003-08-20-EnumSizeProblem.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-09-29-NonPODsByValue
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-09-29-NonPODsByValue.simple.mcsema/2003-09-29-NonPODsByValue.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-09-29-NonPODsByValue.simple.mcsema/2003-09-29-NonPODsByValue.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-09-29-NonPODsByValue.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-09-29-NonPODsByValue.simple.mcsema/2003-09-29-NonPODsByValue.out-mcsema > Output/2003-09-29-NonPODsByValue.simple.mcsema/2003-09-29-NonPODsByValue.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-09-29-NonPODsByValue.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-09-29-NonPODsByValue.simple.mcsema/2003-09-29-NonPODsByValue.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2003-09-29-NonPODsByValue.simple.mcsema/2003-09-29-NonPODsByValue.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2008-01-29-ParamAliasesReturn
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2008-01-29-ParamAliasesReturn.simple.mcsema/2008-01-29-ParamAliasesReturn.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2008-01-29-ParamAliasesReturn.simple.mcsema/2008-01-29-ParamAliasesReturn.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2008-01-29-ParamAliasesReturn.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2008-01-29-ParamAliasesReturn.simple.mcsema/2008-01-29-ParamAliasesReturn.out-mcsema > Output/2008-01-29-ParamAliasesReturn.simple.mcsema/2008-01-29-ParamAliasesReturn.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2008-01-29-ParamAliasesReturn.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2008-01-29-ParamAliasesReturn.simple.mcsema/2008-01-29-ParamAliasesReturn.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2008-01-29-ParamAliasesReturn.simple.mcsema/2008-01-29-ParamAliasesReturn.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2011-03-28-Bitfield
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2011-03-28-Bitfield.simple.mcsema/2011-03-28-Bitfield.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2011-03-28-Bitfield.simple.mcsema/2011-03-28-Bitfield.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2011-03-28-Bitfield.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2011-03-28-Bitfield.simple.mcsema/2011-03-28-Bitfield.out-mcsema > Output/2011-03-28-Bitfield.simple.mcsema/2011-03-28-Bitfield.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2011-03-28-Bitfield.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2011-03-28-Bitfield.simple.mcsema/2011-03-28-Bitfield.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/2011-03-28-Bitfield.simple.mcsema/2011-03-28-Bitfield.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/BuiltinTypeInfo
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/BuiltinTypeInfo.simple.mcsema/BuiltinTypeInfo.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/BuiltinTypeInfo.simple.mcsema/BuiltinTypeInfo.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/BuiltinTypeInfo.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/BuiltinTypeInfo.simple.mcsema/BuiltinTypeInfo.out-mcsema > Output/BuiltinTypeInfo.simple.mcsema/BuiltinTypeInfo.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/BuiltinTypeInfo.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/BuiltinTypeInfo.simple.mcsema/BuiltinTypeInfo.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/BuiltinTypeInfo.simple.mcsema/BuiltinTypeInfo.diff-mcsema 2>&1 
 Diff: BuiltinTypeInfo
+1c1
+< 0exit 0
+---
+> 1exit 0
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/fixups
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/fixups.simple.mcsema/fixups.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/fixups.simple.mcsema/fixups.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/fixups.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/fixups.simple.mcsema/fixups.out-mcsema > Output/fixups.simple.mcsema/fixups.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/fixups.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/fixups.simple.mcsema/fixups.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/fixups.simple.mcsema/fixups.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/global_ctor
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/global_ctor.simple.mcsema/global_ctor.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/global_ctor.simple.mcsema/global_ctor.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/global_ctor.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/global_ctor.simple.mcsema/global_ctor.out-mcsema > Output/global_ctor.simple.mcsema/global_ctor.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/global_ctor.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/global_ctor.simple.mcsema/global_ctor.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/global_ctor.simple.mcsema/global_ctor.diff-mcsema 2>&1 
 Diff: global_ctor
+1,2d0
+< Foo ctor 7 0
+< Foo ctor 12 1
+4,6d1
+< bar dtor
+< Foo dtor 12 0
+< Foo dtor 7 1
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/global_type
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/global_type.simple.mcsema/global_type.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/global_type.simple.mcsema/global_type.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/global_type.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/global_type.simple.mcsema/global_type.out-mcsema > Output/global_type.simple.mcsema/global_type.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/global_type.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/global_type.simple.mcsema/global_type.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/global_type.simple.mcsema/global_type.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_member
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_member.simple.mcsema/pointer_member.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_member.simple.mcsema/pointer_member.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_member.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_member.simple.mcsema/pointer_member.out-mcsema > Output/pointer_member.simple.mcsema/pointer_member.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_member.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_member.simple.mcsema/pointer_member.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_member.simple.mcsema/pointer_member.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_method2
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_method2.simple.mcsema/pointer_method2.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_method2.simple.mcsema/pointer_method2.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_method2.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_method2.simple.mcsema/pointer_method2.out-mcsema > Output/pointer_method2.simple.mcsema/pointer_method2.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_method2.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_method2.simple.mcsema/pointer_method2.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_method2.simple.mcsema/pointer_method2.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_method
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_method.simple.mcsema/pointer_method.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_method.simple.mcsema/pointer_method.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_method.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_method.simple.mcsema/pointer_method.out-mcsema > Output/pointer_method.simple.mcsema/pointer_method.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_method.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_method.simple.mcsema/pointer_method.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/pointer_method.simple.mcsema/pointer_method.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/short_circuit_dtor
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/short_circuit_dtor.simple.mcsema/short_circuit_dtor.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/short_circuit_dtor.simple.mcsema/short_circuit_dtor.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/short_circuit_dtor.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/short_circuit_dtor.simple.mcsema/short_circuit_dtor.out-mcsema > Output/short_circuit_dtor.simple.mcsema/short_circuit_dtor.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/short_circuit_dtor.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/short_circuit_dtor.simple.mcsema/short_circuit_dtor.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++/Output/short_circuit_dtor.simple.mcsema/short_circuit_dtor.diff-mcsema 2>&1 
 make[1]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C++'
 make[1]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C'
 
@@ -124,68 +135,72 @@ make[1]: Entering directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSo
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-14-initialize-string
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-14-initialize-string.simple.mcsema/2003-05-14-initialize-string.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-14-initialize-string.simple.mcsema/2003-05-14-initialize-string.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-14-initialize-string.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-14-initialize-string.simple.mcsema/2003-05-14-initialize-string.out-mcsema > Output/2003-05-14-initialize-string.simple.mcsema/2003-05-14-initialize-string.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-14-initialize-string.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-14-initialize-string.simple.mcsema/2003-05-14-initialize-string.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-14-initialize-string.simple.mcsema/2003-05-14-initialize-string.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-BitfieldHandling
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-BitfieldHandling.simple.mcsema/2003-05-21-BitfieldHandling.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-BitfieldHandling.simple.mcsema/2003-05-21-BitfieldHandling.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-BitfieldHandling.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-BitfieldHandling.simple.mcsema/2003-05-21-BitfieldHandling.out-mcsema > Output/2003-05-21-BitfieldHandling.simple.mcsema/2003-05-21-BitfieldHandling.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-BitfieldHandling.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-BitfieldHandling.simple.mcsema/2003-05-21-BitfieldHandling.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-BitfieldHandling.simple.mcsema/2003-05-21-BitfieldHandling.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-UnionBitfields
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-UnionBitfields.simple.mcsema/2003-05-21-UnionBitfields.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-UnionBitfields.simple.mcsema/2003-05-21-UnionBitfields.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-UnionBitfields.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-UnionBitfields.simple.mcsema/2003-05-21-UnionBitfields.out-mcsema > Output/2003-05-21-UnionBitfields.simple.mcsema/2003-05-21-UnionBitfields.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-UnionBitfields.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-UnionBitfields.simple.mcsema/2003-05-21-UnionBitfields.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-UnionBitfields.simple.mcsema/2003-05-21-UnionBitfields.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-UnionTest
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-UnionTest.simple.mcsema/2003-05-21-UnionTest.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-UnionTest.simple.mcsema/2003-05-21-UnionTest.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-UnionTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-UnionTest.simple.mcsema/2003-05-21-UnionTest.out-mcsema > Output/2003-05-21-UnionTest.simple.mcsema/2003-05-21-UnionTest.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-UnionTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-UnionTest.simple.mcsema/2003-05-21-UnionTest.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-21-UnionTest.simple.mcsema/2003-05-21-UnionTest.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-22-LocalTypeTest
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-22-LocalTypeTest.simple.mcsema/2003-05-22-LocalTypeTest.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-22-LocalTypeTest.simple.mcsema/2003-05-22-LocalTypeTest.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-22-LocalTypeTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-22-LocalTypeTest.simple.mcsema/2003-05-22-LocalTypeTest.out-mcsema > Output/2003-05-22-LocalTypeTest.simple.mcsema/2003-05-22-LocalTypeTest.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-22-LocalTypeTest.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-22-LocalTypeTest.simple.mcsema/2003-05-22-LocalTypeTest.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-22-LocalTypeTest.simple.mcsema/2003-05-22-LocalTypeTest.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-22-VarSizeArray
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-22-VarSizeArray.simple.mcsema/2003-05-22-VarSizeArray.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-22-VarSizeArray.simple.mcsema/2003-05-22-VarSizeArray.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-22-VarSizeArray.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-22-VarSizeArray.simple.mcsema/2003-05-22-VarSizeArray.out-mcsema > Output/2003-05-22-VarSizeArray.simple.mcsema/2003-05-22-VarSizeArray.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-22-VarSizeArray.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-22-VarSizeArray.simple.mcsema/2003-05-22-VarSizeArray.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-22-VarSizeArray.simple.mcsema/2003-05-22-VarSizeArray.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-23-TransparentUnion
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-23-TransparentUnion.simple.mcsema/2003-05-23-TransparentUnion.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-23-TransparentUnion.simple.mcsema/2003-05-23-TransparentUnion.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-23-TransparentUnion.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-23-TransparentUnion.simple.mcsema/2003-05-23-TransparentUnion.out-mcsema > Output/2003-05-23-TransparentUnion.simple.mcsema/2003-05-23-TransparentUnion.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-23-TransparentUnion.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-23-TransparentUnion.simple.mcsema/2003-05-23-TransparentUnion.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-05-23-TransparentUnion.simple.mcsema/2003-05-23-TransparentUnion.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-06-16-InvalidInitializer
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-06-16-InvalidInitializer.simple.mcsema/2003-06-16-InvalidInitializer.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-06-16-InvalidInitializer.simple.mcsema/2003-06-16-InvalidInitializer.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-06-16-InvalidInitializer.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-06-16-InvalidInitializer.simple.mcsema/2003-06-16-InvalidInitializer.out-mcsema > Output/2003-06-16-InvalidInitializer.simple.mcsema/2003-06-16-InvalidInitializer.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-06-16-InvalidInitializer.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-06-16-InvalidInitializer.simple.mcsema/2003-06-16-InvalidInitializer.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-06-16-InvalidInitializer.simple.mcsema/2003-06-16-InvalidInitializer.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-06-16-VolatileError
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-06-16-VolatileError.simple.mcsema/2003-06-16-VolatileError.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-06-16-VolatileError.simple.mcsema/2003-06-16-VolatileError.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-06-16-VolatileError.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-06-16-VolatileError.simple.mcsema/2003-06-16-VolatileError.out-mcsema > Output/2003-06-16-VolatileError.simple.mcsema/2003-06-16-VolatileError.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-06-16-VolatileError.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-06-16-VolatileError.simple.mcsema/2003-06-16-VolatileError.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-06-16-VolatileError.simple.mcsema/2003-06-16-VolatileError.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-10-12-GlobalVarInitializers
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-10-12-GlobalVarInitializers.simple.mcsema/2003-10-12-GlobalVarInitializers.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-10-12-GlobalVarInitializers.simple.mcsema/2003-10-12-GlobalVarInitializers.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-10-12-GlobalVarInitializers.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-10-12-GlobalVarInitializers.simple.mcsema/2003-10-12-GlobalVarInitializers.out-mcsema > Output/2003-10-12-GlobalVarInitializers.simple.mcsema/2003-10-12-GlobalVarInitializers.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-10-12-GlobalVarInitializers.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-10-12-GlobalVarInitializers.simple.mcsema/2003-10-12-GlobalVarInitializers.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2003-10-12-GlobalVarInitializers.simple.mcsema/2003-10-12-GlobalVarInitializers.diff-mcsema 2>&1 
 Diff: 2003-10-12-GlobalVarInitializers
+1c1
+< 475368975085586025561263702016.000000 nan
+---
+> 475368975085586025561263702016.000000 0.000000
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-02-03-AggregateCopy
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-02-03-AggregateCopy.simple.mcsema/2004-02-03-AggregateCopy.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-02-03-AggregateCopy.simple.mcsema/2004-02-03-AggregateCopy.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-02-03-AggregateCopy.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-02-03-AggregateCopy.simple.mcsema/2004-02-03-AggregateCopy.out-mcsema > Output/2004-02-03-AggregateCopy.simple.mcsema/2004-02-03-AggregateCopy.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-02-03-AggregateCopy.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-02-03-AggregateCopy.simple.mcsema/2004-02-03-AggregateCopy.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-02-03-AggregateCopy.simple.mcsema/2004-02-03-AggregateCopy.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-03-15-IndirectGoto
@@ -193,139 +208,205 @@ Diff: 2003-10-12-GlobalVarInitializers
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-03-15-IndirectGoto.simple.mcsema/2004-03-15-IndirectGoto.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-03-15-IndirectGoto.simple.mcsema/2004-03-15-IndirectGoto.simple.new.lifted  
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 11
 TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-03-15-IndirectGoto.simple.mcsema/2004-03-15-IndirectGoto.simple.new.lifted FAILED: process terminated by signal (exit status 139)!
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-03-15-IndirectGoto.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-03-15-IndirectGoto.simple.mcsema/2004-03-15-IndirectGoto.out-mcsema > Output/2004-03-15-IndirectGoto.simple.mcsema/2004-03-15-IndirectGoto.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-03-15-IndirectGoto.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-03-15-IndirectGoto.simple.mcsema/2004-03-15-IndirectGoto.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-03-15-IndirectGoto.simple.mcsema/2004-03-15-IndirectGoto.diff-mcsema 2>&1 
 Diff: 2004-03-15-IndirectGoto
+2,12c2,3
+< B
+< C
+< D
+< B
+< C
+< D
+< C
+< D
+< D
+< E
+< exit 0
+---
+> exit 139
+> RunSafely.sh detected a failure with these command-line arguments:  -t /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-03-15-IndirectGoto.simple.mcsema/2004-03-15-IndirectGoto.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-03-15-IndirectGoto.simple.mcsema/2004-03-15-IndirectGoto.simple.new.lifted
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-08-12-InlinerAndAllocas
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-08-12-InlinerAndAllocas.simple.mcsema/2004-08-12-InlinerAndAllocas.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-08-12-InlinerAndAllocas.simple.mcsema/2004-08-12-InlinerAndAllocas.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-08-12-InlinerAndAllocas.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-08-12-InlinerAndAllocas.simple.mcsema/2004-08-12-InlinerAndAllocas.out-mcsema > Output/2004-08-12-InlinerAndAllocas.simple.mcsema/2004-08-12-InlinerAndAllocas.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-08-12-InlinerAndAllocas.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-08-12-InlinerAndAllocas.simple.mcsema/2004-08-12-InlinerAndAllocas.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2004-08-12-InlinerAndAllocas.simple.mcsema/2004-08-12-InlinerAndAllocas.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2005-05-06-LongLongSignedShift
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2005-05-06-LongLongSignedShift.simple.mcsema/2005-05-06-LongLongSignedShift.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2005-05-06-LongLongSignedShift.simple.mcsema/2005-05-06-LongLongSignedShift.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2005-05-06-LongLongSignedShift.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2005-05-06-LongLongSignedShift.simple.mcsema/2005-05-06-LongLongSignedShift.out-mcsema > Output/2005-05-06-LongLongSignedShift.simple.mcsema/2005-05-06-LongLongSignedShift.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2005-05-06-LongLongSignedShift.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2005-05-06-LongLongSignedShift.simple.mcsema/2005-05-06-LongLongSignedShift.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2005-05-06-LongLongSignedShift.simple.mcsema/2005-05-06-LongLongSignedShift.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2008-01-07-LongDouble
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2008-01-07-LongDouble.simple.mcsema/2008-01-07-LongDouble.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2008-01-07-LongDouble.simple.mcsema/2008-01-07-LongDouble.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2008-01-07-LongDouble.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2008-01-07-LongDouble.simple.mcsema/2008-01-07-LongDouble.out-mcsema > Output/2008-01-07-LongDouble.simple.mcsema/2008-01-07-LongDouble.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2008-01-07-LongDouble.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2008-01-07-LongDouble.simple.mcsema/2008-01-07-LongDouble.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/2008-01-07-LongDouble.simple.mcsema/2008-01-07-LongDouble.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/badidx
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/badidx.simple.mcsema/badidx.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/badidx.simple.mcsema/badidx.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/badidx.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/badidx.simple.mcsema/badidx.out-mcsema > Output/badidx.simple.mcsema/badidx.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/badidx.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/badidx.simple.mcsema/badidx.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/badidx.simple.mcsema/badidx.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/bigstack
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/bigstack.simple.mcsema/bigstack.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/bigstack.simple.mcsema/bigstack.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/bigstack.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/bigstack.simple.mcsema/bigstack.out-mcsema > Output/bigstack.simple.mcsema/bigstack.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/bigstack.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/bigstack.simple.mcsema/bigstack.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/bigstack.simple.mcsema/bigstack.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/callargs
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/callargs.simple.mcsema/callargs.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/callargs.simple.mcsema/callargs.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/callargs.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/callargs.simple.mcsema/callargs.out-mcsema > Output/callargs.simple.mcsema/callargs.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/callargs.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/callargs.simple.mcsema/callargs.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/callargs.simple.mcsema/callargs.diff-mcsema 2>&1 
 Diff: callargs
+3,5c3,5
+< 	Args 1-5  : 1 2.100000 c 4.100000 e
+< 	Args 6-10 : 6 7.100000 h 9.100000 j
+< 	Args 11-14: 11 12.100000 m 14.100000 o
+---
+> 	Args 1-5  : 1 0.000000 c 0.000000 e
+> 	Args 6-10 : 6 0.000000 h 0.000000 j
+> 	Args 11-14: 11 0.000000 m 0.000000 o
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/casts
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/casts.simple.mcsema/casts.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/casts.simple.mcsema/casts.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/casts.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/casts.simple.mcsema/casts.out-mcsema > Output/casts.simple.mcsema/casts.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/casts.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/casts.simple.mcsema/casts.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/casts.simple.mcsema/casts.diff-mcsema 2>&1 
 Diff: casts
+16c16
+< short to int64_t l1 = -769		(0xfffffffffffffcff)
+---
+> short to int64_t l1 = 4294967295		(0xffffffff)
+21c21
+< short to uint64_t ul1 = 18446744073709550847		(0xfffffffffffffcff)
+---
+> short to uint64_t ul1 = 4294967295		(0xffffffff)
+43c43
+< DOUBLE            D = 2.000000
+---
+> DOUBLE            D = 9223372036854775808.000000
+50,58c50,58
+< double <- int64_t 123 = 123.000000
+< double <- uint64_t 123 = 123.000000
+< double <- int64_t -1 = -1.000000
+< double <- uint64_t 18446744073709551615 = 18446744073709551616.000000
+< double <- int64_t -14 = -14.000000
+< double <- uint64_t 18446744073709551602 = 18446744073709551616.000000
+< double <- int64_t 14 = 14.000000
+< double <- uint64_t 14 = 14.000000
+< double <- int64_t -9223372036854775808 = -9223372036854775808.000000
+---
+> double <- int64_t 123 = 9223372036854775808.000000
+> double <- uint64_t 123 = 9223372036854775808.000000
+> double <- int64_t -1 = 9223372036854775808.000000
+> double <- uint64_t 18446744073709551615 = 9223372036854775808.000000
+> double <- int64_t -14 = 9223372036854775808.000000
+> double <- uint64_t 18446744073709551602 = 9223372036854775808.000000
+> double <- int64_t 14 = 9223372036854775808.000000
+> double <- uint64_t 14 = 9223372036854775808.000000
+> double <- int64_t -9223372036854775808 = 9223372036854775808.000000
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/compare
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/compare.simple.mcsema/compare.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/compare.simple.mcsema/compare.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/compare.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/compare.simple.mcsema/compare.out-mcsema > Output/compare.simple.mcsema/compare.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/compare.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/compare.simple.mcsema/compare.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/compare.simple.mcsema/compare.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/ConstructorDestructorAttributes
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/ConstructorDestructorAttributes.simple.mcsema/ConstructorDestructorAttributes.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/ConstructorDestructorAttributes.simple.mcsema/ConstructorDestructorAttributes.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/ConstructorDestructorAttributes.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/ConstructorDestructorAttributes.simple.mcsema/ConstructorDestructorAttributes.out-mcsema > Output/ConstructorDestructorAttributes.simple.mcsema/ConstructorDestructorAttributes.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/ConstructorDestructorAttributes.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/ConstructorDestructorAttributes.simple.mcsema/ConstructorDestructorAttributes.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/ConstructorDestructorAttributes.simple.mcsema/ConstructorDestructorAttributes.diff-mcsema 2>&1 
 Diff: ConstructorDestructorAttributes
+1,2d0
+< Create!
+< Create!
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/DuffsDevice
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/DuffsDevice.simple.mcsema/DuffsDevice.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/DuffsDevice.simple.mcsema/DuffsDevice.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/DuffsDevice.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/DuffsDevice.simple.mcsema/DuffsDevice.out-mcsema > Output/DuffsDevice.simple.mcsema/DuffsDevice.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/DuffsDevice.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/DuffsDevice.simple.mcsema/DuffsDevice.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/DuffsDevice.simple.mcsema/DuffsDevice.diff-mcsema 2>&1 
 Diff: DuffsDevice
+1c1
+< Sum is 4950
+---
+> Sum is 4902
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/globalrefs
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/globalrefs.simple.mcsema/globalrefs.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/globalrefs.simple.mcsema/globalrefs.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/globalrefs.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/globalrefs.simple.mcsema/globalrefs.out-mcsema > Output/globalrefs.simple.mcsema/globalrefs.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/globalrefs.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/globalrefs.simple.mcsema/globalrefs.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/globalrefs.simple.mcsema/globalrefs.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/pointer_arithmetic
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/pointer_arithmetic.simple.mcsema/pointer_arithmetic.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/pointer_arithmetic.simple.mcsema/pointer_arithmetic.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/pointer_arithmetic.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/pointer_arithmetic.simple.mcsema/pointer_arithmetic.out-mcsema > Output/pointer_arithmetic.simple.mcsema/pointer_arithmetic.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/pointer_arithmetic.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/pointer_arithmetic.simple.mcsema/pointer_arithmetic.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/pointer_arithmetic.simple.mcsema/pointer_arithmetic.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR10189
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR10189.simple.mcsema/PR10189.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR10189.simple.mcsema/PR10189.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR10189.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR10189.simple.mcsema/PR10189.out-mcsema > Output/PR10189.simple.mcsema/PR10189.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR10189.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR10189.simple.mcsema/PR10189.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR10189.simple.mcsema/PR10189.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR1386
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR1386.simple.mcsema/PR1386.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR1386.simple.mcsema/PR1386.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR1386.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR1386.simple.mcsema/PR1386.out-mcsema > Output/PR1386.simple.mcsema/PR1386.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR1386.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR1386.simple.mcsema/PR1386.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR1386.simple.mcsema/PR1386.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR491
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR491.simple.mcsema/PR491.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR491.simple.mcsema/PR491.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR491.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR491.simple.mcsema/PR491.out-mcsema > Output/PR491.simple.mcsema/PR491.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR491.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR491.simple.mcsema/PR491.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR491.simple.mcsema/PR491.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR640
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR640.simple.mcsema/PR640.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR640.simple.mcsema/PR640.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR640.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR640.simple.mcsema/PR640.out-mcsema > Output/PR640.simple.mcsema/PR640.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR640.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR640.simple.mcsema/PR640.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/PR640.simple.mcsema/PR640.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarray2d
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarray2d.simple.mcsema/sumarray2d.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarray2d.simple.mcsema/sumarray2d.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarray2d.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarray2d.simple.mcsema/sumarray2d.out-mcsema > Output/sumarray2d.simple.mcsema/sumarray2d.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarray2d.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarray2d.simple.mcsema/sumarray2d.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarray2d.simple.mcsema/sumarray2d.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarray
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarray.simple.mcsema/sumarray.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarray.simple.mcsema/sumarray.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarray.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarray.simple.mcsema/sumarray.out-mcsema > Output/sumarray.simple.mcsema/sumarray.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarray.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarray.simple.mcsema/sumarray.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarray.simple.mcsema/sumarray.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarraymalloc
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarraymalloc.simple.mcsema/sumarraymalloc.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarraymalloc.simple.mcsema/sumarraymalloc.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarraymalloc.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarraymalloc.simple.mcsema/sumarraymalloc.out-mcsema > Output/sumarraymalloc.simple.mcsema/sumarraymalloc.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarraymalloc.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarraymalloc.simple.mcsema/sumarraymalloc.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/sumarraymalloc.simple.mcsema/sumarraymalloc.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/test_indvars
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/test_indvars.simple.mcsema/test_indvars.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/test_indvars.simple.mcsema/test_indvars.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/test_indvars.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/test_indvars.simple.mcsema/test_indvars.out-mcsema > Output/test_indvars.simple.mcsema/test_indvars.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/test_indvars.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/test_indvars.simple.mcsema/test_indvars.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/test_indvars.simple.mcsema/test_indvars.diff-mcsema 2>&1 
 Diff: test_indvars
+1c1
+< Checksum = 17997
+---
+> Checksum = 0
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/testtrace
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/testtrace.simple.mcsema/testtrace.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/testtrace.simple.mcsema/testtrace.simple.new.lifted  
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/testtrace.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/testtrace.simple.mcsema/testtrace.out-mcsema > Output/testtrace.simple.mcsema/testtrace.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/testtrace.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/testtrace.simple.mcsema/testtrace.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/testtrace.simple.mcsema/testtrace.diff-mcsema 2>&1 
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/uint64_to_float
@@ -333,6 +414,56 @@ Diff: test_indvars
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/uint64_to_float.simple.mcsema/uint64_to_float.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/uint64_to_float.simple.mcsema/uint64_to_float.simple.new.lifted  
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target: error: child terminated by signal 25
 TEST /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/uint64_to_float.simple.mcsema/uint64_to_float.simple.new.lifted FAILED: process terminated by signal (exit status 153)!
-/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/uint64_to_float.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/uint64_to_float.simple.mcsema/uint64_to_float.out-mcsema > Output/uint64_to_float.simple.mcsema/uint64_to_float.diff-mcsema 2>&1 
+/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/uint64_to_float.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/uint64_to_float.simple.mcsema/uint64_to_float.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C/Output/uint64_to_float.simple.mcsema/uint64_to_float.diff-mcsema 2>&1 
 Diff: uint64_to_float
+2,6c2,2731389
+< Testing uint64_t --> float conversions in round down...
+< Testing uint64_t --> float conversions in round up...
+< Testing uint64_t --> float conversions in round towards zero...
+< Finished Testing.
+< exit 0
+---
+> Error detected @ 0x0000000000000001
+> 	Expected result: 0x1p+0 (0x3f800000)
+> 	Observed result: 0x0p+0 (0x00000000)
+> Error detected @ 0xffffffffffffffff
+> 	Expected result: 0x1p+64 (0x5f800000)
+> 	Observed result: 0x0p+0 (0x00000000)
+> Error detected @ 0x0000000000000002
+> 	Expected result: 0x1p+1 (0x40000000)
+> 	Observed result: 0x0p+0 (0x00000000)
+> Error detected @ 0xfffffffffffffffe
+> 	Expected result: 0x1p+64 (0x5f800000)
+> 	Observed result: 0x0p+0 (0x00000000)
+> Error detected @ 0x0000000000000003
+> 	Expected result: 0x1.8p+1 (0x40400000)
+> 	Observed result: 0x0p+0 (0x00000000)
+> Error detected @ 0x0000000000000001
+> 	Expected result: 0x1p+0 (0x3f800000)
+> 	Observed result: 0x0p+0 (0x00000000)
+> Error detected @ 0xffffffffffffffff
+> 	Expected result: 0x1p+64 (0x5f800000)
+> 	Observed result: 0x0p+0 (0x00000000)
+> Error detected @ 0xfffffffffffffffd
+> 	Expected result: 0x1p+64 (0x5f800000)
+> 	Observed result: 0x0p+0 (0x00000000)
+> Error detected @ 0x0000000000000004
+> 	Expected result: 0x1p+2 (0x40800000)
+> 	Observed result: 0x0p+0 (0x00000000)
+> Error detected @ 0xfffffffffffffffc
+> 	Expected result: 0x1p+64 (0x5f800000)
+> 	Observed result: 0x0p+0 (0x00000000)
+> Error detected @ 0x0000000000000005
+> 	Expected result: 0x1.4p+2 (0x40a00000)
+> 	Observed result: 0x0p+0 (0x00000000)
+> Error detected @ 0x0000000000000003
+> 	Expected result: 0x1.8p+1 (0x40400000)
+> 	Observed result: 0x0p+0 (0x00000000)
+> Error detected @ 0xfffffffffffffffd
+> 	Expected result: 0x1p+64 (0x5f800000)
+> 	Observed result: 0x0p+0 (0x00000000)
+> Error detected @ 0xfffffffffffffffb
+> 	Expected result: 0x1p+64 (0x5f800000)
+> 	Observed result: 0x0p+0 (0x00000000)
+> Error detected @ 0x0000000000000006
 make[1]: Leaving directory `/home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Regression/C'

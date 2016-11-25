@@ -1,0 +1,258 @@
+
+./Adobe-C++/Output/functionobjects.simple.mcsema/functionobjects.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Adobe-C++/Output/simple_types_constant_folding.simple.mcsema/simple_types_constant_folding.simple
+========
+Unsupported opcode 2140!	psrldq	$2, %xmm1 # 40e04340e043 
+2140
+translate_CALLpcrel32: function is: printf, cc is: 0
+
+./Adobe-C++/Output/simple_types_loop_invariant.simple.mcsema/simple_types_loop_invariant.simple
+========
+Unsupported opcode 2140!	psrldq	$2, %xmm1 # 40a46340a463 
+2140
+translate_CALLpcrel32: function is: printf, cc is: 0
+
+./Adobe-C++/Output/functionobjects.simple.mcsema/functionobjects.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Adobe-C++/Output/simple_types_constant_folding.simple.mcsema/simple_types_constant_folding.simple
+========
+Unsupported opcode 2140!	psrldq	$2, %xmm1 # 40e04340e043 
+2140
+translate_CALLpcrel32: function is: printf, cc is: 0
+
+./Adobe-C++/Output/simple_types_loop_invariant.simple.mcsema/simple_types_loop_invariant.simple
+========
+Unsupported opcode 2140!	psrldq	$2, %xmm1 # 40a46340a463 
+2140
+translate_CALLpcrel32: function is: printf, cc is: 0
+
+./Adobe-C++/Output/stepanov_vector.simple.mcsema/stepanov_vector.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./CoyoteBench/Output/fftbench.simple.mcsema/fftbench.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Misc-C++-EH/Output/spirit.simple.mcsema/spirit.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Misc-C++/Large/Output/ray.simple.mcsema/ray.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Misc-C++/Large/Output/sphereflake.simple.mcsema/sphereflake.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Misc-C++/Output/bigfib.simple.mcsema/bigfib.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Misc-C++/Output/oopack_v1p8.simple.mcsema/oopack_v1p8.simple
+========
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
+
+./Misc-C++/Output/stepanov_container.simple.mcsema/stepanov_container.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Misc/Output/ffbench.simple.mcsema/ffbench.simple
+========
+Unsupported opcode 558!	cmplesd	%xmm3, %xmm1 # 4008ec4008ec 
+558
+translate_CALLpcrel32: function is: fprintf, cc is: 0
+
+./Misc/Output/oourafft.simple.mcsema/oourafft.simple
+========
+Unsupported opcode 558!	cmpltsd	%xmm3, %xmm0 # 40104a40104a 
+558
+translate_CALLpcrel32: function is: free, cc is: 0
+
+./Polybench/datamining/correlation/Output/correlation.simple.mcsema/correlation.simple
+========
+Unsupported opcode 556!	cmpnlesd	993(%rip), %xmm1 # 400b0e400b0e 
+556
+translate_CALLpcrel32: function is: malloc, cc is: 0
+
+./Shootout-C++/EH/Output/except.simple.mcsema/except.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/ackermann.simple.mcsema/ackermann.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/ary.simple.mcsema/ary.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/ary2.simple.mcsema/ary2.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/ary3.simple.mcsema/ary3.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/fibo.simple.mcsema/fibo.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/hash.simple.mcsema/hash.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/hash2.simple.mcsema/hash2.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/heapsort.simple.mcsema/heapsort.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/hello.simple.mcsema/hello.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/lists.simple.mcsema/lists.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/lists1.simple.mcsema/lists1.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/matrix.simple.mcsema/matrix.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/methcall.simple.mcsema/methcall.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/moments.simple.mcsema/moments.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/nestedloop.simple.mcsema/nestedloop.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/objinst.simple.mcsema/objinst.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/random.simple.mcsema/random.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/reversefile.simple.mcsema/reversefile.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/sieve.simple.mcsema/sieve.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/spellcheck.simple.mcsema/spellcheck.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/strcat.simple.mcsema/strcat.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/sumcol.simple.mcsema/sumcol.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/wc.simple.mcsema/wc.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Shootout-C++/Output/wordfreq.simple.mcsema/wordfreq.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./SmallPT/Output/smallpt.simple.mcsema/smallpt.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
