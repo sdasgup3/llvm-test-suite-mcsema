@@ -6,8 +6,12 @@
 ##===----------------------------------------------------------------------===##
 
 TESTNAME = $*
+DIFFOUTPUT=Output/${TESTNAME}.simple.mcsema/${TESTNAME}.diff-mcsema
+TESTOUTPUT=Output/${TESTNAME}.simple.mcsema/${TESTNAME}.out-mcsema
+GOODOUTPUT=Output/${TESTNAME}.out-simple
+BIN=Output/${TESTNAME}.simple.mcsema/${TESTNAME}.simple.new.lifted
+SCRIPT=/home/sdasgup3/Github/binary-decompilation/test/utils/diffOutput.pl
 
 $(PROGRAMS_TO_TEST:%=test.$(TEST).%): \
 test.$(TEST).%: Output/%.simple
-	@echo "========================================="
-	@echo "Running '$(TEST)' test on '$(TESTNAME)' program"
+	@$(SCRIPT) -case $(TESTNAME) -output $(TESTOUTPUT) -bin $(BIN) -stdin_filename $(STDIN_FILENAME) -options $(RUN_OPTIONS) -golden $(GOODOUTPUT) -diff $(DIFFOUTPUT) -execsafely $(RUNSAFELY) -fcmp $(FPCMP)  $(TOLERANCEOPT)
