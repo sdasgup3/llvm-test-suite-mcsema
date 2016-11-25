@@ -982,6 +982,7 @@ Current Supported
 ./C/Output/sumarraymalloc.simple.mcsema/sumarraymalloc.simple
 ./C/Output/test_indvars.simple.mcsema/test_indvars.simple
 ./C/Output/testtrace.simple.mcsema/testtrace.simple
+./C/Output/uint64_to_float.simple.mcsema/uint64_to_float.simple
 
 Current Unsupported
 ./C++/EH/Output/class_hierarchy.simple.mcsema/class_hierarchy.simple
@@ -1057,6 +1058,6 @@ Total: 64
 Original supported Count 49
 Original Unsupported Count 15
 Pass Count 42
-Diff Error Count 9
-Current supported Count 51
+Diff Error Count 10
+Current supported Count 52
 Current unsupported Count 13
