@@ -1,3190 +1,941 @@
-./Output/2005-05-11-Popcount-ffs-fls.simple.mcsema/2005-05-11-Popcount-ffs-fls.simple
-=====
-Unsupported opcode 289!	bsrq	%rbx, %rdx # 400940400940 
-289
-
-./Output/2005-05-12-Int64ToFP.simple.mcsema/2005-05-12-Int64ToFP.simple
-=====
-Unsupported opcode 2705!	subpd	231(%rip), %xmm1 # 400621400621 
-2705
-
-./Output/2005-07-17-INT-To-FP.simple.mcsema/2005-07-17-INT-To-FP.simple
-=====
-Unsupported opcode 2705!	subpd	321(%rip), %xmm4 # 400667400667 
-2705
-
-./Output/2008-07-13-InlineSetjmp.simple.mcsema/2008-07-13-InlineSetjmp.simple
-=====
-Basic Block in function 'sub_4006c0' does not have terminator!
-label %instr_0x4006e4
-
-./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple
-=====
-Both operands to ICmp instruction are not of the same type!
-  %221 = icmp eq i2 %220, i8 3, !mcsema_real_eip !18
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %219, !mcsema_real_eip !18
- i2Switch constants must all be same type as switch value!
-  switch i2 %229, label %fpu_read_empty [
---
-Stored value type does not match pointer operand type!
-  store i8 3, i2* %239, !mcsema_real_eip !19
- i2Both operands to ICmp instruction are not of the same type!
-  %269 = icmp eq i2 %268, i8 3, !mcsema_real_eip !22
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %267, !mcsema_real_eip !22
- i2Switch constants must all be same type as switch value!
-  switch i2 %277, label %fpu_read_empty7 [
---
-Stored value type does not match pointer operand type!
-  store i8 3, i2* %287, !mcsema_real_eip !23
- i2Both operands to ICmp instruction are not of the same type!
-  %605 = icmp eq i2 %604, i8 3, !mcsema_real_eip !49
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %603, !mcsema_real_eip !49
- i2Switch constants must all be same type as switch value!
-  switch i2 %632, label %fpu_read_empty15 [
---
-Stored value type does not match pointer operand type!
-  store i8 3, i2* %641, !mcsema_real_eip !52
-
-./Output/byval-alignment.simple.mcsema/byval-alignment.simple
-=====
-Both operands to ICmp instruction are not of the same type!
-  %61 = icmp eq i2 %60, i8 3, !mcsema_real_eip !7
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %59, !mcsema_real_eip !7
- i2Switch constants must all be same type as switch value!
-  switch i2 %69, label %fpu_read_empty [
---
-Stored value type does not match pointer operand type!
-  store i8 3, i2* %79, !mcsema_real_eip !8
- i2Both operands to ICmp instruction are not of the same type!
-  %99 = icmp eq i2 %98, i8 3, !mcsema_real_eip !10
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %97, !mcsema_real_eip !10
- i2Switch constants must all be same type as switch value!
-  switch i2 %107, label %fpu_read_empty7 [
---
-Stored value type does not match pointer operand type!
-  store i8 3, i2* %117, !mcsema_real_eip !11
- i2Both operands to ICmp instruction are not of the same type!
-  %42 = icmp eq i2 %41, i8 3, !mcsema_real_eip !5
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %40, !mcsema_real_eip !5
- i2Both operands to ICmp instruction are not of the same type!
-  %57 = icmp eq i2 %56, i8 3, !mcsema_real_eip !6
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %55, !mcsema_real_eip !6
- i2Switch constants must all be same type as switch value!
-  switch i2 %63, label %fpu_read_empty [
---
-Switch constants must all be same type as switch value!
-  switch i2 %72, label %fpu_read_empty5 [
---
-Both operands to ICmp instruction are not of the same type!
-  %85 = icmp eq i2 %84, i8 3, !mcsema_real_eip !7
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %83, !mcsema_real_eip !7
- i2Switch constants must all be same type as switch value!
-  switch i2 %96, label %fpu_read_empty12 [
---
-Stored value type does not match pointer operand type!
-  store i8 3, i2* %105, !mcsema_real_eip !8
- i2Both operands to ICmp instruction are not of the same type!
-  %122 = icmp eq i2 %121, i8 3, !mcsema_real_eip !9
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %120, !mcsema_real_eip !9
- i2Switch constants must all be same type as switch value!
-  switch i2 %128, label %fpu_read_empty20 [
---
-Switch constants must all be same type as switch value!
-  switch i2 %137, label %fpu_read_empty24 [
---
-Both operands to ICmp instruction are not of the same type!
-  %150 = icmp eq i2 %149, i8 3, !mcsema_real_eip !10
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %148, !mcsema_real_eip !10
- i2Stored value type does not match pointer operand type!
-  store i8 3, i2* %155, !mcsema_real_eip !10
- i2Switch constants must all be same type as switch value!
-  switch i2 %168, label %fpu_read_empty32 [
---
-Stored value type does not match pointer operand type!
-  store i8 3, i2* %177, !mcsema_real_eip !11
-
-./Output/conditional-gnu-ext.simple.mcsema/conditional-gnu-ext.simple
-=====
-Basic Block in function 'sub_400640' does not have terminator!
-label %instr_0x400658
-
-./Output/initp1.simple.mcsema/initp1.simple
-=====
-Basic Block in function 'sub_4008e0' does not have terminator!
-label %instr_0x400be8
-
-./Output/ms_struct-bitfield-init-1.simple.mcsema/ms_struct-bitfield-init-1.simple
-=====
-Basic Block in function 'sub_4005f0' does not have terminator!
-label %instr_0x4006bf
-
-./Output/ms_struct-bitfield-init.simple.mcsema/ms_struct-bitfield-init.simple
-=====
-Basic Block in function 'sub_4005f0' does not have terminator!
-label %instr_0x400634
-
-./Output/vla.simple.mcsema/vla.simple
-=====
-Basic Block in function 'sub_400810' does not have terminator!
-label %instr_0x4008b1
-
-./SignlessTypes/Output/ccc.simple.mcsema/ccc.simple
-=====
-Basic Block in function 'sub_4006c0' does not have terminator!
-label %instr_0x400730
-
-./Vector/Output/build.simple.mcsema/build.simple
-=====
-Unsupported opcode 1735!	mulps	%xmm2, %xmm2 # 400652400652 
-1735
-
-./Vector/Output/build2.simple.mcsema/build2.simple
-=====
-Unsupported opcode 115!	addps	%xmm6, %xmm10 # 4007b04007b0 
-115
 
 ./Vector/Output/multiplies.simple.mcsema/multiplies.simple
-=====
+========
 Unsupported opcode 2064!	pmullw	7095632(%rax), %xmm0 # 400910400910 
 2064
-
-./Vector/Output/simple.simple.mcsema/simple.simple
-=====
-Unsupported opcode 1641!	movhpd	4196504(,%rax,8), %xmm0 # 4006a94006a9 
-1641
+translate_CALLpcrel32: function is: printf, cc is: 0
 
 ./Vector/Output/sumarray-dbl.simple.mcsema/sumarray-dbl.simple
-=====
-Unsupported opcode 112!	addpd	6302080(%rax), %xmm0 # 400640400640 
-112
-Unsupported opcode 2838!	unpckhpd	%xmm1, %xmm1 # 40066a40066a 
-2838
+========
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
 
 ./Vector/Output/sumarray.simple.mcsema/sumarray.simple
-=====
-Unsupported opcode 606!	cvtdq2ps	%xmm2, %xmm2 # 40061d40061d 
-606
-Unsupported opcode 114!	addps	6297232(%rax), %xmm2 # 400650400650 
-114
-
-./Vector/SSE/Output/sse.expandfft.simple.mcsema/sse.expandfft.simple
-=====
-Unsupported opcode 115!	addps	%xmm4, %xmm5 # 400dd2400dd2 
-115
-Unsupported opcode 115!	addps	%xmm4, %xmm5 # 400d62400d62 
-115
-Unsupported opcode 115!	addps	%xmm1, %xmm2 # 40110d40110d 
-115
-Unsupported opcode 115!	addps	%xmm5, %xmm6 # 40103d40103d 
-115
-Unsupported opcode 115!	addps	%xmm5, %xmm6 # 400f3f400f3f 
-115
+========
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
 
 ./Vector/SSE/Output/sse.isamax.simple.mcsema/sse.isamax.simple
-=====
+========
 Unsupported opcode 553!	cmpnleps	%xmm3, %xmm6 # 40081f40081f 
 553
-Unsupported opcode 1314!	maxps	%xmm5, %xmm3 # 4008ab4008ab 
-1314
-Unsupported opcode 115!	addps	%xmm1, %xmm7 # 40086e40086e 
-115
-Unsupported opcode 1314!	maxps	%xmm5, %xmm3 # 400865400865 
-1314
-Unsupported opcode 2124!	pslldq	$8, %xmm3 # 400905400905 
-2124
-Unsupported opcode 606!	cvtdq2ps	%xmm6, %xmm5 # 40094c40094c 
-606
-
-./Vector/SSE/Output/sse.stepfft.simple.mcsema/sse.stepfft.simple
-=====
-Unsupported opcode 1735!	mulps	%xmm3, %xmm0 # 4009e54009e5 
-1735
+Unsupported opcode 553!	cmpnleps	%xmm3, %xmm6 # 40087f40087f 
+553
+doCallPCtarget address : 400530
 
 ./Vectorizer/Output/gcc-loops.simple.mcsema/gcc-loops.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./C++/EH/Output/class_hierarchy.simple.mcsema/class_hierarchy.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./C++/EH/Output/ctor_dtor_count-2.simple.mcsema/ctor_dtor_count-2.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./C++/EH/Output/ctor_dtor_count.simple.mcsema/ctor_dtor_count.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./C++/EH/Output/exception_spec_test.simple.mcsema/exception_spec_test.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./C++/EH/Output/function_try_block.simple.mcsema/function_try_block.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./C++/EH/Output/inlined_cleanup.simple.mcsema/inlined_cleanup.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./C++/EH/Output/recursive-throw.simple.mcsema/recursive-throw.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./C++/EH/Output/simple_rethrow.simple.mcsema/simple_rethrow.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./C++/EH/Output/simple_throw.simple.mcsema/simple_throw.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./C++/EH/Output/throw_rethrow_test.simple.mcsema/throw_rethrow_test.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./C++/Output/2003-06-08-VirtualFunctions.simple.mcsema/2003-06-08-VirtualFunctions.simple
-=====
-Line: 1506
-File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/raiseX86.cpp
-
-./C++/Output/fixups.simple.mcsema/fixups.simple
-=====
-Basic Block in function 'sub_400670' does not have terminator!
-label %instr_0x40067e
+========
+error: 
+Generic error: Line: 316
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/peToCFG/peToCFG.cpp
+Could not find external: __cxa_pure_virtual
 
 ./C++/Output/ofstream_ctor.simple.mcsema/ofstream_ctor.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
-
-./C/Output/2008-01-07-LongDouble.simple.mcsema/2008-01-07-LongDouble.simple
-=====
-Both operands to ICmp instruction are not of the same type!
-  %27 = icmp eq i2 %26, i8 3, !mcsema_real_eip !1
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %25, !mcsema_real_eip !1
- i2Switch constants must all be same type as switch value!
-  switch i2 %33, label %fpu_read_empty [
---
-Both operands to ICmp instruction are not of the same type!
-  %44 = icmp eq i2 %43, i8 3, !mcsema_real_eip !2
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %42, !mcsema_real_eip !2
- i2Switch constants must all be same type as switch value!
-  switch i2 %52, label %fpu_read_empty5 [
---
-Stored value type does not match pointer operand type!
-  store i8 3, i2* %61, !mcsema_real_eip !3
- i2Switch constants must all be same type as switch value!
-  switch i2 %71, label %fpu_read_empty10 [
---
-Stored value type does not match pointer operand type!
-  store i8 3, i2* %80, !mcsema_real_eip !4
-
-./C/Output/DuffsDevice.simple.mcsema/DuffsDevice.simple
-=====
-Unsupported opcode 2115!	pshufhw	$8, %xmm4, %xmm4 # 4006f24006f2 
-2115
+Returning modue...
 
 ./C/Output/matrixTranspose.simple.mcsema/matrixTranspose.simple
-=====
-
-./C/Output/uint64_to_float.simple.mcsema/uint64_to_float.simple
-=====
-Unsupported opcode 289!	bsrq	%rdx, %rcx # 400772400772 
-289
+========
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
 
 ./Adobe-C++/Output/functionobjects.simple.mcsema/functionobjects.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
-
-./Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.simple
-=====
-Unsupported opcode 2602!	shufpd	$0, %xmm0, %xmm0 # 400fc5400fc5 
-2602
+Returning modue...
 
 ./Adobe-C++/Output/simple_types_constant_folding.simple.mcsema/simple_types_constant_folding.simple
-=====
-Unsupported opcode 2602!	shufpd	$0, %xmm0, %xmm0 # 4033dd4033dd 
-2602
+========
+Unsupported opcode 2140!	psrldq	$2, %xmm1 # 40e04340e043 
+2140
+translate_CALLpcrel32: function is: printf, cc is: 0
 
 ./Adobe-C++/Output/simple_types_loop_invariant.simple.mcsema/simple_types_loop_invariant.simple
-=====
-Unsupported opcode 2602!	shufpd	$0, %xmm0, %xmm0 # 40229d40229d 
-2602
+========
+Unsupported opcode 2140!	psrldq	$2, %xmm1 # 40a46340a463 
+2140
+translate_CALLpcrel32: function is: printf, cc is: 0
+
+./Adobe-C++/Output/functionobjects.simple.mcsema/functionobjects.simple
+========
+[libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
+Failed to deserialize protobuf module
+Returning modue...
+
+./Adobe-C++/Output/simple_types_constant_folding.simple.mcsema/simple_types_constant_folding.simple
+========
+Unsupported opcode 2140!	psrldq	$2, %xmm1 # 40e04340e043 
+2140
+translate_CALLpcrel32: function is: printf, cc is: 0
+
+./Adobe-C++/Output/simple_types_loop_invariant.simple.mcsema/simple_types_loop_invariant.simple
+========
+Unsupported opcode 2140!	psrldq	$2, %xmm1 # 40a46340a463 
+2140
+translate_CALLpcrel32: function is: printf, cc is: 0
 
 ./Adobe-C++/Output/stepanov_vector.simple.mcsema/stepanov_vector.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
-
-./BenchmarkGame/Output/fannkuch.simple.mcsema/fannkuch.simple
-=====
-Unsupported opcode 2124!	pslldq	$8, %xmm0 # 400757400757 
-2124
-
-./BenchmarkGame/Output/n-body.simple.mcsema/n-body.simple
-=====
-Unsupported opcode 1699!	movupd	2102682(%rip), %xmm1 # 400ac6400ac6 
-1699
-
-./BenchmarkGame/Output/partialsums.simple.mcsema/partialsums.simple
-=====
-Unsupported opcode 675!	divpd	%xmm3, %xmm1 # 400834400834 
-675
-Unsupported opcode 113!	addpd	%xmm4, %xmm3 # 4008e94008e9 
-113
---
-Unsupported opcode 2838!	unpckhpd	%xmm0, %xmm0 # 4009a94009a9 
-2838
-
-./BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.simple
-=====
-Unsupported opcode 882!	imulq	$1103515245, 2102390(%rip), %rcx # 400bcf400bcf 
-882
-Unsupported opcode 2706!	subpd	%xmm4, %xmm0 # 400c69400c69 
-2706
-
-./BenchmarkGame/Output/spectral-norm.simple.mcsema/spectral-norm.simple
-=====
-Unsupported opcode 1698!	movupd	%xmm0, (%rbx,%rcx,8) # 400970400970 
-1698
-Unsupported opcode 2838!	unpckhpd	%xmm0, %xmm0 # 400b0a400b0a 
-2838
-Unsupported opcode 1641!	movhpd	(%rbx), %xmm0 # 400aed400aed 
-1641
-
-./CoyoteBench/Output/almabench.simple.mcsema/almabench.simple
-=====
-Unsupported opcode 1641!	movhpd	4203552(%rbp,%r14), %xmm1 # 400b93400b93 
-1641
---
-Unsupported opcode 2838!	unpckhpd	%xmm1, %xmm1 # 400cba400cba 
-2838
+Returning modue...
 
 ./CoyoteBench/Output/fftbench.simple.mcsema/fftbench.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
-
-./CoyoteBench/Output/huffbench.simple.mcsema/huffbench.simple
-=====
-Basic Block in function 'sub_4008d0' does not have terminator!
-label %instr_0x40105d
-
-./CoyoteBench/Output/lpbench.simple.mcsema/lpbench.simple
-=====
-Unsupported opcode 1699!	movupd	-16(%rax,%rdx,8), %xmm0 # 4013b04013b0 
-1699
-Unsupported opcode 1699!	movupd	(%rsi,%rbp,8), %xmm3 # 4014e04014e0 
-1699
---
-Unsupported opcode 1699!	movupd	-16(%rbp), %xmm2 # 401600401600 
-1699
-
-./Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.simple
-=====
-Unsupported opcode 114!	addps	6628752(,%rdx,4), %xmm0 # 4008f04008f0 
-114
---
-Unsupported opcode 114!	addps	6628752(,%rdx,4), %xmm0 # 400ad0400ad0 
-114
---
-Unsupported opcode 114!	addps	6628752(,%rdx,4), %xmm0 # 400e20400e20 
-114
---
-Unsupported opcode 114!	addps	6628752(,%rdx,4), %xmm0 # 400ff0400ff0 
-114
-Unsupported opcode 114!	addps	6628752(,%rdx,4), %xmm0 # 4011f04011f0 
-114
---
-Unsupported opcode 114!	addps	6307952(%rsi,%rdx,4), %xmm0 # 4014a04014a0 
-114
---
-Unsupported opcode 114!	addps	6307952(%rsi,%rdx,4), %xmm0 # 401680401680 
-114
-
-./McGill/Output/exptree.simple.mcsema/exptree.simple
-=====
-Basic Block in function 'sub_401030' does not have terminator!
-label %instr_0x401234
-
-./McGill/Output/queens.simple.mcsema/queens.simple
-=====
-Basic Block in function 'sub_400820' does not have terminator!
-label %instr_0x400b1d
+Returning modue...
 
 ./Misc-C++-EH/Output/spirit.simple.mcsema/spirit.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Misc-C++/Large/Output/ray.simple.mcsema/ray.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Misc-C++/Large/Output/sphereflake.simple.mcsema/sphereflake.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Misc-C++/Output/bigfib.simple.mcsema/bigfib.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Misc-C++/Output/oopack_v1p8.simple.mcsema/oopack_v1p8.simple
-=====
+========
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
 
 ./Misc-C++/Output/stepanov_container.simple.mcsema/stepanov_container.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
-
-./Misc/Output/dt.simple.mcsema/dt.simple
-=====
-Unsupported opcode 1699!	movupd	(%rax,%rbx,8), %xmm0 # 4007e04007e0 
-1699
+Returning modue...
 
 ./Misc/Output/ffbench.simple.mcsema/ffbench.simple
-=====
+========
 Unsupported opcode 558!	cmplesd	%xmm3, %xmm1 # 4008ec4008ec 
 558
-
-./Misc/Output/flops-1.simple.mcsema/flops-1.simple
-=====
-Unsupported opcode 2602!	shufpd	$0, %xmm5, %xmm5 # 4007bd4007bd 
-2602
-
-./Misc/Output/flops-5.simple.mcsema/flops-5.simple
-=====
-Unsupported opcode 1733!	mulpd	%xmm3, %xmm11 # 400865400865 
-1733
-
-./Misc/Output/flops-6.simple.mcsema/flops-6.simple
-=====
-Unsupported opcode 1733!	mulpd	%xmm6, %xmm2 # 400863400863 
-1733
-
-./Misc/Output/flops.simple.mcsema/flops.simple
-=====
-Unsupported opcode 2602!	shufpd	$0, %xmm6, %xmm6 # 40094c40094c 
-2602
---
-Unsupported opcode 1641!	movhpd	2103997(%rip), %xmm12 # 4015d24015d2 
-1641
---
-Unsupported opcode 1641!	movhpd	2103147(%rip), %xmm12 # 401924401924 
-1641
-Unsupported opcode 1733!	mulpd	%xmm4, %xmm3 # 401663401663 
-1733
---
-Unsupported opcode 1733!	mulpd	%xmm4, %xmm3 # 4019b34019b3 
-1733
-
-./Misc/Output/fp-convert.simple.mcsema/fp-convert.simple
-=====
-Unsupported opcode 115!	addps	%xmm8, %xmm5 # 400681400681 
-115
-Unsupported opcode 606!	cvtdq2ps	%xmm7, %xmm7 # 4006ad4006ad 
-606
-
-./Misc/Output/matmul_f64_4x4.simple.mcsema/matmul_f64_4x4.simple
-=====
-Unsupported opcode 1699!	movupd	(%rdx), %xmm15 # 400640400640 
-1699
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 
 ./Misc/Output/oourafft.simple.mcsema/oourafft.simple
-=====
-Unsupported opcode 1699!	movupd	(%r13,%rax,8), %xmm0 # 400a70400a70 
-1699
---
-Unsupported opcode 1699!	movupd	(%r13,%rcx,8), %xmm0 # 400cd0400cd0 
-1699
---
-Unsupported opcode 1699!	movupd	(%rbx,%rax,8), %xmm0 # 400ed0400ed0 
-1699
---
+========
 Unsupported opcode 558!	cmpltsd	%xmm3, %xmm0 # 40104a40104a 
 558
-
-./Misc/Output/pi.simple.mcsema/pi.simple
-=====
-Unsupported opcode 1735!	mulps	%xmm6, %xmm6 # 4006e64006e6 
-1735
-
-./Misc/Output/salsa20.simple.mcsema/salsa20.simple
-=====
-Unsupported opcode 2124!	pslldq	$8, %xmm0 # 40092d40092d 
-2124
+translate_CALLpcrel32: function is: free, cc is: 0
 
 ./Polybench/datamining/correlation/Output/correlation.simple.mcsema/correlation.simple
-=====
+========
 Unsupported opcode 556!	cmpnlesd	993(%rip), %xmm1 # 400b0e400b0e 
 556
-Unsupported opcode 1699!	movupd	(%r13,%rdi,8), %xmm2 # 400b90400b90 
-1699
-
-./Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.simple
-=====
-Unsupported opcode 1699!	movupd	-16(%r12,%rbx,8), %xmm0 # 400a50400a50 
-1699
-
-./Polybench/linear-algebra/kernels/2mm/Output/2mm.simple.mcsema/2mm.simple
-=====
-Basic Block in function 'sub_4008b0' does not have terminator!
-label %instr_0x400d83
-
-./Polybench/linear-algebra/kernels/3mm/Output/3mm.simple.mcsema/3mm.simple
-=====
-Basic Block in function 'sub_4008b0' does not have terminator!
-label %instr_0x400e79
-
-./Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.simple
-=====
-Unsupported opcode 2602!	shufpd	$0, %xmm0, %xmm0 # 400ac4400ac4 
-2602
-
-./Polybench/linear-algebra/kernels/bicg/Output/bicg.simple.mcsema/bicg.simple
-=====
-Basic Block in function 'sub_400900' does not have terminator!
-label %instr_0x400c76
-
-./Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema/cholesky.simple
-=====
-Basic Block in function 'sub_400910' does not have terminator!
-label %instr_0x400c77
-
-./Polybench/linear-algebra/kernels/doitgen/Output/doitgen.simple.mcsema/doitgen.simple
-=====
-Basic Block in function 'sub_4008b0' does not have terminator!
-label %instr_0x400d29
-
-./Polybench/linear-algebra/kernels/gemm/Output/gemm.simple.mcsema/gemm.simple
-=====
-Basic Block in function 'sub_4008b0' does not have terminator!
-label %instr_0x400c01
-
-./Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.simple
-=====
-Unsupported opcode 1699!	movupd	(%r11), %xmm0 # 400c10400c10 
-1699
-Unsupported opcode 1699!	movupd	-16(%r14,%rax,8), %xmm0 # 400df0400df0 
-1699
-
-./Polybench/linear-algebra/kernels/gesummv/Output/gesummv.simple.mcsema/gesummv.simple
-=====
-Basic Block in function 'sub_4008b0' does not have terminator!
-label %instr_0x400baf
-
-./Polybench/linear-algebra/kernels/mvt/Output/mvt.simple.mcsema/mvt.simple
-=====
-Basic Block in function 'sub_4008b0' does not have terminator!
-label %instr_0x400c71
-
-./Polybench/linear-algebra/kernels/symm/Output/symm.simple.mcsema/symm.simple
-=====
-Basic Block in function 'sub_4008b0' does not have terminator!
-label %instr_0x400c21
-
-./Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.simple
-=====
-Unsupported opcode 1699!	movupd	-16(%rsi), %xmm1 # 400a30400a30 
-1699
-
-./Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.simple
-=====
-Unsupported opcode 1699!	movupd	-16(%rsi), %xmm1 # 4009f04009f0 
-1699
-
-./Polybench/linear-algebra/kernels/trisolv/Output/trisolv.simple.mcsema/trisolv.simple
-=====
-Basic Block in function 'sub_4008b0' does not have terminator!
-label %instr_0x400afc
-
-./Polybench/linear-algebra/kernels/trmm/Output/trmm.simple.mcsema/trmm.simple
-=====
-Basic Block in function 'sub_4008b0' does not have terminator!
-label %instr_0x400b16
-
-./Polybench/linear-algebra/solvers/durbin/Output/durbin.simple.mcsema/durbin.simple
-=====
-Basic Block in function 'sub_4008b0' does not have terminator!
-label %instr_0x400cc9
-
-./Polybench/linear-algebra/solvers/dynprog/Output/dynprog.simple.mcsema/dynprog.simple
-=====
-Basic Block in function 'sub_4008f0' does not have terminator!
-label %instr_0x400bd0
-
-./Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt.simple.mcsema/gramschmidt.simple
-=====
-Basic Block in function 'sub_400910' does not have terminator!
-label %instr_0x400ef7
-
-./Polybench/linear-algebra/solvers/lu/Output/lu.simple.mcsema/lu.simple
-=====
-Basic Block in function 'sub_4008b0' does not have terminator!
-label %instr_0x400b2d
-
-./Polybench/medley/floyd-warshall/Output/floyd-warshall.simple.mcsema/floyd-warshall.simple
-=====
-Basic Block in function 'sub_4008b0' does not have terminator!
-label %instr_0x400acc
-
-./Polybench/medley/reg_detect/Output/reg_detect.simple.mcsema/reg_detect.simple
-=====
-Basic Block in function 'sub_4008b0' does not have terminator!
-label %instr_0x401393
-
-./Polybench/stencils/adi/Output/adi.simple.mcsema/adi.simple
-=====
-Unsupported opcode 1699!	movupd	8380416(%rbx,%rax,8), %xmm0 # 400e60400e60 
-1699
-Unsupported opcode 1699!	movupd	(%r9), %xmm0 # 400c20400c20 
-1699
-Unsupported opcode 1699!	movupd	(%rax), %xmm0 # 400f90400f90 
-1699
-
-./Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.simple
-=====
-Unsupported opcode 2602!	shufpd	$0, %xmm4, %xmm4 # 400ab5400ab5 
-2602
-Unsupported opcode 1699!	movupd	(%rcx), %xmm4 # 400bc0400bc0 
-1699
-Unsupported opcode 1699!	movupd	(%rcx), %xmm4 # 400c90400c90 
-1699
-Unsupported opcode 1699!	movupd	(%r8), %xmm4 # 400dc0400dc0 
-1699
-
-./Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.simple
-=====
-Unsupported opcode 2124!	pslldq	$8, %xmm10 # 400e03400e03 
-2124
-Unsupported opcode 882!	imulq	$520, 208(%rsp), %rbp # 4012b34012b3 
-882
-
-./Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.simple
-=====
-Unsupported opcode 1699!	movupd	(%rbx,%rdi,8), %xmm2 # 4009d04009d0 
-1699
-Unsupported opcode 1699!	movupd	-16(%r14,%rax,8), %xmm2 # 400ab0400ab0 
-1699
-
-./Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.simple
-=====
-Unsupported opcode 1699!	movupd	8000(%rcx), %xmm2 # 400a70400a70 
-1699
-Unsupported opcode 1699!	movupd	-16(%rcx), %xmm2 # 400c90400c90 
-1699
-
-./Polybench/stencils/seidel-2d/Output/seidel-2d.simple.mcsema/seidel-2d.simple
-=====
-Basic Block in function 'sub_4008b0' does not have terminator!
-label %instr_0x400b2d
+translate_CALLpcrel32: function is: malloc, cc is: 0
 
 ./Shootout-C++/EH/Output/except.simple.mcsema/except.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/ackermann.simple.mcsema/ackermann.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/ary.simple.mcsema/ary.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/ary2.simple.mcsema/ary2.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/ary3.simple.mcsema/ary3.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/fibo.simple.mcsema/fibo.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/hash.simple.mcsema/hash.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/hash2.simple.mcsema/hash2.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/heapsort.simple.mcsema/heapsort.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/hello.simple.mcsema/hello.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/lists.simple.mcsema/lists.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/lists1.simple.mcsema/lists1.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/matrix.simple.mcsema/matrix.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/methcall.simple.mcsema/methcall.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/moments.simple.mcsema/moments.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/nestedloop.simple.mcsema/nestedloop.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/objinst.simple.mcsema/objinst.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/random.simple.mcsema/random.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/reversefile.simple.mcsema/reversefile.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/sieve.simple.mcsema/sieve.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/spellcheck.simple.mcsema/spellcheck.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/strcat.simple.mcsema/strcat.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/sumcol.simple.mcsema/sumcol.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/wc.simple.mcsema/wc.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./Shootout-C++/Output/wordfreq.simple.mcsema/wordfreq.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
-
-./Shootout/Output/hash.simple.mcsema/hash.simple
-=====
-Basic Block in function 'sub_4009c0' does not have terminator!
-label %instr_0x400c74
-
-./Shootout/Output/lists.simple.mcsema/lists.simple
-=====
-Basic Block in function 'sub_400a80' does not have terminator!
-label %instr_0x400d5d
-
-./Shootout/Output/strcat.simple.mcsema/strcat.simple
-=====
-Basic Block in function 'sub_4007f0' does not have terminator!
-label %instr_0x4008f0
+Returning modue...
 
 ./SmallPT/Output/smallpt.simple.mcsema/smallpt.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
+Returning modue...
 
 ./UnitTests/C++11/frame_layout/Output/frame_layout.simple.mcsema/frame_layout.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
-
-./Benchmarks/BitBench/drop3/Output/drop3.simple.mcsema/drop3.simple
-=====
-Basic Block in function 'sub_400ab0' does not have terminator!
-label %instr_0x400c8a
-Could not verify module!
-
-./Benchmarks/BitBench/uudecode/Output/uudecode.simple.mcsema/uudecode.simple
-=====
-Basic Block in function 'sub_400af0' does not have terminator!
-label %instr_0x400bfd
-Basic Block in function 'sub_4008f0' does not have terminator!
-label %instr_0x400a89
-Could not verify module!
-
-./Benchmarks/BitBench/uuencode/Output/uuencode.simple.mcsema/uuencode.simple
-=====
-Basic Block in function 'sub_400bc0' does not have terminator!
-label %instr_0x400c9e
-Could not verify module!
-
-./Benchmarks/Ptrdist/ft/Output/ft.simple.mcsema/ft.simple
-=====
-Basic Block in function 'sub_401340' does not have terminator!
-label %instr_0x401457
-Basic Block in function 'sub_401920' does not have terminator!
-label %instr_0x4019ed
-Basic Block in function 'sub_401650' does not have terminator!
-label %instr_0x4017fd
-Basic Block in function 'sub_400940' does not have terminator!
-label %instr_0x4009ea
-Could not verify module!
-
-./Benchmarks/Ptrdist/ks/Output/ks.simple.mcsema/ks.simple
-=====
-Basic Block in function 'sub_400bf0' does not have terminator!
-label %instr_0x400cf1
-Basic Block in function 'sub_400d70' does not have terminator!
-label %instr_0x400f34
-Basic Block in function 'sub_400940' does not have terminator!
-label %instr_0x400bea
-Could not verify module!
-
-./Benchmarks/Ptrdist/yacr2/Output/yacr2.simple.mcsema/yacr2.simple
-=====
-Basic Block in function 'sub_401fb0' does not have terminator!
-label %instr_0x40218c
-Basic Block in function 'sub_4017e0' does not have terminator!
-label %instr_0x401915
-Basic Block in function 'sub_404650' does not have terminator!
-label %instr_0x404672
-Basic Block in function 'sub_401920' does not have terminator!
-label %instr_0x401a85
-Basic Block in function 'sub_403420' does not have terminator!
-label %instr_0x403717
-Basic Block in function 'sub_4021a0' does not have terminator!
-label %instr_0x402245
-Could not verify module!
 
 ./Benchmarks/Ptrdist/bc/Output/bc.simple.mcsema/bc.simple
-=====
-Line: 219
-File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
-Want to use MEM as data ref but have no MEM reference
-
-./Benchmarks/Ptrdist/anagram/Output/anagram.simple.mcsema/anagram.simple
-=====
-Basic Block in function 'sub_400c80' does not have terminator!
-label %instr_0x400c9e
-Could not verify module!
-
-./Benchmarks/Fhourstones/Output/fhourstones.simple.mcsema/fhourstones.simple
-=====
-Unsupported opcode 882!	imulq	$224, 16(%rsp), %rbp # 400978400978 
-882
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 882!	imulq	$224, 16(%rsp), %rax # 400a8d400a8d 
-882
-shouldSubtractImageBase: No __ImageBase defined
+========
+error: 
+Generic error: Line: 316
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/peToCFG/peToCFG.cpp
+Could not find external: optind
 
 ./Benchmarks/MallocBench/gs/Output/gs.simple.mcsema/gs.simple
-=====
-Unsupported opcode 882!	imulq	$86400000, (%rsp), %rax # 421f28421f28 
-882
-doCallPCtarget address : 40b090
-
-./Benchmarks/MallocBench/cfrac/Output/cfrac.simple.mcsema/cfrac.simple
-=====
+========
+Deserializing symbol at: 62e158, ext_perror, 8
+cur_pos: 62e158
+dse_base: 62e158
+--
+dataSectionToTypesContents: Found symbol: ext_perror
+dataSectionToTypesContents: Found symbol: ext_fprintf
+dataSectionToTypesContents: Found symbol: ext_localtime
+--
+error: 
 Line: 219
 File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
-Want to use MEM as data ref but have no MEM reference
+
+./Benchmarks/MallocBench/cfrac/Output/cfrac.simple.mcsema/cfrac.simple
+========
+error: 
+Generic error: Line: 316
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/peToCFG/peToCFG.cpp
+Could not find external: optind
 
 ./Benchmarks/MallocBench/espresso/Output/espresso.simple.mcsema/espresso.simple
-=====
-Unsupported opcode 882!	imulq	$1000, 8(%rsp), %rcx # 425cb3425cb3 
-882
-Could not insert function: sub_425ca0 into the LLVM module
-
-./Benchmarks/MiBench/network-dijkstra/Output/network-dijkstra.simple.mcsema/network-dijkstra.simple
-=====
-Basic Block in function 'sub_400a20' does not have terminator!
-label %instr_0x400cc7
-Could not verify module!
-
-./Benchmarks/MiBench/office-ispell/Output/office-ispell.simple.mcsema/office-ispell.simple
-=====
-Basic Block in function 'sub_407810' does not have terminator!
-label %instr_0x408f8d
-Basic Block in function 'sub_408fa0' does not have terminator!
-label %instr_0x409063
-Basic Block in function 'sub_40ce20' does not have terminator!
-label %instr_0x40d09e
-Basic Block in function 'sub_40b180' does not have terminator!
-label %instr_0x40b469
-Basic Block in function 'sub_404b20' does not have terminator!
-label %instr_0x404e97
-Basic Block in function 'sub_40d0b0' does not have terminator!
-label %instr_0x40d1b0
-Basic Block in function 'sub_40b470' does not have terminator!
-label %instr_0x40b486
-Basic Block in function 'sub_40b520' does not have terminator!
-label %instr_0x40b74c
-Could not verify module!
+========
+error: 
+Line: 219
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
 
 ./Benchmarks/MiBench/consumer-typeset/Output/consumer-typeset.simple.mcsema/consumer-typeset.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
-./Benchmarks/MiBench/network-patricia/Output/network-patricia.simple.mcsema/network-patricia.simple
-=====
-Basic Block in function 'sub_400c40' does not have terminator!
-label %instr_0x400e89
-Could not verify module!
-
-./Benchmarks/MiBench/telecomm-adpcm/Output/telecomm-adpcm.simple.mcsema/telecomm-adpcm.simple
-=====
-Basic Block in function 'sub_4009c0' does not have terminator!
-label %instr_0x400a4f
-Could not verify module!
-
-./Benchmarks/MiBench/automotive-susan/Output/automotive-susan.simple.mcsema/automotive-susan.simple
-=====
-Basic Block in function 'sub_406d40' does not have terminator!
-label %instr_0x40786e
-Basic Block in function 'sub_400b80' does not have terminator!
-label %instr_0x400c05
-Basic Block in function 'sub_404c40' does not have terminator!
-label %instr_0x405e67
-Basic Block in function 'sub_400dc0' does not have terminator!
-label %instr_0x400e7d
-Basic Block in function 'sub_401a30' does not have terminator!
-label %instr_0x402013
-Basic Block in function 'sub_400c10' does not have terminator!
-label %instr_0x400cb6
-Basic Block in function 'sub_405e70' does not have terminator!
-label %instr_0x406d34
-Could not verify module!
-
-./Benchmarks/MiBench/security-blowfish/Output/security-blowfish.simple.mcsema/security-blowfish.simple
-=====
-Basic Block in function 'sub_402360' does not have terminator!
-label %instr_0x402379
-Could not verify module!
-
 ./Benchmarks/MiBench/consumer-lame/Output/consumer-lame.simple.mcsema/consumer-lame.simple
-=====
-Unsupported opcode 113!	addpd	%xmm9, %xmm13 # 402cfb402cfb 
-113
-Unsupported opcode 2602!	shufpd	$0, %xmm0, %xmm0 # 402d9b402d9b 
-2602
-Unsupported opcode 113!	addpd	%xmm15, %xmm4 # 402e4e402e4e 
-113
-Unsupported opcode 113!	addpd	%xmm8, %xmm1 # 402f59402f59 
-113
-Unsupported opcode 1640!	movhpd	%xmm13, 512(%rsi) # 402fc3402fc3 
-1640
-Unsupported opcode 2838!	unpckhpd	%xmm3, %xmm3 # 40301f40301f 
-2838
-Could not insert function: sub_402804 into the LLVM module
-
-./Benchmarks/MiBench/automotive-basicmath/Output/automotive-basicmath.simple.mcsema/automotive-basicmath.simple
-=====
-Both operands to ICmp instruction are not of the same type!
-  %43 = icmp eq i2 %42, i8 3, !mcsema_real_eip !8
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %41, !mcsema_real_eip !8
- i2Switch constants must all be same type as switch value!
-  switch i2 %49, label %fpu_read_empty [
-    i8 0, label %fpu_read_normal
---
-Both operands to ICmp instruction are not of the same type!
-  %60 = icmp eq i2 %59, i8 3, !mcsema_real_eip !9
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %58, !mcsema_real_eip !9
- i2Switch constants must all be same type as switch value!
-  switch i2 %68, label %fpu_read_empty5 [
-    i8 0, label %fpu_read_normal4
---
-Stored value type does not match pointer operand type!
-  store i8 3, i2* %77, !mcsema_real_eip !10
- i2Both operands to ICmp instruction are not of the same type!
-  %100 = icmp eq i2 %99, i8 3, !mcsema_real_eip !13
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %98, !mcsema_real_eip !13
- i2Both operands to ICmp instruction are not of the same type!
-  %121 = icmp eq i2 %120, i8 3, !mcsema_real_eip !16
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %119, !mcsema_real_eip !16
- i2Switch constants must all be same type as switch value!
-  switch i2 %127, label %fpu_read_empty18 [
-    i8 0, label %fpu_read_normal17
---
-Both operands to ICmp instruction are not of the same type!
-  %138 = icmp eq i2 %137, i8 3, !mcsema_real_eip !17
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %136, !mcsema_real_eip !17
- i2Switch constants must all be same type as switch value!
-  switch i2 %144, label %fpu_read_empty25 [
-    i8 0, label %fpu_read_normal24
---
-Switch constants must all be same type as switch value!
-  switch i2 %153, label %fpu_read_empty29 [
-    i8 0, label %fpu_read_normal28
---
-Both operands to ICmp instruction are not of the same type!
-  %166 = icmp eq i2 %165, i8 3, !mcsema_real_eip !18
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %164, !mcsema_real_eip !18
- i2Switch constants must all be same type as switch value!
-  switch i2 %172, label %fpu_read_empty37 [
-    i8 0, label %fpu_read_normal36
---
-Both operands to ICmp instruction are not of the same type!
-  %183 = icmp eq i2 %182, i8 3, !mcsema_real_eip !19
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %181, !mcsema_real_eip !19
- i2Switch constants must all be same type as switch value!
-  switch i2 %194, label %fpu_read_empty44 [
-    i8 0, label %fpu_read_normal43
---
-Both operands to ICmp instruction are not of the same type!
-  %212 = icmp eq i2 %211, i8 3, !mcsema_real_eip !20
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %210, !mcsema_real_eip !20
- i2Switch constants must all be same type as switch value!
-  switch i2 %218, label %fpu_read_empty51 [
-    i8 0, label %fpu_read_normal50
---
-Switch constants must all be same type as switch value!
-  switch i2 %227, label %fpu_read_empty55 [
-    i8 0, label %fpu_read_normal54
---
-Both operands to ICmp instruction are not of the same type!
-  %240 = icmp eq i2 %239, i8 3, !mcsema_real_eip !21
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %238, !mcsema_real_eip !21
- i2Stored value type does not match pointer operand type!
-  store i8 3, i2* %245, !mcsema_real_eip !21
- i2Both operands to ICmp instruction are not of the same type!
-  %265 = icmp eq i2 %264, i8 3, !mcsema_real_eip !22
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %263, !mcsema_real_eip !22
- i2Switch constants must all be same type as switch value!
-  switch i2 %271, label %fpu_read_empty65 [
-    i8 0, label %fpu_read_normal64
---
-Switch constants must all be same type as switch value!
-  switch i2 %280, label %fpu_read_empty69 [
-    i8 0, label %fpu_read_normal68
---
-Both operands to ICmp instruction are not of the same type!
-  %293 = icmp eq i2 %292, i8 3, !mcsema_real_eip !23
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %291, !mcsema_real_eip !23
- i2Switch constants must all be same type as switch value!
-  switch i2 %299, label %fpu_read_empty77 [
-    i8 0, label %fpu_read_normal76
---
-Both operands to ICmp instruction are not of the same type!
-  %310 = icmp eq i2 %309, i8 3, !mcsema_real_eip !24
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %308, !mcsema_real_eip !24
- i2Switch constants must all be same type as switch value!
-  switch i2 %318, label %fpu_read_empty85 [
-    i8 0, label %fpu_read_normal84
---
-Stored value type does not match pointer operand type!
-  store i8 3, i2* %327, !mcsema_real_eip !25
- i2Switch constants must all be same type as switch value!
-  switch i2 %335, label %fpu_read_empty90 [
-    i8 0, label %fpu_read_normal89
---
-Both operands to ICmp instruction are not of the same type!
-  %346 = icmp eq i2 %345, i8 3, !mcsema_real_eip !26
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %344, !mcsema_real_eip !26
- i2Switch constants must all be same type as switch value!
-  switch i2 %352, label %fpu_read_empty97 [
-    i8 0, label %fpu_read_normal96
---
-Switch constants must all be same type as switch value!
-  switch i2 %361, label %fpu_read_empty101 [
-    i8 0, label %fpu_read_normal100
---
-Both operands to ICmp instruction are not of the same type!
-  %374 = icmp eq i2 %373, i8 3, !mcsema_real_eip !27
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %372, !mcsema_real_eip !27
- i2Switch constants must all be same type as switch value!
-  switch i2 %380, label %fpu_read_empty109 [
-    i8 0, label %fpu_read_normal108
---
-Switch constants must all be same type as switch value!
-  switch i2 %389, label %fpu_read_empty113 [
-    i8 0, label %fpu_read_normal112
---
-Both operands to ICmp instruction are not of the same type!
-  %402 = icmp eq i2 %401, i8 3, !mcsema_real_eip !28
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %400, !mcsema_real_eip !28
- i2Switch constants must all be same type as switch value!
-  switch i2 %408, label %fpu_read_empty121 [
-    i8 0, label %fpu_read_normal120
---
-Switch constants must all be same type as switch value!
-  switch i2 %417, label %fpu_read_empty125 [
-    i8 0, label %fpu_read_normal124
---
-Both operands to ICmp instruction are not of the same type!
-  %430 = icmp eq i2 %429, i8 3, !mcsema_real_eip !29
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %428, !mcsema_real_eip !29
- i2Switch constants must all be same type as switch value!
-  switch i2 %436, label %fpu_read_empty132 [
-    i8 0, label %fpu_read_normal131
---
-Switch constants must all be same type as switch value!
-  switch i2 %445, label %fpu_read_empty136 [
-    i8 0, label %fpu_read_normal135
---
-Both operands to ICmp instruction are not of the same type!
-  %457 = icmp eq i2 %456, i8 3, !mcsema_real_eip !30
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %455, !mcsema_real_eip !30
- i2Both operands to ICmp instruction are not of the same type!
-  %466 = icmp eq i2 %465, i8 3, !mcsema_real_eip !30
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %464, !mcsema_real_eip !30
- i2Switch constants must all be same type as switch value!
-  switch i2 %472, label %fpu_read_empty146 [
-    i8 0, label %fpu_read_normal145
---
-Switch constants must all be same type as switch value!
-  switch i2 %481, label %fpu_read_empty150 [
-    i8 0, label %fpu_read_normal149
---
-Both operands to ICmp instruction are not of the same type!
-  %494 = icmp eq i2 %493, i8 3, !mcsema_real_eip !31
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %492, !mcsema_real_eip !31
- i2Stored value type does not match pointer operand type!
-  store i8 3, i2* %499, !mcsema_real_eip !31
- i2Switch constants must all be same type as switch value!
-  switch i2 %507, label %fpu_read_empty158 [
-    i8 0, label %fpu_read_normal157
---
-Switch constants must all be same type as switch value!
-  switch i2 %516, label %fpu_read_empty162 [
-    i8 0, label %fpu_read_normal161
---
-Both operands to ICmp instruction are not of the same type!
-  %529 = icmp eq i2 %528, i8 3, !mcsema_real_eip !32
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %527, !mcsema_real_eip !32
- i2Stored value type does not match pointer operand type!
-  store i8 3, i2* %534, !mcsema_real_eip !32
- i2Switch constants must all be same type as switch value!
-  switch i2 %542, label %fpu_read_empty170 [
-    i8 0, label %fpu_read_normal169
---
-Switch constants must all be same type as switch value!
-  switch i2 %551, label %fpu_read_empty174 [
-    i8 0, label %fpu_read_normal173
---
-Both operands to ICmp instruction are not of the same type!
-  %563 = icmp eq i2 %562, i8 3, !mcsema_real_eip !33
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %561, !mcsema_real_eip !33
- i2Both operands to ICmp instruction are not of the same type!
-  %572 = icmp eq i2 %571, i8 3, !mcsema_real_eip !33
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %570, !mcsema_real_eip !33
- i2Switch constants must all be same type as switch value!
-  switch i2 %578, label %fpu_read_empty184 [
-    i8 0, label %fpu_read_normal183
---
-Switch constants must all be same type as switch value!
-  switch i2 %587, label %fpu_read_empty188 [
-    i8 0, label %fpu_read_normal187
---
-Both operands to ICmp instruction are not of the same type!
-  %600 = icmp eq i2 %599, i8 3, !mcsema_real_eip !34
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %598, !mcsema_real_eip !34
- i2Stored value type does not match pointer operand type!
-  store i8 3, i2* %605, !mcsema_real_eip !34
- i2Switch constants must all be same type as switch value!
-  switch i2 %618, label %fpu_read_empty196 [
-    i8 0, label %fpu_read_normal195
---
-Both operands to ICmp instruction are not of the same type!
-  %636 = icmp eq i2 %635, i8 3, !mcsema_real_eip !35
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %634, !mcsema_real_eip !35
- i2Switch constants must all be same type as switch value!
-  switch i2 %642, label %fpu_read_empty204 [
-    i8 0, label %fpu_read_normal203
---
-Switch constants must all be same type as switch value!
-  switch i2 %651, label %fpu_read_empty208 [
-    i8 0, label %fpu_read_normal207
---
-Both operands to ICmp instruction are not of the same type!
-  %664 = icmp eq i2 %663, i8 3, !mcsema_real_eip !36
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %662, !mcsema_real_eip !36
- i2Stored value type does not match pointer operand type!
-  store i8 3, i2* %669, !mcsema_real_eip !36
- i2Switch constants must all be same type as switch value!
-  switch i2 %682, label %fpu_read_empty215 [
-    i8 0, label %fpu_read_normal214
---
-Both operands to ICmp instruction are not of the same type!
-  %700 = icmp eq i2 %699, i8 3, !mcsema_real_eip !37
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %698, !mcsema_real_eip !37
- i2Switch constants must all be same type as switch value!
-  switch i2 %706, label %fpu_read_empty223 [
-    i8 0, label %fpu_read_normal222
---
-Both operands to ICmp instruction are not of the same type!
-  %717 = icmp eq i2 %716, i8 3, !mcsema_real_eip !38
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %715, !mcsema_real_eip !38
- i2Switch constants must all be same type as switch value!
-  switch i2 %725, label %fpu_read_empty231 [
-    i8 0, label %fpu_read_normal230
---
-Stored value type does not match pointer operand type!
-  store i8 3, i2* %734, !mcsema_real_eip !39
- i2Switch constants must all be same type as switch value!
-  switch i2 %742, label %fpu_read_empty235 [
-    i8 0, label %fpu_read_normal234
---
-Switch constants must all be same type as switch value!
-  switch i2 %751, label %fpu_read_empty239 [
-    i8 0, label %fpu_read_normal238
---
-Both operands to ICmp instruction are not of the same type!
-  %764 = icmp eq i2 %763, i8 3, !mcsema_real_eip !40
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %762, !mcsema_real_eip !40
- i2Switch constants must all be same type as switch value!
-  switch i2 %770, label %fpu_read_empty247 [
-    i8 0, label %fpu_read_normal246
---
-Both operands to ICmp instruction are not of the same type!
-  %781 = icmp eq i2 %780, i8 3, !mcsema_real_eip !41
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %779, !mcsema_real_eip !41
- i2Switch constants must all be same type as switch value!
-  switch i2 %787, label %fpu_read_empty255 [
-    i8 0, label %fpu_read_normal254
---
-Switch constants must all be same type as switch value!
-  switch i2 %796, label %fpu_read_empty259 [
-    i8 0, label %fpu_read_normal258
---
-Both operands to ICmp instruction are not of the same type!
-  %809 = icmp eq i2 %808, i8 3, !mcsema_real_eip !42
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %807, !mcsema_real_eip !42
- i2Switch constants must all be same type as switch value!
-  switch i2 %815, label %fpu_read_empty267 [
-    i8 0, label %fpu_read_normal266
---
-Switch constants must all be same type as switch value!
-  switch i2 %824, label %fpu_read_empty271 [
-    i8 0, label %fpu_read_normal270
---
-Both operands to ICmp instruction are not of the same type!
-  %837 = icmp eq i2 %836, i8 3, !mcsema_real_eip !43
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %835, !mcsema_real_eip !43
- i2Stored value type does not match pointer operand type!
-  store i8 3, i2* %842, !mcsema_real_eip !43
- i2Switch constants must all be same type as switch value!
-  switch i2 %850, label %fpu_read_empty278 [
-    i8 0, label %fpu_read_normal277
---
-Switch constants must all be same type as switch value!
-  switch i2 %859, label %fpu_read_empty282 [
-    i8 0, label %fpu_read_normal281
---
-Both operands to ICmp instruction are not of the same type!
-  %872 = icmp eq i2 %871, i8 3, !mcsema_real_eip !44
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %870, !mcsema_real_eip !44
- i2Switch constants must all be same type as switch value!
-  switch i2 %880, label %fpu_read_empty289 [
-    i8 0, label %fpu_read_normal288
---
-Stored value type does not match pointer operand type!
-  store i8 3, i2* %890, !mcsema_real_eip !45
- i2Switch constants must all be same type as switch value!
-  switch i2 %915, label %fpu_read_empty294 [
-    i8 0, label %fpu_read_normal293
---
-Stored value type does not match pointer operand type!
-  store i8 3, i2* %925, !mcsema_real_eip !51
- i2Both operands to ICmp instruction are not of the same type!
-  %947 = icmp eq i2 %946, i8 3, !mcsema_real_eip !55
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %945, !mcsema_real_eip !55
- i2Switch constants must all be same type as switch value!
-  switch i2 %955, label %fpu_read_empty301 [
-    i8 0, label %fpu_read_normal300
---
-Both operands to ICmp instruction are not of the same type!
-  %973 = icmp eq i2 %972, i8 3, !mcsema_real_eip !56
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %971, !mcsema_real_eip !56
- i2Switch constants must all be same type as switch value!
-  switch i2 %981, label %fpu_read_empty309 [
-    i8 0, label %fpu_read_normal308
---
-Stored value type does not match pointer operand type!
-  store i8 3, i2* %991, !mcsema_real_eip !57
- i2Both operands to ICmp instruction are not of the same type!
-  %1013 = icmp eq i2 %1012, i8 3, !mcsema_real_eip !61
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %1011, !mcsema_real_eip !61
- i2Switch constants must all be same type as switch value!
-  switch i2 %1021, label %fpu_read_empty318 [
-    i8 0, label %fpu_read_normal317
---
-Stored value type does not match pointer operand type!
-  store i8 3, i2* %1031, !mcsema_real_eip !62
- i2Both operands to ICmp instruction are not of the same type!
-  %1093 = icmp eq i2 %1092, i8 3, !mcsema_real_eip !73
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %1091, !mcsema_real_eip !73
- i2Both operands to ICmp instruction are not of the same type!
-  %1105 = icmp eq i2 %1104, i8 3, !mcsema_real_eip !74
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %1103, !mcsema_real_eip !74
- i2Switch constants must all be same type as switch value!
-  switch i2 %1116, label %fpu_read_empty331 [
-    i8 0, label %fpu_read_normal330
---
-Both operands to ICmp instruction are not of the same type!
-  %1134 = icmp eq i2 %1133, i8 3, !mcsema_real_eip !75
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %1132, !mcsema_real_eip !75
- i2Switch constants must all be same type as switch value!
-  switch i2 %1140, label %fpu_read_empty339 [
-    i8 0, label %fpu_read_normal338
---
-Both operands to ICmp instruction are not of the same type!
-  %1151 = icmp eq i2 %1150, i8 3, !mcsema_real_eip !76
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %1149, !mcsema_real_eip !76
- i2Switch constants must all be same type as switch value!
-  switch i2 %1159, label %fpu_read_empty347 [
-    i8 0, label %fpu_read_normal346
---
-Stored value type does not match pointer operand type!
-  store i8 3, i2* %1168, !mcsema_real_eip !77
- i2Switch constants must all be same type as switch value!
-  switch i2 %1176, label %fpu_read_empty351 [
-    i8 0, label %fpu_read_normal350
---
-Switch constants must all be same type as switch value!
-  switch i2 %1185, label %fpu_read_empty355 [
-    i8 0, label %fpu_read_normal354
---
-Both operands to ICmp instruction are not of the same type!
-  %1198 = icmp eq i2 %1197, i8 3, !mcsema_real_eip !78
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %1196, !mcsema_real_eip !78
- i2Stored value type does not match pointer operand type!
-  store i8 3, i2* %1203, !mcsema_real_eip !78
- i2Switch constants must all be same type as switch value!
-  switch i2 %1213, label %fpu_read_empty363 [
-    i8 0, label %fpu_read_normal362
---
-Stored value type does not match pointer operand type!
-  store i8 3, i2* %1223, !mcsema_real_eip !79
- i2Both operands to ICmp instruction are not of the same type!
-  %1293 = icmp eq i2 %1292, i8 3, !mcsema_real_eip !90
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %1291, !mcsema_real_eip !90
- i2Both operands to ICmp instruction are not of the same type!
-  %1305 = icmp eq i2 %1304, i8 3, !mcsema_real_eip !91
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %1303, !mcsema_real_eip !91
- i2Switch constants must all be same type as switch value!
-  switch i2 %1311, label %fpu_read_empty376 [
-    i8 0, label %fpu_read_normal375
---
-Switch constants must all be same type as switch value!
-  switch i2 %1320, label %fpu_read_empty380 [
-    i8 0, label %fpu_read_normal379
---
-Both operands to ICmp instruction are not of the same type!
-  %1333 = icmp eq i2 %1332, i8 3, !mcsema_real_eip !92
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %1331, !mcsema_real_eip !92
- i2Stored value type does not match pointer operand type!
-  store i8 3, i2* %1338, !mcsema_real_eip !92
- i2Switch constants must all be same type as switch value!
-  switch i2 %1348, label %fpu_read_empty388 [
-    i8 0, label %fpu_read_normal387
---
-Stored value type does not match pointer operand type!
-  store i8 3, i2* %1358, !mcsema_real_eip !93
- i2Both operands to ICmp instruction are not of the same type!
-  %1428 = icmp eq i2 %1427, i8 3, !mcsema_real_eip !104
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %1426, !mcsema_real_eip !104
- i2Both operands to ICmp instruction are not of the same type!
-  %1440 = icmp eq i2 %1439, i8 3, !mcsema_real_eip !105
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %1438, !mcsema_real_eip !105
- i2Switch constants must all be same type as switch value!
-  switch i2 %1446, label %fpu_read_empty401 [
-    i8 0, label %fpu_read_normal400
---
-Switch constants must all be same type as switch value!
-  switch i2 %1455, label %fpu_read_empty405 [
-    i8 0, label %fpu_read_normal404
---
-Both operands to ICmp instruction are not of the same type!
-  %1468 = icmp eq i2 %1467, i8 3, !mcsema_real_eip !106
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %1466, !mcsema_real_eip !106
- i2Stored value type does not match pointer operand type!
-  store i8 3, i2* %1473, !mcsema_real_eip !106
- i2Switch constants must all be same type as switch value!
-  switch i2 %1483, label %fpu_read_empty413 [
-    i8 0, label %fpu_read_normal412
---
-Stored value type does not match pointer operand type!
-  store i8 3, i2* %1493, !mcsema_real_eip !107
- i2Switch constants must all be same type as switch value!
-  switch i2 %1501, label %fpu_read_empty417 [
-    i8 0, label %fpu_read_normal416
---
-Both operands to ICmp instruction are not of the same type!
-  %1513 = icmp eq i2 %1512, i8 3, !mcsema_real_eip !1
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %1511, !mcsema_real_eip !1
- i2Stored value type does not match pointer operand type!
-  store i8 3, i2* %1518, !mcsema_real_eip !1
- i2Both operands to ICmp instruction are not of the same type!
-  %1539 = icmp eq i2 %1538, i8 3, !mcsema_real_eip !110
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %1537, !mcsema_real_eip !110
- i2Switch constants must all be same type as switch value!
-  switch i2 %1547, label %fpu_read_empty428 [
-    i8 0, label %fpu_read_normal427
---
-Both operands to ICmp instruction are not of the same type!
-  %1560 = icmp eq i2 %1559, i8 3, !mcsema_real_eip !112
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %1558, !mcsema_real_eip !112
- i2Switch constants must all be same type as switch value!
-  switch i2 %1566, label %fpu_read_empty435 [
-    i8 0, label %fpu_read_normal434
---
-Switch constants must all be same type as switch value!
-  switch i2 %1575, label %fpu_read_empty439 [
-    i8 0, label %fpu_read_normal438
---
-Stored value type does not match pointer operand type!
-  store i8 3, i2* %1586, !mcsema_real_eip !113
- i2Switch constants must all be same type as switch value!
-  switch i2 %1594, label %fpu_read_empty444 [
-    i8 0, label %fpu_read_normal443
---
-Both operands to ICmp instruction are not of the same type!
-  %1606 = icmp eq i2 %1605, i8 3, !mcsema_real_eip !114
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %1604, !mcsema_real_eip !114
- i2Stored value type does not match pointer operand type!
-  store i8 3, i2* %1611, !mcsema_real_eip !114
- i2Both operands to ICmp instruction are not of the same type!
-  %1660 = icmp eq i2 %1659, i8 3, !mcsema_real_eip !123
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %1658, !mcsema_real_eip !123
- i2Both operands to ICmp instruction are not of the same type!
-  %1672 = icmp eq i2 %1671, i8 3, !mcsema_real_eip !124
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %1670, !mcsema_real_eip !124
- i2Switch constants must all be same type as switch value!
-  switch i2 %1678, label %fpu_read_empty459 [
-    i8 0, label %fpu_read_normal458
---
-Switch constants must all be same type as switch value!
-  switch i2 %1687, label %fpu_read_empty463 [
-    i8 0, label %fpu_read_normal462
---
-Both operands to ICmp instruction are not of the same type!
-  %1700 = icmp eq i2 %1699, i8 3, !mcsema_real_eip !125
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %1698, !mcsema_real_eip !125
- i2Switch constants must all be same type as switch value!
-  switch i2 %1706, label %fpu_read_empty471 [
-    i8 0, label %fpu_read_normal470
---
-Switch constants must all be same type as switch value!
-  switch i2 %1715, label %fpu_read_empty475 [
-    i8 0, label %fpu_read_normal474
---
-Both operands to ICmp instruction are not of the same type!
-  %1728 = icmp eq i2 %1727, i8 3, !mcsema_real_eip !126
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %1726, !mcsema_real_eip !126
- i2Stored value type does not match pointer operand type!
-  store i8 3, i2* %1733, !mcsema_real_eip !126
- i2Switch constants must all be same type as switch value!
-  switch i2 %1743, label %fpu_read_empty483 [
-    i8 0, label %fpu_read_normal482
---
-Stored value type does not match pointer operand type!
-  store i8 3, i2* %1753, !mcsema_real_eip !127
- i2Both operands to ICmp instruction are not of the same type!
-  %1784 = icmp eq i2 %1783, i8 3, !mcsema_real_eip !131
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %1782, !mcsema_real_eip !131
- i2Switch constants must all be same type as switch value!
-  switch i2 %1795, label %fpu_read_empty492 [
-    i8 0, label %fpu_read_normal491
---
-Both operands to ICmp instruction are not of the same type!
-  %1813 = icmp eq i2 %1812, i8 3, !mcsema_real_eip !132
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %1811, !mcsema_real_eip !132
- i2Switch constants must all be same type as switch value!
-  switch i2 %1823, label %fpu_read_empty499 [
-    i8 0, label %fpu_read_normal498
---
-Both operands to ICmp instruction are not of the same type!
-  %1841 = icmp eq i2 %1840, i8 3, !mcsema_real_eip !134
-Stored value type does not match pointer operand type!
-  store i8 0, i2* %1839, !mcsema_real_eip !134
- i2Switch constants must all be same type as switch value!
-  switch i2 %1849, label %fpu_read_empty507 [
-    i8 0, label %fpu_read_normal506
---
-Stored value type does not match pointer operand type!
-  store i8 3, i2* %1859, !mcsema_real_eip !135
- i2Could not verify module!
-
-./Benchmarks/MiBench/telecomm-FFT/Output/telecomm-fft.simple.mcsema/telecomm-fft.simple
-=====
-Unsupported opcode 882!	imulq	$1103515245, 2101213(%rip), %rax # 4010b04010b0 
-882
-shouldSubtractImageBase: No __ImageBase defined
-
-./Benchmarks/MiBench/automotive-bitcount/Output/automotive-bitcount.simple.mcsema/automotive-bitcount.simple
-=====
-Unsupported opcode 882!	imulq	$1103515245, 2101852(%rip), %rax # 400e41400e41 
-882
-Unsupported opcode 882!	imulq	$1103515245, 2101997(%rip), %rax # 400db0400db0 
-882
-shouldSubtractImageBase: No __ImageBase defined
+========
+Deserializing symbol at: 6290c0, ext_ferror, 8
+cur_pos: 6290c0
+dse_base: 6290c0
+--
+dataSectionToTypesContents: Found symbol: ext_ferror
+dataSectionToTypesContents: Found symbol: ext___xstat
+dataSectionToTypesContents: Found symbol: ext_sprintf
+--
+doCallPCExtern paramCount  : 1 : ferror
+1 : 1f76410
+translate_CALLpcrel32: function is: memset, cc is: 0
+--
+Unsupported opcode 556!	cmpltsd	92940(%rip), %xmm0 # 40bbab40bbab 
+556
+translate_CALLpcrel32: function is: fprintf, cc is: 0
 
 ./Benchmarks/MiBench/telecomm-gsm/Output/telecomm-gsm.simple.mcsema/telecomm-gsm.simple
-=====
-Line: 219
-File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
-Want to use MEM as data ref but have no MEM reference
+========
+error: 
+Generic error: Line: 316
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/peToCFG/peToCFG.cpp
+Could not find external: optind
 
 ./Benchmarks/MiBench/consumer-jpeg/Output/consumer-jpeg.simple.mcsema/consumer-jpeg.simple
-=====
+========
+Deserializing symbol at: 628060, ext_ferror, 8
+cur_pos: 628060
+dse_base: 628060
+--
+dataSectionToTypesContents: Found symbol: ext_ferror
+dataSectionToTypesContents: Found symbol: ext___ctype_b_loc
+dataSectionToTypesContents: Found symbol: ext_sprintf
+--
+error: 
 Line: 219
 File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
-Want to use MEM as data ref but have no MEM reference
 
 ./Benchmarks/McCat/04-bisect/Output/bisect.simple.mcsema/bisect.simple
-=====
-Unsupported opcode 1699!	movupd	(%rsi,%rbx,8), %xmm0 # 400ab0400ab0 
-1699
-doCallPCtarget address : 400d30
-
-./Benchmarks/McCat/01-qbsort/Output/qbsort.simple.mcsema/qbsort.simple
-=====
-Basic Block in function 'sub_4008f0' does not have terminator!
-label %instr_0x400af0
-Could not verify module!
-
-./Benchmarks/McCat/09-vor/Output/vor.simple.mcsema/vor.simple
-=====
-Basic Block in function 'sub_401820' does not have terminator!
-label %instr_0x4018ee
-Basic Block in function 'sub_4010e0' does not have terminator!
-label %instr_0x401155
-Basic Block in function 'sub_401e80' does not have terminator!
-label %instr_0x401f3a
-Basic Block in function 'sub_402340' does not have terminator!
-label %instr_0x402501
-Could not verify module!
-
-./Benchmarks/McCat/03-testtrie/Output/testtrie.simple.mcsema/testtrie.simple
-=====
-Basic Block in function 'sub_400df0' does not have terminator!
-label %instr_0x400e92
-Basic Block in function 'sub_400db0' does not have terminator!
-label %instr_0x400dea
-Could not verify module!
-
-./Benchmarks/McCat/18-imp/Output/imp.simple.mcsema/imp.simple
-=====
-Unsupported opcode 1735!	mulps	%xmm4, %xmm7 # 401958401958 
-1735
-Unsupported opcode 1735!	mulps	%xmm5, %xmm7 # 4019b84019b8 
-1735
-Could not insert function: sub_4017c0 into the LLVM module
-
-./Benchmarks/McCat/05-eks/Output/eks.simple.mcsema/eks.simple
-=====
-Unsupported opcode 1699!	movupd	(%rcx,%rbx,8), %xmm4 # 401800401800 
-1699
-Unsupported opcode 1699!	movupd	(%rdi), %xmm4 # 401ba0401ba0 
-1699
-doCallPCtarget address : 401f80
-
-./Benchmarks/McCat/15-trie/Output/trie.simple.mcsema/trie.simple
-=====
-Basic Block in function 'sub_400d70' does not have terminator!
-label %instr_0x400f0c
-Basic Block in function 'sub_400a80' does not have terminator!
-label %instr_0x400b44
-Basic Block in function 'sub_400ca0' does not have terminator!
-label %instr_0x400d43
-Basic Block in function 'sub_400b50' does not have terminator!
-label %instr_0x400bed
-Could not verify module!
-
-./Benchmarks/McCat/08-main/Output/main.simple.mcsema/main.simple
-=====
-Unsupported opcode 2602!	shufpd	$0, %xmm0, %xmm0 # 4024fc4024fc 
-2602
-Could not insert function: sub_4024f0 into the LLVM module
+========
+Unsupported opcode 558!	cmpnlesd	%xmm2, %xmm3 # 400e52400e52 
+558
+translate_CALLpcrel32: function is: fwrite, cc is: 0
 
 ./Benchmarks/Prolangs-C/football/Output/football.simple.mcsema/football.simple
-=====
+========
 Unsupported opcode 558!	cmpeqsd	%xmm0, %xmm2 # 4015ee4015ee 
 558
 Unsupported opcode 558!	cmpeqsd	%xmm0, %xmm2 # 40165a40165a 
 558
-doCallPCExtern paramCount  : 3 : memcpy
-
-./Benchmarks/Prolangs-C/agrep/Output/agrep.simple.mcsema/agrep.simple
-=====
-Basic Block in function 'sub_408300' does not have terminator!
-label %instr_0x408a37
-Basic Block in function 'sub_404440' does not have terminator!
-label %instr_0x4045c4
-Basic Block in function 'sub_4045d0' does not have terminator!
-label %instr_0x404823
-Basic Block in function 'sub_406f50' does not have terminator!
-label %instr_0x4072d9
-Basic Block in function 'sub_404bf0' does not have terminator!
-label %instr_0x405ab2
-Could not verify module!
-
-./Benchmarks/Prolangs-C/fixoutput/Output/fixoutput.simple.mcsema/fixoutput.simple
-=====
-Basic Block in function 'sub_400870' does not have terminator!
-label %instr_0x400f9c
-Could not verify module!
+translate_CALLpcrel32: function is: memcpy, cc is: 0
 
 ./Benchmarks/Prolangs-C/cdecl/Output/cdecl.simple.mcsema/cdecl.simple
-=====
-Line: 219
-File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
-Want to use MEM as data ref but have no MEM reference
-
-./Benchmarks/Prolangs-C/TimberWolfMC/Output/timberwolfmc.simple.mcsema/timberwolfmc.simple
-=====
-Unsupported opcode 2124!	pslldq	$8, %xmm1 # 424b56424b56 
-2124
-shouldSubtractImageBase: No __ImageBase defined
-
-./Benchmarks/Prolangs-C/bison/Output/mybison.simple.mcsema/mybison.simple
-=====
-Unsupported opcode 658!	decw	(%rbx,%rdx,2) # 40808d40808d 
-658
-shouldSubtractImageBase: No __ImageBase defined
+========
+error: 
+Generic error: Line: 316
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/peToCFG/peToCFG.cpp
+Could not find external: optind
 
 ./Benchmarks/Prolangs-C/plot2fig/Output/plot2fig.simple.mcsema/plot2fig.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
-
-./Benchmarks/Prolangs-C/unix-tbl/Output/unix-tbl.simple.mcsema/unix-tbl.simple
-=====
-Basic Block in function 'sub_400be0' does not have terminator!
-label %instr_0x400c0a
-Basic Block in function 'sub_400c10' does not have terminator!
-label %instr_0x400c22
-Basic Block in function 'sub_405720' does not have terminator!
-label %instr_0x405764
-Could not verify module!
 
 ./Benchmarks/Prolangs-C/unix-smail/Output/unix-smail.simple.mcsema/unix-smail.simple
-=====
+========
+error: 
+Generic error: Line: 316
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/peToCFG/peToCFG.cpp
+Could not find external: tzname
 
 ./Benchmarks/Prolangs-C/archie-client/Output/archie.simple.mcsema/archie.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
-
-./Benchmarks/SciMark2-C/Output/scimark2.simple.mcsema/scimark2.simple
-=====
-Unsupported opcode 1699!	movupd	(%r14,%rdx,8), %xmm2 # 400d40400d40 
-1699
-doCallPCtarget address : 4009b0
-
-./Benchmarks/FreeBench/fourinarow/Output/fourinarow.simple.mcsema/fourinarow.simple
-=====
-Basic Block in function 'sub_402940' does not have terminator!
-label %instr_0x402d5e
-Could not verify module!
-
-./Benchmarks/FreeBench/distray/Output/distray.simple.mcsema/distray.simple
-=====
-Unsupported opcode 1732!	mulpd	2107353(%rip), %xmm1 # 400a8f400a8f 
-1732
-Unsupported opcode 1733!	mulpd	%xmm0, %xmm1 # 400fa9400fa9 
-1733
-doCallPCExtern paramCount  : 1 : sqrt
---
-Unsupported opcode 1732!	mulpd	144(%rsp), %xmm0 # 400eb2400eb2 
-1732
-doCallPCExtern paramCount  : 1 : sqrt
---
-Unsupported opcode 1732!	mulpd	96(%rsp), %xmm0 # 400c7e400c7e 
-1732
-getValueForExternal: Found external data ref to: stdout
-
-./Benchmarks/FreeBench/pcompress2/Output/pcompress2.simple.mcsema/pcompress2.simple
-=====
-Unsupported opcode 2124!	pslldq	$8, %xmm3 # 400b4c400b4c 
-2124
-Unsupported opcode 2124!	pslldq	$8, %xmm1 # 400c01400c01 
-2124
-shouldSubtractImageBase: No __ImageBase defined
-
-./Benchmarks/FreeBench/pifft/Output/pifft.simple.mcsema/pifft.simple
-=====
-Unsupported opcode 1699!	movupd	(%rbx), %xmm0 # 40abb840abb8 
-1699
-shouldSubtractImageBase: No __ImageBase defined
 
 ./Benchmarks/FreeBench/neural/Output/neural.simple.mcsema/neural.simple
-=====
+========
 Unsupported opcode 553!	cmpnltps	%xmm0, %xmm1 # 401a38401a38 
 553
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 606!	cvtdq2ps	%xmm0, %xmm0 # 401bc5401bc5 
-606
-Could not insert function: sub_401750 into the LLVM module
-
-./Benchmarks/FreeBench/mason/Output/mason.simple.mcsema/mason.simple
-=====
-Basic Block in function 'sub_4007d0' does not have terminator!
-label %instr_0x4008fd
-Could not verify module!
-
-./Benchmarks/FreeBench/analyzer/Output/analyzer.simple.mcsema/analyzer.simple
-=====
-Unsupported opcode 2706!	subpd	%xmm3, %xmm1 # 401553401553 
-2706
-Could not insert function: sub_401450 into the LLVM module
+translate_CALLpcrel32: function is: exp, cc is: 0
 
 ./Benchmarks/PAQ8p/Output/paq8p.simple.mcsema/paq8p.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
-
-./Benchmarks/ASC_Sequoia/AMGmk/Output/AMGmk.simple.mcsema/AMGmk.simple
-=====
-Unsupported opcode 1699!	movupd	(%r12,%rdx,8), %xmm2 # 401b10401b10 
-1699
-Unsupported opcode 1699!	movupd	(%r12,%rsi,8), %xmm2 # 401bc0401bc0 
-1699
-Unsupported opcode 1699!	movupd	(%r12,%rdx,8), %xmm1 # 401fb0401fb0 
-1699
-Could not insert function: sub_401a40 into the LLVM module
-
-./Benchmarks/ASC_Sequoia/CrystalMk/Output/CrystalMk.simple.mcsema/CrystalMk.simple
-=====
-Unsupported opcode 1699!	movupd	(%rsi,%rax,8), %xmm3 # 400b10400b10 
-1699
-Could not insert function: sub_400a50 into the LLVM module
-
-./Benchmarks/ASC_Sequoia/IRSmk/Output/IRSmk.simple.mcsema/IRSmk.simple
-=====
-Basic Block in function 'sub_400fb0' does not have terminator!
-label %instr_0x401142
-Could not verify module!
-
-./Benchmarks/Fhourstones-3.1/Output/fhourstones3.1.simple.mcsema/fhourstones3.1.simple
-=====
-Unsupported opcode 882!	imulq	$196, 48(%rsp), %rax # 4012c74012c7 
-882
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 882!	imulq	$196, 48(%rsp), %rcx # 40142e40142e 
-882
-Could not insert function: sub_400e50 into the LLVM module
 
 ./Benchmarks/nbench/Output/nbench.simple.mcsema/nbench.simple
-=====
-Unsupported opcode 2705!	subpd	21701(%rip), %xmm0 # 405723405723 
-2705
-shouldSubtractImageBase: No __ImageBase defined
-Unsupported opcode 2705!	subpd	22859(%rip), %xmm0 # 40529d40529d 
-2705
-Unsupported opcode 2705!	subpd	22187(%rip), %xmm0 # 40553d40553d 
-2705
-doCallPCtarget address : 409b60
+========
+Unsupported opcode 2588!	shrdw	$7, %bp, %bx # 4063c64063c6 
+2588
+doCallPCtarget address : 4021f0
 
 ./Benchmarks/NPB-serial/is/Output/is.simple.mcsema/is.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
-
-./Benchmarks/ASCI_Purple/SMG2000/Output/smg2000.simple.mcsema/smg2000.simple
-=====
-Unsupported opcode 1698!	movupd	%xmm0, (%r14,%rdx,8) # 412bd0412bd0 
-1698
-doCallPCtarget address : 401f10
 
 ./Benchmarks/mafft/Output/pairlocalalign.simple.mcsema/pairlocalalign.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
-./Benchmarks/Olden/voronoi/Output/voronoi.simple.mcsema/voronoi.simple
-=====
-Unsupported opcode 1699!	movupd	32(%rsp), %xmm0 # 403340403340 
-1699
-doCallPCtarget address : 402350
-
-./Benchmarks/Olden/treeadd/Output/treeadd.simple.mcsema/treeadd.simple
-=====
-Basic Block in function 'sub_400750' does not have terminator!
-label %instr_0x4007ac
-Could not verify module!
-
-./Benchmarks/Olden/power/Output/power.simple.mcsema/power.simple
-=====
-Unsupported opcode 1699!	movupd	16(%rbx), %xmm0 # 4018cd4018cd 
-1699
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2706!	subpd	%xmm7, %xmm0 # 401958401958 
-2706
-Could not insert function: sub_401890 into the LLVM module
-
-./Benchmarks/Olden/bh/Output/bh.simple.mcsema/bh.simple
-=====
-Unsupported opcode 112!	addpd	112(%rsp), %xmm0 # 400c31400c31 
-112
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 675!	divpd	%xmm1, %xmm2 # 400d51400d51 
-675
-Unsupported opcode 1699!	movupd	16(%rbx), %xmm6 # 400e20400e20 
-1699
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2838!	unpckhpd	%xmm6, %xmm6 # 400ed0400ed0 
-2838
-doCallPCExtern paramCount  : 1 : floor
-
-./Benchmarks/Olden/em3d/Output/em3d.simple.mcsema/em3d.simple
-=====
-Basic Block in function 'sub_400ea0' does not have terminator!
-label %instr_0x401067
-Basic Block in function 'sub_400bc0' does not have terminator!
-label %instr_0x400d4e
-Could not verify module!
-
-./Benchmarks/Olden/mst/Output/mst.simple.mcsema/mst.simple
-=====
-Basic Block in function 'sub_400a70' does not have terminator!
-label %instr_0x400b28
-Basic Block in function 'sub_400910' does not have terminator!
-label %instr_0x400a06
-Basic Block in function 'sub_400890' does not have terminator!
-label %instr_0x4008fd
-Could not verify module!
-
-./Benchmarks/Olden/perimeter/Output/perimeter.simple.mcsema/perimeter.simple
-=====
-Basic Block in function 'sub_400a80' does not have terminator!
-label %instr_0x400b05
-Could not verify module!
-
-./Benchmarks/Olden/health/Output/health.simple.mcsema/health.simple
-=====
-Unsupported opcode 114!	addps	64(%rsp), %xmm0 # 400957400957 
-114
-Unsupported opcode 115!	addps	%xmm4, %xmm0 # 4009aa4009aa 
-115
-doCallPCtarget address : 4008f0
-
 ./Benchmarks/Bullet/Output/bullet.simple.mcsema/bullet.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
 ./Benchmarks/mediabench/jpeg/jpeg-6a/Output/cjpeg.simple.mcsema/cjpeg.simple
-=====
+========
+Deserializing symbol at: 628060, ext_ferror, 8
+cur_pos: 628060
+dse_base: 628060
+--
+dataSectionToTypesContents: Found symbol: ext_ferror
+dataSectionToTypesContents: Found symbol: ext___ctype_b_loc
+dataSectionToTypesContents: Found symbol: ext_sprintf
+--
+error: 
 Line: 219
 File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
-Want to use MEM as data ref but have no MEM reference
 
 ./Benchmarks/mediabench/gsm/toast/Output/toast.simple.mcsema/toast.simple
-=====
-Line: 219
-File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
-Want to use MEM as data ref but have no MEM reference
-
-./Benchmarks/mediabench/adpcm/rawdaudio/Output/rawdaudio.simple.mcsema/rawdaudio.simple
-=====
-Basic Block in function 'sub_4009c0' does not have terminator!
-label %instr_0x400a4f
-Could not verify module!
-
-./Benchmarks/mediabench/adpcm/rawcaudio/Output/rawcaudio.simple.mcsema/rawcaudio.simple
-=====
-Basic Block in function 'sub_4009c0' does not have terminator!
-label %instr_0x400a5f
-Could not verify module!
-
-./Benchmarks/mediabench/mpeg2/mpeg2dec/Output/mpeg2decode.simple.mcsema/mpeg2decode.simple
-=====
-Unsupported opcode 2115!	pshufhw	$8, %xmm6, %xmm6 # 404ff4404ff4 
-2115
-doCallPCtarget address : 401230
-
-./Benchmarks/mediabench/g721/g721encode/Output/encode.simple.mcsema/encode.simple
-=====
-Basic Block in function 'sub_400830' does not have terminator!
-label %instr_0x400c21
-Could not verify module!
+========
+error: 
+Generic error: Line: 316
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/peToCFG/peToCFG.cpp
+Could not find external: optind
 
 ./Benchmarks/tramp3d-v4/Output/tramp3d-v4.simple.mcsema/tramp3d-v4.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
-./Benchmarks/TSVC/Packing-dbl/Output/Packing-dbl.simple.mcsema/Packing-dbl.simple
-=====
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 406181406181 
-2602
-shouldSubtractImageBase: No __ImageBase defined
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4061d24061d2 
-2602
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 406221406221 
-2602
-Could not insert function: sub_406040 into the LLVM module
-
-./Benchmarks/TSVC/NodeSplitting-dbl/Output/NodeSplitting-dbl.simple.mcsema/NodeSplitting-dbl.simple
-=====
-Unsupported opcode 1641!	movhpd	8768736(%rax), %xmm1 # 406818406818 
-1641
-shouldSubtractImageBase: No __ImageBase defined
-
-./Benchmarks/TSVC/Recurrences-dbl/Output/Recurrences-dbl.simple.mcsema/Recurrences-dbl.simple
-=====
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 406161406161 
-2602
-shouldSubtractImageBase: No __ImageBase defined
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4061b24061b2 
-2602
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 406201406201 
-2602
-Could not insert function: sub_406020 into the LLVM module
-
-./Benchmarks/TSVC/InductionVariable-flt/Output/InductionVariable-flt.simple.mcsema/InductionVariable-flt.simple
-=====
-Unsupported opcode 114!	addps	7738528(,%rax,4), %xmm0 # 405cc0405cc0 
-114
-shouldSubtractImageBase: No __ImageBase defined
-
-./Benchmarks/TSVC/Expansion-flt/Output/Expansion-flt.simple.mcsema/Expansion-flt.simple
-=====
-Unsupported opcode 1734!	mulps	7994624(,%rax,4), %xmm0 # 405cb8405cb8 
-1734
-shouldSubtractImageBase: No __ImageBase defined
-
 ./Benchmarks/TSVC/CrossingThresholds-dbl/Output/CrossingThresholds-dbl.simple.mcsema/CrossingThresholds-dbl.simple
-=====
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4019f24019f2 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 401a44401a44 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 401ca4401ca4 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 40206e40206e 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 40231f40231f 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402b89402b89 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402af5402af5 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402bd2402bd2 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402ca2402ca2 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402c13402c13 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402ce4402ce4 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402deb402deb 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm0, %xmm0 # 4034a64034a6 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 403fa4403fa4 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 403fe6403fe6 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 404297404297 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 404625404625 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4049ae4049ae 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4049f04049f0 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 1698!	movupd	%xmm0, 9707496(,%rax,8) # 404d9f404d9f 
-1698
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4054bc4054bc 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 40581b40581b 
-2602
-Could not insert function: sub_400cc0 into the LLVM module
-
-./Benchmarks/TSVC/ControlLoops-dbl/Output/ControlLoops-dbl.simple.mcsema/ControlLoops-dbl.simple
-=====
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4019f24019f2 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 401a44401a44 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 401ca4401ca4 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 40206e40206e 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 40231f40231f 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402b89402b89 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402af5402af5 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402bd2402bd2 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402ca2402ca2 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402c13402c13 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402ce4402ce4 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402deb402deb 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm0, %xmm0 # 4034a64034a6 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 403fa4403fa4 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 403fe6403fe6 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 404297404297 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 404625404625 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4049ae4049ae 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4049f04049f0 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 1698!	movupd	%xmm0, 9707496(,%rax,8) # 404d9f404d9f 
-1698
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4054bc4054bc 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 40581b40581b 
-2602
-Could not insert function: sub_400cc0 into the LLVM module
-
-./Benchmarks/TSVC/Symbolics-flt/Output/Symbolics-flt.simple.mcsema/Symbolics-flt.simple
-=====
-Unsupported opcode 1735!	mulps	%xmm0, %xmm1 # 40647c40647c 
-1735
-shouldSubtractImageBase: No __ImageBase defined
-
-./Benchmarks/TSVC/LoopRerolling-dbl/Output/LoopRerolling-dbl.simple.mcsema/LoopRerolling-dbl.simple
-=====
-Unsupported opcode 1699!	movupd	8768768(,%rax,8), %xmm0 # 4065d04065d0 
-1699
-shouldSubtractImageBase: No __ImageBase defined
+========
+Unsupported opcode 558!	cmpeqsd	%xmm1, %xmm0 # 406666406666 
+558
+translate_CALLpcrel32: function is: printf, cc is: 0
 
 ./Benchmarks/TSVC/Reductions-flt/Output/Reductions-flt.simple.mcsema/Reductions-flt.simple
-=====
+========
 Unsupported opcode 564!	cmpnless	%xmm2, %xmm1 # 4066cb4066cb 
 564
-shouldSubtractImageBase: No __ImageBase defined
-
-./Benchmarks/TSVC/InductionVariable-dbl/Output/InductionVariable-dbl.simple.mcsema/InductionVariable-dbl.simple
-=====
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4019f24019f2 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 401a44401a44 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 401ca4401ca4 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 40206e40206e 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 40231f40231f 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402b89402b89 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402af5402af5 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402bd2402bd2 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402ca2402ca2 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402c13402c13 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402ce4402ce4 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402deb402deb 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm0, %xmm0 # 4034a64034a6 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 403fa4403fa4 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 403fe6403fe6 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 404297404297 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 404625404625 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4049ae4049ae 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4049f04049f0 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 1698!	movupd	%xmm0, 9707496(,%rax,8) # 404d9f404d9f 
-1698
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4054bc4054bc 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 40581b40581b 
-2602
-Could not insert function: sub_400cc0 into the LLVM module
-
-./Benchmarks/TSVC/ControlFlow-dbl/Output/ControlFlow-dbl.simple.mcsema/ControlFlow-dbl.simple
-=====
-Unsupported opcode 1699!	movupd	8520928(%rbp,%rcx,8), %xmm0 # 406030406030 
-1699
-shouldSubtractImageBase: No __ImageBase defined
-
-./Benchmarks/TSVC/Searching-dbl/Output/Searching-dbl.simple.mcsema/Searching-dbl.simple
-=====
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4019f24019f2 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 401a44401a44 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 401ca4401ca4 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 40206e40206e 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 40231f40231f 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402b89402b89 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402af5402af5 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402bd2402bd2 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402ca2402ca2 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402c13402c13 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402ce4402ce4 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402deb402deb 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm0, %xmm0 # 4034a64034a6 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 403fa4403fa4 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 403fe6403fe6 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 404297404297 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 404625404625 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4049ae4049ae 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4049f04049f0 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 1698!	movupd	%xmm0, 9703400(,%rax,8) # 404d9f404d9f 
-1698
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4054bc4054bc 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 40581b40581b 
-2602
-Could not insert function: sub_400cc0 into the LLVM module
+translate_CALLpcrel32: function is: printf, cc is: 0
 
 ./Benchmarks/TSVC/CrossingThresholds-flt/Output/CrossingThresholds-flt.simple.mcsema/CrossingThresholds-flt.simple
-=====
+========
 Unsupported opcode 564!	cmpeqss	%xmm2, %xmm1 # 406665406665 
 564
-shouldSubtractImageBase: No __ImageBase defined
-
-./Benchmarks/TSVC/ControlLoops-flt/Output/ControlLoops-flt.simple.mcsema/ControlLoops-flt.simple
-=====
-Unsupported opcode 1735!	mulps	%xmm2, %xmm0 # 406458406458 
-1735
-shouldSubtractImageBase: No __ImageBase defined
-
-./Benchmarks/TSVC/IndirectAddressing-dbl/Output/IndirectAddressing-dbl.simple.mcsema/IndirectAddressing-dbl.simple
-=====
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4019f24019f2 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 401a44401a44 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 401ca4401ca4 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 40206e40206e 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 40231f40231f 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402b89402b89 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402af5402af5 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402bd2402bd2 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402ca2402ca2 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402c13402c13 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402ce4402ce4 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402deb402deb 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm0, %xmm0 # 4034a64034a6 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 403fa4403fa4 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 403fe6403fe6 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 404297404297 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 404625404625 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4049ae4049ae 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4049f04049f0 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 1698!	movupd	%xmm0, 9707496(,%rax,8) # 404d9f404d9f 
-1698
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4054bc4054bc 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 40581b40581b 
-2602
-Could not insert function: sub_400cc0 into the LLVM module
-
-./Benchmarks/TSVC/NodeSplitting-flt/Output/NodeSplitting-flt.simple.mcsema/NodeSplitting-flt.simple
-=====
-Unsupported opcode 115!	addps	%xmm0, %xmm1 # 4063d04063d0 
-115
-shouldSubtractImageBase: No __ImageBase defined
+translate_CALLpcrel32: function is: printf, cc is: 0
 
 ./Benchmarks/TSVC/Reductions-dbl/Output/Reductions-dbl.simple.mcsema/Reductions-dbl.simple
-=====
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 407111407111 
-2602
-shouldSubtractImageBase: No __ImageBase defined
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 407162407162 
-2602
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4071b14071b1 
-2602
-Could not insert function: sub_406fd0 into the LLVM module
-
-./Benchmarks/TSVC/Expansion-dbl/Output/Expansion-dbl.simple.mcsema/Expansion-dbl.simple
-=====
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4019f24019f2 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 401a44401a44 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 401ca4401ca4 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 40206e40206e 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 40231f40231f 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402b89402b89 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402af5402af5 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402bd2402bd2 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402ca2402ca2 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402c13402c13 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402ce4402ce4 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402deb402deb 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm0, %xmm0 # 4034a64034a6 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 403fa4403fa4 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 403fe6403fe6 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 404297404297 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 404625404625 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4049ae4049ae 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4049f04049f0 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 1698!	movupd	%xmm0, 9707496(,%rax,8) # 404d9f404d9f 
-1698
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4054bc4054bc 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 40581b40581b 
-2602
-Could not insert function: sub_400cc0 into the LLVM module
-
-./Benchmarks/TSVC/Equivalencing-dbl/Output/Equivalencing-dbl.simple.mcsema/Equivalencing-dbl.simple
-=====
-Unsupported opcode 112!	addpd	8512736(,%rsi,8), %xmm0 # 406112406112 
-112
-shouldSubtractImageBase: No __ImageBase defined
-
-./Benchmarks/TSVC/LinearDependence-flt/Output/LinearDependence-flt.simple.mcsema/LinearDependence-flt.simple
-=====
-Unsupported opcode 115!	addps	%xmm2, %xmm0 # 405cc8405cc8 
-115
-shouldSubtractImageBase: No __ImageBase defined
-
-./Benchmarks/TSVC/Symbolics-dbl/Output/Symbolics-dbl.simple.mcsema/Symbolics-dbl.simple
-=====
-Unsupported opcode 1699!	movupd	(%rcx), %xmm0 # 4064a04064a0 
-1699
-shouldSubtractImageBase: No __ImageBase defined
-
-./Benchmarks/TSVC/GlobalDataFlow-dbl/Output/GlobalDataFlow-dbl.simple.mcsema/GlobalDataFlow-dbl.simple
-=====
-Unsupported opcode 1699!	movupd	8768744(,%rax,8), %xmm0 # 405d70405d70 
-1699
-shouldSubtractImageBase: No __ImageBase defined
-
-./Benchmarks/TSVC/LoopRestructuring-flt/Output/LoopRestructuring-flt.simple.mcsema/LoopRestructuring-flt.simple
-=====
-Unsupported opcode 115!	addps	%xmm0, %xmm1 # 40667a40667a 
-115
-shouldSubtractImageBase: No __ImageBase defined
-
-./Benchmarks/TSVC/LinearDependence-dbl/Output/LinearDependence-dbl.simple.mcsema/LinearDependence-dbl.simple
-=====
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4072c94072c9 
-2602
-shouldSubtractImageBase: No __ImageBase defined
-
-./Benchmarks/TSVC/StatementReordering-dbl/Output/StatementReordering-dbl.simple.mcsema/StatementReordering-dbl.simple
-=====
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 406191406191 
-2602
-shouldSubtractImageBase: No __ImageBase defined
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4061e24061e2 
-2602
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 406231406231 
-2602
-Could not insert function: sub_406050 into the LLVM module
-
-./Benchmarks/TSVC/LoopRerolling-flt/Output/LoopRerolling-flt.simple.mcsema/LoopRerolling-flt.simple
-=====
-Unsupported opcode 1735!	mulps	%xmm3, %xmm0 # 406598406598 
-1735
-shouldSubtractImageBase: No __ImageBase defined
-
-./Benchmarks/TSVC/Equivalencing-flt/Output/Equivalencing-flt.simple.mcsema/Equivalencing-flt.simple
-=====
-Unsupported opcode 114!	addps	7482524(,%rcx,4), %xmm0 # 4064e04064e0 
-114
-shouldSubtractImageBase: No __ImageBase defined
-
-./Benchmarks/TSVC/GlobalDataFlow-flt/Output/GlobalDataFlow-flt.simple.mcsema/GlobalDataFlow-flt.simple
-=====
-Unsupported opcode 1735!	mulps	%xmm1, %xmm1 # 40680b40680b 
-1735
-shouldSubtractImageBase: No __ImageBase defined
-
-./Benchmarks/TSVC/LoopRestructuring-dbl/Output/LoopRestructuring-dbl.simple.mcsema/LoopRestructuring-dbl.simple
-=====
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4019f24019f2 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 401a44401a44 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 401ca4401ca4 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 40206e40206e 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 40231f40231f 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402b89402b89 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402af5402af5 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402bd2402bd2 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402ca2402ca2 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402c13402c13 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402ce4402ce4 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 402deb402deb 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm0, %xmm0 # 4034a64034a6 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 403fa4403fa4 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 403fe6403fe6 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 404297404297 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 404625404625 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4049ae4049ae 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4049f04049f0 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 1698!	movupd	%xmm0, 9707496(,%rax,8) # 404d9f404d9f 
-1698
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4054bc4054bc 
-2602
-shouldSubtractImageBase: No __ImageBase defined
---
-Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 40581b40581b 
-2602
-Could not insert function: sub_400cc0 into the LLVM module
-
-./Benchmarks/TSVC/ControlFlow-flt/Output/ControlFlow-flt.simple.mcsema/ControlFlow-flt.simple
-=====
-Unsupported opcode 1734!	mulps	7746784(,%rcx,4), %xmm1 # 406050406050 
-1734
-shouldSubtractImageBase: No __ImageBase defined
-
-./Benchmarks/VersaBench/ecbdes/Output/ecbdes.simple.mcsema/ecbdes.simple
-=====
-Basic Block in function 'sub_4018b0' does not have terminator!
-label %instr_0x4018f0
-Basic Block in function 'sub_4017b0' does not have terminator!
-label %instr_0x4018a7
-Could not verify module!
+========
+Unsupported opcode 558!	cmpnlesd	%xmm2, %xmm1 # 4066dd4066dd 
+558
+translate_CALLpcrel32: function is: printf, cc is: 0
 
 ./Benchmarks/VersaBench/beamformer/Output/beamformer.simple.mcsema/beamformer.simple
-=====
+========
+error: 
+Generic error: Line: 316
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/peToCFG/peToCFG.cpp
+Could not find external: optarg
 
 ./Benchmarks/VersaBench/dbms/Output/dbms.simple.mcsema/dbms.simple
-=====
-Unsupported opcode 1699!	movupd	16(%rbx), %xmm2 # 403e7b403e7b 
-1699
-doCallPCtarget address : 403df0
-
-./Benchmarks/VersaBench/bmm/Output/bmm.simple.mcsema/bmm.simple
-=====
-Basic Block in function 'sub_400b50' does not have terminator!
-label %instr_0x400e92
-Could not verify module!
+========
+Unsupported opcode 564!	cmpnless	%xmm2, %xmm0 # 404012404012 
+564
+doCallPCtarget address : 402990
 
 ./Benchmarks/Prolangs-C++/family/Output/family.simple.mcsema/family.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
 ./Benchmarks/Prolangs-C++/employ/Output/employ.simple.mcsema/employ.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
 ./Benchmarks/Prolangs-C++/shapes/Output/shapes.simple.mcsema/shapes.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
 ./Benchmarks/Prolangs-C++/primes/Output/primes.simple.mcsema/primes.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
 ./Benchmarks/Prolangs-C++/ocean/Output/ocean.simple.mcsema/ocean.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
 ./Benchmarks/Prolangs-C++/life/Output/life.simple.mcsema/life.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
 ./Benchmarks/Prolangs-C++/deriv1/Output/deriv1.simple.mcsema/deriv1.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
 ./Benchmarks/Prolangs-C++/city/Output/city.simple.mcsema/city.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
 ./Benchmarks/Prolangs-C++/office/Output/office.simple.mcsema/office.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
 ./Benchmarks/Prolangs-C++/trees/Output/trees.simple.mcsema/trees.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
 ./Benchmarks/Prolangs-C++/fsm/Output/fsm.simple.mcsema/fsm.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
 ./Benchmarks/Prolangs-C++/objects/Output/objects.simple.mcsema/objects.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
 ./Benchmarks/Prolangs-C++/deriv2/Output/deriv2.simple.mcsema/deriv2.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
 ./Benchmarks/Prolangs-C++/garage/Output/garage.simple.mcsema/garage.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
 ./Benchmarks/Prolangs-C++/simul/Output/simul.simple.mcsema/simul.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
 ./Benchmarks/7zip/Output/7zip-benchmark.simple.mcsema/7zip-benchmark.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
-
-./Benchmarks/Trimaran/netbench-crc/Output/netbench-crc.simple.mcsema/netbench-crc.simple
-=====
-Unsupported opcode 2124!	pslldq	$8, %xmm0 # 400a0f400a0f 
-2124
-shouldSubtractImageBase: No __ImageBase defined
-
-./Benchmarks/Trimaran/netbench-url/Output/netbench-url.simple.mcsema/netbench-url.simple
-=====
-Basic Block in function 'sub_400990' does not have terminator!
-label %instr_0x400a34
-Could not verify module!
-
-./Benchmarks/sim/Output/sim.simple.mcsema/sim.simple
-=====
-Basic Block in function 'sub_403f90' does not have terminator!
-label %instr_0x403faf
-Basic Block in function 'sub_403fc0' does not have terminator!
-label %instr_0x403ff1
-Could not verify module!
 
 ./Applications/ALAC/encode/Output/alacconvert-encode.simple.mcsema/alacconvert-encode.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
-
-./Applications/ALAC/encode/Output/alacconvert-encode.simple.mcsema/alacconvert-encode.simple.mcsema/alacconvert-encode.simple
-=====
-grep: ./Applications/ALAC/encode/Output/alacconvert-encode.simple.mcsema/alacconvert-encode.simple.mcsema/alacconvert-encode.simple.new.convert.txt: No such file or directory
 
 ./Applications/ALAC/decode/Output/alacconvert-decode.simple.mcsema/alacconvert-decode.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
-./Applications/ALAC/decode/Output/alacconvert-decode.simple.mcsema/alacconvert-decode.simple.mcsema/alacconvert-decode.simple
-=====
-grep: ./Applications/ALAC/decode/Output/alacconvert-decode.simple.mcsema/alacconvert-decode.simple.mcsema/alacconvert-decode.simple.new.convert.txt: No such file or directory
-
 ./Applications/sgefa/Output/sgefa.simple.mcsema/sgefa.simple
-=====
-Unsupported opcode 1735!	mulps	%xmm1, %xmm2 # 403647403647 
-1735
-Could not insert function: sub_4033e0 into the LLVM module
+========
+Unsupported opcode 564!	cmpnltss	%xmm4, %xmm0 # 400929400929 
+564
+Unsupported opcode 564!	cmpnltss	%xmm4, %xmm0 # 4009c84009c8 
+564
+doCallPCtarget address : 4008d0
 
 ./Applications/hexxagon/Output/hexxagon.simple.mcsema/hexxagon.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
 ./Applications/kimwitu++/Output/kc.simple.mcsema/kc.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
 ./Applications/obsequi/Output/Obsequi.simple.mcsema/Obsequi.simple
-=====
-Line: 219
-File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
-Want to use MEM as data ref but have no MEM reference
-
-./Applications/d/Output/make_dparser.simple.mcsema/make_dparser.simple
-=====
-Basic Block in function 'sub_401390' does not have terminator!
-label %instr_0x4015dd
-Basic Block in function 'sub_402600' does not have terminator!
-label %instr_0x411806
-Basic Block in function 'sub_405930' does not have terminator!
-label %instr_0x411806
-Basic Block in function 'sub_411740' does not have terminator!
-label %instr_0x411806
-Basic Block in function 'sub_4011e0' does not have terminator!
-label %instr_0x401385
-Could not verify module!
+========
+error: 
+Generic error: Line: 316
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/peToCFG/peToCFG.cpp
+Could not find external: optind
 
 ./Applications/sqlite3/Output/sqlite3.simple.mcsema/sqlite3.simple
-=====
+========
+error: 
 Line: 219
 File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
-Want to use MEM as data ref but have no MEM reference
-
-./Applications/JM/ldecod/Output/ldecod.simple.mcsema/ldecod.simple
-=====
-Unsupported opcode 882!	imulq	$408, 16(%rsp), %rcx # 41d24f41d24f 
-882
-Unsupported opcode 882!	imulq	$408, 16(%rsp), %rcx # 41d18941d189 
-882
-Unsupported opcode 882!	imulq	$408, (%rsp), %rcx # 41d29541d295 
-882
-Unsupported opcode 882!	imulq	$408, (%rsp), %rcx # 41d1c541d1c5 
-882
-Unsupported opcode 882!	imulq	$408, 8(%rsp), %rcx # 41d2e041d2e0 
-882
-Unsupported opcode 882!	imulq	$408, 8(%rsp), %rcx # 41d20a41d20a 
-882
-Could not insert function: sub_41d340 into the LLVM module
 
 ./Applications/JM/lencod/Output/lencod.simple.mcsema/lencod.simple
-=====
-Unsupported opcode 2124!	pslldq	$8, %xmm1 # 430112430112 
-2124
-shouldSubtractImageBase: No __ImageBase defined
+========
+Unsupported opcode 558!	cmpltsd	%xmm2, %xmm1 # 4867e44867e4 
+558
+translate_CALLpcrel32: function is: exp2, cc is: 0
+--
+Unsupported opcode 558!	cmpltsd	%xmm1, %xmm3 # 48715b48715b 
+558
+translate_CALLpcrel32: function is: sqrt, cc is: 0
 
 ./Applications/lambda-0.1.3/Output/lambda.simple.mcsema/lambda.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
 ./Applications/SIBsim4/Output/SIBsim4.simple.mcsema/SIBsim4.simple
-=====
-Line: 219
-File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
-Want to use MEM as data ref but have no MEM reference
-
-./Applications/Burg/Output/burg.simple.mcsema/burg.simple
-=====
-Basic Block in function 'sub_405870' does not have terminator!
-label %instr_0x405c69
-Basic Block in function 'sub_403bb0' does not have terminator!
-label %instr_0x403bea
-Basic Block in function 'sub_40a290' does not have terminator!
-label %instr_0x40a2e2
-Basic Block in function 'sub_404670' does not have terminator!
-label %instr_0x4046ed
-Basic Block in function 'sub_404700' does not have terminator!
-label %instr_0x404723
-Basic Block in function 'sub_4047e0' does not have terminator!
-label %instr_0x40484a
-Basic Block in function 'sub_4058c3' does not have terminator!
-label %instr_0x405c69
-Basic Block in function 'sub_404750' does not have terminator!
-label %instr_0x40479c
-Basic Block in function 'sub_402da0' does not have terminator!
-label %instr_0x402e3f
-Basic Block in function 'sub_404a20' does not have terminator!
-label %instr_0x404d03
-Basic Block in function 'sub_405943' does not have terminator!
-label %instr_0x405c69
-Basic Block in function 'sub_407e00' does not have terminator!
-label %instr_0x40a2e2
-Basic Block in function 'sub_4044b0' does not have terminator!
-label %instr_0x404584
-Basic Block in function 'sub_404d10' does not have terminator!
-label %instr_0x404d90
-Basic Block in function 'sub_40594f' does not have terminator!
-label %instr_0x405c69
-Basic Block in function 'sub_405959' does not have terminator!
-label %instr_0x405c69
-Basic Block in function 'sub_4045e0' does not have terminator!
-label %instr_0x404668
-Basic Block in function 'sub_405a61' does not have terminator!
-label %instr_0x405c69
-Basic Block in function 'sub_4056e0' does not have terminator!
-label %instr_0x405713
-Could not verify module!
+========
+error: 
+Generic error: Line: 316
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/peToCFG/peToCFG.cpp
+Could not find external: optind
 
 ./Applications/lua/Output/lua.simple.mcsema/lua.simple
-=====
-Unsupported opcode 658!	decw	96(%rbx) # 40d48540d485 
-658
-shouldSubtractImageBase: No __ImageBase defined
+========
+Deserializing symbol at: 62b140, ext_ferror, 8
+cur_pos: 62b140
+dse_base: 62b140
+--
+Deserializing symbol at: 62b180, ext_strerror, 8
+cur_pos: 62b180
+dse_base: 62b180
+--
+dataSectionToTypesContents: Found symbol: ext_ferror
+dataSectionToTypesContents: Found symbol: ext_pclose
+dataSectionToTypesContents: Found symbol: ext_cosh
+--
+dataSectionToTypesContents: Found symbol: ext_strerror
+dataSectionToTypesContents: Found symbol: ext_strstr
+dataSectionToTypesContents: Found symbol: ext_strcat
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCtarget address : 4039b0
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: sinh, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCtarget address : 405320
+doCallPCtarget address : 403ca0
+--
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: fopen, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: fopen, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCtarget address : 4039b0
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: __ctype_tolower_loc, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCtarget address : 405320
+doCallPCtarget address : 403ca0
+--
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: time, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCtarget address : 4039b0
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: atan, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCtarget address : 4039b0
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: strlen, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCtarget address : 403ca0
+doCallPCtarget address : 4039b0
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: srand, cc is: 0
+--
+translate_CALLpcrel32: function is: ferror, cc is: 0
+doCallPCtarget address : 405830
+doCallPCtarget address : 410730
+--
+doCallPCExtern paramCount  : 1 : ferror
+1 : 3257410
+translate_CALLpcrel32: function is: __errno_location, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCtarget address : 4039b0
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: setvbuf, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCtarget address : 405320
+doCallPCtarget address : 403ca0
+--
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: memset, cc is: 0
+--
+translate_CALLpcrel32: function is: ferror, cc is: 0
+doCallPCtarget address : 405830
+doCallPCtarget address : 410730
+--
+doCallPCExtern paramCount  : 1 : ferror
+1 : 3257410
+translate_CALLpcrel32: function is: __errno_location, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCtarget address : 4039b0
+doCallPCExtern paramCount  : 1 : strerror
+1 : 3257410
+translate_CALLpcrel32: function is: _IO_getc, cc is: 0
+--
+Unsupported opcode 556!	cmpeqsd	(%r15), %xmm0 # 41fee141fee1 
+556
+doCallPCtarget address : 40c3f0
 
 ./Applications/hbd/Output/hbd.simple.mcsema/hbd.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
-
-./Applications/lemon/Output/lemon.simple.mcsema/lemon.simple
-=====
-Unsupported opcode 2124!	pslldq	$8, %xmm14 # 40142b40142b 
-2124
-shouldSubtractImageBase: No __ImageBase defined
 
 ./Applications/SPASS/Output/SPASS.simple.mcsema/SPASS.simple
-=====
+========
+Deserializing symbol at: 68d0a8, ext_ferror, 8
+cur_pos: 68d0a8
+dse_base: 68d0a8
+--
+dataSectionToTypesContents: Found symbol: ext_ferror
+dataSectionToTypesContents: Found symbol: ext___ctype_b_loc
+dataSectionToTypesContents: Found symbol: ext_sprintf
+--
+error: 
 Line: 219
 File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/cfgToLLVM/x86Helpers.cpp
-Want to use MEM as data ref but have no MEM reference
-
-./Applications/viterbi/Output/viterbi.simple.mcsema/viterbi.simple
-=====
-Unsupported opcode 2124!	pslldq	$8, %xmm0 # 400ff8400ff8 
-2124
-doJumpTableViaSwitch: Doing jumpt table via switch
-
-./Applications/treecc/Output/treecc.simple.mcsema/treecc.simple
-=====
-Basic Block in function 'sub_4014e0' does not have terminator!
-label %instr_0x401536
-Basic Block in function 'sub_410ec0' does not have terminator!
-label %instr_0x411125
-Basic Block in function 'sub_403c90' does not have terminator!
-label %instr_0x411125
-Basic Block in function 'sub_401340' does not have terminator!
-label %instr_0x4013f1
-Could not verify module!
-
-./Applications/siod/Output/siod.simple.mcsema/siod.simple
-=====
-Unsupported opcode 54!	adcq	$-1, %r15 # 41497a41497a 
-54
-doCallPCtarget address : 402e90
-
-./Applications/spiff/Output/spiff.simple.mcsema/spiff.simple
-=====
-Basic Block in function 'sub_403290' does not have terminator!
-label %instr_0x4032b6
-Basic Block in function 'sub_4032b0' does not have terminator!
-label %instr_0x4032b6
-Could not verify module!
 
 ./Applications/ClamAV/Output/clamscan.simple.mcsema/clamscan.simple
-=====
-Unsupported opcode 2705!	subpd	437377(%rip), %xmm1 # 403347403347 
-2705
-shouldSubtractImageBase: No __ImageBase defined
+========
+error: 
+Generic error: Line: 316
+File: /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/peToCFG/peToCFG.cpp
+Could not find external: optind
 
 ./Applications/minisat/Output/minisat.simple.mcsema/minisat.simple
-=====
+========
 [libprotobuf ERROR /home/sdasgup3/Github/mcsema_new_reg_assign/mc-sema/protobuf-2.5.0/src/google/protobuf/message_lite.cc:123] Can't parse message of type "Module" because it is missing required fields: module_name
 Failed to deserialize protobuf module
 Returning modue...
 
-./Applications/oggenc/Output/oggenc.simple.mcsema/oggenc.simple
-=====
-Unsupported opcode 1735!	mulps	%xmm8, %xmm6 # 42d14542d145 
-1735
-Unsupported opcode 115!	addps	%xmm0, %xmm1 # 42d4e942d4e9 
-115
-Unsupported opcode 1735!	mulps	%xmm4, %xmm7 # 42cd7942cd79 
-1735
-Could not insert function: sub_42d200 into the LLVM module
+./Applications/minisat/Output/minisat.simple.mcsema/minisat.simple.mcsema/minisat.simple
+========
 
+./Applications/oggenc/Output/oggenc.simple.mcsema/oggenc.simple
+========
+Deserializing symbol at: 63d0f0, ext_strerror, 8
+cur_pos: 63d0f0
+dse_base: 63d0f0
+--
+Deserializing symbol at: 63d190, ext_perror, 8
+cur_pos: 63d190
+dse_base: 63d190
+--
+dataSectionToTypesContents: Found symbol: ext_strerror
+dataSectionToTypesContents: Found symbol: ext_strcat
+dataSectionToTypesContents: Found symbol: ext_memmove
+--
+dataSectionToTypesContents: Found symbol: ext_perror
+dataSectionToTypesContents: Found symbol: ext_rand
+dataSectionToTypesContents: Found symbol: ext_fprintf
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCExtern paramCount  : 1 : strerror
+1 : 2559410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
+--
+translate_CALLpcrel32: function is: strerror, cc is: 0
+doCallPCExtern paramCount  : 1 : strerror
+1 : 2559410
+translate_CALLpcrel32: function is: fprintf, cc is: 0
+--
+Unsupported opcode 1650!	movmskps	%xmm0, %eax # 41f5b241f5b2 
+1650
+Could not insert function: sub_41f400 into the LLVM module
