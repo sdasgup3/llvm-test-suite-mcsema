@@ -1,26 +1,16 @@
-MAXPSrr 2
-MOVHPDmr 1
-MOVHPDrm 6
-ADDPDrm 3
-ADDPDrr 4
-ADDPSrm 11
-ADDPSrr 13
-MOVUPDmr 9
-MOVUPDrm 42
-MULPDrm 3
-MULPDrr 5
-MULPSrm 2
-MULPSrr 12
-PMULLWrm 1
-PSHUFHWri 2
-PSLLDQri 11
-SHUFPDrri 169
-SUBPDrm 6
-SUBPDrr 3
-UNPCKHPDrr 6
-CMPPSrri 2
-CMPSDrm 1
-CMPSDrr 4
-CMPSSrr 2
-CVTDQ2PSrr 4
-DIVPDrr 2
+cmpeqsd	(%r15), %xmm0 
+cmpeqsd	%xmm0, %xmm2 
+cmpeqss	%xmm2, %xmm1 
+cmplesd	%xmm3, %xmm1 
+cmpltsd	92940(%rip), %xmm0 
+cmpltsd	%xmm1, %xmm3 
+cmpnleps	%xmm3, %xmm6 
+cmpnlesd	993(%rip), %xmm1 
+cmpnlesd	%xmm2, %xmm3 
+cmpnless	%xmm2, %xmm0 
+cmpnltps	%xmm0, %xmm1 
+cmpnltss	%xmm4, %xmm0 
+movmskps	%xmm0, %eax 
+pmullw	7095632(%rax), %xmm0 
+psrldq	$2, %xmm1 
+shrdw	$7, %bp, %bx 
