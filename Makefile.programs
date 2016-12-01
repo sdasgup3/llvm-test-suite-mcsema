@@ -497,6 +497,7 @@ ifdef USE_REFERENCE_OUTPUT
 ENABLE_HASHED_PROGRAM_OUTPUT := 1
 endif
 
+$(warning dsand $(HASH_PROGRAM_OUTPUT))
 # If the program wants its output hashed, add an output filter.
 ifdef ENABLE_HASHED_PROGRAM_OUTPUT
 ifdef HASH_PROGRAM_OUTPUT
@@ -507,6 +508,10 @@ $(error Cannot use both FP_TOLERNANCE and HASH_PROGRAM_OUTPUT)
 endif
 PROGRAM_OUTPUT_FILTER := $(PROGDIR)/HashProgramOutput.sh
 endif
+endif
+
+ifdef HASH_PROGRAM_OUTPUT
+PROGRAM_OUTPUT_FILTER := $(PROGDIR)/HashProgramOutput.sh
 endif
 
 native:: $(PROGRAMS_TO_TEST:%=Output/%.native)

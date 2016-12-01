@@ -756,11 +756,6 @@ Diff: partialsums
 
 /home/sdasgup3/Github/test-suite/RunSafely.sh -t "/home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/timeit-target" 500 /dev/null /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.out-mcsema /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.simple.new.lifted  
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/tools/fpcmp -r 0.001  /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/fp-convert.out-simple /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/fp-convert.simple.mcsema/fp-convert.out-mcsema > /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/fp-convert.simple.mcsema/fp-convert.diff-mcsema 2>&1 
-Diff: fp-convert
-1c1
-< Total is 1.43169e+15
----
-> Total is 1.22938e+07
 
 =========================================
 /home/sdasgup3/Junk/llvm-test-suite-mcsema/SingleSource/Benchmarks/Misc/Output/lowercase
