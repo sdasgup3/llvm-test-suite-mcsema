@@ -1,0 +1,195 @@
+####  SingleSource/UnitTests
+
+./Vector/SSE/Output/sse.expandfft.simple.mcsema/sse.expandfft.simple
+=====
+Unsupported opcode 115!	addps	%xmm4, %xmm5 # 400dd2400dd2 
+
+./Vector/SSE/Output/sse.stepfft.simple.mcsema/sse.stepfft.simple
+=====
+Unsupported opcode 1735!	mulps	%xmm3, %xmm0 # 4009e54009e5 
+
+./Vector/Output/build2.simple.mcsema/build2.simple
+=====
+Unsupported opcode 115!	addps	%xmm6, %xmm10 # 4007b04007b0 
+
+./Vector/Output/build.simple.mcsema/build.simple
+=====
+Unsupported opcode 1735!	mulps	%xmm2, %xmm2 # 400652400652 
+
+./Vector/Output/simple.simple.mcsema/simple.simple
+=====
+Unsupported opcode 1641!	movhpd	4196504(,%rax,8), %xmm0 # 4006a94006a9 
+
+./Output/initp1.simple.mcsema/initp1.simple
+=====
+Basic Block in function 'sub_4008e0' does not have terminator!
+label %instr_0x400be8
+
+./Output/2005-05-12-Int64ToFP.simple.mcsema/2005-05-12-Int64ToFP.simple
+=====
+Unsupported opcode 2705!	subpd	231(%rip), %xmm1 # 400621400621 
+
+./Output/2005-07-17-INT-To-FP.simple.mcsema/2005-07-17-INT-To-FP.simple
+=====
+Unsupported opcode 2705!	subpd	321(%rip), %xmm4 # 400667400667 
+
+./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple
+=====
+Both operands to ICmp instruction are not of the same type!
+  %221 = icmp eq i2 %220, i8 3, !mcsema_real_eip !18
+
+./Output/byval-alignment.simple.mcsema/byval-alignment.simple
+=====
+Both operands to ICmp instruction are not of the same type!
+  %61 = icmp eq i2 %60, i8 3, !mcsema_real_eip !7
+
+
+
+
+
+### SingleSource/Regression
+
+./C/Output/DuffsDevice.simple.mcsema/DuffsDevice.simple
+=====
+Unsupported opcode 2115!	pshufhw	$8, %xmm4, %xmm4 # 4006f24006f2 
+
+./C/Output/uint64_to_float.simple.mcsema/uint64_to_float.simple
+=====
+Unsupported opcode 289!	bsrq	%rdx, %rcx # 400772400772 
+
+
+
+
+### SingleSource/Benchmarks
+
+
+
+./CoyoteBench/Output/almabench.simple.mcsema/almabench.simple
+=====
+Unsupported opcode 1641!	movhpd	4203552(%rbp,%r14), %xmm1 # 400b93400b93 
+Unsupported opcode 2838!	unpckhpd	%xmm1, %xmm1 # 400cba400cba 
+
+./McGill/Output/exptree.simple.mcsema/exptree.simple
+=====
+Basic Block in function 'sub_401030' does not have terminator!
+label %instr_0x401234
+
+./Misc/Output/dt.simple.mcsema/dt.simple
+=====
+Unsupported opcode 1699!	movupd	(%rax,%rbx,8), %xmm0 # 4007e04007e0 
+
+
+./Misc/Output/flops-1.simple.mcsema/flops-1.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm5, %xmm5 # 4007bd4007bd 
+
+./Misc/Output/flops-5.simple.mcsema/flops-5.simple
+=====
+Unsupported opcode 1733!	mulpd	%xmm3, %xmm11 # 400865400865 
+
+./Misc/Output/flops-6.simple.mcsema/flops-6.simple
+=====
+Unsupported opcode 1733!	mulpd	%xmm6, %xmm2 # 400863400863 
+
+./Misc/Output/flops.simple.mcsema/flops.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm6, %xmm6 # 40094c40094c 
+Unsupported opcode 1641!	movhpd	2103997(%rip), %xmm12 # 4015d24015d2 
+Unsupported opcode 1641!	movhpd	2103147(%rip), %xmm12 # 401924401924 
+Unsupported opcode 1733!	mulpd	%xmm4, %xmm3 # 401663401663 
+Unsupported opcode 1733!	mulpd	%xmm4, %xmm3 # 4019b34019b3
+
+./BenchmarkGame/Output/fannkuch.simple.mcsema/fannkuch.simple
+=====
+Unsupported opcode 2124!	pslldq	$8, %xmm0 # 400757400757 
+
+./BenchmarkGame/Output/n-body.simple.mcsema/n-body.simple
+=====
+Unsupported opcode 1699!	movupd	2102682(%rip), %xmm1 # 400ac6400ac6 
+
+
+./BenchmarkGame/Output/partialsums.simple.mcsema/partialsums.simple
+=====
+Unsupported opcode 675!	divpd	%xmm3, %xmm1 # 400834400834 
+
+./BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.simple
+=====
+Unsupported opcode 882!	imulq	$1103515245, 2102390(%rip), %rcx # 400bcf400bcf 
+
+./Misc/Output/matmul_f64_4x4.simple.mcsema/matmul_f64_4x4.simple
+=====
+Unsupported opcode 1699!	movupd	(%rdx), %xmm15 # 400640400640 
+
+
+./Misc/Output/pi.simple.mcsema/pi.simple
+=====
+Unsupported opcode 1735!	mulps	%xmm6, %xmm6 # 4006e64006e6 
+
+./Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm0, %xmm0 # 400fc5400fc5 
+
+./Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.simple
+=====
+Unsupported opcode 1699!	movupd	-16(%r12,%rbx,8), %xmm0 # 400a50400a50 
+
+
+./Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.simple
+=====
+Unsupported opcode 114!	addps	6628752(,%rdx,4), %xmm0 # 4008f04008f0 
+
+./Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm0, %xmm0 # 400ac4400ac4 
+
+./Polybench/stencils/adi/Output/adi.simple.mcsema/adi.simple
+=====
+Unsupported opcode 1699!	movupd	8380416(%rbx,%rax,8), %xmm0 # 400e60400e60 
+
+
+./Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm4, %xmm4 # 400ab5400ab5 
+
+./Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.simple
+=====
+Unsupported opcode 2124!	pslldq	$8, %xmm10 # 400e03400e03 
+2124
+
+./Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.simple
+=====
+Unsupported opcode 1699!	movupd	(%rbx,%rdi,8), %xmm2 # 4009d04009d0 
+
+
+./Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.simple
+=====
+Unsupported opcode 1699!	movupd	8000(%rcx), %xmm2 # 400a70400a70 
+
+
+./Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.simple
+=====
+Unsupported opcode 1699!	movupd	(%r11), %xmm0 # 400c10400c10 
+
+./Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.simple
+=====
+Unsupported opcode 1699!	movupd	-16(%rsi), %xmm1 # 4009f04009f0 
+
+./Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.simple
+=====
+Unsupported opcode 1699!	movupd	-16(%rsi), %xmm1 # 400a30400a30 
+
+./Misc/Output/salsa20.simple.mcsema/salsa20.simple
+=====
+Unsupported opcode 2124!	pslldq	$8, %xmm0 # 40092d40092d 
+
+
+### MultiSource/
+
+./Benchmarks/Olden/bh/Output/bh.simple.mcsema/bh.simple
+=====
+Unsupported opcode 112!	addpd	112(%rsp), %xmm0 # 400c31400c31 
+
+./Benchmarks/TSVC/Equivalencing-dbl/Output/Equivalencing-dbl.simple.mcsema/Equivalencing-dbl.simple
+=====
+Unsupported opcode 112!	addpd	8512736(,%rsi,8), %xmm0 # 406112406112 
+
