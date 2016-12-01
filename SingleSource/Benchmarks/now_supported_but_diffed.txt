@@ -1,0 +1,223 @@
+
+./CoyoteBench/Output/almabench.simple.mcsema/almabench.simple
+=====
+Unsupported opcode 1641!	movhpd	4203552(%rbp,%r14), %xmm1 # 400b93400b93 
+Unsupported opcode 2838!	unpckhpd	%xmm1, %xmm1 # 400cba400cba 
+
+./McGill/Output/exptree.simple.mcsema/exptree.simple
+=====
+Basic Block in function 'sub_401030' does not have terminator!
+label %instr_0x401234
+
+./Misc/Output/dt.simple.mcsema/dt.simple
+=====
+Unsupported opcode 1699!	movupd	(%rax,%rbx,8), %xmm0 # 4007e04007e0 
+1699
+
+./Misc/Output/flops-1.simple.mcsema/flops-1.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm5, %xmm5 # 4007bd4007bd 
+2602
+
+./Misc/Output/flops-5.simple.mcsema/flops-5.simple
+=====
+Unsupported opcode 1733!	mulpd	%xmm3, %xmm11 # 400865400865 
+1733
+
+./Misc/Output/flops-6.simple.mcsema/flops-6.simple
+=====
+Unsupported opcode 1733!	mulpd	%xmm6, %xmm2 # 400863400863 
+1733
+
+./Misc/Output/flops.simple.mcsema/flops.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm6, %xmm6 # 40094c40094c 
+Unsupported opcode 1641!	movhpd	2103997(%rip), %xmm12 # 4015d24015d2 
+Unsupported opcode 1641!	movhpd	2103147(%rip), %xmm12 # 401924401924 
+Unsupported opcode 1733!	mulpd	%xmm4, %xmm3 # 401663401663 
+Unsupported opcode 1733!	mulpd	%xmm4, %xmm3 # 4019b34019b3
+
+./BenchmarkGame/Output/fannkuch.simple.mcsema/fannkuch.simple
+=====
+Unsupported opcode 2124!	pslldq	$8, %xmm0 # 400757400757 
+2124
+
+./BenchmarkGame/Output/n-body.simple.mcsema/n-body.simple
+=====
+Unsupported opcode 1699!	movupd	2102682(%rip), %xmm1 # 400ac6400ac6 
+1699
+
+./BenchmarkGame/Output/partialsums.simple.mcsema/partialsums.simple
+=====
+Unsupported opcode 675!	divpd	%xmm3, %xmm1 # 400834400834 
+675
+
+./BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.simple
+=====
+Unsupported opcode 882!	imulq	$1103515245, 2102390(%rip), %rcx # 400bcf400bcf 
+882
+
+./Misc/Output/matmul_f64_4x4.simple.mcsema/matmul_f64_4x4.simple
+=====
+Unsupported opcode 1699!	movupd	(%rdx), %xmm15 # 400640400640 
+1699
+
+./Misc/Output/pi.simple.mcsema/pi.simple
+=====
+Unsupported opcode 1735!	mulps	%xmm6, %xmm6 # 4006e64006e6 
+1735
+
+./Adobe-C++/Output/loop_unroll.simple.mcsema/loop_unroll.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm0, %xmm0 # 400fc5400fc5 
+2602
+
+./Polybench/datamining/covariance/Output/covariance.simple.mcsema/covariance.simple
+=====
+Unsupported opcode 1699!	movupd	-16(%r12,%rbx,8), %xmm0 # 400a50400a50 
+1699
+
+./Polybench/linear-algebra/solvers/durbin/Output/durbin.simple.mcsema/durbin.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400cc9
+
+./Polybench/linear-algebra/solvers/dynprog/Output/dynprog.simple.mcsema/dynprog.simple
+=====
+Basic Block in function 'sub_4008f0' does not have terminator!
+label %instr_0x400bd0
+
+./Polybench/linear-algebra/solvers/gramschmidt/Output/gramschmidt.simple.mcsema/gramschmidt.simple
+=====
+Basic Block in function 'sub_400910' does not have terminator!
+label %instr_0x400ef7
+
+./Polybench/linear-algebra/solvers/lu/Output/lu.simple.mcsema/lu.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400b2d
+
+./Polybench/medley/floyd-warshall/Output/floyd-warshall.simple.mcsema/floyd-warshall.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400acc
+
+./Polybench/medley/reg_detect/Output/reg_detect.simple.mcsema/reg_detect.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x401393
+
+./Linpack/Output/linpack-pc.simple.mcsema/linpack-pc.simple
+=====
+Unsupported opcode 114!	addps	6628752(,%rdx,4), %xmm0 # 4008f04008f0 
+114
+
+./Polybench/linear-algebra/kernels/2mm/Output/2mm.simple.mcsema/2mm.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400d83
+
+./Polybench/linear-algebra/kernels/atax/Output/atax.simple.mcsema/atax.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm0, %xmm0 # 400ac4400ac4 
+2602
+
+./Polybench/stencils/adi/Output/adi.simple.mcsema/adi.simple
+=====
+Unsupported opcode 1699!	movupd	8380416(%rbx,%rax,8), %xmm0 # 400e60400e60 
+1699
+
+./Polybench/stencils/fdtd-2d/Output/fdtd-2d.simple.mcsema/fdtd-2d.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm4, %xmm4 # 400ab5400ab5 
+2602
+
+./Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.simple
+=====
+Unsupported opcode 2124!	pslldq	$8, %xmm10 # 400e03400e03 
+2124
+
+./Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.simple
+=====
+Unsupported opcode 1699!	movupd	(%rbx,%rdi,8), %xmm2 # 4009d04009d0 
+1699
+
+./Polybench/stencils/jacobi-2d-imper/Output/jacobi-2d-imper.simple.mcsema/jacobi-2d-imper.simple
+=====
+Unsupported opcode 1699!	movupd	8000(%rcx), %xmm2 # 400a70400a70 
+1699
+
+./Polybench/stencils/seidel-2d/Output/seidel-2d.simple.mcsema/seidel-2d.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400b2d
+
+./Polybench/linear-algebra/kernels/bicg/Output/bicg.simple.mcsema/bicg.simple
+=====
+Basic Block in function 'sub_400900' does not have terminator!
+label %instr_0x400c76
+
+./Polybench/linear-algebra/kernels/cholesky/Output/cholesky.simple.mcsema/cholesky.simple
+=====
+Basic Block in function 'sub_400910' does not have terminator!
+label %instr_0x400c77
+
+./Polybench/linear-algebra/kernels/doitgen/Output/doitgen.simple.mcsema/doitgen.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400d29
+
+./Polybench/linear-algebra/kernels/gemver/Output/gemver.simple.mcsema/gemver.simple
+=====
+Unsupported opcode 1699!	movupd	(%r11), %xmm0 # 400c10400c10 
+1699
+
+./Polybench/linear-algebra/kernels/gesummv/Output/gesummv.simple.mcsema/gesummv.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400baf
+
+./Polybench/linear-algebra/kernels/mvt/Output/mvt.simple.mcsema/mvt.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400c71
+
+./Polybench/linear-algebra/kernels/symm/Output/symm.simple.mcsema/symm.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400c21
+
+./Polybench/linear-algebra/kernels/gemm/Output/gemm.simple.mcsema/gemm.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400c01
+
+./Polybench/linear-algebra/kernels/syrk/Output/syrk.simple.mcsema/syrk.simple
+=====
+Unsupported opcode 1699!	movupd	-16(%rsi), %xmm1 # 4009f04009f0 
+1699
+
+./Polybench/linear-algebra/kernels/trisolv/Output/trisolv.simple.mcsema/trisolv.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400afc
+
+./Polybench/linear-algebra/kernels/syr2k/Output/syr2k.simple.mcsema/syr2k.simple
+=====
+Unsupported opcode 1699!	movupd	-16(%rsi), %xmm1 # 400a30400a30 
+1699
+
+./Polybench/linear-algebra/kernels/trmm/Output/trmm.simple.mcsema/trmm.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400b16
+
+./Misc/Output/salsa20.simple.mcsema/salsa20.simple
+=====
+Unsupported opcode 2124!	pslldq	$8, %xmm0 # 40092d40092d 
+2124
+
+./Polybench/linear-algebra/kernels/3mm/Output/3mm.simple.mcsema/3mm.simple
+=====
+Basic Block in function 'sub_4008b0' does not have terminator!
+label %instr_0x400e79
