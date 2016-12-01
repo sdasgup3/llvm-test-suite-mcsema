@@ -1,4 +1,6 @@
-####  SingleSource/UnitTests
+####  SingleSource/UnitTests  
+----------------------------------
+List of instr to be reviewed: addps mulps movhpd subpd
 
 ./Vector/SSE/Output/sse.expandfft.simple.mcsema/sse.expandfft.simple
 =====
@@ -20,11 +22,6 @@ Unsupported opcode 1735!	mulps	%xmm2, %xmm2 # 400652400652
 =====
 Unsupported opcode 1641!	movhpd	4196504(,%rax,8), %xmm0 # 4006a94006a9 
 
-./Output/initp1.simple.mcsema/initp1.simple
-=====
-Basic Block in function 'sub_4008e0' does not have terminator!
-label %instr_0x400be8
-
 ./Output/2005-05-12-Int64ToFP.simple.mcsema/2005-05-12-Int64ToFP.simple
 =====
 Unsupported opcode 2705!	subpd	231(%rip), %xmm1 # 400621400621 
@@ -33,21 +30,10 @@ Unsupported opcode 2705!	subpd	231(%rip), %xmm1 # 400621400621
 =====
 Unsupported opcode 2705!	subpd	321(%rip), %xmm4 # 400667400667 
 
-./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple
-=====
-Both operands to ICmp instruction are not of the same type!
-  %221 = icmp eq i2 %220, i8 3, !mcsema_real_eip !18
-
-./Output/byval-alignment.simple.mcsema/byval-alignment.simple
-=====
-Both operands to ICmp instruction are not of the same type!
-  %61 = icmp eq i2 %60, i8 3, !mcsema_real_eip !7
-
-
-
-
 
 ### SingleSource/Regression
+----------------------------------
+List of instr to be reviewed: pshufhw bsrq
 
 ./C/Output/DuffsDevice.simple.mcsema/DuffsDevice.simple
 =====
@@ -61,7 +47,8 @@ Unsupported opcode 289!	bsrq	%rdx, %rcx # 400772400772
 
 
 ### SingleSource/Benchmarks
-
+----------------------------------
+List of instr to be reviewed: movhpd unpckhpd movupd shufpd mulpd divpd mulps addps 
 
 
 ./CoyoteBench/Output/almabench.simple.mcsema/almabench.simple
@@ -69,15 +56,9 @@ Unsupported opcode 289!	bsrq	%rdx, %rcx # 400772400772
 Unsupported opcode 1641!	movhpd	4203552(%rbp,%r14), %xmm1 # 400b93400b93 
 Unsupported opcode 2838!	unpckhpd	%xmm1, %xmm1 # 400cba400cba 
 
-./McGill/Output/exptree.simple.mcsema/exptree.simple
-=====
-Basic Block in function 'sub_401030' does not have terminator!
-label %instr_0x401234
-
 ./Misc/Output/dt.simple.mcsema/dt.simple
 =====
 Unsupported opcode 1699!	movupd	(%rax,%rbx,8), %xmm0 # 4007e04007e0 
-
 
 ./Misc/Output/flops-1.simple.mcsema/flops-1.simple
 =====
@@ -99,10 +80,6 @@ Unsupported opcode 1641!	movhpd	2103147(%rip), %xmm12 # 401924401924
 Unsupported opcode 1733!	mulpd	%xmm4, %xmm3 # 401663401663 
 Unsupported opcode 1733!	mulpd	%xmm4, %xmm3 # 4019b34019b3
 
-./BenchmarkGame/Output/fannkuch.simple.mcsema/fannkuch.simple
-=====
-Unsupported opcode 2124!	pslldq	$8, %xmm0 # 400757400757 
-
 ./BenchmarkGame/Output/n-body.simple.mcsema/n-body.simple
 =====
 Unsupported opcode 1699!	movupd	2102682(%rip), %xmm1 # 400ac6400ac6 
@@ -112,14 +89,9 @@ Unsupported opcode 1699!	movupd	2102682(%rip), %xmm1 # 400ac6400ac6
 =====
 Unsupported opcode 675!	divpd	%xmm3, %xmm1 # 400834400834 
 
-./BenchmarkGame/Output/puzzle.simple.mcsema/puzzle.simple
-=====
-Unsupported opcode 882!	imulq	$1103515245, 2102390(%rip), %rcx # 400bcf400bcf 
-
 ./Misc/Output/matmul_f64_4x4.simple.mcsema/matmul_f64_4x4.simple
 =====
 Unsupported opcode 1699!	movupd	(%rdx), %xmm15 # 400640400640 
-
 
 ./Misc/Output/pi.simple.mcsema/pi.simple
 =====
@@ -151,11 +123,6 @@ Unsupported opcode 1699!	movupd	8380416(%rbx,%rax,8), %xmm0 # 400e60400e60
 =====
 Unsupported opcode 2602!	shufpd	$0, %xmm4, %xmm4 # 400ab5400ab5 
 
-./Polybench/stencils/fdtd-apml/Output/fdtd-apml.simple.mcsema/fdtd-apml.simple
-=====
-Unsupported opcode 2124!	pslldq	$8, %xmm10 # 400e03400e03 
-2124
-
 ./Polybench/stencils/jacobi-1d-imper/Output/jacobi-1d-imper.simple.mcsema/jacobi-1d-imper.simple
 =====
 Unsupported opcode 1699!	movupd	(%rbx,%rdi,8), %xmm2 # 4009d04009d0 
@@ -178,12 +145,9 @@ Unsupported opcode 1699!	movupd	-16(%rsi), %xmm1 # 4009f04009f0
 =====
 Unsupported opcode 1699!	movupd	-16(%rsi), %xmm1 # 400a30400a30 
 
-./Misc/Output/salsa20.simple.mcsema/salsa20.simple
-=====
-Unsupported opcode 2124!	pslldq	$8, %xmm0 # 40092d40092d 
-
 
 ### MultiSource/
+List of instr to be reviewed: addpd
 
 ./Benchmarks/Olden/bh/Output/bh.simple.mcsema/bh.simple
 =====
