@@ -1,0 +1,8 @@
+./C/Output/DuffsDevice.simple.mcsema/DuffsDevice.simple
+=====
+Unsupported opcode 2115!	pshufhw	$8, %xmm4, %xmm4 # 4006f24006f2 
+2115
+./C/Output/uint64_to_float.simple.mcsema/uint64_to_float.simple
+=====
+Unsupported opcode 289!	bsrq	%rdx, %rcx # 400772400772 
+289
