@@ -1,0 +1,40 @@
+./Vector/SSE/Output/sse.expandfft.simple.mcsema/sse.expandfft.simple
+=====
+Unsupported opcode 115!	addps	%xmm4, %xmm5 # 400dd2400dd2 
+115
+./Vector/SSE/Output/sse.stepfft.simple.mcsema/sse.stepfft.simple
+=====
+Unsupported opcode 1735!	mulps	%xmm3, %xmm0 # 4009e54009e5 
+1735
+./Vector/Output/build2.simple.mcsema/build2.simple
+=====
+Unsupported opcode 115!	addps	%xmm6, %xmm10 # 4007b04007b0 
+115
+./Vector/Output/build.simple.mcsema/build.simple
+=====
+Unsupported opcode 1735!	mulps	%xmm2, %xmm2 # 400652400652 
+1735
+./Vector/Output/simple.simple.mcsema/simple.simple
+=====
+Unsupported opcode 1641!	movhpd	4196504(,%rax,8), %xmm0 # 4006a94006a9 
+1641
+./Output/initp1.simple.mcsema/initp1.simple
+=====
+Basic Block in function 'sub_4008e0' does not have terminator!
+label %instr_0x400be8
+./Output/2005-05-12-Int64ToFP.simple.mcsema/2005-05-12-Int64ToFP.simple
+=====
+Unsupported opcode 2705!	subpd	231(%rip), %xmm1 # 400621400621 
+2705
+./Output/2005-07-17-INT-To-FP.simple.mcsema/2005-07-17-INT-To-FP.simple
+=====
+Unsupported opcode 2705!	subpd	321(%rip), %xmm4 # 400667400667 
+2705
+./Output/2009-04-16-BitfieldInitialization.simple.mcsema/2009-04-16-BitfieldInitialization.simple
+=====
+Both operands to ICmp instruction are not of the same type!
+  %221 = icmp eq i2 %220, i8 3, !mcsema_real_eip !18
+./Output/byval-alignment.simple.mcsema/byval-alignment.simple
+=====
+Both operands to ICmp instruction are not of the same type!
+  %61 = icmp eq i2 %60, i8 3, !mcsema_real_eip !7
