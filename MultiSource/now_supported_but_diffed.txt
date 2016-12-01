@@ -1,0 +1,310 @@
+
+./Benchmarks/Fhourstones/Output/fhourstones.simple.mcsema/fhourstones.simple
+=====
+Unsupported opcode 882!	imulq	$224, 16(%rsp), %rbp # 400978400978 
+882
+
+./Applications/d/Output/make_dparser.simple.mcsema/make_dparser.simple
+=====
+Basic Block in function 'sub_401390' does not have terminator!
+label %instr_0x4015dd
+
+./Applications/treecc/Output/treecc.simple.mcsema/treecc.simple
+=====
+Basic Block in function 'sub_4014e0' does not have terminator!
+label %instr_0x401536
+
+./Benchmarks/McCat/08-main/Output/main.simple.mcsema/main.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm0, %xmm0 # 4024fc4024fc 
+2602
+
+./Benchmarks/Ptrdist/ft/Output/ft.simple.mcsema/ft.simple
+=====
+Basic Block in function 'sub_401340' does not have terminator!
+label %instr_0x401457
+
+./Benchmarks/Olden/bh/Output/bh.simple.mcsema/bh.simple
+=====
+Unsupported opcode 112!	addpd	112(%rsp), %xmm0 # 400c31400c31 
+112
+
+./Benchmarks/McCat/09-vor/Output/vor.simple.mcsema/vor.simple
+=====
+Basic Block in function 'sub_401820' does not have terminator!
+label %instr_0x4018ee
+
+./Applications/JM/ldecod/Output/ldecod.simple.mcsema/ldecod.simple
+=====
+Unsupported opcode 882!	imulq	$408, 16(%rsp), %rcx # 41d24f41d24f 
+882
+
+./Applications/viterbi/Output/viterbi.simple.mcsema/viterbi.simple
+=====
+Unsupported opcode 2124!	pslldq	$8, %xmm0 # 400ff8400ff8 
+2124
+
+./Applications/spiff/Output/spiff.simple.mcsema/spiff.simple
+=====
+Basic Block in function 'sub_403290' does not have terminator!
+label %instr_0x4032b6
+
+./Benchmarks/FreeBench/distray/Output/distray.simple.mcsema/distray.simple
+=====
+Unsupported opcode 1732!	mulpd	2107353(%rip), %xmm1 # 400a8f400a8f 
+1732
+
+./Benchmarks/FreeBench/pcompress2/Output/pcompress2.simple.mcsema/pcompress2.simple
+=====
+Unsupported opcode 2124!	pslldq	$8, %xmm3 # 400b4c400b4c 
+2124
+
+./Benchmarks/FreeBench/analyzer/Output/analyzer.simple.mcsema/analyzer.simple
+=====
+Unsupported opcode 2706!	subpd	%xmm3, %xmm1 # 401553401553 
+2706
+
+./Benchmarks/FreeBench/fourinarow/Output/fourinarow.simple.mcsema/fourinarow.simple
+=====
+Basic Block in function 'sub_402940' does not have terminator!
+label %instr_0x402d5e
+
+./Benchmarks/FreeBench/pifft/Output/pifft.simple.mcsema/pifft.simple
+=====
+Unsupported opcode 1699!	movupd	(%rbx), %xmm0 # 40abb840abb8 
+1699
+
+./Benchmarks/Olden/health/Output/health.simple.mcsema/health.simple
+=====
+Unsupported opcode 114!	addps	64(%rsp), %xmm0 # 400957400957 
+114
+
+./Benchmarks/Prolangs-C/bison/Output/mybison.simple.mcsema/mybison.simple
+=====
+Unsupported opcode 658!	decw	(%rbx,%rdx,2) # 40808d40808d 
+658
+
+./Benchmarks/Prolangs-C/fixoutput/Output/fixoutput.simple.mcsema/fixoutput.simple
+=====
+Basic Block in function 'sub_400870' does not have terminator!
+label %instr_0x400f9c
+
+./Benchmarks/Prolangs-C/unix-tbl/Output/unix-tbl.simple.mcsema/unix-tbl.simple
+=====
+Basic Block in function 'sub_400be0' does not have terminator!
+label %instr_0x400c0a
+
+./Applications/lemon/Output/lemon.simple.mcsema/lemon.simple
+=====
+Unsupported opcode 2124!	pslldq	$8, %xmm14 # 40142b40142b 
+2124
+
+./Benchmarks/McCat/18-imp/Output/imp.simple.mcsema/imp.simple
+=====
+Unsupported opcode 1735!	mulps	%xmm4, %xmm7 # 401958401958 
+1735
+
+./Benchmarks/mediabench/adpcm/rawcaudio/Output/rawcaudio.simple.mcsema/rawcaudio.simple
+=====
+Basic Block in function 'sub_4009c0' does not have terminator!
+label %instr_0x400a5f
+
+./Benchmarks/mediabench/adpcm/rawdaudio/Output/rawdaudio.simple.mcsema/rawdaudio.simple
+=====
+Basic Block in function 'sub_4009c0' does not have terminator!
+label %instr_0x400a4f
+
+./Benchmarks/mediabench/g721/g721encode/Output/encode.simple.mcsema/encode.simple
+=====
+Basic Block in function 'sub_400830' does not have terminator!
+label %instr_0x400c21
+
+./Benchmarks/Olden/voronoi/Output/voronoi.simple.mcsema/voronoi.simple
+=====
+Unsupported opcode 1699!	movupd	32(%rsp), %xmm0 # 403340403340 
+1699
+
+./Benchmarks/MiBench/automotive-basicmath/Output/automotive-basicmath.simple.mcsema/automotive-basicmath.simple
+=====
+Both operands to ICmp instruction are not of the same type!
+  %43 = icmp eq i2 %42, i8 3, !mcsema_real_eip !8
+
+./Benchmarks/MiBench/automotive-bitcount/Output/automotive-bitcount.simple.mcsema/automotive-bitcount.simple
+=====
+Unsupported opcode 882!	imulq	$1103515245, 2101852(%rip), %rax # 400e41400e41 
+882
+
+./Benchmarks/sim/Output/sim.simple.mcsema/sim.simple
+=====
+Basic Block in function 'sub_403f90' does not have terminator!
+label %instr_0x403faf
+
+./Benchmarks/MiBench/telecomm-FFT/Output/telecomm-fft.simple.mcsema/telecomm-fft.simple
+=====
+Unsupported opcode 882!	imulq	$1103515245, 2101213(%rip), %rax # 4010b04010b0 
+882
+
+./Benchmarks/MiBench/telecomm-adpcm/Output/telecomm-adpcm.simple.mcsema/telecomm-adpcm.simple
+=====
+Basic Block in function 'sub_4009c0' does not have terminator!
+label %instr_0x400a4f
+
+./Benchmarks/ASCI_Purple/SMG2000/Output/smg2000.simple.mcsema/smg2000.simple
+=====
+Unsupported opcode 1698!	movupd	%xmm0, (%r14,%rdx,8) # 412bd0412bd0 
+1698
+
+./Benchmarks/Trimaran/netbench-crc/Output/netbench-crc.simple.mcsema/netbench-crc.simple
+=====
+Unsupported opcode 2124!	pslldq	$8, %xmm0 # 400a0f400a0f 
+2124
+
+./Benchmarks/ASC_Sequoia/IRSmk/Output/IRSmk.simple.mcsema/IRSmk.simple
+=====
+Basic Block in function 'sub_400fb0' does not have terminator!
+label %instr_0x401142
+
+./Benchmarks/TSVC/LinearDependence-flt/Output/LinearDependence-flt.simple.mcsema/LinearDependence-flt.simple
+=====
+Unsupported opcode 115!	addps	%xmm2, %xmm0 # 405cc8405cc8 
+115
+
+./Benchmarks/TSVC/InductionVariable-flt/Output/InductionVariable-flt.simple.mcsema/InductionVariable-flt.simple
+=====
+Unsupported opcode 114!	addps	7738528(,%rax,4), %xmm0 # 405cc0405cc0 
+114
+
+./Benchmarks/TSVC/GlobalDataFlow-flt/Output/GlobalDataFlow-flt.simple.mcsema/GlobalDataFlow-flt.simple
+=====
+Unsupported opcode 1735!	mulps	%xmm1, %xmm1 # 40680b40680b 
+1735
+
+./Benchmarks/ASC_Sequoia/CrystalMk/Output/CrystalMk.simple.mcsema/CrystalMk.simple
+=====
+Unsupported opcode 1699!	movupd	(%rsi,%rax,8), %xmm3 # 400b10400b10 
+1699
+
+./Benchmarks/TSVC/Symbolics-flt/Output/Symbolics-flt.simple.mcsema/Symbolics-flt.simple
+=====
+Unsupported opcode 1735!	mulps	%xmm0, %xmm1 # 40647c40647c 
+1735
+
+./Benchmarks/TSVC/LoopRestructuring-flt/Output/LoopRestructuring-flt.simple.mcsema/LoopRestructuring-flt.simple
+=====
+Unsupported opcode 115!	addps	%xmm0, %xmm1 # 40667a40667a 
+115
+
+./Benchmarks/Fhourstones-3.1/Output/fhourstones3.1.simple.mcsema/fhourstones3.1.simple
+=====
+Unsupported opcode 882!	imulq	$196, 48(%rsp), %rax # 4012c74012c7 
+882
+
+./Benchmarks/TSVC/Expansion-flt/Output/Expansion-flt.simple.mcsema/Expansion-flt.simple
+=====
+Unsupported opcode 1734!	mulps	7994624(,%rax,4), %xmm0 # 405cb8405cb8 
+1734
+
+./Benchmarks/TSVC/LoopRerolling-flt/Output/LoopRerolling-flt.simple.mcsema/LoopRerolling-flt.simple
+=====
+Unsupported opcode 1735!	mulps	%xmm3, %xmm0 # 406598406598 
+1735
+
+./Benchmarks/TSVC/Equivalencing-flt/Output/Equivalencing-flt.simple.mcsema/Equivalencing-flt.simple
+=====
+Unsupported opcode 114!	addps	7482524(,%rcx,4), %xmm0 # 4064e04064e0 
+114
+
+./Benchmarks/TSVC/ControlLoops-flt/Output/ControlLoops-flt.simple.mcsema/ControlLoops-flt.simple
+=====
+Unsupported opcode 1735!	mulps	%xmm2, %xmm0 # 406458406458 
+1735
+
+./Benchmarks/TSVC/LinearDependence-dbl/Output/LinearDependence-dbl.simple.mcsema/LinearDependence-dbl.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4072c94072c9 
+2602
+
+./Benchmarks/TSVC/GlobalDataFlow-dbl/Output/GlobalDataFlow-dbl.simple.mcsema/GlobalDataFlow-dbl.simple
+=====
+Unsupported opcode 1699!	movupd	8768744(,%rax,8), %xmm0 # 405d70405d70 
+1699
+
+./Benchmarks/TSVC/InductionVariable-dbl/Output/InductionVariable-dbl.simple.mcsema/InductionVariable-dbl.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4019f24019f2 
+2602
+
+./Benchmarks/TSVC/Symbolics-dbl/Output/Symbolics-dbl.simple.mcsema/Symbolics-dbl.simple
+=====
+Unsupported opcode 1699!	movupd	(%rcx), %xmm0 # 4064a04064a0 
+1699
+
+./Benchmarks/TSVC/LoopRestructuring-dbl/Output/LoopRestructuring-dbl.simple.mcsema/LoopRestructuring-dbl.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4019f24019f2 
+2602
+
+./Benchmarks/TSVC/StatementReordering-dbl/Output/StatementReordering-dbl.simple.mcsema/StatementReordering-dbl.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 406191406191 
+2602
+
+./Benchmarks/TSVC/ControlFlow-dbl/Output/ControlFlow-dbl.simple.mcsema/ControlFlow-dbl.simple
+=====
+Unsupported opcode 1699!	movupd	8520928(%rbp,%rcx,8), %xmm0 # 406030406030 
+1699
+
+./Benchmarks/TSVC/NodeSplitting-dbl/Output/NodeSplitting-dbl.simple.mcsema/NodeSplitting-dbl.simple
+=====
+Unsupported opcode 1641!	movhpd	8768736(%rax), %xmm1 # 406818406818 
+1641
+
+./Benchmarks/TSVC/Recurrences-dbl/Output/Recurrences-dbl.simple.mcsema/Recurrences-dbl.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 406161406161 
+2602
+
+./Benchmarks/TSVC/Expansion-dbl/Output/Expansion-dbl.simple.mcsema/Expansion-dbl.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4019f24019f2 
+2602
+
+./Benchmarks/TSVC/LoopRerolling-dbl/Output/LoopRerolling-dbl.simple.mcsema/LoopRerolling-dbl.simple
+=====
+Unsupported opcode 1699!	movupd	8768768(,%rax,8), %xmm0 # 4065d04065d0 
+1699
+
+./Benchmarks/TSVC/Equivalencing-dbl/Output/Equivalencing-dbl.simple.mcsema/Equivalencing-dbl.simple
+=====
+Unsupported opcode 112!	addpd	8512736(,%rsi,8), %xmm0 # 406112406112 
+112
+
+./Benchmarks/TSVC/ControlLoops-dbl/Output/ControlLoops-dbl.simple.mcsema/ControlLoops-dbl.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4019f24019f2 
+2602
+
+./Benchmarks/TSVC/Searching-dbl/Output/Searching-dbl.simple.mcsema/Searching-dbl.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4019f24019f2 
+2602
+
+./Benchmarks/TSVC/IndirectAddressing-dbl/Output/IndirectAddressing-dbl.simple.mcsema/IndirectAddressing-dbl.simple
+=====
+Unsupported opcode 2602!	shufpd	$0, %xmm1, %xmm1 # 4019f24019f2 
+2602
+
+./Benchmarks/SciMark2-C/Output/scimark2.simple.mcsema/scimark2.simple
+=====
+Unsupported opcode 1699!	movupd	(%r14,%rdx,8), %xmm2 # 400d40400d40 
+1699
+
+./Benchmarks/McCat/05-eks/Output/eks.simple.mcsema/eks.simple
+=====
+Unsupported opcode 1699!	movupd	(%rcx,%rbx,8), %xmm4 # 401800401800 
+1699
+
+./Benchmarks/Olden/power/Output/power.simple.mcsema/power.simple
+=====
+Unsupported opcode 1699!	movupd	16(%rbx), %xmm0 # 4018cd4018cd 
+1699
